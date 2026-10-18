@@ -1,0 +1,55 @@
+{
+  "version": "L2_R1_INDEPENDENT_REVIEW",
+  "baseline_commit": "f1b1090931d717117287ea2b79c2e14ddc234937",
+  "units": "mm",
+  "geometry_release": false,
+  "review_status": "REVIEW_COMPLETE_WITH_REQUIRED_CORRECTIONS",
+  "final_acceptance": false,
+  "foot_plane_z": 5.2,
+  "shell_nominal_thickness": 1.8,
+  "roof_windows": "R3.2 original six",
+  "document_budget_pa12_g": 17.359249861000002,
+  "side": {
+    "front": {
+      "y": [
+        44.2,
+        56.3
+      ],
+      "hinge_y": 45,
+      "plunger_y": 50.25,
+      "z": [
+        15.5,
+        19.5
+      ],
+      "plunger_z": 16.6,
+      "suggested_switch_shift_x": -0.2
+    },
+    "rear": {
+      "y": [
+        58.1,
+        70.8
+      ],
+      "hinge_y": 70,
+      "plunger_y": 64.45,
+      "z": [
+        15.5,
+        19.5
+      ],
+      "plunger_z": 16.6,
+      "suggested_switch_shift_x": -0.2
+    },
+    "minimum_electronic_clearance": 0.5,
+    "proposed_pcb_bounds": [
+      15.2,
+      16.2,
+      44,
+      70,
+      13.3,
+      18.8
+    ],
+    "requires_connected_carrier_bridges": true
+  },
+  "donor": "ATK A1 Plus as user named; unconfirmed; no substitution",
+  "hardware_fit_certified": false,
+  "author_fem_reproduction_passed": false
+}

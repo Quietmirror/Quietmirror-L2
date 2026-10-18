@@ -1,0 +1,262 @@
+{
+  "method": "Independent GeomAPI line/surface intersection of untrimmed BSpline supports read directly from R3.2 BODY STEP.",
+  "rows": [
+    {
+      "y": 41.8,
+      "z": 15.5,
+      "document_x": 30.53,
+      "brep_x": 30.52650388944981,
+      "difference_mm": -0.003496110550191389,
+      "passed": true
+    },
+    {
+      "y": 41.8,
+      "z": 16.6,
+      "document_x": 30.23,
+      "brep_x": 30.230062248378285,
+      "difference_mm": 6.224837828483487e-05,
+      "passed": true
+    },
+    {
+      "y": 41.8,
+      "z": 17.5,
+      "document_x": 29.92,
+      "brep_x": 29.924165289062906,
+      "difference_mm": 0.00416528906290381,
+      "passed": true
+    },
+    {
+      "y": 41.8,
+      "z": 19.5,
+      "document_x": 28.98,
+      "brep_x": 28.983040573929266,
+      "difference_mm": 0.0030405739292653777,
+      "passed": true
+    },
+    {
+      "y": 46.0,
+      "z": 15.5,
+      "document_x": 30.98,
+      "brep_x": 30.98727820201993,
+      "difference_mm": 0.007278202019929125,
+      "passed": true
+    },
+    {
+      "y": 46.0,
+      "z": 16.6,
+      "document_x": 30.73,
+      "brep_x": 30.73050929161008,
+      "difference_mm": 0.0005092916100792877,
+      "passed": true
+    },
+    {
+      "y": 46.0,
+      "z": 17.5,
+      "document_x": 30.46,
+      "brep_x": 30.467424987939765,
+      "difference_mm": 0.007424987939764094,
+      "passed": true
+    },
+    {
+      "y": 46.0,
+      "z": 19.5,
+      "document_x": 29.66,
+      "brep_x": 29.66347588614885,
+      "difference_mm": 0.003475886148848417,
+      "passed": true
+    },
+    {
+      "y": 50.8,
+      "z": 15.5,
+      "document_x": 31.67,
+      "brep_x": 31.665370203204766,
+      "difference_mm": -0.004629796795235563,
+      "passed": true
+    },
+    {
+      "y": 50.8,
+      "z": 16.6,
+      "document_x": 31.44,
+      "brep_x": 31.43811563522311,
+      "difference_mm": -0.0018843647768918004,
+      "passed": true
+    },
+    {
+      "y": 50.8,
+      "z": 17.5,
+      "document_x": 31.21,
+      "brep_x": 31.206587626593382,
+      "difference_mm": -0.003412373406618485,
+      "passed": true
+    },
+    {
+      "y": 50.8,
+      "z": 19.5,
+      "document_x": 30.51,
+      "brep_x": 30.503492975411806,
+      "difference_mm": -0.00650702458819552,
+      "passed": true
+    },
+    {
+      "y": 56.3,
+      "z": 15.5,
+      "document_x": 32.34,
+      "brep_x": 32.335296055067424,
+      "difference_mm": -0.004703944932579418,
+      "passed": true
+    },
+    {
+      "y": 56.3,
+      "z": 16.6,
+      "document_x": 32.14,
+      "brep_x": 32.13113793880402,
+      "difference_mm": -0.008862061195983983,
+      "passed": true
+    },
+    {
+      "y": 56.3,
+      "z": 17.5,
+      "document_x": 31.93,
+      "brep_x": 31.923379326719154,
+      "difference_mm": -0.0066206732808460345,
+      "passed": true
+    },
+    {
+      "y": 56.3,
+      "z": 19.5,
+      "document_x": 31.3,
+      "brep_x": 31.29664865917122,
+      "difference_mm": -0.003351340828782412,
+      "passed": true
+    },
+    {
+      "y": 58.1,
+      "z": 15.5,
+      "document_x": 32.44,
+      "brep_x": 32.4477055152082,
+      "difference_mm": 0.007705515208201064,
+      "passed": true
+    },
+    {
+      "y": 58.1,
+      "z": 16.6,
+      "document_x": 32.24,
+      "brep_x": 32.247454475855854,
+      "difference_mm": 0.007454475855851683,
+      "passed": true
+    },
+    {
+      "y": 58.1,
+      "z": 17.5,
+      "document_x": 32.04,
+      "brep_x": 32.04360895367831,
+      "difference_mm": 0.00360895367830949,
+      "passed": true
+    },
+    {
+      "y": 58.1,
+      "z": 19.5,
+      "document_x": 31.43,
+      "brep_x": 31.429463288607298,
+      "difference_mm": -0.0005367113927015055,
+      "passed": true
+    },
+    {
+      "y": 62.0,
+      "z": 15.5,
+      "document_x": 32.55,
+      "brep_x": 32.547529095703226,
+      "difference_mm": -0.0024709042967714367,
+      "passed": true
+    },
+    {
+      "y": 62.0,
+      "z": 16.6,
+      "document_x": 32.34,
+      "brep_x": 32.34080573560361,
+      "difference_mm": 0.0008057356036061947,
+      "passed": true
+    },
+    {
+      "y": 62.0,
+      "z": 17.5,
+      "document_x": 32.13,
+      "brep_x": 32.130447866904404,
+      "difference_mm": 0.0004478669044019057,
+      "passed": true
+    },
+    {
+      "y": 62.0,
+      "z": 19.5,
+      "document_x": 31.5,
+      "brep_x": 31.495668201489273,
+      "difference_mm": -0.0043317985107265145,
+      "passed": true
+    },
+    {
+      "y": 66.0,
+      "z": 15.5,
+      "document_x": 32.05,
+      "brep_x": 32.069467999985726,
+      "difference_mm": 0.019467999985728568,
+      "passed": true
+    },
+    {
+      "y": 66.0,
+      "z": 16.6,
+      "document_x": 31.82,
+      "brep_x": 31.83691482450447,
+      "difference_mm": 0.01691482450446813,
+      "passed": true
+    },
+    {
+      "y": 66.0,
+      "z": 17.5,
+      "document_x": 31.58,
+      "brep_x": 31.599920937922228,
+      "difference_mm": 0.019920937922229598,
+      "passed": true
+    },
+    {
+      "y": 66.0,
+      "z": 19.5,
+      "document_x": 30.87,
+      "brep_x": 30.87987288423572,
+      "difference_mm": 0.00987288423571897,
+      "passed": true
+    },
+    {
+      "y": 70.8,
+      "z": 15.5,
+      "document_x": 30.94,
+      "brep_x": 30.935895064711165,
+      "difference_mm": -0.0041049352888364865,
+      "passed": true
+    },
+    {
+      "y": 70.8,
+      "z": 16.6,
+      "document_x": 30.62,
+      "brep_x": 30.617016878471954,
+      "difference_mm": -0.002983121528046695,
+      "passed": true
+    },
+    {
+      "y": 70.8,
+      "z": 17.5,
+      "document_x": 30.3,
+      "brep_x": 30.287263720056536,
+      "difference_mm": -0.012736279943464268,
+      "passed": true
+    },
+    {
+      "y": 70.8,
+      "z": 19.5,
+      "document_x": 29.28,
+      "brep_x": 29.269694498090516,
+      "difference_mm": -0.010305501909485315,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

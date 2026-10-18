@@ -1,0 +1,520 @@
+{
+  "version": "0.7",
+  "units": "mm",
+  "status": "Space-study models only. Prototype click cartridges consume space; all geometric conflicts are listed, never hidden. Real encoder axle interface and PCB mounting remain unverified.",
+  "options": {
+    "ATK_A1_PLUS": [
+      {
+        "name": "donor_mainboard_EST",
+        "kind": "pcb",
+        "size": [
+          36,
+          50,
+          1.2
+        ],
+        "center": [
+          0,
+          -40,
+          8.8
+        ],
+        "basis": "Generic estimated replacement outline, NOT measured ATK A1 Plus geometry.",
+        "cutouts": [
+          {
+            "size": [
+              8.4,
+              18,
+              4
+            ],
+            "center": [
+              0,
+              -17,
+              8.8
+            ],
+            "basis": "Estimated wheel relief, not a measured donor cutout. Actual donor must already permit it; never a request to cut populated PCB."
+          }
+        ]
+      },
+      {
+        "name": "donor_MCU_RF_EST",
+        "kind": "chip",
+        "size": [
+          8,
+          8,
+          2.6
+        ],
+        "center": [
+          12,
+          -57,
+          11
+        ],
+        "basis": "Unknown donor chipset/firmware. Preserve matched receiver."
+      },
+      {
+        "name": "donor_antenna_region_EST",
+        "kind": "pcb",
+        "size": [
+          14,
+          6,
+          1.0
+        ],
+        "center": [
+          0,
+          -62,
+          9.9
+        ],
+        "basis": "Assumed end region of donor board; actual antenna cannot be arbitrarily relocated."
+      },
+      {
+        "name": "battery_500mAh_TARGET",
+        "kind": "battery",
+        "size": [
+          20,
+          24,
+          6
+        ],
+        "center": [
+          5,
+          -55,
+          15.5
+        ],
+        "basis": "Smaller package target only; 500 mAh capacity in this envelope is NOT verified. Measure an actual cell before acceptance."
+      },
+      {
+        "name": "battery_plug_EST",
+        "kind": "connector",
+        "size": [
+          5,
+          6,
+          3
+        ],
+        "center": [
+          15.8,
+          -48,
+          10.8
+        ],
+        "basis": "Polarity, mating direction and retention unconfirmed."
+      },
+      {
+        "name": "sensor_package_EST",
+        "kind": "chip",
+        "size": [
+          8,
+          8,
+          2.4
+        ],
+        "center": [
+          0,
+          -48,
+          10.7
+        ],
+        "basis": "Sensor identity unknown on ATK; PAW3950 target for custom."
+      },
+      {
+        "name": "lens_EST",
+        "kind": "lens",
+        "size": [
+          12,
+          14,
+          2.8
+        ],
+        "center": [
+          0,
+          -48,
+          6.7
+        ],
+        "basis": "Z is a layout placeholder, NOT the lens-to-pad specification."
+      },
+      {
+        "name": "encoder_EST",
+        "kind": "switch",
+        "size": [
+          4,
+          6,
+          7
+        ],
+        "center": [
+          -9.7,
+          -17,
+          12.4
+        ],
+        "basis": "Available compact encoder target envelope; 16.3 mm axis, actual part/shaft fit unconfirmed."
+      },
+      {
+        "name": "side_board_EST",
+        "kind": "pcb",
+        "size": [
+          1.2,
+          10,
+          4.6
+        ],
+        "center": [
+          -16,
+          -63,
+          6.9
+        ],
+        "basis": "Separate side board is a transplant assumption; donor may integrate switches."
+      },
+      {
+        "name": "USB_C_EST",
+        "kind": "connector",
+        "size": [
+          9,
+          9,
+          3.2
+        ],
+        "center": [
+          0,
+          -4.5,
+          7.1
+        ],
+        "basis": "Port shell envelope; board relocation may be needed for donor."
+      },
+      {
+        "name": "charge_powerpath_EST",
+        "kind": "pcb",
+        "size": [
+          14,
+          8,
+          1.2
+        ],
+        "center": [
+          0,
+          -7.5,
+          4.3
+        ],
+        "basis": "Existing donor circuit OR new custom power path; no duplicate charger wired."
+      },
+      {
+        "name": "power_switch_body_EST",
+        "kind": "switch",
+        "size": [
+          8,
+          4,
+          3
+        ],
+        "center": [
+          0,
+          -72,
+          5.4
+        ],
+        "basis": "Bottom actuator aperture; neutral centred visualization."
+      },
+      {
+        "name": "power_switch_tab_EST",
+        "kind": "switch",
+        "size": [
+          3,
+          2,
+          1.8
+        ],
+        "center": [
+          0,
+          -72,
+          3.1
+        ],
+        "basis": "Slider travel not represented by an off-centre outside protrusion."
+      }
+    ],
+    "PAW3950_CUSTOM": [
+      {
+        "name": "custom_mainboard_EST",
+        "kind": "pcb",
+        "size": [
+          20,
+          14,
+          1.2
+        ],
+        "center": [
+          0,
+          -10,
+          4.2
+        ],
+        "basis": "Estimated controller/charging board area, no routed PCB design.",
+        "cutouts": []
+      },
+      {
+        "name": "sensor_board_EST",
+        "kind": "pcb",
+        "size": [
+          18,
+          16,
+          1.2
+        ],
+        "center": [
+          0,
+          -50,
+          8.8
+        ],
+        "basis": "Separate optical daughterboard; PAW3950 package is not a board standard."
+      },
+      {
+        "name": "RF_board_EST",
+        "kind": "pcb",
+        "size": [
+          22,
+          16,
+          1.2
+        ],
+        "center": [
+          0,
+          -63,
+          7.5
+        ],
+        "basis": "Proprietary 2.4 GHz target and matched USB receiver."
+      },
+      {
+        "name": "MCU_RF_EST",
+        "kind": "chip",
+        "size": [
+          7,
+          7,
+          2.6
+        ],
+        "center": [
+          0,
+          -62,
+          9.4
+        ],
+        "basis": "Example architecture class; no component or firmware selection asserted."
+      },
+      {
+        "name": "battery_500mAh_TARGET",
+        "kind": "battery",
+        "size": [
+          20,
+          24,
+          6
+        ],
+        "center": [
+          5,
+          -55,
+          15.5
+        ],
+        "basis": "Smaller package target only; 500 mAh capacity in this envelope is NOT verified. Measure an actual cell before acceptance."
+      },
+      {
+        "name": "battery_plug_EST",
+        "kind": "connector",
+        "size": [
+          5,
+          6,
+          3
+        ],
+        "center": [
+          15.8,
+          -48,
+          10.8
+        ],
+        "basis": "Polarity, mating direction and retention unconfirmed."
+      },
+      {
+        "name": "sensor_package_EST",
+        "kind": "chip",
+        "size": [
+          8,
+          8,
+          2.4
+        ],
+        "center": [
+          0,
+          -48,
+          10.7
+        ],
+        "basis": "Sensor identity unknown on ATK; PAW3950 target for custom."
+      },
+      {
+        "name": "lens_EST",
+        "kind": "lens",
+        "size": [
+          12,
+          14,
+          2.8
+        ],
+        "center": [
+          0,
+          -48,
+          6.7
+        ],
+        "basis": "Z is a layout placeholder, NOT the lens-to-pad specification."
+      },
+      {
+        "name": "encoder_EST",
+        "kind": "switch",
+        "size": [
+          4,
+          6,
+          7
+        ],
+        "center": [
+          -9.7,
+          -17,
+          12.4
+        ],
+        "basis": "Available compact encoder target envelope; 16.3 mm axis, actual part/shaft fit unconfirmed."
+      },
+      {
+        "name": "side_board_EST",
+        "kind": "pcb",
+        "size": [
+          1.2,
+          10,
+          4.6
+        ],
+        "center": [
+          -16,
+          -63,
+          6.9
+        ],
+        "basis": "Separate side board is a transplant assumption; donor may integrate switches."
+      },
+      {
+        "name": "USB_C_EST",
+        "kind": "connector",
+        "size": [
+          9,
+          9,
+          3.2
+        ],
+        "center": [
+          0,
+          -4.5,
+          7.1
+        ],
+        "basis": "Port shell envelope; board relocation may be needed for donor."
+      },
+      {
+        "name": "power_switch_body_EST",
+        "kind": "switch",
+        "size": [
+          8,
+          4,
+          3
+        ],
+        "center": [
+          0,
+          -72,
+          5.4
+        ],
+        "basis": "Bottom actuator aperture; neutral centred visualization."
+      },
+      {
+        "name": "power_switch_tab_EST",
+        "kind": "switch",
+        "size": [
+          3,
+          2,
+          1.8
+        ],
+        "center": [
+          0,
+          -72,
+          3.1
+        ],
+        "basis": "Slider travel not represented by an off-centre outside protrusion."
+      }
+    ]
+  },
+  "reserves": [
+    {
+      "name": "antenna_keepout_EST",
+      "kind": "reserve",
+      "size": [
+        18,
+        10,
+        4.5
+      ],
+      "center": [
+        0,
+        -67,
+        13.25
+      ],
+      "basis": "Reserve D62..72; no battery, metal or wiring; RF tuning still required."
+    },
+    {
+      "name": "USB_plug_insertion_EST",
+      "kind": "reserve",
+      "size": [
+        12,
+        20,
+        5.6
+      ],
+      "center": [
+        0,
+        8,
+        7.1
+      ],
+      "basis": "External cable insertion; allowed to extend outside front aperture."
+    },
+    {
+      "name": "battery_swell_service_EST",
+      "kind": "reserve",
+      "size": [
+        27,
+        31,
+        7
+      ],
+      "center": [
+        0,
+        -46,
+        17.5
+      ],
+      "basis": "Includes battery by intent; includes swelling/service margin, not cells to print."
+    },
+    {
+      "name": "optical_axis_EST",
+      "kind": "reserve",
+      "size": [
+        7,
+        10,
+        7
+      ],
+      "center": [
+        0,
+        -48,
+        2.8
+      ],
+      "basis": "Optical keepout and height-chain placeholder; overlaps lens by intent."
+    },
+    {
+      "name": "left_key_travel_EST",
+      "kind": "reserve",
+      "size": [
+        3,
+        4,
+        2.6
+      ],
+      "center": [
+        -14.2,
+        -24,
+        18
+      ],
+      "basis": "Local lever/travel reservation only, not a complete clickable mechanism."
+    },
+    {
+      "name": "right_key_travel_EST",
+      "kind": "reserve",
+      "size": [
+        3,
+        4,
+        2.6
+      ],
+      "center": [
+        14.2,
+        -24,
+        18
+      ],
+      "basis": "Local lever/travel reservation only, not a complete clickable mechanism."
+    }
+  ],
+  "power": {
+    "capacity_target_mAh": 500,
+    "usable_fraction": 0.75,
+    "continuous_average_current_budget_mA": 30,
+    "calculated_hours": 12.5,
+    "required_hours": 12,
+    "maximum_average_current_for_12h_mA": 31.25,
+    "actual_current_measured": false,
+    "actual_capacity_measured": false
+  },
+  "prototype_switches": "Five 6x6x5 mm tactile examples are supplied by the mechanical assembly. No ATK switch identity or placement is inferred."
+}

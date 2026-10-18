@@ -1,0 +1,8 @@
+# Generated/runtime content; tracked review inputs remain included.
+__pycache__/
+*.pyc
+_support/*
+!_support/enter-env.ps1
+!_support/run_guarded.ps1
+!_support/guard.py
+exports/

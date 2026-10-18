@@ -1,0 +1,24 @@
+# Run in FreeCAD GUI after downloading the WHOLE repository.
+# Imports named STEP parts with stored assembly placement; not a feature-tree
+# reconstruction or a solved Assembly-workbench model. No FreeCAD run is claimed.
+from pathlib import Path
+import json,sys
+import FreeCAD as App
+import FreeCADGui as Gui
+import Part
+from PySide import QtWidgets
+path=QtWidgets.QFileDialog.getExistingDirectory(None,'选择 Quietmirror/github 仓库目录')
+if path:
+    root=Path(path);report=json.loads((root/'reports/v09/cad_metrics.json').read_text(encoding='utf8'))
+    sys.path.insert(0,str(root/'cad'))
+    from package_steps_v09 import ensure_body_step
+    ensure_body_step()
+    doc=App.newDocument('Quietmirror_V09')
+    for row in report['parts']:
+        obj=doc.addObject('Part::Feature',row['name'])
+        obj.Label=row['name'];obj.Shape=Part.read(str(root/'exports/v09/placed'/(row['name']+'.step')))
+        obj.ViewObject.ShapeColor=tuple(row['color'])
+        obj.addProperty('App::PropertyString','SourceParameters','Provenance');obj.SourceParameters='cad/parameters_v09.json'
+        obj.addProperty('App::PropertyString','MechanismNote','Provenance');obj.MechanismNote='CAD nominal travel 0.4 mm; physical switch travel/preload require calibration.'
+    doc.recompute();Gui.activeDocument().activeView().viewAxonometric();Gui.activeDocument().activeView().fitAll()
+    doc.saveAs(str(root/'Quietmirror_V09_local.FCStd'))

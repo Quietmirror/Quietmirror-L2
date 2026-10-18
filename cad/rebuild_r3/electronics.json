@@ -1,0 +1,618 @@
+{
+  "units": "mm",
+  "coordinates": "Same as R2/R3: X positive user left, Y front to rear, Z up",
+  "status": "User confirmed no selected PCB. ALL electronic sizes/holes/locations below are provisional layout envelopes, not supplier dimensions.",
+  "custom": [
+    {
+      "name": "SENSOR_PCB_EST",
+      "kind": "pcb",
+      "size": [
+        18,
+        18,
+        1.2
+      ],
+      "center": [
+        4,
+        66,
+        14.8
+      ]
+    },
+    {
+      "name": "PAW3950_PACKAGE_EST",
+      "kind": "sensor",
+      "size": [
+        8,
+        8,
+        2.4
+      ],
+      "center": [
+        0,
+        66,
+        13
+      ]
+    },
+    {
+      "name": "MATCHED_LENS_EST",
+      "kind": "lens",
+      "size": [
+        12,
+        14,
+        4
+      ],
+      "center": [
+        0,
+        66,
+        9.8
+      ]
+    },
+    {
+      "name": "CONTROLLER_RF_PCB_EST",
+      "kind": "pcb",
+      "size": [
+        18,
+        18,
+        1.2
+      ],
+      "center": [
+        4,
+        64,
+        18.5
+      ]
+    },
+    {
+      "name": "MCU_RADIO_EST",
+      "kind": "chip",
+      "size": [
+        8,
+        8,
+        2
+      ],
+      "center": [
+        3,
+        60.5,
+        20.1
+      ]
+    },
+    {
+      "name": "CHARGE_POWERPATH_EST",
+      "kind": "chip",
+      "size": [
+        5,
+        5,
+        1.5
+      ],
+      "center": [
+        3,
+        69,
+        19.85
+      ]
+    },
+    {
+      "name": "REGULATOR_EST",
+      "kind": "chip",
+      "size": [
+        4,
+        5,
+        1.5
+      ],
+      "center": [
+        -2.5,
+        69,
+        19.85
+      ]
+    },
+    {
+      "name": "BATTERY_CELL_EST",
+      "kind": "battery",
+      "size": [
+        18,
+        22,
+        6
+      ],
+      "center": [
+        -17,
+        57,
+        16.4
+      ],
+      "basis": "R3 smaller candidate package; actual cell capacity unknown. Historical20x24x6 failed tested placements."
+    },
+    {
+      "name": "BATTERY_PLUG_EST",
+      "kind": "connector",
+      "size": [
+        5,
+        6,
+        3
+      ],
+      "center": [
+        -18,
+        60.5,
+        22.3
+      ]
+    },
+    {
+      "name": "RF_BAT_HEADER_EST",
+      "kind": "connector",
+      "size": [
+        3,
+        4,
+        2.4
+      ],
+      "center": [
+        -3.2,
+        61.5,
+        20.3
+      ]
+    },
+    {
+      "name": "RF_IO_HEADER_EST",
+      "kind": "connector",
+      "size": [
+        3,
+        4,
+        2.4
+      ],
+      "center": [
+        11,
+        57,
+        20.3
+      ]
+    },
+    {
+      "name": "RF_SENSOR_HEADER_EST",
+      "kind": "connector",
+      "size": [
+        3,
+        4,
+        2.4
+      ],
+      "center": [
+        8,
+        71,
+        20.3
+      ]
+    },
+    {
+      "name": "SENSOR_HEADER_EST",
+      "kind": "connector",
+      "size": [
+        3,
+        4,
+        1.5
+      ],
+      "center": [
+        6.5,
+        71,
+        16.15
+      ]
+    },
+    {
+      "name": "SIDE_IO_PCB_EST",
+      "kind": "pcb",
+      "size": [
+        1,
+        30,
+        4.0
+      ],
+      "center": [
+        14.8,
+        59.3,
+        15
+      ],
+      "holes_for_side_terminals": true
+    },
+    {
+      "name": "SIDE_HEADER_EST",
+      "kind": "connector",
+      "size": [
+        3,
+        4,
+        1.2
+      ],
+      "center": [
+        12.6,
+        59,
+        16.8
+      ]
+    },
+    {
+      "name": "REMOTE_ANTENNA_PCB_EST",
+      "kind": "antenna",
+      "size": [
+        8,
+        4,
+        0.8
+      ],
+      "center": [
+        0,
+        61.5,
+        25
+      ]
+    },
+    {
+      "name": "POWER_SWITCH_BODY_EST",
+      "kind": "switch",
+      "size": [
+        8,
+        4,
+        3
+      ],
+      "center": [
+        -20,
+        71.3,
+        8.8
+      ]
+    },
+    {
+      "name": "POWER_SWITCH_TAB_EST",
+      "kind": "switch",
+      "size": [
+        3,
+        2,
+        1.8
+      ],
+      "center": [
+        -20,
+        71.3,
+        6.4
+      ]
+    },
+    {
+      "name": "POWER_SWITCH_PCB_EST",
+      "kind": "pcb",
+      "size": [
+        8,
+        3.8,
+        1.2
+      ],
+      "center": [
+        -20,
+        71.3,
+        10.9
+      ]
+    },
+    {
+      "name": "RF_USB_HEADER_EST",
+      "kind": "connector",
+      "size": [
+        3,
+        3,
+        2.4
+      ],
+      "center": [
+        -3.2,
+        56.5,
+        20.3
+      ]
+    },
+    {
+      "name": "ANTENNA_FEED_HEADER_EST",
+      "kind": "connector",
+      "size": [
+        3,
+        2,
+        1.5
+      ],
+      "center": [
+        -3,
+        65,
+        19.85
+      ]
+    }
+  ],
+  "reserves": [
+    {
+      "name": "BATTERY_SERVICE_EST",
+      "kind": "reserve",
+      "size": [
+        19,
+        23,
+        7
+      ],
+      "center": [
+        -17,
+        57,
+        16.4
+      ],
+      "allowed": [
+        "BATTERY_CELL_EST"
+      ]
+    },
+    {
+      "name": "ANTENNA_KEEPOUT_EST",
+      "kind": "reserve",
+      "size": [
+        12,
+        8,
+        5
+      ],
+      "center": [
+        0,
+        61.5,
+        25
+      ],
+      "allowed": [
+        "REMOTE_ANTENNA_PCB_EST",
+        "ANTENNA_FEED_ROUTE_EST"
+      ]
+    },
+    {
+      "name": "OPTICAL_PATH_EST",
+      "kind": "reserve",
+      "size": [
+        7,
+        10,
+        12
+      ],
+      "center": [
+        0,
+        66,
+        1.8
+      ],
+      "allowed": [
+        "MATCHED_LENS_EST"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "name": "BATTERY_ROUTE_EST",
+      "radius": 0.6,
+      "points": [
+        [
+          -15.5,
+          60.5,
+          22.3
+        ],
+        [
+          -11.5,
+          60.5,
+          22.3
+        ],
+        [
+          -7.5,
+          61.5,
+          21.4
+        ],
+        [
+          -4.7,
+          61.5,
+          21.4
+        ]
+      ],
+      "end_contacts": [
+        "BATTERY_PLUG_EST",
+        "RF_BAT_HEADER_EST"
+      ]
+    },
+    {
+      "name": "SIDE_ROUTE_EST",
+      "radius": 0.6,
+      "points": [
+        [
+          11.1,
+          59,
+          16.8
+        ],
+        [
+          10.1,
+          59,
+          16.8
+        ],
+        [
+          10.1,
+          54,
+          17.5
+        ],
+        [
+          11,
+          54,
+          20.3
+        ],
+        [
+          11,
+          55,
+          20.3
+        ]
+      ],
+      "end_contacts": [
+        "SIDE_HEADER_EST",
+        "RF_IO_HEADER_EST"
+      ]
+    },
+    {
+      "name": "SENSOR_ROUTE_EST",
+      "radius": 0.6,
+      "points": [
+        [
+          9.5,
+          71,
+          20.3
+        ],
+        [
+          13.65,
+          71,
+          20.3
+        ],
+        [
+          13.65,
+          73,
+          17.2
+        ],
+        [
+          12.5,
+          74.5,
+          16.15
+        ],
+        [
+          8,
+          72,
+          16.15
+        ]
+      ],
+      "end_contacts": [
+        "RF_SENSOR_HEADER_EST",
+        "SENSOR_HEADER_EST"
+      ]
+    },
+    {
+      "name": "USB_ROUTE_EST",
+      "radius": 0.65,
+      "points": [
+        [
+          -2,
+          19,
+          8
+        ],
+        [
+          -2,
+          19,
+          6.8
+        ],
+        [
+          -2,
+          22,
+          6.8
+        ],
+        [
+          -5,
+          24,
+          9.8
+        ],
+        [
+          -7,
+          29,
+          11
+        ],
+        [
+          -7,
+          34,
+          12.7
+        ],
+        [
+          -6.2,
+          37,
+          14.2
+        ],
+        [
+          -6.2,
+          44,
+          14.8
+        ],
+        [
+          -6.2,
+          53.3,
+          14.8
+        ],
+        [
+          -6.2,
+          56.5,
+          20.7
+        ],
+        [
+          -6.2,
+          56.5,
+          22.3
+        ],
+        [
+          -3.2,
+          56.5,
+          22.3
+        ],
+        [
+          -3.2,
+          56.5,
+          21.5
+        ]
+      ],
+      "end_contacts": [
+        "USB_ADAPTER_PCB_REFERENCE",
+        "RF_USB_HEADER_EST"
+      ]
+    },
+    {
+      "name": "ANTENNA_FEED_ROUTE_EST",
+      "radius": 0.5,
+      "points": [
+        [
+          -3,
+          65,
+          20.6
+        ],
+        [
+          -3,
+          65,
+          21.6
+        ],
+        [
+          -5.5,
+          63,
+          24
+        ],
+        [
+          -5.5,
+          61.5,
+          25
+        ],
+        [
+          -4,
+          61.5,
+          25
+        ]
+      ],
+      "end_contacts": [
+        "ANTENNA_FEED_HEADER_EST",
+        "REMOTE_ANTENNA_PCB_EST"
+      ]
+    }
+  ],
+  "donor": {
+    "name": "ATK_A1_PLUS_UNMEASURED_DIAGNOSTIC",
+    "size": [
+      36,
+      50,
+      1.2
+    ],
+    "center": [
+      0,
+      40,
+      5.4
+    ],
+    "basis": "Historical generic slab only. Do not cut an existing populated PCB. Actual board, switch locations, encoder, sensor, USB, antenna and receiver remain unknown."
+  },
+  "battery_power": {
+    "capacity_target_mAh": null,
+    "capacity_verified": false,
+    "package_capacity_verified": false,
+    "usable_fraction": 0.75,
+    "minimum_runtime_h": 12,
+    "maximum_average_current_mA": null,
+    "measured_current_mA": null,
+    "sensitivity": [
+      {
+        "capacity_mAh": 300,
+        "max_average_mA_12h": 18.75
+      },
+      {
+        "capacity_mAh": 400,
+        "max_average_mA_12h": 25.0
+      },
+      {
+        "capacity_mAh": 500,
+        "max_average_mA_12h": 31.25
+      }
+    ]
+  },
+  "optics": {
+    "axis": [
+      0,
+      0,
+      -1
+    ],
+    "lens_lowest_z_mm": 7.8,
+    "skate_thickness_mm": null,
+    "required_lens_working_height_mm": null,
+    "equation": "lens_bottom_to_pad = lens_lowest_z + actual_skate_thickness; PCB Z must be solved from measured board/package/lens stack.",
+    "status": "UNRESOLVED OPTICAL STACK: layout clearance is not usable tracking proof. Low-band policy may require revision for actual optics."
+  }
+}

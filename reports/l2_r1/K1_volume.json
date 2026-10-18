@@ -1,0 +1,73 @@
+{
+  "parts": [
+    {
+      "part": "BODY",
+      "volume_mm3": 12801.730065878228,
+      "adaptive_error": 7.150195553031987e-07,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "part": "LEFT_KEY",
+      "volume_mm3": 1780.44791094537,
+      "adaptive_error": 4.980146213045498e-09,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "part": "RIGHT_KEY",
+      "volume_mm3": 1780.4480118708038,
+      "adaptive_error": 5.413511846395818e-09,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "part": "SIDE_FRONT_KEY",
+      "volume_mm3": 167.91622438332115,
+      "adaptive_error": 8.86064160407888e-09,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "part": "SIDE_FRONT_KEY_SWITCH_CLAMP",
+      "volume_mm3": 192.8835410522591,
+      "adaptive_error": 4.4174370575884946e-16,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "volume_mm3": 176.7121856033234,
+      "adaptive_error": 8.165753810058847e-09,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "part": "SIDE_REAR_KEY_SWITCH_CLAMP",
+      "volume_mm3": 192.88354105225906,
+      "adaptive_error": 1.9892473728823453e-16,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "part": "WHEEL",
+      "volume_mm3": 823.7618265070902,
+      "adaptive_error": 2.09419548553279e-16,
+      "valid": true,
+      "solid_count": 1
+    },
+    {
+      "part": "WHEEL_CARRIER",
+      "volume_mm3": 589.8949111552353,
+      "adaptive_error": 3.54479121320092e-11,
+      "valid": true,
+      "solid_count": 1
+    }
+  ],
+  "total_volume_mm3": 18506.67821844789,
+  "document_mm3": 18506.6761,
+  "difference_mm3": 0.002118447890097741,
+  "pass_tolerance_mm3": 0.5,
+  "passed": true,
+  "mass_pa12_g": 18.69174500063237
+}

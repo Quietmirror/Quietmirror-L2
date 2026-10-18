@@ -1,0 +1,168 @@
+{
+  "version": "0.3",
+  "units": "mm",
+  "length": 90.0,
+  "max_width": 62.0,
+  "height": 31.0,
+  "grip_width": 54.0,
+  "wall": 1.8,
+  "shell_floor_z": 1.0,
+  "key_outline_width": 0.65,
+  "rib_diameter": 2.8,
+  "base_rib_width": 2.6,
+  "base_rib_height": 2.6,
+  "foot_diameter": 8.8,
+  "foot_thickness": 2.4,
+  "skate_diameter_reference": 7.5,
+  "skate_thickness_estimate": 0.7,
+  "left_key": {
+    "x": -14.2,
+    "y": 24.0,
+    "width": 23.0,
+    "length": 41.0
+  },
+  "right_key": {
+    "x": 14.2,
+    "y": 24.0,
+    "width": 23.0,
+    "length": 41.0
+  },
+  "wheel": {
+    "x": 0.0,
+    "y": 17.0,
+    "height_offset": 0.0,
+    "diameter": 15.0,
+    "width": 5.2,
+    "opening_width": 8.4,
+    "opening_length": 18.2
+  },
+  "side_buttons": [
+    {
+      "y": 33,
+      "z": 19.2,
+      "length": 10.8
+    },
+    {
+      "y": 47,
+      "z": 19.2,
+      "length": 10.8
+    }
+  ],
+  "sensor": {
+    "x": 0.0,
+    "y": 48.0,
+    "frame_z": 2.6,
+    "opening_width": 14.0,
+    "opening_length": 18.0
+  },
+  "shell_stations": [
+    [
+      0,
+      23,
+      22
+    ],
+    [
+      2,
+      27.5,
+      23.5
+    ],
+    [
+      8,
+      31,
+      26
+    ],
+    [
+      18,
+      29,
+      29
+    ],
+    [
+      30,
+      27.25,
+      30
+    ],
+    [
+      44,
+      27.15,
+      28.5
+    ],
+    [
+      60,
+      27.05,
+      24.5
+    ],
+    [
+      72,
+      24,
+      17
+    ],
+    [
+      83,
+      17,
+      8
+    ],
+    [
+      88,
+      8,
+      3.5
+    ]
+  ],
+  "human_data": {
+    "wrist_to_middle_tip_approx": 230,
+    "thumb_to_pinky_spread_approx": 190,
+    "palm_width": null,
+    "phalange_lengths": null,
+    "actual_grip": null
+  },
+  "notes": "V0.3 fit hypotheses, not measured anatomy. Flatter longitudinal grip sides. Rounded rear hexagons are original geometry informed visually by Finalmouse ULX and Razer Viper Mini Signature Edition. Side-cap guide/retaining flanges are a removable fit prototype, not an electronic switch mechanism. Commercial mesh is not reused. No donor mounting holes or verified sensor stack.",
+  "side_profile_power": 4.0,
+  "rear_cavity_end": 81.0,
+  "side_interface": {
+    "opening_length": 12.0,
+    "opening_height": 6.6,
+    "opening_corner_radius": 1.7,
+    "cap_height": 5.4,
+    "cap_depth": 2.8,
+    "stem_length": 8.6,
+    "stem_height": 3.8,
+    "flange_length": 13.2,
+    "flange_height": 6.2,
+    "flange_thickness": 1.6,
+    "axial_gap": 0.3,
+    "reinforcement_length": 16.0,
+    "reinforcement_height": 10.0
+  },
+  "ventilation": {
+    "corner_radius": 0.9,
+    "width": 9.0,
+    "length": 9.0,
+    "minimum_planar_web": 3.0,
+    "rows": [
+      {
+        "y": 54,
+        "x": [
+          -18,
+          -6,
+          6,
+          18
+        ]
+      },
+      {
+        "y": 66,
+        "x": [
+          -18,
+          -6,
+          6,
+          18
+        ]
+      },
+      {
+        "y": 78,
+        "x": [
+          -6,
+          6
+        ]
+      }
+    ]
+  }
+}

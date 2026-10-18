@@ -1,0 +1,24 @@
+{
+  "version": "R3.2",
+  "units": "mm",
+  "base": "R3.1",
+  "side_keys": {
+    "touch_centers_y": [49.3, 62.3],
+    "mechanism_centers_y": [50.0, 65.0],
+    "z": 15.0,
+    "touch_length_y_mm": 9.4,
+    "touch_height_z_mm": 4.6,
+    "outline_corner_radius_mm": 0.65,
+    "outer_edge_radius_mm": 0.25,
+    "outward_x_offset_mm": 0.45,
+    "back_plane_inset_mm": 1.45,
+    "edge_clearance_mm": 0.30,
+    "travel_mm": 0.60,
+    "note": "Outer touch surfaces inherit the mother shell curvature with rounded contact edges. Keep the original slider, forward stop, capture pin, switch position and electrical terminals for each key. Remove obsolete rear cap lands. Forward is decreasing Y."
+  },
+  "foot_contact_z_mm": 5.2,
+  "foot_diameter_mm": 8.0,
+  "foot_land_thickness_mm": 1.6,
+  "example_skate_thickness_mm": 0.5,
+  "desired_ground_clearance_mm": 0.25
+}

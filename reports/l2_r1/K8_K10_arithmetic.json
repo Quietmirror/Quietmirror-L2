@@ -1,0 +1,36 @@
+{
+  "side_keys": [
+    {
+      "part": "SF",
+      "arm_mm": 5.25,
+      "nominal_angle_deg": 6.562427868634154,
+      "document_angle_deg": 6.55,
+      "far_end_displacement_mm": 1.2914285714285711,
+      "quarter_force_ratio": 2.3595505617977515,
+      "center_force_ratio": 1.0,
+      "far_force_ratio": 0.46460176991150454,
+      "face_z_center_mm": 17.5,
+      "pushrod_z_mm": 16.6,
+      "pushrod_z_eccentricity_mm": -0.9,
+      "stop_plunger_compression_mm": 0.5499999999999999
+    },
+    {
+      "part": "SR",
+      "arm_mm": 5.549999999999997,
+      "nominal_angle_deg": 6.206267750989917,
+      "document_angle_deg": 6.19,
+      "far_end_displacement_mm": 1.286486486486487,
+      "quarter_force_ratio": 2.3368421052631567,
+      "center_force_ratio": 1.0,
+      "far_force_ratio": 0.4663865546218486,
+      "face_z_center_mm": 17.5,
+      "pushrod_z_mm": 16.6,
+      "pushrod_z_eccentricity_mm": -0.9,
+      "stop_plunger_compression_mm": 0.5499999999999999
+    }
+  ],
+  "budget_delta_mm3": -1319.3,
+  "budget_volume_mm3": 17187.3761,
+  "budget_pa12_g": 17.359249861000002,
+  "status": "BUDGET_ONLY_NOT_MEASURED_FINAL_GEOMETRY"
+}

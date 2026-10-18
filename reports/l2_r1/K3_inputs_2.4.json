@@ -1,0 +1,191 @@
+{
+  "mesh_mm": 2.4,
+  "foot_nodes": 598,
+  "inplane_pin_node": 37464,
+  "inplane_roller_node": 36740,
+  "loads": [
+    {
+      "name": "palm_down_20N",
+      "patches": [
+        {
+          "triangles": 503,
+          "area_mm2": 591.749194605103,
+          "center": [
+            -0.6146475160171052,
+            58.175250269985426,
+            29.08377866090507
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -20
+          ]
+        }
+      ],
+      "F_norm": 20.0,
+      "reference": 105.64
+    },
+    {
+      "name": "left_main_root_down_5N",
+      "patches": [
+        {
+          "triangles": 14,
+          "area_mm2": 24.28489803370332,
+          "center": [
+            -20.608146474053925,
+            39.972534874383754,
+            24.919986917528753
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -5
+          ]
+        }
+      ],
+      "F_norm": 5.0,
+      "reference": 24.95
+    },
+    {
+      "name": "right_main_root_down_5N",
+      "patches": [
+        {
+          "triangles": 15,
+          "area_mm2": 22.547491136105617,
+          "center": [
+            20.38531689018392,
+            39.91675766500254,
+            24.97765027085944
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -5
+          ]
+        }
+      ],
+      "F_norm": 5.0,
+      "reference": 24.28
+    },
+    {
+      "name": "side_50_fence_5N",
+      "patches": [
+        {
+          "triangles": 44,
+          "area_mm2": 28.475912938029975,
+          "center": [
+            17.011725911147995,
+            52.00987516550253,
+            12.57462406287874
+          ],
+          "resultant_N": [
+            -5,
+            0,
+            0
+          ]
+        }
+      ],
+      "F_norm": 5.0,
+      "reference": 34.47
+    },
+    {
+      "name": "side_65_fence_5N",
+      "patches": [
+        {
+          "triangles": 44,
+          "area_mm2": 28.475912938031925,
+          "center": [
+            17.729803532337,
+            67.00987516550252,
+            12.57462406287856
+          ],
+          "resultant_N": [
+            -5,
+            0,
+            0
+          ]
+        }
+      ],
+      "F_norm": 5.0,
+      "reference": 29.37
+    },
+    {
+      "name": "LC3_squeeze_2x2N",
+      "patches": [
+        {
+          "triangles": 116,
+          "area_mm2": 148.8884697554236,
+          "center": [
+            -32.098555829203946,
+            52.55761423921807,
+            9.390202030087162
+          ],
+          "resultant_N": [
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "triangles": 143,
+          "area_mm2": 177.4472133508584,
+          "center": [
+            32.02936395961212,
+            51.583486112182776,
+            9.568572319066961
+          ],
+          "resultant_N": [
+            -2,
+            0,
+            0
+          ]
+        }
+      ],
+      "F_norm": 4.0,
+      "reference": 496.43
+    },
+    {
+      "name": "press_A_d16",
+      "patches": [
+        {
+          "triangles": 57,
+          "area_mm2": 101.26489330131115,
+          "center": [
+            11.876320594565106,
+            60.397193654487715,
+            29.682047881938487
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -5
+          ]
+        }
+      ],
+      "F_norm": 5.0,
+      "reference": 62.21
+    },
+    {
+      "name": "press_B_d16",
+      "patches": [
+        {
+          "triangles": 11,
+          "area_mm2": 27.426449349379347,
+          "center": [
+            -16.317474786302302,
+            66.18741285602172,
+            28.46446091741379
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -5
+          ]
+        }
+      ],
+      "F_norm": 5.0,
+      "reference": 56.21
+    }
+  ],
+  "limitations": "Document does not define exact main-root, grip, fence patch boundaries, three in-plane constraint coordinates, nodal load integration or stiffness displacement metric. These independently stated choices cannot certify the author's +/-3% reproduction criterion."
+}

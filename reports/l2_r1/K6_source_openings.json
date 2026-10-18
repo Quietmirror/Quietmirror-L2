@@ -1,0 +1,109 @@
+{
+  "method": "Sources read from exact baseline; numerical cuts independently rebuilt without importing project functions. Full raw mother-skin tool intersection is not equal to additional material beyond original six windows.",
+  "openings": [
+    {
+      "opening": "O1",
+      "source": "cad/rebuild_r2/fasteners.py:m2_set driver access cylinder r=2.15,length=38; mechanics.py side switch M2 call",
+      "fastener": "SIDE_FRONT_KEY_M2_SWITCH_1",
+      "tool_center": [
+        18.91172591114816,
+        48.7,
+        15.0
+      ],
+      "raw_skin_intersection_mm3": 31.12010665073804,
+      "additional_cut_outside_six_windows_mm3": 25.960493868761585,
+      "body_material_in_tool_mm3": 0,
+      "bounds_mm": [
+        16.766841540596324,
+        21.061726011148178,
+        46.67608590182086,
+        50.85000009915702,
+        24.741000199836435,
+        28.41916889753103
+      ],
+      "action": "REMOVE_OBSOLETE_SIDE_SWITCH_DRIVER_CUT_IN_SOURCE; preserve original six window boundary"
+    },
+    {
+      "opening": "O2",
+      "source": "cad/rebuild_r2/fasteners.py:m2_set driver access cylinder r=2.15,length=38; mechanics.py side switch M2 call",
+      "fastener": "SIDE_REAR_KEY_M2_SWITCH_1",
+      "tool_center": [
+        19.62980353233747,
+        63.7,
+        15.0
+      ],
+      "raw_skin_intersection_mm3": 31.271074134776896,
+      "additional_cut_outside_six_windows_mm3": 16.695654121721095,
+      "body_material_in_tool_mm3": 0,
+      "bounds_mm": [
+        17.47980342374392,
+        21.746632935737562,
+        63.095187601373055,
+        65.85000009724185,
+        25.568231344381044,
+        29.234738619819915
+      ],
+      "action": "REMOVE_OBSOLETE_SIDE_SWITCH_DRIVER_CUT_IN_SOURCE; preserve original six window boundary"
+    },
+    {
+      "opening": "O4",
+      "source": "cad/rebuild_r2/fasteners.py:m2_set driver access cylinder r=2.15,length=38; mechanics.py side switch M2 call",
+      "fastener": "SIDE_REAR_KEY_M2_SWITCH_2",
+      "tool_center": [
+        19.62980353233747,
+        70.2,
+        15.0
+      ],
+      "raw_skin_intersection_mm3": 34.690419130510165,
+      "additional_cut_outside_six_windows_mm3": 2.1430179080853944,
+      "body_material_in_tool_mm3": 0,
+      "bounds_mm": [
+        18.76212993450962,
+        21.389996157018313,
+        68.04999990008315,
+        68.96540608049627,
+        23.79643933283301,
+        27.342611766308355
+      ],
+      "action": "REMOVE_OBSOLETE_SIDE_SWITCH_DRIVER_CUT_IN_SOURCE; preserve original six window boundary"
+    },
+    {
+      "opening": "PH1",
+      "center_xy": [
+        26.991725911148,
+        50.0
+      ],
+      "hole_diameter_mm": 1.72,
+      "source": "cad/rebuild_r2/mechanics.py: capture channel and cylinder(.86,30,...); final additions cut around pin paths",
+      "action": "REMOVE_OBSOLETE_CAPTURE_PIN_CUT_IN_SOURCE"
+    },
+    {
+      "opening": "PH2",
+      "center_xy": [
+        27.709803532337,
+        65.0
+      ],
+      "hole_diameter_mm": 1.72,
+      "source": "cad/rebuild_r2/mechanics.py: capture channel and cylinder(.86,30,...); final additions cut around pin paths",
+      "action": "REMOVE_OBSOLETE_CAPTURE_PIN_CUT_IN_SOURCE"
+    },
+    {
+      "opening": "O3",
+      "axis_yz": [
+        50.0,
+        19.0
+      ],
+      "diameter_mm": 2.35,
+      "source": "cad/rebuild_r2/mechanics.py: pin_paths.append(cylinder(1.175,82.,(-41.,50.,19.),(1,0,0)))",
+      "observed_outer_wire_bounds_mm": [
+        -31.02650002,
+        -29.99780635,
+        48.8249999,
+        51.1750001,
+        17.82499989,
+        20.1750001
+      ],
+      "action": "KEEP_FUNCTIONAL_WHEEL_CARRIER_PIN_ACCESS; do not fill as an unknown cosmetic hole"
+    }
+  ]
+}

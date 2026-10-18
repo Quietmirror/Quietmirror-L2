@@ -1,0 +1,14 @@
+{
+  "version": "R3.1",
+  "units": "mm",
+  "base": "R3",
+  "target": "Bottom face of SENSOR_RESERVED_VOLUME (generic lens/sensor reservation)",
+  "foot_contact_z_mm": 5.2,
+  "foot_diameter_mm": 8.0,
+  "foot_land_thickness_mm": 1.6,
+  "edit_radius_mm": 4.01,
+  "example_skate_thickness_mm": 0.5,
+  "desired_ground_clearance_mm": 0.25,
+  "coordinates": "Keep the R3 assembly origin. Printed parts are separately placed on the print bed; no assembly-wide scaling or translation.",
+  "optics": "Align to the reserved lower datum, not a measured optical surface. The existing estimated lens bottom remains Z7.8; real working distance is unverified."
+}

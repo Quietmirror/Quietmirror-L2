@@ -1,0 +1,9 @@
+{
+  "version": "R3",
+  "units": "mm",
+  "base": "../rebuild_r2/parameters.json and ../../exports/rebuild_r2/assembly",
+  "main_travel_deg": 2.8,
+  "middle_travel_deg": 4.1,
+  "main_target": "Approximately 0.59mm along the estimated free plunger axis. Actual OP/PT/OT requires switch measurement and adjustment.",
+  "hardware_status": "D2F and EC10E dimensional references; custom adapters, not a guaranteed donor replacement."
+}

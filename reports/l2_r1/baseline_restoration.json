@@ -1,0 +1,1010 @@
+[
+  {
+    "version": "3_1",
+    "part": "BODY",
+    "shape_file": "BODY.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "LEFT_KEY",
+    "shape_file": "LEFT_KEY.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "RIGHT_KEY",
+    "shape_file": "RIGHT_KEY.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_FRONT_KEY",
+    "shape_file": "SIDE_FRONT_KEY.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_FRONT_KEY_SWITCH_CLAMP",
+    "shape_file": "SIDE_FRONT_KEY_SWITCH_CLAMP.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_REAR_KEY",
+    "shape_file": "SIDE_REAR_KEY.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_REAR_KEY_SWITCH_CLAMP",
+    "shape_file": "SIDE_REAR_KEY_SWITCH_CLAMP.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "WHEEL",
+    "shape_file": "WHEEL.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "WHEEL_CARRIER",
+    "shape_file": "WHEEL_CARRIER.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "LEFT_KEY_STEEL_PIN",
+    "shape_file": "LEFT_KEY_STEEL_PIN.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "LEFT_KEY_M2_SWITCH_1_BOLT",
+    "shape_file": "LEFT_KEY_M2_SWITCH_1_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+    "shape_file": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+    "shape_file": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "LEFT_KEY_M2_SWITCH_1_NUT",
+    "shape_file": "LEFT_KEY_M2_SWITCH_1_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "LEFT_KEY_M2_SWITCH_2_BOLT",
+    "shape_file": "LEFT_KEY_M2_SWITCH_2_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+    "shape_file": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+    "shape_file": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "LEFT_KEY_M2_SWITCH_2_NUT",
+    "shape_file": "LEFT_KEY_M2_SWITCH_2_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SWITCH_LEFT",
+    "shape_file": "SWITCH_LEFT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "RIGHT_KEY_STEEL_PIN",
+    "shape_file": "RIGHT_KEY_STEEL_PIN.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "RIGHT_KEY_M2_SWITCH_1_BOLT",
+    "shape_file": "RIGHT_KEY_M2_SWITCH_1_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+    "shape_file": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+    "shape_file": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "RIGHT_KEY_M2_SWITCH_1_NUT",
+    "shape_file": "RIGHT_KEY_M2_SWITCH_1_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "RIGHT_KEY_M2_SWITCH_2_BOLT",
+    "shape_file": "RIGHT_KEY_M2_SWITCH_2_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+    "shape_file": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+    "shape_file": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "RIGHT_KEY_M2_SWITCH_2_NUT",
+    "shape_file": "RIGHT_KEY_M2_SWITCH_2_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SWITCH_RIGHT",
+    "shape_file": "SWITCH_RIGHT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_FRONT_KEY_CAPTURE_PIN",
+    "shape_file": "SIDE_FRONT_KEY_CAPTURE_PIN.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_FRONT_KEY_M2_SWITCH_1_BOLT",
+    "shape_file": "SIDE_FRONT_KEY_M2_SWITCH_1_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_NUT",
+    "shape_file": "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_HEAD",
+    "shape_file": "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_FRONT_KEY_M2_SWITCH_1_NUT",
+    "shape_file": "SIDE_FRONT_KEY_M2_SWITCH_1_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_FRONT_KEY_M2_SWITCH_2_BOLT",
+    "shape_file": "SIDE_FRONT_KEY_M2_SWITCH_2_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_NUT",
+    "shape_file": "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_HEAD",
+    "shape_file": "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_FRONT_KEY_M2_SWITCH_2_NUT",
+    "shape_file": "SIDE_FRONT_KEY_M2_SWITCH_2_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SWITCH_SIDE_FRONT",
+    "shape_file": "SWITCH_SIDE_FRONT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_REAR_KEY_CAPTURE_PIN",
+    "shape_file": "SIDE_REAR_KEY_CAPTURE_PIN.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_REAR_KEY_M2_SWITCH_1_BOLT",
+    "shape_file": "SIDE_REAR_KEY_M2_SWITCH_1_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_NUT",
+    "shape_file": "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_HEAD",
+    "shape_file": "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_REAR_KEY_M2_SWITCH_1_NUT",
+    "shape_file": "SIDE_REAR_KEY_M2_SWITCH_1_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_REAR_KEY_M2_SWITCH_2_BOLT",
+    "shape_file": "SIDE_REAR_KEY_M2_SWITCH_2_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_NUT",
+    "shape_file": "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_HEAD",
+    "shape_file": "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SIDE_REAR_KEY_M2_SWITCH_2_NUT",
+    "shape_file": "SIDE_REAR_KEY_M2_SWITCH_2_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SWITCH_SIDE_REAR",
+    "shape_file": "SWITCH_SIDE_REAR.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "ENCODER_EC10E_HOUSING",
+    "shape_file": "ENCODER_EC10E_HOUSING.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "ENCODER_EC10E_ROTOR",
+    "shape_file": "ENCODER_EC10E_ROTOR.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "WHEEL_CARRIER_STEEL_PIN",
+    "shape_file": "WHEEL_CARRIER_STEEL_PIN.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "SWITCH_MIDDLE",
+    "shape_file": "SWITCH_MIDDLE.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "WHEEL_M2_SWITCH_1_BOLT",
+    "shape_file": "WHEEL_M2_SWITCH_1_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "WHEEL_M2_SWITCH_1_WASHER_NUT",
+    "shape_file": "WHEEL_M2_SWITCH_1_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+    "shape_file": "WHEEL_M2_SWITCH_1_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "WHEEL_M2_SWITCH_1_NUT",
+    "shape_file": "WHEEL_M2_SWITCH_1_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "WHEEL_M2_SWITCH_2_BOLT",
+    "shape_file": "WHEEL_M2_SWITCH_2_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+    "shape_file": "WHEEL_M2_SWITCH_2_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+    "shape_file": "WHEEL_M2_SWITCH_2_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "WHEEL_M2_SWITCH_2_NUT",
+    "shape_file": "WHEEL_M2_SWITCH_2_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "USB_C_REFERENCE",
+    "shape_file": "USB_C_REFERENCE.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "USB_ADAPTER_PCB_REFERENCE",
+    "shape_file": "USB_ADAPTER_PCB_REFERENCE.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "USB_M2x3_L",
+    "shape_file": "USB_M2x3_L.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "USB_WASHER_L",
+    "shape_file": "USB_WASHER_L.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "USB_M2x3_R",
+    "shape_file": "USB_M2x3_R.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "USB_WASHER_R",
+    "shape_file": "USB_WASHER_R.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "ENCODER_M2x3_FRONT",
+    "shape_file": "ENCODER_M2x3_FRONT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "ENCODER_WASHER_FRONT",
+    "shape_file": "ENCODER_WASHER_FRONT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "ENCODER_M2x3_REAR",
+    "shape_file": "ENCODER_M2x3_REAR.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "ENCODER_WASHER_REAR",
+    "shape_file": "ENCODER_WASHER_REAR.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_1",
+    "part": "ENCODER_ADAPTER_PCB_EST",
+    "shape_file": "ENCODER_ADAPTER_PCB_EST.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "BODY",
+    "shape_file": "BODY.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "LEFT_KEY",
+    "shape_file": "LEFT_KEY.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "RIGHT_KEY",
+    "shape_file": "RIGHT_KEY.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_FRONT_KEY",
+    "shape_file": "SIDE_FRONT_KEY.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_FRONT_KEY_SWITCH_CLAMP",
+    "shape_file": "SIDE_FRONT_KEY_SWITCH_CLAMP.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_REAR_KEY",
+    "shape_file": "SIDE_REAR_KEY.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_REAR_KEY_SWITCH_CLAMP",
+    "shape_file": "SIDE_REAR_KEY_SWITCH_CLAMP.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "WHEEL",
+    "shape_file": "WHEEL.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "WHEEL_CARRIER",
+    "shape_file": "WHEEL_CARRIER.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "LEFT_KEY_STEEL_PIN",
+    "shape_file": "LEFT_KEY_STEEL_PIN.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "LEFT_KEY_M2_SWITCH_1_BOLT",
+    "shape_file": "LEFT_KEY_M2_SWITCH_1_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+    "shape_file": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+    "shape_file": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "LEFT_KEY_M2_SWITCH_1_NUT",
+    "shape_file": "LEFT_KEY_M2_SWITCH_1_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "LEFT_KEY_M2_SWITCH_2_BOLT",
+    "shape_file": "LEFT_KEY_M2_SWITCH_2_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+    "shape_file": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+    "shape_file": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "LEFT_KEY_M2_SWITCH_2_NUT",
+    "shape_file": "LEFT_KEY_M2_SWITCH_2_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SWITCH_LEFT",
+    "shape_file": "SWITCH_LEFT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "RIGHT_KEY_STEEL_PIN",
+    "shape_file": "RIGHT_KEY_STEEL_PIN.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "RIGHT_KEY_M2_SWITCH_1_BOLT",
+    "shape_file": "RIGHT_KEY_M2_SWITCH_1_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+    "shape_file": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+    "shape_file": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "RIGHT_KEY_M2_SWITCH_1_NUT",
+    "shape_file": "RIGHT_KEY_M2_SWITCH_1_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "RIGHT_KEY_M2_SWITCH_2_BOLT",
+    "shape_file": "RIGHT_KEY_M2_SWITCH_2_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+    "shape_file": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+    "shape_file": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "RIGHT_KEY_M2_SWITCH_2_NUT",
+    "shape_file": "RIGHT_KEY_M2_SWITCH_2_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SWITCH_RIGHT",
+    "shape_file": "SWITCH_RIGHT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_FRONT_KEY_CAPTURE_PIN",
+    "shape_file": "SIDE_FRONT_KEY_CAPTURE_PIN.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_FRONT_KEY_M2_SWITCH_1_BOLT",
+    "shape_file": "SIDE_FRONT_KEY_M2_SWITCH_1_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_NUT",
+    "shape_file": "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_HEAD",
+    "shape_file": "SIDE_FRONT_KEY_M2_SWITCH_1_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_FRONT_KEY_M2_SWITCH_1_NUT",
+    "shape_file": "SIDE_FRONT_KEY_M2_SWITCH_1_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_FRONT_KEY_M2_SWITCH_2_BOLT",
+    "shape_file": "SIDE_FRONT_KEY_M2_SWITCH_2_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_NUT",
+    "shape_file": "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_HEAD",
+    "shape_file": "SIDE_FRONT_KEY_M2_SWITCH_2_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_FRONT_KEY_M2_SWITCH_2_NUT",
+    "shape_file": "SIDE_FRONT_KEY_M2_SWITCH_2_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SWITCH_SIDE_FRONT",
+    "shape_file": "SWITCH_SIDE_FRONT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_REAR_KEY_CAPTURE_PIN",
+    "shape_file": "SIDE_REAR_KEY_CAPTURE_PIN.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_REAR_KEY_M2_SWITCH_1_BOLT",
+    "shape_file": "SIDE_REAR_KEY_M2_SWITCH_1_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_NUT",
+    "shape_file": "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_HEAD",
+    "shape_file": "SIDE_REAR_KEY_M2_SWITCH_1_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_REAR_KEY_M2_SWITCH_1_NUT",
+    "shape_file": "SIDE_REAR_KEY_M2_SWITCH_1_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_REAR_KEY_M2_SWITCH_2_BOLT",
+    "shape_file": "SIDE_REAR_KEY_M2_SWITCH_2_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_NUT",
+    "shape_file": "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_HEAD",
+    "shape_file": "SIDE_REAR_KEY_M2_SWITCH_2_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SIDE_REAR_KEY_M2_SWITCH_2_NUT",
+    "shape_file": "SIDE_REAR_KEY_M2_SWITCH_2_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SWITCH_SIDE_REAR",
+    "shape_file": "SWITCH_SIDE_REAR.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "ENCODER_EC10E_HOUSING",
+    "shape_file": "ENCODER_EC10E_HOUSING.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "ENCODER_EC10E_ROTOR",
+    "shape_file": "ENCODER_EC10E_ROTOR.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "WHEEL_CARRIER_STEEL_PIN",
+    "shape_file": "WHEEL_CARRIER_STEEL_PIN.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "SWITCH_MIDDLE",
+    "shape_file": "SWITCH_MIDDLE.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "WHEEL_M2_SWITCH_1_BOLT",
+    "shape_file": "WHEEL_M2_SWITCH_1_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "WHEEL_M2_SWITCH_1_WASHER_NUT",
+    "shape_file": "WHEEL_M2_SWITCH_1_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+    "shape_file": "WHEEL_M2_SWITCH_1_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "WHEEL_M2_SWITCH_1_NUT",
+    "shape_file": "WHEEL_M2_SWITCH_1_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "WHEEL_M2_SWITCH_2_BOLT",
+    "shape_file": "WHEEL_M2_SWITCH_2_BOLT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+    "shape_file": "WHEEL_M2_SWITCH_2_WASHER_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+    "shape_file": "WHEEL_M2_SWITCH_2_WASHER_HEAD.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "WHEEL_M2_SWITCH_2_NUT",
+    "shape_file": "WHEEL_M2_SWITCH_2_NUT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "USB_C_REFERENCE",
+    "shape_file": "USB_C_REFERENCE.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "USB_ADAPTER_PCB_REFERENCE",
+    "shape_file": "USB_ADAPTER_PCB_REFERENCE.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "USB_M2x3_L",
+    "shape_file": "USB_M2x3_L.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "USB_WASHER_L",
+    "shape_file": "USB_WASHER_L.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "USB_M2x3_R",
+    "shape_file": "USB_M2x3_R.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "USB_WASHER_R",
+    "shape_file": "USB_WASHER_R.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "ENCODER_M2x3_FRONT",
+    "shape_file": "ENCODER_M2x3_FRONT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "ENCODER_WASHER_FRONT",
+    "shape_file": "ENCODER_WASHER_FRONT.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "ENCODER_M2x3_REAR",
+    "shape_file": "ENCODER_M2x3_REAR.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "ENCODER_WASHER_REAR",
+    "shape_file": "ENCODER_WASHER_REAR.Shape.brp",
+    "valid": true,
+    "solids": 1
+  },
+  {
+    "version": "3_2",
+    "part": "ENCODER_ADAPTER_PCB_EST",
+    "shape_file": "ENCODER_ADAPTER_PCB_EST.Shape.brp",
+    "valid": true,
+    "solids": 1
+  }
+]

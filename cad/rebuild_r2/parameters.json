@@ -1,0 +1,105 @@
+{
+  "version": "R2",
+  "coordinates": "millimetres; X positive to user left, Y positive front-to-rear, Z up. Five feet plane Z=0; export mirrored in X from construction space for right-hand use.",
+  "host": {
+    "length": 81.7,
+    "width": 61.2,
+    "height": 28.3,
+    "scale": 1.08,
+    "skin": 1.8,
+    "base_open_band": 5.0
+  },
+  "feet": {
+    "diameter": 8.0,
+    "height": 1.8,
+    "stem_diameter": 5.2,
+    "centers": [
+      [
+        -23.22,
+        12.0
+      ],
+      [
+        23.22,
+        12.0
+      ],
+      [
+        -24.84,
+        62.64
+      ],
+      [
+        24.84,
+        62.64
+      ],
+      [
+        0.0,
+        83.484
+      ]
+    ]
+  },
+  "main": {
+    "root_y": 38.0,
+    "gutter_half": 4.2,
+    "cap_outer": 28.0,
+    "pin_diameter": 2.0,
+    "pin_hole": 2.35,
+    "travel_deg": 2.3,
+    "skin": 2.0,
+    "switch_x": 18.3
+  },
+  "side": {
+    "x": -28.0,
+    "centers_y": [
+      50.0,
+      65.0
+    ],
+    "z": 15.0,
+    "width_y": 10.0,
+    "height_z": 5.0,
+    "travel": 0.60
+  },
+  "hardware": {
+    "screw_nominal": 2.0,
+    "screw_clearance": 2.4,
+    "pilot": 1.7,
+    "wheel_diameter": 12.5,
+    "wheel_width": 6.5,
+    "wheel_axle": 2.0,
+    "switch_body": [
+      12.8,
+      5.8,
+      6.5
+    ]
+  },
+  "status": "independent reference reconstruction; commercial micro-switch envelope and generic component mounting; not verified original Fenrir PCB replacement",
+  "fixed_interfaces": {
+    "usb_port_opening_mm": [
+      10.2,
+      4.6
+    ],
+    "usb_plug_keepout_mm": [
+      14.0,
+      26.5,
+      8.0
+    ],
+    "sensor_optical_clearance_mm": [
+      18.0,
+      18.0
+    ],
+    "sensor_mount_slots_mm": [
+      2.4,
+      5.0
+    ],
+    "side_key_touch_mm": [
+      10.0,
+      5.0
+    ],
+    "foot_diameter_mm": 8.0,
+    "note": "Absolute dimensions locked during host scaling; generic reservation, donor hardware dimensions require measurement."
+  },
+  "provenance": {
+    "source_repository": "ht1580/Quietmirror-mouse",
+    "source_commit": "07fcd46dc8b719804473313ddc0c5f36acd422a9",
+    "source_branch": "rebuild/fenrir-minise-r1",
+    "revision": "R2 continues unaccepted R1; reference outer dimensions enlarged 8%, locked hardware dimensions unchanged."
+  }
+}

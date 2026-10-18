@@ -1,0 +1,18 @@
+{
+  "version": "0.2", "units": "mm",
+  "length": 90.0, "max_width": 62.0, "height": 31.0, "grip_width": 54.0,
+  "wall": 1.8, "shell_floor_z": 1.0,
+  "key_outline_width": 0.65,
+  "rib_diameter": 2.8, "base_rib_width": 2.6, "base_rib_height": 2.6,
+  "foot_diameter": 8.8, "foot_thickness": 2.4,
+  "skate_diameter_reference": 7.5, "skate_thickness_estimate": 0.7,
+  "left_key": {"x": -14.2, "y": 24.0, "width": 23.0, "length": 41.0},
+  "right_key": {"x": 14.2, "y": 24.0, "width": 23.0, "length": 41.0},
+  "wheel": {"x": 0.0, "y": 17.0, "height_offset": 0.0, "diameter": 15.0, "width": 5.2, "opening_width": 8.4, "opening_length": 18.2},
+  "side_buttons": [{"y": 33.0, "z": 20.6, "length": 10.5}, {"y": 47.0, "z": 20.6, "length": 10.5}],
+  "sensor": {"x": 0.0, "y": 48.0, "frame_z": 2.6, "opening_width": 14.0, "opening_length": 18.0},
+  "shell_stations": [[0,22,22],[2,26,23.5],[8,29.5,26],[20,30,29],[32,29,30],[46,26.65,28.5],[60,28,24.5],[72,26,17],[83,19,8],[88,8,3.5]],
+  "human_data": {"wrist_to_middle_tip_approx":230,"thumb_to_pinky_spread_approx":190,"palm_width":null,"phalange_lengths":null,"actual_grip":null},
+  "notes": "Fit hypotheses only. CAD Y points forward; positive JSON y distances run backwards from nose. Shell stations are independent designer curve controls at the 90 mm baseline, not measured human anatomy. G-Wolves product photos are visual references only. No mounting holes or verified donor electronics."
+}
+

@@ -1,0 +1,207 @@
+{
+  "version": "0.5",
+  "units": "mm",
+  "length": 90.0,
+  "max_width": 62.0,
+  "height": 28.0,
+  "grip_width": 54.0,
+  "wall": 1.8,
+  "shell_floor_z": 1.0,
+  "key_outline_width": 0.65,
+  "rib_diameter": 2.8,
+  "base_rib_width": 2.6,
+  "base_rib_height": 2.6,
+  "foot_diameter": 8.8,
+  "foot_thickness": 2.4,
+  "skate_diameter_reference": 7.5,
+  "skate_thickness_estimate": 0.7,
+  "left_key": {
+    "x": -14.2,
+    "y": 24.0,
+    "width": 23.0,
+    "length": 41.0
+  },
+  "right_key": {
+    "x": 14.2,
+    "y": 24.0,
+    "width": 23.0,
+    "length": 41.0
+  },
+  "wheel": {
+    "x": 0.0,
+    "y": 17.0,
+    "height_offset": -3,
+    "diameter": 15.0,
+    "width": 5.2,
+    "opening_width": 8.4,
+    "opening_length": 18.2
+  },
+  "side_buttons": [
+    {
+      "y": 33,
+      "z": 16.5,
+      "length": 10.8
+    },
+    {
+      "y": 47,
+      "z": 18.8,
+      "length": 10.8
+    }
+  ],
+  "sensor": {
+    "x": 0.0,
+    "y": 48.0,
+    "frame_z": 2.6,
+    "opening_width": 14.0,
+    "opening_length": 18.0
+  },
+  "shell_stations": [
+    [
+      0,
+      23,
+      12
+    ],
+    [
+      2,
+      27.5,
+      13
+    ],
+    [
+      8,
+      31,
+      16
+    ],
+    [
+      18,
+      29,
+      20.5
+    ],
+    [
+      30,
+      27.25,
+      25.5
+    ],
+    [
+      44,
+      27.15,
+      28
+    ],
+    [
+      60,
+      27.05,
+      26
+    ],
+    [
+      72,
+      24,
+      18
+    ],
+    [
+      83,
+      17,
+      8
+    ],
+    [
+      88,
+      8,
+      3.5
+    ]
+  ],
+  "human_data": {
+    "wrist_to_middle_tip_approx": 230,
+    "thumb_to_pinky_spread_approx": 190,
+    "palm_width": null,
+    "phalange_lengths": null,
+    "actual_grip": null
+  },
+  "notes": "V0.5 changes only rear perforation layout. Symmetric shell/crown and mirrored vent profiles; original right-hand side keys and locked right lip retained. Electronic sizes remain estimates.",
+  "side_profile_power": 4.0,
+  "rear_cavity_end": 81.0,
+  "side_interface": {
+    "opening_length": 12.0,
+    "opening_height": 6.6,
+    "opening_corner_radius": 1.7,
+    "cap_height": 5.4,
+    "cap_depth": 2.8,
+    "stem_length": 8.6,
+    "stem_height": 3.8,
+    "flange_length": 13.2,
+    "flange_height": 6.2,
+    "flange_thickness": 1.6,
+    "axial_gap": 0.3,
+    "reinforcement_length": 16.0,
+    "reinforcement_height": 10.0
+  },
+  "ventilation": {
+    "corner_radius": 1.0,
+    "minimum_planar_web": 2.2,
+    "domain_right_xd_mm": [
+      [
+        21.0,
+        48.0
+      ],
+      [
+        21.0,
+        54.5
+      ],
+      [
+        23.5,
+        58.0
+      ],
+      [
+        23.0,
+        66.0
+      ],
+      [
+        21.3,
+        72.0
+      ],
+      [
+        17.6,
+        79.5
+      ]
+    ],
+    "seed_rows": [
+      {
+        "d": 53.0,
+        "x": [
+          -13.3,
+          0,
+          13.3
+        ]
+      },
+      {
+        "d": 64.0,
+        "x": [
+          -19.2,
+          -6.4,
+          6.4,
+          19.2
+        ]
+      },
+      {
+        "d": 75.2,
+        "x": [
+          -12.5,
+          0,
+          12.5
+        ]
+      }
+    ]
+  },
+  "wheel_roof_tie_z": 17.7,
+  "frozen_bottom": {
+    "source_step": "exports/v03/quietmirror_fingertip_V0.3_SHELL.step",
+    "through_z_mm": 6.0,
+    "frozen_features": [
+      "five pads",
+      "perimeter and diagonal ribs",
+      "sensor reference frame",
+      "right antidrag lip",
+      "wheel leg roots",
+      "complete lower shell band"
+    ]
+  },
+  "upper_width_reduction": 0.6,
+  "transition_collar_height": 0.6
+}

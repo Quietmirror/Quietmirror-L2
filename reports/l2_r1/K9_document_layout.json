@@ -1,0 +1,75 @@
+{
+  "status": "DIAGNOSTIC_NOT_PRINTABLE",
+  "carrier_solid_count": 3,
+  "carrier_uncut_volume_mm3": 702.7490678961433,
+  "checks": [
+    {
+      "pair": [
+        "SF_stop",
+        "SF_switch"
+      ],
+      "distance_mm": 0.3000000000000007,
+      "criterion_mm": 0.5
+    },
+    {
+      "pair": [
+        "SR_stop",
+        "SR_switch"
+      ],
+      "distance_mm": 0.3000000000000007,
+      "criterion_mm": 0.5
+    },
+    {
+      "pair": [
+        "SF_switch",
+        "main_outer_hinge_ear"
+      ],
+      "distance_mm": 0.3000000000000007,
+      "criterion_mm": 0.5
+    },
+    {
+      "pair": [
+        "rear_leg",
+        "rear_foot_strut"
+      ],
+      "distance_mm": 0.5912018286072673,
+      "criterion_mm": 0.5
+    },
+    {
+      "pair": [
+        "SIDE_IO_PCB",
+        "sensor_tab"
+      ],
+      "distance_mm": 0.1999999999999993,
+      "criterion_mm": 0.5
+    },
+    {
+      "pair": [
+        "rear_leg",
+        "carrier_floor"
+      ],
+      "distance_mm": 1.1039999999999992,
+      "criterion": "continuous joint required"
+    },
+    {
+      "pair": [
+        "front_leg",
+        "carrier_floor"
+      ],
+      "distance_mm": 0.0,
+      "criterion": "continuous joint with sufficient bearing area required"
+    },
+    {
+      "pair": [
+        "SIDE_IO_PCB",
+        "back_wall"
+      ],
+      "distance_mm": 1.3000000000000007,
+      "criterion": "support not defined in document"
+    }
+  ],
+  "limitations": [
+    "No undisclosed joining ribs were invented. Switch terminal openings, two floor windows and fillets omitted because their positions or paths are underdefined; none can connect a detached post.",
+    "Old BODY side socket must be removed before full new-assembly collision checks."
+  ]
+}
