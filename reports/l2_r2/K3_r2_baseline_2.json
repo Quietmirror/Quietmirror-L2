@@ -1,0 +1,573 @@
+{
+  "inputs": {
+    "plan": "r2 section 1.2",
+    "mesh_mm": 2.0,
+    "root_y": 38.0,
+    "foot_nodes": 695,
+    "anchors": [
+      {
+        "node": 44830,
+        "xyz": [
+          -23.048436741989,
+          11.970501624355,
+          5.2
+        ],
+        "dofs": [
+          1,
+          2
+        ]
+      },
+      {
+        "node": 44026,
+        "xyz": [
+          22.888385530279,
+          12.026622745516,
+          5.2
+        ],
+        "dofs": [
+          2
+        ]
+      }
+    ],
+    "load_patches": [
+      {
+        "name": "palm_down_20N",
+        "patches": [
+          {
+            "triangles": 653,
+            "area_mm2": 587.8652492562309,
+            "center": [
+              -0.549020409491851,
+              58.33669610149055,
+              29.103746152747192
+            ],
+            "resultant_N": [
+              0,
+              0,
+              -20
+            ]
+          }
+        ],
+        "F_norm": 20.0,
+        "reference": null
+      },
+      {
+        "name": "left_main_root_down_5N",
+        "patches": [
+          {
+            "triangles": 115,
+            "area_mm2": 103.02407150837003,
+            "center": [
+              14.867407700046769,
+              38.80833254231852,
+              20.539195311522196
+            ],
+            "resultant_N": [
+              0,
+              0,
+              -5
+            ]
+          }
+        ],
+        "F_norm": 5.0,
+        "reference": null
+      },
+      {
+        "name": "right_main_root_down_5N",
+        "patches": [
+          {
+            "triangles": 111,
+            "area_mm2": 100.98387368575479,
+            "center": [
+              -14.941543671677428,
+              38.78234771571448,
+              20.50025840609961
+            ],
+            "resultant_N": [
+              0,
+              0,
+              -5
+            ]
+          }
+        ],
+        "F_norm": 5.0,
+        "reference": null
+      },
+      {
+        "name": "side_1_switch_fence_inward_5N",
+        "patches": [
+          {
+            "triangles": 25,
+            "area_mm2": 21.499367822930395,
+            "center": [
+              17.011725911147998,
+              51.31503789296121,
+              13.025
+            ],
+            "resultant_N": [
+              -5,
+              0,
+              0
+            ]
+          }
+        ],
+        "F_norm": 5.0,
+        "reference": null
+      },
+      {
+        "name": "side_2_switch_fence_inward_5N",
+        "patches": [
+          {
+            "triangles": 25,
+            "area_mm2": 21.499367822930402,
+            "center": [
+              17.729803532337,
+              66.31503789296121,
+              13.025000000000004
+            ],
+            "resultant_N": [
+              -5,
+              0,
+              0
+            ]
+          }
+        ],
+        "F_norm": 5.0,
+        "reference": null
+      },
+      {
+        "name": "LC3_squeeze_2x2N",
+        "patches": [
+          {
+            "triangles": 107,
+            "area_mm2": 135.99565346101858,
+            "center": [
+              -32.4437694870613,
+              58.03395910888128,
+              11.054004686071403
+            ],
+            "resultant_N": [
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "triangles": 120,
+            "area_mm2": 115.45482128234767,
+            "center": [
+              32.41298094251517,
+              57.34828087636283,
+              10.454448140347427
+            ],
+            "resultant_N": [
+              -2,
+              0,
+              0
+            ]
+          }
+        ],
+        "F_norm": 4.0,
+        "reference": null
+      },
+      {
+        "name": "press_A_d16",
+        "patches": [
+          {
+            "triangles": 73,
+            "area_mm2": 99.36703771932869,
+            "center": [
+              11.841671350623152,
+              60.28968974885499,
+              29.702836025700712
+            ],
+            "resultant_N": [
+              0,
+              0,
+              -5
+            ]
+          }
+        ],
+        "F_norm": 5.0,
+        "reference": null
+      },
+      {
+        "name": "press_B_d16",
+        "patches": [
+          {
+            "triangles": 20,
+            "area_mm2": 29.848930469471714,
+            "center": [
+              -15.822538206815938,
+              66.05573086376661,
+              28.59076331287753
+            ],
+            "resultant_N": [
+              0,
+              0,
+              -5
+            ]
+          }
+        ],
+        "F_norm": 5.0,
+        "reference": null
+      }
+    ],
+    "geometry": "Unchanged R3.2 BODY",
+    "traction": "Consistent quadratic triangular load; affine C3D10 faces: corner 0, midside A/3",
+    "outer_mask": "Roof vertical residual <0.35 mm; grip horizontal residual from superellipse <0.35 mm",
+    "limitations": [
+      "Author fem_variants.py and mesh/solver decks not supplied; compare independently generated mesh.",
+      "Affine midside nodes are retained to avoid the invalid curved mesh found in r1; convergence reported explicitly.",
+      "Nearest foot nodes realize the stated in-plane constraints; their exact coordinates may differ from author mesh."
+    ]
+  },
+  "results": [
+    {
+      "name": "palm_down_20N",
+      "nodes": 99442,
+      "elements": 53913,
+      "external_work_Nmm": 3.7822208193928972,
+      "weighted_displacement_mm": 0.18911104096964487,
+      "k_N_per_mm": 105.75797107060659,
+      "max_displacement_mm": 0.440798051195502,
+      "patches": [
+        {
+          "triangles": 653,
+          "area_mm2": 587.8652492562309,
+          "center": [
+            -0.549020409491851,
+            58.33669610149055,
+            29.103746152747192
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -20
+          ]
+        }
+      ],
+      "document_k_N_per_mm": null,
+      "deviation_percent": null,
+      "force_residual_N": [
+        -2.50803e-11,
+        -1.2144780000000001e-11,
+        3.2063999100273577e-07
+      ],
+      "moment_residual_Nmm": [
+        3.645737547230965e-05,
+        4.2320874793944085e-05,
+        1.1249163875241873e-09
+      ],
+      "force_balance_passed": true,
+      "moment_balance_passed": true,
+      "solver_reused_identical_input": false,
+      "within_document_3_percent": null
+    },
+    {
+      "name": "left_main_root_down_5N",
+      "nodes": 99442,
+      "elements": 53913,
+      "external_work_Nmm": 1.0824627149406698,
+      "weighted_displacement_mm": 0.21649254298813397,
+      "k_N_per_mm": 23.095483710374502,
+      "max_displacement_mm": 0.33926580844803916,
+      "patches": [
+        {
+          "triangles": 115,
+          "area_mm2": 103.02407150837003,
+          "center": [
+            14.867407700046769,
+            38.80833254231852,
+            20.539195311522196
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -5
+          ]
+        }
+      ],
+      "document_k_N_per_mm": null,
+      "deviation_percent": null,
+      "force_residual_N": [
+        1.590655e-11,
+        2.3747633e-11,
+        -8.450381949742791e-07
+      ],
+      "moment_residual_Nmm": [
+        -2.905197069935639e-05,
+        1.324389897661149e-05,
+        -8.267650048189705e-10
+      ],
+      "force_balance_passed": true,
+      "moment_balance_passed": true,
+      "solver_reused_identical_input": false,
+      "within_document_3_percent": null
+    },
+    {
+      "name": "right_main_root_down_5N",
+      "nodes": 99442,
+      "elements": 53913,
+      "external_work_Nmm": 1.0934530196514525,
+      "weighted_displacement_mm": 0.2186906039302905,
+      "k_N_per_mm": 22.86335082596321,
+      "max_displacement_mm": 0.33608071133215917,
+      "patches": [
+        {
+          "triangles": 111,
+          "area_mm2": 100.98387368575479,
+          "center": [
+            -14.941543671677428,
+            38.78234771571448,
+            20.50025840609961
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -5
+          ]
+        }
+      ],
+      "document_k_N_per_mm": null,
+      "deviation_percent": null,
+      "force_residual_N": [
+        -6.531547e-12,
+        1.0853973000000001e-11,
+        -6.419622975428751e-07
+      ],
+      "moment_residual_Nmm": [
+        -9.168083522581583e-06,
+        -1.7045325208187023e-05,
+        6.611175084075788e-10
+      ],
+      "force_balance_passed": true,
+      "moment_balance_passed": true,
+      "solver_reused_identical_input": false,
+      "within_document_3_percent": null
+    },
+    {
+      "name": "side_1_switch_fence_inward_5N",
+      "nodes": 99442,
+      "elements": 53913,
+      "external_work_Nmm": 0.7862136299846644,
+      "weighted_displacement_mm": 0.15724272599693287,
+      "k_N_per_mm": 31.797973281749954,
+      "max_displacement_mm": 0.2103116345019481,
+      "patches": [
+        {
+          "triangles": 25,
+          "area_mm2": 21.499367822930395,
+          "center": [
+            17.011725911147998,
+            51.31503789296121,
+            13.025
+          ],
+          "resultant_N": [
+            -5,
+            0,
+            0
+          ]
+        }
+      ],
+      "document_k_N_per_mm": null,
+      "deviation_percent": null,
+      "force_residual_N": [
+        8.881784197001252e-16,
+        0.0,
+        -2.2209630045309792e-07
+      ],
+      "moment_residual_Nmm": [
+        -2.136465197333237e-05,
+        1.0522235427856685e-05,
+        -1.4438710593367432e-05
+      ],
+      "force_balance_passed": true,
+      "moment_balance_passed": true,
+      "solver_reused_identical_input": false,
+      "within_document_3_percent": null
+    },
+    {
+      "name": "side_2_switch_fence_inward_5N",
+      "nodes": 99442,
+      "elements": 53913,
+      "external_work_Nmm": 0.9159392216171744,
+      "weighted_displacement_mm": 0.18318784432343488,
+      "k_N_per_mm": 27.294387454945117,
+      "max_displacement_mm": 0.2013693574353147,
+      "patches": [
+        {
+          "triangles": 25,
+          "area_mm2": 21.499367822930402,
+          "center": [
+            17.729803532337,
+            66.31503789296121,
+            13.025000000000004
+          ],
+          "resultant_N": [
+            -5,
+            0,
+            0
+          ]
+        }
+      ],
+      "document_k_N_per_mm": null,
+      "deviation_percent": null,
+      "force_residual_N": [
+        0.0,
+        0.0,
+        -1.7683000112789227e-08
+      ],
+      "moment_residual_Nmm": [
+        1.031284607599936e-06,
+        1.838533975728751e-06,
+        -7.615730169163726e-06
+      ],
+      "force_balance_passed": true,
+      "moment_balance_passed": true,
+      "solver_reused_identical_input": false,
+      "within_document_3_percent": null
+    },
+    {
+      "name": "LC3_squeeze_2x2N",
+      "nodes": 99442,
+      "elements": 53913,
+      "external_work_Nmm": 0.034297206872961075,
+      "weighted_displacement_mm": 0.008574301718240269,
+      "k_N_per_mm": 466.51029220148934,
+      "max_displacement_mm": 0.031159670244499796,
+      "patches": [
+        {
+          "triangles": 107,
+          "area_mm2": 135.99565346101858,
+          "center": [
+            -32.4437694870613,
+            58.03395910888128,
+            11.054004686071403
+          ],
+          "resultant_N": [
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "triangles": 120,
+          "area_mm2": 115.45482128234767,
+          "center": [
+            32.41298094251517,
+            57.34828087636283,
+            10.454448140347427
+          ],
+          "resultant_N": [
+            -2,
+            0,
+            0
+          ]
+        }
+      ],
+      "document_k_N_per_mm": null,
+      "deviation_percent": null,
+      "force_residual_N": [
+        -1.3223368922585269e-11,
+        0.0,
+        -1.6855999925707854e-08
+      ],
+      "moment_residual_Nmm": [
+        2.8702947468817186e-07,
+        5.609781972282235e-08,
+        8.409775120732377e-08
+      ],
+      "force_balance_passed": true,
+      "moment_balance_passed": true,
+      "solver_reused_identical_input": false,
+      "within_document_3_percent": null
+    },
+    {
+      "name": "press_A_d16",
+      "nodes": 99442,
+      "elements": 53913,
+      "external_work_Nmm": 0.39897482121798783,
+      "weighted_displacement_mm": 0.07979496424359757,
+      "k_N_per_mm": 62.66059578316285,
+      "max_displacement_mm": 0.10461706004460182,
+      "patches": [
+        {
+          "triangles": 73,
+          "area_mm2": 99.36703771932869,
+          "center": [
+            11.841671350623152,
+            60.28968974885499,
+            29.702836025700712
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -5
+          ]
+        }
+      ],
+      "document_k_N_per_mm": null,
+      "deviation_percent": null,
+      "force_residual_N": [
+        -1.027592e-12,
+        -2.2814663e-12,
+        -6.419997866657923e-09
+      ],
+      "moment_residual_Nmm": [
+        -7.4126267008978175e-06,
+        -5.2409176092282905e-06,
+        -2.634509220161989e-11
+      ],
+      "force_balance_passed": true,
+      "moment_balance_passed": true,
+      "solver_reused_identical_input": false,
+      "within_document_3_percent": null
+    },
+    {
+      "name": "press_B_d16",
+      "nodes": 99442,
+      "elements": 53913,
+      "external_work_Nmm": 0.46255124880055554,
+      "weighted_displacement_mm": 0.0925102497601111,
+      "k_N_per_mm": 54.048065084307204,
+      "max_displacement_mm": 0.11451175546448016,
+      "patches": [
+        {
+          "triangles": 20,
+          "area_mm2": 29.848930469471714,
+          "center": [
+            -15.822538206815938,
+            66.05573086376661,
+            28.59076331287753
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -5
+          ]
+        }
+      ],
+      "document_k_N_per_mm": null,
+      "deviation_percent": null,
+      "force_residual_N": [
+        -2.26393e-12,
+        -2.322808e-12,
+        2.3859300934958583e-07
+      ],
+      "moment_residual_Nmm": [
+        1.5202709562345262e-05,
+        7.37646921322721e-06,
+        1.6435879956373315e-10
+      ],
+      "force_balance_passed": true,
+      "moment_balance_passed": true,
+      "solver_reused_identical_input": false,
+      "within_document_3_percent": null
+    }
+  ],
+  "all_eight_within_3_percent": null,
+  "balance_passed": true,
+  "final_L2_stiffness_certified": false,
+  "comparison_status": "No document reference for this intermediate grid; convergence only"
+}

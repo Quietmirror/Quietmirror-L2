@@ -1,0 +1,17 @@
+{
+  "status": "PASS_ARTIFACT_CHECKS_NOT_MODEL_ACCEPTANCE",
+  "scripts_parsed": 8,
+  "relative_links_checked": 68,
+  "broken_links": [],
+  "baseline_files_byte_compared": 225,
+  "baseline_files_changed": [],
+  "original_r1_reports_preserved": [
+    "SECOND_CHECK.md",
+    "PARAMETERS_CORRECTED.md",
+    "OPENINGS_RESOLUTION.md",
+    "PROVENANCE.md"
+  ],
+  "review_output_claims_match_JSON": true,
+  "images_visually_reviewed": 4,
+  "final_print_release": false
+}

@@ -1,0 +1,325 @@
+{
+  "status": "DIAGNOSTIC_ONLY_NOT_PRINTABLE_RELEASE",
+  "parts": [
+    {
+      "name": "R2_CARRIER_DIAGNOSTIC",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 758.191505774454
+    },
+    {
+      "name": "SF_SWITCH_ENVELOPE",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 482.5599999999999
+    },
+    {
+      "name": "SR_SWITCH_ENVELOPE",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 482.5599999999999
+    },
+    {
+      "name": "SIDE_IO_PCB_ENVELOPE",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 143.0
+    }
+  ],
+  "pairs": [
+    {
+      "pair": [
+        "SF_stop",
+        "SF_switch"
+      ],
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": true
+    },
+    {
+      "pair": [
+        "SR_stop",
+        "SR_switch"
+      ],
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": true
+    },
+    {
+      "pair": [
+        "SF_switch",
+        "main_outer_hinge"
+      ],
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": true
+    },
+    {
+      "pair": [
+        "SIDE_IO_PCB",
+        "sensor_tab"
+      ],
+      "distance_mm": 0.5,
+      "intersection_mm3": 0.0,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": true
+    },
+    {
+      "pair": [
+        "rear_leg",
+        "rear_foot_strut"
+      ],
+      "distance_mm": 0.5400176481454275,
+      "intersection_mm3": 0.0,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": true
+    },
+    {
+      "pair": [
+        "front_bridge",
+        "main_outer_hinge"
+      ],
+      "distance_mm": 0.0,
+      "intersection_mm3": 0.5594728205337001,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": false
+    },
+    {
+      "pair": [
+        "carrier",
+        "SF_switch"
+      ],
+      "distance_mm": 0.0,
+      "intersection_mm3": 0.0,
+      "minimum_mm": 0,
+      "kind": "intentional seat and wall contacts",
+      "passed": null
+    },
+    {
+      "pair": [
+        "carrier",
+        "SR_switch"
+      ],
+      "distance_mm": 0.0,
+      "intersection_mm3": 0.0,
+      "minimum_mm": 0,
+      "kind": "intentional seat contact; back wall gap to check",
+      "passed": null
+    },
+    {
+      "pair": [
+        "carrier",
+        "SIDE_IO_PCB"
+      ],
+      "distance_mm": 0.0,
+      "intersection_mm3": 0.0,
+      "minimum_mm": 0,
+      "kind": "intended PCB seat contact",
+      "passed": null
+    },
+    {
+      "pair": [
+        "front_legs",
+        "low_mother_skin"
+      ],
+      "distance_mm": 0.058512538129061015,
+      "intersection_mm3": 0.0,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": false
+    },
+    {
+      "pair": [
+        "front_bridges",
+        "low_mother_skin"
+      ],
+      "distance_mm": 0.0,
+      "intersection_mm3": 0.2764878672148776,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": false
+    },
+    {
+      "pair": [
+        "extension_1",
+        "switch_1"
+      ],
+      "distance_mm": 0.1999999999999993,
+      "intersection_mm3": 0.0,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": false
+    },
+    {
+      "pair": [
+        "rear_legs",
+        "low_mother_skin"
+      ],
+      "distance_mm": 1.7763568394002505e-15,
+      "intersection_mm3": 0.008710988492713788,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": false
+    },
+    {
+      "pair": [
+        "rear_bridges",
+        "low_mother_skin"
+      ],
+      "distance_mm": 0.0,
+      "intersection_mm3": 0.5055449772551335,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": false
+    },
+    {
+      "pair": [
+        "extension_2",
+        "switch_2"
+      ],
+      "distance_mm": 0.0,
+      "intersection_mm3": 0.0,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": false
+    }
+  ],
+  "connections": [
+    {
+      "index": 1,
+      "pair": [
+        "stop",
+        "extension"
+      ],
+      "positive_overlap_mm3": 0.7019999999999995,
+      "passed": true
+    },
+    {
+      "index": 1,
+      "pair": [
+        "bridge",
+        "floor"
+      ],
+      "positive_overlap_mm3": 6.111999999999996,
+      "passed": true
+    },
+    {
+      "index": 1,
+      "pair": [
+        "collar",
+        "leg"
+      ],
+      "positive_overlap_mm3": 3.6214046226739898,
+      "passed": true
+    },
+    {
+      "index": 1,
+      "pair": [
+        "collar",
+        "bridge"
+      ],
+      "positive_overlap_mm3": 3.6214046226744636,
+      "passed": true
+    },
+    {
+      "index": 2,
+      "pair": [
+        "stop",
+        "extension"
+      ],
+      "positive_overlap_mm3": 0.47999999999999865,
+      "passed": true
+    },
+    {
+      "index": 2,
+      "pair": [
+        "bridge",
+        "floor"
+      ],
+      "positive_overlap_mm3": 6.399999999999999,
+      "passed": true
+    },
+    {
+      "index": 2,
+      "pair": [
+        "collar",
+        "leg"
+      ],
+      "positive_overlap_mm3": 3.4947437986885017,
+      "passed": true
+    },
+    {
+      "index": 2,
+      "pair": [
+        "collar",
+        "bridge"
+      ],
+      "positive_overlap_mm3": 3.494743798688932,
+      "passed": true
+    },
+    {
+      "index": 1,
+      "pair": [
+        "PCB_seat",
+        "wall"
+      ],
+      "positive_overlap_mm3": 0.6399999999999975,
+      "passed": true
+    },
+    {
+      "index": 2,
+      "pair": [
+        "PCB_seat",
+        "wall"
+      ],
+      "positive_overlap_mm3": 0.6399999999999975,
+      "passed": true
+    }
+  ],
+  "raw_R32_context": [
+    {
+      "pair": [
+        "new_carrier",
+        "unchanged_R32_BODY"
+      ],
+      "distance_mm": 0.0,
+      "intersection_mm3": 52.228406478122004,
+      "minimum_mm": 0,
+      "kind": "context contains obsolete side sockets; not final L2 collision result",
+      "passed": null
+    },
+    {
+      "pair": [
+        "SIDE_IO_PCB",
+        "unchanged_R32_BODY"
+      ],
+      "distance_mm": 0.0,
+      "intersection_mm3": 5.106219091235355,
+      "minimum_mm": 0,
+      "kind": "context contains obsolete side sockets; not final L2 collision result",
+      "passed": null
+    }
+  ],
+  "carrier_solid_count": 1,
+  "carrier_valid": true,
+  "added_connection_volume_mm3": 65.89000000001488,
+  "rear_switch_to_back_wall_mm": 0.5,
+  "assumptions": [
+    "t_H=0 for diagnostic carrier. Actual adapter thickness remains a parameter.",
+    "Bridges centered at leg Y, width 4; collar overlaps leg top and bridge by 0.3 each.",
+    "PCB seats X16.2..17.5, Y44..46 and 68..70, Z14.1..15.7.",
+    "M2 clearance holes are nominal diameter 2.4 from baseline parameters.",
+    "Terminal slots, two 4x8 windows, PCB retention features and fillets lack full placement dimensions and are omitted.",
+    "No old BODY material was hard-cut to make a fit. Final rebuilt BODY and insertion remain unverified."
+  ],
+  "release_gate": false
+}

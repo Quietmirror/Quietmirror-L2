@@ -1,0 +1,80 @@
+{
+  "keys": [
+    {
+      "name": "SF",
+      "length_mm": 12.099999999999994,
+      "arm_mm": 5.25,
+      "hinge_quarter_force_ratio": 1.7355371900826455,
+      "edge_quarter_force_ratio": 2.3595505617977515,
+      "center_force_ratio": 1.0,
+      "far_force_ratio": 0.46460176991150454,
+      "pure_Y_stop_deg": 6.562427868634154,
+      "far_end_travel_mm": 1.2914285714285711,
+      "eccentricity_y_mm": 0.0,
+      "eccentricity_z_mm": -0.9,
+      "angular_sensitivity": [
+        {
+          "plunger_minus_pivot_x_mm": -3,
+          "delta_x_at_nominal_angle_mm": 0.5803437686937788
+        },
+        {
+          "plunger_minus_pivot_x_mm": -1,
+          "delta_x_at_nominal_angle_mm": 0.5934479228979262
+        },
+        {
+          "plunger_minus_pivot_x_mm": 0,
+          "delta_x_at_nominal_angle_mm": 0.6
+        },
+        {
+          "plunger_minus_pivot_x_mm": 1,
+          "delta_x_at_nominal_angle_mm": 0.6065520771020737
+        },
+        {
+          "plunger_minus_pivot_x_mm": 3,
+          "delta_x_at_nominal_angle_mm": 0.6196562313062212
+        }
+      ],
+      "status": "Arithmetic checked; full rigid-body trigger/stop requires pivot X, switch FP/OP/TTP and compliance"
+    },
+    {
+      "name": "SR",
+      "length_mm": 12.699999999999996,
+      "arm_mm": 5.549999999999997,
+      "hinge_quarter_force_ratio": 1.748031496062992,
+      "edge_quarter_force_ratio": 2.3368421052631567,
+      "center_force_ratio": 1.0,
+      "far_force_ratio": 0.4663865546218486,
+      "pure_Y_stop_deg": 6.206267750989917,
+      "far_end_travel_mm": 1.286486486486487,
+      "eccentricity_y_mm": 0.0,
+      "eccentricity_z_mm": -0.9,
+      "angular_sensitivity": [
+        {
+          "plunger_minus_pivot_x_mm": -3,
+          "delta_x_at_nominal_angle_mm": 0.5824174309864089
+        },
+        {
+          "plunger_minus_pivot_x_mm": -1,
+          "delta_x_at_nominal_angle_mm": 0.5941391436621363
+        },
+        {
+          "plunger_minus_pivot_x_mm": 0,
+          "delta_x_at_nominal_angle_mm": 0.6
+        },
+        {
+          "plunger_minus_pivot_x_mm": 1,
+          "delta_x_at_nominal_angle_mm": 0.6058608563378637
+        },
+        {
+          "plunger_minus_pivot_x_mm": 3,
+          "delta_x_at_nominal_angle_mm": 0.6175825690135911
+        }
+      ],
+      "status": "Arithmetic checked; full rigid-body trigger/stop requires pivot X, switch FP/OP/TTP and compliance"
+    }
+  ],
+  "budget_delta_mm3": -1254.3,
+  "budget_mm3": 17252.37821844789,
+  "budget_pa12_g": 17.424902000632372,
+  "final_mass_measured": false
+}

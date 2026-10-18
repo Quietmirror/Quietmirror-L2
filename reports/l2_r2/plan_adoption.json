@@ -1,0 +1,17 @@
+{
+  "plan_revision": "r2_2026-10-18",
+  "source": "C:\\Users\\38982\\Downloads\\Quietmirror_L2_FINAL_Plan_2026-10-17 (1).md",
+  "active_plan": "D:\\Quietmirror_L2\\specs\\Quietmirror_L2_FINAL_Plan_2026-10-17.md",
+  "previous_plan": "D:\\Quietmirror_L2\\specs\\archive\\Quietmirror_L2_FINAL_Plan_2026-10-17_r1.md",
+  "authorization": "User: 替代现有方案，继续独立复核修正项",
+  "scope": "Adopt plan and independently review changed items; not final production CAD",
+  "previous_review": "reports/l2_r1 and handoff/archive/l2_r1 retained",
+  "memory_cap_gib": 4,
+  "heavy_jobs": "serial; existing Windows Job guard",
+  "donor": "ATK A1 Plus as originally named by user; identity unconfirmed",
+  "missing_author_inputs": [
+    "fem3d/fem_variants.py",
+    "l2_repo_scan/",
+    "Quietmirror_L2_Repo_Scan_Recheck_2026-10-18.md"
+  ]
+}

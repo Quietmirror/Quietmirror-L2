@@ -1,0 +1,187 @@
+{
+  "levels": [
+    {
+      "mesh_mm": 2.4,
+      "nodes": 84309,
+      "elements": 45780,
+      "affine_midside_max_residual_mm": 1.0089722484725314e-12,
+      "mesh_volume_mm3": 12298.433486319065,
+      "mesh_volume_vs_BRep_percent": -3.931473144404529,
+      "nonpositive_corner_determinants": 0,
+      "min_element_volume_mm3": 2.297342320884258e-06,
+      "force_and_moment_balance": true,
+      "pass_count": 2,
+      "k_values": [
+        104.42677280662953,
+        23.805995832774965,
+        22.811764182209753,
+        31.135723434202067,
+        26.814269609180144,
+        447.78635380852126,
+        63.03222597472068,
+        53.635208664766424
+      ],
+      "selected_areas": [
+        [
+          594.63899052347
+        ],
+        [
+          101.48684435777572
+        ],
+        [
+          97.92381862937374
+        ],
+        [
+          23.172500000000326
+        ],
+        [
+          23.172500000000326
+        ],
+        [
+          139.61644732146777,
+          116.31822176514842
+        ],
+        [
+          101.26489330131115
+        ],
+        [
+          27.426449349379347
+        ]
+      ]
+    },
+    {
+      "mesh_mm": 2.0,
+      "nodes": 99442,
+      "elements": 53913,
+      "affine_midside_max_residual_mm": 1.1264791792355852e-12,
+      "mesh_volume_mm3": 12407.087596183315,
+      "mesh_volume_vs_BRep_percent": -3.0827276287194505,
+      "nonpositive_corner_determinants": 0,
+      "min_element_volume_mm3": 8.796545955340776e-06,
+      "force_and_moment_balance": true,
+      "pass_count": 0,
+      "k_values": [
+        105.75797107060659,
+        23.095483710374502,
+        22.86335082596321,
+        31.797973281749954,
+        27.294387454945117,
+        466.51029220148934,
+        62.66059578316285,
+        54.048065084307204
+      ],
+      "selected_areas": [
+        [
+          587.8652492562309
+        ],
+        [
+          103.02407150837003
+        ],
+        [
+          100.98387368575479
+        ],
+        [
+          21.499367822930395
+        ],
+        [
+          21.499367822930402
+        ],
+        [
+          135.99565346101858,
+          115.45482128234767
+        ],
+        [
+          99.36703771932869
+        ],
+        [
+          29.848930469471714
+        ]
+      ]
+    },
+    {
+      "mesh_mm": 1.6,
+      "nodes": 129775,
+      "elements": 70571,
+      "affine_midside_max_residual_mm": 1.0305457311722382e-12,
+      "mesh_volume_mm3": 12546.926550797412,
+      "mesh_volume_vs_BRep_percent": -1.9903834385632702,
+      "nonpositive_corner_determinants": 0,
+      "min_element_volume_mm3": 1.1314533785788787e-13,
+      "force_and_moment_balance": true,
+      "pass_count": 4,
+      "k_values": [
+        105.18540330064005,
+        23.72787893161936,
+        23.356561212223223,
+        33.64243497648563,
+        28.95564675582172,
+        472.87905605841064,
+        62.444600158142926,
+        53.639212136173846
+      ],
+      "selected_areas": [
+        [
+          590.7627708008152
+        ],
+        [
+          101.06928467013417
+        ],
+        [
+          103.23431328780029
+        ],
+        [
+          21.702428612574447
+        ],
+        [
+          21.70242861257446
+        ],
+        [
+          134.58478052220323,
+          118.97251491963034
+        ],
+        [
+          99.49870725704935
+        ],
+        [
+          29.54289016072395
+        ]
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "from_mm": 2.4,
+      "to_mm": 2.0,
+      "k_change_percent": [
+        1.2747672155320577,
+        -2.984593156242865,
+        0.22614052706053656,
+        2.1269775502322785,
+        1.7905311342159447,
+        4.181444618335695,
+        -0.5895876050877158,
+        0.7697488829049526
+      ],
+      "note": "Two consecutive mesh levels and identical analytic selectors; selected patch edges can move with mesh."
+    },
+    {
+      "from_mm": 2.0,
+      "to_mm": 1.6,
+      "k_change_percent": [
+        -0.5413944350202038,
+        2.738176992416874,
+        2.157209544717875,
+        5.800563697543204,
+        6.086450203796834,
+        1.3651925720366664,
+        -0.3447072635047621,
+        -0.756461766939498
+      ],
+      "note": "Two consecutive mesh levels and identical analytic selectors; selected patch edges can move with mesh."
+    }
+  ],
+  "author_1p6_nodes": 307796,
+  "author_mesh_inputs_available": false,
+  "final_L2_vs_R32_certified": false,
+  "conclusion": "Baseline reproduction is not validated unless all required comparisons and convergence gates pass; these runs alone do not establish final L2 stiffness."
+}

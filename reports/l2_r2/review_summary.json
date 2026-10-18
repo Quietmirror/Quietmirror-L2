@@ -1,0 +1,27 @@
+{
+  "plan": "r2_2026-10-18",
+  "review_status": "REVIEW_COMPLETE_WITH_REQUIRED_CORRECTIONS",
+  "final_delivery_status": "INCOMPLETE",
+  "production_geometry_modified": false,
+  "baseline_commit": "f1b1090931d717117287ea2b79c2e14ddc234937",
+  "K3": {
+    "pass_2p4": 2,
+    "pass_1p6": 4,
+    "total": 8,
+    "all_balance_passed": true,
+    "accepted": false
+  },
+  "K5": "12 groups classified; production deletion not performed",
+  "K6": "source actions confirmed; production reconstruction pending",
+  "K8": "arithmetic and definitions confirmed; actual pivot and switch response unverified",
+  "K9": {
+    "connected_valid_solid": true,
+    "all_clearances_passed": false,
+    "rear_leg_vs_retained_ear_overlap_mm3": 1.2669401157823441
+  },
+  "K10": {
+    "budget_g": 17.424902000632372,
+    "final_measured_g": null
+  },
+  "donor": "ATK A1 Plus as named by user; DONOR_ID_PENDING_USER_CONFIRMATION / PCB_GEOMETRY_UNVERIFIED / FIT_NOT_CERTIFIED"
+}

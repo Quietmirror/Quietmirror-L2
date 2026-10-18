@@ -1,52 +1,39 @@
-# L2 独立复核的复现范围
+# L2 r2 独立复核重放
 
-本仓库提供复核输入、源码、参数和已有结果，不把尚未完成的正式 L2 模型或硬件装配声明为通过。查看结果不需要运行 CAD 或 FEM。
+查看报告和 STEP 不需要执行代码。本轮验收状态为“复核完成，有必须修正项”；诊断件不能用作最终打印或装配认证。
 
-## 基准输入
+## 输入与版本
 
-已包含 R3.1、R3.2 的 FCStd、R3.2 的 `reports/rebuild_r3_2/design_metadata.json` 和基准 CAD 源码。它们来自 Quietmirror/github 固定提交 `f1b1090931d717117287ea2b79c2e14ddc234937`，不会随原仓库 main 更新。
+- 基准：Quietmirror/github 固定提交 `f1b1090931d717117287ea2b79c2e14ddc234937` 的 R3.2。
+- [r2复核包](handoff/Quietmirror_L2_R2_Independent_Review_2026-10-18.zip)保存本轮使用的 `exports/rebuild_r3_2/assembly/BODY.step`、母面参考、元数据、参数、报告和源文件。解压到工程根目录即可恢复这些输入；不要用它覆盖其他来源的同名工作文件。
+- 新克隆也可以使用归档的 R3.1/R3.2 FCStd，经 `cad/l2_r1/independent_check.py restore` 恢复命名 STEP。恢复函数不覆盖已存在 STEP，复现时应确认已有输入来源。
+- `exports/l2_r2_diagnostic/support_reference` 是上轮独立恢复的母面输入。本轮几何程序优先使用这些公开参考，不依赖本机私有缓存。
+- 原始 FEM `.geo/.inp/.dat/.sta` 和完整求解日志保存在本机 `_support/work/fem_r2`，未重复上传大型中间作业。公开脚本可重新生成；不同版本/网格参数可能改变离散化结果。
 
-`independent_check.py restore` 从两份 FCStd 的 Document.xml/BRep 数据恢复命名 STEP 组件。它不会覆盖同名已存在的 STEP；要独立复现，应使用一个新克隆，或先确认已有 exports 的来源。
+## 环境
 
-本仓库包含的是本轮所需输入。历史版本的完整打印包、STEP 总包及历史报告仍在原仓库；历史建模脚本可能依赖这些未重复分发的旧文件。此说明只覆盖本轮 `cad/l2_r1` 复核。
+本轮实际环境：Windows、Python 3.12、CadQuery 2.8/OCP、NumPy、SciPy、Matplotlib、VTK、Gmsh 4.15.2、CalculiX 2.22。工具与虚拟环境二进制未上传。
 
-## 已使用的环境
+`_support/enter-env.ps1` 保存了实际工程路径 `D:\Quietmirror_L2`；换机器须修改 `$ProjectRoot` 并准备 `_support/venv/Scripts/python.exe`，再设置 `cad/l2_r1/independent_fem.py` 的 GMSH、CCX 路径。创建 `_support/logs`、`temp`、`cache`、`config/matplotlib` 后运行。换 CAD 或求解器版本必须重做解析梁基准。没有声称已在另一台机器完成安装测试。
 
-- Windows，Python 3.12，CadQuery 2.8 / OCP，NumPy、SciPy、Matplotlib、VTK。
-- Gmsh 4.15.2，CalculiX 2.22。
-- 本次 FEM 使用单线程、串行求解。保护脚本默认设置 4 GiB Windows Job 内存上限，系统空闲内存过低时只终止本次作业树。
+全部重型进程用 `run_guarded.ps1`：4 GiB Windows Job 内存上限、单线程、低优先级、串行。系统可用内存不足时仅终止本作业树。没有更改系统性能设置。
 
-工具、Python 虚拟环境及求解器二进制未上传。仓库内的 `_support/enter-env.ps1` 保存了实际运行时的 `D:\Quietmirror_L2` 路径；其他电脑须将其 `$ProjectRoot` 改为克隆目录，并准备 `_support/venv/Scripts/python.exe`。FEM 源码顶部 `GMSH` 和 `CCX` 常量须指向本机对应版本程序。
+## 顺序
 
-这份环境说明是复现前提，不表示本仓库已经在另一台电脑上完成安装或验证。CAD 库与求解器版本改变后须重做梁校验。
+1. 准备基准 BODY、r1证据 JSON、参数与元数据；本轮包已包含这些复核依赖。
+2. 运行 `geometry_recheck.py`、`contact_recheck.py`，得到明确假设下的托架及完整支承面检查。
+3. 使用上轮相同解析梁工具校验求解链；本轮引用已通过的梁结果。随后将 `fem_recheck.py --size 2.4`、`--size 2.0`、`--size 1.6` **依次**运行。
+4. 运行 `summarize_fem.py` 和 `render_review.py`。
+5. 阅读新 JSON/图和日志，人工复核后才运行 `write_review.py`。它含本次评审文字，会重写当前 README、handoff 和参数记录，不能把旧文字无审查地套到新几何上。
 
-## 运行顺序
-
-在项目根目录准备 Python 依赖、求解器路径及 `_support/logs`、`_support/temp`、`_support/cache`、`_support/config/matplotlib` 后：
+例如：
 
 ```powershell
 . .\_support\enter-env.ps1
-
-# 以下任务按顺序运行；connectivity 依赖 openings 生成的母皮数据。
-# restore、surface、openings、connectivity、layout 等 CAD 作业也建议使用保护脚本。
-$tasks = @('restore', 'baseline', 'arithmetic', 'surface', 'openings', 'connectivity', 'layout')
-foreach ($task in $tasks) {
-  & .\_support\run_guarded.ps1 -Executable $CadPython -Arguments @('cad/l2_r1/independent_check.py', $task) -Log "_support/logs/$task.log"
-  if ($LASTEXITCODE -ne 0) { throw "Failed: $task" }
-}
-
-& .\_support\run_guarded.ps1 -Executable $CadPython -Arguments @('cad/l2_r1/independent_fem.py', 'beam_pair') -Log '_support/logs/beam_pair.log'
-# 只有梁校验通过后，再运行整壳：
-& .\_support\run_guarded.ps1 -Executable $CadPython -Arguments @('cad/l2_r1/independent_fem.py', 'body', '--size', '2.4') -Log '_support/logs/body_2.4.log'
-
-& $CadPython cad/l2_r1/render_checks.py
+& .\_support\run_guarded.ps1 -Executable $CadPython -Arguments @('cad/l2_r2/geometry_recheck.py') -Log '_support/logs/l2_r2_geometry.log' -MemoryGiB 4
+& .\_support\run_guarded.ps1 -Executable $CadPython -Arguments @('cad/l2_r2/contact_recheck.py') -Log '_support/logs/l2_r2_contact.log' -MemoryGiB 4
+# 待前一任务结束并核对退出码后，再运行下一项。
+& .\_support\run_guarded.ps1 -Executable $CadPython -Arguments @('cad/l2_r2/fem_recheck.py','--size','2.4') -Log '_support/logs/l2_r2_fem_2.4.log' -MemoryGiB 4
 ```
 
-先核对生成的 JSON 和求解日志，再考虑执行 `write_review.py`。该脚本会重写 README、报告、参数和复核 ZIP，且报告文字含本次评审结论；它不是适用于任意新结果的自动验收程序。新一轮数值变化时须同步审阅报告文字，不能直接套用旧结论。根目录发布导航位于 Git 历史，可据此恢复。
-
-## 证据边界
-
-- `exact_author_reproduction_certified=false`：独立载荷、约束与位移度量在输入 JSON/源码中明确，但原作者同工况严格复现仍缺信息。
-- 整壳当前发布 2.4 mm 网格结果；2.0 / 1.6 mm 整壳收敛未完成。
-- 诊断 STEP 故意保留所发现的断开与间隙问题；不能据此直接加工装配。
-- 无实际 PCB、微动和镜头尺寸前，装配匹配与真实点击/回弹不认证。
+详细证据边界见 [SECOND_CHECK](handoff/SECOND_CHECK.md)。三档基线完成不等于已收敛，也不等于最终 L2 的 S8 通过；实际微动、PCB、镜头和叠装尺寸仍未认证。

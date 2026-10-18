@@ -1,0 +1,166 @@
+{
+  "active_plan": "specs/Quietmirror_L2_FINAL_Plan_2026-10-17.md",
+  "review_overlay": "handoff/PARAMETERS_CORRECTED.md",
+  "units": "mm N MPa",
+  "immutable_baseline": "R3.2 f1b1090931d717117287ea2b79c2e14ddc234937",
+  "surface": {
+    "original_six_windows": true,
+    "skin_mm": 1.8
+  },
+  "reference_datums": {
+    "foot_glue_z": 5.2,
+    "outer_edge_z": 5.0,
+    "default_skate_thickness": 0.8,
+    "planar_ear_land_z": 10.75,
+    "rounded_ear_arm_max_z": 10.8,
+    "front_ear_center": [
+      27.331028099073382,
+      43.0,
+      9.5
+    ],
+    "rear_ear_center": [
+      28.60429589691332,
+      66.0,
+      9.5
+    ],
+    "rear_document_leg_y": 66.8,
+    "adapter_thickness": null,
+    "adapter_top_z": null
+  },
+  "side_switches": {
+    "SF": {
+      "bounds": [
+        18.5,
+        25,
+        41.85,
+        54.65,
+        13.7,
+        19.5
+      ],
+      "tip": [
+        25.62,
+        50.25,
+        16.6
+      ]
+    },
+    "SR": {
+      "bounds": [
+        19,
+        25.5,
+        56.05,
+        68.85,
+        13.7,
+        19.5
+      ],
+      "tip": [
+        26.12,
+        64.45,
+        16.6
+      ]
+    }
+  },
+  "side_pcb": {
+    "bounds": [
+      15.2,
+      16.2,
+      44,
+      70,
+      13.3,
+      18.8
+    ],
+    "terminal_layout": null,
+    "retention_layout": null
+  },
+  "force_ratios": [
+    {
+      "name": "SF",
+      "length_mm": 12.099999999999994,
+      "arm_mm": 5.25,
+      "hinge_quarter_force_ratio": 1.7355371900826455,
+      "edge_quarter_force_ratio": 2.3595505617977515,
+      "center_force_ratio": 1.0,
+      "far_force_ratio": 0.46460176991150454,
+      "pure_Y_stop_deg": 6.562427868634154,
+      "far_end_travel_mm": 1.2914285714285711,
+      "eccentricity_y_mm": 0.0,
+      "eccentricity_z_mm": -0.9,
+      "angular_sensitivity": [
+        {
+          "plunger_minus_pivot_x_mm": -3,
+          "delta_x_at_nominal_angle_mm": 0.5803437686937788
+        },
+        {
+          "plunger_minus_pivot_x_mm": -1,
+          "delta_x_at_nominal_angle_mm": 0.5934479228979262
+        },
+        {
+          "plunger_minus_pivot_x_mm": 0,
+          "delta_x_at_nominal_angle_mm": 0.6
+        },
+        {
+          "plunger_minus_pivot_x_mm": 1,
+          "delta_x_at_nominal_angle_mm": 0.6065520771020737
+        },
+        {
+          "plunger_minus_pivot_x_mm": 3,
+          "delta_x_at_nominal_angle_mm": 0.6196562313062212
+        }
+      ],
+      "status": "Arithmetic checked; full rigid-body trigger/stop requires pivot X, switch FP/OP/TTP and compliance"
+    },
+    {
+      "name": "SR",
+      "length_mm": 12.699999999999996,
+      "arm_mm": 5.549999999999997,
+      "hinge_quarter_force_ratio": 1.748031496062992,
+      "edge_quarter_force_ratio": 2.3368421052631567,
+      "center_force_ratio": 1.0,
+      "far_force_ratio": 0.4663865546218486,
+      "pure_Y_stop_deg": 6.206267750989917,
+      "far_end_travel_mm": 1.286486486486487,
+      "eccentricity_y_mm": 0.0,
+      "eccentricity_z_mm": -0.9,
+      "angular_sensitivity": [
+        {
+          "plunger_minus_pivot_x_mm": -3,
+          "delta_x_at_nominal_angle_mm": 0.5824174309864089
+        },
+        {
+          "plunger_minus_pivot_x_mm": -1,
+          "delta_x_at_nominal_angle_mm": 0.5941391436621363
+        },
+        {
+          "plunger_minus_pivot_x_mm": 0,
+          "delta_x_at_nominal_angle_mm": 0.6
+        },
+        {
+          "plunger_minus_pivot_x_mm": 1,
+          "delta_x_at_nominal_angle_mm": 0.6058608563378637
+        },
+        {
+          "plunger_minus_pivot_x_mm": 3,
+          "delta_x_at_nominal_angle_mm": 0.6175825690135911
+        }
+      ],
+      "status": "Arithmetic checked; full rigid-body trigger/stop requires pivot X, switch FP/OP/TTP and compliance"
+    }
+  ],
+  "carrier_diagnostic_assumptions": [
+    "t_H=0 for diagnostic carrier. Actual adapter thickness remains a parameter.",
+    "Bridges centered at leg Y, width 4; collar overlaps leg top and bridge by 0.3 each.",
+    "PCB seats X16.2..17.5, Y44..46 and 68..70, Z14.1..15.7.",
+    "M2 clearance holes are nominal diameter 2.4 from baseline parameters.",
+    "Terminal slots, two 4x8 windows, PCB retention features and fillets lack full placement dimensions and are omitted.",
+    "No old BODY material was hard-cut to make a fit. Final rebuilt BODY and insertion remain unverified."
+  ],
+  "required_corrections": [
+    "full-footprint ear contact instead of point height",
+    "route front bridge and collar around retained main hinge",
+    "shape bridges and legs against actual inner-wall clearance",
+    "separate intended switch seating from extension clearance",
+    "define rear-switch reaction support",
+    "solve adapter stack before screw length",
+    "reconcile mesh and surface selectors before accepting FEM baseline"
+  ],
+  "final_print_release": false
+}

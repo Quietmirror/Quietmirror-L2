@@ -1,10 +1,10 @@
-# L2 R1 独立复核工作区
+# L2 r2 来源与修改范围
 
-- 用户于 2026-10-18 确认采用 `specs/Quietmirror_L2_FINAL_Plan_2026-10-17.md`，先独立复核。
-- 几何与历史源代码基准：Quietmirror/github `f1b1090931d717117287ea2b79c2e14ddc234937`，R3.2。
-- 本目录基准文件由该提交的 Git archive 导出，不读取原工作树的修改版本。
-- 原工程 `D:\Projects\Quietmirror\github` 和其 R3.3 工作内容保留。
-- `_support/python`、`_support/venv`、`_support/tools` 为指向已有 D 盘便携工具的目录联接；缓存、配置、日志、计算文件在本工作区。未重装工具，未修改系统设置。
-- 实测物理内存约 15.78 GiB，建立工作区时空闲约 2.90 GiB。文档 24 GB 上限不适用；作业默认 4 GiB Windows Job 内存硬上限，单线程、低优先级、串行；系统可用内存低于 512 MiB 时只终止本作业树。
-- 17.36 g 为待几何测量替换的预算。供体型号不擅自从用户的 ATK A1 Plus 替换为 F1 PRO；D 方案继续标注未确认。
-- 附件中作者的 FEM、装配与尺寸结论是待独立复核输入，不作为已通过证据。
+- 用户2026-10-18确认“替代现有方案，继续独立复核修正项”。新附件已设为specs中的现行方案；r1方案在specs/archive，r1复核原文在handoff/archive/l2_r1。
+- 唯一生产几何基准仍为Quietmirror/github提交f1b1090931d717117287ea2b79c2e14ddc234937的R3.2。原D盘工程及R3.3保留。
+- r2新文件位于cad/l2_r2、reports/l2_r2、views/l2_r2、exports/l2_r2_diagnostic及handoff/l2_r2。根README和handoff现行入口已切换到r2。
+- 新几何为独立复核诊断。没有更改原BODY、接口、脚贴或历史装配模型；没有生成最终L2 STL/3MF。
+- 本轮仅读源文件/STEP，独立建立BRep与FEM输入；复用上轮本项目独立程序，不导入方案作者脚本函数。保留LICENSE、NOTICE。
+- FEM：Gmsh4.15.2，CalculiX2.22，C3D10直中边，E1500MPa/nu0.35；自适应BRep体积。所有新重型进程4GiB Job上限、单线程、串行，原始计算及日志在_support。
+- 方案中引用的作者fem3d/fem_variants.py、扫描复核目录和扫描报告未提供；附件的P0/P1/P7结论没有被本轮重新验证。
+- 供体按用户原始名称ATK A1 Plus标待确认；没有替换型号，也没有使用未经实测的主板孔位。

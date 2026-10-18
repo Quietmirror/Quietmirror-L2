@@ -1,0 +1,14 @@
+{
+  "command": [
+    "D:\\Quietmirror_L2\\_support\\venv\\Scripts\\python.exe",
+    "D:\\Quietmirror_L2\\cad\\l2_r2\\fem_recheck.py",
+    "--size",
+    "1.6"
+  ],
+  "returncode": 0,
+  "reason": null,
+  "seconds": 251.12,
+  "memory_cap_gib": 4.0,
+  "peak_job_memory_gib": 1.785,
+  "log": "D:\\Quietmirror_L2\\_support\\logs\\l2_r2_fem_1.6.log"
+}

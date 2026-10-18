@@ -1,0 +1,214 @@
+{
+  "method": "Independent BRep cavity intersection; groups are geometric regions, not detached printed parts",
+  "parts": [
+    {
+      "id": 1,
+      "name": "lower_chassis_and_old_side_seats",
+      "volume_mm3": 4891.725961886028,
+      "bounds": [
+        -31.20891749739558,
+        31.208916898977826,
+        7.9999999,
+        79.297015522854,
+        5.199999893935403,
+        19.350000100000035
+      ],
+      "action": "MIXED: retain feet/struts/USB/sensor interfaces; remove only source-defined old side seats",
+      "rear_foot_reference_overlap_mm3": 0.0,
+      "rear_foot_reference_fraction": 0.0,
+      "valid": true
+    },
+    {
+      "id": 2,
+      "name": "Y54_arms_and_wheel_hub",
+      "volume_mm3": 431.3807518656377,
+      "bounds": [
+        -26.97656272727406,
+        26.976562725726012,
+        47.1499999,
+        55.200000100000004,
+        16.149999899999997,
+        28.27603159006101
+      ],
+      "action": "MIXED: remove Y54 outer arms only; retain central wheel hub and pin path",
+      "rear_foot_reference_overlap_mm3": 0.0,
+      "rear_foot_reference_fraction": 0.0,
+      "valid": true
+    },
+    {
+      "id": 3,
+      "name": "Y67_5_cross_tie",
+      "volume_mm3": 215.93588455206176,
+      "bounds": [
+        -25.842149804611918,
+        25.842149805470825,
+        66.29999989464126,
+        68.7000001,
+        21.799999903393854,
+        24.2000001
+      ],
+      "action": "KEEP: rear cross-tie and its shell load path",
+      "rear_foot_reference_overlap_mm3": 0.0,
+      "rear_foot_reference_fraction": 0.0,
+      "valid": true
+    },
+    {
+      "id": 4,
+      "name": "positive_X_inner_main_hinge",
+      "volume_mm3": 155.1176999975932,
+      "bounds": [
+        8.6999999,
+        11.1000001,
+        35.6499999,
+        43.2500001,
+        11.471791292450002,
+        25.919112723854756
+      ],
+      "action": "KEEP",
+      "rear_foot_reference_overlap_mm3": 0.0,
+      "rear_foot_reference_fraction": 0.0,
+      "valid": true
+    },
+    {
+      "id": 5,
+      "name": "negative_X_inner_main_hinge",
+      "volume_mm3": 151.21813040367485,
+      "bounds": [
+        -11.1000001,
+        -8.6999999,
+        35.6499999,
+        43.25000010000001,
+        11.481715167628783,
+        25.91911272383617
+      ],
+      "action": "KEEP",
+      "rear_foot_reference_overlap_mm3": 0.0,
+      "rear_foot_reference_fraction": 0.0,
+      "valid": true
+    },
+    {
+      "id": 6,
+      "name": "rear_negative_X_mount_bridge",
+      "volume_mm3": 143.00583039370892,
+      "bounds": [
+        -28.75923715611959,
+        -9.4999999,
+        71.19999990000001,
+        79.297015522856,
+        10.399999900000001,
+        12.8000001
+      ],
+      "action": "KEEP",
+      "rear_foot_reference_overlap_mm3": 0.0,
+      "rear_foot_reference_fraction": 0.0,
+      "valid": true
+    },
+    {
+      "id": 7,
+      "name": "positive_X_outer_main_hinge",
+      "volume_mm3": 77.9042462165676,
+      "bounds": [
+        25.499999899999995,
+        27.900000700000003,
+        35.6499999,
+        43.2500001,
+        11.471791292450002,
+        20.552887838043006
+      ],
+      "action": "KEEP",
+      "rear_foot_reference_overlap_mm3": 0.0,
+      "rear_foot_reference_fraction": 0.0,
+      "valid": true
+    },
+    {
+      "id": 8,
+      "name": "negative_X_outer_main_hinge",
+      "volume_mm3": 74.00466647487745,
+      "bounds": [
+        -27.9000007,
+        -25.4999999,
+        35.6499999,
+        43.25000010000002,
+        11.481715167628783,
+        20.552887838043002
+      ],
+      "action": "KEEP",
+      "rear_foot_reference_overlap_mm3": 0.0,
+      "rear_foot_reference_fraction": 0.0,
+      "valid": true
+    },
+    {
+      "id": 9,
+      "name": "rear_center_support_segment_A",
+      "volume_mm3": 26.353566569166755,
+      "bounds": [
+        -1.774340031057386,
+        1.7743400292241254,
+        74.24418832173443,
+        79.22460610403203,
+        10.748811205997772,
+        20.36789531116278
+      ],
+      "action": "KEEP",
+      "rear_foot_reference_overlap_mm3": 26.353566569166755,
+      "rear_foot_reference_fraction": 1.0,
+      "valid": true
+    },
+    {
+      "id": 10,
+      "name": "rear_foot_segment_B",
+      "volume_mm3": 16.18712753033391,
+      "bounds": [
+        -4.0000001,
+        4.0000001,
+        81.16947347606735,
+        86.43600010000003,
+        5.199999896582801,
+        5.940450937608353
+      ],
+      "action": "KEEP",
+      "rear_foot_reference_overlap_mm3": 16.187127537895933,
+      "rear_foot_reference_fraction": 1.0000000004671628,
+      "valid": true
+    },
+    {
+      "id": 11,
+      "name": "rear_foot_segment_C",
+      "volume_mm3": 6.471735219639055,
+      "bounds": [
+        -3.049073326511944,
+        3.0490733438669952,
+        79.4839999,
+        80.89580534469796,
+        5.199999888612257,
+        6.800000100000382
+      ],
+      "action": "KEEP",
+      "rear_foot_reference_overlap_mm3": 6.471735219639055,
+      "rear_foot_reference_fraction": 1.0,
+      "valid": true
+    },
+    {
+      "id": 12,
+      "name": "rear_center_support_segment_D",
+      "volume_mm3": 1.9684995638973397,
+      "bounds": [
+        -1.7415323558784852,
+        1.7415323558710296,
+        74.01599990000001,
+        75.36207106515809,
+        20.550550528284997,
+        21.726697283204036
+      ],
+      "action": "KEEP",
+      "rear_foot_reference_overlap_mm3": 1.9684995638973397,
+      "rear_foot_reference_fraction": 1.0,
+      "valid": true
+    }
+  ],
+  "source_files": [
+    "cad/rebuild_r2/mechanics.py",
+    "cad/rebuild_r3_2/build.py"
+  ],
+  "disposition_is_not_final_rebuild_validation": true
+}

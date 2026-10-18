@@ -1,0 +1,743 @@
+{
+  "ears": [
+    {
+      "name": "front",
+      "ear_center": [
+        27.331028099073382,
+        43.0,
+        9.5
+      ],
+      "leg_center": [
+        27.331028099073382,
+        43.0
+      ],
+      "document_leg_bottom_z": 10.8,
+      "planar_ear_top_z": 10.75,
+      "rounded_arm_max_z": 10.8,
+      "ear_source_volume_mm3": 132.14969183847936,
+      "source_common_with_BODY_mm3": 132.1496918019344,
+      "source_outside_BODY_mm3": 0.0,
+      "leg_vs_ear_intersection_mm3": 0.0,
+      "leg_vs_ear_distance_mm": 0.0,
+      "sample_top_heights": [
+        {
+          "x": 25.831028099073382,
+          "y": 43.0,
+          "reference_top_z": 10.75,
+          "actual_BODY_top_z": 10.75
+        },
+        {
+          "x": 28.831028099073382,
+          "y": 43.0,
+          "reference_top_z": 10.8,
+          "actual_BODY_top_z": 10.800000000000022
+        },
+        {
+          "x": 27.331028099073382,
+          "y": 41.25,
+          "reference_top_z": null,
+          "actual_BODY_top_z": null
+        },
+        {
+          "x": 27.331028099073382,
+          "y": 44.75,
+          "reference_top_z": null,
+          "actual_BODY_top_z": 12.0
+        },
+        {
+          "x": 28.73102809907338,
+          "y": 42.2,
+          "reference_top_z": 10.75,
+          "actual_BODY_top_z": 10.75
+        },
+        {
+          "x": 28.73102809907338,
+          "y": 43.8,
+          "reference_top_z": 10.75,
+          "actual_BODY_top_z": 12.0
+        }
+      ],
+      "top_profile_x": 28.73102809907338,
+      "top_profile": [
+        [
+          41.0,
+          10.75
+        ],
+        [
+          41.0625,
+          10.75
+        ],
+        [
+          41.125,
+          10.75
+        ],
+        [
+          41.1875,
+          10.75
+        ],
+        [
+          41.25,
+          10.75
+        ],
+        [
+          41.3125,
+          10.75
+        ],
+        [
+          41.375,
+          10.75
+        ],
+        [
+          41.4375,
+          10.75
+        ],
+        [
+          41.5,
+          10.75
+        ],
+        [
+          41.5625,
+          10.75
+        ],
+        [
+          41.625,
+          10.75
+        ],
+        [
+          41.6875,
+          10.75
+        ],
+        [
+          41.75,
+          10.75
+        ],
+        [
+          41.8125,
+          10.75
+        ],
+        [
+          41.875,
+          10.75
+        ],
+        [
+          41.9375,
+          10.75
+        ],
+        [
+          42.0,
+          10.75
+        ],
+        [
+          42.0625,
+          10.75
+        ],
+        [
+          42.125,
+          10.75
+        ],
+        [
+          42.1875,
+          10.75
+        ],
+        [
+          42.25,
+          10.75
+        ],
+        [
+          42.3125,
+          10.75
+        ],
+        [
+          42.375,
+          10.75
+        ],
+        [
+          42.4375,
+          10.75
+        ],
+        [
+          42.5,
+          10.75
+        ],
+        [
+          42.5625,
+          10.75
+        ],
+        [
+          42.625,
+          10.75
+        ],
+        [
+          42.6875,
+          10.761881036389745
+        ],
+        [
+          42.75,
+          10.775735082217329
+        ],
+        [
+          42.8125,
+          10.786407303306405
+        ],
+        [
+          42.875,
+          10.793976429460773
+        ],
+        [
+          42.9375,
+          10.79849672698858
+        ],
+        [
+          43.0,
+          10.8
+        ],
+        [
+          43.0625,
+          10.79849672698858
+        ],
+        [
+          43.125,
+          10.793976429460773
+        ],
+        [
+          43.1875,
+          10.786407303306405
+        ],
+        [
+          43.25,
+          10.775735082217329
+        ],
+        [
+          43.3125,
+          10.761881036389745
+        ],
+        [
+          43.375,
+          10.75
+        ],
+        [
+          43.4375,
+          10.75
+        ],
+        [
+          43.5,
+          10.75
+        ],
+        [
+          43.5625,
+          10.75
+        ],
+        [
+          43.625,
+          10.75
+        ],
+        [
+          43.6875,
+          10.75
+        ],
+        [
+          43.75,
+          10.75
+        ],
+        [
+          43.8125,
+          10.75
+        ],
+        [
+          43.875,
+          10.75
+        ],
+        [
+          43.9375,
+          10.75
+        ],
+        [
+          44.0,
+          10.75
+        ],
+        [
+          44.0625,
+          10.75
+        ],
+        [
+          44.125,
+          10.75
+        ],
+        [
+          44.1875,
+          10.75
+        ],
+        [
+          44.25,
+          10.75
+        ],
+        [
+          44.3125,
+          10.75
+        ],
+        [
+          44.375,
+          10.75
+        ],
+        [
+          44.4375,
+          10.75
+        ],
+        [
+          44.5,
+          10.75
+        ],
+        [
+          44.5625,
+          10.75
+        ],
+        [
+          44.625,
+          10.75
+        ],
+        [
+          44.6875,
+          10.75
+        ],
+        [
+          44.75,
+          10.75
+        ],
+        [
+          44.8125,
+          10.75
+        ],
+        [
+          44.875,
+          10.75
+        ],
+        [
+          44.9375,
+          10.75
+        ],
+        [
+          45.0,
+          10.75
+        ]
+      ],
+      "correction": "Use a footprint-level contact datum and a profiled adapter seat; a height at one point is not a flat mounting plane."
+    },
+    {
+      "name": "rear",
+      "ear_center": [
+        28.60429589691332,
+        66.0,
+        9.5
+      ],
+      "leg_center": [
+        28.60429589691332,
+        66.8
+      ],
+      "document_leg_bottom_z": 10.525,
+      "planar_ear_top_z": 10.75,
+      "rounded_arm_max_z": 10.8,
+      "ear_source_volume_mm3": 132.14969183847353,
+      "source_common_with_BODY_mm3": 132.14969184628913,
+      "source_outside_BODY_mm3": 0.0,
+      "leg_vs_ear_intersection_mm3": 1.2669401157823441,
+      "leg_vs_ear_distance_mm": 0.0,
+      "sample_top_heights": [
+        {
+          "x": 27.10429589691332,
+          "y": 66.8,
+          "reference_top_z": 10.75,
+          "actual_BODY_top_z": 12.0
+        },
+        {
+          "x": 30.10429589691332,
+          "y": 66.8,
+          "reference_top_z": 10.75,
+          "actual_BODY_top_z": 12.0
+        },
+        {
+          "x": 28.60429589691332,
+          "y": 65.05,
+          "reference_top_z": 10.387411967464951,
+          "actual_BODY_top_z": 12.0
+        },
+        {
+          "x": 28.60429589691332,
+          "y": 68.55,
+          "reference_top_z": 10.75,
+          "actual_BODY_top_z": 12.0
+        },
+        {
+          "x": 30.00429589691332,
+          "y": 66.0,
+          "reference_top_z": 10.8,
+          "actual_BODY_top_z": 12.0
+        },
+        {
+          "x": 30.00429589691332,
+          "y": 67.6,
+          "reference_top_z": 10.75,
+          "actual_BODY_top_z": 12.0
+        }
+      ],
+      "top_profile_x": 30.00429589691332,
+      "top_profile": [
+        [
+          64.8,
+          10.75
+        ],
+        [
+          64.8625,
+          10.75
+        ],
+        [
+          64.925,
+          10.75
+        ],
+        [
+          64.9875,
+          10.75
+        ],
+        [
+          65.05,
+          10.75
+        ],
+        [
+          65.1125,
+          10.75
+        ],
+        [
+          65.175,
+          10.75
+        ],
+        [
+          65.2375,
+          10.75
+        ],
+        [
+          65.3,
+          10.75
+        ],
+        [
+          65.3625,
+          10.75
+        ],
+        [
+          65.425,
+          10.75
+        ],
+        [
+          65.4875,
+          10.75
+        ],
+        [
+          65.55,
+          10.75
+        ],
+        [
+          65.6125,
+          10.75
+        ],
+        [
+          65.675,
+          10.758719587517554
+        ],
+        [
+          65.7375,
+          10.77322179921646
+        ],
+        [
+          65.8,
+          10.784523257866372
+        ],
+        [
+          65.8625,
+          10.792707913645264
+        ],
+        [
+          65.925,
+          10.797834735242022
+        ],
+        [
+          65.9875,
+          10.799939902457172
+        ],
+        [
+          66.05,
+          10.799038105676658
+        ],
+        [
+          66.1125,
+          10.79512306365057
+        ],
+        [
+          66.175,
+          10.788167302799248
+        ],
+        [
+          66.2375,
+          10.778121179701177
+        ],
+        [
+          66.3,
+          10.764911064067496
+        ],
+        [
+          66.3625,
+          10.75
+        ],
+        [
+          66.425,
+          10.75
+        ],
+        [
+          66.4875,
+          10.75
+        ],
+        [
+          66.55,
+          10.75
+        ],
+        [
+          66.6125,
+          10.75
+        ],
+        [
+          66.675,
+          10.75
+        ],
+        [
+          66.7375,
+          10.75
+        ],
+        [
+          66.8,
+          10.75
+        ],
+        [
+          66.8625,
+          10.75
+        ],
+        [
+          66.925,
+          10.75
+        ],
+        [
+          66.9875,
+          10.75
+        ],
+        [
+          67.05,
+          10.75
+        ],
+        [
+          67.1125,
+          10.75
+        ],
+        [
+          67.175,
+          10.75
+        ],
+        [
+          67.2375,
+          10.75
+        ],
+        [
+          67.3,
+          10.75
+        ],
+        [
+          67.3625,
+          10.75
+        ],
+        [
+          67.425,
+          10.75
+        ],
+        [
+          67.4875,
+          10.75
+        ],
+        [
+          67.55,
+          10.75
+        ],
+        [
+          67.6125,
+          10.75
+        ],
+        [
+          67.675,
+          10.75
+        ],
+        [
+          67.7375,
+          10.75
+        ],
+        [
+          67.8,
+          10.75
+        ],
+        [
+          67.8625,
+          10.75
+        ],
+        [
+          67.925,
+          10.75
+        ],
+        [
+          67.9875,
+          10.75
+        ],
+        [
+          68.05,
+          10.75
+        ],
+        [
+          68.1125,
+          10.75
+        ],
+        [
+          68.175,
+          10.75
+        ],
+        [
+          68.2375,
+          10.75
+        ],
+        [
+          68.3,
+          10.75
+        ],
+        [
+          68.3625,
+          10.75
+        ],
+        [
+          68.425,
+          10.75
+        ],
+        [
+          68.4875,
+          10.75
+        ],
+        [
+          68.55,
+          10.75
+        ],
+        [
+          68.6125,
+          10.75
+        ],
+        [
+          68.675,
+          10.75
+        ],
+        [
+          68.7375,
+          10.75
+        ],
+        [
+          68.8,
+          10.75
+        ]
+      ],
+      "correction": "Use a footprint-level contact datum and a profiled adapter seat; a height at one point is not a flat mounting plane."
+    }
+  ],
+  "pairs": [
+    {
+      "pair": [
+        "front_legs",
+        "main_outer_hinge"
+      ],
+      "distance_mm": 0.058512538129061015,
+      "intersection_mm3": 0.0,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": false
+    },
+    {
+      "pair": [
+        "front_bridges",
+        "main_outer_hinge"
+      ],
+      "distance_mm": 0.0,
+      "intersection_mm3": 0.5594728617842658,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": false
+    },
+    {
+      "pair": [
+        "front_collars",
+        "main_outer_hinge"
+      ],
+      "distance_mm": 0.013555212416673354,
+      "intersection_mm3": 0.0,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": false
+    },
+    {
+      "pair": [
+        "rear_legs",
+        "main_outer_hinge"
+      ],
+      "distance_mm": 21.507224518325664,
+      "intersection_mm3": 0.0,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": true
+    },
+    {
+      "pair": [
+        "rear_bridges",
+        "main_outer_hinge"
+      ],
+      "distance_mm": 21.5,
+      "intersection_mm3": 0.0,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": true
+    },
+    {
+      "pair": [
+        "rear_collars",
+        "main_outer_hinge"
+      ],
+      "distance_mm": 21.506183748580572,
+      "intersection_mm3": 0.0,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": true
+    },
+    {
+      "pair": [
+        "whole_carrier",
+        "main_outer_hinge"
+      ],
+      "distance_mm": 0.0,
+      "intersection_mm3": 0.5594728626544471,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": false
+    },
+    {
+      "pair": [
+        "whole_carrier",
+        "low_mother_skin"
+      ],
+      "distance_mm": 0.0,
+      "intersection_mm3": 0.7907437167122287,
+      "minimum_mm": 0.5,
+      "kind": "clearance",
+      "passed": false
+    }
+  ],
+  "classification": "Measured on unmodified R3.2 STEP plus independently reconstructed source features",
+  "note": "The ear has planar lands at Z10.75 and a rounded connecting arm reaching Z10.80. Rear leg Y66.8 is not the ear-center Y66.0. Do not substitute a point-ray height for a complete support plane.",
+  "stack_height_formula": "12.1 - z_actual_adapter_top; positive alone does not prove minimum structural thickness",
+  "nominal_stack_threshold_mm": 1.3,
+  "layer_1p6_conflict": "A 1.6-mm adapter above even the planar 10.75 datum reaches 12.35, exceeding the carrier underside 12.1 by 0.25 mm."
+}

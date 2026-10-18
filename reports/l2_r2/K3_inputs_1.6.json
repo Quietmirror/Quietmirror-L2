@@ -1,0 +1,223 @@
+{
+  "plan": "r2 section 1.2",
+  "mesh_mm": 1.6,
+  "root_y": 38.0,
+  "foot_nodes": 912,
+  "anchors": [
+    {
+      "node": 58560,
+      "xyz": [
+        -23.254996295775,
+        11.962911564475,
+        5.2
+      ],
+      "dofs": [
+        1,
+        2
+      ]
+    },
+    {
+      "node": 57484,
+      "xyz": [
+        23.157492610957,
+        12.079248113568,
+        5.2
+      ],
+      "dofs": [
+        2
+      ]
+    }
+  ],
+  "load_patches": [
+    {
+      "name": "palm_down_20N",
+      "patches": [
+        {
+          "triangles": 893,
+          "area_mm2": 590.7627708008152,
+          "center": [
+            -0.6358845255611754,
+            58.244055481318945,
+            29.100863384075474
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -20
+          ]
+        }
+      ],
+      "F_norm": 20.0,
+      "reference": 105.04
+    },
+    {
+      "name": "left_main_root_down_5N",
+      "patches": [
+        {
+          "triangles": 154,
+          "area_mm2": 101.06928467013417,
+          "center": [
+            14.973241677006593,
+            38.772861155371714,
+            20.542763230632847
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -5
+          ]
+        }
+      ],
+      "F_norm": 5.0,
+      "reference": 24.47
+    },
+    {
+      "name": "right_main_root_down_5N",
+      "patches": [
+        {
+          "triangles": 152,
+          "area_mm2": 103.23431328780029,
+          "center": [
+            -14.956628300078714,
+            38.83369520470686,
+            20.60100332274621
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -5
+          ]
+        }
+      ],
+      "F_norm": 5.0,
+      "reference": 23.93
+    },
+    {
+      "name": "side_1_switch_fence_inward_5N",
+      "patches": [
+        {
+          "triangles": 30,
+          "area_mm2": 21.702428612574447,
+          "center": [
+            17.011725911148012,
+            51.36589474434397,
+            13.025000000000002
+          ],
+          "resultant_N": [
+            -5,
+            0,
+            0
+          ]
+        }
+      ],
+      "F_norm": 5.0,
+      "reference": 32.81
+    },
+    {
+      "name": "side_2_switch_fence_inward_5N",
+      "patches": [
+        {
+          "triangles": 30,
+          "area_mm2": 21.70242861257446,
+          "center": [
+            17.729803532337005,
+            66.36589474434396,
+            13.025
+          ],
+          "resultant_N": [
+            -5,
+            0,
+            0
+          ]
+        }
+      ],
+      "F_norm": 5.0,
+      "reference": 27.38
+    },
+    {
+      "name": "LC3_squeeze_2x2N",
+      "patches": [
+        {
+          "triangles": 157,
+          "area_mm2": 134.58478052220323,
+          "center": [
+            -32.46766883651175,
+            58.30372503397986,
+            11.057475805657312
+          ],
+          "resultant_N": [
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "triangles": 160,
+          "area_mm2": 118.97251491963034,
+          "center": [
+            32.42447448243235,
+            57.43805296598718,
+            10.48419713115615
+          ],
+          "resultant_N": [
+            -2,
+            0,
+            0
+          ]
+        }
+      ],
+      "F_norm": 4.0,
+      "reference": 497.99
+    },
+    {
+      "name": "press_A_d16",
+      "patches": [
+        {
+          "triangles": 125,
+          "area_mm2": 99.49870725704935,
+          "center": [
+            11.830820141323036,
+            60.439009053721996,
+            29.700461769482636
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -5
+          ]
+        }
+      ],
+      "F_norm": 5.0,
+      "reference": 61.77
+    },
+    {
+      "name": "press_B_d16",
+      "patches": [
+        {
+          "triangles": 33,
+          "area_mm2": 29.54289016072395,
+          "center": [
+            -15.650124101014132,
+            66.02701792438054,
+            28.636469701894
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -5
+          ]
+        }
+      ],
+      "F_norm": 5.0,
+      "reference": 55.31
+    }
+  ],
+  "geometry": "Unchanged R3.2 BODY",
+  "traction": "Consistent quadratic triangular load; affine C3D10 faces: corner 0, midside A/3",
+  "outer_mask": "Roof vertical residual <0.35 mm; grip horizontal residual from superellipse <0.35 mm",
+  "limitations": [
+    "Author fem_variants.py and mesh/solver decks not supplied; compare independently generated mesh.",
+    "Affine midside nodes are retained to avoid the invalid curved mesh found in r1; convergence reported explicitly.",
+    "Nearest foot nodes realize the stated in-plane constraints; their exact coordinates may differ from author mesh."
+  ]
+}

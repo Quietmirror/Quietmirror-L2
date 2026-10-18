@@ -1,0 +1,572 @@
+{
+  "inputs": {
+    "plan": "r2 section 1.2",
+    "mesh_mm": 1.6,
+    "root_y": 38.0,
+    "foot_nodes": 912,
+    "anchors": [
+      {
+        "node": 58560,
+        "xyz": [
+          -23.254996295775,
+          11.962911564475,
+          5.2
+        ],
+        "dofs": [
+          1,
+          2
+        ]
+      },
+      {
+        "node": 57484,
+        "xyz": [
+          23.157492610957,
+          12.079248113568,
+          5.2
+        ],
+        "dofs": [
+          2
+        ]
+      }
+    ],
+    "load_patches": [
+      {
+        "name": "palm_down_20N",
+        "patches": [
+          {
+            "triangles": 893,
+            "area_mm2": 590.7627708008152,
+            "center": [
+              -0.6358845255611754,
+              58.244055481318945,
+              29.100863384075474
+            ],
+            "resultant_N": [
+              0,
+              0,
+              -20
+            ]
+          }
+        ],
+        "F_norm": 20.0,
+        "reference": 105.04
+      },
+      {
+        "name": "left_main_root_down_5N",
+        "patches": [
+          {
+            "triangles": 154,
+            "area_mm2": 101.06928467013417,
+            "center": [
+              14.973241677006593,
+              38.772861155371714,
+              20.542763230632847
+            ],
+            "resultant_N": [
+              0,
+              0,
+              -5
+            ]
+          }
+        ],
+        "F_norm": 5.0,
+        "reference": 24.47
+      },
+      {
+        "name": "right_main_root_down_5N",
+        "patches": [
+          {
+            "triangles": 152,
+            "area_mm2": 103.23431328780029,
+            "center": [
+              -14.956628300078714,
+              38.83369520470686,
+              20.60100332274621
+            ],
+            "resultant_N": [
+              0,
+              0,
+              -5
+            ]
+          }
+        ],
+        "F_norm": 5.0,
+        "reference": 23.93
+      },
+      {
+        "name": "side_1_switch_fence_inward_5N",
+        "patches": [
+          {
+            "triangles": 30,
+            "area_mm2": 21.702428612574447,
+            "center": [
+              17.011725911148012,
+              51.36589474434397,
+              13.025000000000002
+            ],
+            "resultant_N": [
+              -5,
+              0,
+              0
+            ]
+          }
+        ],
+        "F_norm": 5.0,
+        "reference": 32.81
+      },
+      {
+        "name": "side_2_switch_fence_inward_5N",
+        "patches": [
+          {
+            "triangles": 30,
+            "area_mm2": 21.70242861257446,
+            "center": [
+              17.729803532337005,
+              66.36589474434396,
+              13.025
+            ],
+            "resultant_N": [
+              -5,
+              0,
+              0
+            ]
+          }
+        ],
+        "F_norm": 5.0,
+        "reference": 27.38
+      },
+      {
+        "name": "LC3_squeeze_2x2N",
+        "patches": [
+          {
+            "triangles": 157,
+            "area_mm2": 134.58478052220323,
+            "center": [
+              -32.46766883651175,
+              58.30372503397986,
+              11.057475805657312
+            ],
+            "resultant_N": [
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "triangles": 160,
+            "area_mm2": 118.97251491963034,
+            "center": [
+              32.42447448243235,
+              57.43805296598718,
+              10.48419713115615
+            ],
+            "resultant_N": [
+              -2,
+              0,
+              0
+            ]
+          }
+        ],
+        "F_norm": 4.0,
+        "reference": 497.99
+      },
+      {
+        "name": "press_A_d16",
+        "patches": [
+          {
+            "triangles": 125,
+            "area_mm2": 99.49870725704935,
+            "center": [
+              11.830820141323036,
+              60.439009053721996,
+              29.700461769482636
+            ],
+            "resultant_N": [
+              0,
+              0,
+              -5
+            ]
+          }
+        ],
+        "F_norm": 5.0,
+        "reference": 61.77
+      },
+      {
+        "name": "press_B_d16",
+        "patches": [
+          {
+            "triangles": 33,
+            "area_mm2": 29.54289016072395,
+            "center": [
+              -15.650124101014132,
+              66.02701792438054,
+              28.636469701894
+            ],
+            "resultant_N": [
+              0,
+              0,
+              -5
+            ]
+          }
+        ],
+        "F_norm": 5.0,
+        "reference": 55.31
+      }
+    ],
+    "geometry": "Unchanged R3.2 BODY",
+    "traction": "Consistent quadratic triangular load; affine C3D10 faces: corner 0, midside A/3",
+    "outer_mask": "Roof vertical residual <0.35 mm; grip horizontal residual from superellipse <0.35 mm",
+    "limitations": [
+      "Author fem_variants.py and mesh/solver decks not supplied; compare independently generated mesh.",
+      "Affine midside nodes are retained to avoid the invalid curved mesh found in r1; convergence reported explicitly.",
+      "Nearest foot nodes realize the stated in-plane constraints; their exact coordinates may differ from author mesh."
+    ]
+  },
+  "results": [
+    {
+      "name": "palm_down_20N",
+      "nodes": 129775,
+      "elements": 70571,
+      "external_work_Nmm": 3.80280901577877,
+      "weighted_displacement_mm": 0.19014045078893851,
+      "k_N_per_mm": 105.18540330064005,
+      "max_displacement_mm": 0.44260012650564945,
+      "patches": [
+        {
+          "triangles": 893,
+          "area_mm2": 590.7627708008152,
+          "center": [
+            -0.6358845255611754,
+            58.244055481318945,
+            29.100863384075474
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -20
+          ]
+        }
+      ],
+      "document_k_N_per_mm": 105.04,
+      "deviation_percent": 0.13842660000003004,
+      "force_residual_N": [
+        -5.228119e-11,
+        3.220351e-11,
+        6.773200489362807e-07
+      ],
+      "moment_residual_Nmm": [
+        3.1215134185913485e-05,
+        -4.748484682792764e-06,
+        5.534907408012121e-09
+      ],
+      "force_balance_passed": true,
+      "moment_balance_passed": true,
+      "solver_reused_identical_input": false,
+      "within_document_3_percent": true
+    },
+    {
+      "name": "left_main_root_down_5N",
+      "nodes": 129775,
+      "elements": 70571,
+      "external_work_Nmm": 1.0536129281528588,
+      "weighted_displacement_mm": 0.21072258563057175,
+      "k_N_per_mm": 23.72787893161936,
+      "max_displacement_mm": 0.3367765520436108,
+      "patches": [
+        {
+          "triangles": 154,
+          "area_mm2": 101.06928467013417,
+          "center": [
+            14.973241677006593,
+            38.772861155371714,
+            20.542763230632847
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -5
+          ]
+        }
+      ],
+      "document_k_N_per_mm": 24.47,
+      "deviation_percent": -3.032779192401458,
+      "force_residual_N": [
+        1.795427e-11,
+        -4.1196227e-11,
+        4.129446020684213e-07
+      ],
+      "moment_residual_Nmm": [
+        1.3497079635271803e-05,
+        -3.2695099179136378e-06,
+        -1.5476487038754104e-09
+      ],
+      "force_balance_passed": true,
+      "moment_balance_passed": true,
+      "solver_reused_identical_input": false,
+      "within_document_3_percent": false
+    },
+    {
+      "name": "right_main_root_down_5N",
+      "nodes": 129775,
+      "elements": 70571,
+      "external_work_Nmm": 1.0703630458629634,
+      "weighted_displacement_mm": 0.2140726091725927,
+      "k_N_per_mm": 23.356561212223223,
+      "max_displacement_mm": 0.33849408218890265,
+      "patches": [
+        {
+          "triangles": 152,
+          "area_mm2": 103.23431328780029,
+          "center": [
+            -14.956628300078714,
+            38.83369520470686,
+            20.60100332274621
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -5
+          ]
+        }
+      ],
+      "document_k_N_per_mm": 23.93,
+      "deviation_percent": -2.39631754190045,
+      "force_residual_N": [
+        4.609598e-12,
+        -4.617359e-11,
+        -3.207008880679041e-09
+      ],
+      "moment_residual_Nmm": [
+        2.6807289259522804e-06,
+        7.725061777819064e-06,
+        -8.147420836985311e-11
+      ],
+      "force_balance_passed": true,
+      "moment_balance_passed": true,
+      "solver_reused_identical_input": false,
+      "within_document_3_percent": true
+    },
+    {
+      "name": "side_1_switch_fence_inward_5N",
+      "nodes": 129775,
+      "elements": 70571,
+      "external_work_Nmm": 0.7431091125679142,
+      "weighted_displacement_mm": 0.14862182251358286,
+      "k_N_per_mm": 33.64243497648563,
+      "max_displacement_mm": 0.2048597506805063,
+      "patches": [
+        {
+          "triangles": 30,
+          "area_mm2": 21.702428612574447,
+          "center": [
+            17.011725911148012,
+            51.36589474434397,
+            13.025000000000002
+          ],
+          "resultant_N": [
+            -5,
+            0,
+            0
+          ]
+        }
+      ],
+      "document_k_N_per_mm": 32.81,
+      "deviation_percent": 2.537137995993999,
+      "force_residual_N": [
+        1.7763568394002505e-15,
+        0.0,
+        -1.4345350091236192e-07
+      ],
+      "moment_residual_Nmm": [
+        -1.57974707912234e-05,
+        6.450962089843415e-06,
+        -1.9473685767934512e-05
+      ],
+      "force_balance_passed": true,
+      "moment_balance_passed": true,
+      "solver_reused_identical_input": false,
+      "within_document_3_percent": true
+    },
+    {
+      "name": "side_2_switch_fence_inward_5N",
+      "nodes": 129775,
+      "elements": 70571,
+      "external_work_Nmm": 0.8633894525244402,
+      "weighted_displacement_mm": 0.17267789050488805,
+      "k_N_per_mm": 28.95564675582172,
+      "max_displacement_mm": 0.1913323260905828,
+      "patches": [
+        {
+          "triangles": 30,
+          "area_mm2": 21.70242861257446,
+          "center": [
+            17.729803532337005,
+            66.36589474434396,
+            13.025
+          ],
+          "resultant_N": [
+            -5,
+            0,
+            0
+          ]
+        }
+      ],
+      "document_k_N_per_mm": 27.38,
+      "deviation_percent": 5.754736142519068,
+      "force_residual_N": [
+        4.440892098500626e-15,
+        0.0,
+        1.9968299993719518e-07
+      ],
+      "moment_residual_Nmm": [
+        1.787954579723916e-06,
+        -2.604590605415069e-06,
+        -2.4475859277117706e-06
+      ],
+      "force_balance_passed": true,
+      "moment_balance_passed": true,
+      "solver_reused_identical_input": false,
+      "within_document_3_percent": false
+    },
+    {
+      "name": "LC3_squeeze_2x2N",
+      "nodes": 129775,
+      "elements": 70571,
+      "external_work_Nmm": 0.03383529000705766,
+      "weighted_displacement_mm": 0.008458822501764414,
+      "k_N_per_mm": 472.87905605841064,
+      "max_displacement_mm": 0.031102885235280184,
+      "patches": [
+        {
+          "triangles": 157,
+          "area_mm2": 134.58478052220323,
+          "center": [
+            -32.46766883651175,
+            58.30372503397986,
+            11.057475805657312
+          ],
+          "resultant_N": [
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "triangles": 160,
+          "area_mm2": 118.97251491963034,
+          "center": [
+            32.42447448243235,
+            57.43805296598718,
+            10.48419713115615
+          ],
+          "resultant_N": [
+            -2,
+            0,
+            0
+          ]
+        }
+      ],
+      "document_k_N_per_mm": 497.99,
+      "deviation_percent": -5.042459475409022,
+      "force_residual_N": [
+        -1.5577149552581702e-11,
+        0.0,
+        -1.939979944265771e-09
+      ],
+      "moment_residual_Nmm": [
+        -1.6587220769137545e-07,
+        6.5748562083634e-07,
+        -3.299077833140984e-08
+      ],
+      "force_balance_passed": true,
+      "moment_balance_passed": true,
+      "solver_reused_identical_input": false,
+      "within_document_3_percent": false
+    },
+    {
+      "name": "press_A_d16",
+      "nodes": 129775,
+      "elements": 70571,
+      "external_work_Nmm": 0.4003548735468993,
+      "weighted_displacement_mm": 0.08007097470937986,
+      "k_N_per_mm": 62.444600158142926,
+      "max_displacement_mm": 0.10505240875342953,
+      "patches": [
+        {
+          "triangles": 125,
+          "area_mm2": 99.49870725704935,
+          "center": [
+            11.830820141323036,
+            60.439009053721996,
+            29.700461769482636
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -5
+          ]
+        }
+      ],
+      "document_k_N_per_mm": 61.77,
+      "deviation_percent": 1.0921161698930204,
+      "force_residual_N": [
+        -8.339282e-12,
+        7.780120000000001e-12,
+        -2.999030890293852e-08
+      ],
+      "moment_residual_Nmm": [
+        -1.9593471733969636e-08,
+        8.110100679914467e-08,
+        7.95961388775519e-10
+      ],
+      "force_balance_passed": true,
+      "moment_balance_passed": true,
+      "solver_reused_identical_input": false,
+      "within_document_3_percent": true
+    },
+    {
+      "name": "press_B_d16",
+      "nodes": 129775,
+      "elements": 70571,
+      "external_work_Nmm": 0.4660769426764232,
+      "weighted_displacement_mm": 0.09321538853528463,
+      "k_N_per_mm": 53.639212136173846,
+      "max_displacement_mm": 0.11522805776233234,
+      "patches": [
+        {
+          "triangles": 33,
+          "area_mm2": 29.54289016072395,
+          "center": [
+            -15.650124101014132,
+            66.02701792438054,
+            28.636469701894
+          ],
+          "resultant_N": [
+            0,
+            0,
+            -5
+          ]
+        }
+      ],
+      "document_k_N_per_mm": 55.31,
+      "deviation_percent": -3.0207699581018876,
+      "force_residual_N": [
+        -1.239956e-11,
+        5.931689999999999e-12,
+        -7.646181732212654e-08
+      ],
+      "moment_residual_Nmm": [
+        -4.1183694747815025e-06,
+        -7.14070736762551e-07,
+        1.0458797086192493e-09
+      ],
+      "force_balance_passed": true,
+      "moment_balance_passed": true,
+      "solver_reused_identical_input": false,
+      "within_document_3_percent": false
+    }
+  ],
+  "all_eight_within_3_percent": false,
+  "balance_passed": true,
+  "final_L2_stiffness_certified": false
+}

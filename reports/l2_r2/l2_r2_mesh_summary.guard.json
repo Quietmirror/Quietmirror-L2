@@ -1,0 +1,12 @@
+{
+  "command": [
+    "D:\\Quietmirror_L2\\_support\\venv\\Scripts\\python.exe",
+    "D:\\Quietmirror_L2\\cad\\l2_r2\\summarize_fem.py"
+  ],
+  "returncode": 0,
+  "reason": null,
+  "seconds": 32.01,
+  "memory_cap_gib": 4.0,
+  "peak_job_memory_gib": 0.392,
+  "log": "D:\\Quietmirror_L2\\_support\\logs\\l2_r2_mesh_summary.log"
+}
