@@ -47,7 +47,9 @@ def model_files(script):
         # construction parameters and named fixed-bearing feature solids.
         # Unrelated movable parts/electronics are not window-check inputs.
         paths=[parts/'BODY.step',ROOT/'models/L2_r3/inputs/R32_BASELINE.FCStd',ROOT/'cad/rebuild_r2/parameters.json',ROOT/'cad/rebuild_r2/build.py',*sorted((ROOT/'models/L2_r4/validation_features').glob('*FIXED_BEARINGS.step'))]
-        if stem=='combine_windows':paths.extend(RP/f'window_{i}.json' for i in range(6))
+        if stem=='combine_windows':
+            paths.extend(RP/f'window_{i}.json' for i in range(6))
+            paths.append(ROOT/'models/L2_r4/validation_features/SWITCH_MIDDLE_MOUNT.step')
         return paths
     if stem in ['slice_plate','trial_and_plate_views']:
         return sorted(parts.glob('*.stl'))+[HERE/'PLA_0.4_0.20_ESTIMATE.ini']+sorted((ROOT/'models/L2_r4/reference').glob('*F2_TRIAL.step'))
@@ -76,7 +78,7 @@ def model_files(script):
         'combine_side_motion':[f'side_{g}_{i}.json' for g in ['sf','sr'] for i in range(5)],
         'mesh_metrics':['solids.json'],
         'render':['assembly_inventory.json','side_actuation_force_and_tuning.json','assembly_routes_final.json'],
-        'plot_checks':['side_motion_raw.json','main_and_wheel_motion_raw.json','side_functional_motion.json']}
+        'plot_checks':['main_and_wheel_motion_raw.json','side_functional_motion.json']}
     paths.extend(RP/p for p in report_inputs.get(stem,[]))
     paths.extend([ROOT/'cad/rebuild_r2/parameters.json',ROOT/'cad/rebuild_r3_2/electronics.json',ROOT/'reports/rebuild_r3_2/design_metadata.json'])
     return sorted(set(paths))

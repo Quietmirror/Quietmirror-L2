@@ -8,14 +8,14 @@ ROOT=Path(__file__).resolve().parents[2];RP=ROOT/'reports/l2_r4';OUT=ROOT/'views
 
 def main():
     OUT.mkdir(parents=True,exist_ok=True)
-    for file,title,stem in [('side_motion_raw.json','Side lever full BODY contact-inclusive samples','SIDE_EXACT_MOTION_CURVES'),('main_and_wheel_motion_raw.json','Main keys and wheel group exact sampled motion','MAIN_WHEEL_EXACT_MOTION_CURVES')]:
+    for file,title,stem in [('side_functional_motion.json','Side lever full BODY contact-inclusive samples','SIDE_EXACT_MOTION_CURVES'),('main_and_wheel_motion_raw.json','Main keys and wheel group exact sampled motion','MAIN_WHEEL_EXACT_MOTION_CURVES')]:
         p=RP/file
         if not p.exists():continue
         groups=json.loads(p.read_text());fig,axes=plt.subplots(len(groups),2,figsize=(12,3.2*len(groups)),squeeze=False,layout='constrained')
         for index,g in enumerate(groups):
             a=[s['angle_deg'] for s in g['samples']];gaps=[];ovs=[]
             for sample in g['samples']:
-                pairs=sample.get('pairs',[sample]);gaps.append(min(s['gap_mm'] for s in pairs));ovs.append(max(s['overlap_mm3'] for s in pairs))
+                pairs=sample.get('pairs',[sample.get('full',sample)]);gaps.append(min(s['gap_mm'] for s in pairs));ovs.append(max(s['overlap_mm3'] for s in pairs))
             for col,ys,label in [(0,gaps,'Exact minimum gap / mm'),(1,ovs,'Maximum pair intersection / mm^3')]:
                 ax=axes[index,col];ax.plot(a,ys,'.-',linewidth=1);ax.set(xlabel='Rigid rotation / degrees',ylabel=label,title=g.get('part',g.get('group')));ax.grid(alpha=.25)
                 if col==1:ax.axhline(.001,color='red',linestyle='--',label='0.001 mm^3');ax.legend(fontsize=8)

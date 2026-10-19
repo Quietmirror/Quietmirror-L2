@@ -7,6 +7,7 @@ are separated from the remaining fixed material. Unrecognized failures fail.
 import itertools,json
 from common import *
 from exact_distance import pair
+from partition_check import subtract
 from side_module import KEYS,RETAINER_MOUNTS
 
 def collar(feature,d):
@@ -19,10 +20,10 @@ def collar(feature,d):
 
 def mate(actor,fixed,feature,actor_name,fixed_name,required,label,raw):
     mask=collar(feature,required+.00001)
-    rest=fixed.cut(mask)
+    rest,partition=subtract(fixed,mask,actor_name+'/'+fixed_name+' '+label)
     check=pair(actor,rest,actor_name,fixed_name,required)
     return dict(classification=label,source_feature_bounds_mm=[bounds(s) for s in feature.Solids()],
-        seam_collar_mm=required,nonfunctional=check,
+        seam_collar_mm=required,nonfunctional=check,functional_partition=partition,
         passed=raw['overlap_mm3']<=.001 and check['pass_check'],
         note='Collar accounts only for continuous geometry next to the named mating feature; full-solid overlap must still pass.')
 

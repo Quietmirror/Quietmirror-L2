@@ -5,6 +5,7 @@ from common import *
 from exact_distance import pair
 from contact_audit import collar,rigid_housing
 from bounded_scene import scene_pairs
+from partition_check import subtract
 
 def main(selected_group=None,report_name='main_and_wheel_motion_raw.json',angle_indices=None):
     inv=json.loads((RP/'assembly_inventory.json').read_text());meta=json.loads((ROOT/'reports/rebuild_r3_2/design_metadata.json').read_text())
@@ -26,7 +27,7 @@ def main(selected_group=None,report_name='main_and_wheel_motion_raw.json',angle_
         housing=rigid_housing(hw[mo['switch']],mo)
         fixed[mo['switch']+'_RIGID_HOUSING']=housing
         named=unite(features[n+'_FIXED_BEARINGS'],features[n+'_PRESS_STOP'])
-        nonfunctional_body=parts['BODY'].cut(collar(named,.30001))
+        nonfunctional_body,partition=subtract(parts['BODY'],collar(named,.30001),n+' fixed bearings and press stop')
         ori=mo['origin'];axis=[ori[0]+1,*ori[1:]];angles=np.linspace(-4.4,4.4,23) if n=='WHEEL_CARRIER' else np.linspace(-.5,3.1,25)
         if angle_indices is not None:angles=angles[np.asarray(angle_indices,dtype=int)]
         samples=[]
@@ -55,7 +56,7 @@ def main(selected_group=None,report_name='main_and_wheel_motion_raw.json',angle_
             if len(samples)%5==0:
                 save(report_name.replace('.json','_progress.json'),dict(status='PARTIAL_NOT_ACCEPTANCE',group=n,completed_poses=len(samples),expected_poses=len(angles),last_angle_deg=float(a),failures=[dict(angle=s['angle_deg'],items=[c for c in s['functional_classification'] if not c['passed']]) for s in samples if not s['passed']]))
                 if os.getenv('GITHUB_ACTIONS')=='true':subprocess.run([sys.executable,str(HERE/'ci_checkpoint.py')],cwd=ROOT,check=True)
-        rows.append(dict(group=n,members=group,origin_mm=ori,axis=axis,samples=samples,passed=all(s['passed'] for s in samples),
+        rows.append(dict(group=n,members=group,origin_mm=ori,axis=axis,samples=samples,functional_partition=partition,passed=all(s['passed'] for s in samples),
                          scope='Exact at listed poses; rigid housing and complete wheel children. Functional stops and journals still require local contact classification.'))
         save(report_name,rows)
 
