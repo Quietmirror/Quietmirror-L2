@@ -42,13 +42,29 @@ def model_files(script):
     if stem=='side_fem':return [parts/(n+'.step') for n in ['BODY','SF_RETAINER','SR_RETAINER']]
     if stem=='fem_reference':return [ROOT/'models/L2_r3/inputs/R32_BASELINE.FCStd']
     if stem=='fem_geometry_investigation':return [parts/'BODY.step',ROOT/'models/L2_r3/parts/BODY.step',ROOT/'cad/l2_fem_author/variants/R4_SIDE_FRAME_ONLY.step',ROOT/'exports/l2_r2_diagnostic/support_reference/MOTHER_OUTER_FROM_R32_SURFACE.step']
-    if stem=='window_checks' or stem.startswith('window_'):
+    if stem in ['window_checks','combine_windows'] or stem.startswith('window_'):
         # These checks read only the final BODY, immutable baseline archive,
         # construction parameters and named fixed-bearing feature solids.
         # Unrelated movable parts/electronics are not window-check inputs.
-        return [parts/'BODY.step',ROOT/'models/L2_r3/inputs/R32_BASELINE.FCStd',ROOT/'cad/rebuild_r2/parameters.json',ROOT/'cad/rebuild_r2/build.py',*sorted((ROOT/'models/L2_r4/validation_features').glob('*FIXED_BEARINGS.step'))]
+        paths=[parts/'BODY.step',ROOT/'models/L2_r3/inputs/R32_BASELINE.FCStd',ROOT/'cad/rebuild_r2/parameters.json',ROOT/'cad/rebuild_r2/build.py',*sorted((ROOT/'models/L2_r4/validation_features').glob('*FIXED_BEARINGS.step'))]
+        if stem=='combine_windows':paths.extend(RP/f'window_{i}.json' for i in range(6))
+        return paths
     if stem in ['slice_plate','trial_and_plate_views']:
         return sorted(parts.glob('*.stl'))+[HERE/'PLA_0.4_0.20_ESTIMATE.ini']+sorted((ROOT/'models/L2_r4/reference').glob('*F2_TRIAL.step'))
+    if stem in ['diagnostic_checks','exterior_audit','mesh_metrics','wall_audit','mesh_self_intersection','mechanism_accounting']:
+        paths=[*sorted(parts.glob('*.step')),*sorted(parts.glob('*.stl')),ROOT/'cad/rebuild_r2/parameters.json',ROOT/'reports/rebuild_r3_2/design_metadata.json',RP/'assembly_inventory.json']
+        names={'diagnostic_checks':['SF_TUNING_SHIM_0p33','SR_TUNING_SHIM_0p33'],
+               'exterior_audit':['SF_VERTICAL_PIN','SR_VERTICAL_PIN'],
+               'mechanism_accounting':['SF_TUNING_SHIM_0p33','SR_TUNING_SHIM_0p33','MATCHED_LENS_EST']}.get(stem,[])
+        paths.extend(ROOT/'models/L2_r4/reference'/(n+'.step') for n in names)
+        if stem=='mesh_metrics':paths.append(RP/'solids.json')
+        return paths
+    if stem in ['assembly_paths','plan_sf_route']:
+        paths=[parts/(n+'.step') for n in ['BODY','SF_RETAINER','SR_RETAINER']]
+        paths.extend(ROOT/'models/L2_r4/reference'/(n+'.step') for n in ['SF_D2F_01F','SR_D2F_01F'])
+        paths.extend(ROOT/'cad/l2_r4_author'/n for n in ['guided_routes.json','loose_parts.json'])
+        if stem=='assembly_paths':paths.append(RP/'SF_route_planning.json')
+        return paths
     paths=list(parts.glob('*.step'))
     if stem in ['main_motion_checks','contact_audit','contact_audit_final','combine_motion'] or stem.startswith('motion_'):paths.extend((ROOT/'models/L2_r4/validation_features').glob('*.step'))
     inv=RP/'assembly_inventory.json'
@@ -57,6 +73,7 @@ def model_files(script):
     report_inputs={'contact_audit':['static_pairs.json','component_pairs.json','side_functional_motion.json'],
         'contact_audit_final':['static_pairs.json','component_pairs.json','side_functional_motion.json'],
         'combine_motion':[f'motion_{g}_{i}.json' for g in ['left','right','wheel'] for i in range(5)],
+        'combine_side_motion':[f'side_{g}_{i}.json' for g in ['sf','sr'] for i in range(5)],
         'mesh_metrics':['solids.json'],
         'render':['assembly_inventory.json','side_actuation_force_and_tuning.json','assembly_routes_final.json'],
         'plot_checks':['side_motion_raw.json','main_and_wheel_motion_raw.json','side_functional_motion.json']}

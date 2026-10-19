@@ -60,13 +60,18 @@ def main(selected_index=None,report_name='six_window_samples.json'):
         # Use the actual R3.2 source window, including the deliberately kept
         # finger-contact bands, rather than a fictitious full-depth polygon.
         tool=original_tool.mirror('YZ')
-        top=max([f for f in tool.Faces() if f.geomType()=='PLANE' and abs(f.normalAt().z)>.99],key=lambda f:f.Center().z)
-        wire=top.outerWire();bb=tool.BoundingBox()
+        roof_face=max([f for f in outer.Faces() if f.geomType()=='BSPLINE'],key=lambda f:f.Area())
+        opening_patch=roof_face.intersect(tool)
+        wires=[f.outerWire() for f in opening_patch.Faces()]
+        assert wires,('No actual roof aperture',name)
+        lengths=np.array([w.Length() for w in wires]);cumulative=np.cumsum(lengths)
+        bb=tool.BoundingBox()
         crop=box(bb.xmin-1,bb.xmax+1,bb.ymin-1,bb.ymax+1,0,50)
         local=b.intersect(crop);oldlocal=old.intersect(crop)
         boundary=[]
         for i in range(200):
-            p=wire.positionAt((i+.314159)/200)
+            arc=(i+.314159)/200*cumulative[-1];wi=int(np.searchsorted(cumulative,arc));start=0 if wi==0 else cumulative[wi-1]
+            u=(arc-start)/lengths[wi];wire=wires[wi];p=wire.positionAt(u)
             oi=z_interval(outer,p.x,p.y)
             if not oi:raise RuntimeError('Window outside mother surface '+name)
             if i<3:
@@ -75,10 +80,12 @@ def main(selected_index=None,report_name='six_window_samples.json'):
                 hit=outer.intersect(cq.Edge.makeLine(V(p.x,p.y,-1),V(p.x,p.y,50)))
                 zs=[q.z for e in hit.Edges() for q in [e.startPoint(),e.endPoint()]]
                 assert zs and np.allclose(oi,[min(zs),max(zs)],atol=1e-6,rtol=0),(name,i,oi,zs)
-            q=V(p.x,p.y,oi[1]);d=cq.Vertex.makeVertex(*q.toTuple()).distance(local)
-            t=wire.tangentAt((i+.314159)/200);normal=V(-t.y,t.x,0).normalized()
-            if not contains(tool,V(p.x+normal.x*.2,p.y+normal.y*.2,30),1e-7):normal=-normal
+            q=p;assert abs(q.z-oi[1])<1e-5,(name,i,q.toTuple(),oi)
+            d=cq.Vertex.makeVertex(*q.toTuple()).distance(local)
+            t=wire.tangentAt(u);normal=roof_face.normalAt(q).cross(t).normalized()
+            if not contains(tool,q+normal*.2,1e-7):normal=-normal
             qp=q+normal*.2
+            assert contains(tool,qp,1e-7),('Inward surface-normal point left the actual cut domain',name,i)
             inside=bool(contains(local,qp,1e-7));reasons=sorted(set(exceptions(q)+exceptions(qp))) if d>.01 or inside else []
             boundary.append(dict(point_mm=q.toTuple(),distance_mm=d,inward_point_mm=qp.toTuple(),inward_inside=inside,baseline_inside=bool(contains(oldlocal,qp,1e-7)),declared_regions=reasons,classified_pass=(d<=.01 and not inside) or bool(reasons)))
         full=[];roof=[];empty_columns=0
@@ -103,7 +110,7 @@ def main(selected_index=None,report_name='six_window_samples.json'):
                 if not contains(tool,p,1e-7):continue
                 inside=bool(contains(local,p,1e-7));reasons=exceptions(p) if inside else []
                 roof.append(dict(point_mm=p.toTuple(),inside=inside,baseline_inside=bool(contains(oldlocal,p,1e-7)),declared_regions=reasons,classified_pass=not inside or bool(reasons)))
-        r=dict(window=name,assembly_x_mirrored=True,boundary=boundary,full_prism=full,roof_shell_band=roof,empty_columns_above_mother=empty_columns,
+        r=dict(window=name,assembly_x_mirrored=True,boundary=boundary,full_prism=full,roof_shell_band=roof,empty_columns_above_mother=empty_columns,actual_aperture_wires=len(wires),boundary_sampling='200 arc-length samples of original roof-face intersection with actual R3.2 cut tool, including its lower cut plane and contact masks;0.2mm inward in the local roof tangent plane',
                boundary_raw_pass=all(p['distance_mm']<=.01 and not p['inward_inside'] for p in boundary),
                full_prism_raw_pass=not any(p['inside'] for p in full),roof_band_raw_pass=not any(p['inside'] for p in roof),
                full_prism_new_invasions=sum(p['inside'] and not p['baseline_inside'] for p in full),
