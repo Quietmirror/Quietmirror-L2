@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "C12 unchanged integral frame loose-part assembly",
+  "source_commit": "af4c75463101fb62b3b4346bb8193d7ca7de3cc8",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 4.54,
+      "available_memory_before_GB": 15.614758912,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
