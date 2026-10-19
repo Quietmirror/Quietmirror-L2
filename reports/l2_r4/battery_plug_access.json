@@ -1,0 +1,739 @@
+{
+  "trials": [
+    {
+      "profile": "full_side",
+      "probes": [
+        {
+          "bounds_mm": [
+            -21.55,
+            58.0,
+            20.8,
+            -20.55,
+            63.0,
+            40.0
+          ],
+          "exact_global_minimum_mm": 0.7743277290377306,
+          "measured_pairs": [
+            {
+              "a": "BATTERY_PLUG_ACCESS_FINGER",
+              "b": "BODY",
+              "gap_mm": 0.7743277290377306,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.05,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  -20.55,
+                  63.0,
+                  28.464057310176038
+                ],
+                [
+                  -20.37307727227827,
+                  63.75384466594417,
+                  28.464057310176038
+                ]
+              ]
+            }
+          ],
+          "pruned_pairs": [
+            {
+              "part": "SR_RETAINER",
+              "lower_bound_mm": 35.3738957424822,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER",
+              "lower_bound_mm": 35.50088027077639,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_D2F_01F",
+              "lower_bound_mm": 35.53216852374761,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_D2F_01F",
+              "lower_bound_mm": 35.87356268897752,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_M2x5",
+              "lower_bound_mm": 36.036405203627076,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_M2x5",
+              "lower_bound_mm": 37.11485551635626,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_REAR_KEY",
+              "lower_bound_mm": 45.96982705786481,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_FRONT_KEY",
+              "lower_bound_mm": 46.01116711560357,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_VERTICAL_PIN",
+              "lower_bound_mm": 47.955656600655566,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_VERTICAL_PIN",
+              "lower_bound_mm": 49.09322763885055,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            }
+          ],
+          "passed": true
+        },
+        {
+          "bounds_mm": [
+            -15.45,
+            58.0,
+            20.8,
+            -14.45,
+            63.0,
+            40.0
+          ],
+          "exact_global_minimum_mm": 0.0,
+          "measured_pairs": [
+            {
+              "a": "BATTERY_PLUG_ACCESS_FINGER",
+              "b": "BODY",
+              "gap_mm": 0.0,
+              "overlap_mm3": 1.0079076115001522,
+              "required_mm": 0.05,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  -15.45,
+                  63.0,
+                  27.620743010262636
+                ],
+                [
+                  -15.45,
+                  63.0,
+                  27.620743010262636
+                ]
+              ]
+            }
+          ],
+          "pruned_pairs": [
+            {
+              "part": "SR_RETAINER",
+              "lower_bound_mm": 29.278874636843543,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER",
+              "lower_bound_mm": 29.43216777609152,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_D2F_01F",
+              "lower_bound_mm": 29.46989989803155,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_D2F_01F",
+              "lower_bound_mm": 29.778389815434952,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_M2x5",
+              "lower_bound_mm": 30.075945537921168,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_M2x5",
+              "lower_bound_mm": 31.360046237210813,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_REAR_KEY",
+              "lower_bound_mm": 39.87286044078101,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_FRONT_KEY",
+              "lower_bound_mm": 39.92051476797361,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_VERTICAL_PIN",
+              "lower_bound_mm": 41.91473487927605,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_VERTICAL_PIN",
+              "lower_bound_mm": 43.21163037886907,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            }
+          ],
+          "passed": false
+        }
+      ],
+      "passed": false
+    },
+    {
+      "profile": "front2mm",
+      "probes": [
+        {
+          "bounds_mm": [
+            -21.55,
+            58.0,
+            20.8,
+            -20.55,
+            60.0,
+            40.0
+          ],
+          "exact_global_minimum_mm": 3.6949696136341204,
+          "measured_pairs": [
+            {
+              "a": "BATTERY_PLUG_ACCESS_FINGER",
+              "b": "BODY",
+              "gap_mm": 3.6949696136341204,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.05,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  -20.55,
+                  60.0,
+                  28.67498090120491
+                ],
+                [
+                  -19.705752689229843,
+                  63.59722767196307,
+                  28.67498090120491
+                ]
+              ]
+            }
+          ],
+          "pruned_pairs": [
+            {
+              "part": "SR_RETAINER",
+              "lower_bound_mm": 35.3738957424822,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER",
+              "lower_bound_mm": 35.50088027077639,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_D2F_01F",
+              "lower_bound_mm": 35.53216852374761,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_D2F_01F",
+              "lower_bound_mm": 35.87356268897752,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_M2x5",
+              "lower_bound_mm": 36.62270470623382,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_M2x5",
+              "lower_bound_mm": 37.11485551635626,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_REAR_KEY",
+              "lower_bound_mm": 45.96982705786481,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_FRONT_KEY",
+              "lower_bound_mm": 46.01116711560357,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_VERTICAL_PIN",
+              "lower_bound_mm": 48.43495638482602,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_VERTICAL_PIN",
+              "lower_bound_mm": 49.09322763885055,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            }
+          ],
+          "passed": true
+        },
+        {
+          "bounds_mm": [
+            -15.45,
+            58.0,
+            20.8,
+            -14.45,
+            60.0,
+            40.0
+          ],
+          "exact_global_minimum_mm": 2.094482688021976,
+          "measured_pairs": [
+            {
+              "a": "BATTERY_PLUG_ACCESS_FINGER",
+              "b": "BODY",
+              "gap_mm": 2.094482688021976,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.05,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  -14.45,
+                  58.0,
+                  28.12451367919916
+                ],
+                [
+                  -13.196137781654459,
+                  56.32229702633948,
+                  28.124513678997168
+                ]
+              ]
+            }
+          ],
+          "pruned_pairs": [
+            {
+              "part": "SR_RETAINER",
+              "lower_bound_mm": 29.278874636843543,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER",
+              "lower_bound_mm": 29.43216777609152,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_D2F_01F",
+              "lower_bound_mm": 29.46989989803155,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_D2F_01F",
+              "lower_bound_mm": 29.778389815434952,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_M2x5",
+              "lower_bound_mm": 30.77600526384151,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_M2x5",
+              "lower_bound_mm": 31.360046237210813,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_REAR_KEY",
+              "lower_bound_mm": 39.87286044078101,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_FRONT_KEY",
+              "lower_bound_mm": 39.92051476797361,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_VERTICAL_PIN",
+              "lower_bound_mm": 42.46227737651385,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_VERTICAL_PIN",
+              "lower_bound_mm": 43.21163037886907,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            }
+          ],
+          "passed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "profile": "rear2mm",
+      "probes": [
+        {
+          "bounds_mm": [
+            -21.55,
+            61.0,
+            20.8,
+            -20.55,
+            63.0,
+            40.0
+          ],
+          "exact_global_minimum_mm": 0.7743277290377306,
+          "measured_pairs": [
+            {
+              "a": "BATTERY_PLUG_ACCESS_FINGER",
+              "b": "BODY",
+              "gap_mm": 0.7743277290377306,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.05,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  -20.55,
+                  63.0,
+                  28.464057310176038
+                ],
+                [
+                  -20.37307727227827,
+                  63.75384466594417,
+                  28.464057310176038
+                ]
+              ]
+            }
+          ],
+          "pruned_pairs": [
+            {
+              "part": "SR_RETAINER",
+              "lower_bound_mm": 35.3738957424822,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_D2F_01F",
+              "lower_bound_mm": 35.87356268897752,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER",
+              "lower_bound_mm": 35.87913739208344,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_D2F_01F",
+              "lower_bound_mm": 35.93932386676188,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_M2x5",
+              "lower_bound_mm": 36.036405203627076,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_M2x5",
+              "lower_bound_mm": 38.07246380259623,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_REAR_KEY",
+              "lower_bound_mm": 45.96982705786481,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_FRONT_KEY",
+              "lower_bound_mm": 46.23556530139974,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_VERTICAL_PIN",
+              "lower_bound_mm": 47.955656600655566,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_VERTICAL_PIN",
+              "lower_bound_mm": 49.923391311087826,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            }
+          ],
+          "passed": true
+        },
+        {
+          "bounds_mm": [
+            -15.45,
+            61.0,
+            20.8,
+            -14.45,
+            63.0,
+            40.0
+          ],
+          "exact_global_minimum_mm": 0.0,
+          "measured_pairs": [
+            {
+              "a": "BATTERY_PLUG_ACCESS_FINGER",
+              "b": "BODY",
+              "gap_mm": 0.0,
+              "overlap_mm3": 1.0079076115002237,
+              "required_mm": 0.05,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  -15.45,
+                  63.0,
+                  27.620743010262636
+                ],
+                [
+                  -15.45,
+                  63.0,
+                  27.620743010262636
+                ]
+              ]
+            }
+          ],
+          "pruned_pairs": [
+            {
+              "part": "SR_RETAINER",
+              "lower_bound_mm": 29.278874636843543,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_D2F_01F",
+              "lower_bound_mm": 29.778389815434952,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER",
+              "lower_bound_mm": 29.887330091528753,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_D2F_01F",
+              "lower_bound_mm": 29.95955607147743,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_M2x5",
+              "lower_bound_mm": 30.075945537921168,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_M2x5",
+              "lower_bound_mm": 32.48772845244801,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_REAR_KEY",
+              "lower_bound_mm": 39.87286044078101,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_FRONT_KEY",
+              "lower_bound_mm": 40.17894347466094,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_VERTICAL_PIN",
+              "lower_bound_mm": 41.91473487927605,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_VERTICAL_PIN",
+              "lower_bound_mm": 44.152519746895535,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            }
+          ],
+          "passed": false
+        }
+      ],
+      "passed": false
+    }
+  ],
+  "probes": [
+    {
+      "bounds_mm": [
+        -21.55,
+        58.0,
+        20.8,
+        -20.55,
+        60.0,
+        40.0
+      ],
+      "exact_global_minimum_mm": 3.6949696136341204,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_PLUG_ACCESS_FINGER",
+          "b": "BODY",
+          "gap_mm": 3.6949696136341204,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.05,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -20.55,
+              60.0,
+              28.67498090120491
+            ],
+            [
+              -19.705752689229843,
+              63.59722767196307,
+              28.67498090120491
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_RETAINER",
+          "lower_bound_mm": 35.3738957424822,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        },
+        {
+          "part": "SF_RETAINER",
+          "lower_bound_mm": 35.50088027077639,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        },
+        {
+          "part": "SF_D2F_01F",
+          "lower_bound_mm": 35.53216852374761,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        },
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 35.87356268897752,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        },
+        {
+          "part": "SR_RETAINER_M2x5",
+          "lower_bound_mm": 36.62270470623382,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        },
+        {
+          "part": "SF_RETAINER_M2x5",
+          "lower_bound_mm": 37.11485551635626,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 45.96982705786481,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 46.01116711560357,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 48.43495638482602,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 49.09322763885055,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "bounds_mm": [
+        -15.45,
+        58.0,
+        20.8,
+        -14.45,
+        60.0,
+        40.0
+      ],
+      "exact_global_minimum_mm": 2.094482688021976,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_PLUG_ACCESS_FINGER",
+          "b": "BODY",
+          "gap_mm": 2.094482688021976,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.05,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -14.45,
+              58.0,
+              28.12451367919916
+            ],
+            [
+              -13.196137781654459,
+              56.32229702633948,
+              28.124513678997168
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_RETAINER",
+          "lower_bound_mm": 29.278874636843543,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        },
+        {
+          "part": "SF_RETAINER",
+          "lower_bound_mm": 29.43216777609152,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        },
+        {
+          "part": "SF_D2F_01F",
+          "lower_bound_mm": 29.46989989803155,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        },
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 29.778389815434952,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        },
+        {
+          "part": "SR_RETAINER_M2x5",
+          "lower_bound_mm": 30.77600526384151,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        },
+        {
+          "part": "SF_RETAINER_M2x5",
+          "lower_bound_mm": 31.360046237210813,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 39.87286044078101,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 39.92051476797361,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 42.46227737651385,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 43.21163037886907,
+          "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "chosen_profile": "front2mm",
+  "plug_bounds_mm": [
+    -20.5,
+    57.5,
+    20.8,
+    -15.5,
+    63.5,
+    23.8
+  ],
+  "passed": true,
+  "definition": "Two1mm-thick straight tool fingers from+Z. Front/rear profiles contact2mm of the6mm estimated connector side. Remove main keys, wheel carrier and screwed H modules; retain BODY and side module. These are explicit tool-shape proposals, not a physical latch/force test."
+}
