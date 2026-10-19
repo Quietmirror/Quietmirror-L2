@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "main_motion_timing",
   "source_commit": "e9191c0d7dfb7f3de006641ca1e4e4c79a8608b9",
   "steps": [
