@@ -1,0 +1,1090 @@
+{
+  "reports/l2_r4/fem/G8.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "631bc8a662c15eeb6f2b35d0b7290cd72e8f2755d3f5e25db9d82bad33d05545",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/stiffness.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "2f16ae71a528f5d9f26848831847d69b53a86668e5b7820ada435bfcbe9c5ea1",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/palm_down_20N/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "bc7a8c22771c57fbc5bfe815b895b52a9a0d9f28f62eb23736647ae94f4b2f70",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/palm_down_20N/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "d01e16f03534254ee6f56cc038a518b5501c5483e8f3ffad6f45292ec1513ff8",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/palm_down_20N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "49d3f3d7c8200c9d5b6d38799f61f2ef1b86f6188991add897342424627c08d8",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/press_B_d16_x-14_y72/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "1c36cbe8ab22a83920b519ff2981b7f9caeacf41708d4d308cde6173d6fd186c",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/press_B_d16_x-14_y72/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "04296ae6b136e468dfa5ad3dffba8a1c308961c342f68ad654038b68238b23c7",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/press_B_d16_x-14_y72/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "49d3f3d7c8200c9d5b6d38799f61f2ef1b86f6188991add897342424627c08d8",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/press_A_d16_x14_y60/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "f9472ea112411b525c50893bba31c7d4ed8c52b6712652c568bdb43393d40a1c",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/press_A_d16_x14_y60/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "a2d92a8179f7c02bc230c86c860bff39f05138bea17978f4eef304852faf7036",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/press_A_d16_x14_y60/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "49d3f3d7c8200c9d5b6d38799f61f2ef1b86f6188991add897342424627c08d8",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/AUTHOR_MASK_left_main_root_down_5N/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "77a5b596547c6f4db4b00f171bac24405d05c8f9226edb085577f258beaba0aa",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/AUTHOR_MASK_left_main_root_down_5N/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "adc5e13fa27ca2195bd40c3fc23df78f6cde21e87e7e7e85750b253e10defcea",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/AUTHOR_MASK_left_main_root_down_5N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "49d3f3d7c8200c9d5b6d38799f61f2ef1b86f6188991add897342424627c08d8",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/LC3_squeeze_2x2N/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "dec96ff7736b0bfb3ac4185a49d17e45131ba5be33e105aa23691befb46fd111",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/LC3_squeeze_2x2N/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "2bc047385ca57a24de46112da23d9dbca8d15fb3817f33b615db2deaf3ae0099",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/LC3_squeeze_2x2N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "49d3f3d7c8200c9d5b6d38799f61f2ef1b86f6188991add897342424627c08d8",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/left_main_root_down_5N/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "5c152ad1dfc58d905c155dad2e041817de2a7688ef4bb08f98658545c00f2e48",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/left_main_root_down_5N/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "da676e28b31b86d5a39eeb94e08280d8a39946634b9799b9d08311b9dadcd2f3",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/left_main_root_down_5N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "49d3f3d7c8200c9d5b6d38799f61f2ef1b86f6188991add897342424627c08d8",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/right_main_root_down_5N/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "36706a0a0fb665fd2b3e25c63024144bf4d975d11b6cd16357017732bd023e66",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/right_main_root_down_5N/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "4bbc46800927b863aa08502c10ef37480e694f250362a792c6ed18d4171779a7",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h1.6/right_main_root_down_5N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "49d3f3d7c8200c9d5b6d38799f61f2ef1b86f6188991add897342424627c08d8",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/AUTHOR_MASK_right_main_root_down_5N/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "b8ad78f20c226a8f9d2cc1a91e70272381c460f07b78bc87f312f1e693670748",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/AUTHOR_MASK_right_main_root_down_5N/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "358f0b3af9b8f5e0ea24a2ba22823b523f2028bfb35693726427acb500feef8d",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/AUTHOR_MASK_right_main_root_down_5N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "2d17272735174d05285ad253982fe7739f255f36082ad55a7be8a63a0e94285c",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/palm_down_20N/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "59a7295534c2705f5079a27082b31cb398f4263d5c7a7205c434a33729119ea4",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/palm_down_20N/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "f29e831df71ecbaf827d032ea993fd039866eb027f3f18eff371aab6b234acec",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/palm_down_20N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "2d17272735174d05285ad253982fe7739f255f36082ad55a7be8a63a0e94285c",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/press_B_d16_x-14_y72/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "42869dcd1ae56cf7dacb6946d4a6d2cbe3f91fc4e5adbe8807f14b4391e5ff8c",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/press_B_d16_x-14_y72/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "8fa3726586d169ea957bbb9661027d9c644797f5b8e6d9344576fc1a82b20e6f",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/press_B_d16_x-14_y72/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "2d17272735174d05285ad253982fe7739f255f36082ad55a7be8a63a0e94285c",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/press_A_d16_x14_y60/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "638108fd649e47e74ca154f2d592da6ff4f5a5e9590d3dfd128cac0cc50a0c52",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/press_A_d16_x14_y60/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "3cf20e52890df8aca8db2f0124e8d1bcf0eefd6a64c07d740369295a9d6f41f5",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/press_A_d16_x14_y60/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "2d17272735174d05285ad253982fe7739f255f36082ad55a7be8a63a0e94285c",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/AUTHOR_MASK_left_main_root_down_5N/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "44fd86ec660771c761360f0494e19fb04e74dbc24b57220d35212f19878cee89",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/AUTHOR_MASK_left_main_root_down_5N/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "c875ed8d7c3740d8ff8b2d76751d9b177f23bde61167a8e5e37a697881e72ccd",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/AUTHOR_MASK_left_main_root_down_5N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "2d17272735174d05285ad253982fe7739f255f36082ad55a7be8a63a0e94285c",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/LC3_squeeze_2x2N/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "2ac4d9dff7e81e58082a43617b123096d0e278312ab74ba2710111256a74b83d",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/LC3_squeeze_2x2N/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "3882f0e472ddc998baec49e5b3749e9dc1fb98fd602c4df5712cba4217bf7c4d",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/LC3_squeeze_2x2N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "2d17272735174d05285ad253982fe7739f255f36082ad55a7be8a63a0e94285c",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/left_main_root_down_5N/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "86e0ca3b251a4a227aa34a69dff7598ad84e216d96083efc005b8f89d2e3a0aa",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/left_main_root_down_5N/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "2ca78d4036971ae789744df1290e81dbd46534bf8e9b681c9d6c8f9c194ca173",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/left_main_root_down_5N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "2d17272735174d05285ad253982fe7739f255f36082ad55a7be8a63a0e94285c",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/right_main_root_down_5N/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "f107bb7d8ee7295b3582146c115e425d39f0df56a765fd2e5bb4c6a09749f707",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/right_main_root_down_5N/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "9d6c44e30f5feaf73d52251eb1a7002e3fa4065a35196b296602c05fc0ea18b0",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2/right_main_root_down_5N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "2d17272735174d05285ad253982fe7739f255f36082ad55a7be8a63a0e94285c",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/palm_down_20N/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "e6fad6d877d15ebab111ca3c32a86ae555c351c998e8ebda7a0ae35ed137e9a6",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/palm_down_20N/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "4076b51b5a44aae06374f0d1abafe6e80ca44c54db8a19c73a670fa666d1c5e3",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/palm_down_20N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "b0290504bce6a827a73202ebba5d57933d4dccea7e77c2b373862ceed7051543",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/press_B_d16_x-14_y72/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "c487df8b58b5199c8dab1257ff69c8044c6f6b07c7125a6d25bb3a4ace5a1ba8",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/press_B_d16_x-14_y72/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "844f63a98ba31ed1f48e669b98a32527c54bac064a0e0198eafc09f61a6e87d6",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/press_B_d16_x-14_y72/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "b0290504bce6a827a73202ebba5d57933d4dccea7e77c2b373862ceed7051543",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/press_A_d16_x14_y60/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "66b22ec9bce8f7a034077edb8a2d3b9af8a9fc1ea995c648b17093af01986287",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/press_A_d16_x14_y60/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "7ea6e2093f5154a8d3c43310a49ba3024735caf94163faa79ae36ad963afc325",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/press_A_d16_x14_y60/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "b0290504bce6a827a73202ebba5d57933d4dccea7e77c2b373862ceed7051543",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/AUTHOR_MASK_left_main_root_down_5N/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "3ecaecbfd622bfcc0411c42f189a086b9f0c9e530e1e0f776df2c050281bea78",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/AUTHOR_MASK_left_main_root_down_5N/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "81dfdfaa049caf52629e7be33eb607da20c16d23572a59768d597251006fba4f",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/AUTHOR_MASK_left_main_root_down_5N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "b0290504bce6a827a73202ebba5d57933d4dccea7e77c2b373862ceed7051543",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/LC3_squeeze_2x2N/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "6d143cac002905bbba43e1aafe9a5b8506f836a1acb66d2350e8dba8f9fddbb0",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/LC3_squeeze_2x2N/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "a80148eff0af9bed534c93aade7d550cf86c7c4b5872e1106c6527a28c9f3e78",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/LC3_squeeze_2x2N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "b0290504bce6a827a73202ebba5d57933d4dccea7e77c2b373862ceed7051543",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/left_main_root_down_5N/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "c6e53fa24e43287c16bb676ca954b41e41e6a973fd6865d60c31e7232a89e1ce",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/left_main_root_down_5N/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "63a1ccad7c52db5b2e72c52808e68191ecdadfd2eefc1d1d3cae03b47dfe8055",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/left_main_root_down_5N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "b0290504bce6a827a73202ebba5d57933d4dccea7e77c2b373862ceed7051543",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/right_main_root_down_5N/ccx.log": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "fca2f69d4602d6458fb6c445261b33971d24a62e9d86093ab293042240ba3ea5",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/right_main_root_down_5N/result.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "9af092ad0b80b8f39428853c9814af29bb5d2c386748218fe5beeeac3b70e876",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/BODY_h2.4/right_main_root_down_5N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "b0290504bce6a827a73202ebba5d57933d4dccea7e77c2b373862ceed7051543",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+    },
+    "verifier_source": {
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  }
+}
