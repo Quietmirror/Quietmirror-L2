@@ -28,7 +28,7 @@ def main():
     outer=load('MOTHER_OUTER_FROM_R32_SURFACE',ROOT/'exports/l2_r2_diagnostic/support_reference')
     outer_grid,_=voxelize(outer);outer_grid=outer_grid.astype(np.float32)
     trials=[];accepted=None
-    for dimensions in [[12,25,8],[14,22,8],[10,30,8],[12,28,7],[10,24,10]]:
+    for dimensions in [[12,22,8],[12,24,7],[12,24,6],[10,24,8],[12,20,8],[10,20,10]]:
         half=np.array(dimensions)/2;cell=box(-half[0],half[0],-half[1],half[1],-half[2],half[2]);pivot=np.zeros(3)
         points=[]
         for axis in range(3):
@@ -50,15 +50,21 @@ def main():
             return all(clear(a+(b-a)*t) for t in np.linspace(0,1,count+1)[1:])
         # Explicit candidate placements are screened before route search;
         # a successful placement still needs exact static and route checks.
-        goals=[]
-        for x,y,z,yaw in itertools.product(np.arange(-22.,-10.,1.5),np.arange(45.,66.,2.),[14.5,15.5,16.4,17.5,18.5],[0.,90.,-10.,10.]):
+        goals=[];best_placements=[]
+        for x,y,z,yaw in itertools.product(np.arange(-23.,-11.,.75),np.arange(48.,64.,.75),np.arange(14.,18.01,.25),[0.,90.]):
             p=np.array([x,y,z,0.,0.,yaw]);ids=indices(p)
             if float(map_coordinates(outer_grid,ids,order=0,mode='constant',cval=0,prefilter=False).min())<.5:continue
-            if float(map_coordinates(rest_field,ids,order=1,mode='constant',cval=0,prefilter=False).min())>=.65:goals.append(p)
-        trial=dict(dimensions_mm=dimensions,goal_candidates=len(goals),passed=False);trials.append(trial)
+            clearance=float(map_coordinates(rest_field,ids,order=1,mode='constant',cval=0,prefilter=False).min())
+            if len(best_placements)<8 or clearance>best_placements[-1][0]:
+                best_placements.append((clearance,p.tolist()));best_placements.sort(reverse=True);best_placements=best_placements[:8]
+            if clearance>=.65:goals.append(p)
+        trial=dict(dimensions_mm=dimensions,volume_mm3=float(np.prod(dimensions)),volume_change_percent=100*(float(np.prod(dimensions))/(18*22*6)-1),goal_candidates=len(goals),best_approximate_static_placements=best_placements,passed=False);trials.append(trial)
         print('CELL_GOALS',dimensions,len(goals),flush=True)
         save('battery_alternative_envelopes.json',dict(trials=trials,accepted=None,passed=False))
-        if not goals:continue
+        if not goals:
+            if best_placements:
+                probe=moved(cell,pivot,np.array(best_placements[0][1]));trial['closest_exact_review']=scene_pairs(probe,{**printed,**hardware},'BATTERY_ALTERNATIVE_EST',.5)
+            continue
         seeds=[]
         for x,y,z,roll,pitch,yaw in itertools.product([-20.,-10.,0.],[30.,45.,60.],[-20.,50.],[-90.,0.,90.],[0.,90.],[-90.,0.,90.]):
             p=np.array([x,y,z,roll,pitch,yaw])
