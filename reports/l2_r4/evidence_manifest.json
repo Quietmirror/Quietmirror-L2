@@ -1775,5 +1775,31 @@
       "cad/l2_r4/retainer_clearance_finish.py": "33fd551f50d19385c21172cfaf9846ac399fb14cf2bc2eb6a019c66f36e59b63",
       "cad/l2_r4/side_module.py": "8a31192fbc207f5e33b5243488944e0c7819b01fa05ff331da1cf17bb5cb1416"
     }
+  },
+  "reports/l2_r4/window_0.json": {
+    "script": "cad/l2_r4/window_0.py",
+    "source_commit": "20b9d6b29922f4e4bfa9c97455f8ed4435b9571a",
+    "returncode": 0,
+    "report_sha256": "7be5e1d2682ec909dc4ff9f7e762c16309018062379a144e6e06dd4ece103dc8",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r3/inputs/R32_BASELINE.FCStd": "4bc7daaf246594c27ecc1bcf3852bf44c025eee20c91dac0604e518c99840d51",
+      "cad/rebuild_r2/parameters.json": "1b80721457bb4f2b11f7021d3e2d98ef9f6068510906099e9b0e38f2f33141f0",
+      "cad/rebuild_r2/build.py": "dde0663daee45adbd90bde4b5e4ed6eb7ca1e10c5d023a63e5c7e6a708e1b66a",
+      "models/L2_r4/validation_features/LEFT_KEY_FIXED_BEARINGS.step": "82656d3777d80718ca3a6c6de7dfc2565db22998907be8c7460d66d82b8a5635",
+      "models/L2_r4/validation_features/RIGHT_KEY_FIXED_BEARINGS.step": "fded98a46805abf150d1a87a31da7cf3090eaee06bf080f6ed2124a4a520765b",
+      "models/L2_r4/validation_features/WHEEL_CARRIER_FIXED_BEARINGS.step": "5313a7af0bebcf26d41606fda29601b84d20cd568ca80f25d9f3eb928d584781"
+    },
+    "verifier_source": {
+      "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
+      "cad/l2_r4/fasteners.py": "dc696e37a87269322e07ff9f0aa9e20dc208c623dc1e243d60430a9c0460160b",
+      "cad/l2_r4/interfaces.py": "7f1e1e1fa0fecf8ae060adf86523a3cdd8b546d713c37be6fda0e86b80a88f47",
+      "cad/l2_r4/mechanics.py": "763c94a52857ca2ebe31f63f9903c62f01852a94c888c3187d69864543cc9dce",
+      "cad/l2_r4/side_module.py": "fdbe9676d759207253220c92f33807f02d5df9fa71fffc6b8940ce7c394dc1ab",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/l2_r4/wheel_mechanism.py": "72157eff03d1184dc2d824af3a7485d9b381b499a5d8562c271ec7d3a1e7977d",
+      "cad/l2_r4/window_0.py": "92e4b7e28b639c14967f18546593620451bb2b265eb29057be35c9bc2bb9e4e7",
+      "cad/l2_r4/window_checks.py": "e918ab64d91e30e175402fbf877c2f9ef14ec232f35f4af1676e922a5c164247"
+    }
   }
 }
