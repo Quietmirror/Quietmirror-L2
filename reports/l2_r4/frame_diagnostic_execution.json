@@ -44,6 +44,13 @@
       "seconds": 1.84,
       "available_memory_before_GB": 15.662792704,
       "log_tail": "MESH_SELF_INTERSECTION BODY 0\nMESH_SELF_INTERSECTION LEFT_KEY 0\nMESH_SELF_INTERSECTION RIGHT_KEY 0\nMESH_SELF_INTERSECTION SF_RETAINER 0\nMESH_SELF_INTERSECTION SIDE_FRONT_KEY 0\nMESH_SELF_INTERSECTION SIDE_REAR_KEY 0\nMESH_SELF_INTERSECTION SR_RETAINER 0\nMESH_SELF_INTERSECTION WHEEL 0\nMESH_SELF_INTERSECTION WHEEL_CARRIER 0\n"
+    },
+    {
+      "script": "cad/l2_r4/mechanism_accounting.py",
+      "returncode": 0,
+      "seconds": 11.37,
+      "available_memory_before_GB": 15.575003136,
+      "log_tail": "ACTUATION [('SIDE_FRONT_KEY', True), ('SIDE_REAR_KEY', True)]\n"
     }
   ]
 }

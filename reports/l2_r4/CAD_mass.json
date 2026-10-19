@@ -34,19 +34,19 @@
     },
     {
       "part": "SIDE_FRONT_KEY",
-      "volume_mm3": 76.74189104272244,
+      "volume_mm3": 76.69917382367888,
       "PA12_density_g_cm3": 1.01,
-      "PA12_mass_g": 0.07750930995314967,
+      "PA12_mass_g": 0.07746616556191566,
       "PLA_density_g_cm3": 1.24,
-      "solid_PLA_mass_g": 0.09515994489297583
+      "solid_PLA_mass_g": 0.0951069755413618
     },
     {
       "part": "SIDE_REAR_KEY",
-      "volume_mm3": 81.56501095510058,
+      "volume_mm3": 81.52505078258017,
       "PA12_density_g_cm3": 1.01,
-      "PA12_mass_g": 0.08238066106465157,
+      "PA12_mass_g": 0.08234030129040598,
       "PLA_density_g_cm3": 1.24,
-      "solid_PLA_mass_g": 0.10114061358432472
+      "solid_PLA_mass_g": 0.10109106297039941
     },
     {
       "part": "SR_RETAINER",
@@ -66,16 +66,16 @@
     },
     {
       "part": "WHEEL_CARRIER",
-      "volume_mm3": 589.8949111552149,
+      "volume_mm3": 589.6884804740555,
       "PA12_density_g_cm3": 1.01,
-      "PA12_mass_g": 0.5957938602667671,
+      "PA12_mass_g": 0.5955853652787961,
       "PLA_density_g_cm3": 1.24,
-      "solid_PLA_mass_g": 0.7314696898324665
+      "solid_PLA_mass_g": 0.7312137157878289
     }
   ],
-  "total_volume_mm3": 17652.74498997808,
-  "total_PA12_g": 17.82927243987786,
-  "total_solid_PLA_g": 21.889403787572817,
+  "total_volume_mm3": 17652.455881905356,
+  "total_PA12_g": 17.82898044072441,
+  "total_solid_PLA_g": 21.889045293562642,
   "volume_method": "BRepGProp.VolumeProperties_s(shape,props,1e-8,True,False)",
   "scope": "Printed polymer geometry only; density assumptions; slicer support/infill mass is separate. No fabricated hardware mass or physical weigh-in."
 }
