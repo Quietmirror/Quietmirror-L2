@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "C17_original_body_distances",
   "source_commit": "1c771039a03b7be9396873596905a3c6044b5575",
   "steps": [
