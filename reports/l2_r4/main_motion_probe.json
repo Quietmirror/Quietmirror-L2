@@ -511,5 +511,32 @@
   {
     "stage": "pair_begin",
     "part": "USB_M2x3_L"
+  },
+  {
+    "stage": "pair_end",
+    "part": "USB_M2x3_L",
+    "seconds": 0.33922863006591797,
+    "result": {
+      "a": "LEFT_KEY",
+      "b": "USB_M2x3_L",
+      "gap_mm": 2.766542563097589,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.3,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "nearest_points_mm": [
+        [
+          7.948237701478294,
+          10.074504377443745,
+          13.467957257804953
+        ],
+        [
+          7.896151485749799,
+          11.102434482873356,
+          10.9
+        ]
+      ]
+    }
   }
 ]
