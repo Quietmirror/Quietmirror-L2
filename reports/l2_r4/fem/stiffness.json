@@ -268,5 +268,20 @@
     "vm_p95_MPa": 0.6722299724229982,
     "passed": true,
     "author_difference_requires_investigation": false
+  },
+  {
+    "size_mm": 1.6,
+    "case": "LC3_squeeze_2x2N",
+    "stiffness_N_per_mm": 848.0731244179043,
+    "baseline_N_per_mm": 497.99,
+    "published_baseline_N_per_mm": 497.99,
+    "written_protocol_baseline_N_per_mm": 497.99,
+    "ratio": 1.7029922777925346,
+    "author_N_per_mm": 931.07,
+    "author_difference_fraction": -0.0891413917128634,
+    "equilibrium_pass": true,
+    "vm_p95_MPa": 0.08675324587736205,
+    "passed": true,
+    "author_difference_requires_investigation": true
   }
 ]
