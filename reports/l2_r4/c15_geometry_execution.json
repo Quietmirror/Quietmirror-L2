@@ -9,6 +9,13 @@
       "seconds": 4.6,
       "available_memory_before_GB": 15.65718528,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/wheel_clearance_finish.py",
+      "returncode": 0,
+      "seconds": 5.91,
+      "available_memory_before_GB": 15.47446272,
+      "log_tail": "EXPORTED WHEEL_CARRIER 589.5574\nEXPORTED ENCODER_ADAPTER_PCB_EST 135.469\nEXPORTED ENCODER_EC10E_HOUSING 324.8311\nEXPORTED LEFT_KEY_STEEL_PIN 66.2876\nEXPORTED RIGHT_KEY_STEEL_PIN 66.2876\n"
     }
   ]
 }

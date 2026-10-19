@@ -1,5 +1,5 @@
 {
-  "candidate": "C11",
+  "candidate": "C15",
   "parts": [
     {
       "name": "WHEEL_CARRIER",
@@ -42,7 +42,7 @@
       "printable": false,
       "valid": true,
       "solids": 1,
-      "volume_mm3": 145.2255649508282,
+      "volume_mm3": 135.46899565630025,
       "bounds_mm": [
         -0.8,
         20.8,
@@ -51,8 +51,8 @@
         35.9,
         10.4
       ],
-      "removed_mm3": 34.39002766656972,
-      "change": "C13 custom PCB: x>8.6 retained only insideR2.1 land centered(8.5,26.1);1.0mm edge material aroundR1.1 mounting hole. Original mounting and terminal centers retained; PCB thickness unchanged"
+      "removed_mm3": 44.14659696110533,
+      "change": "C15 custom planar PCB: R2.1 front mounting land and diagonal rear edge x=(46-y)*23.22/34-1.7. Existing hole/terminal centers and thickness retained; exact full-motion validation required"
     },
     {
       "name": "ENCODER_EC10E_HOUSING",
