@@ -479,8 +479,8 @@
     "expected_components": 94
   },
   "artifact_sha256": {
-    "models/L2_r4/FULL_ASSEMBLY_H.FCStd": "37beeec2dc99a2c3d5ba74767f96d231efc075793e77b7ecdaa1853542e8b1d5",
-    "models/L2_r4/FULL_ASSEMBLY_H.step": "f217eafe54b028dbb63d1e9b1867b542b2fa2a4593bc00380e5bfa3b860b14af"
+    "models/L2_r4/FULL_ASSEMBLY_H.FCStd": "b4091a4a230f5ba816d038c362bf844db34ea10041be54675d82249222906af0",
+    "models/L2_r4/FULL_ASSEMBLY_H.step": "e7dded390f225fb714bf6bc3813aaa7dccbedee8a44650173e444b5fe4848e5b"
   },
   "scope": "Saved/reopened imported components, not constrained feature history"
 }
