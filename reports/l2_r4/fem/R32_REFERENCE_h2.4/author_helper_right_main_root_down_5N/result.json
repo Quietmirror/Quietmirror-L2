@@ -1,0 +1,197 @@
+{
+  "postprocess_version": 3,
+  "linear_solver": "DEFAULT",
+  "case": {
+    "name": "right_main_root_down_5N",
+    "magnitude_N": 5,
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "selected_triangles": 142,
+    "surface_area_mm2": 100.64386125549368,
+    "pressure_magnitude_MPa": 0.04968012889834424,
+    "area_centroid_mm": [
+      -14.988907529226472,
+      38.85510845617651,
+      20.778022936473896
+    ],
+    "actual_force_sum_N": [
+      0.0,
+      0.0,
+      -5.0
+    ],
+    "selected_face_centers_bounds_mm": [
+      [
+        -23.465890543485077,
+        35.04349462139866,
+        11.145931203234666
+      ],
+      [
+        -6.021333639292696,
+        41.94345390387997,
+        27.41075142099071
+      ]
+    ],
+    "distribution": "Uniform vector surface traction, integrated using 7-point quadratic-triangle shape functions; total resultant normalized to specified N.",
+    "root_y_interval_mm": [
+      35.0,
+      42.0
+    ],
+    "reference_model": "R32_BASELINE.FCStd BODY; original f1b1090931d717117287ea2b79c2e14ddc234937"
+  },
+  "material": {
+    "E_MPa": 1500.0,
+    "nu": 0.35,
+    "model": "homogeneous isotropic linear elastic; not measured printed PLA"
+  },
+  "mesh": {
+    "nodes": 146331,
+    "elements": 74672,
+    "element_type": "C3D10",
+    "boundary_tri6": 45082,
+    "connected_components": 1,
+    "corner_tet_min_volume_mm3": 3.213004490442035e-05,
+    "corner_tet_total_volume_mm3": 12706.881266784947,
+    "corner_tet_mean_ratio_min": 0.013561812572189743,
+    "corner_tet_mean_ratio_p01": 0.2881666033017542,
+    "corner_tet_mean_ratio_definition": "12*(3V)^(2/3)/sum(six squared edge lengths); regular tetrahedron=1, degenerate=0. Corner geometry diagnostic only.",
+    "quadratic_tet_integrated_volume_mm3": 12706.88126678498,
+    "quadratic_jacobian_min_mm3": 0.00019278026942435545,
+    "quadratic_jacobian_min_over_max_per_element": 0.9999999994406094,
+    "quadratic_jacobian_check": "Four C3D10 integration points and centroid; all positive. This is not a formal interval proof at every point.",
+    "quadratic_boundary_area_mm2": 18236.063372803852,
+    "mesh_file_sha256": "9f3bd00fabb970d7170de00da3dd2fdad731b4577858257715bf6fea0f95cfc8",
+    "target_max_size_mm": 2.4,
+    "settings": {
+      "Mesh.MeshSizeMin": 0.9119999999999999,
+      "Mesh.MeshSizeMax": 2.4,
+      "Mesh.MeshSizeFromPoints": 1,
+      "Mesh.MeshSizeFromCurvature": 24,
+      "Mesh.MeshSizeExtendFromBoundary": 1,
+      "Mesh.Algorithm": 6,
+      "Mesh.Algorithm3D": 1,
+      "Mesh.ElementOrder": 2,
+      "Mesh.SecondOrderLinear": 1,
+      "Mesh.HighOrderOptimize": 0,
+      "Mesh.Optimize": 1,
+      "Mesh.SaveAll": 0,
+      "General.NumThreads": 1
+    },
+    "gmsh_version": "4.15.2"
+  },
+  "deck_sha256": "1b1f5994eafee238d9e835f52a91cfab482600d02fe2a5f6ae10451f1654583e",
+  "dat_sha256": "4edbb7c1c3c09a57d966192caab02f1d33fb2b8c794c337e97077b6b2f2960a6",
+  "solving_seconds": 22.77555746699997,
+  "applied_force_N": [
+    0.0,
+    0.0,
+    -5.0
+  ],
+  "support_reaction_N": [
+    -5.789304427391099e-12,
+    -4.515710770279706e-12,
+    4.999999866685201
+  ],
+  "force_balance_error_N": [
+    -5.789304427391099e-12,
+    -4.515710770279706e-12,
+    -1.3331479919997946e-07
+  ],
+  "force_balance_relative_error": 2.6662959880432282e-08,
+  "moment_balance_error_Nmm": [
+    -3.941834506804298e-06,
+    -3.126796883634597e-06,
+    2.987337266518012e-10
+  ],
+  "moment_balance_relative_error": 1.1404400150304762e-08,
+  "equilibrium_pass": true,
+  "maximum_displacement_mm": 0.3263028447727701,
+  "maximum_displacement_node": 4019,
+  "displacement_components_at_max_mm": [
+    0.01726355,
+    0.1464162,
+    -0.2910976
+  ],
+  "maximum_vm_stress_MPa": 30.62039368786115,
+  "p95_integration_point_vm_MPa": 0.7044271969414885,
+  "unweighted_integration_point_p95_vm_MPa": 0.7204207008195604,
+  "p95_definition": "95th percentile of integration-point von Mises stress weighted by actual C3D10 Jacobian quadrature volume; avoids overweighting locally tiny elements.",
+  "peak_stress_element": 68272,
+  "peak_stress_element_centroid_mm": [
+    -27.0099817583495,
+    13.321624605714248,
+    5.27316533488275
+  ],
+  "peak_element_distance_to_nearest_horizontal_constraint_node_mm": 3.9029836963693874,
+  "auxiliary_peak_vm_outside_3mm_horizontal_constraint_neighbourhood_MPa": 30.62039368786115,
+  "auxiliary_stress_scope": "Diagnostic only: removes element-centroid regions within 3 mm of the minimum horizontal point anchors, which can create stress singularities. The global maximum remains separately reported and is not replaced for a strength claim.",
+  "foot_reactions": [
+    {
+      "foot": 1,
+      "constrained_nodes": 485,
+      "reaction_N": [
+        -5.820961097871401e-12,
+        -6.5350464386500004e-12,
+        1.6055971622870007
+      ],
+      "negative_z_requires_hold_down": false
+    },
+    {
+      "foot": 2,
+      "constrained_nodes": 375,
+      "reaction_N": [
+        -6.938684222600004e-14,
+        3.9941309403283e-12,
+        0.3201440808822005
+      ],
+      "negative_z_requires_hold_down": false
+    },
+    {
+      "foot": 3,
+      "constrained_nodes": 356,
+      "reaction_N": [
+        3.3196982846299976e-14,
+        1.5902182231000007e-13,
+        3.0248182774970007
+      ],
+      "negative_z_requires_hold_down": false
+    },
+    {
+      "foot": 4,
+      "constrained_nodes": 336,
+      "reaction_N": [
+        5.3859280500000086e-15,
+        -2.5310170368000008e-14,
+        1.0425350914699998
+      ],
+      "negative_z_requires_hold_down": false
+    },
+    {
+      "foot": 5,
+      "constrained_nodes": 493,
+      "reaction_N": [
+        6.246060180999998e-14,
+        -2.1085069238999925e-12,
+        -0.9930947454510002
+      ],
+      "negative_z_requires_hold_down": true
+    }
+  ],
+  "negative_foot_reactions": true,
+  "interpretation": "Bilateral Z supports model a supported/held test fixture. Negative net foot reaction indicates lift-off for a free unbonded mouse; that case is not a valid all-five-feet contact prediction. Peak stresses near constraints/load edges may be singular; p95 is a convergence diagnostic, not a strength substitute.",
+  "solver_backend_verified": "SPOOLES in actual CalculiX log",
+  "solver_runtime": {
+    "returncode": 0,
+    "elapsed_seconds": 22.77555746699997,
+    "peak_resident_GB": 1.558196224,
+    "measurement": "psutil process RSS sampled every 0.25 s",
+    "solver_command": [
+      "/usr/bin/ccx",
+      "-i",
+      "solve"
+    ]
+  },
+  "available_memory_before_solve_GB": 15.05878016
+}
