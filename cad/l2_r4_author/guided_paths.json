@@ -1,0 +1,30 @@
+{
+ "SR_switch": {
+  "poses_checked": 158,
+  "collisions": [],
+  "starts_below_rim": true,
+  "start_top_z": 4.57,
+  "ok": true
+ },
+ "SF_switch": {
+  "poses_checked": 273,
+  "collisions": [],
+  "starts_below_rim": true,
+  "start_top_z": 4.57,
+  "ok": true
+ },
+ "SR_retainer": {
+  "poses_checked": 122,
+  "collisions": [],
+  "starts_below_rim": true,
+  "start_top_z": 4.57,
+  "ok": true
+ },
+ "SF_retainer": {
+  "poses_checked": 206,
+  "collisions": [],
+  "starts_below_rim": true,
+  "start_top_z": 4.57,
+  "ok": true
+ }
+}
