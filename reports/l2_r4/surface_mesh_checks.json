@@ -31,7 +31,7 @@
     "watertight": true,
     "winding_consistent": true,
     "components": 1,
-    "triangles": 27560,
+    "triangles": 27474,
     "method": "Conforming final STEP surface triangulation; no hole filling",
     "passed": true
   },
@@ -40,7 +40,7 @@
     "watertight": true,
     "winding_consistent": true,
     "components": 1,
-    "triangles": 29980,
+    "triangles": 29914,
     "method": "Conforming final STEP surface triangulation; no hole filling",
     "passed": true
   },
@@ -59,6 +59,15 @@
     "winding_consistent": true,
     "components": 1,
     "triangles": 5732,
+    "method": "Conforming final STEP surface triangulation; no hole filling",
+    "passed": true
+  },
+  {
+    "part": "WHEEL_CARRIER",
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "triangles": 32948,
     "method": "Conforming final STEP surface triangulation; no hole filling",
     "passed": true
   }
