@@ -35,6 +35,14 @@
       "global_p95_MPa": 1.924502965571059,
       "equilibrium_pass": true,
       "passed": true
+    },
+    {
+      "part": "SR_RETAINER",
+      "size_mm": 2.4,
+      "case": "SR_RETAINER_preload_and_switch",
+      "global_p95_MPa": 1.5855811509613376,
+      "equilibrium_pass": true,
+      "passed": true
     }
   ]
 }
