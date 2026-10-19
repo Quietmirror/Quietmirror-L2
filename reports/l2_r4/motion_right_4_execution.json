@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "Complete finite angular partition motion_right_4",
+  "source_commit": "3844d155b625531a6400907c660828c5ca8c82fd",
+  "steps": [
+    {
+      "script": "cad/l2_r4/motion_right_4.py",
+      "returncode": 0,
+      "seconds": 1316.94,
+      "available_memory_before_GB": 15.63875328,
+      "log_tail": "G5_RAW RIGHT_KEY 0.1 overlaps []\nG5_RAW RIGHT_KEY 0.85 overlaps []\nG5_RAW RIGHT_KEY 1.6 overlaps []\nG5_RAW RIGHT_KEY 2.35 overlaps []\nG5_RAW RIGHT_KEY 3.1 overlaps []\nremote: \nremote: Create a pull request for 'codex/r4-c18_right_4-39287388007' on GitHub by visiting:        \nremote:      https://github.com/Quietmirror/Quietmirror-L2/pull/new/codex/r4-c18_right_4-39287388007        \nremote: \nTo https://github.com/Quietmirror/Quietmirror-L2.git\n * [new branch]      HEAD -> codex/r4-c18_right_4-39287388007\nCHECKPOINT codex/r4-c18_right_4-39287388007 93159b5a89cd132231892b689a96389be7722c22\n"
+    }
+  ]
+}
