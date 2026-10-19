@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "FAILED",
   "phase": "Actual aperture-connected service proposal medium",
   "source_commit": "b9285ead0c64a066823f49ba5fe414f73402d396",
   "steps": [
@@ -16,6 +16,13 @@
       "seconds": 20.31,
       "available_memory_before_GB": 15.621730304,
       "log_tail": ""
+    },
+    {
+      "script": "cad/l2_r4/battery_aperture_medium.py",
+      "returncode": 1,
+      "seconds": 75.32,
+      "available_memory_before_GB": 15.673331712,
+      "log_tail": "VOXELS 800311 exact odd columns 0\nVOXELS 6484 exact odd columns 0\nVOXELS 10582 exact odd columns 0\nVOXELS 4864 exact odd columns 0\nVOXELS 5037 exact odd columns 0\nVOXELS 31350 exact odd columns 0\nVOXELS 30765 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 1506 exact odd columns 0\nVOXELS 1438 exact odd columns 0\nTo https://github.com/Quietmirror/Quietmirror-L2.git\n   4f42752..3fe9f61  HEAD -> codex/r4-battery_aperture_medium-39274893214\nCHECKPOINT codex/r4-battery_aperture_medium-39274893214 3fe9f614b192207efd9a03b8331c2853c9ebd424\nAPERTURE_RRT [14, 20, 6] 0 1 4800 46\nTo https://github.com/Quietmirror/Quietmirror-L2.git\n   3fe9f61..cfbc9b1  HEAD -> codex/r4-battery_aperture_medium-39274893214\nCHECKPOINT codex/r4-battery_aperture_medium-39274893214 cfbc9b1d5caf27f7b4fb6cff21fd21cfcbd62e07\nAPERTURE_EXACT 0 175 0.6000000000000014 True\nAPERTURE_EXACT 1 175 0.851565034152915 True\nAPERTURE_EXACT 2 175 1.1016056876414986 True\nAPERTURE_EXACT 3 175 1.2581977541485496 True\nAPERTURE_EXACT 4 175 1.2581977541485496 True\nAPERTURE_EXACT 5 175 1.2307419218543025 True\nAPERTURE_EXACT 6 175 1.1200364057484746 True\nAPERTURE_EXACT 7 175 1.0181420431724373 True\nAPERTURE_EXACT 8 175 0.9252675237454455 True\nAPERTURE_EXACT 9 175 0.8416023867659826 True\nAPERTURE_EXACT 10 175 0.7673167820617636 True\nAPERTURE_EXACT 11 175 0.7025612605428649 True\nAPERTURE_EXACT 12 175 0.6474665946154033 True\nAPERTURE_EXACT 13 175 0.6021436285718165 True\nAPERTURE_EXACT 14 175 2.308833080171829 True\nAPERTURE_EXACT 15 175 2.4398351810730543 True\nAPERTURE_EXACT 16 175 2.4276564852278337 True\nAPERTURE_EXACT 17 175 2.1914580214689883 True\nAPERTURE_EXACT 18 175 1.9469179334861089 True\nAPERTURE_EXACT 19 175 1.6946440366365882 True\nAPERTURE_EXACT 20 175 1.435249760848018 True\nAPERTURE_EXACT 21 175 1.1693532159976507 True\nAPERTURE_EXACT 22 175 0.8975762569638686 True\nAPERTURE_EXACT 23 175 0.6205435496041595 True\nAPERTURE_EXACT 24 175 0.33888163890597184 False\nTraceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_aperture_medium.py\", line 2, in <module>\n    if __name__=='__main__':main([14,20,6],'battery_aperture_medium.json')\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_window_service.py\", line 105, in main\n    if not report['passed']:raise RuntimeError('Aperture proposal failed exact0.5mm replay')\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Aperture proposal failed exact0.5mm replay\n"
     }
   ]
 }

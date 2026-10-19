@@ -15,7 +15,7 @@
     41.0
   ],
   "passed": false,
-  "status": "ROUTE_FOUND_PENDING_EXACT",
+  "status": "EXACT_FINISHED",
   "retained_obstacles": [
     "BODY",
     "SF_RETAINER",
@@ -34,7 +34,7 @@
     5292
   ],
   "planner_evaluations": 73345,
-  "elapsed_s": 49.16125297546387,
+  "elapsed_s": 73.24143028259277,
   "route": [
     [
       0.0,
@@ -141,5 +141,4112 @@
       0.0
     ]
   ],
-  "replay_poses": 175
+  "replay_poses": 175,
+  "exact_all_poses": [
+    {
+      "pose": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exact_global_minimum_mm": 0.6000000000000014,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.83174797117155,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.999999999999996,
+              47.0,
+              13.7
+            ],
+            [
+              14.802145797871423,
+              45.78786505499125,
+              13.7
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 25.016412884649583,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.999999999999996,
+              67.0,
+              17.2
+            ],
+            [
+              14.814526297534458,
+              70.17178155682772,
+              17.2
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 24.799999999999997,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.999999999999996,
+              53.78,
+              16.4
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER_M2x5",
+          "gap_mm": 24.89690156031032,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.999999999999996,
+              47.0,
+              13.400000000000002
+            ],
+            [
+              14.802145797871423,
+              45.78786505499125,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 0.6000000000000014,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -13.7,
+              56.3,
+              13.400000000000002
+            ],
+            [
+              -13.7,
+              56.3,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_RETAINER_M2x5",
+          "lower_bound_mm": 24.851451219479078,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 25.29999989999999,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 35.399999899997994,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 35.3999998999995,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 37.01943913492521,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 37.065319928521454,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        0.04153369915422414,
+        -0.06550542494630338,
+        0.23635919047401824,
+        -0.020410483893467488,
+        -0.6400691607606949,
+        -0.009592039595474281
+      ],
+      "exact_global_minimum_mm": 0.851565034152915,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.755709126734402,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.92710404538476,
+              46.93224923982782,
+              13.718306228920643
+            ],
+            [
+              14.80193891061932,
+              45.78352436084854,
+              13.718306228920643
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 24.949405703197073,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.923676202634233,
+              66.93224767723436,
+              13.711182070718403
+            ],
+            [
+              14.815189612267332,
+              70.1666507342168,
+              13.711182070718403
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 24.754371857249012,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.952826875133422,
+              53.784143936948276,
+              16.12346688368129
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER_M2x5",
+          "gap_mm": 24.846173863332858,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.92710404538476,
+              46.93224923982782,
+              13.718306228920643
+            ],
+            [
+              14.80193891061932,
+              45.78352436084854,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 0.851565034152915,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.509512851249228,
+              59.30030494570603,
+              13.651511843758549
+            ],
+            [
+              -15.5,
+              59.3,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_RETAINER_M2x5",
+          "lower_bound_mm": 24.779447421318284,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 25.223676102634222,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 35.323676102632234,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 35.323676102633726,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 36.941017713548334,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 36.992946530143556,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        0.08306739830844828,
+        -0.13101084989260675,
+        0.4727183809480365,
+        -0.040820967786934975,
+        -1.2801383215213897,
+        -0.019184079190948562
+      ],
+      "exact_global_minimum_mm": 1.1016056876414986,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.680782475596704,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.855165945756916,
+              46.86448928820028,
+              14.036976112999412
+            ],
+            [
+              14.80174125344499,
+              45.77915478784255,
+              14.036976112999412
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 24.883413899019565,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.848151102482705,
+              66.86448298453631,
+              14.022730464774272
+            ],
+            [
+              14.815870271898827,
+              70.16150238301897,
+              14.022730464774272
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 24.699487838581653,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.89332180451109,
+              53.788267950322236,
+              15.848194429080669
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER_M2x5",
+          "gap_mm": 24.80080394227274,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.855165945756916,
+              46.86448928820028,
+              14.036976112999412
+            ],
+            [
+              14.80174125344499,
+              45.77915478784255,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 1.1016056876414986,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.524610448617205,
+              59.300793090489464,
+              13.901330462608946
+            ],
+            [
+              -15.5,
+              59.3,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_RETAINER_M2x5",
+          "lower_bound_mm": 24.708427632960223,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 25.1481510024827,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 35.248151002480704,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 35.2481510024822,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 36.86351010646323,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 36.921493963761804,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        0.12460109746267244,
+        -0.19651627483891015,
+        0.7090775714220547,
+        -0.06123145168040246,
+        -1.9202074822820847,
+        -0.028776118786422847
+      ],
+      "exact_global_minimum_mm": 1.2581977541485496,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.606973747205792,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.784189704240413,
+              46.79672062817749,
+              14.355998490313645
+            ],
+            [
+              14.801553047226475,
+              45.774756658965075,
+              14.355998490313645
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 24.81844229220407,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.77342876373007,
+              66.79670632506127,
+              14.334636687868365
+            ],
+            [
+              14.81656837565519,
+              70.15633703341126,
+              14.334636687868365
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 24.63536603710229,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.821529197675073,
+              53.792365869083014,
+              15.57452629640391
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER_M2x5",
+          "gap_mm": 24.76082964430486,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.784189704240413,
+              46.79672062817749,
+              14.355998490313645
+            ],
+            [
+              14.801553047226475,
+              45.774756658965075,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 1.2581977541485496,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -9.974471420246225,
+              66.803219438549,
+              20.33126402576536
+            ],
+            [
+              -9.974471420246225,
+              67.12106747400382,
+              21.548652301913098
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_RETAINER_M2x5",
+          "lower_bound_mm": 24.638397036480804,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 25.073428663730063,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 35.173428663728075,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 35.17342866372957,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 36.78692129699838,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 36.850966714643555,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        0.12460109746267244,
+        -0.19651627483891015,
+        0.7090775714220547,
+        -0.06123145168040246,
+        -1.9202074822820847,
+        -0.028776118786422847
+      ],
+      "exact_global_minimum_mm": 1.2581977541485496,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.606973747205792,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.784189704240413,
+              46.79672062817749,
+              14.355998490313645
+            ],
+            [
+              14.801553047226475,
+              45.774756658965075,
+              14.355998490313645
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 24.81844229220407,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.77342876373007,
+              66.79670632506127,
+              14.334636687868365
+            ],
+            [
+              14.81656837565519,
+              70.15633703341126,
+              14.334636687868365
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 24.63536603710229,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.821529197675073,
+              53.792365869083014,
+              15.57452629640391
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER_M2x5",
+          "gap_mm": 24.76082964430486,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.784189704240413,
+              46.79672062817749,
+              14.355998490313645
+            ],
+            [
+              14.801553047226475,
+              45.774756658965075,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 1.2581977541485496,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -9.974471420246225,
+              66.803219438549,
+              20.33126402576536
+            ],
+            [
+              -9.974471420246225,
+              67.12106747400382,
+              21.548652301913098
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_RETAINER_M2x5",
+          "lower_bound_mm": 24.638397036480804,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 25.073428663730063,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 35.173428663728075,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 35.17342866372957,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 36.78692129699838,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 36.850966714643555,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        0.22757902124301072,
+        0.013308989238901392,
+        0.659959438181519,
+        -1.626059719955467,
+        -1.8075058276626572,
+        -0.325173830526771
+      ],
+      "exact_global_minimum_mm": 1.2307419218543025,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.57455286376807,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.74759487140054,
+              46.89217584954758,
+              14.567073133103557
+            ],
+            [
+              14.801839818347338,
+              45.78136314349176,
+              14.567073133103557
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 24.650997788664508,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.616233673279815,
+              66.88369853341266,
+              13.999829784850943
+            ],
+            [
+              14.81597578326038,
+              70.16071440894493,
+              13.999829784850943
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 24.55372819892095,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.741115935084263,
+              53.9192810154948,
+              15.625533779973763
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER_M2x5",
+          "gap_mm": 24.753023480603666,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.74759487140054,
+              46.89217584954758,
+              14.567073133103557
+            ],
+            [
+              14.801839818347338,
+              45.78136314349176,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 24.76753671589083,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.616233673279815,
+              66.88369853341266,
+              13.999829784850943
+            ],
+            [
+              14.81597578326038,
+              70.16071440894493,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 1.2307419218543025,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.53860522553168,
+              59.33514354838814,
+              14.029634191854619
+            ],
+            [
+              -15.5,
+              59.3,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 24.916233573279808,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 35.016233573277816,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 35.016233573279315,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 36.63250456883262,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 36.674421121230864,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        0.330556945023349,
+        0.22313425331671294,
+        0.6108413049409833,
+        -3.1908879882305317,
+        -1.6948041730432295,
+        -0.6215715422671192
+      ],
+      "exact_global_minimum_mm": 1.1200364057484746,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.542798096365015,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.710920460588923,
+              46.995560134619566,
+              14.780215619185626
+            ],
+            [
+              14.802178194745565,
+              45.7885254570826,
+              14.780215619185626
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 24.487047990772925,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.461368466314365,
+              66.96302047924058,
+              13.667448263382813
+            ],
+            [
+              14.81545188844446,
+              70.16465336725683,
+              13.7
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 24.473095317840396,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.66095000441581,
+              54.04537429170651,
+              15.67619353216964
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER_M2x5",
+          "gap_mm": 24.747983953919366,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.710920460588923,
+              46.995560134619566,
+              14.780215619185626
+            ],
+            [
+              14.802178194745565,
+              45.7885254570826,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 24.57414905970549,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.461368466314365,
+              66.96302047924058,
+              13.667448263382813
+            ],
+            [
+              14.81545188844446,
+              70.16465336725683,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 1.1200364057484746,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.532396118158328,
+              59.3626994011237,
+              13.91781072943006
+            ],
+            [
+              -15.5,
+              59.3,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 24.761368366314358,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 34.86136836631236,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 34.86136836631387,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 36.480948899171935,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 36.5032844195607,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        0.43353486880368725,
+        0.4329595173945246,
+        0.5617231717004476,
+        -4.755716256505597,
+        -1.582102518423802,
+        -0.9179692540074675
+      ],
+      "exact_global_minimum_mm": 1.0181420431724373,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.511670466752587,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.674028816614523,
+              47.10691595153725,
+              14.995217152016854
+            ],
+            [
+              14.802575091928663,
+              45.79624811605812,
+              14.995217152016854
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 24.329272585810852,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.308939224508986,
+              67.03476920464627,
+              13.337696620533842
+            ],
+            [
+              14.814994082224128,
+              70.16815118394715,
+              13.7
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 24.39347629316196,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.581047675926019,
+              54.17065647662613,
+              15.726511019728576
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER_M2x5",
+          "gap_mm": 24.74569636482313,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.674028816614523,
+              47.10691595153725,
+              14.995217152016854
+            ],
+            [
+              14.802575091928663,
+              45.79624811605812,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 24.38855941544989,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.308939224508986,
+              67.03476920464627,
+              13.337696620533842
+            ],
+            [
+              14.814994082224128,
+              70.16815118394715,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 1.0181420431724373,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.52665755533078,
+              59.38484971368006,
+              13.814250028793465
+            ],
+            [
+              -15.5,
+              59.3,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 24.60893912450898,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 34.70893912450698,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 34.70893912450848,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 36.332435525590384,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 36.33750389068621,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        0.5365127925840255,
+        0.642784781472336,
+        0.512605038459912,
+        -6.320544524780661,
+        -1.4694008638043743,
+        -1.2143669657478156
+      ],
+      "exact_global_minimum_mm": 0.9252675237454455,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.481139832778272,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.636783047904615,
+              47.22627854837499,
+              15.211867488349805
+            ],
+            [
+              14.803038004184014,
+              45.804535092638886,
+              15.211867488349805
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 24.17495052759673,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.16992993428206,
+              67.15104093170218,
+              13.477837735988713
+            ],
+            [
+              14.814137235879716,
+              70.17484630198761,
+              13.7
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 24.314879902736028,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.501424946258613,
+              54.29513859536057,
+              15.776491785614855
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER_M2x5",
+          "gap_mm": 24.746147058995696,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.636783047904615,
+              47.22627854837499,
+              15.211867488349805
+            ],
+            [
+              14.803038004184014,
+              45.804535092638886,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 24.21082961581147,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.159048576662824,
+              67.09904816001125,
+              13.010777363476691
+            ],
+            [
+              14.814599977783132,
+              70.17120585525849,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 0.9252675237454455,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.521418381505077,
+              59.40234026474915,
+              13.719340912634049
+            ],
+            [
+              -15.5,
+              59.3,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 24.459048476662815,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 34.55904847666082,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 34.559048476662326,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 36.177022269364166,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 36.18714865119614,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        0.6394907163643637,
+        0.8526100455501475,
+        0.4634869052193763,
+        -7.8853727930557245,
+        -1.3566992091849468,
+        -1.5107646774881638
+      ],
+      "exact_global_minimum_mm": 0.8416023867659826,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.45118508978652,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.599047205356,
+              47.35367595065,
+              15.42995510057401
+            ],
+            [
+              14.803575007819799,
+              45.81338980320276,
+              15.42995510057401
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 24.01911435401036,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.030589364128597,
+              67.28654649174625,
+              13.62552537585183
+            ],
+            [
+              14.81313517830747,
+              70.1829421528769,
+              13.7
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 24.237314802285315,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.42209753453243,
+              54.418831914289804,
+              15.826141447775186
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER_M2x5",
+          "gap_mm": 24.749323392113403,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.599047205356,
+              47.35367595065,
+              15.42995510057401
+            ],
+            [
+              14.803575007819799,
+              45.81338980320276,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 24.041007092034306,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.01179556836218,
+              67.15596708192214,
+              12.686890852841374
+            ],
+            [
+              14.814267418467471,
+              70.1738161207045,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 0.8416023867659826,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.516686958045476,
+              59.41594108824103,
+              13.633410935192762
+            ],
+            [
+              -15.5,
+              59.3,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 24.31179546836217,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 34.41179546836018,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 34.411795468361674,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 36.02177812471659,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 36.045275325488326,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        0.742468640144702,
+        1.0624353096279593,
+        0.4143687719788406,
+        -9.450201061330791,
+        -1.243997554565519,
+        -1.8071623892285122
+      ],
+      "exact_global_minimum_mm": 0.7673167820617636,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.421794341743336,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.560686459720888,
+              47.48912896596613,
+              15.649267340075017
+            ],
+            [
+              14.804194762044386,
+              45.822815094069,
+              15.649267340075017
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 23.857733984874454,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.93422735645813,
+              67.88553255195329,
+              16.435232216499884
+            ],
+            [
+              14.808664519293888,
+              70.22359933230456,
+              16.435232216499884
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 24.160789524737876,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.34308087851391,
+              54.541747936080824,
+              15.875465697884133
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 23.87912442920018,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.867275536236725,
+              67.20564186544227,
+              12.366235147728597
+            ],
+            [
+              14.813994483524482,
+              70.17598148487455,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER_M2x5",
+          "gap_mm": 24.75521369048963,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.560686459720888,
+              47.48912896596613,
+              15.649267340075017
+            ],
+            [
+              14.804194762044386,
+              45.822815094069,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 0.7673167820617636,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.512451252129823,
+              59.42644152661529,
+              13.556724884420497
+            ],
+            [
+              -15.5,
+              59.3,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 24.167275436236714,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 34.267275436234726,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 34.267275436236226,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 35.87170624279382,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 35.907005292190405,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        0.8454465639250403,
+        1.2722605737057708,
+        0.3652506387383049,
+        -11.015029329605854,
+        -1.1312958999460916,
+        -2.1035601009688607
+      ],
+      "exact_global_minimum_mm": 0.7025612605428649,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.392965041554277,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.52156727732171,
+              47.63265119575155,
+              15.869590601482749
+            ],
+            [
+              14.804906507354733,
+              45.83281322472786,
+              15.869590601482749
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 23.680765705150186,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.791543245694942,
+              68.2715306310121,
+              17.28924808699645
+            ],
+            [
+              14.80629097113421,
+              70.24964069777582,
+              17.2
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 24.08531247956991,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.264390130875281,
+              54.66389839464296,
+              15.92447030007999
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 23.725198985525534,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.725579986947393,
+              67.24819443088613,
+              12.049005852504187
+            ],
+            [
+              14.81377949146395,
+              70.17770223823618,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER_M2x5",
+          "gap_mm": 24.763799764116097,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.520776506472885,
+              47.652138190031195,
+              15.86579505464238
+            ],
+            [
+              14.805005838567697,
+              45.834149023194115,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 0.7025612605428649,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.508679100023679,
+              59.43464521625192,
+              13.489483621109908
+            ],
+            [
+              -15.5,
+              59.3,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 24.025579886947384,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 34.125579886945395,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 34.125579886946895,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 35.72673800853943,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 35.77253080236221,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        0.9484244877053786,
+        1.4820858377835822,
+        0.3161325054977692,
+        -12.579857597880919,
+        -1.018594245326664,
+        -2.3999578127092085
+      ],
+      "exact_global_minimum_mm": 0.6474665946154033,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.364704100042214,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.4815575938914,
+              47.78424905404598,
+              16.090710487679793
+            ],
+            [
+              14.80572006128941,
+              45.84338584846739,
+              16.090710487679793
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 23.502966555764218,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.63437552717937,
+              68.54836365572797,
+              17.387505825429248
+            ],
+            [
+              14.804826355693995,
+              70.26827457804549,
+              17.2
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 23.577216955201074,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.589333305401611,
+              67.3511792453771,
+              12.036755726909016
+            ],
+            [
+              14.813041662594681,
+              70.1837133837298,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 24.010891952158328,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.186040155539285,
+              54.78529525002598,
+              15.97316108969123
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER_M2x5",
+          "gap_mm": 24.774453761465285,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.47331456008633,
+              47.96388925575017,
+              16.050586923610684
+            ],
+            [
+              14.806747038519216,
+              45.855704258581426,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 0.6474665946154033,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.505318641844271,
+              59.44136503149463,
+              13.431823259355275
+            ],
+            [
+              -15.5,
+              59.3,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 23.886796381038934,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 33.98679638103694,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 33.98679638103844,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 35.586801784687744,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 35.64204639126316,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        1.0514024114857168,
+        1.6919111018613937,
+        0.2670143722572335,
+        -14.144685866155982,
+        -0.9058925907072364,
+        -2.6963555244495567
+      ],
+      "exact_global_minimum_mm": 0.6021436285718165,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.337027963037414,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.440526986338408,
+              47.94392179328532,
+              16.31241197544004
+            ],
+            [
+              14.806645811386968,
+              45.854533990384276,
+              16.31241197544004
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 23.326145183259218,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.47391591847077,
+              68.78138194396921,
+              17.242958864176362
+            ],
+            [
+              14.803738799551382,
+              70.28404440607333,
+              17.2
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 23.4280994305708,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.45400783447048,
+              67.50478018298996,
+              12.18727508108926
+            ],
+            [
+              14.811899478427222,
+              70.19336862592736,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 23.937536103143273,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.108045524111429,
+              54.905950683262205,
+              16.02154397195372
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER_M2x5",
+          "gap_mm": 24.78674989388029,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.42319521774191,
+              48.28316846613987,
+              16.22681764710902
+            ],
+            [
+              14.808803020049176,
+              45.877801515783865,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 0.6021436285718165,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.502298923827002,
+              59.44741801400195,
+              13.38381469108493
+            ],
+            [
+              -15.5,
+              59.3,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 23.751008421784146,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 33.851008421782154,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 33.85100842178365,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 35.45100842178414,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 35.515748617641634,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        1.1543803352660549,
+        1.9017363659392053,
+        0.21789623901669786,
+        -15.709514134431046,
+        -0.7931909360878089,
+        -2.992753236189905
+      ],
+      "exact_global_minimum_mm": 2.308833080171829,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.309962656015045,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.39834684223855,
+              48.11166153702481,
+              16.534479581567233
+            ],
+            [
+              14.807694705176127,
+              45.866258022802825,
+              16.534479581567233
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 23.154853145758295,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.313326143485071,
+              68.96094614600227,
+              16.895119813835798
+            ],
+            [
+              14.802995353394998,
+              70.2962006739905,
+              16.895119813835798
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 23.86525296780052,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.030420512400497,
+              55.025877091154335,
+              16.069624920718873
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 23.27723826987448,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.317252402779584,
+              67.67582858160641,
+              12.332021028745324
+            ],
+            [
+              14.810662007212253,
+              70.2043739598972,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER_M2x5",
+          "gap_mm": 24.80064824264523,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.3703742386976,
+              48.60951817372933,
+              16.394242833205453
+            ],
+            [
+              14.811190857911715,
+              45.90040422445988,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 2.308833080171829,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -23.093546860416062,
+              50.454440134567484,
+              22.119873436912332
+            ],
+            [
+              -23.200580610985746,
+              48.84529238547015,
+              23.772113579842443
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 23.61332604348506,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 33.71332604348307,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 33.71332604348457,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 35.313326043485056,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 35.38887706609079,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        1.2573582590463932,
+        2.111561630017017,
+        0.16877810577616215,
+        -17.27434240270611,
+        -0.6804892814683812,
+        -3.289150947930253
+      ],
+      "exact_global_minimum_mm": 2.4398351810730543,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.283543795695998,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.354890526858714,
+              48.28745331953467,
+              16.75669752940274
+            ],
+            [
+              14.808878237011083,
+              45.878557638166136,
+              16.75669752940274
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 22.986870749009537,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.154440942111888,
+              69.1324767569787,
+              16.54712967191955
+            ],
+            [
+              14.80235502306874,
+              70.30795361542242,
+              16.54712967191955
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 23.12467115843755,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.17884652814118,
+              67.8637419806665,
+              12.46976280368484
+            ],
+            [
+              14.80935558611732,
+              70.21671720476066,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 23.794050455423818,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.953179097028265,
+              55.14508708101023,
+              16.117409977152885
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER_M2x5",
+          "gap_mm": 24.81611037320739,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.314818971900126,
+              48.9424749437334,
+              16.552637725483372
+            ],
+            [
+              14.81392632194525,
+              45.923474420370596,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 2.4398351810730543,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -22.613812411352708,
+              50.83406259934113,
+              22.32750818313366
+            ],
+            [
+              -22.729350380405062,
+              49.197474978853506,
+              24.133339750300348
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 23.45444084211188,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 33.554440842109884,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 33.55444084211139,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 35.154440842111875,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 35.24230150973559,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        1.3603361828267315,
+        2.321386894094829,
+        0.11965997253562644,
+        -18.83917067098118,
+        -0.5677876268489535,
+        -3.585548659670602
+      ],
+      "exact_global_minimum_mm": 2.4276564852278337,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.257816568008586,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.310033547520927,
+              48.47127513219507,
+              16.9788499155716
+            ],
+            [
+              14.810208431553871,
+              45.89143181950538,
+              16.9788499155716
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 22.822147601205074,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -7.997384684542521,
+              69.29599856152186,
+              16.199204448343114
+            ],
+            [
+              14.801810290910224,
+              70.31929206901663,
+              16.199204448343114
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 22.97047063520555,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.038596323221347,
+              68.06786139846635,
+              12.599312478464089
+            ],
+            [
+              14.808009639439781,
+              70.23038116950275,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 23.7239363487172,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.876334952129085,
+              55.26359346532623,
+              16.16490524842725
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER_M2x5",
+          "gap_mm": 24.8330992577766,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.256508249378069,
+              49.281570719661325,
+              16.701797160205736
+            ],
+            [
+              14.817023721563881,
+              45.946972853840435,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 2.4276564852278337,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.651442508710844,
+              68.90737948557155,
+              13.583882869851076
+            ],
+            [
+              -15.5,
+              71.2,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 23.297384584542513,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 33.39738458454052,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 33.397384584542024,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 34.99738458454251,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 35.0991473963162,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        1.4633141066070696,
+        2.53121215817264,
+        0.07054183929509072,
+        -20.40399893925624,
+        -0.4550859722295262,
+        -3.8819463714109497
+      ],
+      "exact_global_minimum_mm": 2.1914580214689883,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.232835682515002,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.26365371511862,
+              48.66309797661053,
+              17.200720876835575
+            ],
+            [
+              14.811697823696685,
+              45.90487880863774,
+              17.2
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 22.660674422839417,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -7.8422794184842965,
+              69.45154333315152,
+              15.851560112887775
+            ],
+            [
+              14.80135364247391,
+              70.33020544034007,
+              15.851560112887775
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 22.81474370012468,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -7.896335861925034,
+              68.28745460436923,
+              12.719528823838873
+            ],
+            [
+              14.806656380185714,
+              70.24534340857439,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 23.654918303197494,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.799901446140371,
+              55.381409256420376,
+              16.2121169064007
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 2.1914580214689883,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.645109506996585,
+              69.15116250435369,
+              13.564000266540358
+            ],
+            [
+              -15.5,
+              71.2,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SF_RETAINER_M2x5",
+          "lower_bound_mm": 22.672046857415083,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 23.142279318484285,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 33.242279318482296,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 33.242279318483796,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 34.84227931848428,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 34.959678039446274,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        1.566292030387408,
+        2.741037422250452,
+        0.021423706054555014,
+        -21.968827207531305,
+        -0.34238431761009847,
+        -4.178344083151298
+      ],
+      "exact_global_minimum_mm": 1.9469179334861089,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.20968397530082,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.215631302600627,
+              48.862885924357194,
+              17.422094756921943
+            ],
+            [
+              14.81335943471111,
+              45.91889607229046,
+              17.2
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 22.502443698099185,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -7.689244710683044,
+              69.59914977440451,
+              15.504412428371355
+            ],
+            [
+              14.800977604460037,
+              70.34068372613145,
+              15.504412428371355
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 22.657631324176847,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -7.751928396997363,
+              68.5217195387592,
+              12.829320974325656
+            ],
+            [
+              14.805330453751441,
+              70.26157594223552,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 23.58700384660671,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.723891638684417,
+              55.498547661017156,
+              16.25905118629276
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 1.9469179334861089,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.635895230984719,
+              69.39956869536313,
+              13.528333057885606
+            ],
+            [
+              -15.5,
+              71.2,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SF_RETAINER_M2x5",
+          "lower_bound_mm": 22.5304018985741,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 22.989244610683038,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 33.08924461068104,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 33.08924461068254,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 34.68924461068303,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 34.82415980381716,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        1.669269954167746,
+        2.950862686328263,
+        -0.027694427185980586,
+        -23.533655475806366,
+        -0.22968266299067097,
+        -4.474741794891646
+      ],
+      "exact_global_minimum_mm": 1.6946440366365882,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.189431031213875,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.16584920024244,
+              49.070596183269764,
+              17.64275627319672
+            ],
+            [
+              14.815206744408998,
+              45.933480266397126,
+              17.2
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 22.347449865411157,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -7.538397491659399,
+              69.73886345041558,
+              15.157976783974588
+            ],
+            [
+              14.800674782341158,
+              70.35071753763297,
+              15.157976783974588
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 22.499307860377453,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -7.605267427750811,
+              68.76978786158323,
+              12.927651895590893
+            ],
+            [
+              14.804068521286096,
+              70.2790449514717,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 23.52020037833473,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.648318277542597,
+              55.615022074785166,
+              16.30571438534909
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 1.6946440366365882,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.623922760087197,
+              69.65125436634312,
+              13.476645049245967
+            ],
+            [
+              -15.5,
+              71.2,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SF_RETAINER_M2x5",
+          "lower_bound_mm": 22.39342541376636,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 22.83839739165939,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 32.9383973916574,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 32.9383973916589,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 34.53839739165939,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 34.69286157544372,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        1.7722478779480846,
+        3.1606879504060745,
+        -0.0768125604265163,
+        -25.098483744081435,
+        -0.11698100837124326,
+        -4.771139506631994
+      ],
+      "exact_global_minimum_mm": 1.435249760848018,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.172138703387983,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.11419306752818,
+              49.28617917016824,
+              17.862490683051277
+            ],
+            [
+              14.817253659102018,
+              45.94862719886378,
+              17.2
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 22.19568948773238,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -7.389851903835128,
+              69.87073671605876,
+              14.812468028854143
+            ],
+            [
+              14.800437897440723,
+              70.3602981230616,
+              14.812468028854143
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 23.454515168852062,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.573193795722432,
+              55.73084607682922,
+              16.35211286149878
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 22.339980351984725,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -7.456277617517659,
+              69.03072861143237,
+              13.013541653414515
+            ],
+            [
+              14.802908780874292,
+              70.29771045927725,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 1.435249760848018,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.609345166713185,
+              69.90487360226368,
+              13.408796455654342
+            ],
+            [
+              -15.5,
+              71.2,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SF_RETAINER_M2x5",
+          "lower_bound_mm": 22.261490671064262,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 22.68985180383512,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 32.78985180383313,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 32.78985180383463,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 34.389851803835114,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 34.566054183089406,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        1.875225801728423,
+        3.3705132144838865,
+        -0.125930693667052,
+        -26.6633120123565,
+        -0.00427935375181554,
+        -5.067537218372343
+      ],
+      "exact_global_minimum_mm": 1.1693532159976507,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.157868984735675,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.06055148147124,
+              49.5095785899186,
+              18.081083949871182
+            ],
+            [
+              14.81951447515432,
+              45.9643317911546,
+              17.2
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 22.04716140112525,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -7.243719153221967,
+              69.99482863675475,
+              14.468100306173323
+            ],
+            [
+              14.800259823218441,
+              70.36941738928277,
+              14.468100306173323
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 22.179887731990572,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -7.3049155609138055,
+              69.30355195915475,
+              13.086070488059235
+            ],
+            [
+              14.80189042566999,
+              70.31752601196288,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 23.389955359152836,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.498530308618353,
+              55.84603342413844,
+              16.398253032003776
+            ],
+            [
+              14.8,
+              53.78,
+              16.4
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 1.1693532159976507,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.592344088563767,
+              70.15908516732641,
+              13.32474357946666
+            ],
+            [
+              -15.5,
+              71.2,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SF_RETAINER_M2x5",
+          "lower_bound_mm": 22.134977158245942,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 22.543719053221956,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 32.64371905321996,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 32.64371905322146,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 34.24371905322195,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 34.44400977080917,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        1.978203725508761,
+        3.5803384785616976,
+        -0.17504882690758772,
+        -28.22814028063156,
+        0.10842230086761195,
+        -5.36393493011269
+      ],
+      "exact_global_minimum_mm": 0.8975762569638686,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.146683823514614,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -9.00481608120567,
+              49.74073152071489,
+              18.29832290845688
+            ],
+            [
+              14.822003837936206,
+              45.980588039100766,
+              17.2
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 21.90186684025079,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -7.100107364840385,
+              70.11120490305682,
+              14.125086887680954
+            ],
+            [
+              14.80013362051859,
+              70.3780679227505,
+              14.125086887680954
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 22.0192999056875,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -7.151170401231823,
+              69.58721304297666,
+              13.14438170180436
+            ],
+            [
+              14.801053039572961,
+              70.33843837583112,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 23.32577103020672,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.423585997207983,
+              55.96052728706517,
+              16.844139939743034
+            ],
+            [
+              14.8,
+              53.78,
+              16.8
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 0.8975762569638686,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.573128106136817,
+              70.412559294429,
+              13.22453804584272
+            ],
+            [
+              -15.5,
+              71.2,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SF_RETAINER_M2x5",
+          "lower_bound_mm": 22.014269420571637,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 22.400107264840376,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 32.500107264838384,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 32.50010726483988,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 34.100107264840375,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 34.32700112202858,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        2.0811816492890993,
+        3.7901637426395096,
+        -0.22416696014812343,
+        -29.79296854890663,
+        0.22112395548703945,
+        -5.660332641853039
+      ],
+      "exact_global_minimum_mm": 0.6205435496041595,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.13864493697622,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.946881708685433,
+              49.97956850546477,
+              18.513995429765934
+            ],
+            [
+              14.824736696006571,
+              45.99738897339063,
+              17.2
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 21.759809539514173,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -6.9591214420316305,
+              70.2199377391336,
+              13.783640008968797
+            ],
+            [
+              14.800052571539958,
+              70.38624300977409,
+              13.783640008968797
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 23.262696119830057,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.349096981633796,
+              56.07440177984004,
+              16.889778455858732
+            ],
+            [
+              14.8,
+              53.78,
+              16.8
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 21.858516705774715,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -6.995064298219446,
+              69.88061587598581,
+              13.187684370927093
+            ],
+            [
+              14.800435932982001,
+              70.36038726596621,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 0.6205435496041595,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.55193093746455,
+              70.66398433130618,
+              13.108325603225063
+            ],
+            [
+              -15.5,
+              71.2,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SF_RETAINER_M2x5",
+          "lower_bound_mm": 21.899755754226632,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 22.25912134203162,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 32.35912134202963,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 32.35912134203113,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 33.959121342031615,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 34.21530093610686,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": true
+    },
+    {
+      "pose": [
+        2.1841595730694374,
+        3.9999890067173207,
+        -0.27328509338865903,
+        -31.35779681718169,
+        0.33382561010646694,
+        -5.956730353593387
+      ],
+      "exact_global_minimum_mm": 0.33888163890597184,
+      "measured_pairs": [
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_RETAINER",
+          "gap_mm": 24.13381362384671,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.886646545333136,
+              50.22601364915399,
+              18.72789058484721
+            ],
+            [
+              14.827728250379149,
+              46.014726620252944,
+              17.2
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER",
+          "gap_mm": 21.622511666309986,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -6.820862929821106,
+              70.3211058052729,
+              13.443970705536866
+            ],
+            [
+              14.80001021228965,
+              70.3939366561666,
+              13.7
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SR_RETAINER_M2x5",
+          "gap_mm": 21.697866707137145,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -6.836652746116598,
+              70.18261732148572,
+              13.215255896278052
+            ],
+            [
+              14.80007742356934,
+              70.3833051248819,
+              11.6
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "SF_D2F_01F",
+          "gap_mm": 23.200767255917928,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_DistShapeShape_complete",
+          "nearest_points_mm": [
+            [
+              -8.275104242063723,
+              56.18767380595053,
+              16.935175165270532
+            ],
+            [
+              14.8,
+              53.78,
+              16.8
+            ]
+          ]
+        },
+        {
+          "a": "BATTERY_CELL_PROPOSAL",
+          "b": "BODY",
+          "gap_mm": 0.33888163890597184,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.5,
+          "intended_contact": false,
+          "pass_check": false,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              -15.52900946309862,
+              70.9120732136009,
+              12.976344497822348
+            ],
+            [
+              -15.5,
+              71.2,
+              12.8
+            ]
+          ]
+        }
+      ],
+      "pruned_pairs": [
+        {
+          "part": "SF_RETAINER_M2x5",
+          "lower_bound_mm": 21.791826754821304,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_D2F_01F",
+          "lower_bound_mm": 22.120862829821096,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_REAR_KEY",
+          "lower_bound_mm": 32.220862829819104,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SIDE_FRONT_KEY",
+          "lower_bound_mm": 32.220862829820604,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SR_VERTICAL_PIN",
+          "lower_bound_mm": 33.820862829821095,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        },
+        {
+          "part": "SF_VERTICAL_PIN",
+          "lower_bound_mm": 34.10918105890691,
+          "reason": "Cannot improve previously measured exact minimum or violate required clearance"
+        }
+      ],
+      "passed": false
+    }
+  ],
+  "scope": "Finite exact rigid-envelope path only; reduced envelopes are proposals, capacity and actual handling unverified."
 }
