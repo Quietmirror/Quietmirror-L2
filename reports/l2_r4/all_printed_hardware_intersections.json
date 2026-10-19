@@ -8,7 +8,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -4.5,
@@ -29,22 +29,22 @@
     {
       "a": "BODY",
       "b": "ANTENNA_FEED_ROUTE_EST",
-      "gap_mm": 0.8653097563801889,
+      "gap_mm": 0.8653097563788733,
       "overlap_mm3": 0.0,
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          -3.000000560659828,
-          66.19124047979732,
-          22.26709583281383
+          -2.999999990747696,
+          66.19124097477868,
+          22.267094948917837
         ],
         [
-          -3.0000002089442512,
-          65.43625309309837,
-          21.844301532459486
+          -2.9999999956113754,
+          65.43625301101164,
+          21.844301679043102
         ]
       ],
       "named_thread_engagement_mm3": 0.0,
@@ -60,16 +60,16 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -13.7,
-          56.3,
+          53.7,
           12.8
         ],
         [
           -13.7,
-          56.3,
+          53.7,
           13.4
         ]
       ],
@@ -81,15 +81,15 @@
     {
       "a": "BODY",
       "b": "BATTERY_PLUG_EST",
-      "gap_mm": 2.268250808279927,
+      "gap_mm": 2.268250808279928,
       "overlap_mm3": 0.0,
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          -21.331126324180207,
+          -21.33112632418021,
           64.01556845552759,
           25.84655318283746
         ],
@@ -112,7 +112,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -4.700000000000002,
@@ -138,15 +138,15 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          5.5,
+          0.5,
           67.5,
           21.5
         ],
         [
-          5.5,
+          0.5,
           67.5,
           20.6
         ]
@@ -164,7 +164,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -3.6,
@@ -185,12 +185,12 @@
     {
       "a": "BODY",
       "b": "ENCODER_ADAPTER_PCB_EST",
-      "gap_mm": 0.5700877125495692,
+      "gap_mm": 1.209338662244785,
       "overlap_mm3": 0.0,
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           4.35,
@@ -198,8 +198,8 @@
           9.05
         ],
         [
-          4.9,
-          35.75,
+          4.35,
+          34.55,
           9.2
         ]
       ],
@@ -211,22 +211,22 @@
     {
       "a": "BODY",
       "b": "ENCODER_EC10E_HOUSING",
-      "gap_mm": 1.2804644437497321,
+      "gap_mm": 1.643008111687192,
       "overlap_mm3": 0.0,
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          6.718166513586873,
-          34.706318424867774,
-          7.507570558198384
+          6.801732472388746,
+          34.76338905908488,
+          7.58222603510735
         ],
         [
           6.05,
           34.25,
-          8.5
+          8.95
         ]
       ],
       "named_thread_engagement_mm3": 0.0,
@@ -242,7 +242,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           13.55,
@@ -268,7 +268,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           10.957299306454807,
@@ -294,17 +294,17 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           1.3000000000000003,
           35.75,
-          8.9
+          7.3
         ],
         [
           1.3000000000000003,
           34.4,
-          8.9
+          7.3
         ]
       ],
       "named_thread_engagement_mm3": 0.0,
@@ -320,7 +320,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           11.26378755167617,
@@ -346,7 +346,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           1.2999999999999998,
@@ -372,17 +372,17 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          23.05,
+          13.55,
           24.555925096191,
           11.74118163355
         ],
         [
-          23.05,
+          13.55,
           24.617728495066,
-          11.550970330291001
+          11.550970330291
         ]
       ],
       "named_thread_engagement_mm3": 0.0,
@@ -398,7 +398,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           13.55,
@@ -424,7 +424,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           23.05,
@@ -450,7 +450,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           13.55,
@@ -476,17 +476,17 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          15.35,
+          21.25,
           30.737792452109,
           13.749792096987
         ],
         [
-          15.35,
+          21.25,
           30.799595850984,
-          13.559580793728
+          13.559580793728001
         ]
       ],
       "named_thread_engagement_mm3": 0.0,
@@ -502,7 +502,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           13.55,
@@ -528,7 +528,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           23.05,
@@ -554,7 +554,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           13.55,
@@ -580,15 +580,15 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          28.3,
+          11.1,
           38.5,
           15.49679139245
         ],
         [
-          28.3,
+          11.099999999999998,
           38.5,
           15.32179139245
         ]
@@ -606,15 +606,15 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          -6.0,
+          6.0,
           57.0,
           8.6
         ],
         [
-          -6.0,
+          6.0,
           59.0,
           8.6
         ]
@@ -632,7 +632,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -1.0,
@@ -658,7 +658,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -9.5,
@@ -684,7 +684,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -15.5,
@@ -710,7 +710,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -15.5,
@@ -736,7 +736,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -24.80429589691,
@@ -762,7 +762,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -0.5,
@@ -783,15 +783,15 @@
     {
       "a": "BODY",
       "b": "REMOTE_ANTENNA_PCB_EST",
-      "gap_mm": 2.745412559388986,
+      "gap_mm": 2.7454125593889875,
       "overlap_mm3": 0.0,
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          -4.015989596297297,
+          -4.01598959629728,
           64.14023095506762,
           28.069670162868384
         ],
@@ -814,7 +814,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -4.700000000000003,
@@ -840,7 +840,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           6.0,
@@ -866,7 +866,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           6.5,
@@ -892,7 +892,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -4.7,
@@ -918,17 +918,17 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          -23.05,
+          -13.55,
           24.555925096191,
           11.74118163355
         ],
         [
-          -23.05,
-          24.617728495065958,
-          11.550970330291126
+          -13.55,
+          24.61772849506596,
+          11.550970330291124
         ]
       ],
       "named_thread_engagement_mm3": 0.0,
@@ -944,7 +944,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -13.55,
@@ -970,7 +970,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -23.05,
@@ -996,7 +996,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -13.55,
@@ -1022,15 +1022,15 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          -13.55,
+          -15.35,
           30.737792452109,
           13.749792096987
         ],
         [
-          -13.55,
+          -15.35,
           30.799595850983962,
           13.559580793728124
         ]
@@ -1048,7 +1048,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -13.55,
@@ -1074,7 +1074,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -23.05,
@@ -1100,7 +1100,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -13.55,
@@ -1126,7 +1126,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -28.3,
@@ -1152,7 +1152,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           9.5,
@@ -1178,7 +1178,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           9.5,
@@ -1199,12 +1199,12 @@
     {
       "a": "BODY",
       "b": "SENSOR_ROUTE_EST",
-      "gap_mm": 2.320407221060067,
+      "gap_mm": 2.320407221060063,
       "overlap_mm3": 0.0,
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           9.5,
@@ -1230,7 +1230,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           19.0,
@@ -1256,16 +1256,16 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           26.49,
-          49.561856181549,
+          50.4518,
           13.7
         ],
         [
           26.49,
-          49.561856181549,
+          50.4518,
           15.3
         ]
       ],
@@ -1282,7 +1282,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           28.025,
@@ -1308,7 +1308,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           21.753678713073,
@@ -1334,7 +1334,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -21.75367871306,
@@ -1360,7 +1360,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           22.24,
@@ -1386,7 +1386,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -27.44,
@@ -1412,7 +1412,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -2.6,
@@ -1438,7 +1438,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           19.0,
@@ -1464,16 +1464,16 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           26.99,
-          63.398356181549,
+          64.2883,
           13.7
         ],
         [
           26.99,
-          63.398356181549,
+          64.2883,
           15.3
         ]
       ],
@@ -1490,17 +1490,17 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           28.025,
           69.7,
-          15.2
+          19.8
         ],
         [
           28.0,
           69.7,
-          15.2
+          19.8
         ]
       ],
       "named_thread_engagement_mm3": 0.0,
@@ -1516,7 +1516,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           17.7,
@@ -1537,28 +1537,28 @@
     {
       "a": "BODY",
       "b": "SWITCH_MIDDLE",
-      "gap_mm": 0.6721167047608304,
-      "overlap_mm3": 0.0,
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.006686004135470469,
       "required_mm": 0.0,
       "intended_contact": false,
-      "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "pass_check": false,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          -3.6,
-          49.91742598474215,
-          16.151196473604365
+          -1.0,
+          37.42,
+          9.05
         ],
         [
-          -3.3,
-          49.9,
-          15.55
+          -1.0,
+          37.42,
+          9.05
         ]
       ],
       "named_thread_engagement_mm3": 0.0,
-      "unexplained_overlap_mm3": 0.0,
+      "unexplained_overlap_mm3": 0.006686004135470469,
       "classification": "No intentional overlap",
-      "passed": true
+      "passed": false
     },
     {
       "a": "BODY",
@@ -1568,7 +1568,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -18.9,
@@ -1594,15 +1594,15 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          -8.766396446854,
+          8.766396446854,
           18.619646943271,
           8.0
         ],
         [
-          -8.766396446854,
+          8.766396446854,
           18.619646943271,
           8.0
         ]
@@ -1620,7 +1620,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -4.47,
@@ -1646,17 +1646,17 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": false,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          8.65,
+          8.8,
           13.0,
-          8.0
+          6.3
         ],
         [
-          8.65,
+          8.8,
           13.0,
-          8.0
+          6.3
         ]
       ],
       "named_thread_engagement_mm3": 1.4820463343309862,
@@ -1672,17 +1672,17 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": false,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          -6.95,
+          -6.8,
           13.0,
-          8.0
+          6.3
         ],
         [
-          -6.95,
+          -6.8,
           13.0,
-          8.0
+          6.3
         ]
       ],
       "named_thread_engagement_mm3": 1.482046334330986,
@@ -1698,7 +1698,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -6.0,
@@ -1724,7 +1724,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           10.3,
@@ -1750,7 +1750,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -5.3,
@@ -1776,15 +1776,15 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          -3.6,
+          -6.0,
           50.0,
           20.175
         ],
         [
-          -3.5999999999999996,
+          -6.0,
           50.0,
           20.0
         ]
@@ -1802,7 +1802,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -4.349999985276843,
@@ -1828,7 +1828,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           4.35,
@@ -1854,7 +1854,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -5.15,
@@ -1880,7 +1880,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           4.35,
@@ -1906,7 +1906,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           4.35,
@@ -1932,7 +1932,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           6.3,
@@ -1958,7 +1958,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -5.15,
@@ -1984,7 +1984,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           4.35,
@@ -2010,17 +2010,17 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           17.7,
           45.7,
-          12.1
+          13.7
         ],
         [
           17.6,
           45.7,
-          12.1
+          13.7
         ]
       ],
       "named_thread_engagement_mm3": 0.0,
@@ -2036,17 +2036,17 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           17.7,
           70.4,
-          13.7
+          12.1
         ],
         [
           17.6,
           70.4,
-          13.7
+          12.1
         ]
       ],
       "named_thread_engagement_mm3": 0.0,
@@ -2062,7 +2062,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           17.7,
@@ -2088,7 +2088,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           17.7,
@@ -2114,7 +2114,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           11.1,
@@ -2140,7 +2140,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           16.880196097281,
@@ -2166,7 +2166,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           15.17933380014658,
@@ -2192,7 +2192,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           13.8376517844628,
@@ -2233,7 +2233,7 @@
       "b": "BATTERY_CELL_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 14.156712094774756,
+      "lower_bound_mm": 16.3802471572773,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -2290,7 +2290,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           9.9,
@@ -2316,7 +2316,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           9.9,
@@ -2342,7 +2342,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           12.85,
@@ -2395,7 +2395,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           23.75,
@@ -2421,7 +2421,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           13.549966826598933,
@@ -2447,7 +2447,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           23.75,
@@ -2473,7 +2473,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           13.75,
@@ -2499,7 +2499,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           24.2,
@@ -2525,7 +2525,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           12.4,
@@ -2551,7 +2551,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           23.05,
@@ -2577,7 +2577,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           13.25,
@@ -2598,12 +2598,12 @@
     {
       "a": "LEFT_KEY",
       "b": "LEFT_KEY_STEEL_PIN",
-      "gap_mm": 0.17499999999999463,
+      "gap_mm": 0.17499999999999682,
       "overlap_mm3": 0.0,
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           11.7,
@@ -2806,7 +2806,7 @@
       "b": "RIGHT_KEY_STEEL_PIN",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 12.699999899787286,
+      "lower_bound_mm": 13.399999899787286,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -2944,7 +2944,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           18.3,
@@ -3006,7 +3006,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           7.941559982376827,
@@ -3077,7 +3077,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           11.7,
@@ -3103,7 +3103,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           11.7,
@@ -3270,7 +3270,7 @@
       "b": "BATTERY_CELL_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 4.850000000000001,
+      "lower_bound_mm": 5.850000000000001,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -3315,7 +3315,7 @@
       "b": "ENCODER_ADAPTER_PCB_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 4.5044421474806375,
+      "lower_bound_mm": 4.504442147480637,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -3450,7 +3450,7 @@
       "b": "LEFT_KEY_STEEL_PIN",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 12.699999899999995,
+      "lower_bound_mm": 13.399999899999994,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -3570,7 +3570,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -23.75,
@@ -3596,7 +3596,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -13.549966826553653,
@@ -3622,7 +3622,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -23.75,
@@ -3648,7 +3648,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -13.75,
@@ -3674,7 +3674,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -24.2,
@@ -3700,7 +3700,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -12.4,
@@ -3726,7 +3726,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -23.35,
@@ -3752,7 +3752,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -13.25,
@@ -3773,12 +3773,12 @@
     {
       "a": "RIGHT_KEY",
       "b": "RIGHT_KEY_STEEL_PIN",
-      "gap_mm": 0.17499999999999397,
+      "gap_mm": 0.17499999999999724,
       "overlap_mm3": 0.0,
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -24.9,
@@ -3948,7 +3948,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -18.3,
@@ -4001,7 +4001,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -7.941559982120336,
@@ -4027,7 +4027,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -11.7,
@@ -4080,7 +4080,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -11.7,
@@ -4115,7 +4115,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -11.7,
@@ -4273,7 +4273,7 @@
       "b": "BATTERY_CELL_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 22.8,
+      "lower_bound_mm": 24.8,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -4318,7 +4318,7 @@
       "b": "ENCODER_ADAPTER_PCB_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 7.187489130426562,
+      "lower_bound_mm": 8.688642011269524,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -4642,7 +4642,7 @@
       "b": "RIGHT_KEY_STEEL_PIN",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 22.318826134006244,
+      "lower_bound_mm": 23.015212360523634,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -4681,7 +4681,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           18.5,
@@ -4968,7 +4968,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": false,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           17.6,
@@ -5021,7 +5021,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           15.450362624018032,
@@ -5056,7 +5056,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           15.45572694485002,
@@ -5106,7 +5106,7 @@
       "b": "BATTERY_CELL_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 33.4,
+      "lower_bound_mm": 35.4,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5151,7 +5151,7 @@
       "b": "ENCODER_ADAPTER_PCB_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 16.9243168230168,
+      "lower_bound_mm": 18.256505689753364,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5178,7 +5178,7 @@
       "b": "ENCODER_M2x3_FRONT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 22.22976607948335,
+      "lower_bound_mm": 22.229766080640612,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5187,7 +5187,7 @@
       "b": "ENCODER_M2x3_REAR",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 24.444273356934723,
+      "lower_bound_mm": 24.444273357987143,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5196,7 +5196,7 @@
       "b": "ENCODER_WASHER_FRONT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 22.52715028377291,
+      "lower_bound_mm": 22.52715028582177,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5205,7 +5205,7 @@
       "b": "ENCODER_WASHER_REAR",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 24.708551149504704,
+      "lower_bound_mm": 24.708551151372674,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5214,7 +5214,7 @@
       "b": "LEFT_KEY_M2_SWITCH_1_BOLT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 17.45518486130033,
+      "lower_bound_mm": 17.4551848625141,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5223,7 +5223,7 @@
       "b": "LEFT_KEY_M2_SWITCH_1_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 20.93552861544907,
+      "lower_bound_mm": 20.935528616353945,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5232,7 +5232,7 @@
       "b": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 16.893059809145658,
+      "lower_bound_mm": 16.893059810131074,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5241,7 +5241,7 @@
       "b": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 20.532790110342344,
+      "lower_bound_mm": 20.53279011115308,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5250,7 +5250,7 @@
       "b": "LEFT_KEY_M2_SWITCH_2_BOLT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 11.078861137594734,
+      "lower_bound_mm": 11.078861138135277,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5259,7 +5259,7 @@
       "b": "LEFT_KEY_M2_SWITCH_2_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 16.185870695064818,
+      "lower_bound_mm": 16.185870695296263,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5268,7 +5268,7 @@
       "b": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 10.642449373266329,
+      "lower_bound_mm": 10.642449373402462,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5277,7 +5277,7 @@
       "b": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 15.794990619260806,
+      "lower_bound_mm": 15.79499061935253,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5295,7 +5295,7 @@
       "b": "MATCHED_LENS_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 19.932699249149255,
+      "lower_bound_mm": 19.932699250477842,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5313,7 +5313,7 @@
       "b": "PAW3950_PACKAGE_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 22.23898601090782,
+      "lower_bound_mm": 22.238986011282073,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5322,7 +5322,7 @@
       "b": "POWER_SWITCH_BODY_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 43.75525679589065,
+      "lower_bound_mm": 43.75525679675528,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5331,7 +5331,7 @@
       "b": "POWER_SWITCH_PCB_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 43.66488860941357,
+      "lower_bound_mm": 43.66488861007205,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5340,7 +5340,7 @@
       "b": "POWER_SWITCH_TAB_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 46.843062421546875,
+      "lower_bound_mm": 46.84306242283909,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5403,7 +5403,7 @@
       "b": "RIGHT_KEY_M2_SWITCH_1_BOLT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 40.68222558491814,
+      "lower_bound_mm": 40.68222558543892,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5412,7 +5412,7 @@
       "b": "RIGHT_KEY_M2_SWITCH_1_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 40.78451125621428,
+      "lower_bound_mm": 40.78451125667877,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5421,7 +5421,7 @@
       "b": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 51.2696349676431,
+      "lower_bound_mm": 51.26963496796779,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5430,7 +5430,7 @@
       "b": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 42.130695101260464,
+      "lower_bound_mm": 42.13069510165558,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5439,7 +5439,7 @@
       "b": "RIGHT_KEY_M2_SWITCH_2_BOLT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 38.38100004046412,
+      "lower_bound_mm": 38.38100004062015,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5448,7 +5448,7 @@
       "b": "RIGHT_KEY_M2_SWITCH_2_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 38.56244818677035,
+      "lower_bound_mm": 38.5624481868675,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5457,7 +5457,7 @@
       "b": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 49.562705017609126,
+      "lower_bound_mm": 49.56270501763836,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5466,7 +5466,7 @@
       "b": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 40.036005403418265,
+      "lower_bound_mm": 40.03600540345445,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5475,7 +5475,7 @@
       "b": "RIGHT_KEY_STEEL_PIN",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 33.11408310673874,
+      "lower_bound_mm": 33.80758051088542,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5514,7 +5514,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           25.97000000000001,
@@ -5540,7 +5540,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           26.49,
@@ -5566,17 +5566,17 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           28.025,
           45.3,
-          15.735786437627
+          19.364213562373
         ],
         [
           28.0,
           45.3,
-          15.735786437627
+          19.364213562373
         ]
       ],
       "named_thread_engagement_mm3": 0.0,
@@ -5589,7 +5589,7 @@
       "b": "SKATE_1_0p8",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 30.095390009886216,
+      "lower_bound_mm": 30.09539001242549,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5598,7 +5598,7 @@
       "b": "SKATE_2_0p8",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 54.06975956897866,
+      "lower_bound_mm": 54.06975957039203,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5607,7 +5607,7 @@
       "b": "SKATE_3_0p8",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 10.505336704226055,
+      "lower_bound_mm": 10.505336711500489,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5616,7 +5616,7 @@
       "b": "SKATE_4_0p8",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 47.71093898959817,
+      "lower_bound_mm": 47.71093899119991,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5625,7 +5625,7 @@
       "b": "SKATE_5_0p8",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 33.70760672460087,
+      "lower_bound_mm": 33.70760672686803,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5637,7 +5637,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           26.49,
@@ -5705,7 +5705,7 @@
       "b": "USB_ADAPTER_PCB_REFERENCE",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 29.244700372967813,
+      "lower_bound_mm": 29.244700374597787,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5714,7 +5714,7 @@
       "b": "USB_C_REFERENCE",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 33.66667491681875,
+      "lower_bound_mm": 33.66667491749073,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5723,7 +5723,7 @@
       "b": "USB_M2x3_L",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 33.40018712422755,
+      "lower_bound_mm": 33.40018712522431,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5732,7 +5732,7 @@
       "b": "USB_M2x3_R",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 42.99735456901291,
+      "lower_bound_mm": 42.99735456978719,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5750,7 +5750,7 @@
       "b": "USB_WASHER_L",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 32.84984779126386,
+      "lower_bound_mm": 32.84984779264585,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5759,7 +5759,7 @@
       "b": "USB_WASHER_R",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 42.35082643714528,
+      "lower_bound_mm": 42.35082643821723,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5777,7 +5777,7 @@
       "b": "WHEEL_M2_SWITCH_1_BOLT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 19.163702668244245,
+      "lower_bound_mm": 19.163702669369506,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5786,7 +5786,7 @@
       "b": "WHEEL_M2_SWITCH_1_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 19.393337079192737,
+      "lower_bound_mm": 19.393337080144946,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5795,7 +5795,7 @@
       "b": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 30.662477068331434,
+      "lower_bound_mm": 30.662477068886652,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5804,7 +5804,7 @@
       "b": "WHEEL_M2_SWITCH_1_WASHER_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 20.91524563484616,
+      "lower_bound_mm": 20.915245635660128,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5813,7 +5813,7 @@
       "b": "WHEEL_M2_SWITCH_2_BOLT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 19.064233526603466,
+      "lower_bound_mm": 19.064233527734597,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5822,7 +5822,7 @@
       "b": "WHEEL_M2_SWITCH_2_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 19.304896349558373,
+      "lower_bound_mm": 19.30489635051494,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5831,7 +5831,7 @@
       "b": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 30.63274391832947,
+      "lower_bound_mm": 30.632743918885225,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5840,7 +5840,7 @@
       "b": "WHEEL_M2_SWITCH_2_WASHER_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 20.871631463926132,
+      "lower_bound_mm": 20.871631464741803,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5867,7 +5867,7 @@
       "b": "SF_RETAINER_WASHER",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 7.696752558811747,
+      "lower_bound_mm": 7.69675256195754,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5876,7 +5876,7 @@
       "b": "SR_RETAINER_WASHER",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 14.722177061887786,
+      "lower_bound_mm": 14.722177063532408,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5939,7 +5939,7 @@
       "b": "BATTERY_CELL_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 33.4,
+      "lower_bound_mm": 35.4,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -5984,7 +5984,7 @@
       "b": "ENCODER_ADAPTER_PCB_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 26.907480287753597,
+      "lower_bound_mm": 28.45153766037947,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6011,7 +6011,7 @@
       "b": "ENCODER_M2x3_FRONT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 34.024733560728244,
+      "lower_bound_mm": 34.02473356148433,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6020,7 +6020,7 @@
       "b": "ENCODER_M2x3_REAR",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 32.832948316569855,
+      "lower_bound_mm": 32.832948317353384,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6029,7 +6029,7 @@
       "b": "ENCODER_WASHER_FRONT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 34.13608785255991,
+      "lower_bound_mm": 34.136087853911995,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6038,7 +6038,7 @@
       "b": "ENCODER_WASHER_REAR",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 32.943474242369895,
+      "lower_bound_mm": 32.94347424377093,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6047,7 +6047,7 @@
       "b": "LEFT_KEY_M2_SWITCH_1_BOLT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 31.650569524725828,
+      "lower_bound_mm": 31.650569525395213,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6056,7 +6056,7 @@
       "b": "LEFT_KEY_M2_SWITCH_1_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 33.542598090753465,
+      "lower_bound_mm": 33.54259809131824,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6065,7 +6065,7 @@
       "b": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 31.06912522960225,
+      "lower_bound_mm": 31.069125230138045,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6074,7 +6074,7 @@
       "b": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 33.189012376578894,
+      "lower_bound_mm": 33.189012377080466,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6083,7 +6083,7 @@
       "b": "LEFT_KEY_M2_SWITCH_2_BOLT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 25.357737116323307,
+      "lower_bound_mm": 25.35773711655947,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6092,7 +6092,7 @@
       "b": "LEFT_KEY_M2_SWITCH_2_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 27.784717621094867,
+      "lower_bound_mm": 27.784717621229696,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6101,7 +6101,7 @@
       "b": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 24.826908714880123,
+      "lower_bound_mm": 24.82690871493848,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6110,7 +6110,7 @@
       "b": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 27.433472188860648,
+      "lower_bound_mm": 27.433472188913456,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6128,7 +6128,7 @@
       "b": "MATCHED_LENS_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 19.71319355018449,
+      "lower_bound_mm": 19.71319355152787,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6146,7 +6146,7 @@
       "b": "PAW3950_PACKAGE_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 21.428252378188798,
+      "lower_bound_mm": 21.428252378577213,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6155,7 +6155,7 @@
       "b": "POWER_SWITCH_BODY_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 41.7008393191832,
+      "lower_bound_mm": 41.700839320090424,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6164,7 +6164,7 @@
       "b": "POWER_SWITCH_PCB_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 41.57403035480798,
+      "lower_bound_mm": 41.57403035549957,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6173,7 +6173,7 @@
       "b": "POWER_SWITCH_TAB_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 44.62297614322624,
+      "lower_bound_mm": 44.622976144582736,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6236,7 +6236,7 @@
       "b": "RIGHT_KEY_M2_SWITCH_1_BOLT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 48.49864483920662,
+      "lower_bound_mm": 48.49864483964347,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6245,7 +6245,7 @@
       "b": "RIGHT_KEY_M2_SWITCH_1_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 48.47871581093901,
+      "lower_bound_mm": 48.47871581132978,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6254,7 +6254,7 @@
       "b": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 57.519479678911445,
+      "lower_bound_mm": 57.519479679200856,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6263,7 +6263,7 @@
       "b": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 49.54705382293388,
+      "lower_bound_mm": 49.54705382326986,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6272,7 +6272,7 @@
       "b": "RIGHT_KEY_M2_SWITCH_2_BOLT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 44.64722647220721,
+      "lower_bound_mm": 44.647226472341345,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6281,7 +6281,7 @@
       "b": "RIGHT_KEY_M2_SWITCH_2_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 44.6885951142342,
+      "lower_bound_mm": 44.688595114318026,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6290,7 +6290,7 @@
       "b": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 54.40197970972188,
+      "lower_bound_mm": 54.4019797097485,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6299,7 +6299,7 @@
       "b": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 45.89112546383005,
+      "lower_bound_mm": 45.89112546386161,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6308,7 +6308,7 @@
       "b": "RIGHT_KEY_STEEL_PIN",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 37.83070837600056,
+      "lower_bound_mm": 38.43920519768845,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6371,7 +6371,7 @@
       "b": "SKATE_1_0p8",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 43.82958465827798,
+      "lower_bound_mm": 43.82958466002156,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6380,7 +6380,7 @@
       "b": "SKATE_2_0p8",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 62.76016962466845,
+      "lower_bound_mm": 62.760169625886114,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6389,7 +6389,7 @@
       "b": "SKATE_3_0p8",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 10.099999992433627,
+      "lower_bound_mm": 10.100000000000001,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6398,7 +6398,7 @@
       "b": "SKATE_4_0p8",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 47.62333041532437,
+      "lower_bound_mm": 47.62333041692906,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6407,7 +6407,7 @@
       "b": "SKATE_5_0p8",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 25.513517120286632,
+      "lower_bound_mm": 25.513517123281922,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6419,7 +6419,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           26.470000000000137,
@@ -6445,7 +6445,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           26.99,
@@ -6471,7 +6471,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           28.025,
@@ -6521,7 +6521,7 @@
       "b": "USB_ADAPTER_PCB_REFERENCE",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 41.80397699064841,
+      "lower_bound_mm": 41.80397699178869,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6530,7 +6530,7 @@
       "b": "USB_C_REFERENCE",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 45.68648587771608,
+      "lower_bound_mm": 45.686485878211265,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6539,7 +6539,7 @@
       "b": "USB_M2x3_L",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 46.408538990614794,
+      "lower_bound_mm": 46.408538991332165,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6548,7 +6548,7 @@
       "b": "USB_M2x3_R",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 53.73036842646264,
+      "lower_bound_mm": 53.730368427082254,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6566,7 +6566,7 @@
       "b": "USB_WASHER_L",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 45.827202525783754,
+      "lower_bound_mm": 45.82720252677439,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6575,7 +6575,7 @@
       "b": "USB_WASHER_R",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 53.05292160983409,
+      "lower_bound_mm": 53.05292161068981,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6593,7 +6593,7 @@
       "b": "WHEEL_M2_SWITCH_1_BOLT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 25.050099734469537,
+      "lower_bound_mm": 25.050099735330374,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6602,7 +6602,7 @@
       "b": "WHEEL_M2_SWITCH_1_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 25.169456089418954,
+      "lower_bound_mm": 25.16945609015264,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6611,7 +6611,7 @@
       "b": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 34.398946158798964,
+      "lower_bound_mm": 34.39894615929388,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6620,7 +6620,7 @@
       "b": "WHEEL_M2_SWITCH_1_WASHER_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 26.087305281227312,
+      "lower_bound_mm": 26.087305281879903,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6629,7 +6629,7 @@
       "b": "WHEEL_M2_SWITCH_2_BOLT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 21.41278818853049,
+      "lower_bound_mm": 21.41278818953756,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6638,7 +6638,7 @@
       "b": "WHEEL_M2_SWITCH_2_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 21.582435477424465,
+      "lower_bound_mm": 21.58243547828009,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6647,7 +6647,7 @@
       "b": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 31.970103192450765,
+      "lower_bound_mm": 31.970103192983274,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6656,7 +6656,7 @@
       "b": "WHEEL_M2_SWITCH_2_WASHER_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 22.78919696119086,
+      "lower_bound_mm": 22.789196961937897,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6683,7 +6683,7 @@
       "b": "SF_RETAINER_WASHER",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 13.30272520131024,
+      "lower_bound_mm": 13.302725203130349,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6692,7 +6692,7 @@
       "b": "SR_RETAINER_WASHER",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 7.696752558811747,
+      "lower_bound_mm": 7.69675256195754,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6755,7 +6755,7 @@
       "b": "BATTERY_CELL_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 22.8,
+      "lower_bound_mm": 24.8,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -6800,7 +6800,7 @@
       "b": "ENCODER_ADAPTER_PCB_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 19.82952344359289,
+      "lower_bound_mm": 21.295363345103873,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -7124,7 +7124,7 @@
       "b": "RIGHT_KEY_STEEL_PIN",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 27.248486196484386,
+      "lower_bound_mm": 27.82175407841856,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -7235,7 +7235,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           19.0,
@@ -7459,7 +7459,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": false,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           17.6,
@@ -7503,7 +7503,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           17.3,
@@ -7524,22 +7524,22 @@
     {
       "a": "SR_RETAINER",
       "b": "SIDE_SR_NO_ROUTE_EST",
-      "gap_mm": 2.0769728648009425,
+      "gap_mm": 2.11919408068059,
       "overlap_mm3": 0.0,
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           17.3,
           57.37,
-          17.2
+          17.35
         ],
         [
-          15.290285181719053,
+          15.285218951844444,
           57.37,
-          16.675726569144103
+          16.693006179949275
         ]
       ],
       "named_thread_engagement_mm3": 0.0,
@@ -7550,22 +7550,22 @@
     {
       "a": "SR_RETAINER",
       "b": "SIDE_COM_ROUTE_EST",
-      "gap_mm": 2.0769728648009425,
+      "gap_mm": 2.11919408068059,
       "overlap_mm3": 0.0,
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           17.3,
           62.45,
-          17.2
+          17.35
         ],
         [
-          15.290285181719053,
+          15.285218951844444,
           62.45,
-          16.675726569144103
+          16.693006179949275
         ]
       ],
       "named_thread_engagement_mm3": 0.0,
@@ -7605,7 +7605,7 @@
       "b": "BATTERY_CELL_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 11.773911839316616,
+      "lower_bound_mm": 13.043197460745581,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -7662,16 +7662,16 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           3.25,
-          25.9,
+          30.9,
           14.2
         ],
         [
           3.5,
-          25.9,
+          30.9,
           14.2
         ]
       ],
@@ -7688,7 +7688,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           7.95,
@@ -8008,7 +8008,7 @@
       "b": "RIGHT_KEY_STEEL_PIN",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 3.2534596969994882,
+      "lower_bound_mm": 3.359315406448165,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -8209,7 +8209,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -3.25,
@@ -8421,7 +8421,7 @@
       "b": "BATTERY_CELL_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 1.1499999,
+      "lower_bound_mm": 3.1499999,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -8469,16 +8469,16 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           6.925,
-          21.625,
+          32.425,
           10.4
         ],
         [
           6.925,
-          21.625,
+          32.425,
           10.4
         ]
       ],
@@ -8495,15 +8495,15 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          6.05,
+          5.45,
           32.425,
           12.0
         ],
         [
-          6.05,
+          5.45,
           32.55,
           12.0
         ]
@@ -8521,7 +8521,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           6.725176065070113,
@@ -8547,7 +8547,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": false,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           9.5,
@@ -8573,7 +8573,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": false,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           2.3,
@@ -8614,7 +8614,7 @@
       "b": "LEFT_KEY_M2_SWITCH_1_BOLT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 0.25,
+      "lower_bound_mm": 0.31999999999996653,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -8623,7 +8623,7 @@
       "b": "LEFT_KEY_M2_SWITCH_1_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 0.5500000000000007,
+      "lower_bound_mm": 0.6199999999999672,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -8632,7 +8632,7 @@
       "b": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 11.950000000000001,
+      "lower_bound_mm": 12.019999999999968,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -8641,7 +8641,7 @@
       "b": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 2.1500000000000004,
+      "lower_bound_mm": 2.219999999999967,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -8650,7 +8650,7 @@
       "b": "LEFT_KEY_M2_SWITCH_2_BOLT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 0.25,
+      "lower_bound_mm": 0.31999999999996653,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -8659,7 +8659,7 @@
       "b": "LEFT_KEY_M2_SWITCH_2_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 0.5500000000000007,
+      "lower_bound_mm": 0.6199999999999672,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -8668,7 +8668,7 @@
       "b": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 11.950000000000001,
+      "lower_bound_mm": 12.019999999999968,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -8677,29 +8677,29 @@
       "b": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 2.1500000000000004,
+      "lower_bound_mm": 2.219999999999967,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
     {
       "a": "WHEEL_CARRIER",
       "b": "LEFT_KEY_STEEL_PIN",
-      "gap_mm": 0.3902106034801327,
+      "gap_mm": 0.807024747022218,
       "overlap_mm3": 0.0,
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          7.203437018477342,
-          37.23002646324348,
-          14.740082592351442
+          7.559314652667477,
+          36.92960736912081,
+          14.623554814333824
         ],
         [
-          7.4,
-          37.55019343511783,
-          14.634629192766306
+          8.1,
+          37.51796629177697,
+          14.510496972425075
         ]
       ],
       "named_thread_engagement_mm3": 0.0,
@@ -8892,7 +8892,7 @@
       "b": "RIGHT_KEY_STEEL_PIN",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 0.5499999000000004,
+      "lower_bound_mm": 1.2499998999999997,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -8928,7 +8928,7 @@
       "b": "SF_D2F_01F",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 3.700000000000001,
+      "lower_bound_mm": 3.7699999999999676,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -8937,7 +8937,7 @@
       "b": "SF_TUNING_SHIM_0p33",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 14.539999999999997,
+      "lower_bound_mm": 14.609999999999964,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -8946,7 +8946,7 @@
       "b": "SF_VERTICAL_PIN",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 15.9,
+      "lower_bound_mm": 15.969999999999967,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -8955,7 +8955,7 @@
       "b": "SKATE_1_0p8",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 10.790106579640444,
+      "lower_bound_mm": 10.844819039522948,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -8973,7 +8973,7 @@
       "b": "SKATE_3_0p8",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 12.96291628963174,
+      "lower_bound_mm": 13.017207793225062,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -9000,7 +9000,7 @@
       "b": "SR_D2F_01F",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 5.435301216124087,
+      "lower_bound_mm": 5.489571869463018,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -9009,7 +9009,7 @@
       "b": "SR_TUNING_SHIM_0p33",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 18.278905186370686,
+      "lower_bound_mm": 18.336544789363348,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -9018,7 +9018,7 @@
       "b": "SR_VERTICAL_PIN",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 22.986300195551262,
+      "lower_bound_mm": 23.03477581136832,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -9027,7 +9027,7 @@
       "b": "SWITCH_LEFT",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 4.300000000000001,
+      "lower_bound_mm": 4.369999999999967,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -9039,7 +9039,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -0.4,
@@ -9105,22 +9105,22 @@
     {
       "a": "WHEEL_CARRIER",
       "b": "USB_ROUTE_EST",
-      "gap_mm": 1.3568168560294014,
+      "gap_mm": 1.3568168560294032,
       "overlap_mm3": 0.0,
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -5.782656569667775,
-          42.95602183389537,
+          42.95602183389536,
           16.68065501686264
         ],
         [
           -6.064824122390184,
-          43.06936216231451,
-          15.358351185305764
+          43.069362162314505,
+          15.358351185305763
         ]
       ],
       "named_thread_engagement_mm3": 0.0,
@@ -9154,15 +9154,15 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
-          -3.0,
+          3.0,
           50.0,
           20.175
         ],
         [
-          -3.0,
+          3.0,
           50.0,
           20.0
         ]
@@ -9175,22 +9175,22 @@
     {
       "a": "WHEEL_CARRIER",
       "b": "WHEEL_M2_SWITCH_1_BOLT",
-      "gap_mm": 3.200000000000003,
+      "gap_mm": 3.2002976085034756,
       "overlap_mm3": 0.0,
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           2.85,
           36.0,
-          10.55
+          10.6
         ],
         [
           2.85,
-          39.2,
-          10.55
+          39.20007085414683,
+          10.561903918403015
         ]
       ],
       "named_thread_engagement_mm3": 0.0,
@@ -9206,7 +9206,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           6.25,
@@ -9232,7 +9232,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -4.75,
@@ -9253,22 +9253,22 @@
     {
       "a": "WHEEL_CARRIER",
       "b": "WHEEL_M2_SWITCH_1_WASHER_NUT",
-      "gap_mm": 1.7000000000000028,
+      "gap_mm": 1.7002976085034744,
       "overlap_mm3": 0.0,
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           4.65,
           36.0,
-          10.55
+          10.6
         ],
         [
           4.65,
-          37.7,
-          10.55
+          37.70017713536707,
+          10.579759796007536
         ]
       ],
       "named_thread_engagement_mm3": 0.0,
@@ -9284,7 +9284,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -4.8895793844772735,
@@ -9310,7 +9310,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           4.144136435262887,
@@ -9336,7 +9336,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           -4.741009011947543,
@@ -9362,7 +9362,7 @@
       "required_mm": 0.0,
       "intended_contact": false,
       "pass_check": true,
-      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
       "nearest_points_mm": [
         [
           3.0,
@@ -9385,7 +9385,7 @@
       "b": "SF_RETAINER_M2x5",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 3.700000000000001,
+      "lower_bound_mm": 3.7699999999999676,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -9394,7 +9394,7 @@
       "b": "SR_RETAINER_M2x5",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 16.42224091894892,
+      "lower_bound_mm": 16.438153691944844,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -9403,7 +9403,7 @@
       "b": "SF_RETAINER_WASHER",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 3.700000000000001,
+      "lower_bound_mm": 3.7699999999999676,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -9412,7 +9412,7 @@
       "b": "SR_RETAINER_WASHER",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 16.42224091894892,
+      "lower_bound_mm": 16.438153691944844,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -9421,7 +9421,7 @@
       "b": "SIDE_SF_NO_ROUTE_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 1.4000000000000004,
+      "lower_bound_mm": 1.4699999999999669,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -9430,7 +9430,7 @@
       "b": "SIDE_SR_NO_ROUTE_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 4.68411134645623,
+      "lower_bound_mm": 4.705507316538769,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -9439,7 +9439,7 @@
       "b": "SIDE_COM_ROUTE_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 2.1999999999999993,
+      "lower_bound_mm": 2.269999999999966,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     },
@@ -9448,10 +9448,10 @@
       "b": "SIDE_COM_GPIO_ROUTE_EST",
       "overlap_mm3": 0.0,
       "gap_mm": null,
-      "lower_bound_mm": 4.332435709851909,
+      "lower_bound_mm": 4.3555595713983655,
       "method": "Disjoint bounds certify zero common volume only; no exact minimum-distance claim",
       "passed": true
     }
   ],
-  "passed": true
+  "passed": false
 }

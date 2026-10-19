@@ -12,22 +12,22 @@
       "raw": {
         "a": "BATTERY_ROUTE_EST",
         "b": "ANTENNA_FEED_ROUTE_EST",
-        "gap_mm": 1.716908215148145,
+        "gap_mm": 1.7169082151481465,
         "overlap_mm3": 0.0,
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
-            -4.696115211993377,
-            61.95892673930751,
-            21.786485648337326
+            -4.696115195164911,
+            61.95892674354861,
+            21.786485643132142
           ],
           [
-            -4.684998779718759,
-            63.27215193133019,
-            22.892419570058536
+            -4.684998794888448,
+            63.27215192566776,
+            22.8924195769348
           ]
         ]
       },
@@ -51,7 +51,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": false,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -15.5,
@@ -85,7 +85,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -14.23508893593216,
@@ -120,7 +120,7 @@
       "a": "BATTERY_ROUTE_EST",
       "b": "ENCODER_ADAPTER_PCB_EST",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 26.36485269765758,
+      "certified_lower_bound_mm": 27.59941951869956,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -240,7 +240,7 @@
       "a": "BATTERY_ROUTE_EST",
       "b": "LEFT_KEY_STEEL_PIN",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 24.05439370411844,
+      "certified_lower_bound_mm": 24.397040912846354,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -317,7 +317,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": false,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -4.7,
@@ -351,7 +351,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -5.964911064067351,
@@ -810,7 +810,7 @@
       "a": "SENSOR_ROUTE_EST",
       "b": "BATTERY_CELL_EST",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 16.17899873292535,
+      "certified_lower_bound_mm": 18.31829686406463,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -847,7 +847,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             13.25,
@@ -868,7 +868,7 @@
       "a": "SENSOR_ROUTE_EST",
       "b": "ENCODER_ADAPTER_PCB_EST",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 34.89717037239553,
+      "certified_lower_bound_mm": 36.23237502565888,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -1081,7 +1081,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": false,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             9.5,
@@ -1115,7 +1115,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             10.764911064067121,
@@ -1206,7 +1206,7 @@
       "a": "SENSOR_ROUTE_EST",
       "b": "RIGHT_KEY_STEEL_PIN",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 34.52647854748686,
+      "certified_lower_bound_mm": 34.844335563905794,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -1219,7 +1219,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": false,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             8.0,
@@ -1253,7 +1253,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             8.814345451593978,
@@ -1600,7 +1600,7 @@
       "a": "USB_ROUTE_EST",
       "b": "BATTERY_CELL_EST",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 0.34999999999999964,
+      "certified_lower_bound_mm": 2.3499999999999996,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -1637,7 +1637,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -5.55,
@@ -1658,7 +1658,7 @@
       "a": "USB_ROUTE_EST",
       "b": "ENCODER_ADAPTER_PCB_EST",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 0.55,
+      "certified_lower_bound_mm": 0.5499999999999994,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -1778,7 +1778,7 @@
       "a": "USB_ROUTE_EST",
       "b": "LEFT_KEY_STEEL_PIN",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 8.75,
+      "certified_lower_bound_mm": 9.449999999999998,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -1879,7 +1879,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": false,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -3.85,
@@ -1913,7 +1913,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -4.62828568564541,
@@ -1993,30 +1993,12 @@
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
     {
-      "raw": {
-        "a": "USB_ROUTE_EST",
-        "b": "RIGHT_KEY_STEEL_PIN",
-        "gap_mm": 0.5500000000000002,
-        "overlap_mm3": 0.0,
-        "required_mm": 0.2,
-        "intended_contact": false,
-        "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
-        "nearest_points_mm": [
-          [
-            -6.8500000000000005,
-            39.49574700787947,
-            14.413921172103912
-          ],
-          [
-            -7.4,
-            39.49574700787947,
-            14.413921172103912
-          ]
-        ]
-      },
+      "a": "USB_ROUTE_EST",
+      "b": "RIGHT_KEY_STEEL_PIN",
+      "exact_gap_mm": null,
+      "certified_lower_bound_mm": 0.4499999999999993,
       "passed": true,
-      "classification": "ordinary wire clearance"
+      "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
     {
       "a": "USB_ROUTE_EST",
@@ -2035,7 +2017,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -5.956241571833937,
@@ -2165,7 +2147,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -5.55,
@@ -2199,7 +2181,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": false,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -2.65,
@@ -2233,7 +2215,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -2.0,
@@ -2297,7 +2279,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -6.2,
@@ -2323,7 +2305,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -6.199999996844224,
@@ -2357,7 +2339,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -5.894742948095902,
@@ -2391,7 +2373,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -6.200000006565426,
@@ -2425,7 +2407,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -5.943952455923541,
@@ -2523,7 +2505,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": false,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -2.5,
@@ -2557,16 +2539,16 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
-            -3.6497233442230708,
-            64.4802213163773,
+            -3.649723344223063,
+            64.48022131637728,
             21.5988441800512
           ],
           [
-            -3.6497233442230708,
-            64.4802213163773,
+            -3.649723344223063,
+            64.48022131637728,
             20.6
           ]
         ]
@@ -2576,7 +2558,7 @@
       "a": "ANTENNA_FEED_ROUTE_EST",
       "b": "BATTERY_CELL_EST",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 2.3323807579381217,
+      "certified_lower_bound_mm": 4.176122603564221,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -2592,22 +2574,22 @@
       "raw": {
         "a": "ANTENNA_FEED_ROUTE_EST",
         "b": "BATTERY_ROUTE_EST",
-        "gap_mm": 1.716908215148145,
+        "gap_mm": 1.7169082151481483,
         "overlap_mm3": 0.0,
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
-            -4.684998779718759,
-            63.27215193133019,
-            22.892419570058536
+            -4.684998794847008,
+            63.272151925683225,
+            22.892419576916012
           ],
           [
-            -4.696115211993377,
-            61.95892673930751,
-            21.786485648337326
+            -4.696115195210886,
+            61.95892674353702,
+            21.78648564314636
           ]
         ]
       },
@@ -2634,7 +2616,7 @@
       "a": "ANTENNA_FEED_ROUTE_EST",
       "b": "ENCODER_ADAPTER_PCB_EST",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 27.14663883430139,
+      "certified_lower_bound_mm": 28.399515840943344,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -2754,7 +2736,7 @@
       "a": "ANTENNA_FEED_ROUTE_EST",
       "b": "LEFT_KEY_STEEL_PIN",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 24.251174942769573,
+      "certified_lower_bound_mm": 24.545253840708487,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -2823,7 +2805,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": false,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -4.0,
@@ -2857,7 +2839,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             -4.672884793648484,
@@ -2881,10 +2863,10 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
-            -3.706967213114455,
+            -3.7069672131144555,
             64.0503155897097,
             21.958596324757927
           ],
@@ -2990,7 +2972,7 @@
       "a": "ANTENNA_FEED_ROUTE_EST",
       "b": "RIGHT_KEY_STEEL_PIN",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 22.18263929528709,
+      "certified_lower_bound_mm": 22.237794092598637,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -3342,7 +3324,7 @@
       "a": "SIDE_SF_NO_ROUTE_EST",
       "b": "BATTERY_CELL_EST",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 20.5,
+      "certified_lower_bound_mm": 22.5,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -3379,7 +3361,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             12.8,
@@ -3400,7 +3382,7 @@
       "a": "SIDE_SF_NO_ROUTE_EST",
       "b": "ENCODER_ADAPTER_PCB_EST",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 9.36861117790218,
+      "certified_lower_bound_mm": 10.526745717585804,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -3605,7 +3587,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": false,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             12.5,
@@ -3639,7 +3621,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             13.799999999910149,
@@ -3738,7 +3720,7 @@
       "a": "SIDE_SF_NO_ROUTE_EST",
       "b": "RIGHT_KEY_STEEL_PIN",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 20.221448427364628,
+      "certified_lower_bound_mm": 20.91069048359158,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -3775,7 +3757,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": false,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             14.8,
@@ -3809,7 +3791,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             14.666417338351518,
@@ -4065,7 +4047,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             14.691606229330327,
@@ -4123,7 +4105,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             14.038794886656603,
@@ -4168,7 +4150,7 @@
       "a": "SIDE_SR_NO_ROUTE_EST",
       "b": "BATTERY_CELL_EST",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 20.5,
+      "certified_lower_bound_mm": 22.5,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -4205,7 +4187,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             13.279266182683822,
@@ -4226,7 +4208,7 @@
       "a": "SIDE_SR_NO_ROUTE_EST",
       "b": "ENCODER_ADAPTER_PCB_EST",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 22.049337074495917,
+      "certified_lower_bound_mm": 23.39988814983382,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -4431,7 +4413,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": false,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             12.5,
@@ -4465,7 +4447,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             13.664362374964735,
@@ -4564,7 +4546,7 @@
       "a": "SIDE_SR_NO_ROUTE_EST",
       "b": "RIGHT_KEY_STEEL_PIN",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 26.5711072009449,
+      "certified_lower_bound_mm": 27.09933094901249,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -4665,7 +4647,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": false,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             15.3,
@@ -4699,7 +4681,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             14.787686209830891,
@@ -4931,7 +4913,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             14.2,
@@ -4957,7 +4939,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             13.500236130289018,
@@ -4994,7 +4976,7 @@
       "a": "SIDE_COM_ROUTE_EST",
       "b": "BATTERY_CELL_EST",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 21.299999999999997,
+      "certified_lower_bound_mm": 23.299999999999997,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -5034,7 +5016,7 @@
       "a": "SIDE_COM_ROUTE_EST",
       "b": "ENCODER_ADAPTER_PCB_EST",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 13.575161364849595,
+      "certified_lower_bound_mm": 14.910483093505087,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -5322,7 +5304,7 @@
       "a": "SIDE_COM_ROUTE_EST",
       "b": "RIGHT_KEY_STEEL_PIN",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 22.38217681912822,
+      "certified_lower_bound_mm": 23.03110590403163,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -5359,7 +5341,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": false,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             14.8,
@@ -5393,7 +5375,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             14.015022517576025,
@@ -5473,7 +5455,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": false,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             15.3,
@@ -5507,7 +5489,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             14.313196898795358,
@@ -5731,7 +5713,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             13.661205110154581,
@@ -5757,7 +5739,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             13.9,
@@ -5783,7 +5765,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": false,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             13.6,
@@ -5817,7 +5799,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             13.640993580722743,
@@ -5852,7 +5834,7 @@
       "a": "SIDE_COM_GPIO_ROUTE_EST",
       "b": "BATTERY_CELL_EST",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 20.5,
+      "certified_lower_bound_mm": 22.5,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -5889,7 +5871,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             13.299999999999999,
@@ -5910,7 +5892,7 @@
       "a": "SIDE_COM_GPIO_ROUTE_EST",
       "b": "ENCODER_ADAPTER_PCB_EST",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 22.124348815301396,
+      "certified_lower_bound_mm": 23.449292324100558,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -6115,7 +6097,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": false,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             12.5,
@@ -6149,7 +6131,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             13.331406475544355,
@@ -6248,7 +6230,7 @@
       "a": "SIDE_COM_GPIO_ROUTE_EST",
       "b": "RIGHT_KEY_STEEL_PIN",
       "exact_gap_mm": null,
-      "certified_lower_bound_mm": 26.42512954686506,
+      "certified_lower_bound_mm": 26.95621396948394,
       "passed": true,
       "method": "Bound suffices for0.2mm requirement, not claimed as exact distance"
     },
@@ -6565,7 +6547,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             13.577524371328487,
@@ -6591,7 +6573,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": false,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             13.6,
@@ -6625,7 +6607,7 @@
         "required_mm": 0.2,
         "intended_contact": false,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
         "nearest_points_mm": [
           [
             13.785210196840978,
