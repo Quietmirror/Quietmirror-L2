@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "C12 wheel hardware clearance correction",
+  "source_commit": "019027359a96e62c852dced2ad2b318d6d99f019",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 4.63,
+      "available_memory_before_GB": 15.577001984,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
