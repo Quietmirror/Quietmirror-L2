@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "C10_window_0",
   "source_commit": "20b9d6b29922f4e4bfa9c97455f8ed4435b9571a",
   "steps": [
