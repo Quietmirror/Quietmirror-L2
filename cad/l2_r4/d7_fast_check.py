@@ -18,7 +18,9 @@ def main():
         motion=[]
         for a in [0.,k['angle']*.5,k['angle'],-k['sign']*.5,k['angle']+k['sign']*.3]:
             moved=actor.rotate(ori,axis,a)
-            motion.append(dict(angle_deg=a,body=pair(moved,body,k['name']+'+PET','BODY',0.)))
+            raw=pair(moved,body,k['name']+'+PET','BODY',0.)
+            common=moved.intersect(body) if raw['overlap_mm3']>.001 else cq.Compound.makeCompound([])
+            motion.append(dict(angle_deg=a,body=raw,intersection_regions=[dict(volume_mm3=vol(s),bounds_mm=bounds(s)) for s in common.Solids()]))
         access=pair(cyl(1.,14.2,(k['hinge_x'],k['hinge_y'],UPPER_LUG_TOP)),body,k['short']+'_PIN_TOOL','BODY',0.)
         r=dict(part=k['name'],axis=[ori,axis],insertion=insert,insertion_pass=max(x['overlap_mm3'] for x in insert)<=.001,motion=motion,pin_access=access,
                scope='Five development motion poses only. Full final G5/functional-clearance/assembly/FEM checks remain mandatory.')

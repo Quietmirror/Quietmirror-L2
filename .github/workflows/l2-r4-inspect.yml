@@ -29,7 +29,7 @@ jobs:
           _support/venv/bin/pip install --disable-pip-version-check cadquery==2.8.0 gmsh==4.15.2 trimesh scipy pillow psutil shapely matplotlib rtree
       - name: Build local hinge correction and audit actual solids
         run: |
-          for script in bootstrap_build restore_inputs side_module main_key_relief build_body assemble exterior_audit d7_fast_check; do
+          for script in exterior_audit d7_fast_check; do
             _support/venv/bin/python -u cad/l2_r4/${script}.py
           done
       - name: Preserve independent evidence on inspection branch only

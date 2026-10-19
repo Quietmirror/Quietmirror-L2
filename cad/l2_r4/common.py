@@ -2,11 +2,14 @@ import numpy as np
 from pathlib import Path
 import json
 import cadquery as cq
+import math
+from collections import OrderedDict
 from OCP.BRepGProp import BRepGProp
 from OCP.GProp import GProp_GProps
 ROOT=Path(__file__).resolve().parents[2];HERE=Path(__file__).resolve().parent
 OUT=ROOT/'models/L2_r4';RP=ROOT/'reports/l2_r4';WORK=ROOT/'_support/work/l2_r4'
 V=cq.Vector
+_BODY_CLIP_CACHE=OrderedDict()
 def save(name,data):
     (RP/name).write_text(json.dumps(data,indent=2,ensure_ascii=False)+'\n',encoding='utf8')
 def vol(s):
@@ -53,8 +56,16 @@ def pair(a,b,an,bn,minimum=.5,intended=False):
     pad=3.0
     if an=='BODY' or bn=='BODY':
         actor=b if an=='BODY' else a;bb=actor.BoundingBox()
-        region=box(bb.xmin-pad,bb.xmax+pad,bb.ymin-pad,bb.ymax+pad,bb.zmin-pad,bb.zmax+pad)
-        candidate=(a if an=='BODY' else b).intersect(region)
+        # Outward quantization can reuse an identical exact crop through many
+        # nearby poses. Every omitted point is still at least pad away. Keep
+        # the original shape alive in the cache to prevent Python id reuse.
+        limits=tuple(q for c in 'xyz' for q in [math.floor(getattr(bb,c+'min'))-pad,math.ceil(getattr(bb,c+'max'))+pad])
+        body=a if an=='BODY' else b;key=(id(body),limits)
+        if key in _BODY_CLIP_CACHE:
+            _,candidate=_BODY_CLIP_CACHE[key];_BODY_CLIP_CACHE.move_to_end(key)
+        else:
+            candidate=body.intersect(box(*limits));_BODY_CLIP_CACHE[key]=(body,candidate)
+            if len(_BODY_CLIP_CACHE)>128:_BODY_CLIP_CACHE.popitem(last=False)
         if candidate.Solids():
             if an=='BODY':a=candidate
             else:b=candidate
