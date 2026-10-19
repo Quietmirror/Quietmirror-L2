@@ -1,10 +1,12 @@
 {
   "reports/l2_r4/surface_mesh_checks.json": {
     "script": "cad/l2_r4/surface_mesh.py",
-    "source_commit": "6a034e3908a06bc1b6a4476880c8df266c65e00b",
+    "source_commit": "6548668c2bf29a22a21011d83718e2e9dbe43c5c",
     "returncode": 0,
-    "report_sha256": "a5b1ff47cd3045cbf718fee179a01dd62ac722757424762242871de57d06451d",
+    "report_sha256": "bc561966450bd01880fecd3684b384cb117b13068d2c721dfc834d45c3b49362",
     "geometry": {
+      "cad/rebuild_r2/parameters.json": "1b80721457bb4f2b11f7021d3e2d98ef9f6068510906099e9b0e38f2f33141f0",
+      "cad/rebuild_r3_2/electronics.json": "866e3892c6d2ddd8b001e746b3bbc4b77bdf3fc799ded156e8bf2b10458d4c08",
       "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
       "models/L2_r4/parts/BODY.stl": "879e0fa2bbb157b008562bee4cadf8c301b7158e66392b12758824f29d152dcc",
       "models/L2_r4/parts/LEFT_KEY.step": "2b66a0d6f6673ec5ac337dcb63366b1c165122e199ca5497153ab9667cbb4f43",
@@ -13,10 +15,10 @@
       "models/L2_r4/parts/RIGHT_KEY.stl": "b8ea3f172d83a6c3a3945a8b9ad255ea99767f76983d97916edda66c249fcfa6",
       "models/L2_r4/parts/SF_RETAINER.step": "fe5d9c684cb607b7a3e40f1886cb243b87c9fae1174ef54b78986b8fe34b3213",
       "models/L2_r4/parts/SF_RETAINER.stl": "9580f2613890afe9ce03ad3f9207e53e2347d75b718edd6030aeda3965bfe336",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.step": "7b4cf7655026a8894d4bc24349ce3fd00cd1439e8564e7192809a432a3ee3b75",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "55f8c45859c5617d086874fc3ef7afa0e3e24ff2af8956027d40f278465a4bd9",
-      "models/L2_r4/parts/SIDE_REAR_KEY.step": "85551a8427c0bc8e50d4226f1af8a12203d30ff74766a3ada6302df40180f7e4",
-      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "7a250cad6192397b6bf1f30629d60c0f21edd40b7d4d48aac8826693ca0d1b4d",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.step": "7fad221143c1a171ecddfa300d00e8d7c92b1671d64bf69853decb9ccb7fa486",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "b567db77931f51d889053354f9c2d59b768bc7f57218f051e93eb5e72e45fef2",
+      "models/L2_r4/parts/SIDE_REAR_KEY.step": "cb1697253f27cf55d54c4c7572860f749660150d0dd4322ecedf2dbae98d3f09",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "2cea40f04af8d566ebdc13b672dfcb70d7b75377862bdd57a9546909fca878cb",
       "models/L2_r4/parts/SR_RETAINER.step": "c52152888ef9bf3e8bddb7b6f6605a34a2fc6046057a467329310a02275ebb71",
       "models/L2_r4/parts/SR_RETAINER.stl": "61223857324a6f83925951f356929b6a3f3da0a1f6d3254001f7ee7b4890b719",
       "models/L2_r4/parts/WHEEL.step": "efec7b9b652ab89778cad7141f762d4eb55fe694be9bf9e5ef355baad0da1c83",
@@ -107,7 +109,8 @@
       "models/L2_r4/reference/WHEEL_M2_SWITCH_2_BOLT.step": "4b9a3b6a15e208c5090f6fd98e1df3980ef5198c7d20379de0ccb2b2986d8448",
       "models/L2_r4/reference/WHEEL_M2_SWITCH_2_NUT.step": "124429338186d8667c30a9297c97c55fb64a3a40afe46f3ab6020d5fa6be46c9",
       "models/L2_r4/reference/WHEEL_M2_SWITCH_2_WASHER_HEAD.step": "f27a86147facd4df981ece941f122fe49c7a3b9a29a094775614c4e179c1883e",
-      "models/L2_r4/reference/WHEEL_M2_SWITCH_2_WASHER_NUT.step": "b82cd9cf29205f58485049decd8f4cdbbdfdbdd950a01487cdcc08dfee2648f7"
+      "models/L2_r4/reference/WHEEL_M2_SWITCH_2_WASHER_NUT.step": "b82cd9cf29205f58485049decd8f4cdbbdfdbdd950a01487cdcc08dfee2648f7",
+      "reports/rebuild_r3_2/design_metadata.json": "2147fc0ea5a1bd32ba66296badddf0506ef61e67a56a9209c67feba8570206db"
     },
     "verifier_source": {
       "cad/l2_r4/surface_mesh.py": "e558a1d15ec80b76b0f6d331723c33b3606b4f88b4c9bbcb4cda3a22a6193491"
