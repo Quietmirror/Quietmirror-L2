@@ -478,5 +478,9 @@
     "valid": true,
     "expected_components": 94
   },
+  "artifact_sha256": {
+    "models/L2_r4/FULL_ASSEMBLY_H.FCStd": "901de5b3241aa17bcc2ecd27ff18032d68abf0290cc6a90c6e0215b758811073",
+    "models/L2_r4/FULL_ASSEMBLY_H.step": "ab319973daf10a196e2fcef96ee1b555887599d00d579444a15477d11b581e37"
+  },
   "scope": "Saved/reopened imported components, not constrained feature history"
 }

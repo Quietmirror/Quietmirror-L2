@@ -1791,9 +1791,9 @@
   },
   "reports/l2_r4/native_roundtrip.json": {
     "script": "cad/l2_r4/native.py",
-    "source_commit": "ed048cf77692f03a92fa72a4d7b859d44859673c",
+    "source_commit": "540a1ea44f5792fe86e2ab227e3a6292d3b265dc",
     "returncode": 0,
-    "report_sha256": "cb953b8615e382bc99bb9413cc0407568f5bffa100f711b9fe378f9bfaf9da1b",
+    "report_sha256": "e765d35fdfc011a778c2a730b0ad1bff8154282f3305614c906007e4be283b94",
     "geometry": {
       "cad/rebuild_r2/parameters.json": "1b80721457bb4f2b11f7021d3e2d98ef9f6068510906099e9b0e38f2f33141f0",
       "cad/rebuild_r3_2/electronics.json": "866e3892c6d2ddd8b001e746b3bbc4b77bdf3fc799ded156e8bf2b10458d4c08",
@@ -1894,7 +1894,7 @@
       "reports/rebuild_r3_2/design_metadata.json": "2147fc0ea5a1bd32ba66296badddf0506ef61e67a56a9209c67feba8570206db"
     },
     "verifier_source": {
-      "cad/l2_r4/native.py": "7816814f4ce005f8c859b2f4c8e44a3f66b5671139454bdf813ed9f15edd7f9d"
+      "cad/l2_r4/native.py": "e9676e2672413782c2a7bfb68199fa0f989d1142413415f38f7b133ca7e37a0f"
     }
   }
 }
