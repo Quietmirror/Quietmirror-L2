@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "final_candidate_routes_windows_donor_and_battery",
+  "source_commit": "6548668c2bf29a22a21011d83718e2e9dbe43c5c",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 6.18,
+      "available_memory_before_GB": 15.651180544,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
