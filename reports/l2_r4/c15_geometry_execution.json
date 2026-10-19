@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "C15 planar encoder PCB diagonal",
+  "source_commit": "c3b40bdf655251a8f192701c73bd32b9cdd1998a",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 4.6,
+      "available_memory_before_GB": 15.65718528,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
