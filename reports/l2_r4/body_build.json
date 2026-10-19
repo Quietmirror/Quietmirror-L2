@@ -4,7 +4,7 @@
     "printable": true,
     "valid": true,
     "solids": 1,
-    "volume_mm3": 12612.841732655586,
+    "volume_mm3": 12612.830650497723,
     "bounds_mm": [
       -33.04800010000001,
       -1e-07,
@@ -17,7 +17,7 @@
       "watertight": false,
       "winding_consistent": true,
       "components": 1,
-      "triangles": 119976,
+      "triangles": 119928,
       "bounds_mm": [
         [
           -33.04737854003906,
@@ -33,7 +33,7 @@
       "holes_patched": 0
     }
   },
-  "seconds": 136.84684681892395,
+  "seconds": 181.08371090888977,
   "windows": [
     {
       "name": "ROOT_TRI_L",
