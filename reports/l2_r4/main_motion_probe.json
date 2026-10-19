@@ -600,5 +600,9 @@
         ]
       ]
     }
+  },
+  {
+    "stage": "pair_begin",
+    "part": "SWITCH_LEFT_RIGID_HOUSING"
   }
 ]
