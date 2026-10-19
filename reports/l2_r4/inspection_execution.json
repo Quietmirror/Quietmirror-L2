@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "FAILED",
   "phase": "C11_direct_pad_join_and_wheel_clearance",
   "source_commit": "89b6b1b5e68aa446290d41026804db786cf49ac4",
   "steps": [
@@ -16,6 +16,13 @@
       "seconds": 21.97,
       "available_memory_before_GB": 15.441174528,
       "log_tail": "EXPORTED SIDE_FRONT_KEY 76.7419\nEXPORTED SIDE_REAR_KEY 81.565\n"
+    },
+    {
+      "script": "cad/l2_r4/cap_join_probe.py",
+      "returncode": 1,
+      "seconds": 35.63,
+      "available_memory_before_GB": 15.62681344,
+      "log_tail": "CAP_FINISH {'part': 'SIDE_FRONT_KEY', 'shim': {'a': 'SIDE_FRONT_KEY', 'b': 'SF_TUNING_SHIM_0p33', 'gap_mm': 0.0, 'overlap_mm3': 0.0, 'required_mm': 0.0, 'intended_contact': False, 'pass_check': True, 'distance_kind': 'BRepExtrema_DistShapeShape_complete', 'nearest_points_mm': [[26.49, 50.4518, 17.9], [26.49, 50.4518, 17.9]]}, 'added_material_mm3': 0.0, 'removed_material_mm3': 0.0, 'valid': True, 'solids': 1, 'brep_self_interference_check': True, 'passed': True}\nCAP_FINISH {'part': 'SIDE_REAR_KEY', 'shim': {'a': 'SIDE_REAR_KEY', 'b': 'SR_TUNING_SHIM_0p33', 'gap_mm': 0.0, 'overlap_mm3': 0.0, 'required_mm': 0.0, 'intended_contact': False, 'pass_check': True, 'distance_kind': 'BRepExtrema_DistShapeShape_complete', 'nearest_points_mm': [[26.99, 64.2883, 17.9], [26.99, 64.2883, 17.9]]}, 'added_material_mm3': 0.0, 'removed_material_mm3': 0.0, 'valid': True, 'solids': 1, 'brep_self_interference_check': False, 'passed': False}\nTraceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/cap_join_probe.py\", line 17, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/cap_join_probe.py\", line 15, in main\n    assert all(r['passed'] for r in rows),'Cap/PET join remains unresolved'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Cap/PET join remains unresolved\n"
     }
   ]
 }

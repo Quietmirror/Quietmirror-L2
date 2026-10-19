@@ -1341,9 +1341,9 @@
   },
   "reports/l2_r4/cap_pad_join_finish.json": {
     "script": "cad/l2_r4/cap_join_probe.py",
-    "source_commit": "e58c5d38334a5520ffe4a58d6e30514474bfdcea",
-    "returncode": 0,
-    "report_sha256": "47bd231dd9b29a4d44711c882d72759e6df8d727c889916c8b3bb8bcad2699b4",
+    "source_commit": "89b6b1b5e68aa446290d41026804db786cf49ac4",
+    "returncode": 1,
+    "report_sha256": "99769a64c4a6ce390468e1675e1951870446f814fa00a8d5727f27b4473b14b2",
     "geometry": {
       "cad/rebuild_r2/parameters.json": "1b80721457bb4f2b11f7021d3e2d98ef9f6068510906099e9b0e38f2f33141f0",
       "cad/rebuild_r3_2/electronics.json": "866e3892c6d2ddd8b001e746b3bbc4b77bdf3fc799ded156e8bf2b10458d4c08",
@@ -1351,11 +1351,11 @@
       "models/L2_r4/parts/LEFT_KEY.step": "2b66a0d6f6673ec5ac337dcb63366b1c165122e199ca5497153ab9667cbb4f43",
       "models/L2_r4/parts/RIGHT_KEY.step": "57791da2e062cca8e799d912828827fbb9a7968444b1ed38037aa9acaecae071",
       "models/L2_r4/parts/SF_RETAINER.step": "fe5d9c684cb607b7a3e40f1886cb243b87c9fae1174ef54b78986b8fe34b3213",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.step": "9e78aee58ed14f13c451809fa156de457eed83cb962bcbe495eac8400c442bb4",
-      "models/L2_r4/parts/SIDE_REAR_KEY.step": "472d2cc881ddc95dd52300806bfb985250dce02ca9c0a8ca0584d60678e6bb42",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.step": "afeba6cc5851eb701eded6869422476534e3b96a33c3bbbf5d514379eb96e3d7",
+      "models/L2_r4/parts/SIDE_REAR_KEY.step": "78d64d356147bf578216f4332108270e6eaf7c57deed2aad8d23e096c6b6a4c3",
       "models/L2_r4/parts/SR_RETAINER.step": "c52152888ef9bf3e8bddb7b6f6605a34a2fc6046057a467329310a02275ebb71",
       "models/L2_r4/parts/WHEEL.step": "efec7b9b652ab89778cad7141f762d4eb55fe694be9bf9e5ef355baad0da1c83",
-      "models/L2_r4/parts/WHEEL_CARRIER.step": "c74b8833dfc598a5c40c7d354a7b9cf0c6d40609332228cf3cd81c6e1dbee234",
+      "models/L2_r4/parts/WHEEL_CARRIER.step": "b48a8d53f728433c529761df1e293cdede1cbad90917a554a3cc8adc9e32fe6a",
       "models/L2_r4/reference/ANTENNA_FEED_HEADER_EST.step": "ccedcb46b4a09b2d87724b48872e2fbf4c85c7379d92bdea63d00e33aabb1337",
       "models/L2_r4/reference/ANTENNA_FEED_ROUTE_EST.step": "644ab401da6df95fc09966b7a9dcee2525c55afcd32286dfae172c4e440a7606",
       "models/L2_r4/reference/BATTERY_CELL_EST.step": "a16cd91e213921688e78fd9e4d23e41025f21fe5e8fa513bf5fe535fa2a2f4c3",
@@ -1363,7 +1363,7 @@
       "models/L2_r4/reference/BATTERY_ROUTE_EST.step": "ef44328ef2237d4bb063b0f104c5145bea47889a54f6faf9b1af4463902a2b83",
       "models/L2_r4/reference/CHARGE_POWERPATH_EST.step": "ecd85ee9150f20fb0def234dbbe76f3a72231f9bfe6cd1cb19a7d4c482526a08",
       "models/L2_r4/reference/CONTROLLER_RF_PCB_EST.step": "43746c12c68f587a94627690732d523312bf4b2b683bb79a97bee6efb1212ed0",
-      "models/L2_r4/reference/ENCODER_ADAPTER_PCB_EST.step": "b912c170bc42ae2f596b991adb702bfead0801ed02fe4bbab3089ff870f5571e",
+      "models/L2_r4/reference/ENCODER_ADAPTER_PCB_EST.step": "e6a925e6d169b6f3303d77f3ada542db4c968357d21dff9b9a2e78f97a246a73",
       "models/L2_r4/reference/ENCODER_EC10E_HOUSING.step": "2309e8380c9bc978902234f73f394d5f4d5821d663117a1bf280a86c8caea16f",
       "models/L2_r4/reference/ENCODER_EC10E_ROTOR.step": "953480b86c9e830ff6527d606ceef4980e235510bbd48c08eea5a7024affea95",
       "models/L2_r4/reference/ENCODER_M2x3_FRONT.step": "7ab2cd4880e26e0eaea16088d05fda2d9d39495653b447aa63b58b8887c12479",
@@ -1444,9 +1444,9 @@
       "reports/rebuild_r3_2/design_metadata.json": "2147fc0ea5a1bd32ba66296badddf0506ef61e67a56a9209c67feba8570206db"
     },
     "verifier_source": {
-      "cad/l2_r4/cap_join_probe.py": "6594c634d045e5b464b49e0ebad1df57e2f204031e862c8ba1da44c1090984ad",
+      "cad/l2_r4/cap_join_probe.py": "a40575cabad1ae1837d6d33cf888e2fc57f6258bd3b8b1374be54742a81d6466",
       "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
-      "cad/l2_r4/side_module.py": "0312dd046b3ddc938e0daa8e82fb8eb318bc0301ea433d6cb1c270cc77b29094"
+      "cad/l2_r4/side_module.py": "ce3f0e30a36dd4ed92a068f5681815e967b1c447dd75338ac70866cf386cb863"
     }
   }
 }
