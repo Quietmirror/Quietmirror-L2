@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "FAILED",
   "phase": "Explicit compact battery proposals only",
   "source_commit": "ede982c73ba573d112c74395a34d19f63e7837c3",
   "steps": [
@@ -9,6 +9,13 @@
       "seconds": 3.15,
       "available_memory_before_GB": 15.652765696,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/battery_compact_direct.py",
+      "returncode": 1,
+      "seconds": 177.37,
+      "available_memory_before_GB": 15.4227712,
+      "log_tail": "VOXELS 800311 exact odd columns 0\nVOXELS 6484 exact odd columns 0\nVOXELS 10582 exact odd columns 0\nVOXELS 4864 exact odd columns 0\nVOXELS 5037 exact odd columns 0\nVOXELS 31350 exact odd columns 0\nVOXELS 30765 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 1506 exact odd columns 0\nVOXELS 1438 exact odd columns 0\nVOXELS 800311 exact odd columns 0\nVOXELS 6484 exact odd columns 0\nVOXELS 10582 exact odd columns 0\nVOXELS 4864 exact odd columns 0\nVOXELS 5037 exact odd columns 0\nVOXELS 31350 exact odd columns 0\nVOXELS 30765 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 1506 exact odd columns 0\nVOXELS 1438 exact odd columns 0\nVOXELS 800311 exact odd columns 0\nVOXELS 6484 exact odd columns 0\nVOXELS 10582 exact odd columns 0\nVOXELS 4864 exact odd columns 0\nVOXELS 5037 exact odd columns 0\nVOXELS 31350 exact odd columns 0\nVOXELS 30765 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 1506 exact odd columns 0\nVOXELS 1438 exact odd columns 0\nVOXELS 800311 exact odd columns 0\nVOXELS 6484 exact odd columns 0\nVOXELS 10582 exact odd columns 0\nVOXELS 4864 exact odd columns 0\nVOXELS 5037 exact odd columns 0\nVOXELS 31350 exact odd columns 0\nVOXELS 30765 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 1506 exact odd columns 0\nVOXELS 1438 exact odd columns 0\nVOXELS 800311 exact odd columns 0\nVOXELS 6484 exact odd columns 0\nVOXELS 10582 exact odd columns 0\nVOXELS 4864 exact odd columns 0\nVOXELS 5037 exact odd columns 0\nVOXELS 31350 exact odd columns 0\nVOXELS 30765 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 1506 exact odd columns 0\nVOXELS 1438 exact odd columns 0\nTraceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_compact_direct.py\", line 27, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_compact_direct.py\", line 25, in main\n    if not accepted:raise RuntimeError('No compact battery proposal passed route plus static checks')\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No compact battery proposal passed route plus static checks\n"
     }
   ]
 }
