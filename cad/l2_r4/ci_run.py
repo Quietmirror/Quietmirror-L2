@@ -2,6 +2,7 @@
 from pathlib import Path
 import json,os,subprocess,sys,time,traceback,argparse
 import psutil
+import evidence_identity as evidence
 ROOT=Path(__file__).resolve().parents[2];RP=ROOT/'reports/l2_r4';WORK=ROOT/'_support/work/l2_r4'
 def main():
     RP.mkdir(parents=True,exist_ok=True);WORK.mkdir(parents=True,exist_ok=True)
@@ -15,10 +16,12 @@ def main():
     for index in indices:
         script=config['scripts'][index]
         start=time.time();log=WORK/(Path(script).stem+'.log');mem=psutil.virtual_memory()
+        before=evidence.snapshot();inputs=evidence.identity(script)
         print('START',script,'available_GB',round(mem.available/1e9,2),flush=True)
         with log.open('w') as f:
             p=subprocess.run([sys.executable,'-u',str(ROOT/script)],cwd=ROOT,stdout=f,stderr=subprocess.STDOUT)
         tail=log.read_text(errors='replace')[-6000:];print(tail,flush=True)
+        evidence.record(script,before,inputs,p.returncode)
         report['steps'].append(dict(script=script,returncode=p.returncode,seconds=round(time.time()-start,2),available_memory_before_GB=mem.available/1e9,log_tail=tail))
         report['status']='FAILED' if p.returncode else 'RUNNING';report_path.write_text(json.dumps(report,indent=2))
         if os.getenv('GITHUB_ACTIONS')=='true':

@@ -37,7 +37,12 @@ def main():
         # do not uniquely define the quoted force numbers.
         far=k['y1'] if k['sign']>0 else k['y0'];L=abs(far-k['hinge_y']);positions=[]
         for label,yy in [('cap_midpoint',(k['y0']+k['y1'])/2),('quarter_hinge_to_far',k['hinge_y']+k['sign']*L/4),('far_edge',far)]:
-            arm=abs(yy-k['hinge_y']);positions.append(dict(location=label,y_mm=yy,touch_arm_mm=arm,ideal_force_N=.74*abs(cy-k['hinge_y'])/arm))
+            arm=abs(yy-k['hinge_y']);force=.74*abs(cy-k['hinge_y'])/arm
+            theta=math.radians(k['angle'])
+            positions.append(dict(location=label,y_mm=yy,touch_arm_mm=arm,ideal_force_N=force,
+                pure_lever_arc_travel_mm=arm*abs(theta),tangential_inward_travel_mm=arm*abs(math.sin(theta)),
+                torque_about_vertical_hinge_Nmm=force*arm,
+                assumed_touch_to_plunger_z_offset_mm=-.9,eccentric_bending_moment_Nmm=.9*force))
         act.append(dict(part=k['name'],nominal_film_mm=.33,unshimmed_free_gap_mm=k['rod_end']-tip,
             residual_gap_mm=gap,stop_deg=k['angle'],max_PT_assumption_mm=.5,calculated_PT_max_trigger_deg=trigger,
             stop_button_depression_mm=inward(k['angle'])-gap,available_generic_plunger_protrusion_mm=.63,
@@ -63,7 +68,10 @@ def main():
         capacity_scenarios=[dict(average_current_mA=i,required_nominal_capacity_mAh=12*i/.75) for i in [10,15,20,25]],
         power_scope='No actual cell capacity, current, radio latency, firmware, receiver, macro, LOD or DPI behavior has been measured. Package size does not imply cell capacity.',
         target_features=['400-6400 DPI','1000 Hz wireless','no sync technologies','macros','adjustable LOD','two thumb buttons','wheel + middle click','power switch','USB-C charging','12 h full-power runtime']))
-    solids=json.loads((RP/'solids.json').read_text());rows=[]
+    # Integrate actual saved parts here; do not trust a diagnostic report
+    # inherited from an earlier candidate for the mass accounting.
+    names=json.loads((RP/'assembly_inventory.json').read_text())['printable']
+    solids=[dict(name=n,volume_mm3=vol(load(n))) for n in names];rows=[]
     for s in solids:
         rows.append(dict(part=s['name'],volume_mm3=s['volume_mm3'],PA12_density_g_cm3=1.01,PA12_mass_g=s['volume_mm3']*1.01/1000,PLA_density_g_cm3=1.24,solid_PLA_mass_g=s['volume_mm3']*1.24/1000))
     save('CAD_mass.json',dict(parts=rows,total_volume_mm3=sum(r['volume_mm3'] for r in rows),total_PA12_g=sum(r['PA12_mass_g'] for r in rows),total_solid_PLA_g=sum(r['solid_PLA_mass_g'] for r in rows),volume_method='BRepGProp.VolumeProperties_s(shape,props,1e-8,True,False)',scope='Printed polymer geometry only; density assumptions; slicer support/infill mass is separate. No fabricated hardware mass or physical weigh-in.'))
