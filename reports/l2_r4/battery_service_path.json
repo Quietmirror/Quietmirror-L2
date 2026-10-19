@@ -1,313 +1,766 @@
 {
   "found": false,
-  "expanded_states": 8829,
+  "expanded_states": 11853,
+  "grid_mm": 0.25,
+  "search_translation_mm": 0.5,
+  "search_rotation_deg": 5,
+  "rotation_order": "Y pitch then Z yaw about battery centre",
   "pivot_mm": [
     -16.999999999999996,
     57.0,
     16.400000000000002
   ],
-  "rotation_axis": "Y through battery centre",
-  "grid_mm": 0.25,
-  "search_translation_mm": 0.25,
-  "search_rotation_deg": 2.5,
   "maps": [
     {
-      "rotation_y_deg": -90.0,
+      "pitch": 0,
+      "yaw": 0,
       "roundoff": 0.01953125
     },
     {
-      "rotation_y_deg": -87.5,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -85.0,
+      "pitch": -5,
+      "yaw": 0,
       "roundoff": 0.01953125
     },
     {
-      "rotation_y_deg": -82.5,
+      "pitch": 5,
+      "yaw": 0,
       "roundoff": 0.01953125
     },
     {
-      "rotation_y_deg": -80.0,
+      "pitch": 0,
+      "yaw": -5,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 0,
+      "yaw": 5,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -5,
+      "yaw": -5,
+      "roundoff": 0.017578125
+    },
+    {
+      "pitch": 5,
+      "yaw": -5,
+      "roundoff": 0.017578125
+    },
+    {
+      "pitch": 0,
+      "yaw": -10,
+      "roundoff": 0.017578125
+    },
+    {
+      "pitch": -5,
+      "yaw": 5,
+      "roundoff": 0.01708984375
+    },
+    {
+      "pitch": 5,
+      "yaw": 5,
       "roundoff": 0.01953125
     },
     {
-      "rotation_y_deg": -77.5,
-      "roundoff": 0.01953125
-    },
-    {
-      "rotation_y_deg": -75.0,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -72.5,
-      "roundoff": 0.01953125
-    },
-    {
-      "rotation_y_deg": -70.0,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -67.5,
-      "roundoff": 0.01953125
-    },
-    {
-      "rotation_y_deg": -65.0,
-      "roundoff": 0.01953125
-    },
-    {
-      "rotation_y_deg": -62.5,
-      "roundoff": 0.01953125
-    },
-    {
-      "rotation_y_deg": -60.0,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -57.5,
-      "roundoff": 0.017812728881835938
-    },
-    {
-      "rotation_y_deg": -55.0,
-      "roundoff": 0.01953125
-    },
-    {
-      "rotation_y_deg": -52.5,
-      "roundoff": 0.01953125
-    },
-    {
-      "rotation_y_deg": -50.0,
-      "roundoff": 0.01953125
-    },
-    {
-      "rotation_y_deg": -47.5,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -45.0,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -42.5,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -40.0,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -37.5,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -35.0,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -32.5,
-      "roundoff": 0.01953125
-    },
-    {
-      "rotation_y_deg": -30.0,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -27.5,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -25.0,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -22.5,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -20.0,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -17.5,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -15.0,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -12.5,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -10.0,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -7.5,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -5.0,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": -2.5,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": 0.0,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": 2.5,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": 5.0,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": 7.5,
-      "roundoff": 0.01953125
-    },
-    {
-      "rotation_y_deg": 10.0,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": 12.5,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": 15.0,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": 17.5,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": 20.0,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": 22.5,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": 25.0,
-      "roundoff": 0.01953125
-    },
-    {
-      "rotation_y_deg": 27.5,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": 30.0,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": 32.5,
-      "roundoff": 0.0234375
-    },
-    {
-      "rotation_y_deg": 35.0,
-      "roundoff": 0.01953125
-    },
-    {
-      "rotation_y_deg": 37.5,
+      "pitch": 0,
+      "yaw": 10,
       "roundoff": 0.015625
     },
     {
-      "rotation_y_deg": 40.0,
+      "pitch": -10,
+      "yaw": 0,
       "roundoff": 0.0234375
     },
     {
-      "rotation_y_deg": 42.5,
+      "pitch": -5,
+      "yaw": -10,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 5,
+      "yaw": -10,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 0,
+      "yaw": -15,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -10,
+      "yaw": -5,
       "roundoff": 0.01953125
     },
     {
-      "rotation_y_deg": 45.0,
+      "pitch": -10,
+      "yaw": 5,
       "roundoff": 0.01953125
     },
     {
-      "rotation_y_deg": 47.5,
+      "pitch": -5,
+      "yaw": 10,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 5,
+      "yaw": 10,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": 0,
+      "yaw": 15,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 10,
+      "yaw": 0,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -15,
+      "yaw": 0,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -5,
+      "yaw": -15,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 5,
+      "yaw": -15,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 0,
+      "yaw": -20,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -10,
+      "yaw": -10,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 10,
+      "yaw": -5,
+      "roundoff": 0.017578125
+    },
+    {
+      "pitch": 10,
+      "yaw": 5,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -15,
+      "yaw": -5,
+      "roundoff": 0.01618172787129879
+    },
+    {
+      "pitch": -15,
+      "yaw": 5,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -10,
+      "yaw": 10,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -5,
+      "yaw": 15,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 10,
+      "yaw": -10,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -5,
+      "yaw": -20,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 5,
+      "yaw": -20,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 0,
+      "yaw": -25,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -15,
+      "yaw": -10,
+      "roundoff": 0.02734375
+    },
+    {
+      "pitch": -10,
+      "yaw": -15,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -15,
+      "yaw": 10,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -10,
+      "yaw": 15,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 10,
+      "yaw": -15,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -20,
+      "yaw": 0,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 10,
+      "yaw": 10,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 5,
+      "yaw": 15,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -20,
+      "yaw": -5,
       "roundoff": 0.015625
     },
     {
-      "rotation_y_deg": 50.0,
+      "pitch": -15,
+      "yaw": -15,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -10,
+      "yaw": -20,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -5,
+      "yaw": -25,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -20,
+      "yaw": -10,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 5,
+      "yaw": -25,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 0,
+      "yaw": -30,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 10,
+      "yaw": -20,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -25,
+      "yaw": -5,
+      "roundoff": 0.017578125
+    },
+    {
+      "pitch": -10,
+      "yaw": -25,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -5,
+      "yaw": -30,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -20,
+      "yaw": -15,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -15,
+      "yaw": -20,
+      "roundoff": 0.03125
+    },
+    {
+      "pitch": -20,
+      "yaw": 5,
+      "roundoff": 0.017578125
+    },
+    {
+      "pitch": -15,
+      "yaw": 15,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -10,
+      "yaw": 20,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 5,
+      "yaw": -30,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 0,
+      "yaw": -35,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 10,
+      "yaw": -25,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -20,
+      "yaw": 10,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -20,
+      "yaw": -20,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -15,
+      "yaw": -25,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -10,
+      "yaw": -30,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -25,
+      "yaw": -15,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -5,
+      "yaw": -35,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": 5,
+      "yaw": -35,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": 0,
+      "yaw": -40,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -25,
+      "yaw": -20,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -20,
+      "yaw": -25,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -25,
+      "yaw": -10,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -5,
+      "yaw": -40,
       "roundoff": 0.015625
     },
     {
-      "rotation_y_deg": 52.5,
+      "pitch": 5,
+      "yaw": -40,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": 0,
+      "yaw": -45,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 10,
+      "yaw": -30,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -10,
+      "yaw": -35,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -15,
+      "yaw": -30,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -5,
+      "yaw": -45,
       "roundoff": 0.015625
     },
     {
-      "rotation_y_deg": 55.0,
-      "roundoff": 0.01953125
+      "pitch": 5,
+      "yaw": -45,
+      "roundoff": 0.015625
     },
     {
-      "rotation_y_deg": 57.5,
-      "roundoff": 0.01706666685640812
+      "pitch": 0,
+      "yaw": -50,
+      "roundoff": 0.015625
     },
     {
-      "rotation_y_deg": 60.0,
+      "pitch": -10,
+      "yaw": -40,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": 10,
+      "yaw": -35,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": -25,
+      "yaw": -25,
       "roundoff": 0.0234375
     },
     {
-      "rotation_y_deg": 62.5,
+      "pitch": -20,
+      "yaw": -30,
       "roundoff": 0.01953125
     },
     {
-      "rotation_y_deg": 65.0,
-      "roundoff": 0.01953125
+      "pitch": -5,
+      "yaw": -50,
+      "roundoff": 0.015625
     },
     {
-      "rotation_y_deg": 67.5,
+      "pitch": 5,
+      "yaw": -50,
+      "roundoff": 0.01600000075995922
+    },
+    {
+      "pitch": 0,
+      "yaw": -55,
       "roundoff": 0.0234375
     },
     {
-      "rotation_y_deg": 70.0,
+      "pitch": -10,
+      "yaw": -45,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": -25,
+      "yaw": -30,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -20,
+      "yaw": -35,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": 10,
+      "yaw": -40,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": -5,
+      "yaw": -55,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": 5,
+      "yaw": -55,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": 0,
+      "yaw": -60,
       "roundoff": 0.0234375
     },
     {
-      "rotation_y_deg": 72.5,
+      "pitch": -10,
+      "yaw": -50,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": 10,
+      "yaw": -45,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": -5,
+      "yaw": -60,
       "roundoff": 0.0234375
     },
     {
-      "rotation_y_deg": 75.0,
-      "roundoff": 0.01953125
-    },
-    {
-      "rotation_y_deg": 77.5,
-      "roundoff": 0.01953125
-    },
-    {
-      "rotation_y_deg": 80.0,
-      "roundoff": 0.01953125
-    },
-    {
-      "rotation_y_deg": 82.5,
-      "roundoff": 0.01953125
-    },
-    {
-      "rotation_y_deg": 85.0,
+      "pitch": 5,
+      "yaw": -60,
       "roundoff": 0.0234375
     },
     {
-      "rotation_y_deg": 87.5,
+      "pitch": 0,
+      "yaw": -65,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 10,
+      "yaw": -50,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": -10,
+      "yaw": -55,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": -5,
+      "yaw": -65,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 5,
+      "yaw": -65,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 0,
+      "yaw": -70,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 10,
+      "yaw": -55,
       "roundoff": 0.01953125
     },
     {
-      "rotation_y_deg": 90.0,
+      "pitch": -10,
+      "yaw": -60,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": -15,
+      "yaw": -45,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": 10,
+      "yaw": -60,
       "roundoff": 0.01953125
+    },
+    {
+      "pitch": -5,
+      "yaw": -70,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 5,
+      "yaw": -70,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": 0,
+      "yaw": -75,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -15,
+      "yaw": -50,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": -10,
+      "yaw": -65,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -5,
+      "yaw": -75,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 5,
+      "yaw": -75,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 0,
+      "yaw": -80,
+      "roundoff": 0.03125
+    },
+    {
+      "pitch": 10,
+      "yaw": -65,
+      "roundoff": 0.02734375
+    },
+    {
+      "pitch": -15,
+      "yaw": -55,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": -10,
+      "yaw": -70,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -15,
+      "yaw": -60,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": 10,
+      "yaw": -70,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -5,
+      "yaw": -80,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 5,
+      "yaw": -80,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 0,
+      "yaw": -85,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -10,
+      "yaw": -75,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -15,
+      "yaw": -65,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -5,
+      "yaw": -85,
+      "roundoff": 0.03125
+    },
+    {
+      "pitch": 5,
+      "yaw": -85,
+      "roundoff": 0.03125
+    },
+    {
+      "pitch": 0,
+      "yaw": -90,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -10,
+      "yaw": -80,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 10,
+      "yaw": -75,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -15,
+      "yaw": -70,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -5,
+      "yaw": -90,
+      "roundoff": 0.021484375
+    },
+    {
+      "pitch": 5,
+      "yaw": -90,
+      "roundoff": 0.015802469104528427
+    },
+    {
+      "pitch": -10,
+      "yaw": -85,
+      "roundoff": 0.03125
+    },
+    {
+      "pitch": 10,
+      "yaw": -80,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -15,
+      "yaw": -75,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 10,
+      "yaw": -85,
+      "roundoff": 0.02734375
+    },
+    {
+      "pitch": -10,
+      "yaw": -90,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 10,
+      "yaw": -90,
+      "roundoff": 0.0205078125
+    },
+    {
+      "pitch": -15,
+      "yaw": -80,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -20,
+      "yaw": -75,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -15,
+      "yaw": -85,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -15,
+      "yaw": -90,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -20,
+      "yaw": -80,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -20,
+      "yaw": -85,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -20,
+      "yaw": -90,
+      "roundoff": 0.015625
     }
-  ],
-  "battery_estimated_size_mm": [
-    18,
-    22,
-    6
   ],
   "retained_obstacles": [
     "BODY",
@@ -320,12 +773,16 @@
     "SF_RETAINER_M2x5",
     "SR_RETAINER_M2x5"
   ],
-  "service_sequence": [
-    "Disconnect battery plug and free flexible wiring",
-    "Remove main keys and removable wheel carrier assembly",
-    "Remove screwed H electronics stack if already installed",
-    "Move battery along the reversed verified route; side module and integral BODY remain in place"
+  "battery_estimated_size_mm": [
+    18,
+    22,
+    6
   ],
-  "limitation": "Rigid estimated battery envelope only; adhesive release and actual cell/plug dimensions require physical verification.",
+  "service_sequence": [
+    "Disconnect battery plug and free wiring",
+    "Remove main keys, wheel carrier and removable H electronics stack",
+    "Tilt and yaw the rigid battery along the reverse of the reported exact route; integral BODY and side module stay assembled"
+  ],
+  "limitation": "Finite rigid-envelope route, not adhesive peel or actual-cell handling proof.",
   "passed": false
 }
