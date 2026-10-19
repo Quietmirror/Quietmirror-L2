@@ -64,3 +64,10 @@ Status: CAD checks running. No L2-r4 Release is permitted until all CAD gates co
 - Cut explicit radius2.05 screwdriver paths up to Z12.1; leave floor and washer contact faces intact. Recheck BODY validity, access, stiffness and all affected interfaces.
 - Remove inherited main-key rib/plunger overlap with R1.13 spherical clearance around the modeled R1.10 plunger; preserve key exterior, width and actuation datum. Expand rigid-housing relief through the requested -0.5..3.1 degree range. Re-cut only main/wheel stop faces at requested 3.1/4.4 degrees.
 - Plan a replacement SF route with actual SR terminals included, 0.25mm part point clouds, finite yaw samples and conservative 26-neighbor dilation. Search success is only a candidate route; replay and exact turning-point acceptance are mandatory. Retainer final alignment/descent is separately classified as seating, not an open-clearance route.
+
+## Candidate 5 - measured hidden-hinge containment repair
+
+- Candidate4 actual mother-profile subtraction found SF/SR upper fixed-lug material outside the mother surface by 2.214577/2.096916 mm3, and steel-pin material outside by0.068486/0.031634 mm3. The proposed X29 axes cannot satisfy the document's hidden-bearing requirement at the upper Z range.
+- Parameterize both hinge X coordinates and move them to27.5, keeping Y45.3/69.7 and the complete external key surface. Upper fixed lug is Z19.8..20.6, lower lug unchanged. Clip fixed bearing additions to the actual mother surface. Keep diameter2.5 moving journals and diameter1x5.5 steel pins.
+- Shorten only the concealed inboard ear radius2.3 to2.1 and place the outward stop riser X26.0..26.8 so both estimated micro housings retain space. The stop roof remains below the mother surface. This is a disclosed correction to the literal D7 coordinates, not a claim that those original dimensions passed.
+- Recompute stop angles, pad coverage, source masks, pin access and rendering from hinge_x; all affected final gates must be rerun. No result is inferred from these source edits alone.

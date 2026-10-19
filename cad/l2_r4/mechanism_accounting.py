@@ -12,12 +12,12 @@ def main():
     act=[]
     for k,x0,y0,tip in [(KEYS[0],18.5,41.85,25.62),(KEYS[1],19.,56.05,26.12)]:
         c=load(k['name']);film=load(k['short']+'_TUNING_SHIM_0p33',OUT/'reference')
-        ori=(29,k['hinge_y'],0);axis=(29,k['hinge_y'],1)
+        ori=(k['hinge_x'],k['hinge_y'],0);axis=(k['hinge_x'],k['hinge_y'],1)
         # Crown is a translated spherical patch. At these small rotations its
         # -X extremum stays on that patch and inside the covered flat button.
         radius=PAD_RADIUS;cx=k['rod_end']-.33+radius;cy=k['rod_y']+k['pad_y_offset']
         def extreme(a):
-            t=math.radians(a);return 29+(cx-29)*math.cos(t)-(cy-k['hinge_y'])*math.sin(t)-radius
+            t=math.radians(a);return k['hinge_x']+(cx-k['hinge_x'])*math.cos(t)-(cy-k['hinge_y'])*math.sin(t)-radius
         gap=extreme(0)-tip
         def inward(a):return extreme(0)-extreme(a)
         lo,hi=0.,abs(k['angle'])

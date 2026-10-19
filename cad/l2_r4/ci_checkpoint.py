@@ -19,8 +19,9 @@ def main():
     parent=git('rev-parse','HEAD')
     git('commit','-m','Record L2-r4 candidate outputs and actual validation status')
     # A concurrent source update must never be overwritten.
-    head=git('ls-remote','origin','refs/heads/l2-r4-build').split()[0]
-    target='l2-r4-build' if head==parent else 'l2-r4-result-'+os.environ['GITHUB_RUN_ID']
+    expected=os.getenv('R4_TARGET_BRANCH','l2-r4-build')
+    head=git('ls-remote','origin','refs/heads/'+expected).split()[0]
+    target=expected if head==parent else 'l2-r4-result-'+os.environ['GITHUB_RUN_ID']
     git('push','origin','HEAD:refs/heads/'+target,auth=True)
     print('CHECKPOINT',target,git('rev-parse','HEAD'))
 if __name__=='__main__':main()

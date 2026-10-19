@@ -67,13 +67,13 @@ def main():
         shown=[]
         for n,s,c,a in inside:
             k=next((k for k in KEYS if k['name']==n),None)
-            if k:s=s.rotate((29,k['hinge_y'],0),(29,k['hinge_y'],1),k['angle']*fraction);n+='_'+state
+            if k:s=s.rotate((k['hinge_x'],k['hinge_y'],0),(k['hinge_x'],k['hinge_y'],1),k['angle']*fraction);n+='_'+state
             shown.append((n,s,c,a))
         picture('SIDE_'+state,shown,(1,-.12,.12),focus=(24,57,16),scale=20,title='侧键机构 | '+state,note='触发图为名义近似姿态；实际触发点取决于微动与 PET 调整')
     overlay=[o for o in inside if o[0] not in [k['name'] for k in KEYS]]
     for k in KEYS:
         for state,fraction,col in [('REST',0,(.1,.5,.8)),('TRIGGER',.83,(.9,.55,.12)),('STOP',1,(.8,.18,.2))]:
-            s=read(k['name']).rotate((29,k['hinge_y'],0),(29,k['hinge_y'],1),k['angle']*fraction)
+            s=read(k['name']).rotate((k['hinge_x'],k['hinge_y'],0),(k['hinge_x'],k['hinge_y'],1),k['angle']*fraction)
             overlay.append((k['name']+'_'+state,s,col,.4))
     picture('SIDE_MOTION_OVERLAY',overlay,(0,0,1),up=(0,1,0),focus=(25,57,16),scale=20,title='侧键动作叠图 | 静止 / 触发示意 / 止挡',note='蓝=静止，黄=名义触发，红=止挡；实际触发角需微动实测')
     old=[]

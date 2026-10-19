@@ -8,7 +8,7 @@ import itertools,json,math,time
 import numpy as np
 import trimesh
 from common import *
-from side_module import KEYS,RETAINER_MOUNTS
+from side_module import KEYS,RETAINER_MOUNTS,UPPER_LUG_TOP
 
 def main():
     parts={p.stem:load(p.stem) for p in sorted((OUT/'parts').glob('*.step'))}
@@ -40,7 +40,7 @@ def main():
     # Side cap assembly uses the final BODY and actual pad/ear/root-bridge.
     insertions=[];motions=[]
     for k in KEYS:
-        n=k['name'];cap=parts[n];origin=(29,k['hinge_y'],0);axis=(29,k['hinge_y'],1)
+        n=k['name'];cap=parts[n];origin=(k['hinge_x'],k['hinge_y'],0);axis=(k['hinge_x'],k['hinge_y'],1)
         shim=load(k['short']+'_TUNING_SHIM_0p33',OUT/'reference')
         insertion_actor=cq.Compound.makeCompound([cap,shim])
         bb=insertion_actor.BoundingBox()
@@ -69,7 +69,7 @@ def main():
         print('SIDE_RAW',n,[(round(r['angle_deg'],3),round(r['overlap_mm3'],6)) for r in samples],flush=True)
     access=[]
     for k in KEYS:
-        probe=cyl(1.,14.2,(29,k['hinge_y'],20.8))
+        probe=cyl(1.,14.2,(k['hinge_x'],k['hinge_y'],UPPER_LUG_TOP))
         access.append(pair(probe,body,k['short']+'_PIN_TOOL_D2','BODY',0.))
     for n,m in RETAINER_MOUNTS.items():
         access.append(pair(cyl(2.,12.1,(m['x'],m['y'],0)),body,n+'_SCREWDRIVER_D4','BODY',0.))
@@ -78,7 +78,7 @@ def main():
     # rounded angles/travel from the author evidence.
     kin=[]
     for k in KEYS:
-        x=k['rod_end']-29;dy=k['rod_y']+k['pad_y_offset']-k['hinge_y'];cover=[]
+        x=k['rod_end']-k['hinge_x'];dy=k['rod_y']+k['pad_y_offset']-k['hinge_y'];cover=[]
         for a in np.linspace(0,k['angle'],101):
             t=math.radians(float(a));shift_y=x*math.sin(t)+dy*(math.cos(t)-1)+k['pad_y_offset']
             shift_x=x*(math.cos(t)-1)-dy*math.sin(t)

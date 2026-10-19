@@ -7,7 +7,7 @@ remaining moving/fixed geometry retains the 0.30 mm requirement.
 import math,json
 import numpy as np
 from common import *
-from side_module import KEYS,fixed_features,key
+from side_module import KEYS,fixed_features,key,UPPER_LUG_TOP,EAR_RADIUS
 
 def main():
     body=load('BODY');outer=load('MOTHER_OUTER_FROM_R32_SURFACE',ROOT/'exports/l2_r2_diagnostic/support_reference')
@@ -16,14 +16,14 @@ def main():
     parts={n:load(n) for n in inventory['printable'] if n!='BODY'}
     hardware={n:load(n,OUT/'reference') for n in inventory['H_hardware']}
     for k,p in zip(KEYS,params):
-        cap=load(k['name']);y=k['hinge_y'];sg=k['sign'];ori=(29,y,0);axis=(29,y,1)
+        cap=load(k['name']);y=k['hinge_y'];sg=k['sign'];hx=k['hinge_x'];ori=(hx,y,0);axis=(hx,y,1)
         # Masks are the exact source-defined functional features, trimmed to
         # the exported final solids. No nearby non-functional skin is removed.
-        ear=cap.intersect(box(26.7,29,y-.4,y+.4,18.6,19.5))
+        ear=cap.intersect(box(hx-EAR_RADIUS,hx,y-.4,y+.4,18.6,19.5))
         rib=cap.intersect(box(p['stop_rib_inner_x'],34,*k['stop_y'],15.9,16.4))
         rest=cap.cut(ear).cut(rib)
         ya,yb=(y+.4,y+1.4) if sg>0 else (y-1.4,y-.4)
-        outward=body.intersect(unite(box(26.5,27.3,ya,yb,18.6,20.8),box(26.5,29.4,ya,yb,19.8,20.8)))
+        outward=body.intersect(unite(box(hx-1.5,hx-.7,ya,yb,18.6,UPPER_LUG_TOP),box(hx-1.5,hx+.7,ya,yb,19.8,UPPER_LUG_TOP)))
         px0,py0,py1=(25.5,53.6,55.4) if sg>0 else (26.,59.1,61.1)
         post=body.intersect(box(px0,k['stop_x'],py0,py1,15.7,16.4))
         without_outward=body.cut(outward);without_post=body.cut(post)

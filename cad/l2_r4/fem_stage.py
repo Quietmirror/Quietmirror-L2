@@ -1,5 +1,5 @@
 """Full three-grid SPOOLES checks. Serial, with a 10 GB available-RAM guard."""
-import importlib.util,json,os,shutil,sys,time
+import importlib.util,json,os,shutil,sys,time,subprocess
 from pathlib import Path
 import numpy as np
 import gmsh,psutil
@@ -11,6 +11,26 @@ FC.CCX=Path(shutil.which('ccx') or os.environ['QM_CCX'])
 os.environ['QM_FEM_LINEAR_SOLVER']='DEFAULT'
 import fem_loads as L
 L.FC=FC
+
+def monitored_command(args,cwd,log,timeout=600):
+    """Serial actual solver execution with resident-memory and completion data."""
+    start=time.monotonic();peak=0;deadline=max(timeout,1800);env=os.environ.copy()
+    env.update(OMP_NUM_THREADS='1',OPENBLAS_NUM_THREADS='1',CCX_NPROC_RESULTS='1',NUMBER_OF_CPUS='1')
+    with Path(log).open('w',encoding='utf8') as stream:
+        process=subprocess.Popen([str(a) for a in args],cwd=cwd,env=env,stdout=stream,stderr=subprocess.STDOUT)
+        observed=psutil.Process(process.pid)
+        while process.poll() is None:
+            try:peak=max(peak,observed.memory_info().rss)
+            except psutil.NoSuchProcess:pass
+            if time.monotonic()-start>deadline:
+                process.kill();process.wait();raise RuntimeError(f'Same-case solver timeout after {deadline}s; no case skipped')
+            time.sleep(.25)
+    seconds=time.monotonic()-start
+    measured=dict(returncode=process.returncode,elapsed_seconds=seconds,peak_resident_GB=peak/1e9,measurement='psutil process RSS sampled every 0.25 s',solver_command=[str(a) for a in args])
+    (Path(cwd)/'solver_runtime.json').write_text(json.dumps(measured,indent=2))
+    if process.returncode:raise RuntimeError('CalculiX failed '+json.dumps(measured)+'\n'+Path(log).read_text(errors='replace')[-5000:])
+    return seconds
+FC.command=monitored_command
 REF={
  'palm_down_20N':[105.64,105.97,105.04],
  'left_main_root_down_5N':[24.95,24.63,24.47],
@@ -52,6 +72,10 @@ def solve(m,d,cons,loads,description,feet):
     if mem<10_000_000_000:raise RuntimeError(f'Available RAM {mem/1e9:.3f} GB < required 10 GB; solve was not started')
     print('SPOOLES',description['name'],'free_GB',mem/1e9,flush=True)
     r,u=FC.solve(m,d,1500.,.35,cons,loads,description,feet)
+    solver_log=(d/'ccx.log').read_text(errors='replace')
+    assert 'SPOOLES' in solver_log.upper(),'Requested default SPOOLES was not identified in actual solver log'
+    r['solver_backend_verified']='SPOOLES in actual CalculiX log'
+    r['solver_runtime']=json.loads((d/'solver_runtime.json').read_text())
     r['available_memory_before_solve_GB']=mem/1e9
     # Keep exact deck + compact actual results under versioned reports; raw
     # meshes and DAT files remain in work, with their recorded digests.

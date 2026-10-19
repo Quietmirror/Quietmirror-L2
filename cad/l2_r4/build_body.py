@@ -9,7 +9,7 @@ sys.path.insert(0,str(HERE))
 from surfaces import make_surfaces
 from mechanics import build_mechanics,beam
 from interfaces import build_interfaces
-from side_module import fixed_features,integrated_frame,KEYS,RETAINER_MOUNTS
+from side_module import fixed_features,integrated_frame,KEYS,RETAINER_MOUNTS,UPPER_LUG_TOP
 spec=importlib.util.spec_from_file_location('original_export',ROOT/'cad/rebuild_r2/build.py')
 original=importlib.util.module_from_spec(spec);spec.loader.exec_module(original)
 
@@ -55,7 +55,7 @@ def main():
     # Starts at the upper lug top: press-fit bores and lug wall are retained.
     # This changes the local window/rim edge and is reported as a deviation
     # from literal unchanged six-window boundaries, necessary for B7 access.
-    for y in (45.3,69.7):body=body.cut(cyl(1.05,15,(29,y,20.8))).clean()
+    for k in KEYS:body=body.cut(cyl(1.05,15,(k['hinge_x'],k['hinge_y'],UPPER_LUG_TOP))).clean()
     # Inboard faces of the original main-key fixed bearings: retain their
     # axes/bores, reduce axial width from 2.4 to 2.2 for wheel-carrier clearance.
     for sign in (-1,1):
