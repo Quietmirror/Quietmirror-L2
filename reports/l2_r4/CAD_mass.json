@@ -1,0 +1,81 @@
+{
+  "parts": [
+    {
+      "part": "BODY",
+      "volume_mm3": 12677.68127906499,
+      "PA12_density_g_cm3": 1.01,
+      "PA12_mass_g": 12.804458091855638,
+      "PLA_density_g_cm3": 1.24,
+      "solid_PLA_mass_g": 15.720324786040587
+    },
+    {
+      "part": "LEFT_KEY",
+      "volume_mm3": 1719.6801597484564,
+      "PA12_density_g_cm3": 1.01,
+      "PA12_mass_g": 1.736876961345941,
+      "PLA_density_g_cm3": 1.24,
+      "solid_PLA_mass_g": 2.1324033980880857
+    },
+    {
+      "part": "RIGHT_KEY",
+      "volume_mm3": 1719.680209111002,
+      "PA12_density_g_cm3": 1.01,
+      "PA12_mass_g": 1.736877011202112,
+      "PLA_density_g_cm3": 1.24,
+      "solid_PLA_mass_g": 2.132403459297642
+    },
+    {
+      "part": "SF_RETAINER",
+      "volume_mm3": 103.89933000919582,
+      "PA12_density_g_cm3": 1.01,
+      "PA12_mass_g": 0.10493832330928778,
+      "PLA_density_g_cm3": 1.24,
+      "solid_PLA_mass_g": 0.1288351692114028
+    },
+    {
+      "part": "SIDE_FRONT_KEY",
+      "volume_mm3": 80.33163138428115,
+      "PA12_density_g_cm3": 1.01,
+      "PA12_mass_g": 0.08113494769812396,
+      "PLA_density_g_cm3": 1.24,
+      "solid_PLA_mass_g": 0.09961122291650862
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "volume_mm3": 85.94332954868055,
+      "PA12_density_g_cm3": 1.01,
+      "PA12_mass_g": 0.08680276284416737,
+      "PLA_density_g_cm3": 1.24,
+      "solid_PLA_mass_g": 0.10656972864036388
+    },
+    {
+      "part": "SR_RETAINER",
+      "volume_mm3": 166.7823898016227,
+      "PA12_density_g_cm3": 1.01,
+      "PA12_mass_g": 0.16845021369963895,
+      "PLA_density_g_cm3": 1.24,
+      "solid_PLA_mass_g": 0.20681016335401217
+    },
+    {
+      "part": "WHEEL",
+      "volume_mm3": 563.1619625874001,
+      "PA12_density_g_cm3": 1.01,
+      "PA12_mass_g": 0.5687935822132741,
+      "PLA_density_g_cm3": 1.24,
+      "solid_PLA_mass_g": 0.6983208336083762
+    },
+    {
+      "part": "WHEEL_CARRIER",
+      "volume_mm3": 589.8949111552149,
+      "PA12_density_g_cm3": 1.01,
+      "PA12_mass_g": 0.5957938602667671,
+      "PLA_density_g_cm3": 1.24,
+      "solid_PLA_mass_g": 0.7314696898324665
+    }
+  ],
+  "total_volume_mm3": 17707.055202410844,
+  "total_PA12_g": 17.88412575443495,
+  "total_solid_PLA_g": 21.956748450989444,
+  "volume_method": "BRepGProp.VolumeProperties_s(shape,props,1e-8,True,False)",
+  "scope": "Printed polymer geometry only; density assumptions; slicer support/infill mass is separate. No fabricated hardware mass or physical weigh-in."
+}
