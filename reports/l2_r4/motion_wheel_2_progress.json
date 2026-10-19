@@ -1,0 +1,42 @@
+{
+  "status": "PARTIAL_NOT_ACCEPTANCE",
+  "group": "WHEEL_CARRIER",
+  "completed_poses": 5,
+  "expected_poses": 5,
+  "last_angle_deg": 4.4,
+  "failures": [
+    {
+      "angle": 4.4,
+      "items": [
+        {
+          "a": "WHEEL_CARRIER",
+          "b": "BODY",
+          "passed": false,
+          "classification": "source-defined fixed hinge and press stop; full common volume retained",
+          "nonfunctional": {
+            "a": "WHEEL_CARRIER",
+            "b": "BODY",
+            "gap_mm": 0.22742873385069018,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": false,
+            "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+            "nearest_points_mm": [
+              [
+                4.35,
+                35.73255188857086,
+                9.276758445021315
+              ],
+              [
+                4.35,
+                35.75,
+                9.05
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
