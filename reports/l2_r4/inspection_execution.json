@@ -16,6 +16,13 @@
       "seconds": 11.72,
       "available_memory_before_GB": 15.659618304,
       "log_tail": "/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/cadquery/utils.py:82: FutureWarning: save will be removed in the next release.\n  warn(f\"{f.__name__} will be removed in the next release.\", FutureWarning)\nASSEMBLY_REFRESH 94\n"
+    },
+    {
+      "script": "cad/l2_r4/side_clearance_probe.py",
+      "returncode": 0,
+      "seconds": 287.49,
+      "available_memory_before_GB": 15.56809728,
+      "log_tail": "SIDE_LOCAL SF 0.0 full 0.0 residual 0 min_nonfunctional 0.29999711063715506\nSIDE_LOCAL SF 1.1348219938479887 full 0.0 residual 0 min_nonfunctional 0.29999999142792927\nSIDE_LOCAL SF 2.2696439876959773 full 0.0 residual 0 min_nonfunctional 0.2815332025503168\nSIDE_LOCAL SF 3.404465981543966 full 0.0 residual 0 min_nonfunctional 0.20639009405888492\nSIDE_LOCAL SF 4.539287975391955 full 0.0 residual 0 min_nonfunctional 0.18962367153393592\nSIDE_LOCAL SF 5.674109969239943 full 0.0 residual 0 min_nonfunctional 0.2539689998297762\nSIDE_LOCAL SF 6.808931963087932 full 0.0 residual 0 min_nonfunctional 0.24757523214439428\nSIDE_LOCAL SF -0.5 full 0.005768871554534312 residual 0 min_nonfunctional 0.27526087527213017\nSIDE_LOCAL SF 7.108931963087932 full 0.0024565989291424166 residual 0 min_nonfunctional 0.24637474487334096\nSIDE_LOCAL SR 0.0 full 0.0 residual 0 min_nonfunctional 0.29999502291401703\nSIDE_LOCAL SR -1.0724416473237355 full 0.0 residual 0 min_nonfunctional 0.2999999489526275\nSIDE_LOCAL SR -2.144883294647471 full 0.0 residual 0 min_nonfunctional 0.29999994895262816\nSIDE_LOCAL SR -3.2173249419712064 full 0.0 residual 0 min_nonfunctional 0.29999994895262216\nSIDE_LOCAL SR -4.289766589294942 full 0.0 residual 0 min_nonfunctional 0.2999999489526286\nSIDE_LOCAL SR -5.362208236618677 full 0.0 residual 0 min_nonfunctional 0.2977312758690794\nSIDE_LOCAL SR -6.434649883942413 full 0.0 residual 0 min_nonfunctional 0.27756421058155956\nSIDE_LOCAL SR 0.5 full 0.005768871554470633 residual 0 min_nonfunctional 0.2741082300187232\nSIDE_LOCAL SR -6.734649883942413 full 0.0028647642129913096 residual 0 min_nonfunctional 0.2574442430494269\n"
     }
   ]
 }
