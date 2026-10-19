@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "FAILED",
   "phase": "Final C15 donor envelope, roll and ideal mechanism accounting",
   "source_commit": "d16322de8c3a9756fd0f9f36aada67e95c5e5cfe",
   "steps": [
@@ -9,6 +9,13 @@
       "seconds": 5.0,
       "available_memory_before_GB": 15.664447488,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/donor_envelope.py",
+      "returncode": 1,
+      "seconds": 33.58,
+      "available_memory_before_GB": 15.45811968,
+      "log_tail": "Traceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/donor_envelope.py\", line 87, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/donor_envelope.py\", line 70, in main\n    board=valid(solid(outline),'D_MAX_BOARD_ENVELOPE');checks=[pair(board,s,'D_MAX_BOARD_ENVELOPE',n,GAP) for n,s in obs.items()]\n                ^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/donor_envelope.py\", line 37, in solid\n    outer=cq.Wire.makePolygon([V(x,y,Z) for x,y in poly.exterior.coords],close=True)\n                                                   ^^^^^^^^^^^^^\nAttributeError: 'MultiPolygon' object has no attribute 'exterior'\n"
     }
   ]
 }
