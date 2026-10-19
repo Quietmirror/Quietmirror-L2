@@ -8,6 +8,7 @@ Expand-Archive -LiteralPath $prusaArchive -DestinationPath (Join-Path $toolsPath
 $prusaExe = Get-ChildItem -LiteralPath (Join-Path $toolsPath 'PrusaSlicer') -Recurse -Filter 'prusa-slicer-console.exe' | Select-Object -First 1
 if (!$prusaExe) { throw 'PrusaSlicer console executable missing' }
 $env:QM_PRUSASLICER = $prusaExe.FullName
+if ($env:R4_SLICE_ONLY -ne '1') {
 $freecadArchive = Join-Path $toolsPath 'FreeCAD-1.1.4.7z'
 Invoke-WebRequest -Uri 'https://github.com/FreeCAD/FreeCAD/releases/download/1.1.4/FreeCAD_1.1.4-Windows-x86_64-py311.7z' -OutFile $freecadArchive
 $hash = (Get-FileHash -LiteralPath $freecadArchive -Algorithm SHA256).Hash.ToLowerInvariant()
@@ -24,6 +25,7 @@ python cad/l2_r4/evidence_identity.py --python $fcPython.FullName --script cad/l
 if ($LASTEXITCODE -ne 0) { throw 'Native FreeCAD assembly validation failed' }
 python cad/l2_r4/ci_checkpoint.py
 if ($LASTEXITCODE -ne 0) { throw 'Native checkpoint failed' }
+}
 python -m venv _support/slice-venv
 & _support/slice-venv/Scripts/python.exe -m pip install 'trimesh==5.1.0' 'numpy' 'scipy' 'pillow' 'matplotlib' 'lxml' 'networkx' 'gmsh==4.15.2'
 if ($LASTEXITCODE -ne 0) { throw 'Slicer helper dependency setup failed' }
