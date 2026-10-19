@@ -94,7 +94,7 @@
   {
     "a": "BATTERY_SERVICE_EST",
     "b": "SIDE_FRONT_KEY",
-    "gap_mm": 33.47,
+    "gap_mm": 32.9,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -103,13 +103,13 @@
     "nearest_points_mm": [
       [
         -7.5,
-        50.45179999814898,
-        16.600000000861062
+        45.7,
+        18.6
       ],
       [
-        25.97,
-        50.45180000812691,
-        16.60000001913676
+        25.4,
+        45.7,
+        18.6
       ]
     ],
     "reserve_policy": "zero solid invasion, not clearance to a physical part"
@@ -117,7 +117,7 @@
   {
     "a": "BATTERY_SERVICE_EST",
     "b": "SIDE_REAR_KEY",
-    "gap_mm": 33.97,
+    "gap_mm": 32.90972500644756,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -126,13 +126,13 @@
     "nearest_points_mm": [
       [
         -7.5,
-        64.28830109461578,
-        16.600000667010832
+        68.5,
+        18.6
       ],
       [
-        26.470000000027827,
-        64.28829404411205,
-        16.60000833258844
+        25.4,
+        69.3,
+        18.6
       ]
     ],
     "reserve_policy": "zero solid invasion, not clearance to a physical part"
@@ -692,7 +692,7 @@
   {
     "a": "BATTERY_SERVICE_EST",
     "b": "LEFT_KEY_STEEL_PIN",
-    "gap_mm": 16.06268968759591,
+    "gap_mm": 16.714065932620944,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -705,7 +705,7 @@
         14.32179139245
       ],
       [
-        7.4,
+        8.1,
         39.5,
         14.32179139245
       ]
@@ -1244,7 +1244,7 @@
   {
     "a": "BATTERY_SERVICE_EST",
     "b": "SENSOR_ROUTE_EST",
-    "gap_mm": 15.290248582070705,
+    "gap_mm": 15.768956845650889,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -1254,12 +1254,12 @@
       [
         -7.5,
         68.5,
-        16.15
+        16.25
       ],
       [
-        7.414735398759376,
-        71.86784347713922,
-        16.15
+        8.0,
+        71.4,
+        16.25
       ]
     ],
     "reserve_policy": "zero solid invasion, not clearance to a physical part"
@@ -1313,7 +1313,7 @@
   {
     "a": "BATTERY_SERVICE_EST",
     "b": "SF_VERTICAL_PIN",
-    "gap_mm": 36.00054794109261,
+    "gap_mm": 34.50057142390678,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -1326,8 +1326,8 @@
         19.9
       ],
       [
-        28.500007505929684,
-        45.30273968489901,
+        27.000008163065395,
+        45.30285709621105,
         19.9
       ]
     ],
@@ -1497,7 +1497,7 @@
   {
     "a": "BATTERY_SERVICE_EST",
     "b": "SR_VERTICAL_PIN",
-    "gap_mm": 36.019720699917734,
+    "gap_mm": 34.52056538664103,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -1510,8 +1510,8 @@
         19.9
       ],
       [
-        28.50027000069469,
-        69.68357052057078,
+        27.00029361871252,
+        69.68286720978443,
         19.9
       ]
     ],
@@ -2287,12 +2287,12 @@
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
-        6.0,
+        4.9,
         57.5,
         22.5
       ],
       [
-        6.0,
+        4.9,
         35.9,
         10.4
       ]
@@ -2624,7 +2624,7 @@
   {
     "a": "ANTENNA_KEEPOUT_EST",
     "b": "LEFT_KEY_STEEL_PIN",
-    "gap_mm": 19.735055749860678,
+    "gap_mm": 19.79703072306827,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -2637,7 +2637,7 @@
         22.5
       ],
       [
-        7.4,
+        8.1,
         39.4185251161907,
         14.717154024633246
       ]
@@ -3061,7 +3061,7 @@
   {
     "a": "ANTENNA_KEEPOUT_EST",
     "b": "RIGHT_KEY_STEEL_PIN",
-    "gap_mm": 19.735055749860678,
+    "gap_mm": 19.79703072306827,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -3074,7 +3074,7 @@
         22.5
       ],
       [
-        -7.4,
+        -8.1,
         39.4185251161907,
         14.717154024633246
       ]
@@ -3130,7 +3130,7 @@
   {
     "a": "ANTENNA_KEEPOUT_EST",
     "b": "SENSOR_ROUTE_EST",
-    "gap_mm": 6.280406964707826,
+    "gap_mm": 6.3711523647282595,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -3143,9 +3143,9 @@
         22.5
       ],
       [
-        9.194785495862137,
-        70.52037720778335,
-        20.49184911688666
+        9.5,
+        70.44291398546885,
+        20.522834405812464
       ]
     ],
     "reserve_policy": "zero solid invasion, not clearance to a physical part"
@@ -3176,7 +3176,7 @@
   {
     "a": "ANTENNA_KEEPOUT_EST",
     "b": "SF_VERTICAL_PIN",
-    "gap_mm": 25.63429615632523,
+    "gap_mm": 24.32451983849387,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -3189,8 +3189,8 @@
         22.5
       ],
       [
-        28.558293038839828,
-        45.53429673591974,
+        27.06513357731722,
+        45.54676141194093,
         20.25
       ]
     ],
@@ -3222,7 +3222,7 @@
   {
     "a": "ANTENNA_KEEPOUT_EST",
     "b": "SR_VERTICAL_PIN",
-    "gap_mm": 22.990697387941562,
+    "gap_mm": 21.524314350024948,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -3235,8 +3235,8 @@
         22.5
       ],
       [
-        28.508133622521008,
-        69.6101809223734,
+        27.009275643513963,
+        69.60413756757018,
         20.25
       ]
     ],
@@ -3406,7 +3406,7 @@
   {
     "a": "ANTENNA_KEEPOUT_EST",
     "b": "USB_ROUTE_EST",
-    "gap_mm": 0.36980390271855557,
+    "gap_mm": 0.3549875621120877,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -3420,8 +3420,8 @@
       ],
       [
         -6.0,
-        57.1373774391991,
-        22.42747548783982
+        57.146774173636494,
+        22.46467741736365
       ]
     ],
     "reserve_policy": "zero solid invasion, not clearance to a physical part"
@@ -3935,7 +3935,7 @@
   {
     "a": "OPTICAL_PATH_EST",
     "b": "SF_RETAINER",
-    "gap_mm": 16.028587926840267,
+    "gap_mm": 15.602495118821885,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -3948,8 +3948,8 @@
         7.8
       ],
       [
-        17.225474109396302,
-        54.32789453015457,
+        16.730146194762323,
+        54.337336448680844,
         12.7
       ]
     ],
@@ -3981,7 +3981,7 @@
   {
     "a": "OPTICAL_PATH_EST",
     "b": "SIDE_REAR_KEY",
-    "gap_mm": 24.48185466641784,
+    "gap_mm": 24.321235577165893,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -3990,13 +3990,13 @@
     "nearest_points_mm": [
       [
         3.5,
-        64.2883,
+        69.7,
         7.8
       ],
       [
-        26.5780844144003,
-        64.2883,
-        15.970876799304875
+        26.25,
+        69.7,
+        16.4
       ]
     ],
     "reserve_policy": "zero solid invasion, not clearance to a physical part"
@@ -4058,12 +4058,12 @@
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
-        3.0,
+        -3.0,
         61.0,
         7.8
       ],
       [
-        3.0,
+        -3.0,
         51.82184083869906,
         17.1450347824155
       ]
@@ -4257,7 +4257,7 @@
   {
     "a": "OPTICAL_PATH_EST",
     "b": "ENCODER_EC10E_HOUSING",
-    "gap_mm": 26.830113678477026,
+    "gap_mm": 26.845623479442605,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -4272,7 +4272,7 @@
       [
         5.45,
         34.25,
-        8.5
+        8.95
       ]
     ],
     "reserve_policy": "zero solid invasion, not clearance to a physical part"
@@ -4579,7 +4579,7 @@
   {
     "a": "OPTICAL_PATH_EST",
     "b": "LEFT_KEY_STEEL_PIN",
-    "gap_mm": 22.762721598961118,
+    "gap_mm": 22.893044677189856,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -4592,8 +4592,8 @@
         7.8
       ],
       [
-        7.4,
-        39.46046576955451,
+        8.1,
+        39.46046576955452,
         14.043393286288957
       ]
     ],
@@ -5039,7 +5039,7 @@
   {
     "a": "OPTICAL_PATH_EST",
     "b": "RIGHT_KEY_STEEL_PIN",
-    "gap_mm": 22.762721598961118,
+    "gap_mm": 22.893044677189856,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -5052,8 +5052,8 @@
         7.8
       ],
       [
-        -7.4,
-        39.46046576955451,
+        -8.1,
+        39.46046576955452,
         14.043393286288957
       ]
     ],
@@ -5108,7 +5108,7 @@
   {
     "a": "OPTICAL_PATH_EST",
     "b": "SENSOR_ROUTE_EST",
-    "gap_mm": 9.010533116229034,
+    "gap_mm": 9.10343341822194,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -5121,9 +5121,9 @@
         7.8
       ],
       [
-        7.9547964187196225,
-        72.08136644630466,
-        15.557263854944562
+        8.0,
+        72.0,
+        15.65
       ]
     ],
     "reserve_policy": "zero solid invasion, not clearance to a physical part"
@@ -5177,7 +5177,7 @@
   {
     "a": "OPTICAL_PATH_EST",
     "b": "SF_VERTICAL_PIN",
-    "gap_mm": 30.254700174096875,
+    "gap_mm": 29.023497610438703,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -5190,8 +5190,8 @@
         7.8
       ],
       [
-        28.574228180367044,
-        45.562141865421076,
+        27.081576630132513,
+        45.57371862112164,
         14.75
       ]
     ],
@@ -5361,7 +5361,7 @@
   {
     "a": "OPTICAL_PATH_EST",
     "b": "SR_VERTICAL_PIN",
-    "gap_mm": 25.948073146189486,
+    "gap_mm": 24.506172691793388,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -5374,7 +5374,7 @@
         7.8
       ],
       [
-        28.5,
+        27.0,
         69.7,
         14.75
       ]
@@ -5936,7 +5936,7 @@
   {
     "a": "OPTICAL_PATH_EST",
     "b": "SIDE_SR_NO_ROUTE_EST",
-    "gap_mm": 14.628986745279944,
+    "gap_mm": 14.633881369270556,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -5949,9 +5949,9 @@
         7.8
       ],
       [
-        14.761619328121306,
-        57.443008467723104,
-        16.433133529685
+        14.740007741881563,
+        57.44419590384984,
+        16.470003870940783
       ]
     ],
     "reserve_policy": "zero solid invasion, not clearance to a physical part"
@@ -5982,7 +5982,7 @@
   {
     "a": "OPTICAL_PATH_EST",
     "b": "SIDE_COM_GPIO_ROUTE_EST",
-    "gap_mm": 13.894256708055153,
+    "gap_mm": 14.107457937889999,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -5997,7 +5997,7 @@
       [
         13.301459720611055,
         60.02955844350386,
-        17.6
+        17.9
       ]
     ],
     "reserve_policy": "zero solid invasion, not clearance to a physical part"
