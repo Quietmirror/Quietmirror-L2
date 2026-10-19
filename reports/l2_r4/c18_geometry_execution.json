@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "C18_carrier_source_relief_and_complete_endpoint",
   "source_commit": "8ff641bd4803df009d041549436f391da0ac549e",
   "steps": [
