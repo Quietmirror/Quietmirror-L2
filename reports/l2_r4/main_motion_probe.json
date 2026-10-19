@@ -139,5 +139,32 @@
   {
     "stage": "pair_begin",
     "part": "ENCODER_EC10E_HOUSING"
+  },
+  {
+    "stage": "pair_end",
+    "part": "ENCODER_EC10E_HOUSING",
+    "seconds": 5.05528450012207,
+    "result": {
+      "a": "LEFT_KEY",
+      "b": "ENCODER_EC10E_HOUSING",
+      "gap_mm": 1.9500000000000002,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.3,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "nearest_points_mm": [
+        [
+          9.9,
+          30.2,
+          22.6
+        ],
+        [
+          7.95,
+          30.2,
+          22.6
+        ]
+      ]
+    }
   }
 ]
