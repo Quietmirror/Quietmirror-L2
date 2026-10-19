@@ -1,0 +1,32 @@
+{
+  "dimensions_mm": [
+    18,
+    22,
+    6
+  ],
+  "pivot_mm": [
+    -16.999999999999996,
+    57.0,
+    16.400000000000002
+  ],
+  "entry_prefix_count": 2010,
+  "entry_center_z_range_mm": [
+    -7.0,
+    41.0
+  ],
+  "passed": false,
+  "status": "PLANNING",
+  "retained_obstacles": [
+    "BODY",
+    "SF_RETAINER",
+    "SR_RETAINER",
+    "SIDE_FRONT_KEY",
+    "SIDE_REAR_KEY",
+    "SF_D2F_01F",
+    "SR_D2F_01F",
+    "SF_VERTICAL_PIN",
+    "SR_VERTICAL_PIN",
+    "SF_RETAINER_M2x5",
+    "SR_RETAINER_M2x5"
+  ]
+}
