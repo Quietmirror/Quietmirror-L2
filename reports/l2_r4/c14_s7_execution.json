@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "C14 final retainer geometry serial S7",
   "source_commit": "76700242db55c0e5b3a0653363420ab11831c220",
   "steps": [
