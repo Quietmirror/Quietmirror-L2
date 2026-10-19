@@ -59,10 +59,10 @@
       "removed_material_mm3": 0.0,
       "valid": true,
       "solids": 1,
-      "brep_self_interference_check": false,
-      "passed": false
+      "brep_self_interference_check": true,
+      "passed": true
     }
   ],
-  "passed": false,
+  "passed": true,
   "definition": "Current source construction compared with STEP roundtrip, exact cap/PET intersection and additional BRepAlgoAPI self-interference check."
 }
