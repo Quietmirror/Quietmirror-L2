@@ -42,17 +42,17 @@
       "printable": false,
       "valid": true,
       "solids": 1,
-      "volume_mm3": 156.9881799446221,
+      "volume_mm3": 145.2255649508282,
       "bounds_mm": [
         -0.8,
         20.8,
-        9.199999999999974,
-        10.9,
+        9.2,
+        10.600000000000001,
         35.9,
         10.4
       ],
-      "removed_mm3": 22.627412672772437,
-      "change": "Custom PCB edge x<=10.9; rear/east notch x>8.6,y>28.8; original mounting and terminal holes retained"
+      "removed_mm3": 34.39002766656972,
+      "change": "C13 custom PCB: x>8.6 retained only insideR2.1 land centered(8.5,26.1);1.0mm edge material aroundR1.1 mounting hole. Original mounting and terminal centers retained; PCB thickness unchanged"
     },
     {
       "name": "ENCODER_EC10E_HOUSING",
