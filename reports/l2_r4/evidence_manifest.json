@@ -1839,5 +1839,42 @@
       "cad/l2_r4/diagnostic_checks.py": "85b8c9f0d8bb3d5332c2517dda083d3cb4196d9be777b70c369a3159a806ed1e",
       "cad/l2_r4/side_module.py": "c2b86d7c306131bb1d07e5c13ea8dda37d112a72f704f67f77b251fc38b3c365"
     }
+  },
+  "reports/l2_r4/D7_exterior_containment.json": {
+    "script": "cad/l2_r4/exterior_audit.py",
+    "source_commit": "6389ce35f792da486d4fe505cf58899990ed5871",
+    "returncode": 0,
+    "report_sha256": "9f0d313f762beb9e9bb0366e7864609e012528618eacdcb271f9db88dc3207d7",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/LEFT_KEY.step": "2b66a0d6f6673ec5ac337dcb63366b1c165122e199ca5497153ab9667cbb4f43",
+      "models/L2_r4/parts/RIGHT_KEY.step": "57791da2e062cca8e799d912828827fbb9a7968444b1ed38037aa9acaecae071",
+      "models/L2_r4/parts/SF_RETAINER.step": "fe5d9c684cb607b7a3e40f1886cb243b87c9fae1174ef54b78986b8fe34b3213",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.step": "5c4ec2bba2ede9068ca19b0793750c20a1e2ac6bd24b55aea773279d689c6bd2",
+      "models/L2_r4/parts/SIDE_REAR_KEY.step": "16520bda196aae2bd440d4eff00e84bba614c9b9b851a08fd8dbd9cf5b36efec",
+      "models/L2_r4/parts/SR_RETAINER.step": "c52152888ef9bf3e8bddb7b6f6605a34a2fc6046057a467329310a02275ebb71",
+      "models/L2_r4/parts/WHEEL.step": "efec7b9b652ab89778cad7141f762d4eb55fe694be9bf9e5ef355baad0da1c83",
+      "models/L2_r4/parts/WHEEL_CARRIER.step": "045fc630bfd17ba715737f867a4322a093abe6adc03570f3b2e537ab06511150",
+      "models/L2_r4/parts/BODY.stl": "e48306b2c3fdb1b28acb96c8880ea8f97e58f1a8a113684f1c3c60d0b38f3689",
+      "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
+      "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
+      "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "e341dfa4127ab3c2425f1096bbba7c09ea47e1917f03d3abf499a9615f7ab71a",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "6d5304f64f777e887607427eec8ca3ca5036f47cab04a9c02a22912c25b6db5f",
+      "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
+      "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
+      "models/L2_r4/parts/WHEEL_CARRIER.stl": "394a76826296bbd1148b194151179a9b31d8a130b644fb60ab2224ded27caba8",
+      "cad/rebuild_r2/parameters.json": "1b80721457bb4f2b11f7021d3e2d98ef9f6068510906099e9b0e38f2f33141f0",
+      "reports/rebuild_r3_2/design_metadata.json": "2147fc0ea5a1bd32ba66296badddf0506ef61e67a56a9209c67feba8570206db",
+      "reports/l2_r4/assembly_inventory.json": "fe6a76b8fee23562274e941ce78444f87220c71aaf37d7066a4bd4abf9f3b4b7",
+      "models/L2_r4/reference/SF_VERTICAL_PIN.step": "e52b7d4cf2af03d93aebaf0cc09fb80bd4671c163e42631a6fc3f3416de79970",
+      "models/L2_r4/reference/SR_VERTICAL_PIN.step": "4a0e14da94828b3cbeca8b3cae428e6f0d0d9da6146d82d652ab81c3feb20ebb"
+    },
+    "verifier_source": {
+      "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
+      "cad/l2_r4/exterior_audit.py": "f8e25655fab6425d8e299a694e3a9270fe09252dac470ba4fd845d542ecdc19f",
+      "cad/l2_r4/side_module.py": "c2b86d7c306131bb1d07e5c13ea8dda37d112a72f704f67f77b251fc38b3c365",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434"
+    }
   }
 }
