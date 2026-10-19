@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "candidate_10_pad_backing_crescent",
   "source_commit": "e58c5d38334a5520ffe4a58d6e30514474bfdcea",
   "steps": [
