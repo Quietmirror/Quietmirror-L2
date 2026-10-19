@@ -114,4 +114,3 @@ def main(selected_index=None,report_name='six_window_samples.json'):
         print('WINDOW',name,r['boundary_raw_pass'],r['full_prism_raw_pass'],r['roof_band_raw_pass'],r['full_prism_new_invasions'],flush=True)
 
 if __name__=='__main__':main()
-
