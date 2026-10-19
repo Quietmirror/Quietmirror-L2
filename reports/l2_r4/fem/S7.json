@@ -69,6 +69,14 @@
       },
       "equilibrium_pass": true,
       "passed": true
+    },
+    {
+      "part": "SF_RETAINER",
+      "size_mm": 2.0,
+      "case": "SF_RETAINER_preload_and_switch",
+      "global_p95_MPa": 1.956762482302276,
+      "equilibrium_pass": true,
+      "passed": true
     }
   ]
 }
