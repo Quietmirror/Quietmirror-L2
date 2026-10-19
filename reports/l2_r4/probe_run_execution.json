@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "C10_probe_run",
+  "source_commit": "31aca18a12293d551eee87222374117359dd7c00",
+  "steps": [
+    {
+      "script": "cad/l2_r4/motion_endpoint_probe.py",
+      "returncode": 0,
+      "seconds": 1055.71,
+      "available_memory_before_GB": 15.691599872,
+      "log_tail": "G5_RAW LEFT_KEY -0.5 overlaps []\nG5_RAW LEFT_KEY 2.8 overlaps []\nG5_RAW LEFT_KEY 3.1 overlaps []\nG5_RAW RIGHT_KEY -0.5 overlaps []\nG5_RAW RIGHT_KEY 2.8 overlaps []\nG5_RAW RIGHT_KEY 3.1 overlaps []\nG5_RAW WHEEL_CARRIER -4.4 overlaps [('ENCODER_ADAPTER_PCB_EST', 'LEFT_KEY_M2_SWITCH_2_BOLT', 0.00952)]\nG5_RAW WHEEL_CARRIER 4.1 overlaps []\nG5_RAW WHEEL_CARRIER 4.4 overlaps [('ENCODER_ADAPTER_PCB_EST', 'BODY', 0.02827)]\n"
+    }
+  ]
+}
