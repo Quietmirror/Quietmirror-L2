@@ -1,0 +1,19 @@
+{
+  "status": "RUNNING",
+  "preload_assumption_N": 20,
+  "rows": [
+    {
+      "part": "BODY",
+      "size_mm": 2.4,
+      "case": "SF_stop",
+      "global_p95_MPa": 0.6738916892700405,
+      "side_frame_region": {
+        "p95_MPa": 0.9174786023528267,
+        "maximum_MPa": 4.483864374756858,
+        "sampled_volume_mm3": 1331.6078708030889
+      },
+      "equilibrium_pass": true,
+      "passed": true
+    }
+  ]
+}
