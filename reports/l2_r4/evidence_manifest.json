@@ -1775,5 +1775,25 @@
       "cad/l2_r4/retainer_clearance_finish.py": "33fd551f50d19385c21172cfaf9846ac399fb14cf2bc2eb6a019c66f36e59b63",
       "cad/l2_r4/side_module.py": "8a31192fbc207f5e33b5243488944e0c7819b01fa05ff331da1cf17bb5cb1416"
     }
+  },
+  "reports/l2_r4/SF_route_planning.json": {
+    "script": "cad/l2_r4/plan_sf_route.py",
+    "source_commit": "20b9d6b29922f4e4bfa9c97455f8ed4435b9571a",
+    "returncode": 0,
+    "report_sha256": "40be1c07e83287c1d7276628267eb43e053e85bb4d3a86cdd35c9bfb0ec6bfe3",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/SF_RETAINER.step": "ff5d9f3dffdf97b791c6a4307dbf9a9703c34d7e8833992689d79ab5be982cd9",
+      "models/L2_r4/parts/SR_RETAINER.step": "97a6a961b563a2592e8103c04815e8df7a3ae10fb408b101118423d0758e2c6f",
+      "models/L2_r4/reference/SF_D2F_01F.step": "6b7f5decdda8ac2f9c494c38df8844b34ae5699a70e8403023a88e23d9af41bf",
+      "models/L2_r4/reference/SR_D2F_01F.step": "f27ad62cdf448b96c6f8f1f7a936b7d50c5535ab5bc6c3e73b8510be975782d5",
+      "cad/l2_r4_author/guided_routes.json": "ab30545a16232ef67399f4dce40c681384ba421169feee1d2b74eb11a7627735",
+      "cad/l2_r4_author/loose_parts.json": "536f11708c9a80e5496fcbb40f81508c6cde774bdef8492c63913ae11643f30d"
+    },
+    "verifier_source": {
+      "cad/l2_r4/assembly_paths.py": "c38241db571a3e0bd4c93e048ca0740cf7d874a0cd072f8b2a2b87412e2ebad9",
+      "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
+      "cad/l2_r4/plan_sf_route.py": "f9bf0336bf5fe7f59e44c20fe9aafb90c5a7f5978ecfc326796810f3f7a232b6"
+    }
   }
 }
