@@ -121,11 +121,18 @@ def key(outer,k,offset=.2):
     # The1.85mm journal preserves diameter/wall and both fixed pin supports;
     # its top now clears the fixed outward-stop riser by0.35mm.
     y=k['hinge_y'];hx=k['hinge_x'];hinge=cyl(1.25,JOURNAL_TOP-16.4,(hx,y,16.4))
-    web=box(hx,33,y-.55,y+.55,15.5,19.5).intersect(surface).intersect(mask)
+    # Keep the hinge web behind the rounded finger skin. Extending the web
+    # to the unfilleted outer surface split the rear corner into an actual
+    # edge/face self-interference at Y70.25 (BOPAlgo_Check evidence).
+    web=box(hx,33,y-.55,y+.55,15.5,19.5).intersect(outer.translate((offset-.4,0,0))).intersect(mask)
     ear=box(hx-EAR_RADIUS,hx,y-.4,y+.4,18.6,EAR_TOP)
     # Inboard barrel-to-arm root stays within the R1.55 journal clearance.
     bridge=box(hx-1.3,hx-.7,y-.4,y+.4,BRIDGE_BOTTOM,19.0).intersect(cyl(1.25,19.-BRIDGE_BOTTOM,(hx,y,BRIDGE_BOTTOM)))
-    rod=cyl(ROD_RADIUS,34-k['rod_end']-.40,(k['rod_end']+.40,k['rod_y'],16.6),(1,0,0)).intersect(surface)
+    # Join the rod inside the crown backing sphere; its offset otherwise
+    # leaves a crescent protruding into the PET layer. Direct construction
+    # avoids the microscopic residual edge left by a later boolean trim.
+    rod_start=PAD_HEIGHT-.02
+    rod=cyl(ROD_RADIUS,34-k['rod_end']-rod_start,(k['rod_end']+rod_start,k['rod_y'],16.6),(1,0,0)).intersect(surface)
     theta=math.radians(k['angle']);yc=k['stop_y'][1] if theta>0 else k['stop_y'][0]
     stop_x=hx+(k['stop_x']-hx+(yc-y)*math.sin(theta))/math.cos(theta)
     stop=box(stop_x,34,*k['stop_y'],15.9,16.4).intersect(surface)
