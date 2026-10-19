@@ -1,0 +1,643 @@
+{
+ "carrier_solids": 1,
+ "carrier_valid": true,
+ "carrier_volume_mm3": 681.554,
+ "blocks_on_ear_bearing_mm2": null,
+ "context_unchanged_R32_BODY_overlap_mm3": 63.637,
+ "context_pcb_R32_overlap_mm3": 5.106,
+ "checks": [
+  {
+   "a": "carrier",
+   "b": "side_wall(L2 openings cut)",
+   "gap_mm": 0.5387,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "carrier",
+   "b": "main_outer_hinge",
+   "gap_mm": 0.5081,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "carrier",
+   "b": "rear_foot_strut",
+   "gap_mm": 0.6239,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "carrier",
+   "b": "sensor_tab",
+   "gap_mm": 1.4765,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "carrier",
+   "b": "LEFT_KEY_swept(-0.5..3.1deg)",
+   "gap_mm": 0.6501,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "carrier",
+   "b": "sensor_board",
+   "gap_mm": 3.2,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "carrier",
+   "b": "paw3950",
+   "gap_mm": 12.2,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "carrier",
+   "b": "lens",
+   "gap_mm": 10.4561,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "carrier",
+   "b": "rf_mcu_board",
+   "gap_mm": 3.8833,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "carrier",
+   "b": "battery_service",
+   "gap_mm": 23.7,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "carrier",
+   "b": "antenna_keepout",
+   "gap_mm": 11.6914,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SF_switch",
+   "b": "side_wall(L2 openings cut)",
+   "gap_mm": 0.8072,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SF_switch",
+   "b": "main_outer_hinge",
+   "gap_mm": 0.5,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SF_switch",
+   "b": "rear_foot_strut",
+   "gap_mm": 7.8686,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SF_switch",
+   "b": "sensor_tab",
+   "gap_mm": 3.1321,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SF_switch",
+   "b": "LEFT_KEY_swept(-0.5..3.1deg)",
+   "gap_mm": 0.7001,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SF_switch",
+   "b": "sensor_board",
+   "gap_mm": 5.981,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SF_switch",
+   "b": "paw3950",
+   "gap_mm": 16.2565,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SF_switch",
+   "b": "lens",
+   "gap_mm": 13.371,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SF_switch",
+   "b": "rf_mcu_board",
+   "gap_mm": 5.5111,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SF_switch",
+   "b": "battery_service",
+   "gap_mm": 26.0,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SF_switch",
+   "b": "antenna_keepout",
+   "gap_mm": 13.1671,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_switch",
+   "b": "side_wall(L2 openings cut)",
+   "gap_mm": 1.1668,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_switch",
+   "b": "main_outer_hinge",
+   "gap_mm": 12.8,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_switch",
+   "b": "rear_foot_strut",
+   "gap_mm": 3.3006,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_switch",
+   "b": "sensor_tab",
+   "gap_mm": 3.6139,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_switch",
+   "b": "LEFT_KEY_swept(-0.5..3.1deg)",
+   "gap_mm": 14.9001,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_switch",
+   "b": "sensor_board",
+   "gap_mm": 6.0,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_switch",
+   "b": "paw3950",
+   "gap_mm": 15.0,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_switch",
+   "b": "lens",
+   "gap_mm": 13.1381,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_switch",
+   "b": "rf_mcu_board",
+   "gap_mm": 6.0,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_switch",
+   "b": "battery_service",
+   "gap_mm": 26.5,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_switch",
+   "b": "antenna_keepout",
+   "gap_mm": 13.3417,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SIDE_IO_PCB",
+   "b": "side_wall(L2 openings cut)",
+   "gap_mm": 4.8673,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SIDE_IO_PCB",
+   "b": "main_outer_hinge",
+   "gap_mm": 9.3,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SIDE_IO_PCB",
+   "b": "rear_foot_strut",
+   "gap_mm": 8.7623,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SIDE_IO_PCB",
+   "b": "sensor_tab",
+   "gap_mm": 0.5,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SIDE_IO_PCB",
+   "b": "LEFT_KEY_swept(-0.5..3.1deg)",
+   "gap_mm": 0.8501,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SIDE_IO_PCB",
+   "b": "sensor_board",
+   "gap_mm": 2.2,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SIDE_IO_PCB",
+   "b": "paw3950",
+   "gap_mm": 11.2,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SIDE_IO_PCB",
+   "b": "lens",
+   "gap_mm": 9.3215,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SIDE_IO_PCB",
+   "b": "rf_mcu_board",
+   "gap_mm": 2.2,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SIDE_IO_PCB",
+   "b": "battery_service",
+   "gap_mm": 22.7,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SIDE_IO_PCB",
+   "b": "antenna_keepout",
+   "gap_mm": 9.9161,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "front_block",
+   "b": "front_ear_r3",
+   "gap_mm": 0.0,
+   "overlap_mm3": 0.0,
+   "need_mm": 0,
+   "kind": "contact",
+   "pass_": true
+  },
+  {
+   "a": "rear_block",
+   "b": "rear_ear_r3",
+   "gap_mm": 0.0,
+   "overlap_mm3": 0.0,
+   "need_mm": 0,
+   "kind": "contact",
+   "pass_": true
+  },
+  {
+   "a": "SF_switch",
+   "b": "SF_stop_post_and_divider",
+   "gap_mm": 0.0,
+   "overlap_mm3": 0.0,
+   "need_mm": 0,
+   "kind": "contact",
+   "pass_": true
+  },
+  {
+   "a": "SR_switch",
+   "b": "carrier",
+   "gap_mm": 0.0,
+   "overlap_mm3": 0.0,
+   "need_mm": 0,
+   "kind": "contact",
+   "pass_": true
+  },
+  {
+   "a": "SIDE_IO_PCB",
+   "b": "carrier",
+   "gap_mm": 0.0,
+   "overlap_mm3": 0.0,
+   "need_mm": 0,
+   "kind": "contact",
+   "pass_": true
+  },
+  {
+   "a": "SF_stop_post",
+   "b": "SF_switch",
+   "gap_mm": 0.5,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_stop_post",
+   "b": "SR_switch",
+   "gap_mm": 0.5,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_stop_post",
+   "b": "SF_SR_partition_ring",
+   "gap_mm": 1.3,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_switch",
+   "b": "SR_back_support(-X face)",
+   "gap_mm": 0.0,
+   "overlap_mm3": 0.0,
+   "need_mm": 0,
+   "kind": "contact",
+   "pass_": true
+  },
+  {
+   "a": "SF_tab_web_rest",
+   "b": "partition_end_ring",
+   "gap_mm": 0.3,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SF_tab_swept",
+   "b": "carrier",
+   "gap_mm": 0.9944,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SF_tab_swept",
+   "b": "SF_switch",
+   "gap_mm": 1.8735,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SF_tab_swept",
+   "b": "SR_switch",
+   "gap_mm": 0.8632,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SF_tab_rest",
+   "b": "partition_end_ring",
+   "gap_mm": 0.0,
+   "overlap_mm3": 0.0,
+   "need_mm": 0,
+   "kind": "contact",
+   "pass_": true
+  },
+  {
+   "a": "SF_tab_swept(>0)",
+   "b": "partition_end_ring",
+   "gap_mm": 0.226,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.05,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_tab_web_rest",
+   "b": "partition_end_ring",
+   "gap_mm": 0.3,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_tab_swept",
+   "b": "carrier",
+   "gap_mm": 0.4689,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_tab_swept",
+   "b": "SF_switch",
+   "gap_mm": 3.2119,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_tab_swept",
+   "b": "SR_switch",
+   "gap_mm": 0.7953,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SR_tab_rest",
+   "b": "partition_end_ring",
+   "gap_mm": 0.0,
+   "overlap_mm3": 0.0,
+   "need_mm": 0,
+   "kind": "contact",
+   "pass_": true
+  },
+  {
+   "a": "SR_tab_swept(>0)",
+   "b": "partition_end_ring",
+   "gap_mm": 0.1564,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.05,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "SF_tab",
+   "b": "SR_tab",
+   "gap_mm": 0.4717,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "PCB_seat_1",
+   "b": "terminal_holes",
+   "gap_mm": 0.9241,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "PCB_seat_2",
+   "b": "terminal_holes",
+   "gap_mm": 1.2532,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "PCB_seat_3",
+   "b": "terminal_holes",
+   "gap_mm": 0.8368,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "kind": "clearance",
+   "pass_": true
+  },
+  {
+   "a": "terminal_holes(d1.2, edge margin 0.5)",
+   "b": "inside SIDE_IO_PCB outline",
+   "gap_mm": null,
+   "overlap_mm3": null,
+   "need_mm": 0.5,
+   "kind": "containment",
+   "pass_": true
+  }
+ ],
+ "all_clearances_pass": true,
+ "front_bearing_mm2": 12.999,
+ "rear_bearing_mm2": 9.387
+}

@@ -1,0 +1,44 @@
+name: L2-r4 isolated CAD and FEM checks
+on:
+  push:
+    branches: [l2-r4-build]
+    paths: ['cad/l2_r4/**', '.github/workflows/l2-r4-build.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: l2-r4-build
+  cancel-in-progress: false
+jobs:
+  execute:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 330
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUTF8: '1'
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      CCX_NPROC_RESULTS: '1'
+      CCX_NPROC_STIFFNESS: '1'
+      NUMBER_OF_CPUS: '1'
+    steps:
+      - name: Read exact work-branch commit
+        run: |
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+      - name: Prepare isolated toolchain
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq calculix-ccx libglu1-mesa libgl1 fonts-noto-cjk xvfb
+          python3 -m venv _support/venv
+          _support/venv/bin/pip install --disable-pip-version-check cadquery==2.8.0 gmsh==4.15.2 trimesh scipy pillow psutil shapely matplotlib rtree
+          free -h
+          ccx -v
+      - name: Run actual candidate work serially
+        run: _support/venv/bin/python -u cad/l2_r4/ci_run.py
+      - name: Preserve candidate results and errors without releasing
+        if: always()
+        run: python3 cad/l2_r4/ci_checkpoint.py

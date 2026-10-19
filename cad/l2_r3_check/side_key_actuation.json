@@ -1,0 +1,61 @@
+{
+ "sf": {
+  "pushrod_length_nominal": 4.389,
+  "key_inner_x": 30.359,
+  "pushrod_end_rest_x": 25.97,
+  "hinge": [
+   29.0,
+   45.0
+  ],
+  "arm": 5.25,
+  "dx_pivot_to_rod": -3.03,
+  "stop_angle_deg": 6.796,
+  "y_slide_at_stop": -0.395,
+  "trigger_angle_worst_deg": 5.625,
+  "far_end_travel_at_stop": 1.337,
+  "plunger_drive_at_stop_tuned": 0.6,
+  "post_travel_after_trigger_worst": 0.1,
+  "force_N": {
+   "at_pushrod": 0.74,
+   "quarter_from_pivot": 1.284,
+   "face_centre": 0.74,
+   "far_end": 0.344
+  },
+  "hinge_reaction_N": 1.48,
+  "z_ecc_moment_Nmm": 0.666
+ },
+ "sr": {
+  "pushrod_length_nominal": 4.552,
+  "key_inner_x": 31.022,
+  "pushrod_end_rest_x": 26.47,
+  "hinge": [
+   29.0,
+   70.0
+  ],
+  "arm": 5.55,
+  "dx_pivot_to_rod": -2.53,
+  "stop_angle_deg": 6.368,
+  "y_slide_at_stop": 0.315,
+  "trigger_angle_worst_deg": 5.28,
+  "far_end_travel_at_stop": 1.32,
+  "plunger_drive_at_stop_tuned": 0.6,
+  "post_travel_after_trigger_worst": 0.1,
+  "force_N": {
+   "at_pushrod": 0.74,
+   "quarter_from_pivot": 1.294,
+   "face_centre": 0.74,
+   "far_end": 0.345
+  },
+  "hinge_reaction_N": 1.48,
+  "z_ecc_moment_Nmm": 0.666
+ },
+ "tolerance": {
+  "rss_mm": 0.35,
+  "untuned_gap_range": [
+   -0.0,
+   0.7
+  ],
+  "tuning": "PET adhesive dots 0.05/0.10 on the pushrod end (add) or sand <=0.10 (remove); target rest gap 0.00..0.03",
+  "r3_untuned_verdict": "r3 (gap 0.05, no tuning): plunger drive at stop 0.55 +- 0.36 -> 0.19..0.91: some units never trigger (<0.5), some exceed PT+OT"
+ }
+}

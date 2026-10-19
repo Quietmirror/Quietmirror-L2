@@ -1,0 +1,19 @@
+"""Serial candidate execution; publish only work-branch checkpoints, no Release."""
+from pathlib import Path
+import json,os,subprocess,sys,time,traceback
+import psutil
+ROOT=Path(__file__).resolve().parents[2];RP=ROOT/'reports/l2_r4';WORK=ROOT/'_support/work/l2_r4'
+def main():
+    RP.mkdir(parents=True,exist_ok=True);WORK.mkdir(parents=True,exist_ok=True)
+    config=json.loads((ROOT/'cad/l2_r4/RUN.json').read_text());report=dict(status='RUNNING',phase=config['phase'],source_commit=os.getenv('GITHUB_SHA'),steps=[])
+    for script in config['scripts']:
+        start=time.time();log=WORK/(Path(script).stem+'.log');mem=psutil.virtual_memory()
+        print('START',script,'available_GB',round(mem.available/1e9,2),flush=True)
+        with log.open('w') as f:
+            p=subprocess.run([sys.executable,'-u',str(ROOT/script)],cwd=ROOT,stdout=f,stderr=subprocess.STDOUT)
+        tail=log.read_text(errors='replace')[-6000:];print(tail,flush=True)
+        report['steps'].append(dict(script=script,returncode=p.returncode,seconds=round(time.time()-start,2),available_memory_before_GB=mem.available/1e9,log_tail=tail))
+        report['status']='FAILED' if p.returncode else 'RUNNING';(RP/'execution.json').write_text(json.dumps(report,indent=2))
+        if p.returncode:return p.returncode
+    report['status']='PHASE_COMPLETED';(RP/'execution.json').write_text(json.dumps(report,indent=2));return 0
+if __name__=='__main__':sys.exit(main())

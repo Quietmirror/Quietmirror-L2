@@ -1,0 +1,319 @@
+{
+  "main": "1ac9de778af0e704daacded23a4eaf46aed9949a",
+  "author_commit": "f637118455159515a200e6e0f35c0eea1c7d1633",
+  "work_branch": "l2-r4-build",
+  "author_files": [
+    {
+      "path": "cad/l2_fem_author/analyze_fem.py",
+      "bytes": 2534,
+      "sha": "17653a74d45d1e532fe1d595ca5daa231b879cf4"
+    },
+    {
+      "path": "cad/l2_fem_author/bench.py",
+      "bytes": 1988,
+      "sha": "d515e8e6434477c37147f41f83eefa3ffa5e7961"
+    },
+    {
+      "path": "cad/l2_fem_author/build_v4.py",
+      "bytes": 4772,
+      "sha": "d950e90da8d8de6fa743a63292fefa9ded77e82c"
+    },
+    {
+      "path": "cad/l2_fem_author/build_variants.py",
+      "bytes": 7305,
+      "sha": "36b2ee33ab880175c1bb74c2077661da74d02a8e"
+    },
+    {
+      "path": "cad/l2_fem_author/collect_r4_results.py",
+      "bytes": 2179,
+      "sha": "8aaa63fcbca48ca61280b8280cecfa96ac13503e"
+    },
+    {
+      "path": "cad/l2_fem_author/diff_regions.py",
+      "bytes": 1590,
+      "sha": "45b1b1882202c9fae88d7678cd1dedd4eba5ce87"
+    },
+    {
+      "path": "cad/l2_fem_author/fem_analysis.json",
+      "bytes": 22597,
+      "sha": "13e10f82d1ecf7f4b78771a87232560bb691b255"
+    },
+    {
+      "path": "cad/l2_fem_author/fem_l2.py",
+      "bytes": 1299,
+      "sha": "7fbfb2f3f8fffa1cd3e5a0f9ec3a2b02c6f63c48"
+    },
+    {
+      "path": "cad/l2_fem_author/fem_r4_results.json",
+      "bytes": 20140,
+      "sha": "196ee83b0ac7e0c6bfcaf16fb4fd488075430686"
+    },
+    {
+      "path": "cad/l2_fem_author/fem_summary.json",
+      "bytes": 37191,
+      "sha": "7a2000383493f10f7cc284c898caa826a20a626c"
+    },
+    {
+      "path": "cad/l2_fem_author/fem_variants.py",
+      "bytes": 10318,
+      "sha": "d9c31fa7ff8e134d30b7ef7488d8a1290331c1ee"
+    },
+    {
+      "path": "cad/l2_fem_author/l2_diag_variant.py",
+      "bytes": 679,
+      "sha": "9c508d6402e2ce7c12b04cee8dbe15f2e4423521"
+    },
+    {
+      "path": "cad/l2_fem_author/l2_frame_variant.py",
+      "bytes": 2318,
+      "sha": "a9406b7770eb4078a05953fc216f2983b44938ca"
+    },
+    {
+      "path": "cad/l2_fem_author/l2_reinforce_variants.py",
+      "bytes": 1744,
+      "sha": "d4c736300c51b77ca8f4b1e3db6b9e112b62154b"
+    },
+    {
+      "path": "cad/l2_fem_author/l2_v_variants.py",
+      "bytes": 1464,
+      "sha": "a9787fdc941104d45d2d02588439b505fb1961be"
+    },
+    {
+      "path": "cad/l2_fem_author/partial_ratios.py",
+      "bytes": 754,
+      "sha": "073723885961cfd44777a2025eb0ab83ebd2273c"
+    },
+    {
+      "path": "cad/l2_fem_author/r4_frame.json",
+      "bytes": 1117,
+      "sha": "bed9a5ad2c8bd62e907fdbbeb5e70fb32c2526a3"
+    },
+    {
+      "path": "cad/l2_fem_author/variants/R4_SIDE_FRAME_ONLY.step",
+      "bytes": 1758185,
+      "sha": "1dc166f559e102b213fa989900fd9b1d1ac44c58"
+    },
+    {
+      "path": "cad/l2_r3_check/R32_OLD_SIDE_SEAT_RECONSTRUCTED.step",
+      "bytes": 1489175,
+      "sha": "68645561d2f81e364a6b6bc9657c16f4ca8cc70b"
+    },
+    {
+      "path": "cad/l2_r3_check/R3_SIDE_MODULE_LAYOUT.step",
+      "bytes": 343071,
+      "sha": "f052ed59abd94018b86f7615a79d05f599454188"
+    },
+    {
+      "path": "cad/l2_r3_check/R3_SIDE_SWITCH_CARRIER.step",
+      "bytes": 234549,
+      "sha": "74714416b088dc3b0680659e8f1662af64a4de41"
+    },
+    {
+      "path": "cad/l2_r3_check/locate_fail.py",
+      "bytes": 1538,
+      "sha": "8f4725116e6015e69268ea840cee34435a0c8788"
+    },
+    {
+      "path": "cad/l2_r3_check/obstacles.json",
+      "bytes": 18551,
+      "sha": "98666d84e47cb8cc899099042a563da6dcbddf8c"
+    },
+    {
+      "path": "cad/l2_r3_check/old_seat_check.json",
+      "bytes": 1126,
+      "sha": "fefdedfe28182e56b33a4e1c6b0ddfc77a0d2b9e"
+    },
+    {
+      "path": "cad/l2_r3_check/old_seat_check.py",
+      "bytes": 3359,
+      "sha": "a926b1294b1cecb8f118346616ccba6e7cf084f0"
+    },
+    {
+      "path": "cad/l2_r3_check/probe_obstacles.py",
+      "bytes": 1637,
+      "sha": "d0207cffd71bf452e655c57e81de3bb6cef184d6"
+    },
+    {
+      "path": "cad/l2_r3_check/probe_wall_key.py",
+      "bytes": 1963,
+      "sha": "b6d2c6c269769a7b9465cf1f6b445322e1e89ca2"
+    },
+    {
+      "path": "cad/l2_r3_check/r3_carrier_check.py",
+      "bytes": 9785,
+      "sha": "eb298fb1dc5a9d75a22939a8f357c4dae4c8cd22"
+    },
+    {
+      "path": "cad/l2_r3_check/r3_check.json",
+      "bytes": 12154,
+      "sha": "4dd37b7c32b239431b0caa765ecd42f849c993e1"
+    },
+    {
+      "path": "cad/l2_r3_check/r3_context_overlaps.json",
+      "bytes": 975,
+      "sha": "b1b0164f734dba883f3820d8688228d81487d496"
+    },
+    {
+      "path": "cad/l2_r3_check/r3_parameters.json",
+      "bytes": 3280,
+      "sha": "f2a0477879d08e7b2f364d9b888e73a75715b626"
+    },
+    {
+      "path": "cad/l2_r3_check/r3_render.py",
+      "bytes": 2728,
+      "sha": "51517b08ec1e9650e622f8702f25c083a208f711"
+    },
+    {
+      "path": "cad/l2_r3_check/side_key_actuation.json",
+      "bytes": 1544,
+      "sha": "ca510d50dd09831d1d17b589a4c69b7f443ddc0a"
+    },
+    {
+      "path": "cad/l2_r3_check/side_key_actuation.py",
+      "bytes": 3778,
+      "sha": "e7ff4e51360b8f9e3ac1cc2e33c1e81e36763d62"
+    },
+    {
+      "path": "cad/l2_r3_check/views/R3_cut_right.png",
+      "bytes": 148252,
+      "sha": "5b435206cd704d130651d20808b894127ba67caa"
+    },
+    {
+      "path": "cad/l2_r3_check/views/R3_module_front.png",
+      "bytes": 18612,
+      "sha": "c13d9a6855cf1aa7c9abfc7f66e74c283b07a243"
+    },
+    {
+      "path": "cad/l2_r3_check/views/R3_module_iso.png",
+      "bytes": 50449,
+      "sha": "f816cc03d5fb491dcc79ac56a80b705fb2c8e099"
+    },
+    {
+      "path": "cad/l2_r3_check/views/R3_module_right.png",
+      "bytes": 19733,
+      "sha": "075db582c6ec7b8524fa00821a08c9a43853e52f"
+    },
+    {
+      "path": "cad/l2_r3_check/views/R3_module_top.png",
+      "bytes": 24057,
+      "sha": "745c6f4efe410dc852439844482aa1a22feeefdc"
+    },
+    {
+      "path": "cad/l2_r3_check/wall_x.json",
+      "bytes": 5885,
+      "sha": "da4f9e3a71ef3eeb6f2f3bb92f98b039193f096d"
+    },
+    {
+      "path": "cad/l2_r4_author/gap_locate.json",
+      "bytes": 1703,
+      "sha": "aafe4cd9c63a52366668dfb588aea550b5bbe945"
+    },
+    {
+      "path": "cad/l2_r4_author/gap_locate.py",
+      "bytes": 1454,
+      "sha": "45a2a802a847b432a7439f8c15bd7b8f685a0d7c"
+    },
+    {
+      "path": "cad/l2_r4_author/guided_paths.json",
+      "bytes": 547,
+      "sha": "279d16c8f6d3488c85e168df71893e12002f665e"
+    },
+    {
+      "path": "cad/l2_r4_author/guided_paths.py",
+      "bytes": 2945,
+      "sha": "88721c3120bb51483f74f0a0dd8996ab32a8fa4f"
+    },
+    {
+      "path": "cad/l2_r4_author/guided_routes.json",
+      "bytes": 3407,
+      "sha": "bf36a74aba3dc67761ab1be8f4a4335713eb376e"
+    },
+    {
+      "path": "cad/l2_r4_author/key_paths.json",
+      "bytes": 92,
+      "sha": "65e9870ff0dded1a04bebb7b285f3cba57c1848a"
+    },
+    {
+      "path": "cad/l2_r4_author/key_paths.py",
+      "bytes": 3302,
+      "sha": "fbe2b60b489a80ae252594d89f32f74381a8abb1"
+    },
+    {
+      "path": "cad/l2_r4_author/key_paths_exact.py",
+      "bytes": 2120,
+      "sha": "ee2d03446934c8da51b3ffb2dbf18f58b0213165"
+    },
+    {
+      "path": "cad/l2_r4_author/key_paths_exact_15.json",
+      "bytes": 4435,
+      "sha": "b5357b19e11c855cec658d98ca95e289a330bfa0"
+    },
+    {
+      "path": "cad/l2_r4_author/loose_parts.json",
+      "bytes": 617,
+      "sha": "0850c3e3aee6c7841b1cdf20cc23eb01bef3d597"
+    },
+    {
+      "path": "cad/l2_r4_author/mass_v2.py",
+      "bytes": 814,
+      "sha": "48eec629d7915f288ae8f7410afec56932bbf7b7"
+    },
+    {
+      "path": "cad/l2_r4_author/path_check.py",
+      "bytes": 6453,
+      "sha": "a6a46e2128621e0c89f2117feb045fea297790ba"
+    },
+    {
+      "path": "cad/l2_r4_author/side_key_stop_check.json",
+      "bytes": 1351,
+      "sha": "405a018065be87ef99264f7522ddc9914dc12531"
+    },
+    {
+      "path": "cad/l2_r4_author/side_key_stop_check.py",
+      "bytes": 1133,
+      "sha": "6ec9dd6bd5f9294b511a58e7446efda9f8069151"
+    },
+    {
+      "path": "cad/l2_r4_author/v2_interference.json",
+      "bytes": 6693,
+      "sha": "e9568204249d8646f1be91c461ec207fb74e0030"
+    },
+    {
+      "path": "cad/l2_r4_author/v2_interference.py",
+      "bytes": 4215,
+      "sha": "1a0289d71bb12b6a59fdc507eb73d7964e3d9d27"
+    },
+    {
+      "path": "specs/Quietmirror_L2_FINAL_Plan_2026-10-17.md",
+      "bytes": 42347,
+      "sha": "92e7896ba31e25289cc2230f5afd7753c0c4270b"
+    },
+    {
+      "path": "specs/Quietmirror_L2_r3_FINAL_Build_and_Release_2026-10-18.md",
+      "bytes": 26007,
+      "sha": "930edf924b6dd6df3ae9d2b6f59e0bc823306907"
+    },
+    {
+      "path": "specs/Quietmirror_L2_r4_CAD_Complete_2026-10-19.md",
+      "bytes": 17752,
+      "sha": "f1855a53924f35a8403e02fdff0103513857a82f"
+    },
+    {
+      "path": "specs/Quietmirror_L2_r4_EXECUTE_ALL_2026-10-19.md",
+      "bytes": 25320,
+      "sha": "ee1e87b77e1f3a33a923c05f6b1250f9ee430849"
+    },
+    {
+      "path": "specs/archive/Quietmirror_L2_FINAL_Plan_2026-10-17_r1.md",
+      "bytes": 27089,
+      "sha": "04d1659c92a617554d9aaecb6c970c1e94f4e573"
+    },
+    {
+      "path": "specs/archive/Quietmirror_L2_FINAL_Plan_2026-10-17_r2.md",
+      "bytes": 42347,
+      "sha": "92e7896ba31e25289cc2230f5afd7753c0c4270b"
+    }
+  ],
+  "attachment_identical_to_author": true,
+  "original_files_preserved": true
+}
