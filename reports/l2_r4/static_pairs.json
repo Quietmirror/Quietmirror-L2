@@ -76,12 +76,12 @@
     "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
     "nearest_points_mm": [
       [
-        27.3,
+        26.8,
         45.7,
         18.6
       ],
       [
-        27.3,
+        26.8,
         45.7,
         18.6
       ]
@@ -98,13 +98,13 @@
     "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
     "nearest_points_mm": [
       [
-        27.3,
+        26.8,
         69.3,
         18.6
       ],
       [
-        27.3,
-        69.3,
+        26.8,
+        69.29999999999998,
         18.6
       ]
     ]
@@ -134,7 +134,7 @@
   {
     "a": "BODY",
     "b": "WHEEL",
-    "gap_mm": 4.050289747125348,
+    "gap_mm": 4.050289747125206,
     "overlap_mm3": 0.0,
     "required_mm": 0.3,
     "intended_contact": false,
@@ -142,14 +142,14 @@
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
-        3.2591543651392416,
+        3.2591543651392243,
         36.9,
-        24.18514764150536
+        24.185147641505353
       ],
       [
         3.25,
-        33.400338937336,
-        22.14624210160195
+        33.40033893733601,
+        22.146242101601942
       ]
     ]
   },
@@ -222,7 +222,7 @@
   {
     "a": "LEFT_KEY",
     "b": "SIDE_FRONT_KEY",
-    "gap_mm": 4.842244417315226,
+    "gap_mm": 3.960666428641133,
     "overlap_mm3": 0.0,
     "required_mm": 0.3,
     "intended_contact": false,
@@ -231,12 +231,12 @@
     "nearest_points_mm": [
       [
         24.9,
-        40.999252717876274,
-        15.20283387280384
+        40.991196960573625,
+        15.225360816251374
       ],
       [
-        28.137484349961355,
-        44.395253210318806,
+        26.854194239018547,
+        44.229750067001554,
         16.4
       ]
     ]
@@ -354,7 +354,7 @@
   {
     "a": "RIGHT_KEY",
     "b": "SIDE_FRONT_KEY",
-    "gap_mm": 37.62039230928593,
+    "gap_mm": 36.357075654789696,
     "overlap_mm3": 0.0,
     "required_mm": 0.3,
     "intended_contact": false,
@@ -367,7 +367,7 @@
         24.119611670104
       ],
       [
-        26.7,
+        25.4,
         44.9,
         19.5
       ]
@@ -451,20 +451,20 @@
     "nearest_points_mm": [
       [
         -9.9,
-        25.225204450227782,
-        19.374846177737336
+        25.22520445022778,
+        19.374846177737332
       ],
       [
         -6.7,
         25.225204450227782,
-        19.374846177737336
+        19.374846177737332
       ]
     ]
   },
   {
     "a": "SF_RETAINER",
     "b": "SIDE_FRONT_KEY",
-    "gap_mm": 7.469999999999999,
+    "gap_mm": 6.899999999999999,
     "overlap_mm3": 0.0,
     "required_mm": 0.3,
     "intended_contact": false,
@@ -473,13 +473,13 @@
     "nearest_points_mm": [
       [
         18.5,
-        50.451786882403766,
-        16.600013470197222
+        45.7,
+        19.5
       ],
       [
-        25.97000000226737,
-        50.451730245785846,
-        16.600060682167452
+        25.4,
+        45.7,
+        19.5
       ]
     ]
   },
@@ -618,7 +618,7 @@
   {
     "a": "SIDE_FRONT_KEY",
     "b": "WHEEL",
-    "gap_mm": 23.928498073189747,
+    "gap_mm": 22.9750521226535,
     "overlap_mm3": 0.0,
     "required_mm": 0.3,
     "intended_contact": false,
@@ -626,7 +626,7 @@
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
-        26.7,
+        25.4,
         44.9,
         19.0
       ],
@@ -640,7 +640,7 @@
   {
     "a": "SIDE_FRONT_KEY",
     "b": "WHEEL_CARRIER",
-    "gap_mm": 19.94342621561875,
+    "gap_mm": 18.64949999374984,
     "overlap_mm3": 0.0,
     "required_mm": 0.3,
     "intended_contact": false,
@@ -648,21 +648,21 @@
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
-        26.7,
+        25.4,
         44.9,
         18.6
       ],
       [
-        6.844076792066803,
-        43.120459712496555,
-        18.038039909209438
+        6.84328358250935,
+        43.12825320637024,
+        18.04050101253797
       ]
     ]
   },
   {
     "a": "SIDE_REAR_KEY",
     "b": "SR_RETAINER",
-    "gap_mm": 7.469999999999999,
+    "gap_mm": 6.399999999999999,
     "overlap_mm3": 0.0,
     "required_mm": 0.3,
     "intended_contact": false,
@@ -670,14 +670,14 @@
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
-        26.47000000002786,
-        64.2882916334195,
-        16.60000591902713
+        25.4,
+        70.1,
+        19.5
       ],
       [
         19.0,
-        64.28829875693435,
-        16.60000438053635
+        70.1,
+        19.5
       ]
     ]
   },
