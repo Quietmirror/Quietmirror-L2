@@ -1,0 +1,17 @@
+[
+  {
+    "size_mm": 2.4,
+    "case": "palm_down_20N",
+    "stiffness_N_per_mm": 143.91200048260848,
+    "baseline_N_per_mm": 105.64,
+    "published_baseline_N_per_mm": 105.64,
+    "written_protocol_baseline_N_per_mm": 105.64,
+    "ratio": 1.3622870170636925,
+    "author_N_per_mm": 143.35,
+    "author_difference_fraction": 0.003920477730090521,
+    "equilibrium_pass": true,
+    "vm_p95_MPa": 1.2234952463124509,
+    "passed": true,
+    "author_difference_requires_investigation": false
+  }
+]
