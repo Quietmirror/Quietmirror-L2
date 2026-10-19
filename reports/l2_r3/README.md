@@ -1,0 +1,9 @@
+# L2-r3 检查数据说明
+
+release_summary.json 是最终门槛汇总；最终证据包括 solids、static_pairs、component_pairs、motion_samples、functional_motion、foot_planes、assembly_access、pin_access_precheck、side_actuation_housing_check、insertion_attempts、donor_placeholder_check、slice_summary、native_roundtrip 和 fem_status。
+
+revision1_diagnostics、revision2_diagnostics、pre_correction_overlap 和 mesh_seam_audit 记录已经修正的中间问题，不应拿其中的碰撞或开口网格数字描述最终产物。independent_precheck 使用原版环境核对方案，里面的旧 BODY 相交也不是最终几何结果。
+
+普通静态间隙包含明确标记的包围盒下界；它们只能证明超过某个阈值，不能冒充精确最小距离。motion_samples 与 functional_motion 记录有限姿态的实体求交，没有完成连续扫掠证明或运动最小间隙曲线认证。所有硬件仍为参考/估计包络。
+
+独立有限元输入、网格及求解日志留在本机 _support/work/fem_r3，只发布摘要及可重放脚本。求解失败、内存保护中止或缺失的作者数据不补造成已通过结果。材料估重、切片估重与实物称重是不同证据。

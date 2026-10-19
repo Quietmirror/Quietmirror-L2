@@ -1,0 +1,226 @@
+[
+  {
+    "part": "SIDE_FRONT_KEY",
+    "samples": [
+      {
+        "angle_deg": 0.0,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 0.33999999999999997,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 0.6799999999999999,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 1.02,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 1.3599999999999999,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 1.6999999999999997,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 2.04,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 2.38,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 2.7199999999999998,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 3.0599999999999996,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 3.3999999999999995,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 3.7399999999999998,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.08,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.42,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 4.76,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 5.1,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 5.4399999999999995,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": 5.779999999999999,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0022195679795922207
+      },
+      {
+        "angle_deg": 6.119999999999999,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.023004743772865672
+      },
+      {
+        "angle_deg": 6.459999999999999,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.06943158333827358
+      },
+      {
+        "angle_deg": 6.8,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.14116685758212594
+      }
+    ],
+    "shim_mm": 0.33,
+    "limits": "Housing rectangular envelope; plunger compression and compliant adhesive excluded; physical FP/OP/TTP unknown"
+  },
+  {
+    "part": "SIDE_REAR_KEY",
+    "samples": [
+      {
+        "angle_deg": 0.0,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -0.3185,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -0.637,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -0.9555,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -1.274,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -1.5925,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -1.911,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -2.2295,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -2.548,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -2.8665000000000003,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -3.185,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -3.5035,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -3.822,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -4.1405,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -4.459,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -4.7775,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -5.096,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0
+      },
+      {
+        "angle_deg": -5.4145,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0005515769734142261
+      },
+      {
+        "angle_deg": -5.7330000000000005,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.0157891297352075
+      },
+      {
+        "angle_deg": -6.0515,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.057328758112470984
+      },
+      {
+        "angle_deg": -6.37,
+        "key_housing_intersection_mm3": 0.0,
+        "shim_housing_intersection_mm3": 0.12595224575519615
+      }
+    ],
+    "shim_mm": 0.33,
+    "limits": "Housing rectangular envelope; plunger compression and compliant adhesive excluded; physical FP/OP/TTP unknown"
+  }
+]

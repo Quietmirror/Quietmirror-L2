@@ -1,0 +1,56 @@
+{
+  "parts": [
+    {
+      "name": "SIDE_FRONT_KEY_F2_TRIAL",
+      "bounds_mm": [
+        [
+          10.0,
+          10.0,
+          0.0
+        ],
+        [
+          16.494434356689453,
+          23.424999237060547,
+          4.399999618530273
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "name": "SIDE_REAR_KEY_F2_TRIAL",
+      "bounds_mm": [
+        [
+          24.494434356689453,
+          10.0,
+          0.0
+        ],
+        [
+          30.810123443603516,
+          23.974998474121094,
+          4.399999618530273
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "name": "SIDE_SWITCH_CARRIER",
+      "bounds_mm": [
+        [
+          38.810123443603516,
+          10.0,
+          0.0
+        ],
+        [
+          52.650123596191406,
+          39.39999771118164,
+          8.75
+        ]
+      ],
+      "watertight": true
+    }
+  ],
+  "status": "ERGONOMIC_TRIAL_NOT_MECHANISM_CERTIFIED",
+  "offset_x_mm": 0.3,
+  "extra_external_ridge": false,
+  "scope": "Two alternative caps plus shared carrier; use with the main BODY and actual pins. No claim of separate F2 clearance acceptance."
+}

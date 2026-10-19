@@ -1,0 +1,114 @@
+Loading MESA OpenGL library: D:\Quietmirror_L2\_support\tools\PrusaSlicer\PrusaSlicer-2.9.6\mesa\opengl32.dll
+MESA OpenGL library was loaded sucessfully
+[L2_r3_H_ALL_PARTS_SINGLE_PLATE.3mf]
+size_x = 66.095917
+size_y = 88.236000
+size_z = 25.563984
+min_x = -33.047958
+min_y = -44.118000
+min_z = -12.781992
+max_x = 33.047958
+max_y = 44.118000
+max_z = 12.781992
+number_of_facets = 372754
+manifold = yes
+number_of_parts =  1
+volume = 11688.918945
+[L2_r3_H_ALL_PARTS_SINGLE_PLATE.3mf]
+size_x = 22.699997
+size_y = 40.465019
+size_z = 15.519611
+min_x = -11.349998
+min_y = -20.232510
+min_z = -7.759806
+max_x = 11.349998
+max_y = 20.232510
+max_z = 7.759806
+number_of_facets = 5236
+manifold = yes
+number_of_parts =  1
+volume = 1718.276123
+[L2_r3_H_ALL_PARTS_SINGLE_PLATE.3mf]
+size_x = 22.699997
+size_y = 40.465019
+size_z = 15.519611
+min_x = -11.349998
+min_y = -20.232510
+min_z = -7.759806
+max_x = 11.349998
+max_y = 20.232510
+max_z = 7.759806
+number_of_facets = 5866
+manifold = yes
+number_of_parts =  1
+volume = 1718.066406
+[L2_r3_H_ALL_PARTS_SINGLE_PLATE.3mf]
+size_x = 6.394440
+size_y = 13.424999
+size_z = 4.400000
+min_x = -3.197220
+min_y = -6.712500
+min_z = -2.200000
+max_x = 3.197220
+max_y = 6.712500
+max_z = 2.200000
+number_of_facets = 28478
+manifold = yes
+number_of_parts =  1
+volume = 90.393486
+[L2_r3_H_ALL_PARTS_SINGLE_PLATE.3mf]
+size_x = 6.215683
+size_y = 13.974998
+size_z = 4.400000
+min_x = -3.107841
+min_y = -6.987499
+min_z = -2.200000
+max_x = 3.107841
+max_y = 6.987499
+max_z = 2.200000
+number_of_facets = 30242
+manifold = yes
+number_of_parts =  1
+volume = 96.042244
+[L2_r3_H_ALL_PARTS_SINGLE_PLATE.3mf]
+size_x = 13.840012
+size_y = 29.399998
+size_z = 8.750000
+min_x = -6.920006
+min_y = -14.699999
+min_z = -4.375000
+max_x = 6.920006
+max_y = 14.699999
+max_z = 4.375000
+number_of_facets = 2064
+manifold = yes
+number_of_parts =  1
+volume = 662.579102
+[L2_r3_H_ALL_PARTS_SINGLE_PLATE.3mf]
+size_x = 12.497192
+size_y = 12.498602
+size_z = 16.100000
+min_x = -6.248596
+min_y = -6.249301
+min_z = -8.050000
+max_x = 6.248596
+max_y = 6.249301
+max_z = 8.050000
+number_of_facets = 1520
+manifold = yes
+number_of_parts =  1
+volume = 562.858459
+[L2_r3_H_ALL_PARTS_SINGLE_PLATE.3mf]
+size_x = 17.950001
+size_y = 32.599510
+size_z = 11.399687
+min_x = -8.975000
+min_y = -16.299755
+min_z = -5.699843
+max_x = 8.975000
+max_y = 16.299755
+max_z = 5.699843
+number_of_facets = 10828
+manifold = yes
+number_of_parts =  1
+volume = 589.709351

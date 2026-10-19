@@ -1,0 +1,65 @@
+{
+  "G8_status": "3D_FEM_BLOCKED",
+  "summary": "\u5206\u79bb\u5f0f\u4f4e\u5185\u5b58\u6c42\u89e3\u672a\u5b8c\u6210\uff1aGuarded stage failed; see _support\\work\\fem_r3\\R32_2.4_curvature24\\iterative.log\uff1b\u5df2\u6709\u8f93\u5165\u548c\u65e5\u5fd7\u4fdd\u7559\uff0c\u4e0d\u8865\u9020\u7ed3\u679c\u3002",
+  "attempts": [
+    {
+      "command_name": "python.exe",
+      "args": [
+        "cad/l2_r3/fem_stage.py",
+        "prepare",
+        "--geometry",
+        "beam",
+        "--size",
+        "2.4"
+      ],
+      "log": "_support\\logs\\staged_beam_2.4_prepare.log",
+      "returncode": 0
+    },
+    {
+      "command_name": "ccx.exe",
+      "args": [
+        "-i",
+        "iterative"
+      ],
+      "log": "_support\\work\\fem_r3\\beam_2.4_curvature24\\iterative.log",
+      "returncode": 0
+    },
+    {
+      "command_name": "python.exe",
+      "args": [
+        "cad/l2_r3/fem_stage.py",
+        "parse",
+        "--geometry",
+        "beam",
+        "--size",
+        "2.4"
+      ],
+      "log": "_support\\logs\\staged_beam_2.4_parse.log",
+      "returncode": 0
+    },
+    {
+      "command_name": "python.exe",
+      "args": [
+        "cad/l2_r3/fem_stage.py",
+        "prepare",
+        "--geometry",
+        "R32",
+        "--size",
+        "2.4"
+      ],
+      "log": "_support\\logs\\staged_R32_2.4_prepare.log",
+      "returncode": 0
+    },
+    {
+      "command_name": "ccx.exe",
+      "args": [
+        "-i",
+        "iterative"
+      ],
+      "log": "_support\\work\\fem_r3\\R32_2.4_curvature24\\iterative.log",
+      "returncode": 4294967295
+    }
+  ],
+  "three_mesh_comparison_complete": false,
+  "stopped_by_agent": "After 3245 iterations residual 0.00168 vs limit 4.896e-9, stopped diagonal scaling to try incomplete Cholesky; not a memory failure or a converged result"
+}

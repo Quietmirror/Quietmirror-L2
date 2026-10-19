@@ -1,0 +1,42 @@
+{
+  "switch_max_operating_force_assumption_N": 0.74,
+  "source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-d2f.pdf",
+  "model": "F_touch = OF * |rod_y-hinge_y| / |touch_y-hinge_y|; no friction, compliance, stop contact or tolerance",
+  "results": [
+    {
+      "part": "SIDE_FRONT_KEY",
+      "positions": [
+        {
+          "y": 45.2,
+          "ideal_force_N": 19.424999999999724
+        },
+        {
+          "y": 50.25,
+          "ideal_force_N": 0.74
+        },
+        {
+          "y": 55.3,
+          "ideal_force_N": 0.3771844660194176
+        }
+      ]
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "positions": [
+        {
+          "y": 59.1,
+          "ideal_force_N": 0.3767889908256879
+        },
+        {
+          "y": 64.45,
+          "ideal_force_N": 0.74
+        },
+        {
+          "y": 69.8,
+          "ideal_force_N": 20.534999999999695
+        }
+      ]
+    }
+  ],
+  "physical_force": "UNVERIFIED"
+}

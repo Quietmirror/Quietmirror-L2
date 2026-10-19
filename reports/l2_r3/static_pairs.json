@@ -1,0 +1,282 @@
+[
+  {
+    "a": "BODY",
+    "b": "LEFT_KEY",
+    "gap_mm": 0.3000000000000007,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "exact_if_below_padding_else_lower_bound"
+  },
+  {
+    "a": "BODY",
+    "b": "RIGHT_KEY",
+    "gap_mm": 0.3000000000000007,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "exact_if_below_padding_else_lower_bound"
+  },
+  {
+    "a": "BODY",
+    "b": "SIDE_FRONT_KEY",
+    "gap_mm": 0.0,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": true,
+    "pass_check": true,
+    "distance_kind": "exact_if_below_padding_else_lower_bound"
+  },
+  {
+    "a": "BODY",
+    "b": "SIDE_REAR_KEY",
+    "gap_mm": 0.0,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": true,
+    "pass_check": true,
+    "distance_kind": "exact_if_below_padding_else_lower_bound"
+  },
+  {
+    "a": "BODY",
+    "b": "SIDE_SWITCH_CARRIER",
+    "gap_mm": 0.0,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": true,
+    "pass_check": true,
+    "distance_kind": "exact_if_below_padding_else_lower_bound"
+  },
+  {
+    "a": "BODY",
+    "b": "WHEEL",
+    "gap_mm": 0.65,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "lower_bound_by_AABB_exclusion"
+  },
+  {
+    "a": "BODY",
+    "b": "WHEEL_CARRIER",
+    "gap_mm": 0.25,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": false,
+    "distance_kind": "exact_if_below_padding_else_lower_bound"
+  },
+  {
+    "a": "LEFT_KEY",
+    "b": "RIGHT_KEY",
+    "gap_mm": 10.599999799787282,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "AABB_distance_lower_bound"
+  },
+  {
+    "a": "LEFT_KEY",
+    "b": "SIDE_FRONT_KEY",
+    "gap_mm": 2.5249998999999974,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "AABB_distance_lower_bound"
+  },
+  {
+    "a": "LEFT_KEY",
+    "b": "SIDE_REAR_KEY",
+    "gap_mm": 16.1999999,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "AABB_distance_lower_bound"
+  },
+  {
+    "a": "LEFT_KEY",
+    "b": "SIDE_SWITCH_CARRIER",
+    "gap_mm": 0.6499999999999986,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "AABB_distance_lower_bound"
+  },
+  {
+    "a": "LEFT_KEY",
+    "b": "WHEEL",
+    "gap_mm": 1.158966479558189,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "exact"
+  },
+  {
+    "a": "LEFT_KEY",
+    "b": "WHEEL_CARRIER",
+    "gap_mm": 3.000463302019518,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "exact"
+  },
+  {
+    "a": "RIGHT_KEY",
+    "b": "SIDE_FRONT_KEY",
+    "gap_mm": 31.37177900982027,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "AABB_distance_lower_bound"
+  },
+  {
+    "a": "RIGHT_KEY",
+    "b": "SIDE_REAR_KEY",
+    "gap_mm": 35.66192493971687,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "AABB_distance_lower_bound"
+  },
+  {
+    "a": "RIGHT_KEY",
+    "b": "SIDE_SWITCH_CARRIER",
+    "gap_mm": 21.50982323730253,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "AABB_distance_lower_bound"
+  },
+  {
+    "a": "RIGHT_KEY",
+    "b": "WHEEL",
+    "gap_mm": 2.6882779356952167,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "exact"
+  },
+  {
+    "a": "RIGHT_KEY",
+    "b": "WHEEL_CARRIER",
+    "gap_mm": 3.2,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "exact"
+  },
+  {
+    "a": "SIDE_FRONT_KEY",
+    "b": "SIDE_REAR_KEY",
+    "gap_mm": 0.471699056602829,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "exact"
+  },
+  {
+    "a": "SIDE_FRONT_KEY",
+    "b": "SIDE_SWITCH_CARRIER",
+    "gap_mm": 1.1216997441507435,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "exact"
+  },
+  {
+    "a": "SIDE_FRONT_KEY",
+    "b": "WHEEL",
+    "gap_mm": 19.542902115985736,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "AABB_distance_lower_bound"
+  },
+  {
+    "a": "SIDE_FRONT_KEY",
+    "b": "WHEEL_CARRIER",
+    "gap_mm": 14.87,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "AABB_distance_lower_bound"
+  },
+  {
+    "a": "SIDE_REAR_KEY",
+    "b": "SIDE_SWITCH_CARRIER",
+    "gap_mm": 0.7000000000000028,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "exact"
+  },
+  {
+    "a": "SIDE_REAR_KEY",
+    "b": "WHEEL",
+    "gap_mm": 29.052958461747057,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "AABB_distance_lower_bound"
+  },
+  {
+    "a": "SIDE_REAR_KEY",
+    "b": "WHEEL_CARRIER",
+    "gap_mm": 16.087243334393868,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "AABB_distance_lower_bound"
+  },
+  {
+    "a": "SIDE_SWITCH_CARRIER",
+    "b": "WHEEL",
+    "gap_mm": 10.536840133550474,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "AABB_distance_lower_bound"
+  },
+  {
+    "a": "SIDE_SWITCH_CARRIER",
+    "b": "WHEEL_CARRIER",
+    "gap_mm": 5.1,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "AABB_distance_lower_bound"
+  },
+  {
+    "a": "WHEEL",
+    "b": "WHEEL_CARRIER",
+    "gap_mm": 0.17499998942307696,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": true,
+    "pass_check": true,
+    "distance_kind": "exact"
+  }
+]

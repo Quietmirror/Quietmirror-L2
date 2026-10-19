@@ -1,0 +1,14 @@
+{
+  "original_end_pose_overlap_mm3": 0.0032553340272040952,
+  "outline_trim_applied": true,
+  "collision_bounds": [
+    10.267555253580957,
+    29.671828373637922,
+    7.717713861495227,
+    10.600000000000076,
+    30.81977920153929,
+    7.8
+  ],
+  "remaining_volume_mm3": 179.61559261739288,
+  "description": "Local clearance notch in hypothetical custom board; no real donor PCB cutting instruction"
+}

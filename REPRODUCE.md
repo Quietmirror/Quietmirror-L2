@@ -1,39 +1,17 @@
-# L2 r2 独立复核重放
+# L2-r3 复现
 
-查看报告和 STEP 不需要执行代码。本轮验收状态为“复核完成，有必须修正项”；诊断件不能用作最终打印或装配认证。
+Python3.12、CadQuery2.8/OCP、NumPy、SciPy、Trimesh、VTK、Pillow、Gmsh4.15.2、FreeCAD1.1.4、PrusaSlicer2.9.6。Windows下设置PYTHONUTF8=1或使用python -X utf8执行脚本。工具链保存在本机_support，不上传二进制或缓存。更换路径时修改_support/enter-env.ps1与各工具路径。
 
-## 输入与版本
+依次运行：prepare_sources.py → side_module.py → build_body.py → remaining_parts.py → surface_mesh.py → electronics_assembly.py → additional_checks.py → validate.py → functional_checks.py → slice_plate.py → native.py（FreeCADCmd）→ render.py → trial_and_plate_views.py → mesh_metrics.py → run_staged_fem.py → write_report.py。每步检查退出码和报告。全部位于cad/l2_r3，重型任务使用4GiB Job限制、单线程及低优先级串行运行。Windows进程保护器随源码提供于cad/l2_r3/guard.py，只管理自己启动的子进程；系统可用内存低于512MiB时中止任务并记录原因。
 
-- 基准：Quietmirror/github 固定提交 `f1b1090931d717117287ea2b79c2e14ddc234937` 的 R3.2。
-- [r2复核包](handoff/Quietmirror_L2_R2_Independent_Review_2026-10-18.zip)保存本轮使用的 `exports/rebuild_r3_2/assembly/BODY.step`、母面参考、元数据、参数、报告和源文件。解压到工程根目录即可恢复这些输入；不要用它覆盖其他来源的同名工作文件。
-- 新克隆也可以使用归档的 R3.1/R3.2 FCStd，经 `cad/l2_r1/independent_check.py restore` 恢复命名 STEP。恢复函数不覆盖已存在 STEP，复现时应确认已有输入来源。
-- `exports/l2_r2_diagnostic/support_reference` 是上轮独立恢复的母面输入。本轮几何程序优先使用这些公开参考，不依赖本机私有缓存。
-- 原始 FEM `.geo/.inp/.dat/.sta` 和完整求解日志保存在本机 `_support/work/fem_r2`，未重复上传大型中间作业。公开脚本可重新生成；不同版本/网格参数可能改变离散化结果。
+bootstrap.py用于首次接入本机Downloads附件，不是新机器重放的必要步骤。源方案已保存specs。缺失作者r3参考文件已声明，不通过伪造目录绕过。
 
-## 环境
+CAD构造在源码层取消旧座，原R3.2不变。原始CadQuery STL在少数BSpline接缝不封闭，surface_mesh.py从相同STEP曲面生成共边三角网格，并要求单连通/封闭/方向一致，未补洞。后续几何修改必须重新运行网格和检查。
 
-本轮实际环境：Windows、Python 3.12、CadQuery 2.8/OCP、NumPy、SciPy、Matplotlib、VTK、Gmsh 4.15.2、CalculiX 2.22。工具与虚拟环境二进制未上传。
+native.py输出命名B-rep组件的可编辑FreeCAD文件，参数由Python/JSON控制；不是有完整草图历史和已解算装配约束的工程树。打印3MF不缩放，嵌入通用PLA配置，实际打印机需重新确认。
 
-`_support/enter-env.ps1` 保存了实际工程路径 `D:\Quietmirror_L2`；换机器须修改 `$ProjectRoot` 并准备 `_support/venv/Scripts/python.exe`，再设置 `cad/l2_r1/independent_fem.py` 的 GMSH、CCX 路径。创建 `_support/logs`、`temp`、`cache`、`config/matplotlib` 后运行。换 CAD 或求解器版本必须重做解析梁基准。没有声称已在另一台机器完成安装测试。
+原R3.2输入来自固定基准提交和仓库保留文件。models/L2_r3/inputs/R32_BASELINE.FCStd保存原版命名B-rep；首次重放先用FreeCADCmd执行cad/l2_r3/restore_inputs.py，恢复缺失的exports/rebuild_r3_2/assembly/*.step，已存在文件不覆盖。FEM中间网格、求解日志及临时G-code留在_support/work，不进入发布仓库。
 
-全部重型进程用 `run_guarded.ps1`：4 GiB Windows Job 内存上限、单线程、低优先级、串行。系统可用内存不足时仅终止本作业树。没有更改系统性能设置。
+Python实际依赖版本见cad/l2_r3/requirements.txt。在项目根目录建立_support/venv并安装这些依赖，将Gmsh、FreeCAD、PrusaSlicer放到各脚本声明的_support/tools版本目录。先创建_support/work/l2_r3、reports/l2_r3、models/L2_r3/parts和reference目录；使用QUIETMIRROR_ROOT指向项目根目录。原母面参考已在exports/l2_r2_diagnostic/support_reference，旧参数和metadata保留于cad/rebuild_r2及reports/rebuild_r3_2。不要将bootstrap.py对本机Downloads的接入步骤当作必要依赖。
 
-## 顺序
-
-1. 准备基准 BODY、r1证据 JSON、参数与元数据；本轮包已包含这些复核依赖。
-2. 运行 `geometry_recheck.py`、`contact_recheck.py`，得到明确假设下的托架及完整支承面检查。
-3. 使用上轮相同解析梁工具校验求解链；本轮引用已通过的梁结果。随后将 `fem_recheck.py --size 2.4`、`--size 2.0`、`--size 1.6` **依次**运行。
-4. 运行 `summarize_fem.py` 和 `render_review.py`。
-5. 阅读新 JSON/图和日志，人工复核后才运行 `write_review.py`。它含本次评审文字，会重写当前 README、handoff 和参数记录，不能把旧文字无审查地套到新几何上。
-
-例如：
-
-```powershell
-. .\_support\enter-env.ps1
-& .\_support\run_guarded.ps1 -Executable $CadPython -Arguments @('cad/l2_r2/geometry_recheck.py') -Log '_support/logs/l2_r2_geometry.log' -MemoryGiB 4
-& .\_support\run_guarded.ps1 -Executable $CadPython -Arguments @('cad/l2_r2/contact_recheck.py') -Log '_support/logs/l2_r2_contact.log' -MemoryGiB 4
-# 待前一任务结束并核对退出码后，再运行下一项。
-& .\_support\run_guarded.ps1 -Executable $CadPython -Arguments @('cad/l2_r2/fem_recheck.py','--size','2.4') -Log '_support/logs/l2_r2_fem_2.4.log' -MemoryGiB 4
-```
-
-详细证据边界见 [SECOND_CHECK](handoff/SECOND_CHECK.md)。三档基线完成不等于已收敛，也不等于最终 L2 的 S8 通过；实际微动、PCB、镜头和叠装尺寸仍未认证。
+发布流程：prepare_model_bundle.py冻结模型和视图；write_report.py完成报告后，prepare_publication.py生成文本提交清单和全体文件校验表。GitHub工作流仅逐字校验并展开已测产物，不在CI里声称重新建模。l2-r3分支展开后经PR合并，main上的工作流创建INCOMPLETE预发布和附件。版本状态由本地实测报告确定，CI成功不等于机械验收通过。

@@ -1,0 +1,31 @@
+{
+  "geometry": "beam",
+  "size_mm": 2.4,
+  "nodes": 1818,
+  "elements": 819,
+  "solver": "CalculiX 2.22 ITERATIVE SCALING",
+  "results": [
+    {
+      "name": "cantilever_10N",
+      "k_N_per_mm": 0.3804616688808914,
+      "weighted_displacement_mm": 26.283856740192753,
+      "max_displacement_mm": 26.303395107960462,
+      "reference": null,
+      "deviation_percent": null,
+      "force_residual_N": [
+        0.00011964000000475039,
+        -8.091000000187698e-05,
+        -9.130000001000838e-05
+      ],
+      "moment_residual_Nmm": [
+        0.00011498922854535909,
+        0.0002476434913205594,
+        -9.309451288075365e-06
+      ],
+      "force_balance_passed": true,
+      "moment_balance_passed": true
+    }
+  ],
+  "scope": "Linear isotropic solid model; finite mesh; final side loads are rigid resultant/moment transfer, not a full carrier/contact simulation",
+  "analytic_error_percent": -1.634726902300021
+}

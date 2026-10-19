@@ -1,0 +1,299 @@
+{
+  "printed_parts": [
+    {
+      "name": "BODY",
+      "volume_mm3": 11697.000738157265,
+      "PA12_g": 11.813970745538839
+    },
+    {
+      "name": "LEFT_KEY",
+      "volume_mm3": 1719.6801597484564,
+      "PA12_g": 1.736876961345941
+    },
+    {
+      "name": "RIGHT_KEY",
+      "volume_mm3": 1719.680209111002,
+      "PA12_g": 1.736877011202112
+    },
+    {
+      "name": "SIDE_FRONT_KEY",
+      "volume_mm3": 90.60074917546034,
+      "PA12_g": 0.09150675666721494
+    },
+    {
+      "name": "SIDE_REAR_KEY",
+      "volume_mm3": 96.26512891306405,
+      "PA12_g": 0.09722778020219469
+    },
+    {
+      "name": "SIDE_SWITCH_CARRIER",
+      "volume_mm3": 662.5719212420573,
+      "PA12_g": 0.6691976404544779
+    },
+    {
+      "name": "WHEEL",
+      "volume_mm3": 563.1619625874001,
+      "PA12_g": 0.5687935822132741
+    },
+    {
+      "name": "WHEEL_CARRIER",
+      "volume_mm3": 589.8949111552148,
+      "PA12_g": 0.595793860266767
+    }
+  ],
+  "printed_volume_mm3": 17138.85578008992,
+  "PA12_density_g_cm3": 1.01,
+  "PA12_printed_mass_g": 17.310244337890822,
+  "plan_budget_g": 17.42,
+  "budget_difference_g": -0.10975566210917975,
+  "PLA_slicer": {
+    "slicer": "PrusaSlicer 2.9.6",
+    "status": "REAL_SLICE_ESTIMATE_NOT_PRINTER_CERTIFIED",
+    "bed_mm": [
+      255,
+      155
+    ],
+    "assumption": "Dremel 3D45 bed footprint only; generic Marlin estimate, no machine-specific G-code delivered",
+    "placements": [
+      {
+        "name": "BODY",
+        "rotation_y_deg": 0,
+        "translation_mm": [
+          41.04795837402344,
+          8.0,
+          -5.0
+        ],
+        "bounds_mm": [
+          [
+            8.0,
+            8.0,
+            0.0
+          ],
+          [
+            74.09591674804688,
+            96.23600006103516,
+            25.563983917236328
+          ]
+        ],
+        "size_mm": [
+          66.09591674804688,
+          88.23600006103516,
+          25.563983917236328
+        ]
+      },
+      {
+        "name": "LEFT_KEY",
+        "rotation_y_deg": 0,
+        "translation_mm": [
+          80.79591655731201,
+          7.3153146505355835,
+          -10.600000381469727
+        ],
+        "bounds_mm": [
+          [
+            86.09591674804688,
+            8.0,
+            0.0
+          ],
+          [
+            108.79591655731201,
+            48.46501863002777,
+            15.519611358642578
+          ]
+        ],
+        "size_mm": [
+          22.699999809265137,
+          40.46501863002777,
+          15.519611358642578
+        ]
+      },
+      {
+        "name": "RIGHT_KEY",
+        "rotation_y_deg": 0,
+        "translation_mm": [
+          148.795916557312,
+          7.3153146505355835,
+          -10.600000381469727
+        ],
+        "bounds_mm": [
+          [
+            120.79591655731201,
+            8.0,
+            0.0
+          ],
+          [
+            143.49591636657715,
+            48.46501863002777,
+            15.519611358642578
+          ]
+        ],
+        "size_mm": [
+          22.699999809265137,
+          40.46501863002777,
+          15.519611358642578
+        ]
+      },
+      {
+        "name": "SIDE_FRONT_KEY",
+        "rotation_y_deg": 0,
+        "translation_mm": [
+          129.5215892791748,
+          -35.67499923706055,
+          -15.100000381469727
+        ],
+        "bounds_mm": [
+          [
+            155.49591636657715,
+            8.0,
+            0.0
+          ],
+          [
+            161.8903522491455,
+            21.424999237060547,
+            4.399999618530273
+          ]
+        ],
+        "size_mm": [
+          6.394435882568359,
+          13.424999237060547,
+          4.399999618530273
+        ]
+      },
+      {
+        "name": "SIDE_REAR_KEY",
+        "rotation_y_deg": 0,
+        "translation_mm": [
+          147.41615867614746,
+          -49.349998474121094,
+          -15.100000381469727
+        ],
+        "bounds_mm": [
+          [
+            173.8903522491455,
+            8.0,
+            0.0
+          ],
+          [
+            180.1060390472412,
+            21.974998474121094,
+            4.399999618530273
+          ]
+        ],
+        "size_mm": [
+          6.215686798095703,
+          13.974998474121094,
+          4.399999618530273
+        ]
+      },
+      {
+        "name": "SIDE_SWITCH_CARRIER",
+        "rotation_y_deg": 0,
+        "translation_mm": [
+          175.90603828430176,
+          -33.79999923706055,
+          -10.75
+        ],
+        "bounds_mm": [
+          [
+            192.1060390472412,
+            8.0,
+            0.0
+          ],
+          [
+            205.9460391998291,
+            37.39999771118164,
+            8.75
+          ]
+        ],
+        "size_mm": [
+          13.84000015258789,
+          29.39999771118164,
+          8.75
+        ]
+      },
+      {
+        "name": "WHEEL",
+        "rotation_y_deg": 90,
+        "translation_mm": [
+          205.19324207305908,
+          -13.750699996948242,
+          8.850000381469725
+        ],
+        "bounds_mm": [
+          [
+            217.9460391998291,
+            8.0,
+            0.0
+          ],
+          [
+            230.44324207305908,
+            20.49860191345215,
+            16.100000381469727
+          ]
+        ],
+        "size_mm": [
+          12.49720287322998,
+          12.498601913452148,
+          16.100000381469727
+        ]
+      },
+      {
+        "name": "WHEEL_CARRIER",
+        "rotation_y_deg": 0,
+        "translation_mm": [
+          14.849999904632568,
+          88.23600006103516,
+          -10.399999618530273
+        ],
+        "bounds_mm": [
+          [
+            8.0,
+            108.23600006103516,
+            0.0
+          ],
+          [
+            25.950000286102295,
+            140.83551406860352,
+            11.399686813354492
+          ]
+        ],
+        "size_mm": [
+          17.950000286102295,
+          32.59951400756836,
+          11.399686813354492
+        ]
+      }
+    ],
+    "embedded_settings": {
+      "nozzle_diameter": "0.4",
+      "layer_height": "0.2",
+      "filament_density": "1.24",
+      "bed_shape": "0x0,255x0,255x155,0x155"
+    },
+    "total_filament_g": "35.91",
+    "time": "4h 50m 28s",
+    "extrusion_roles_g": {
+      "Skirt/Brim": 0.20930795880238945,
+      "Support material": 10.784946447101225,
+      "External perimeter": 7.476256324005312,
+      "Perimeter": 11.268189768925549,
+      "Solid infill": 1.4721066924133643,
+      "Support material interface": 3.4104072307173796,
+      "Overhang perimeter": 1.0094097367140222,
+      "Bridge infill": 0.20454482721016248,
+      "Internal infill": 0.002473100241050846,
+      "Top solid infill": 0.07323629482023006
+    },
+    "role_mass_method": "Positive XY extrusion by G-code TYPE, relative E; excludes standalone retract/reprime",
+    "scale": 1.0
+  },
+  "total_assembled_mouse_mass": "UNVERIFIED: battery, PCB, fasteners and material specifications not measured",
+  "unverified": [
+    "Full global minimum wall thickness",
+    "PCB and lens dimensions",
+    "Radio/firmware/receiver compatibility",
+    "400-6400 DPI, 1kHz, macros, LOD, no sync",
+    "12h full-power endurance",
+    "Physical switch feel and reset"
+  ]
+}

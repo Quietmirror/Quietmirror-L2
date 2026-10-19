@@ -1,0 +1,762 @@
+{
+  "version": "L2-r3",
+  "status": "INCOMPLETE",
+  "prerelease": true,
+  "gates": [
+    {
+      "id": "G1",
+      "status": "PASS",
+      "evidence": "8 个打印件；CAD 单实体、自相交和封闭网格见 solids.json"
+    },
+    {
+      "id": "G2",
+      "status": "INCOMPLETE",
+      "evidence": "打印件 28/28 对；穿模 0 对；不足目标间隙 1 对"
+    },
+    {
+      "id": "G3",
+      "status": "INCOMPLETE",
+      "evidence": "最终装配包络检查 248 对，其中 3 项未满足通用阈值；作者 62 项原始证据未提供"
+    },
+    {
+      "id": "G4",
+      "status": "INCOMPLETE",
+      "evidence": "O3 贯通：True；原六孔多边形保留，最终曲面边界等价性未完整证明"
+    },
+    {
+      "id": "G5",
+      "status": "INCOMPLETE",
+      "evidence": "5/5 组打印件运动穿模记录 0；微动壳体/滚轮随动组件 0；运动最小间隙曲线未认证"
+    },
+    {
+      "id": "G6",
+      "status": "INCOMPLETE",
+      "evidence": "Ø2钢销顶部探针已检查；载架直线上装最大重叠 212.250 mm³，此路径不能使用，倾斜装入未证明"
+    },
+    {
+      "id": "G7",
+      "status": "INCOMPLETE",
+      "evidence": "H 为估计包络；D 假设板 1 处相交，不能宣称真实供体适配"
+    },
+    {
+      "id": "G8",
+      "status": "3D_FEM_BLOCKED",
+      "evidence": "整壳迭代求解在615.3秒后因系统可用内存低于512MiB被保护器中止（任务峰值0.471GiB，未触及4GiB上限）；三档刚度比较未完成，小梁误差−1.635%不能替代整壳结论。"
+    },
+    {
+      "id": "G9",
+      "status": "INCOMPLETE",
+      "evidence": "S1/S2/S3/S5/S6/S9 提供相应证据；S4 实际按压力、S7 预紧/托架应力和 S8 刚度未完成认证"
+    },
+    {
+      "id": "G10",
+      "status": "PASS_CAD_ESTIMATE",
+      "evidence": "CAD 17138.856 mm³；PA12 密度 1.01 时 17.310 g；切片 35.91 g"
+    },
+    {
+      "id": "G11",
+      "status": "UNVERIFIED",
+      "evidence": "键帽/垫片对壳体包络的行程干涉记录 0；实物微动、PET 调整和通断未测"
+    }
+  ],
+  "static_overlap_count": 0,
+  "static_clearance_failures": 1,
+  "motion_overlap_samples": 0,
+  "estimated_component_failure_count": 3,
+  "print_volume_mm3": 17138.85578008992,
+  "PA12_g": 17.310244337890822,
+  "slice": {
+    "slicer": "PrusaSlicer 2.9.6",
+    "status": "REAL_SLICE_ESTIMATE_NOT_PRINTER_CERTIFIED",
+    "bed_mm": [
+      255,
+      155
+    ],
+    "assumption": "Dremel 3D45 bed footprint only; generic Marlin estimate, no machine-specific G-code delivered",
+    "placements": [
+      {
+        "name": "BODY",
+        "rotation_y_deg": 0,
+        "translation_mm": [
+          41.04795837402344,
+          8.0,
+          -5.0
+        ],
+        "bounds_mm": [
+          [
+            8.0,
+            8.0,
+            0.0
+          ],
+          [
+            74.09591674804688,
+            96.23600006103516,
+            25.563983917236328
+          ]
+        ],
+        "size_mm": [
+          66.09591674804688,
+          88.23600006103516,
+          25.563983917236328
+        ]
+      },
+      {
+        "name": "LEFT_KEY",
+        "rotation_y_deg": 0,
+        "translation_mm": [
+          80.79591655731201,
+          7.3153146505355835,
+          -10.600000381469727
+        ],
+        "bounds_mm": [
+          [
+            86.09591674804688,
+            8.0,
+            0.0
+          ],
+          [
+            108.79591655731201,
+            48.46501863002777,
+            15.519611358642578
+          ]
+        ],
+        "size_mm": [
+          22.699999809265137,
+          40.46501863002777,
+          15.519611358642578
+        ]
+      },
+      {
+        "name": "RIGHT_KEY",
+        "rotation_y_deg": 0,
+        "translation_mm": [
+          148.795916557312,
+          7.3153146505355835,
+          -10.600000381469727
+        ],
+        "bounds_mm": [
+          [
+            120.79591655731201,
+            8.0,
+            0.0
+          ],
+          [
+            143.49591636657715,
+            48.46501863002777,
+            15.519611358642578
+          ]
+        ],
+        "size_mm": [
+          22.699999809265137,
+          40.46501863002777,
+          15.519611358642578
+        ]
+      },
+      {
+        "name": "SIDE_FRONT_KEY",
+        "rotation_y_deg": 0,
+        "translation_mm": [
+          129.5215892791748,
+          -35.67499923706055,
+          -15.100000381469727
+        ],
+        "bounds_mm": [
+          [
+            155.49591636657715,
+            8.0,
+            0.0
+          ],
+          [
+            161.8903522491455,
+            21.424999237060547,
+            4.399999618530273
+          ]
+        ],
+        "size_mm": [
+          6.394435882568359,
+          13.424999237060547,
+          4.399999618530273
+        ]
+      },
+      {
+        "name": "SIDE_REAR_KEY",
+        "rotation_y_deg": 0,
+        "translation_mm": [
+          147.41615867614746,
+          -49.349998474121094,
+          -15.100000381469727
+        ],
+        "bounds_mm": [
+          [
+            173.8903522491455,
+            8.0,
+            0.0
+          ],
+          [
+            180.1060390472412,
+            21.974998474121094,
+            4.399999618530273
+          ]
+        ],
+        "size_mm": [
+          6.215686798095703,
+          13.974998474121094,
+          4.399999618530273
+        ]
+      },
+      {
+        "name": "SIDE_SWITCH_CARRIER",
+        "rotation_y_deg": 0,
+        "translation_mm": [
+          175.90603828430176,
+          -33.79999923706055,
+          -10.75
+        ],
+        "bounds_mm": [
+          [
+            192.1060390472412,
+            8.0,
+            0.0
+          ],
+          [
+            205.9460391998291,
+            37.39999771118164,
+            8.75
+          ]
+        ],
+        "size_mm": [
+          13.84000015258789,
+          29.39999771118164,
+          8.75
+        ]
+      },
+      {
+        "name": "WHEEL",
+        "rotation_y_deg": 90,
+        "translation_mm": [
+          205.19324207305908,
+          -13.750699996948242,
+          8.850000381469725
+        ],
+        "bounds_mm": [
+          [
+            217.9460391998291,
+            8.0,
+            0.0
+          ],
+          [
+            230.44324207305908,
+            20.49860191345215,
+            16.100000381469727
+          ]
+        ],
+        "size_mm": [
+          12.49720287322998,
+          12.498601913452148,
+          16.100000381469727
+        ]
+      },
+      {
+        "name": "WHEEL_CARRIER",
+        "rotation_y_deg": 0,
+        "translation_mm": [
+          14.849999904632568,
+          88.23600006103516,
+          -10.399999618530273
+        ],
+        "bounds_mm": [
+          [
+            8.0,
+            108.23600006103516,
+            0.0
+          ],
+          [
+            25.950000286102295,
+            140.83551406860352,
+            11.399686813354492
+          ]
+        ],
+        "size_mm": [
+          17.950000286102295,
+          32.59951400756836,
+          11.399686813354492
+        ]
+      }
+    ],
+    "embedded_settings": {
+      "nozzle_diameter": "0.4",
+      "layer_height": "0.2",
+      "filament_density": "1.24",
+      "bed_shape": "0x0,255x0,255x155,0x155"
+    },
+    "total_filament_g": "35.91",
+    "time": "4h 50m 28s",
+    "extrusion_roles_g": {
+      "Skirt/Brim": 0.20930795880238945,
+      "Support material": 10.784946447101225,
+      "External perimeter": 7.476256324005312,
+      "Perimeter": 11.268189768925549,
+      "Solid infill": 1.4721066924133643,
+      "Support material interface": 3.4104072307173796,
+      "Overhang perimeter": 1.0094097367140222,
+      "Bridge infill": 0.20454482721016248,
+      "Internal infill": 0.002473100241050846,
+      "Top solid infill": 0.07323629482023006
+    },
+    "role_mass_method": "Positive XY extrusion by G-code TYPE, relative E; excludes standalone retract/reprime",
+    "scale": 1.0
+  },
+  "native": {
+    "application": "FreeCAD 1.1.4",
+    "parts": [
+      {
+        "name": "BODY",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "LEFT_KEY",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "RIGHT_KEY",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SIDE_FRONT_KEY",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SIDE_REAR_KEY",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SIDE_SWITCH_CARRIER",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "WHEEL",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "WHEEL_CARRIER",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "ANTENNA_FEED_HEADER_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "ANTENNA_FEED_ROUTE_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "BATTERY_CELL_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "BATTERY_PLUG_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "BATTERY_ROUTE_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "CARRIER_M2x5_1",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "CARRIER_M2x5_2",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "CHARGE_POWERPATH_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "CONTROLLER_RF_PCB_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "ENCODER_ADAPTER_PCB_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "ENCODER_EC10E_HOUSING",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "ENCODER_EC10E_ROTOR",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "ENCODER_M2x3_FRONT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "ENCODER_M2x3_REAR",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "ENCODER_WASHER_FRONT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "ENCODER_WASHER_REAR",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "LEFT_KEY_M2_SWITCH_1_BOLT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "LEFT_KEY_M2_SWITCH_1_NUT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "LEFT_KEY_M2_SWITCH_2_BOLT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "LEFT_KEY_M2_SWITCH_2_NUT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "LEFT_KEY_STEEL_PIN",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "MATCHED_LENS_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "MCU_RADIO_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "PAW3950_PACKAGE_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "POWER_SWITCH_BODY_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "POWER_SWITCH_PCB_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "POWER_SWITCH_TAB_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "REGULATOR_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "REMOTE_ANTENNA_PCB_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "RF_BAT_HEADER_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "RF_IO_HEADER_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "RF_SENSOR_HEADER_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "RF_USB_HEADER_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "RIGHT_KEY_M2_SWITCH_1_BOLT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "RIGHT_KEY_M2_SWITCH_1_NUT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "RIGHT_KEY_M2_SWITCH_2_BOLT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "RIGHT_KEY_M2_SWITCH_2_NUT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "RIGHT_KEY_STEEL_PIN",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SENSOR_HEADER_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SENSOR_PCB_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SENSOR_ROUTE_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SF_D2F_01F",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SF_TUNING_SHIM_0p33",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SF_VERTICAL_PIN",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SIDE_IO_PCB",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SIDE_ROUTE_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SKATE_1_0p8",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SKATE_2_0p8",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SKATE_3_0p8",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SKATE_4_0p8",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SKATE_5_0p8",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SR_D2F_01F",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SR_TUNING_SHIM_0p33",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SR_VERTICAL_PIN",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SWITCH_LEFT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SWITCH_MIDDLE",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "SWITCH_RIGHT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "USB_ADAPTER_PCB_REFERENCE",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "USB_C_REFERENCE",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "USB_M2x3_L",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "USB_M2x3_R",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "USB_ROUTE_EST",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "USB_WASHER_L",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "USB_WASHER_R",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "WHEEL_CARRIER_STEEL_PIN",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "WHEEL_M2_SWITCH_1_BOLT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "WHEEL_M2_SWITCH_1_NUT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "WHEEL_M2_SWITCH_1_WASHER_NUT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "WHEEL_M2_SWITCH_2_BOLT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "WHEEL_M2_SWITCH_2_NUT",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+        "valid": true,
+        "solids": 1
+      },
+      {
+        "name": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+        "valid": true,
+        "solids": 1
+      }
+    ],
+    "all_valid": true,
+    "scope": "Saved/reopened imported components, not constrained feature history"
+  },
+  "physical_tests": false
+}

@@ -1,0 +1,239 @@
+[
+  {
+    "name": "SIDE_SWITCH_CARRIER",
+    "printable": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 662.5719212420573,
+    "bounds_mm": [
+      16.2,
+      41.8,
+      10.75,
+      30.04,
+      71.2,
+      19.5
+    ],
+    "mesh": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 2064,
+      "bounds_mm": [
+        [
+          16.200000762939453,
+          41.79999923706055,
+          10.75
+        ],
+        [
+          30.040000915527344,
+          71.19999694824219,
+          19.5
+        ]
+      ],
+      "holes_patched": 0
+    }
+  },
+  {
+    "name": "SIDE_FRONT_KEY",
+    "printable": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 90.60074917546034,
+    "bounds_mm": [
+      25.97,
+      43.674999899999996,
+      15.100000000000001,
+      32.36945991532829,
+      57.1000001,
+      19.500000100012574
+    ],
+    "mesh": {
+      "watertight": false,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 16704,
+      "bounds_mm": [
+        [
+          25.971725463867188,
+          43.67509841918945,
+          15.100671768188477
+        ],
+        [
+          32.36896514892578,
+          57.099998474121094,
+          19.5
+        ]
+      ],
+      "holes_patched": 0
+    }
+  },
+  {
+    "name": "SIDE_REAR_KEY",
+    "printable": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 96.26512891306405,
+    "bounds_mm": [
+      26.47,
+      57.3499999,
+      15.100000000000001,
+      32.69168545942541,
+      71.3250001,
+      19.500000100019488
+    ],
+    "mesh": {
+      "watertight": false,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 18275,
+      "bounds_mm": [
+        [
+          26.471725463867188,
+          57.349998474121094,
+          15.100671768188477
+        ],
+        [
+          32.69038009643555,
+          71.3248519897461,
+          19.5
+        ]
+      ],
+      "holes_patched": 0
+    }
+  },
+  {
+    "name": "SF_D2F_01F",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 488.50378744522556,
+    "bounds_mm": [
+      14.8,
+      41.85,
+      13.7,
+      25.62,
+      54.65,
+      19.5
+    ]
+  },
+  {
+    "name": "SF_TUNING_SHIM_0p33",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 2.624189606151011,
+    "bounds_mm": [
+      25.64,
+      48.75,
+      15.1,
+      26.570000000000093,
+      51.75,
+      18.1
+    ]
+  },
+  {
+    "name": "SR_D2F_01F",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 488.50378744522544,
+    "bounds_mm": [
+      15.3,
+      56.05,
+      13.7,
+      26.12,
+      68.85,
+      19.5
+    ]
+  },
+  {
+    "name": "SR_TUNING_SHIM_0p33",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 2.624189663946408,
+    "bounds_mm": [
+      26.14,
+      62.95,
+      15.1,
+      27.070000000000093,
+      65.95000000000019,
+      18.1
+    ]
+  },
+  {
+    "name": "SIDE_IO_PCB",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 144.9522131576614,
+    "bounds_mm": [
+      15.2,
+      42.0,
+      13.3,
+      16.2,
+      70.0,
+      18.8
+    ]
+  },
+  {
+    "name": "SF_VERTICAL_PIN",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4.319689898685968,
+    "bounds_mm": [
+      28.5,
+      44.5,
+      14.75,
+      29.5,
+      45.5,
+      20.25
+    ]
+  },
+  {
+    "name": "SR_VERTICAL_PIN",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4.319689898685965,
+    "bounds_mm": [
+      28.5,
+      69.5,
+      14.75,
+      29.5,
+      70.5,
+      20.25
+    ]
+  },
+  {
+    "name": "CARRIER_M2x5_1",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 27.922475505106082,
+    "bounds_mm": [
+      23.93,
+      41.5,
+      7.05,
+      27.53,
+      45.099999999999994,
+      13.25
+    ]
+  },
+  {
+    "name": "CARRIER_M2x5_2",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 27.922475505106096,
+    "bounds_mm": [
+      25.2,
+      64.5,
+      7.05,
+      28.8,
+      68.1,
+      13.25
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "part": "BODY",
+    "positive_mesh_volume": true,
+    "mesh_volume_mm3": 11688.925420664831,
+    "adaptive_CAD_volume_mm3": 11697.000738157265,
+    "difference_percent": -0.06903750519644536,
+    "size_mm": [
+      66.09591674804688,
+      88.23600006103516,
+      25.563983917236328
+    ],
+    "unit": "mm from generator; STL has no intrinsic unit metadata",
+    "closed": true,
+    "components": 1
+  },
+  {
+    "part": "LEFT_KEY",
+    "positive_mesh_volume": true,
+    "mesh_volume_mm3": 1718.276414954129,
+    "adaptive_CAD_volume_mm3": 1719.6801597484564,
+    "difference_percent": -0.08162824850713735,
+    "size_mm": [
+      22.699999809265137,
+      40.46501863002777,
+      15.519611358642578
+    ],
+    "unit": "mm from generator; STL has no intrinsic unit metadata",
+    "closed": true,
+    "components": 1
+  },
+  {
+    "part": "RIGHT_KEY",
+    "positive_mesh_volume": true,
+    "mesh_volume_mm3": 1718.0789733343343,
+    "adaptive_CAD_volume_mm3": 1719.680209111002,
+    "difference_percent": -0.0931124152144247,
+    "size_mm": [
+      22.699999809265137,
+      40.46501863002777,
+      15.519611358642578
+    ],
+    "unit": "mm from generator; STL has no intrinsic unit metadata",
+    "closed": true,
+    "components": 1
+  },
+  {
+    "part": "SIDE_FRONT_KEY",
+    "positive_mesh_volume": true,
+    "mesh_volume_mm3": 90.39322647231506,
+    "adaptive_CAD_volume_mm3": 90.60074917546034,
+    "difference_percent": -0.2290518621908766,
+    "size_mm": [
+      6.394435882568359,
+      13.424999237060547,
+      4.399999618530273
+    ],
+    "unit": "mm from generator; STL has no intrinsic unit metadata",
+    "closed": true,
+    "components": 1
+  },
+  {
+    "part": "SIDE_REAR_KEY",
+    "positive_mesh_volume": true,
+    "mesh_volume_mm3": 96.04248084098845,
+    "adaptive_CAD_volume_mm3": 96.26512891306405,
+    "difference_percent": -0.23128631789053333,
+    "size_mm": [
+      6.215686798095703,
+      13.974998474121094,
+      4.399999618530273
+    ],
+    "unit": "mm from generator; STL has no intrinsic unit metadata",
+    "closed": true,
+    "components": 1
+  },
+  {
+    "part": "SIDE_SWITCH_CARRIER",
+    "positive_mesh_volume": true,
+    "mesh_volume_mm3": 662.5812940044426,
+    "adaptive_CAD_volume_mm3": 662.5719212420573,
+    "difference_percent": 0.0014146030166362067,
+    "size_mm": [
+      13.84000015258789,
+      29.39999771118164,
+      8.75
+    ],
+    "unit": "mm from generator; STL has no intrinsic unit metadata",
+    "closed": true,
+    "components": 1
+  },
+  {
+    "part": "WHEEL",
+    "positive_mesh_volume": true,
+    "mesh_volume_mm3": 562.8585774214804,
+    "adaptive_CAD_volume_mm3": 563.1619625874001,
+    "difference_percent": -0.053871743135114336,
+    "size_mm": [
+      16.100000381469727,
+      12.498601913452148,
+      12.49720287322998
+    ],
+    "unit": "mm from generator; STL has no intrinsic unit metadata",
+    "closed": true,
+    "components": 1
+  },
+  {
+    "part": "WHEEL_CARRIER",
+    "positive_mesh_volume": true,
+    "mesh_volume_mm3": 589.7159851657713,
+    "adaptive_CAD_volume_mm3": 589.8949111552148,
+    "difference_percent": -0.03033184149582313,
+    "size_mm": [
+      17.950000286102295,
+      32.59951400756836,
+      11.399686813354492
+    ],
+    "unit": "mm from generator; STL has no intrinsic unit metadata",
+    "closed": true,
+    "components": 1
+  }
+]

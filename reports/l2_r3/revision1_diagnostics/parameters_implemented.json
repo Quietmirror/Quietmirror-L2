@@ -1,0 +1,92 @@
+{
+  "source": "Independent r3 transcription; author JSON absent",
+  "units": "mm",
+  "side_keys": [
+    {
+      "name": "SIDE_FRONT_KEY",
+      "short": "SF",
+      "y0": 44.2,
+      "y1": 56.3,
+      "hinge_y": 45.0,
+      "rod_y": 50.25,
+      "rod_end": 25.97,
+      "rod_inner": 30.36,
+      "stop_y": [
+        54.0,
+        55.2
+      ],
+      "stop_x": 29.74,
+      "angle": 6.8,
+      "tab": [
+        27.85,
+        28.65,
+        56.0,
+        57.1,
+        17.7,
+        19.2
+      ],
+      "rib": [
+        28.65,
+        30.3,
+        56.0,
+        56.3,
+        17.7,
+        19.2
+      ],
+      "stop_rib_inner_x": 30.961518764574585,
+      "outer_x_offset_mm": 0.2,
+      "normal_offset_approximation": "X translation of mother surface; normal distance measured separately",
+      "edge_R0p3_applied": true,
+      "connection_correction": "Rod and tab rib extended to intersect actual mother-derived cap. Document inner-X estimates otherwise leave a disconnected component; endpoints and tab dimensions retained."
+    },
+    {
+      "name": "SIDE_REAR_KEY",
+      "short": "SR",
+      "y0": 58.1,
+      "y1": 70.8,
+      "hinge_y": 70.0,
+      "rod_y": 64.45,
+      "rod_end": 26.47,
+      "rod_inner": 31.02,
+      "stop_y": [
+        59.3,
+        60.5
+      ],
+      "stop_x": 30.04,
+      "angle": -6.37,
+      "tab": [
+        27.85,
+        28.65,
+        57.35,
+        58.4,
+        15.8,
+        17.3
+      ],
+      "rib": [
+        28.65,
+        30.9,
+        58.1,
+        58.4,
+        15.8,
+        17.3
+      ],
+      "stop_rib_inner_x": 31.240985331670927,
+      "outer_x_offset_mm": 0.2,
+      "normal_offset_approximation": "X translation of mother surface; normal distance measured separately",
+      "edge_R0p3_applied": true,
+      "connection_correction": "Rod and tab rib extended to intersect actual mother-derived cap. Document inner-X estimates otherwise leave a disconnected component; endpoints and tab dimensions retained."
+    }
+  ],
+  "carrier": {
+    "before_terminal_slots_mm3": 681.5535759159096,
+    "final_mm3": 662.5719212420573
+  },
+  "corrections": [
+    "Stop rib Z15.9..16.4 gives 0.5 mm height",
+    "Nominal 0.35 gap requires 0.33 PET shim for 0.02 residual gap",
+    "Two M1.2 end PCB fasteners; middle narrow seat is support only",
+    "X-offset cap is an approximation to normal offset",
+    "Added concealed hinge relief and explicit lug Z spans; check resulting body"
+  ],
+  "physical_switch_validation": "UNVERIFIED"
+}
