@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "R32_root_load_interval_investigation",
   "source_commit": "6bfe76a088d8ee300522de519aeed166c2a5e938",
   "steps": [
