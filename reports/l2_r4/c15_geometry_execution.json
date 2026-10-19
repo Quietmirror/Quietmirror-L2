@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "C15 planar encoder PCB diagonal",
   "source_commit": "c3b40bdf655251a8f192701c73bd32b9cdd1998a",
   "steps": [
