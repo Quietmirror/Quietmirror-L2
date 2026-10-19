@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "C13 planar encoder board mounting-land outline",
+  "source_commit": "f86477cb3a0ac607edeb58807cf26edc3c8c55f9",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 4.54,
+      "available_memory_before_GB": 15.59175168,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
