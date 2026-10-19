@@ -44,5 +44,8 @@
         ]
       ]
     }
+  },
+  {
+    "stage": "nonfunctional_begin"
   }
 ]
