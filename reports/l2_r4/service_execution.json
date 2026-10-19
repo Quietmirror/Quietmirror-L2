@@ -1,34 +1,13 @@
 {
   "status": "FAILED",
-  "phase": "candidate_6_reverse_service_search_wall_and_STL_audit",
-  "source_commit": "fa42b920a4386b6e5b1420c31dd1502c5a8125b5",
+  "phase": "candidate_6_long_axis_battery_extraction_search",
+  "source_commit": "9351698f764a9ff145ef45a30784756276957b2d",
   "steps": [
-    {
-      "script": "cad/l2_r4/wall_audit.py",
-      "returncode": 0,
-      "seconds": 70.11,
-      "available_memory_before_GB": 15.699427328,
-      "log_tail": "WALL_SAMPLES BODY 6000 0.05250211713238653\nWALL_SAMPLES LEFT_KEY 1200 0.1253831337073113\nWALL_SAMPLES RIGHT_KEY 1200 0.09550750098737928\nWALL_SAMPLES SF_RETAINER 1200 0.500000000000001\nWALL_SAMPLES SIDE_FRONT_KEY 1200 0.02487309773763002\nWALL_SAMPLES SIDE_REAR_KEY 1200 0.03005012677768548\nWALL_SAMPLES SR_RETAINER 1200 0.500000000000001\nWALL_SAMPLES WHEEL 1200 1.199999753338879\nWALL_SAMPLES WHEEL_CARRIER 1200 0.9039751377616262\n"
-    },
-    {
-      "script": "cad/l2_r4/mesh_self_intersection.py",
-      "returncode": 0,
-      "seconds": 2.49,
-      "available_memory_before_GB": 15.657394176,
-      "log_tail": "MESH_SELF_INTERSECTION BODY 0\nMESH_SELF_INTERSECTION LEFT_KEY 0\nMESH_SELF_INTERSECTION RIGHT_KEY 0\nMESH_SELF_INTERSECTION SF_RETAINER 0\nMESH_SELF_INTERSECTION SIDE_FRONT_KEY 0\nMESH_SELF_INTERSECTION SIDE_REAR_KEY 0\nMESH_SELF_INTERSECTION SR_RETAINER 0\nMESH_SELF_INTERSECTION WHEEL 0\nMESH_SELF_INTERSECTION WHEEL_CARRIER 0\n"
-    },
-    {
-      "script": "cad/l2_r4/mechanism_accounting.py",
-      "returncode": 0,
-      "seconds": 4.51,
-      "available_memory_before_GB": 15.600820224,
-      "log_tail": "ACTUATION [('SIDE_FRONT_KEY', True), ('SIDE_REAR_KEY', True)]\n"
-    },
     {
       "script": "cad/l2_r4/battery_service.py",
       "returncode": 1,
-      "seconds": 70.61,
-      "available_memory_before_GB": 15.553339392,
+      "seconds": 72.12,
+      "available_memory_before_GB": 15.626297344,
       "log_tail": "VOXELS 800311 exact odd columns 0\nVOXELS 6701 exact odd columns 0\nVOXELS 10847 exact odd columns 0\nVOXELS 31350 exact odd columns 0\nVOXELS 30765 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 1506 exact odd columns 0\nVOXELS 1438 exact odd columns 0\nTraceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_service.py\", line 112, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_service.py\", line 82, in main\n    if not found:save('battery_service_path.json',report);raise RuntimeError('No battery route found within stated search domain; no service-access pass')\n                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No battery route found within stated search domain; no service-access pass\n"
     }
   ]

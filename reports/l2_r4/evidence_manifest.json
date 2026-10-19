@@ -115,9 +115,9 @@
   },
   "reports/l2_r4/battery_service_path.json": {
     "script": "cad/l2_r4/battery_service.py",
-    "source_commit": "fa42b920a4386b6e5b1420c31dd1502c5a8125b5",
+    "source_commit": "9351698f764a9ff145ef45a30784756276957b2d",
     "returncode": 1,
-    "report_sha256": "52107888d776442961706784238a5b07a0e99f246504eca9f3f3af2702bc6d2b",
+    "report_sha256": "2f95a62e0f76237d783a1b3f43b2baa7489a032c7ac418cdbfd2c5aa80af5249",
     "geometry": {
       "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
       "models/L2_r4/parts/LEFT_KEY.step": "2b66a0d6f6673ec5ac337dcb63366b1c165122e199ca5497153ab9667cbb4f43",
@@ -216,7 +216,7 @@
     },
     "verifier_source": {
       "cad/l2_r4/assembly_paths.py": "c38241db571a3e0bd4c93e048ca0740cf7d874a0cd072f8b2a2b87412e2ebad9",
-      "cad/l2_r4/battery_service.py": "bfb07de4de9e13134fd88086efc15adc7358a7f15e6d63aec3511e34d318e967",
+      "cad/l2_r4/battery_service.py": "b86a01d52705f89a1e569e92fbf50e97f75280a90cce9694c745c90dd9e1d399",
       "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383"
     }
   },
