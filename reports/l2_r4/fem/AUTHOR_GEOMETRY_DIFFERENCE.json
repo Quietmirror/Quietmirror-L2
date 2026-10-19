@@ -364,6 +364,17 @@
       "final_geometry_effect_fraction": -0.08829733025118269,
       "equilibrium_pass": true,
       "resolved": true
+    },
+    {
+      "size_mm": 2.0,
+      "case": "LC3_squeeze_2x2N",
+      "control_stiffness_N_per_mm": 923.8897164535307,
+      "author_stiffness_N_per_mm": 923.32,
+      "control_author_difference_fraction": 0.0006170303400019339,
+      "final_stiffness_N_per_mm": 847.1331329489794,
+      "final_geometry_effect_fraction": -0.08307981151602295,
+      "equilibrium_pass": true,
+      "resolved": true
     }
   ]
 }
