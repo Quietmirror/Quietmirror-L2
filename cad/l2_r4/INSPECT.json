@@ -1,13 +1,11 @@
 {
-  "phase": "C12 wheel hardware clearance correction",
-  "report_file": "wheel_c12_execution.json",
+  "phase": "C13 planar encoder board mounting-land outline",
+  "report_file": "wheel_c13_execution.json",
   "scripts": [
     "cad/l2_r4/restore_inputs.py",
     "cad/l2_r4/wheel_clearance_finish.py",
     "cad/l2_r4/assemble.py",
     "cad/l2_r4/wheel_endpoint_probe.py",
-    "cad/l2_r4/wheel_rotation_check.py",
-    "cad/l2_r4/surface_mesh_changed.py",
-    "cad/l2_r4/mechanism_accounting.py"
+    "cad/l2_r4/wheel_rotation_check.py"
   ]
 }

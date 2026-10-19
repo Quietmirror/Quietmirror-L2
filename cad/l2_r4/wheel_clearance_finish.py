@@ -24,8 +24,13 @@ def main():
     rows=[export(carrier,'WHEEL_CARRIER')]
     rows[-1].update(removed_mm3=vol(original)-vol(carrier),change='Local0.32mm rigid middle-switch housing and main-switch fastener clearance across45 design poses; active plunger contact pad retained. Independent motion checks remain required')
     pcb=load('ENCODER_ADAPTER_PCB_EST',ROOT/'models/L2_r3/reference');previous=vol(pcb)
-    pcb=pcb.cut(box(10.9,25,0,70,0,30)).cut(box(8.6,25,28.8,45,0,30)).clean()
-    rows.append(export(pcb,'ENCODER_ADAPTER_PCB_EST',False));rows[-1].update(removed_mm3=previous-vol(pcb),change='Custom PCB edge x<=10.9; rear/east notch x>8.6,y>28.8; original mounting and terminal holes retained')
+    # The remaining rectangular corner crossed the fixed front diagonal at
+    # +4.1/+4.4deg. Preserve a2.1mm circular mounting land around the existing
+    # (8.5,26.1) hole; remove only material outside that land forX>8.6.
+    # This is a planar custom-board outline, not a three-dimensional bevel.
+    outside_land=box(8.6,25,0,70,0,30).cut(cyl(2.1,30,(8.5,26.1,0)))
+    pcb=pcb.cut(outside_land).clean()
+    rows.append(export(pcb,'ENCODER_ADAPTER_PCB_EST',False));rows[-1].update(removed_mm3=previous-vol(pcb),change='C13 custom PCB: x>8.6 retained only insideR2.1 land centered(8.5,26.1);1.0mm edge material aroundR1.1 mounting hole. Original mounting and terminal centers retained; PCB thickness unchanged')
     encoder=baseline('ENCODER_EC10E_HOUSING');previous=vol(encoder)
     encoder=encoder.cut(box(-20,20,0,60,0,8.95)).clean()
     rows.append(export(encoder,'ENCODER_EC10E_HOUSING',False));rows[-1].update(removed_mm3=previous-vol(encoder),change='Trim only terminal/lug tails to assembly Z8.95;0.25mm nominal protrusion below1.2mm adapter PCB. Actual soldering and vendor trim permission require physical confirmation; housing/rotor datum unchanged')
