@@ -28,7 +28,7 @@ def main():
     outer=load('MOTHER_OUTER_FROM_R32_SURFACE',ROOT/'exports/l2_r2_diagnostic/support_reference')
     outer_grid,_=voxelize(outer);outer_grid=outer_grid.astype(np.float32)
     trials=[];accepted=None
-    for dimensions in [[14,28,6],[12,33,6],[16,25,6]]:
+    for dimensions in [[12,25,8],[14,22,8],[10,30,8],[12,28,7],[10,24,10]]:
         half=np.array(dimensions)/2;cell=box(-half[0],half[0],-half[1],half[1],-half[2],half[2]);pivot=np.zeros(3)
         points=[]
         for axis in range(3):
@@ -71,7 +71,19 @@ def main():
             if not edge(a,b):return None,False
             return tree.add(b,i),d<=.8
         route=None
+        # First test a simple front access corridor after the main keys and
+        # removable H electronics are lifted out. This is more directed than
+        # asking a random tree to discover the same narrow straight corridor.
+        for goal in goals:
+            if route is not None:break
+            for dz in [0.,-1.,-2.,1.,2.,3.]:
+                middle=goal.copy();middle[2]+=dz
+                front=middle.copy();front[1]=22.
+                outside=front.copy();outside[2]=50.
+                trial_route=[goal,middle,front,outside]
+                if all(edge(a,b) for a,b in zip(trial_route[:-1],trial_route[1:])):route=trial_route;break
         for iteration in range(130000):
+            if route is not None:break
             a,b,reverse=(A,B,False) if iteration%2 else (B,A,True)
             if rng.random()<.6:
                 p=a.nodes[int(rng.integers(len(a.nodes)))];target=p+rng.normal(size=6)*np.array([1.3,1.3,1.3,7.,7.,7.])
