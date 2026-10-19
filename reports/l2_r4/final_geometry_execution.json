@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "Final_C17_and_selected_cell",
   "source_commit": "4236140704e5eeb183374c8cac26ec506a0ccbfc",
   "steps": [
