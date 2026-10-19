@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "C17_original_body_distances",
+  "source_commit": "1c771039a03b7be9396873596905a3c6044b5575",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 4.7,
+      "available_memory_before_GB": 15.642980352,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
