@@ -2,6 +2,7 @@
 import json,os,subprocess,sys
 import numpy as np
 from common import *
+from exact_distance import pair
 from contact_audit import collar,rigid_housing
 from bounded_scene import scene_pairs
 

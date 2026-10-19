@@ -9,6 +9,7 @@ import json,math,time
 import numpy as np
 from scipy.ndimage import binary_dilation,generate_binary_structure
 from common import *
+from exact_distance import pair
 H=.25;LO=np.array([-40.,-5.,3.]);HI=np.array([40.,95.,35.]);N=np.ceil((HI-LO)/H).astype(int)
 
 def inside_points(s):

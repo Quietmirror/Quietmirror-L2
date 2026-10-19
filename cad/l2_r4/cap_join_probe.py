@@ -1,5 +1,6 @@
 """Exact final cap/PET boundary, source roundtrip and BRep interference check."""
 from common import *
+from exact_distance import pair
 from side_module import KEYS,key
 from OCP.BRepAlgoAPI import BRepAlgoAPI_Check
 

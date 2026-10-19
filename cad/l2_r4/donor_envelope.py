@@ -10,6 +10,7 @@ import numpy as np
 from shapely.geometry import Polygon,Point
 from shapely.ops import unary_union
 from common import *
+from exact_distance import pair
 from surfaces import make_surfaces
 Z=14.2;THICKNESS=1.2;GAP=.5;MESH_ALLOWANCE=.04
 
@@ -66,7 +67,15 @@ def main():
     # term: the selected component must contain the existing sensor axis.
     optical=[q for q in pieces if q.covers(Point(0,66))]
     if not optical:raise RuntimeError('No connected donor board region includes the optical axis (0,66)')
-    outline=max(optical,key=lambda q:q.area).simplify(.015,preserve_topology=True).buffer(-.02)
+    selected=max(optical,key=lambda q:q.area)
+    inset=selected.simplify(.015,preserve_topology=True).buffer(-.02)
+    # The final conservative inset may sever a narrow neck. Reapply both
+    # single-board continuity and the mandatory optical-axis constraint.
+    inset_parts=[inset] if inset.geom_type=='Polygon' else list(inset.geoms)
+    inset_parts=[q for q in inset_parts if q.geom_type=='Polygon' and not q.is_empty]
+    inset_optical=[q for q in inset_parts if q.covers(Point(0,66))]
+    if not inset_optical:raise RuntimeError('Conservative inset disconnected the sensor axis from every printable board region')
+    outline=max(inset_optical,key=lambda q:q.area)
     board=valid(solid(outline),'D_MAX_BOARD_ENVELOPE');checks=[pair(board,s,'D_MAX_BOARD_ENVELOPE',n,GAP) for n,s in obs.items()]
     outside=vol(board.cut(outer))
     cq.exporters.export(board,str(OUT/'D_MAX_BOARD_ENVELOPE.step'))
@@ -78,6 +87,7 @@ def main():
         regions.append(dict(outer_xy_mm=list(q.exterior.coords),holes_xy_mm=[list(h.coords) for h in q.interiors]))
     save('donor_envelope.json',dict(status='DONOR_PENDING',candidate_geometric_pass=outside<=.001 and all(r['pass_check'] for r in checks),
         units='mm',bottom_z_mm=Z,thickness_mm=THICKNESS,area_mm2=outline.area,bounds_mm=bounds(board),outside_mother_mm3=outside,
+        conservative_inset_components=len(inset_parts),discarded_disconnected_area_mm2=sum(q.area for q in inset_parts)-outline.area,
         construction='Largest optical-axis-containing component in seven-height cavity intersection minus expanded obstacle projections. Projection allowances are conservative; exact final-solid distances are separately checked.',
         scope='Maximum only within this declared conservative planar construction. Not global optimization, real donor outline, mounting-hole certification, or component-height clearance certification.',
         retained_components=list(obs),checks=checks,hole_center_regions=regions,

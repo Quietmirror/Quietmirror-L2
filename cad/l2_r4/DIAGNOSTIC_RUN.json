@@ -1,0 +1,12 @@
+{
+  "phase": "final_candidate_solids_and_printed_walls",
+  "report_file": "diagnostic_execution.json",
+  "scripts": [
+    "cad/l2_r4/restore_inputs.py",
+    "cad/l2_r4/diagnostic_checks.py",
+    "cad/l2_r4/exterior_audit.py",
+    "cad/l2_r4/mesh_metrics.py",
+    "cad/l2_r4/wall_audit.py",
+    "cad/l2_r4/mesh_self_intersection.py"
+  ]
+}
