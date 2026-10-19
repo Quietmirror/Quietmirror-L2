@@ -1,0 +1,14 @@
+{
+  "status": "FAILED",
+  "phase": "candidate_6_service_path_and_actual_wall_sections",
+  "source_commit": "379e382841226aa1bd714b43ff818a5be27a2b78",
+  "steps": [
+    {
+      "script": "cad/l2_r4/battery_service.py",
+      "returncode": 1,
+      "seconds": 95.63,
+      "available_memory_before_GB": 15.662727168,
+      "log_tail": "VOXELS 800311 exact odd columns 0\nVOXELS 6701 exact odd columns 0\nVOXELS 10847 exact odd columns 0\nVOXELS 31350 exact odd columns 0\nVOXELS 30765 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 1506 exact odd columns 0\nVOXELS 1438 exact odd columns 0\nTraceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_service.py\", line 105, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_service.py\", line 77, in main\n    if not found:save('battery_service_path.json',report);raise RuntimeError('No battery route found within stated search domain; no service-access pass')\n                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No battery route found within stated search domain; no service-access pass\n"
+    }
+  ]
+}
