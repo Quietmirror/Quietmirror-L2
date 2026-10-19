@@ -418,5 +418,32 @@
   {
     "stage": "pair_begin",
     "part": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD"
+  },
+  {
+    "stage": "pair_end",
+    "part": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+    "seconds": 0.47363924980163574,
+    "result": {
+      "a": "LEFT_KEY",
+      "b": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "gap_mm": 2.038777080292393,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.3,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "nearest_points_mm": [
+        [
+          23.05,
+          35.30012184619465,
+          14.349716306044797
+        ],
+        [
+          23.05,
+          33.41733440553178,
+          13.567588799555129
+        ]
+      ]
+    }
   }
 ]
