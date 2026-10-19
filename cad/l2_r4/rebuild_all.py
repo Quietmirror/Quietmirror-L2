@@ -7,7 +7,7 @@ Historical L2_r3, author evidence, tags and releases are never modified.
 import subprocess,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2]
-SCRIPTS=['bootstrap_build','restore_inputs','build_body','main_key_relief','side_module','regenerate_keys','assemble','surface_mesh']
+SCRIPTS=['bootstrap_build','restore_inputs','build_body','main_key_relief','side_module','regenerate_keys','wheel_clearance_finish','assemble','surface_mesh']
 if __name__=='__main__':
     for name in SCRIPTS:
         print('REBUILD',name,flush=True)
