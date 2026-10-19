@@ -15,7 +15,7 @@
     41.0
   ],
   "passed": false,
-  "status": "PLANNING",
+  "status": "NO_ROUTE",
   "retained_obstacles": [
     "BODY",
     "SF_RETAINER",
@@ -28,5 +28,11 @@
     "SR_VERTICAL_PIN",
     "SF_RETAINER_M2x5",
     "SR_RETAINER_M2x5"
-  ]
+  ],
+  "nodes": [
+    4647,
+    28264
+  ],
+  "planner_evaluations": 223739,
+  "elapsed_s": 206.26758909225464
 }
