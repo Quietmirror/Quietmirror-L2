@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "FAILED",
   "phase": "final_candidate_routes_windows_donor_and_battery",
   "source_commit": "31aca18a12293d551eee87222374117359dd7c00",
   "steps": [
@@ -23,6 +23,13 @@
       "seconds": 374.89,
       "available_memory_before_GB": 15.632539648,
       "log_tail": "VOXELS 800311 exact odd columns 0\nROUTE SR_D2F_01F voxel_bad 0 raw_pass True\nVOXELS 30765 exact odd columns 0\nROUTE SF_D2F_01F voxel_bad 0 raw_pass True\nVOXELS 31350 exact odd columns 0\nROUTE SR_RETAINER voxel_bad 0 raw_pass True\nVOXELS 10847 exact odd columns 0\nROUTE SF_RETAINER voxel_bad 0 raw_pass True\nVOXELS 6701 exact odd columns 0\n"
+    },
+    {
+      "script": "cad/l2_r4/window_checks.py",
+      "returncode": 1,
+      "seconds": 1811.98,
+      "available_memory_before_GB": 15.653281792,
+      "log_tail": "WINDOW ROOT_TRI_L False False False 13\nWINDOW ROOT_TRI_R False False False 0\nWINDOW SHOULDER_TRI_L False False False 42\nWINDOW SHOULDER_TRI_R True False True 0\nTraceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/window_checks.py\", line 105, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/window_checks.py\", line 86, in main\n    z=rng.uniform(10.5*cfg['host']['scale'],oi[1]+.2);p=V(x,y,z)\n      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"numpy/random/_generator.pyx\", line 1102, in numpy.random._generator.Generator.uniform\n  File \"numpy/random/_common.pyx\", line 634, in numpy.random._common.cont\n  File \"numpy/random/_common.pyx\", line 432, in numpy.random._common.check_constraint\nValueError: high - low < 0\n"
     }
   ]
 }
