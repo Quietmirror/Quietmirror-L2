@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "candidate_8_rod_and_inner_corner_clearance_development",
   "source_commit": "977d56401a45b744a55a0ecbc8054530201cb2a9",
   "steps": [
