@@ -9,6 +9,13 @@
       "seconds": 4.53,
       "available_memory_before_GB": 15.707136,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/access_kinematics_final.py",
+      "returncode": 0,
+      "seconds": 8.64,
+      "available_memory_before_GB": 15.391952896,
+      "log_tail": "PAD_COVERAGE [('SIDE_FRONT_KEY', True, 0.09820000000000004), ('SIDE_REAR_KEY', True, 0.13830000000000003)]\n"
     }
   ]
 }
