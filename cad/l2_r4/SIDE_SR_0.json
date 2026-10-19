@@ -2,7 +2,6 @@
   "phase": "Complete side angular partition side_sr_0",
   "report_file": "side_sr_0_execution.json",
   "scripts": [
-    "cad/l2_r4/restore_inputs.py",
     "cad/l2_r4/side_sr_0.py"
   ]
 }

@@ -1,12 +1,12 @@
 name: L2-r4 candidate exact CAD checks
 on:
   push:
-    branches: [codex/r4-c15-checks]
+    branches: [codex/r4-cell-apertures]
     paths: ['cad/l2_r4/**', '.github/workflows/l2-r4-candidate.yml']
 permissions:
   contents: write
 concurrency:
-  group: l2-r4-c15-checks
+  group: l2-r4-cell-apertures
   cancel-in-progress: true
 jobs:
   independent_checks:
@@ -14,60 +14,12 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - role: final_left_0
-            config: MOTION_LEFT_0.json
-          - role: final_left_1
-            config: MOTION_LEFT_1.json
-          - role: final_left_2
-            config: MOTION_LEFT_2.json
-          - role: final_left_3
-            config: MOTION_LEFT_3.json
-          - role: final_left_4
-            config: MOTION_LEFT_4.json
-          - role: final_right_0
-            config: MOTION_RIGHT_0.json
-          - role: final_right_1
-            config: MOTION_RIGHT_1.json
-          - role: final_right_2
-            config: MOTION_RIGHT_2.json
-          - role: final_right_3
-            config: MOTION_RIGHT_3.json
-          - role: final_right_4
-            config: MOTION_RIGHT_4.json
-          - role: final_wheel_0
-            config: MOTION_WHEEL_0.json
-          - role: final_wheel_1
-            config: MOTION_WHEEL_1.json
-          - role: final_wheel_2
-            config: MOTION_WHEEL_2.json
-          - role: final_wheel_3
-            config: MOTION_WHEEL_3.json
-          - role: final_wheel_4
-            config: MOTION_WHEEL_4.json
-          - role: final_side_sf_0
-            config: SIDE_SF_0.json
-          - role: final_side_sf_1
-            config: SIDE_SF_1.json
-          - role: final_side_sf_2
-            config: SIDE_SF_2.json
-          - role: final_side_sf_3
-            config: SIDE_SF_3.json
-          - role: final_side_sf_4
-            config: SIDE_SF_4.json
-          - role: final_side_sr_0
-            config: SIDE_SR_0.json
-          - role: final_side_sr_1
-            config: SIDE_SR_1.json
-          - role: final_side_sr_2
-            config: SIDE_SR_2.json
-          - role: final_side_sr_3
-            config: SIDE_SR_3.json
-          - role: final_side_sr_4
-            config: SIDE_SR_4.json
-          - role: final_electronics
-            config: ELECTRONICS_RUN.json
-          - role: final_donor
-            config: FINAL_DONOR.json
+          - role: battery_aperture_original
+            config: BATTERY_APERTURE_ORIGINAL.json
+          - role: battery_aperture_medium
+            config: BATTERY_APERTURE_MEDIUM.json
+          - role: battery_aperture_compact
+            config: BATTERY_APERTURE_COMPACT.json
     runs-on: ubuntu-24.04
     timeout-minutes: 150
     env:
