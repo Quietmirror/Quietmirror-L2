@@ -14,9 +14,12 @@ from OCP.IntCurvesFace import IntCurvesFace_ShapeIntersector
 from OCP.gp import gp_Pnt,gp_Dir,gp_Lin
 from OCP.TopAbs import TopAbs_IN
 
-_classifiers={};_rays={}
+_classifiers={};_rays={};_bounds={}
 def contains(shape,p,tol=1e-7):
     key=id(shape)
+    if key not in _bounds:_bounds[key]=(shape,shape.BoundingBox())
+    bb=_bounds[key][1]
+    if any(getattr(p,c)<getattr(bb,c+'min')-tol or getattr(p,c)>getattr(bb,c+'max')+tol for c in 'xyz'):return False
     if key not in _classifiers:_classifiers[key]=(shape,BRepClass3d_SolidClassifier(shape.wrapped))
     classifier=_classifiers[key][1];classifier.Perform(gp_Pnt(*p.toTuple()),tol)
     return classifier.State()==TopAbs_IN or classifier.IsOnAFace()
@@ -59,7 +62,8 @@ def main(selected_index=None,report_name='six_window_samples.json'):
         tool=original_tool.mirror('YZ')
         top=max([f for f in tool.Faces() if f.geomType()=='PLANE' and abs(f.normalAt().z)>.99],key=lambda f:f.Center().z)
         wire=top.outerWire();bb=tool.BoundingBox()
-        local=b.intersect(box(bb.xmin-1,bb.xmax+1,bb.ymin-1,bb.ymax+1,10,40))
+        crop=box(bb.xmin-1,bb.xmax+1,bb.ymin-1,bb.ymax+1,0,50)
+        local=b.intersect(crop);oldlocal=old.intersect(crop)
         boundary=[]
         for i in range(200):
             p=wire.positionAt((i+.314159)/200)
@@ -75,25 +79,31 @@ def main(selected_index=None,report_name='six_window_samples.json'):
             t=wire.tangentAt((i+.314159)/200);normal=V(-t.y,t.x,0).normalized()
             if not contains(tool,V(p.x+normal.x*.2,p.y+normal.y*.2,30),1e-7):normal=-normal
             qp=q+normal*.2
-            inside=bool(contains(b,qp,1e-7));reasons=sorted(set(exceptions(q)+exceptions(qp))) if d>.01 or inside else []
-            boundary.append(dict(point_mm=q.toTuple(),distance_mm=d,inward_point_mm=qp.toTuple(),inward_inside=inside,baseline_inside=bool(contains(old,qp,1e-7)),declared_regions=reasons,classified_pass=(d<=.01 and not inside) or bool(reasons)))
-        full=[];roof=[]
+            inside=bool(contains(local,qp,1e-7));reasons=sorted(set(exceptions(q)+exceptions(qp))) if d>.01 or inside else []
+            boundary.append(dict(point_mm=q.toTuple(),distance_mm=d,inward_point_mm=qp.toTuple(),inward_inside=inside,baseline_inside=bool(contains(oldlocal,qp,1e-7)),declared_regions=reasons,classified_pass=(d<=.01 and not inside) or bool(reasons)))
+        full=[];roof=[];empty_columns=0
         while len(full)<1000 or len(roof)<1000:
             x,y=rng.uniform(bb.xmin,bb.xmax),rng.uniform(bb.ymin,bb.ymax)
             if not contains(tool,V(x,y,30),1e-7):continue
             oi=z_interval(outer,x,y);ii=z_interval(inner,x,y)
             if not oi:continue
+            if oi[1]+.2<=10.5*cfg['host']['scale']:
+                # This column of the source prism lies wholly above the
+                # mother surface; it contains no possible occupied BODY.
+                # Continue drawing until all1000 nonempty-domain samples
+                # exist; never lower the sample count or invert the bounds.
+                empty_columns+=1;continue
             if len(full)<1000:
                 z=rng.uniform(10.5*cfg['host']['scale'],oi[1]+.2);p=V(x,y,z)
                 if not contains(tool,p,1e-7):continue
-                inside=bool(contains(b,p,1e-7));reasons=exceptions(p) if inside else []
-                full.append(dict(point_mm=p.toTuple(),inside=inside,baseline_inside=bool(contains(old,p,1e-7)),declared_regions=reasons,classified_pass=not inside or bool(reasons)))
+                inside=bool(contains(local,p,1e-7));reasons=exceptions(p) if inside else []
+                full.append(dict(point_mm=p.toTuple(),inside=inside,baseline_inside=bool(contains(oldlocal,p,1e-7)),declared_regions=reasons,classified_pass=not inside or bool(reasons)))
             if len(roof)<1000 and ii:
                 z=rng.uniform(ii[1],oi[1]+.2);p=V(x,y,z)
                 if not contains(tool,p,1e-7):continue
-                inside=bool(contains(b,p,1e-7));reasons=exceptions(p) if inside else []
-                roof.append(dict(point_mm=p.toTuple(),inside=inside,baseline_inside=bool(contains(old,p,1e-7)),declared_regions=reasons,classified_pass=not inside or bool(reasons)))
-        r=dict(window=name,assembly_x_mirrored=True,boundary=boundary,full_prism=full,roof_shell_band=roof,
+                inside=bool(contains(local,p,1e-7));reasons=exceptions(p) if inside else []
+                roof.append(dict(point_mm=p.toTuple(),inside=inside,baseline_inside=bool(contains(oldlocal,p,1e-7)),declared_regions=reasons,classified_pass=not inside or bool(reasons)))
+        r=dict(window=name,assembly_x_mirrored=True,boundary=boundary,full_prism=full,roof_shell_band=roof,empty_columns_above_mother=empty_columns,
                boundary_raw_pass=all(p['distance_mm']<=.01 and not p['inward_inside'] for p in boundary),
                full_prism_raw_pass=not any(p['inside'] for p in full),roof_band_raw_pass=not any(p['inside'] for p in roof),
                full_prism_new_invasions=sum(p['inside'] and not p['baseline_inside'] for p in full),
@@ -104,3 +114,4 @@ def main(selected_index=None,report_name='six_window_samples.json'):
         print('WINDOW',name,r['boundary_raw_pass'],r['full_prism_raw_pass'],r['roof_band_raw_pass'],r['full_prism_new_invasions'],flush=True)
 
 if __name__=='__main__':main()
+
