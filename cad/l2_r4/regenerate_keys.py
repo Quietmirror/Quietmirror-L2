@@ -5,14 +5,7 @@ from side_module import KEYS,key,ROD_RADIUS,PAD_RADIUS,PAD_HEIGHT
 
 def finished_key(outer,k,offset=.2):
     s,p=key(outer,k,offset)
-    # The offset crown leaves a small crescent of the original rod outside
-    # the backing sphere, intruding into the PET layer. Start the complete
-    # cylindrical rod 0.02mm before the crown's rear plane. Only that crescent
-    # is trimmed; the spherical contact face and its continuous root remain.
-    sphere=cq.Solid.makeSphere(PAD_RADIUS,V(k['rod_end']+PAD_RADIUS,k['rod_y']+k['pad_y_offset'],16.6),angleDegrees1=-90,angleDegrees2=90)
-    crescent=cyl(ROD_RADIUS+.00001,PAD_HEIGHT-.02-.40,(k['rod_end']+.40,k['rod_y'],16.6),(1,0,0)).cut(sphere)
-    s=valid(s.cut(crescent).clean(),k['name'])
-    p.update(rod_to_crown_finish='C10: remove rod crescent outside backing sphere over x=end+0.40..end+0.50; pad, contact skin, BODY and retainers unchanged')
+    p.update(rod_to_crown_finish='C11: construct rod from end+0.50 directly inside sphere; no later microscopic crescent boolean; pad, contact skin, BODY and retainers unchanged')
     return s,p
 
 def main():
