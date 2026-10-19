@@ -414,5 +414,9 @@
         ]
       ]
     }
+  },
+  {
+    "stage": "pair_begin",
+    "part": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD"
   }
 ]
