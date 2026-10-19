@@ -1,24 +1,10 @@
 {
-  "phase": "candidate_4_access_and_complete_motion_audit",
+  "phase": "candidate_7_independent_verification_and_actual_print_artifacts",
+  "geometry_source_commit": "f73ba1a39c29c3f8b1c23944e1ea390afa9f930f",
+  "geometry_checkpoint": "5e0fe111d5871e312edddbf4573f6a90f7b8a456",
+  "windows": true,
+  "parallel": true,
   "scripts": [
-    "cad/l2_r4/bootstrap_build.py",
-    "cad/l2_r4/restore_inputs.py",
-    "cad/l2_r4/side_module.py",
-    "cad/l2_r4/main_key_relief.py",
-    "cad/l2_r4/build_body.py",
-    "cad/l2_r4/assemble.py",
-    "cad/l2_r4/surface_mesh.py",
-    "cad/l2_r4/diagnostic_checks.py",
-    "cad/l2_r4/plan_sf_route.py",
-    "cad/l2_r4/assembly_paths.py",
-    "cad/l2_r4/electronics_checks.py",
-    "cad/l2_r4/main_motion_checks.py",
-    "cad/l2_r4/side_functional_checks.py",
-    "cad/l2_r4/mechanism_accounting.py",
-    "cad/l2_r4/window_checks.py",
-    "cad/l2_r4/donor_envelope.py",
-    "cad/l2_r4/mesh_metrics.py",
-    "cad/l2_r4/render.py",
-    "cad/l2_r4/plot_checks.py"
+    "cad/l2_r4/surface_mesh.py"
   ]
 }

@@ -39,6 +39,11 @@ def outer_masks(mesh):
     wx = w * np.maximum(0, 1 - frac ** 3.4) ** (1 / 3.4)
     return (np.abs(z - rz) < 0.35, np.abs(np.abs(x) - wx) < 0.35)
 
+def root_cases(mesh,interval=(35.5,42.5)):
+    x,y,z=mesh.centers.T;nx,ny,nz=mesh.normals.T;lo,hi=interval
+    return [FC.selected_load(mesh,(y>=lo)&(y<=hi)&(x>=6)&(x<=24)&(z>=11)&(nz>.2),[0,0,-1],5,'left_main_root_down_5N'),
+            FC.selected_load(mesh,(y>=lo)&(y<=hi)&(x<=-6)&(x>=-24)&(z>=11)&(nz>.2),[0,0,-1],5,'right_main_root_down_5N')]
+
 def cases(mesh):
     x, y, z = mesh.centers.T
     nx, ny, nz = mesh.normals.T
@@ -49,8 +54,7 @@ def cases(mesh):
     # Execute-all Appendix B explicitly uses 35.5..42.5. The author's helper
     # derives 35..42 from the older root_y=38 parameter. Use the requested
     # interval and disclose this difference when comparing author numbers.
-    out.append(FC.selected_load(mesh, (y >= 35.5) & (y <= 42.5) & (x >= 6) & (x <= 24) & (z >= 11) & (nz > 0.2), [0, 0, -1], 5, 'left_main_root_down_5N'))
-    out.append(FC.selected_load(mesh, (y >= 35.5) & (y <= 42.5) & (x <= -6) & (x >= -24) & (z >= 11) & (nz > 0.2), [0, 0, -1], 5, 'right_main_root_down_5N'))
+    out.extend(root_cases(mesh))
     for i, m in enumerate(META['mechanisms']['side_motions']):
         tip = np.asarray(m['plunger_tip'], float)
         fx = tip[0] - 7.5
