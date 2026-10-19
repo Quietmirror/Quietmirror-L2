@@ -604,5 +604,32 @@
   {
     "stage": "pair_begin",
     "part": "SWITCH_LEFT_RIGID_HOUSING"
+  },
+  {
+    "stage": "pair_end",
+    "part": "SWITCH_LEFT_RIGID_HOUSING",
+    "seconds": 1.2344577312469482,
+    "result": {
+      "a": "LEFT_KEY",
+      "b": "SWITCH_LEFT_RIGID_HOUSING",
+      "gap_mm": 0.39709712570483857,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.3,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "nearest_points_mm": [
+        [
+          21.26460452943257,
+          20.07019094049028,
+          14.544220673193639
+        ],
+        [
+          21.2,
+          20.433385317051,
+          14.397243712908999
+        ]
+      ]
+    }
   }
 ]
