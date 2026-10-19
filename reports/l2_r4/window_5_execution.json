@@ -9,6 +9,13 @@
       "seconds": 3.3,
       "available_memory_before_GB": 15.549620224,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/window_5.py",
+      "returncode": 0,
+      "seconds": 183.03,
+      "available_memory_before_GB": 15.369035776,
+      "log_tail": "WINDOW REAR_TRAP_R True False False 3\n"
     }
   ]
 }
