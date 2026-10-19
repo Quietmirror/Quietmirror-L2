@@ -1,0 +1,68 @@
+{
+  "trials": [
+    {
+      "dimensions_mm": [
+        14,
+        28,
+        6
+      ],
+      "goal_candidates": 6,
+      "passed": false,
+      "nodes": [
+        3147,
+        39385
+      ],
+      "evaluations": 225775,
+      "route_found": false
+    },
+    {
+      "dimensions_mm": [
+        12,
+        33,
+        6
+      ],
+      "goal_candidates": 0,
+      "passed": false
+    },
+    {
+      "dimensions_mm": [
+        16,
+        25,
+        6
+      ],
+      "goal_candidates": 9,
+      "passed": false,
+      "nodes": [
+        1969,
+        39333
+      ],
+      "evaluations": 218092,
+      "route_found": false
+    }
+  ],
+  "accepted": null,
+  "elapsed_s": 419.8133702278137,
+  "original_estimate_mm": [
+    18,
+    22,
+    6
+  ],
+  "planning_clearance_mm": 0.65,
+  "exact_clearance_mm": 0.5,
+  "passed": false,
+  "status": "NO_ACCEPTED_ALTERNATIVE",
+  "definition": "Proposal only. Original assembly remains unchanged. New package aspect ratio must be explicitly adopted and all affected checks repeated; similar volume is not a capacity claim.",
+  "retained_obstacles": [
+    "BODY",
+    "SF_RETAINER",
+    "SR_RETAINER",
+    "SIDE_FRONT_KEY",
+    "SIDE_REAR_KEY",
+    "SF_D2F_01F",
+    "SR_D2F_01F",
+    "SF_VERTICAL_PIN",
+    "SR_VERTICAL_PIN",
+    "SF_RETAINER_M2x5",
+    "SR_RETAINER_M2x5"
+  ]
+}
