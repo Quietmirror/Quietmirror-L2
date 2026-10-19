@@ -72,11 +72,11 @@
     "printable": true,
     "valid": true,
     "solids": 1,
-    "volume_mm3": 76.74189104272244,
+    "volume_mm3": 76.74189109856033,
     "bounds_mm": [
       25.4,
       44.05,
-      15.299999992433628,
+      15.3,
       32.367318773232,
       56.05000010000002,
       19.45000010000021
@@ -85,7 +85,7 @@
       "watertight": false,
       "winding_consistent": true,
       "components": 1,
-      "triangles": 19230,
+      "triangles": 19120,
       "bounds_mm": [
         [
           25.399999618530273,
@@ -106,11 +106,11 @@
     "printable": true,
     "valid": true,
     "solids": 1,
-    "volume_mm3": 81.56501095510058,
+    "volume_mm3": 81.56501091820678,
     "bounds_mm": [
       25.4,
       58.34999989999997,
-      15.299999992433628,
+      15.3,
       32.66429196856799,
       70.95,
       19.450000100000015
@@ -119,7 +119,7 @@
       "watertight": false,
       "winding_consistent": true,
       "components": 1,
-      "triangles": 20518,
+      "triangles": 20402,
       "bounds_mm": [
         [
           25.399999618530273,

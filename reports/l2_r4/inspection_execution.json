@@ -9,6 +9,13 @@
       "seconds": 3.7,
       "available_memory_before_GB": 15.55576832,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/regenerate_keys.py",
+      "returncode": 0,
+      "seconds": 21.97,
+      "available_memory_before_GB": 15.441174528,
+      "log_tail": "EXPORTED SIDE_FRONT_KEY 76.7419\nEXPORTED SIDE_REAR_KEY 81.565\n"
     }
   ]
 }

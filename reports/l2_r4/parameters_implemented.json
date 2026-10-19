@@ -43,7 +43,7 @@
       },
       "rod_radius_mm": 1.05,
       "deviation": "Axis X29 to X27.5 and upper lug top20.8 to20.6 prevent measured external skin breakthrough; C7 journal/ear heights18.25/19.35. C8 rod radius1.05, SF inner skin pocket around post, SR front edge58.35. Fixed BODY unchanged; source corrections require fresh cap checks.",
-      "rod_to_crown_finish": "C10: remove rod crescent outside backing sphere over x=end+0.40..end+0.50; pad, contact skin, BODY and retainers unchanged"
+      "rod_to_crown_finish": "C11: construct rod from end+0.50 directly inside sphere; no later microscopic crescent boolean; pad, contact skin, BODY and retainers unchanged"
     },
     {
       "name": "SIDE_REAR_KEY",
@@ -86,7 +86,7 @@
       },
       "rod_radius_mm": 1.05,
       "deviation": "Axis X29 to X27.5 and upper lug top20.8 to20.6 prevent measured external skin breakthrough; C7 journal/ear heights18.25/19.35. C8 rod radius1.05, SF inner skin pocket around post, SR front edge58.35. Fixed BODY unchanged; source corrections require fresh cap checks.",
-      "rod_to_crown_finish": "C10: remove rod crescent outside backing sphere over x=end+0.40..end+0.50; pad, contact skin, BODY and retainers unchanged"
+      "rod_to_crown_finish": "C11: construct rod from end+0.50 directly inside sphere; no later microscopic crescent boolean; pad, contact skin, BODY and retainers unchanged"
     }
   ],
   "frame": "Integrated source feature of BODY, not a separate printed carrier",
