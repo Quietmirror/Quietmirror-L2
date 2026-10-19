@@ -37,6 +37,13 @@
       "seconds": 9.13,
       "available_memory_before_GB": 15.5844608,
       "log_tail": "{'part': 'SIDE_FRONT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 27560, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SIDE_REAR_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 29970, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SF_RETAINER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 5094, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SR_RETAINER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 5812, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'WHEEL_CARRIER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 33128, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n"
+    },
+    {
+      "script": "cad/l2_r4/mechanism_accounting.py",
+      "returncode": 0,
+      "seconds": 17.84,
+      "available_memory_before_GB": 15.63015168,
+      "log_tail": "ACTUATION [('SIDE_FRONT_KEY', True), ('SIDE_REAR_KEY', True)]\n"
     }
   ]
 }
