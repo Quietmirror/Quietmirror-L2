@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "C16 PCB rear-edge source correction and all23 poses",
   "source_commit": "655750a98d130835b398f7f26ac05b2544a174bb",
   "steps": [
