@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "FAILED",
   "phase": "full_original_distance_battery_original",
   "source_commit": "999ef82b9921033978dcd59ce34234ae0fc78db8",
   "steps": [
@@ -9,6 +9,13 @@
       "seconds": 4.6,
       "available_memory_before_GB": 15.687483392,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/battery_aperture_original.py",
+      "returncode": 1,
+      "seconds": 168.23,
+      "available_memory_before_GB": 15.483449344,
+      "log_tail": "VOXELS 800311 exact odd columns 0\nVOXELS 6484 exact odd columns 0\nVOXELS 10582 exact odd columns 0\nVOXELS 4864 exact odd columns 0\nVOXELS 5037 exact odd columns 0\nVOXELS 31350 exact odd columns 0\nVOXELS 30765 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 1506 exact odd columns 0\nVOXELS 1438 exact odd columns 0\nTo https://github.com/Quietmirror/Quietmirror-L2.git\n   4ab5164..48544fe  HEAD -> codex/r4-aperture_original-39278195740\nCHECKPOINT codex/r4-aperture_original-39278195740 48544feeca63b1eabb598ae93b328f7d8ee7c764\nAPERTURE_RRT [18, 22, 6] 0 1 4020 42\nAPERTURE_RRT [18, 22, 6] 10000 283 6398 55\nAPERTURE_RRT [18, 22, 6] 20000 512 8749 67\nAPERTURE_RRT [18, 22, 6] 30000 742 11085 79\nAPERTURE_RRT [18, 22, 6] 40000 967 13457 92\nAPERTURE_RRT [18, 22, 6] 50000 1192 15806 104\nAPERTURE_RRT [18, 22, 6] 60000 1439 18178 117\nAPERTURE_RRT [18, 22, 6] 70000 1672 20551 129\nAPERTURE_RRT [18, 22, 6] 80000 1877 22908 141\nAPERTURE_RRT [18, 22, 6] 90000 2082 25253 154\nTraceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_aperture_original.py\", line 2, in <module>\n    if __name__=='__main__':main([18,22,6],'battery_aperture_original.json')\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_window_service.py\", line 95, in main\n    if route is None:raise RuntimeError('No route between actual connected aperture prefixes and stated final bay')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No route between actual connected aperture prefixes and stated final bay\n"
     }
   ]
 }
