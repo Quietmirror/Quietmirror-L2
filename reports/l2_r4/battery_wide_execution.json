@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "Shorter similar-volume cell proposals and connector access",
+  "source_commit": "0a05e63371f76f563beea546bcad1308a21b4411",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 4.6,
+      "available_memory_before_GB": 15.59891968,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
