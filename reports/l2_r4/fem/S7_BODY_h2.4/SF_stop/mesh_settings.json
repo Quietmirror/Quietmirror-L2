@@ -1,0 +1,15 @@
+{
+  "Mesh.MeshSizeMin": 0.9119999999999999,
+  "Mesh.MeshSizeMax": 2.4,
+  "Mesh.MeshSizeFromPoints": 1,
+  "Mesh.MeshSizeFromCurvature": 24,
+  "Mesh.MeshSizeExtendFromBoundary": 1,
+  "Mesh.Algorithm": 6,
+  "Mesh.Algorithm3D": 1,
+  "Mesh.ElementOrder": 2,
+  "Mesh.SecondOrderLinear": 1,
+  "Mesh.HighOrderOptimize": 0,
+  "Mesh.Optimize": 1,
+  "Mesh.SaveAll": 0,
+  "General.NumThreads": 1
+}
