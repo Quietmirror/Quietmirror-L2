@@ -1791,9 +1791,9 @@
   },
   "reports/l2_r4/native_roundtrip.json": {
     "script": "cad/l2_r4/native.py",
-    "source_commit": "540a1ea44f5792fe86e2ab227e3a6292d3b265dc",
+    "source_commit": "b86d42a1e842f5575746ee01b51fdc75ea3402d6",
     "returncode": 0,
-    "report_sha256": "e765d35fdfc011a778c2a730b0ad1bff8154282f3305614c906007e4be283b94",
+    "report_sha256": "fed68e4e93e4bfd041df0a75a28713c3b690859fa560847c01afc72171cda97c",
     "geometry": {
       "cad/rebuild_r2/parameters.json": "1b80721457bb4f2b11f7021d3e2d98ef9f6068510906099e9b0e38f2f33141f0",
       "cad/rebuild_r3_2/electronics.json": "866e3892c6d2ddd8b001e746b3bbc4b77bdf3fc799ded156e8bf2b10458d4c08",
