@@ -9,6 +9,13 @@
       "seconds": 4.68,
       "available_memory_before_GB": 15.59556096,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/carrier_c18.py",
+      "returncode": 0,
+      "seconds": 6.65,
+      "available_memory_before_GB": 15.517151232,
+      "log_tail": "EXPORTED WHEEL_CARRIER 587.0777\n"
     }
   ]
 }
