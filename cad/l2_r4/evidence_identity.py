@@ -16,13 +16,20 @@ def model_files(script):
     if stem=='fem_stage':return [parts/'BODY.step',RP/'fem/REFERENCE_R32_ROOT_PROTOCOL.json']
     if stem=='side_fem':return [parts/(n+'.step') for n in ['BODY','SF_RETAINER','SR_RETAINER']]
     if stem=='fem_reference':return [ROOT/'models/L2_r3/inputs/R32_BASELINE.FCStd']
+    if stem=='fem_geometry_investigation':return [parts/'BODY.step',ROOT/'models/L2_r3/parts/BODY.step',ROOT/'cad/l2_fem_author/variants/R4_SIDE_FRAME_ONLY.step',ROOT/'exports/l2_r2_diagnostic/support_reference/MOTHER_OUTER_FROM_R32_SURFACE.step']
     if stem in ['slice_plate','trial_and_plate_views']:
         return sorted(parts.glob('*.stl'))+[HERE/'PLA_0.4_0.20_ESTIMATE.ini']+sorted((ROOT/'models/L2_r4/reference').glob('*F2_TRIAL.step'))
     paths=list(parts.glob('*.step'))
     if stem in ['main_motion_checks','contact_audit']:paths.extend((ROOT/'models/L2_r4/validation_features').glob('*.step'))
     inv=RP/'assembly_inventory.json'
     if inv.exists():paths.extend(ROOT/'models/L2_r4/reference'/(n+'.step') for n in json.loads(inv.read_text())['H_hardware'])
-    if stem in ['diagnostic_checks','mesh_metrics','surface_mesh']:paths.extend(parts.glob('*.stl'))
+    if stem in ['diagnostic_checks','mesh_metrics','surface_mesh','wall_audit','mesh_self_intersection']:paths.extend(parts.glob('*.stl'))
+    report_inputs={'contact_audit':['static_pairs.json','component_pairs.json','side_functional_motion.json'],
+        'mesh_metrics':['solids.json'],
+        'render':['assembly_inventory.json','side_actuation_force_and_tuning.json','assembly_routes_final.json'],
+        'plot_checks':['side_motion_raw.json','main_and_wheel_motion_raw.json','side_functional_motion.json']}
+    paths.extend(RP/p for p in report_inputs.get(stem,[]))
+    paths.extend([ROOT/'cad/rebuild_r2/parameters.json',ROOT/'cad/rebuild_r3_2/electronics.json',ROOT/'reports/rebuild_r3_2/design_metadata.json'])
     return sorted(set(paths))
 
 def source_files(script):

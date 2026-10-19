@@ -1,6 +1,6 @@
 """Orthographic technical views from the actual exported assembly, 9 px/mm."""
 from pathlib import Path
-import json,math
+import json,math,hashlib
 import numpy as np
 import vtk
 from vtk.util.numpy_support import numpy_to_vtk
@@ -9,7 +9,7 @@ import cadquery as cq
 ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'views/l2_r4';MOD=ROOT/'models/L2_r4';RP=ROOT/'reports/l2_r4'
 SIZE=(1200,1000);SCALE=9.;FONT=str(next((p for p in [Path('C:/Windows/Fonts/msyh.ttc'),Path('/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc')] if p.exists()),Path('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf')))
 inventory=json.loads((RP/'assembly_inventory.json').read_text())
-shapes={};polys={}
+shapes={};polys={};rendered=[]
 def read(n,folder='parts'):
     key=folder+'/'+n
     if key not in shapes:shapes[key]=cq.importers.importStep(str(MOD/folder/(n+'.step'))).val()
@@ -49,7 +49,7 @@ def picture(name,objects_,direction,up=(0,0,1),focus=(0,44,16),scale=SCALE,title
     draw.rectangle((0,0,1200,100),fill='#edf2f5');draw.text((26,16),title,font=font,fill='#1c3340');draw.text((26,58),note,font=small,fill='#465b66')
     y=953;draw.line((32,y,32+10*scale,y),fill='#243b48',width=3);draw.line((32,y-6,32,y+6),fill='#243b48',width=2);draw.line((32+10*scale,y-6,32+10*scale,y+6),fill='#243b48',width=2)
     draw.text((145,936),'10 mm | L2-r4 | '+str(scale)+' px/mm',font=small,fill='#334e5b')
-    im.save(path);print('VIEW',name,flush=True)
+    im.save(path);rendered.append(path);print('VIEW',name,flush=True)
 def main():
     OUT.mkdir(exist_ok=True);obj=objects();inside=objects(True)
     definitions=[('FRONT',(0,-1,0),(0,0,1),'前视 −Y','X / Z'),('BACK',(0,1,0),(0,0,1),'后视 +Y','X / Z'),('LEFT',(-1,0,0),(0,0,1),'左视 −X','Y / Z'),('RIGHT',(1,0,0),(0,0,1),'右视 +X · 侧键侧','Y / Z'),('TOP',(0,0,1),(0,-1,0),'俯视 +Z','X / Y'),('BOTTOM',(0,0,-1),(0,1,0),'底视 −Z','X / Y')]
@@ -108,4 +108,6 @@ def main():
                 picture('ASSEMBLY_'+name+'_'+str(j+1),shown,(1,-1,-.6),focus=(12,54,12),scale=12,title='装配路线 | '+name+' | '+str(j+1),note='相对最终位置 '+str(way[index])+'；路线检查见 assembly_routes_final.json')
             placed.append((name,shape,(.26,.54,.69),1))
     compare=Image.new('RGB',(2400,1000),'white');compare.paste(Image.open(OUT/'R3_BASELINE.png'),(0,0));compare.paste(Image.open(OUT/'H_ISO_FRONT.png'),(1200,0));compare.save(OUT/'R3_VS_L2_r4.png')
+    rendered.extend(OUT/n for n in ['R3_VS_L2_r4.png','R3_VS_L2_r4_TOP_RIGHT_BOTTOM.png','L2_r4_H_SIX_VIEWS_SHEET.png'])
+    (RP/'render_manifest.json').write_text(json.dumps(dict(source='Actual independent saved STEP components; no generated concept pictures',files={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in rendered},orthographic_px_per_mm=SCALE),indent=2))
 if __name__=='__main__':main()
