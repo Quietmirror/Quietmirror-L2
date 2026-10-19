@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "Actual aperture-connected service proposal medium",
+  "source_commit": "b9285ead0c64a066823f49ba5fe414f73402d396",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 4.53,
+      "available_memory_before_GB": 15.672225792,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
