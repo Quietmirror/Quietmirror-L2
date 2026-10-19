@@ -263,5 +263,32 @@
   {
     "stage": "pair_begin",
     "part": "LEFT_KEY_M2_SWITCH_1_NUT"
+  },
+  {
+    "stage": "pair_end",
+    "part": "LEFT_KEY_M2_SWITCH_1_NUT",
+    "seconds": 0.8922886848449707,
+    "result": {
+      "a": "LEFT_KEY",
+      "b": "LEFT_KEY_M2_SWITCH_1_NUT",
+      "gap_mm": 4.208726682413874,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.3,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "nearest_points_mm": [
+        [
+          13.559169203163853,
+          22.747211327303617,
+          16.729344793197313
+        ],
+        [
+          13.25,
+          24.213101309895,
+          12.796284756786
+        ]
+      ]
+    }
   }
 ]
