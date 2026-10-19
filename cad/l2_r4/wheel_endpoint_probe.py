@@ -3,6 +3,7 @@ import json,os,subprocess,sys
 import numpy as np
 from common import *
 from contact_audit import collar,rigid_housing
+from bounded_scene import scene_pairs
 
 def main():
     inv=json.loads((RP/'assembly_inventory.json').read_text());meta=json.loads((ROOT/'reports/rebuild_r3_2/design_metadata.json').read_text())

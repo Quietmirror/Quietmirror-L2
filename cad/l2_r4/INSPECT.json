@@ -1,12 +1,11 @@
 {
-  "phase": "C12 wheel hardware clearance correction",
-  "report_file": "wheel_c12_execution.json",
+  "phase": "C14 ordinary static clearances",
+  "report_file": "c14_geometry_execution.json",
   "scripts": [
     "cad/l2_r4/restore_inputs.py",
+    "cad/l2_r4/retainer_clearance_finish.py",
     "cad/l2_r4/wheel_clearance_finish.py",
     "cad/l2_r4/assemble.py",
-    "cad/l2_r4/wheel_endpoint_probe.py",
-    "cad/l2_r4/wheel_rotation_check.py",
     "cad/l2_r4/surface_mesh_changed.py",
     "cad/l2_r4/mechanism_accounting.py"
   ]

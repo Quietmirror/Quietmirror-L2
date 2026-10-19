@@ -69,7 +69,12 @@ def retainer(short):
     s=s.cut(cyl(.85,3.,(m['x'],m['y'],13.7)))
     # 0.55 mm elevated entry is needed by the locating pin. The larger
     # terminal-slot height gives at least 0.25 mm above its lower lip then.
-    for y in terminal_y:s=s.cut(box(14.,19.2,y-.8,y+.8,15.6,17.2))
+    for y in terminal_y:s=s.cut(box(14.,19.2,y-.97,y+.97,15.6,17.35))
+    if short=='SR':
+        # The upper front lip previously touched the central divider atX19.
+        # Retain the full clamp length and pin root; thin just this0.75mm
+        # front segment from1.70 to1.35mm to leave0.35mm ordinary clearance.
+        s=s.cut(box(18.65,19.2,55.2,56.05,13.7,19.6))
     return valid(s.clean(),short+'_RETAINER')
 
 def fixed_features(outer):
