@@ -1,11 +1,12 @@
 {
-  "phase": "source_rebuild_candidate_1",
+  "phase": "candidate_1_exact_diagnostics",
   "scripts": [
     "cad/l2_r4/bootstrap_build.py",
     "cad/l2_r4/restore_inputs.py",
     "cad/l2_r4/side_module.py",
     "cad/l2_r4/build_body.py",
     "cad/l2_r4/assemble.py",
-    "cad/l2_r4/surface_mesh.py"
+    "cad/l2_r4/surface_mesh.py",
+    "cad/l2_r4/diagnostic_checks.py"
   ]
 }

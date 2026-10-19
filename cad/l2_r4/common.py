@@ -35,30 +35,41 @@ def export(s,n,printable=True):
         m=trimesh.load_mesh(raw);m.merge_vertices(digits_vertex=6)
         m.update_faces(m.nondegenerate_faces(height=1e-7));m.update_faces(m.unique_faces());m.remove_unreferenced_vertices()
         m.export(folder/(n+'.stl'))
-        row['mesh']=dict(watertight=bool(m.is_watertight),winding_consistent=bool(m.is_winding_consistent),components=len(m.split(only_watertight=False)),triangles=len(m.faces),bounds_mm=m.bounds.tolist(),holes_patched=0)
+        row['mesh']=dict(watertight=bool(m.is_watertight),winding_consistent=bool(m.is_winding_consistent),components=len(trimesh.graph.connected_components(m.face_adjacency,nodes=range(len(m.faces)),engine='scipy',min_len=1)),triangles=len(m.faces),bounds_mm=m.bounds.tolist(),holes_patched=0)
     print('EXPORTED',n,round(row['volume_mm3'],4),flush=True)
     return row
 def pair(a,b,an,bn,minimum=.5,intended=False):
-    distance_kind='exact'
-    ba=a.BoundingBox();bb=b.BoundingBox()
-    lower=sum(max(0.,getattr(ba,c+'min')-getattr(bb,c+'max'),getattr(bb,c+'min')-getattr(ba,c+'max'))**2 for c in 'xyz')**.5
-    if lower>=max(minimum,.3)+.05:
-        return dict(a=an,b=bn,gap_mm=lower,overlap_mm3=0.,required_mm=minimum,intended_contact=intended,pass_check=True,distance_kind='AABB_distance_lower_bound')
-    # Exact overlap and threshold clearance only need BODY inside a padded
-    # actor AABB. Outside this box, the distance is at least the padding.
-    # This avoids pathological global BSpline extremum searches.
-    pad=max(.65,minimum+.15)
+    """Exact BRep distance; AABBs are only a broad-phase aid.
+
+    A cropped BODY is accepted only if its measured nearest distance is less
+    than the crop padding: every omitted point is farther by construction.
+    Otherwise the original complete BODY is measured. No distance lower
+    bound is returned as a minimum distance.
+    """
+    from OCP.BRepExtrema import BRepExtrema_DistShapeShape
+    original_a,original_b=a,b
+    method='BRepExtrema_DistShapeShape_complete'
+    pad=3.0
     if an=='BODY' or bn=='BODY':
-        other=b if an=='BODY' else a;bb=other.BoundingBox()
+        actor=b if an=='BODY' else a;bb=actor.BoundingBox()
         region=box(bb.xmin-pad,bb.xmax+pad,bb.ymin-pad,bb.ymax+pad,bb.zmin-pad,bb.zmax+pad)
-        local=(a if an=='BODY' else b).intersect(region)
-        if not local.Solids():return dict(a=an,b=bn,gap_mm=pad,overlap_mm3=0.,required_mm=minimum,intended_contact=intended,pass_check=True,distance_kind='lower_bound_by_AABB_exclusion')
-        if an=='BODY':a=local
-        else:b=local
-        distance_kind='exact_if_below_padding_else_lower_bound'
-    bb1=a.BoundingBox();bb2=b.BoundingBox()
-    possible=all(getattr(bb1,c+'max')>=getattr(bb2,c+'min')-1e-6 and getattr(bb2,c+'max')>=getattr(bb1,c+'min')-1e-6 for c in 'xyz')
-    overlap=vol(a.intersect(b)) if possible else 0.
-    d=0. if overlap>.001 else a.distance(b)
-    if distance_kind!='exact':d=min(d,pad)
-    return dict(a=an,b=bn,gap_mm=d,overlap_mm3=overlap,required_mm=minimum,intended_contact=intended,pass_check=overlap<=.001 and (intended or d>=minimum-1e-5),distance_kind=distance_kind)
+        candidate=(a if an=='BODY' else b).intersect(region)
+        if candidate.Solids():
+            if an=='BODY':a=candidate
+            else:b=candidate
+            method='BRepExtrema_crop_certified_by_distance_below_3mm'
+    op=BRepExtrema_DistShapeShape(a.wrapped,b.wrapped)
+    if not op.IsDone():raise RuntimeError(f'BRep distance failed {an}/{bn}')
+    d=op.Value()
+    if method.startswith('BRepExtrema_crop') and d>=pad-1e-6:
+        a,b=original_a,original_b
+        op=BRepExtrema_DistShapeShape(a.wrapped,b.wrapped)
+        if not op.IsDone():raise RuntimeError(f'Global BRep distance failed {an}/{bn}')
+        d=op.Value();method='BRepExtrema_DistShapeShape_complete'
+    overlap=vol(a.intersect(b)) if d<1e-6 else 0.
+    near=[]
+    if op.NbSolution():
+        for p in [op.PointOnShape1(1),op.PointOnShape2(1)]:near.append([p.X(),p.Y(),p.Z()])
+    return dict(a=an,b=bn,gap_mm=d,overlap_mm3=overlap,required_mm=minimum,
+                intended_contact=intended,pass_check=overlap<=.001 and (intended or d>=minimum-1e-5),
+                distance_kind=method,nearest_points_mm=near)
