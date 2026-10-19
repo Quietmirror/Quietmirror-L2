@@ -7,7 +7,7 @@ remaining moving/fixed geometry retains the 0.30 mm requirement.
 import math,json
 import numpy as np
 from common import *
-from side_module import KEYS,fixed_features,key,UPPER_LUG_TOP,EAR_RADIUS
+from side_module import KEYS,fixed_features,key,UPPER_LUG_TOP,EAR_RADIUS,EAR_TOP,BRIDGE_BOTTOM
 
 def main():
     body=load('BODY');outer=load('MOTHER_OUTER_FROM_R32_SURFACE',ROOT/'exports/l2_r2_diagnostic/support_reference')
@@ -19,7 +19,7 @@ def main():
         cap=load(k['name']);y=k['hinge_y'];sg=k['sign'];hx=k['hinge_x'];ori=(hx,y,0);axis=(hx,y,1)
         # Masks are the exact source-defined functional features, trimmed to
         # the exported final solids. No nearby non-functional skin is removed.
-        ear_mask=box(hx-EAR_RADIUS,hx,y-.4,y+.4,18.3,19.5)
+        ear_mask=box(hx-EAR_RADIUS,hx,y-.4,y+.4,BRIDGE_BOTTOM,EAR_TOP)
         ear=cap.intersect(ear_mask)
         rib=cap.intersect(box(p['stop_rib_inner_x'],34,*k['stop_y'],15.9,16.4))
         # At a continuous solid's functional-feature seam, the distance

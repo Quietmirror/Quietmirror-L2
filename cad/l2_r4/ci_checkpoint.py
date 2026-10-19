@@ -1,6 +1,6 @@
 """Commit only candidate artifacts and summaries; never commit raw FEM work."""
 from pathlib import Path
-import base64,os,subprocess
+import base64,os,subprocess,time
 ROOT=Path.cwd()
 def git(*a,auth=False):
     env=os.environ.copy()
@@ -15,13 +15,25 @@ def main():
     if not paths:return
     git('config','user.name','github-actions[bot]');git('config','user.email','41898282+github-actions[bot]@users.noreply.github.com')
     git('add','--',*paths)
-    if not git('diff','--cached','--name-only'):return
+    changed=bool(git('diff','--cached','--name-only'))
     parent=git('rev-parse','HEAD')
-    git('commit','-m','Record L2-r4 candidate outputs and actual validation status')
+    if changed:git('commit','-m','Record L2-r4 candidate outputs and actual validation status')
     # A concurrent source update must never be overwritten.
     expected=os.getenv('R4_TARGET_BRANCH','l2-r4-build')
-    head=git('ls-remote','origin','refs/heads/'+expected).split()[0]
-    target=expected if head==parent else 'l2-r4-result-'+os.environ['GITHUB_RUN_ID']
-    git('push','origin','HEAD:refs/heads/'+target,auth=True)
+    remote=git('ls-remote','origin','refs/heads/'+expected).split()
+    head=remote[0] if remote else None
+    current=git('rev-parse','HEAD')
+    if head==current:return
+    # A previous attempt may have committed locally and then lost its push.
+    # Retry that descendant, but never overwrite an unrelated source update.
+    ancestor=False
+    if head:
+        ancestor=subprocess.run(['git','merge-base','--is-ancestor',head,current],capture_output=True).returncode==0
+    target=expected if head in (None,parent) or ancestor else expected+'-result-'+os.environ['GITHUB_RUN_ID']
+    for attempt in range(3):
+        try:git('push','origin','HEAD:refs/heads/'+target,auth=True);break
+        except subprocess.CalledProcessError:
+            if attempt==2:raise
+            time.sleep(5*(attempt+1))
     print('CHECKPOINT',target,git('rev-parse','HEAD'))
 if __name__=='__main__':main()
