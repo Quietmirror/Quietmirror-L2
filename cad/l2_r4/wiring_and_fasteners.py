@@ -1,6 +1,7 @@
 """All remaining printed/hardware intersections and local wire terminations."""
 import json
 from common import *
+from exact_distance import pair
 from side_module import RETAINER_MOUNTS
 from assemble import ROUTES
 from wire_layout import definition as wire_definition

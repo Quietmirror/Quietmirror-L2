@@ -8,6 +8,7 @@ Expand-Archive -LiteralPath $prusaArchive -DestinationPath (Join-Path $toolsPath
 $prusaExe = Get-ChildItem -LiteralPath (Join-Path $toolsPath 'PrusaSlicer') -Recurse -Filter 'prusa-slicer-console.exe' | Select-Object -First 1
 if (!$prusaExe) { throw 'PrusaSlicer console executable missing' }
 $env:QM_PRUSASLICER = $prusaExe.FullName
+if ($env:R4_SLICE_ONLY -ne '1') {
 $freecadArchive = Join-Path $toolsPath 'FreeCAD-1.1.4.7z'
 Invoke-WebRequest -Uri 'https://github.com/FreeCAD/FreeCAD/releases/download/1.1.4/FreeCAD_1.1.4-Windows-x86_64-py311.7z' -OutFile $freecadArchive
 $hash = (Get-FileHash -LiteralPath $freecadArchive -Algorithm SHA256).Hash.ToLowerInvariant()
@@ -20,14 +21,20 @@ if (!$fcPython) { throw 'FreeCAD bundled Python missing' }
 $env:QUIETMIRROR_ROOT = $rootPath
 $env:PYTHONUTF8 = '1'
 $env:QT_QPA_PLATFORM = 'offscreen'
-& $fcPython.FullName -X utf8 cad/l2_r4/native.py
+python cad/l2_r4/evidence_identity.py --python $fcPython.FullName --script cad/l2_r4/native.py
 if ($LASTEXITCODE -ne 0) { throw 'Native FreeCAD assembly validation failed' }
 python cad/l2_r4/ci_checkpoint.py
 if ($LASTEXITCODE -ne 0) { throw 'Native checkpoint failed' }
+}
 python -m venv _support/slice-venv
-& _support/slice-venv/Scripts/python.exe -m pip install 'trimesh==5.1.0' 'numpy' 'scipy' 'pillow' 'matplotlib' 'lxml' 'gmsh==4.15.2'
+& _support/slice-venv/Scripts/python.exe -m pip install 'trimesh==5.1.0' 'numpy' 'scipy' 'pillow' 'matplotlib' 'lxml' 'networkx' 'gmsh==4.15.2'
 if ($LASTEXITCODE -ne 0) { throw 'Slicer helper dependency setup failed' }
-& _support/slice-venv/Scripts/python.exe -u cad/l2_r4/slice_plate.py
+if ($env:R4_SLICE_DIAGNOSTIC -eq '1') {
+    python cad/l2_r4/evidence_identity.py --python _support/slice-venv/Scripts/python.exe --script cad/l2_r4/slice_diagnostic.py
+    if ($LASTEXITCODE -ne 0) { throw 'Slicer isolation script failed' }
+    exit 0
+}
+python cad/l2_r4/evidence_identity.py --python _support/slice-venv/Scripts/python.exe --script cad/l2_r4/slice_plate.py
 if ($LASTEXITCODE -ne 0) { throw 'Nine-part plate or per-part real slicing failed' }
-& _support/slice-venv/Scripts/python.exe -u cad/l2_r4/trial_and_plate_views.py
+python cad/l2_r4/evidence_identity.py --python _support/slice-venv/Scripts/python.exe --script cad/l2_r4/trial_and_plate_views.py
 if ($LASTEXITCODE -ne 0) { throw 'F2 trial slicing or plate view failed' }

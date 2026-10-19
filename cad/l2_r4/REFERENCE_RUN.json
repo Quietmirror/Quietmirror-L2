@@ -1,0 +1,8 @@
+{
+  "phase": "R32_root_load_interval_investigation",
+  "report_file": "reference_execution.json",
+  "scripts": [
+    "cad/l2_r4/restore_inputs.py",
+    "cad/l2_r4/fem_reference.py"
+  ]
+}

@@ -6,6 +6,7 @@ are separated from the remaining fixed material. Unrecognized failures fail.
 """
 import itertools,json
 from common import *
+from exact_distance import pair
 from side_module import KEYS,RETAINER_MOUNTS
 
 def collar(feature,d):
