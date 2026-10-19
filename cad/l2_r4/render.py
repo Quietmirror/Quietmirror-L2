@@ -1,6 +1,6 @@
 """Orthographic technical views from the actual exported assembly, 9 px/mm."""
 from pathlib import Path
-import json,math
+import json,math,hashlib
 import numpy as np
 import vtk
 from vtk.util.numpy_support import numpy_to_vtk
@@ -9,7 +9,7 @@ import cadquery as cq
 ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'views/l2_r4';MOD=ROOT/'models/L2_r4';RP=ROOT/'reports/l2_r4'
 SIZE=(1200,1000);SCALE=9.;FONT=str(next((p for p in [Path('C:/Windows/Fonts/msyh.ttc'),Path('/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc')] if p.exists()),Path('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf')))
 inventory=json.loads((RP/'assembly_inventory.json').read_text())
-shapes={};polys={}
+shapes={};polys={};rendered=[]
 def read(n,folder='parts'):
     key=folder+'/'+n
     if key not in shapes:shapes[key]=cq.importers.importStep(str(MOD/folder/(n+'.step'))).val()
@@ -49,11 +49,13 @@ def picture(name,objects_,direction,up=(0,0,1),focus=(0,44,16),scale=SCALE,title
     draw.rectangle((0,0,1200,100),fill='#edf2f5');draw.text((26,16),title,font=font,fill='#1c3340');draw.text((26,58),note,font=small,fill='#465b66')
     y=953;draw.line((32,y,32+10*scale,y),fill='#243b48',width=3);draw.line((32,y-6,32,y+6),fill='#243b48',width=2);draw.line((32+10*scale,y-6,32+10*scale,y+6),fill='#243b48',width=2)
     draw.text((145,936),'10 mm | L2-r4 | '+str(scale)+' px/mm',font=small,fill='#334e5b')
-    im.save(path);print('VIEW',name,flush=True)
+    im.save(path);rendered.append(path);print('VIEW',name,flush=True)
 def main():
     OUT.mkdir(exist_ok=True);obj=objects();inside=objects(True)
     definitions=[('FRONT',(0,-1,0),(0,0,1),'前视 −Y','X / Z'),('BACK',(0,1,0),(0,0,1),'后视 +Y','X / Z'),('LEFT',(-1,0,0),(0,0,1),'左视 −X','Y / Z'),('RIGHT',(1,0,0),(0,0,1),'右视 +X · 侧键侧','Y / Z'),('TOP',(0,0,1),(0,-1,0),'俯视 +Z','X / Y'),('BOTTOM',(0,0,-1),(0,1,0),'底视 −Z','X / Y')]
-    b=read('BODY').BoundingBox();dims=f'BODY {b.ylen:.3f} × {b.xlen:.3f} × {b.zlen:.3f} mm（长×宽×高）'
+    b=read('BODY').BoundingBox()
+    full=cq.Compound.makeCompound([s for _,s,_,_ in obj]).BoundingBox()
+    dims=f'整机 {full.ylen:.3f} × {full.xlen:.3f} × {full.zlen:.3f} mm（长×宽×高；含0.8mm脚贴）'
     for n,d,u,t,axes in definitions:
         picture('H_'+n,obj,d,u,title='Quietmirror L2-r4 | '+t,note=axes+' | '+dims)
         picture('INSIDE_'+n,[o for o in inside if o[0]!='BODY'],d,u,title='内部包络 | '+t,note='去掉 BODY；电子元件为估计包络，未认证真实装配')
@@ -63,17 +65,20 @@ def main():
     for name,origin,normal in [('X23',(23,0,0),(-1,0,0)),('Y50p25',(0,50.25,0),(0,1,0)),('Y64p45',(0,64.45,0),(0,1,0)),('Z16p6',(0,0,16.6),(0,0,-1))]:
         picture('SECTION_'+name,obj,(1,-1,.7),title='实际组件剖视 | '+name,note='剖切展示内部路径；不得作为实际供体尺寸证明',clip=(origin,normal))
     from side_module import KEYS
+    actuation={k['part']:k for k in json.loads((RP/'side_actuation_force_and_tuning.json').read_text())['keys']}
+    def state_angle(k,state):
+        return 0. if state=='REST' else (k['angle'] if state=='STOP' else actuation[k['name']]['calculated_PT_max_trigger_deg'])
     for state,fraction in [('REST',0),('TRIGGER',.83),('STOP',1)]:
         shown=[]
         for n,s,c,a in inside:
             k=next((k for k in KEYS if k['name']==n),None)
-            if k:s=s.rotate((k['hinge_x'],k['hinge_y'],0),(k['hinge_x'],k['hinge_y'],1),k['angle']*fraction);n+='_'+state
+            if k:s=s.rotate((k['hinge_x'],k['hinge_y'],0),(k['hinge_x'],k['hinge_y'],1),state_angle(k,state));n+='_'+state
             shown.append((n,s,c,a))
-        picture('SIDE_'+state,shown,(1,-.12,.12),focus=(24,57,16),scale=20,title='侧键机构 | '+state,note='触发图为名义近似姿态；实际触发点取决于微动与 PET 调整')
+        picture('SIDE_'+state,shown,(1,-.12,.12),focus=(24,57,16),scale=20,title='侧键机构 | '+state,note='触发姿态按 PT 最大值0.5mm及实际刚体几何计算；真实触发点仍需实测')
     overlay=[o for o in inside if o[0] not in [k['name'] for k in KEYS]]
     for k in KEYS:
         for state,fraction,col in [('REST',0,(.1,.5,.8)),('TRIGGER',.83,(.9,.55,.12)),('STOP',1,(.8,.18,.2))]:
-            s=read(k['name']).rotate((k['hinge_x'],k['hinge_y'],0),(k['hinge_x'],k['hinge_y'],1),k['angle']*fraction)
+            s=read(k['name']).rotate((k['hinge_x'],k['hinge_y'],0),(k['hinge_x'],k['hinge_y'],1),state_angle(k,state))
             overlay.append((k['name']+'_'+state,s,col,.4))
     picture('SIDE_MOTION_OVERLAY',overlay,(0,0,1),up=(0,1,0),focus=(25,57,16),scale=20,title='侧键动作叠图 | 静止 / 触发示意 / 止挡',note='蓝=静止，黄=名义触发，红=止挡；实际触发角需微动实测')
     old=[]
@@ -105,4 +110,6 @@ def main():
                 picture('ASSEMBLY_'+name+'_'+str(j+1),shown,(1,-1,-.6),focus=(12,54,12),scale=12,title='装配路线 | '+name+' | '+str(j+1),note='相对最终位置 '+str(way[index])+'；路线检查见 assembly_routes_final.json')
             placed.append((name,shape,(.26,.54,.69),1))
     compare=Image.new('RGB',(2400,1000),'white');compare.paste(Image.open(OUT/'R3_BASELINE.png'),(0,0));compare.paste(Image.open(OUT/'H_ISO_FRONT.png'),(1200,0));compare.save(OUT/'R3_VS_L2_r4.png')
+    rendered.extend(OUT/n for n in ['R3_VS_L2_r4.png','R3_VS_L2_r4_TOP_RIGHT_BOTTOM.png','L2_r4_H_SIX_VIEWS_SHEET.png'])
+    (RP/'render_manifest.json').write_text(json.dumps(dict(source='Actual independent saved STEP components; no generated concept pictures',files={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in rendered},orthographic_px_per_mm=SCALE),indent=2))
 if __name__=='__main__':main()
