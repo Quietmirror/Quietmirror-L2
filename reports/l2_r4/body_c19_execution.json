@@ -1,13 +1,13 @@
 {
   "status": "RUNNING",
   "phase": "C19_original_middle_switch_seat_tie_relief_source_rebuild",
-  "source_commit": "0cb04945a83dc0ec12d30fdb36faab3e84433118",
+  "source_commit": "aa30c9c049705e154dc2e5ceb4274b6031cd21a3",
   "steps": [
     {
       "script": "cad/l2_r4/restore_inputs.py",
       "returncode": 0,
-      "seconds": 6.75,
-      "available_memory_before_GB": 15.689572352,
+      "seconds": 3.98,
+      "available_memory_before_GB": 15.70574336,
       "log_tail": "Restored/retained 72 baseline components\n"
     }
   ]
