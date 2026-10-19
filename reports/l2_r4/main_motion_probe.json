@@ -232,5 +232,32 @@
   {
     "stage": "pair_begin",
     "part": "LEFT_KEY_M2_SWITCH_1_BOLT"
+  },
+  {
+    "stage": "pair_end",
+    "part": "LEFT_KEY_M2_SWITCH_1_BOLT",
+    "seconds": 0.42740321159362793,
+    "result": {
+      "a": "LEFT_KEY",
+      "b": "LEFT_KEY_M2_SWITCH_1_BOLT",
+      "gap_mm": 2.5968238903610166,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.3,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "nearest_points_mm": [
+        [
+          23.75,
+          23.489636218460618,
+          14.86091628339024
+        ],
+        [
+          23.75,
+          24.31953745073715,
+          12.40027444390697
+        ]
+      ]
+    }
   }
 ]
