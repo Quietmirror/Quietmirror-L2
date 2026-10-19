@@ -135,5 +135,9 @@
         ]
       ]
     }
+  },
+  {
+    "stage": "pair_begin",
+    "part": "ENCODER_EC10E_HOUSING"
   }
 ]
