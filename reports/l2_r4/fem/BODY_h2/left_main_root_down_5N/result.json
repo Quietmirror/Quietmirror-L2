@@ -1,0 +1,192 @@
+{
+  "postprocess_version": 3,
+  "linear_solver": "DEFAULT",
+  "case": {
+    "name": "left_main_root_down_5N",
+    "magnitude_N": 5,
+    "direction": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "selected_triangles": 225,
+    "surface_area_mm2": 116.62872037729466,
+    "pressure_magnitude_MPa": 0.042871086845718345,
+    "area_centroid_mm": [
+      15.082374589963253,
+      39.5341040873493,
+      21.10545816735055
+    ],
+    "actual_force_sum_N": [
+      0.0,
+      0.0,
+      -5.0
+    ],
+    "selected_face_centers_bounds_mm": [
+      [
+        6.046300160716813,
+        35.50133130493826,
+        11.1459312032344
+      ],
+      [
+        23.968300193164296,
+        42.49680281186895,
+        27.65218743665598
+      ]
+    ],
+    "distribution": "Uniform vector surface traction, integrated using 7-point quadratic-triangle shape functions; total resultant normalized to specified N."
+  },
+  "material": {
+    "E_MPa": 1500.0,
+    "nu": 0.35,
+    "model": "homogeneous isotropic linear elastic; not measured printed PLA"
+  },
+  "mesh": {
+    "nodes": 199104,
+    "elements": 104974,
+    "element_type": "C3D10",
+    "boundary_tri6": 57364,
+    "connected_components": 1,
+    "corner_tet_min_volume_mm3": 1.4402529878697144e-05,
+    "corner_tet_total_volume_mm3": 12567.355355042971,
+    "corner_tet_mean_ratio_min": 0.01475950331793819,
+    "corner_tet_mean_ratio_p01": 0.37571825344804993,
+    "corner_tet_mean_ratio_definition": "12*(3V)^(2/3)/sum(six squared edge lengths); regular tetrahedron=1, degenerate=0. Corner geometry diagnostic only.",
+    "quadratic_tet_integrated_volume_mm3": 12567.355355042971,
+    "quadratic_jacobian_min_mm3": 8.641517927173986e-05,
+    "quadratic_jacobian_min_over_max_per_element": 0.9999999983009307,
+    "quadratic_jacobian_check": "Four C3D10 integration points and centroid; all positive. This is not a formal interval proof at every point.",
+    "quadratic_boundary_area_mm2": 18238.30295737991,
+    "mesh_file_sha256": "5147e72db23449bb16a2ff9722f64bf860c059305a2ab03db8183b6ed8be54de",
+    "target_max_size_mm": 2.0,
+    "settings": {
+      "Mesh.MeshSizeMin": 0.76,
+      "Mesh.MeshSizeMax": 2.0,
+      "Mesh.MeshSizeFromPoints": 1,
+      "Mesh.MeshSizeFromCurvature": 24,
+      "Mesh.MeshSizeExtendFromBoundary": 1,
+      "Mesh.Algorithm": 6,
+      "Mesh.Algorithm3D": 1,
+      "Mesh.ElementOrder": 2,
+      "Mesh.SecondOrderLinear": 1,
+      "Mesh.HighOrderOptimize": 0,
+      "Mesh.Optimize": 1,
+      "Mesh.SaveAll": 0,
+      "General.NumThreads": 1
+    },
+    "gmsh_version": "4.15.2"
+  },
+  "deck_sha256": "fbd10a0ac4226bdd34e865958bdb55463b2b468ec9d6c79a95075e15175212d4",
+  "dat_sha256": "c6026a87c673436b3206fa7cb90e86de4cc2af9980544241c7b7a202dfaa93fd",
+  "solving_seconds": 32.53321557999999,
+  "applied_force_N": [
+    0.0,
+    0.0,
+    -5.0
+  ],
+  "support_reaction_N": [
+    2.1822144265367045e-12,
+    4.324843372051404e-12,
+    5.000000145031394
+  ],
+  "force_balance_error_N": [
+    2.1822144265367045e-12,
+    4.324843372051404e-12,
+    1.4503139400545706e-07
+  ],
+  "force_balance_relative_error": 2.9006278817271582e-08,
+  "moment_balance_error_Nmm": [
+    3.5684019792370236e-06,
+    -1.6921505618938681e-06,
+    -1.8164358476387419e-10
+  ],
+  "moment_balance_relative_error": 8.951645137488903e-09,
+  "equilibrium_pass": true,
+  "maximum_displacement_mm": 0.2492262675803471,
+  "maximum_displacement_node": 1415,
+  "displacement_components_at_max_mm": [
+    0.004043826,
+    0.05430335,
+    -0.2432047
+  ],
+  "maximum_vm_stress_MPa": 20.411734970161202,
+  "p95_integration_point_vm_MPa": 0.5722269039529029,
+  "unweighted_integration_point_p95_vm_MPa": 0.7024501428191955,
+  "p95_definition": "95th percentile of integration-point von Mises stress weighted by actual C3D10 Jacobian quadrature volume; avoids overweighting locally tiny elements.",
+  "peak_stress_element": 97731,
+  "peak_stress_element_centroid_mm": [
+    8.664508800564375,
+    42.033795594348746,
+    25.70228587234225
+  ],
+  "peak_element_distance_to_nearest_horizontal_constraint_node_mm": 39.26857813701119,
+  "auxiliary_peak_vm_outside_3mm_horizontal_constraint_neighbourhood_MPa": 20.411734970161202,
+  "auxiliary_stress_scope": "Diagnostic only: removes element-centroid regions within 3 mm of the minimum horizontal point anchors, which can create stress singularities. The global maximum remains separately reported and is not replaced for a strength claim.",
+  "foot_reactions": [
+    {
+      "foot": 1,
+      "constrained_nodes": 584,
+      "reaction_N": [
+        1.7509283537611005e-12,
+        7.397947024820201e-12,
+        0.3657628661220002
+      ],
+      "negative_z_requires_hold_down": false
+    },
+    {
+      "foot": 2,
+      "constrained_nodes": 494,
+      "reaction_N": [
+        1.6385817418659975e-12,
+        -2.8823375135478e-12,
+        1.5137028020705976
+      ],
+      "negative_z_requires_hold_down": false
+    },
+    {
+      "foot": 3,
+      "constrained_nodes": 438,
+      "reaction_N": [
+        -4.2688854729499993e-13,
+        -6.125859129799995e-14,
+        0.830846300183
+      ],
+      "negative_z_requires_hold_down": false
+    },
+    {
+      "foot": 4,
+      "constrained_nodes": 438,
+      "reaction_N": [
+        -2.525958036124002e-13,
+        1.131108541299998e-13,
+        3.0531121380950044
+      ],
+      "negative_z_requires_hold_down": false
+    },
+    {
+      "foot": 5,
+      "constrained_nodes": 581,
+      "reaction_N": [
+        -5.278113181829994e-13,
+        -2.426184020529982e-13,
+        -0.7634239614391984
+      ],
+      "negative_z_requires_hold_down": true
+    }
+  ],
+  "negative_foot_reactions": true,
+  "interpretation": "Bilateral Z supports model a supported/held test fixture. Negative net foot reaction indicates lift-off for a free unbonded mouse; that case is not a valid all-five-feet contact prediction. Peak stresses near constraints/load edges may be singular; p95 is a convergence diagnostic, not a strength substitute.",
+  "solver_backend_verified": "SPOOLES in actual CalculiX log",
+  "solver_runtime": {
+    "returncode": 0,
+    "elapsed_seconds": 32.53321557999999,
+    "peak_resident_GB": 2.256887808,
+    "measurement": "psutil process RSS sampled every 0.25 s",
+    "solver_command": [
+      "/usr/bin/ccx",
+      "-i",
+      "solve"
+    ]
+  },
+  "available_memory_before_solve_GB": 14.691536896
+}

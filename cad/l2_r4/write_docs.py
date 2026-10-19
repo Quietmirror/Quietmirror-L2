@@ -96,6 +96,40 @@ R3.2基准固定为Quietmirror/github@f1b1090931d717117287ea2b79c2e14ddc234937�
     write('SLICE_REPORT.md',text);(MODELS/'SLICE_REPORT.md').write_text(text.replace('../../views/','../../views/'),encoding='utf8')
     readme=f'''# Quietmirror L2-r4\n\n**{state}**\n\n右手指握轻量鼠标的参数化机械设计。所有数值都区分CAD、有限离散验证和真实硬件验证；未知供体/主板/镜头参数保持明确估计。\n\n![六视图](../../views/l2_r4/L2_r4_H_SIX_VIEWS_SHEET.png)\n\n- [设计思路与版本修正](DESIGN_RATIONALE.md)\n- [门槛总表](GATES.md) / [完整JSON](FINAL_ACCOUNTING.json)\n- [干涉复核](INTERFERENCE_REPORT.md) / [装配顺序](ASSEMBLY_SEQUENCE.md)\n- [结构模拟与差异调查](INTERNAL_COMPONENTS_SIMULATION.md) / [切片报告](SLICE_REPORT.md)\n- [可编辑源码](../../cad/l2_r4) / [完整模型与打印件](../../models/L2_r4)\n- [所有调整记录](TUNING_LOG.md)\n\n## 试握与装配反馈\n\n依次记录夹持宽度、是否顶掌、无名指/小指是否拖地、主键/侧键/滚轮触达、抬鼠稳定性、侧键是否误触、轮轴是否松旷、支撑清理与孔销装配情况。先确认外形与刚性，再对实物开关进行贴膜调整和触发验证。\n\n## 硬件待验证\n\n{pending}\n'''
     write('README.md',readme)
+    home=f'''# Quietmirror L2-r4
+
+**{state}**
+
+右手指握轻量鼠标的可编辑机械设计。r4将侧键托架与BODY一体生成，保留原六孔、原底部与五个脚贴平台；两件独立挡板、直推式杠杆侧键和钢销支持后续实物装配。电子元件均明确标为估计包络。
+
+![实际模型六视图](views/l2_r4/L2_r4_H_SIX_VIEWS_SHEET.png)
+
+## 下载和复现
+
+- [完整H装配 STEP](models/L2_r4/FULL_ASSEMBLY_H.step) / [FreeCAD FCStd](models/L2_r4/FULL_ASSEMBLY_H.FCStd)
+- [九件单盘打印3MF](models/L2_r4/L2_r4_H_ALL_PARTS_SINGLE_PLATE.3mf) / [逐件STL与STEP](models/L2_r4/parts) / [F2侧键试验件](models/L2_r4/SIDE_MODULE_F2_TRIAL.3mf)
+- [D供体可用板域](models/L2_r4/D_MAX_BOARD_ENVELOPE.step) / [参数化源码和复现说明](cad/l2_r4/README.md)
+- [G1–G11门槛总表](handoff/l2_r4/GATES.md) / [全部数值与版本身份](handoff/l2_r4/FINAL_ACCOUNTING.json)
+- [设计思路](handoff/l2_r4/DESIGN_RATIONALE.md) / [装配顺序](handoff/l2_r4/ASSEMBLY_SEQUENCE.md) / [干涉报告](handoff/l2_r4/INTERFERENCE_REPORT.md)
+- [结构有限元](handoff/l2_r4/INTERNAL_COMPONENTS_SIMULATION.md) / [真实切片和方向](handoff/l2_r4/SLICE_REPORT.md) / [所有修正记录](handoff/l2_r4/TUNING_LOG.md)
+
+9件打印件的CAD聚合物体积为{fmt(mass.get('total_volume_mm3'))}mm³，按PA12密度1.01g/cm³估计{fmt(mass.get('total_PA12_g'))}g。真实PLA单盘切片{sl.get('total_filament_g','未取得')}g、{sl.get('time','未取得')}，包含支撑等耗材；不是装好电子件后的整机重量。
+
+## 电子方案与证据范围
+
+H采用PAW3950半组装主板的参考包络，C17编码器转接板是自制板形假设。所选电池包络为{cell_size_text}mm；原18×22×6mm估计包络的有限搜索尚未找到合格拆装路线。电池缩小不代表容量已知或12小时续航达标。D供体仍为用户称为ATK A1 Plus的待确认型号；没有编造真实PCB孔位。
+
+精确CAD结果对应报告中声明的模型与有限离散姿态，不等于连续运动证明、实物公差或电子功能认证。打印后反馈握宽、顶掌、手指拖地、滚轮/侧键触达与抬鼠稳定性，再测试实物按键和电子功能。
+
+## HARDWARE_PENDING
+
+{pending}
+
+## 历史与许可
+
+[L2-r3预发布记录](https://github.com/Quietmirror/Quietmirror-L2/releases/tag/L2-r3)、[r3文档](handoff/l2_r3)、[r2复核](handoff/l2_r2/README.md)、[r1复核](cad/l2_r1/README.md)及R3.2源文件均保留。原始工程另见[Quietmirror/github](https://github.com/Quietmirror/github)。沿用[CERN-OHL-P-2.0](LICENSE)、[NOTICE](NOTICE.md)和[本轮实际来源说明](cad/l2_r4/ATTRIBUTION.md)。
+'''
+    (ROOT/'README.md').write_text(home,encoding='utf8')
     brief=[]
     for n,g in a['gates'].items():
         m=g['metrics'];value=g['summary']
@@ -113,6 +147,7 @@ R3.2基准固定为Quietmirror/github@f1b1090931d717117287ea2b79c2e14ddc234937�
         brief.append([n,g['status'],value])
     release=f'# Quietmirror L2 r4\n\n**{state}**\n\n侧键托架在生成 BODY 时一体成形，开关背挡拆分为两件可装入零件，键帽改为直线装入。交付包含独立组件 STEP/FCStd、9 个打印件、单盘及 F2 试验 3MF、可编辑源码、原始数值报告和真实模型视图。\n\n'
     release+=table(['门槛','结论','关键实测/仿真数据'],brief)
+    release+=f'电子布局采用C17自制编码器转接板参考轮廓和{cell_size_text}mm估计电池；原18×22×6mm电池尚未找到通过路线。所选电池包络体积减少29.29%，容量和12小时续航均未验证。真实供体主板仍为DONOR_PENDING。\n\n'
     release+='![实际六视图](https://raw.githubusercontent.com/Quietmirror/Quietmirror-L2/L2-r4/views/l2_r4/L2_r4_H_SIX_VIEWS_SHEET.png)\n\n'
     release+='## 参考差异和证据范围\n\n'+a['evidence_limit']+'\n\n根部刚度偏差来自正文与作者脚本加载区间不同，夹持偏差通过三档作者 V2 几何控制计算区分了几何影响。完整数值与修正理由见 handoff/l2_r4/INTERNAL_COMPONENTS_SIMULATION.md 和 TUNING_LOG.md。\n\n'
     release+='## HARDWARE_PENDING\n\n'+pending+'\n\n保留 CERN-OHL-P-2.0 与 NOTICE 署名。L2-r3 tag、Release、作者证据分支和全部历史提交保持保留。\n'

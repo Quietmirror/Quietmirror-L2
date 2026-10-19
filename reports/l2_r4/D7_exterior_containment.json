@@ -3,6 +3,27 @@
     "part": "SIDE_FRONT_KEY",
     "fixed_bearing_region_outside_mother_mm3": 0.0,
     "outside_regions": [],
+    "region_partition": {
+      "feature": "SIDE_FRONT_KEY fixed-bearing containment region",
+      "original_volume_mm3": 12633.239977596984,
+      "remaining_volume_mm3": 12611.840600561567,
+      "removed_volume_mm3": 21.37237529669039,
+      "volume_partition_error_mm3": 0.027001738726884383,
+      "lost_material_mm3": 0.0,
+      "added_material_mm3": 0.0,
+      "lost_solid_count": 0,
+      "added_solid_count": 0,
+      "mask_bounds_mm": [
+        24.5,
+        43.8,
+        14.2,
+        30.5,
+        46.8,
+        20.8
+      ],
+      "passed": true,
+      "scope": "BRep validity and direct geometric differences of recombined functional partitions; adaptive integration discrepancy retained separately. Full original overlap is required separately."
+    },
     "moving_inboard_ear_outside_mother_mm3": 0.0,
     "pin_outside_mother_mm3": 0.0,
     "upper_profile_samples": [
@@ -44,6 +65,27 @@
     "part": "SIDE_REAR_KEY",
     "fixed_bearing_region_outside_mother_mm3": 0.0,
     "outside_regions": [],
+    "region_partition": {
+      "feature": "SIDE_REAR_KEY fixed-bearing containment region",
+      "original_volume_mm3": 12633.239977596984,
+      "remaining_volume_mm3": 12610.924169863707,
+      "removed_volume_mm3": 22.28384737331887,
+      "volume_partition_error_mm3": 0.03196035995845392,
+      "lost_material_mm3": 0.0,
+      "added_material_mm3": 0.0,
+      "lost_solid_count": 0,
+      "added_solid_count": 0,
+      "mask_bounds_mm": [
+        24.5,
+        68.2,
+        14.2,
+        30.5,
+        71.2,
+        20.8
+      ],
+      "passed": true,
+      "scope": "BRep validity and direct geometric differences of recombined functional partitions; adaptive integration discrepancy retained separately. Full original overlap is required separately."
+    },
     "moving_inboard_ear_outside_mother_mm3": 0.0,
     "pin_outside_mother_mm3": 0.0,
     "upper_profile_samples": [

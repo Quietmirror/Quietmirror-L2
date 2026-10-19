@@ -1,0 +1,32 @@
+[
+  {
+    "report": "window_0.json",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "report": "window_1.json",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "report": "window_2.json",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "report": "window_3.json",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "report": "window_4.json",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "report": "window_5.json",
+    "passed": true,
+    "problems": []
+  }
+]

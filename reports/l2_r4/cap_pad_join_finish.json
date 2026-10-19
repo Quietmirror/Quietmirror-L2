@@ -25,10 +25,9 @@
         ]
       },
       "added_material_mm3": 0.0,
-      "removed_material_mm3": 0.0,
+      "removed_material_mm3": 0.0038326155474774568,
       "valid": true,
       "solids": 1,
-      "brep_self_interference_check": true,
       "passed": true
     },
     {
@@ -56,13 +55,12 @@
         ]
       },
       "added_material_mm3": 0.0,
-      "removed_material_mm3": 0.0,
+      "removed_material_mm3": 0.0009712835186520483,
       "valid": true,
       "solids": 1,
-      "brep_self_interference_check": true,
       "passed": true
     }
   ],
   "passed": true,
-  "definition": "Current source construction compared with STEP roundtrip, exact cap/PET intersection and additional BRepAlgoAPI self-interference check."
+  "definition": "C9 source cap minus the rod crescent outside the backing sphere; exact STEP roundtrip inspected."
 }

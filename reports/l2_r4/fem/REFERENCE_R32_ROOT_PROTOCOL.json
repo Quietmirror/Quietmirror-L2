@@ -1,0 +1,293 @@
+{
+  "status": "COMPLETED",
+  "rows": [
+    {
+      "size_mm": 2.4,
+      "case": "left_main_root_down_5N",
+      "protocol": "written",
+      "root_y_interval_mm": [
+        35.5,
+        42.5
+      ],
+      "stiffness_N_per_mm": 25.892950422229966,
+      "published_reference_N_per_mm": 24.95,
+      "difference_from_published_fraction": 0.03779360409739341,
+      "equilibrium_pass": true,
+      "solver_runtime": {
+        "returncode": 0,
+        "elapsed_seconds": 22.77426037799998,
+        "peak_resident_GB": 1.539416064,
+        "measurement": "psutil process RSS sampled every 0.25 s",
+        "solver_command": [
+          "/usr/bin/ccx",
+          "-i",
+          "solve"
+        ]
+      }
+    },
+    {
+      "size_mm": 2.4,
+      "case": "right_main_root_down_5N",
+      "protocol": "written",
+      "root_y_interval_mm": [
+        35.5,
+        42.5
+      ],
+      "stiffness_N_per_mm": 25.07409177820801,
+      "published_reference_N_per_mm": 24.28,
+      "difference_from_published_fraction": 0.032705592183196464,
+      "equilibrium_pass": true,
+      "solver_runtime": {
+        "returncode": 0,
+        "elapsed_seconds": 22.524867991999997,
+        "peak_resident_GB": 1.561841664,
+        "measurement": "psutil process RSS sampled every 0.25 s",
+        "solver_command": [
+          "/usr/bin/ccx",
+          "-i",
+          "solve"
+        ]
+      }
+    },
+    {
+      "size_mm": 2.4,
+      "case": "left_main_root_down_5N",
+      "protocol": "author_helper",
+      "root_y_interval_mm": [
+        35.0,
+        42.0
+      ],
+      "stiffness_N_per_mm": 24.964246647020417,
+      "published_reference_N_per_mm": 24.95,
+      "difference_from_published_fraction": 0.0005710078966099097,
+      "equilibrium_pass": true,
+      "solver_runtime": {
+        "returncode": 0,
+        "elapsed_seconds": 22.525338436999988,
+        "peak_resident_GB": 1.558982656,
+        "measurement": "psutil process RSS sampled every 0.25 s",
+        "solver_command": [
+          "/usr/bin/ccx",
+          "-i",
+          "solve"
+        ]
+      }
+    },
+    {
+      "size_mm": 2.4,
+      "case": "right_main_root_down_5N",
+      "protocol": "author_helper",
+      "root_y_interval_mm": [
+        35.0,
+        42.0
+      ],
+      "stiffness_N_per_mm": 24.28851165710199,
+      "published_reference_N_per_mm": 24.28,
+      "difference_from_published_fraction": 0.00035056248360731956,
+      "equilibrium_pass": true,
+      "solver_runtime": {
+        "returncode": 0,
+        "elapsed_seconds": 22.77555746699997,
+        "peak_resident_GB": 1.558196224,
+        "measurement": "psutil process RSS sampled every 0.25 s",
+        "solver_command": [
+          "/usr/bin/ccx",
+          "-i",
+          "solve"
+        ]
+      }
+    },
+    {
+      "size_mm": 2.0,
+      "case": "left_main_root_down_5N",
+      "protocol": "written",
+      "root_y_interval_mm": [
+        35.5,
+        42.5
+      ],
+      "stiffness_N_per_mm": 25.590654331212985,
+      "published_reference_N_per_mm": 24.63,
+      "difference_from_published_fraction": 0.03900342392257361,
+      "equilibrium_pass": true,
+      "solver_runtime": {
+        "returncode": 0,
+        "elapsed_seconds": 39.042374102999986,
+        "peak_resident_GB": 2.447343616,
+        "measurement": "psutil process RSS sampled every 0.25 s",
+        "solver_command": [
+          "/usr/bin/ccx",
+          "-i",
+          "solve"
+        ]
+      }
+    },
+    {
+      "size_mm": 2.0,
+      "case": "right_main_root_down_5N",
+      "protocol": "written",
+      "root_y_interval_mm": [
+        35.5,
+        42.5
+      ],
+      "stiffness_N_per_mm": 24.718484745311816,
+      "published_reference_N_per_mm": 23.97,
+      "difference_from_published_fraction": 0.031225896758941163,
+      "equilibrium_pass": true,
+      "solver_runtime": {
+        "returncode": 0,
+        "elapsed_seconds": 39.041482476,
+        "peak_resident_GB": 2.462867456,
+        "measurement": "psutil process RSS sampled every 0.25 s",
+        "solver_command": [
+          "/usr/bin/ccx",
+          "-i",
+          "solve"
+        ]
+      }
+    },
+    {
+      "size_mm": 2.0,
+      "case": "left_main_root_down_5N",
+      "protocol": "author_helper",
+      "root_y_interval_mm": [
+        35.0,
+        42.0
+      ],
+      "stiffness_N_per_mm": 24.79532951042742,
+      "published_reference_N_per_mm": 24.63,
+      "difference_from_published_fraction": 0.006712525798920899,
+      "equilibrium_pass": true,
+      "solver_runtime": {
+        "returncode": 0,
+        "elapsed_seconds": 38.792968959999996,
+        "peak_resident_GB": 2.440122368,
+        "measurement": "psutil process RSS sampled every 0.25 s",
+        "solver_command": [
+          "/usr/bin/ccx",
+          "-i",
+          "solve"
+        ]
+      }
+    },
+    {
+      "size_mm": 2.0,
+      "case": "right_main_root_down_5N",
+      "protocol": "author_helper",
+      "root_y_interval_mm": [
+        35.0,
+        42.0
+      ],
+      "stiffness_N_per_mm": 23.924444027391516,
+      "published_reference_N_per_mm": 23.97,
+      "difference_from_published_fraction": -0.0019005412018557877,
+      "equilibrium_pass": true,
+      "solver_runtime": {
+        "returncode": 0,
+        "elapsed_seconds": 39.04423115200001,
+        "peak_resident_GB": 2.45782528,
+        "measurement": "psutil process RSS sampled every 0.25 s",
+        "solver_command": [
+          "/usr/bin/ccx",
+          "-i",
+          "solve"
+        ]
+      }
+    },
+    {
+      "size_mm": 1.6,
+      "case": "left_main_root_down_5N",
+      "protocol": "written",
+      "root_y_interval_mm": [
+        35.5,
+        42.5
+      ],
+      "stiffness_N_per_mm": 25.090504579360324,
+      "published_reference_N_per_mm": 24.47,
+      "difference_from_published_fraction": 0.025357767852894453,
+      "equilibrium_pass": true,
+      "solver_runtime": {
+        "returncode": 0,
+        "elapsed_seconds": 67.82449204599993,
+        "peak_resident_GB": 3.994632192,
+        "measurement": "psutil process RSS sampled every 0.25 s",
+        "solver_command": [
+          "/usr/bin/ccx",
+          "-i",
+          "solve"
+        ]
+      }
+    },
+    {
+      "size_mm": 1.6,
+      "case": "right_main_root_down_5N",
+      "protocol": "written",
+      "root_y_interval_mm": [
+        35.5,
+        42.5
+      ],
+      "stiffness_N_per_mm": 24.47193422805149,
+      "published_reference_N_per_mm": 23.93,
+      "difference_from_published_fraction": 0.022646645551671174,
+      "equilibrium_pass": true,
+      "solver_runtime": {
+        "returncode": 0,
+        "elapsed_seconds": 67.82655059600006,
+        "peak_resident_GB": 4.009619456,
+        "measurement": "psutil process RSS sampled every 0.25 s",
+        "solver_command": [
+          "/usr/bin/ccx",
+          "-i",
+          "solve"
+        ]
+      }
+    },
+    {
+      "size_mm": 1.6,
+      "case": "left_main_root_down_5N",
+      "protocol": "author_helper",
+      "root_y_interval_mm": [
+        35.0,
+        42.0
+      ],
+      "stiffness_N_per_mm": 24.440167024342973,
+      "published_reference_N_per_mm": 24.47,
+      "difference_from_published_fraction": -0.001219165331304728,
+      "equilibrium_pass": true,
+      "solver_runtime": {
+        "returncode": 0,
+        "elapsed_seconds": 67.57487153,
+        "peak_resident_GB": 4.007018496,
+        "measurement": "psutil process RSS sampled every 0.25 s",
+        "solver_command": [
+          "/usr/bin/ccx",
+          "-i",
+          "solve"
+        ]
+      }
+    },
+    {
+      "size_mm": 1.6,
+      "case": "right_main_root_down_5N",
+      "protocol": "author_helper",
+      "root_y_interval_mm": [
+        35.0,
+        42.0
+      ],
+      "stiffness_N_per_mm": 23.880745733492894,
+      "published_reference_N_per_mm": 23.93,
+      "difference_from_published_fraction": -0.0020582643755581165,
+      "equilibrium_pass": true,
+      "solver_runtime": {
+        "returncode": 0,
+        "elapsed_seconds": 67.32489089399996,
+        "peak_resident_GB": 4.015505408,
+        "measurement": "psutil process RSS sampled every 0.25 s",
+        "solver_command": [
+          "/usr/bin/ccx",
+          "-i",
+          "solve"
+        ]
+      }
+    }
+  ]
+}
