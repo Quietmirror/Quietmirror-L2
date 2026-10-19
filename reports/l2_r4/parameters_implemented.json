@@ -1,0 +1,57 @@
+{
+  "version": "r4",
+  "units": "mm",
+  "side_keys": [
+    {
+      "name": "SIDE_FRONT_KEY",
+      "short": "SF",
+      "y0": 44.2,
+      "y1": 56.3,
+      "hinge_y": 45.3,
+      "rod_y": 50.25,
+      "rod_end": 25.97,
+      "stop_y": [
+        54.0,
+        55.2
+      ],
+      "stop_x": 29.74,
+      "sign": 1,
+      "pad_y_offset": 0.0,
+      "angle": 7.244180937865906,
+      "stop_rib_inner_x": 31.004371738105043,
+      "edge_R0p3_applied": true,
+      "cap_x_offset": 0.2,
+      "hinge_bridge": "x30.05..31.3,z19.3..20.0; joins specified radial ear without a disconnected fragment"
+    },
+    {
+      "name": "SIDE_REAR_KEY",
+      "short": "SR",
+      "y0": 58.1,
+      "y1": 70.8,
+      "hinge_y": 69.7,
+      "rod_y": 64.45,
+      "rod_end": 26.47,
+      "stop_y": [
+        59.3,
+        60.5
+      ],
+      "stop_x": 30.04,
+      "sign": -1,
+      "pad_y_offset": 0.0,
+      "angle": -6.755424900715681,
+      "stop_rib_inner_x": 31.27919048090072,
+      "edge_R0p3_applied": true,
+      "cap_x_offset": 0.2,
+      "hinge_bridge": "x30.05..31.3,z19.3..20.0; joins specified radial ear without a disconnected fragment"
+    }
+  ],
+  "frame": "Integrated source feature of BODY, not a separate printed carrier",
+  "retainers": [
+    "SF_RETAINER",
+    "SR_RETAINER"
+  ],
+  "pad_radius": 1.8849999999999998,
+  "pad_height": 0.52,
+  "author_commit": "f637118455159515a200e6e0f35c0eea1c7d1633",
+  "physical_tests": "HARDWARE_PENDING"
+}
