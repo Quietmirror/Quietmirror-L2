@@ -480,5 +480,32 @@
   {
     "stage": "pair_begin",
     "part": "LEFT_KEY_STEEL_PIN"
+  },
+  {
+    "stage": "pair_end",
+    "part": "LEFT_KEY_STEEL_PIN",
+    "seconds": 0.14199471473693848,
+    "result": {
+      "a": "LEFT_KEY",
+      "b": "LEFT_KEY_STEEL_PIN",
+      "gap_mm": 0.17499999999999888,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.3,
+      "intended_contact": false,
+      "pass_check": false,
+      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "nearest_points_mm": [
+        [
+          11.7,
+          38.510253679210585,
+          15.496746652050401
+        ],
+        [
+          11.7,
+          38.50872653549837,
+          15.321753315514172
+        ]
+      ]
+    }
   }
 ]
