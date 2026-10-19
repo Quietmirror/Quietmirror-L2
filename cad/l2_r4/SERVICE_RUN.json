@@ -1,0 +1,5 @@
+{
+  "phase": "candidate_6_long_axis_battery_extraction_search",
+  "report_file": "service_execution.json",
+  "scripts": ["cad/l2_r4/battery_service.py"]
+}

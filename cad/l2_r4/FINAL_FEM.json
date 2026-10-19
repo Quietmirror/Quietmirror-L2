@@ -1,0 +1,6 @@
+{
+  "phase": "candidate_7_final_geometry_with_author_control_G8_and_S7",
+  "report_file": "final_fem_execution.json",
+  "geometry_source_commit": "85481b87332f9a698dcda3beb64891eac9f95741",
+  "scripts": ["cad/l2_r4/fem_stage.py", "cad/l2_r4/fem_geometry_investigation.py", "cad/l2_r4/side_fem.py"]
+}

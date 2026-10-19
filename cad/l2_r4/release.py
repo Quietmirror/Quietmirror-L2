@@ -10,6 +10,9 @@ def request(path,method='GET',data=None,content_type='application/json'):
     with urllib.request.urlopen(urllib.request.Request(url,data=body,headers=headers,method=method),timeout=300) as response:return json.load(response)
 
 def main():
+    from gate_accounting import assess
+    current=assess()
+    assert current['status']=='CAD_COMPLETE / HARDWARE_PENDING', 'Current numerical/version checks do not authorize Release'
     accounting=json.loads((ROOT/'handoff/l2_r4/FINAL_ACCOUNTING.json').read_text())
     assert accounting['status']=='CAD_COMPLETE / HARDWARE_PENDING'
     gates=accounting['gates'];assert set(gates)=={f'G{i}' for i in range(1,12)}
