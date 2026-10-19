@@ -59,24 +59,29 @@ def main():
         ps=points@matrix(p).T+pivot+p[:3]
         ids=((ps-LO)/H-.5).T
         if np.any(ids[:2]<0) or np.any(ids[0]>=N[0]-1) or np.any(ids[1]>=N[1]-1):return False
-        return float(map_coordinates(field,ids,order=1,mode='constant',cval=100.,prefilter=False).min())>=.55
+        return float(map_coordinates(field,ids,order=1,mode='constant',cval=100.,prefilter=False).min())>=.45
     def edge(a,b):
         count=max(1,int(math.ceil(np.linalg.norm(b[:3]-a[:3])/.5)),int(math.ceil(np.max(np.abs(b[3:]-a[3:]))/2.5)))
         return all(clear(a+(b-a)*t) for t in np.linspace(0,1,count+1)[1:])
     def extend(tree,target):
         i=tree.nearest(target);a=tree.nodes[i];diff=target-a;d=np.linalg.norm(diff*SCALE)
-        b=target if d<=1.2 else a+diff*(1.2/d)
+        b=target if d<=.6 else a+diff*(.6/d)
         if not edge(a,b):return None,False
-        return tree.add(b,i),d<=1.2
+        return tree.add(b,i),d<=.6
     start=np.zeros(6);goal=np.array([17.,0.,25.,0.,0.,0.]);assert clear(start) and clear(goal)
-    A=Tree(start);B=Tree(goal);route=None;attempted=0
-    for iteration in range(40000):
+    A=Tree(start);B=Tree(goal)
+    for dz in [-28.,28.]:
+        for yaw in [-90.,0.,90.]:
+            p=np.array([17.,0.,dz,0.,0.,yaw])
+            if clear(p):B.add(p,-1)
+    route=None;attempted=0
+    for iteration in range(400000):
         attempted=iteration+1
         if iteration%2:a,b,reverse=A,B,False
         else:a,b,reverse=B,A,True
         choice=rng.random()
-        if choice<.55:
-            near=a.nodes[int(rng.integers(len(a.nodes)))];target=near+rng.normal(size=6)*np.array([2.,2.,2.,15.,15.,15.])
+        if choice<.8:
+            near=a.nodes[int(rng.integers(len(a.nodes)))];target=near+rng.normal(size=6)*np.array([.7,.7,.7,5.,5.,5.])
         elif choice<.95:
             target=np.r_[rng.uniform([-12,-25,-24],[40,25,28]),rng.uniform(-90,90,3)]
         else:target=b.nodes[int(rng.integers(len(b.nodes)))]
@@ -92,7 +97,7 @@ def main():
                     break
         if route is not None:break
         if iteration%1000==0:print('BATTERY_RRT',iteration,len(A.nodes),len(B.nodes),evaluations,round(time.time()-began),flush=True)
-    report=dict(found=route is not None,planner='Six-DOF bidirectional RRT; approximate grid only proposes route',grid_mm=H,planning_clearance_mm=.55,exact_required_clearance_mm=.5,attempted_iterations=attempted,nodes=[len(A.nodes),len(B.nodes)],planner_evaluations=evaluations,rotation_order='global X then Y then Z about battery centre; pose dx/dy/dz/roll/pitch/yaw',pivot_mm=pivot.tolist(),battery_estimated_size_mm=[18,22,6],retained_obstacles=list(fixed),service_sequence=['Disconnect battery plug and free wiring','Remove main keys, wheel carrier and removable H electronics stack','Move rigid cell along reported route; integral BODY and side module stay assembled'],limitation='Exact finite-pose rigid-envelope check, not physical handling or adhesive peel proof.',passed=False)
+    report=dict(reachable_start_bounds=np.array(A.nodes).min(0).tolist()+np.array(A.nodes).max(0).tolist(),found=route is not None,planner='Six-DOF bidirectional RRT; approximate grid only proposes route',grid_mm=H,planning_clearance_mm=.45,exact_required_clearance_mm=.5,attempted_iterations=attempted,nodes=[len(A.nodes),len(B.nodes)],planner_evaluations=evaluations,rotation_order='global X then Y then Z about battery centre; pose dx/dy/dz/roll/pitch/yaw',pivot_mm=pivot.tolist(),battery_estimated_size_mm=[18,22,6],retained_obstacles=list(fixed),service_sequence=['Disconnect battery plug and free wiring','Remove main keys, wheel carrier and removable H electronics stack','Move rigid cell along reported route; integral BODY and side module stay assembled'],limitation='Exact finite-pose rigid-envelope check, not physical handling or adhesive peel proof.',passed=False)
     save('battery_service_path.json',report)
     if route is None:raise RuntimeError('No accepted six-DOF route; do not mark battery service passed')
     # Shortcut only when the planner checks the connecting segment too.
