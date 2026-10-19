@@ -74,16 +74,31 @@ def main():
         for yaw in [-90.,0.,90.]:
             p=np.array([17.,0.,dz,0.,0.,yaw])
             if clear(p):B.add(p,-1)
+    # A flat exterior seed gives the reverse tree almost no probability of
+    # entering a triangular roof window. Seed already-outside edge-on cells
+    # over the actual left/rear openings; all must pass the same planner.
+    entry_seeds=[]
+    for dx in [-3.,7.,17.]:
+        for dy in [-5.,6.,16.]:
+            for roll,pitch in [(-90.,0.),(90.,0.),(0.,-90.),(0.,90.)]:
+                for yaw in [-90.,-45.,0.,45.,90.]:
+                    p=np.array([dx,dy,30.,roll,pitch,yaw])
+                    if clear(p):B.add(p,-1);entry_seeds.append(p)
     route=None;attempted=0
-    for iteration in range(400000):
+    for iteration in range(240000):
         attempted=iteration+1
         if iteration%2:a,b,reverse=A,B,False
         else:a,b,reverse=B,A,True
         choice=rng.random()
-        if choice<.8:
+        if choice<.45:
             near=a.nodes[int(rng.integers(len(a.nodes)))];target=near+rng.normal(size=6)*np.array([.7,.7,.7,5.,5.,5.])
-        elif choice<.95:
+        elif choice<.65:
             target=np.r_[rng.uniform([-12,-25,-24],[40,25,28]),rng.uniform(-90,90,3)]
+        elif choice<.85 and not reverse:
+            # Biased toward edge-on roof entry instead of an unconstrained
+            # random walk within the trapped battery bay.
+            target=entry_seeds[int(rng.integers(len(entry_seeds)))].copy()
+            target[:3]+=rng.normal(size=3)*np.array([2.,2.,2.])
         else:target=b.nodes[int(rng.integers(len(b.nodes)))]
         target[3:]=np.clip(target[3:],-120,120)
         ai,_=extend(a,target)
@@ -97,7 +112,11 @@ def main():
                     break
         if route is not None:break
         if iteration%1000==0:print('BATTERY_RRT',iteration,len(A.nodes),len(B.nodes),evaluations,round(time.time()-began),flush=True)
-    report=dict(reachable_start_bounds=np.array(A.nodes).min(0).tolist()+np.array(A.nodes).max(0).tolist(),found=route is not None,planner='Six-DOF bidirectional RRT; approximate grid only proposes route',grid_mm=H,planning_clearance_mm=.45,exact_required_clearance_mm=.5,attempted_iterations=attempted,nodes=[len(A.nodes),len(B.nodes)],planner_evaluations=evaluations,rotation_order='global X then Y then Z about battery centre; pose dx/dy/dz/roll/pitch/yaw',pivot_mm=pivot.tolist(),battery_estimated_size_mm=[18,22,6],retained_obstacles=list(fixed),service_sequence=['Disconnect battery plug and free wiring','Remove main keys, wheel carrier and removable H electronics stack','Move rigid cell along reported route; integral BODY and side module stay assembled'],limitation='Exact finite-pose rigid-envelope check, not physical handling or adhesive peel proof.',passed=False)
+    extreme={}
+    for axis in range(6):
+        for label,fn in [('min',np.argmin),('max',np.argmax)]:
+            node=int(fn(np.array(A.nodes)[:,axis]));extreme[str(axis)+label]=[p.tolist() for p in A.path(node)]
+    report=dict(exterior_edge_on_seeds=len(entry_seeds),reachable_extreme_paths=extreme,reachable_start_bounds=np.array(A.nodes).min(0).tolist()+np.array(A.nodes).max(0).tolist(),found=route is not None,planner='Six-DOF bidirectional RRT with edge-on roof-entry seeds; approximate grid only proposes route',grid_mm=H,planning_clearance_mm=.45,exact_required_clearance_mm=.5,attempted_iterations=attempted,nodes=[len(A.nodes),len(B.nodes)],planner_evaluations=evaluations,rotation_order='global X then Y then Z about battery centre; pose dx/dy/dz/roll/pitch/yaw',pivot_mm=pivot.tolist(),battery_estimated_size_mm=[18,22,6],retained_obstacles=list(fixed),service_sequence=['Disconnect battery plug and free wiring','Remove main keys, wheel carrier and removable H electronics stack','Move rigid cell along reported route; integral BODY and side module stay assembled'],limitation='Exact finite-pose rigid-envelope check, not physical handling or adhesive peel proof.',passed=False)
     save('battery_service_path.json',report)
     if route is None:raise RuntimeError('No accepted six-DOF route; do not mark battery service passed')
     # Shortcut only when the planner checks the connecting segment too.
