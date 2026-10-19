@@ -1,0 +1,45 @@
+name: L2-r4 candidate exact CAD checks
+on:
+  push:
+    branches: [codex/r4-frame-final]
+    paths: ['cad/l2_r4/**', '.github/workflows/l2-r4-candidate.yml']
+permissions:
+  contents: write
+concurrency:
+  group: l2-r4-frame-final
+  cancel-in-progress: true
+jobs:
+  independent_checks:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - role: frame_diagnostic
+            config: FRAME_DIAGNOSTIC.json
+          - role: frame_assembly
+            config: FRAME_ASSEMBLY.json
+    runs-on: ubuntu-24.04
+    timeout-minutes: 240
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUTF8: '1'
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      R4_TARGET_BRANCH: codex/r4-${{ matrix.role }}-${{ github.run_id }}
+      ARTIFACT_SHA: ${{ github.sha }}
+    steps:
+      - name: Read identical immutable geometry for independent checks
+        run: |
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=1 origin "$ARTIFACT_SHA"
+          git checkout --detach FETCH_HEAD
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libglu1-mesa libgl1 libopengl0 libegl1 fonts-noto-cjk xvfb
+          python3 -m venv _support/venv
+          _support/venv/bin/pip install --disable-pip-version-check cadquery==2.8.0 gmsh==4.15.2 trimesh scipy pillow psutil shapely matplotlib rtree pymeshlab
+      - name: Numerical checks with independent result branches
+        run: xvfb-run -a _support/venv/bin/python -u cad/l2_r4/ci_run.py --config cad/l2_r4/${{ matrix.config }}
+      - name: Preserve actual result even if a criterion fails
+        if: always() && !cancelled()
+        run: python3 cad/l2_r4/ci_checkpoint.py

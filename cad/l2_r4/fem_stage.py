@@ -77,27 +77,49 @@ def solve(m,d,cons,loads,description,feet):
     r['solver_backend_verified']='SPOOLES in actual CalculiX log'
     r['solver_runtime']=json.loads((d/'solver_runtime.json').read_text())
     r['available_memory_before_solve_GB']=mem/1e9
-    # Keep exact deck + compact actual results under versioned reports; raw
-    # meshes and DAT files remain in work, with their recorded digests.
+    # Keep compact actual results and the solver log. Reproducible source,
+    # mesh settings and input fingerprints describe the unversioned raw deck.
     target=RP/d.parent.name/d.name;target.mkdir(parents=True,exist_ok=True)
     (target/'result.json').write_text(json.dumps(r,indent=2))
+    shutil.copy2(d/'ccx.log',target/'ccx.log')
+    settings=d.parent/'mesh_settings.json'
+    if settings.exists():shutil.copy2(settings,target/'mesh_settings.json')
     return r,u
 
 def main():
     RP.mkdir(parents=True,exist_ok=True);rows=[]
+    refpath=RP/'REFERENCE_R32_ROOT_PROTOCOL.json'
+    reference=json.loads(refpath.read_text()) if refpath.exists() else None
+    if reference:assert reference['status']=='COMPLETED','Reference investigation is not complete'
+    refrows={(r['case'],r['size_mm']):r for r in (reference or {}).get('rows',[]) if r['protocol']=='written'}
     for j,h in enumerate([2.4,2.0,1.6]):
         d=WORK/f'BODY_h{h:g}';m=mesh(ROOT/'models/L2_r4/parts/BODY.step',d,h)
         cons,feet=L.foot_constraints(m)
         for loads,desc in L.cases(m):
             r,u=solve(m,d/desc['name'],cons,loads,desc,feet)
             F=desc['magnitude_N'];delta=float(np.sum(loads*u))/F;k=F/delta
+            published=REF[desc['name']][j];written=refrows.get((desc['name'],h),{}).get('stiffness_N_per_mm',published)
+            baseline=max(published,written)
             row=dict(size_mm=h,case=desc['name'],stiffness_N_per_mm=k,
-                baseline_N_per_mm=REF[desc['name']][j],ratio=k/REF[desc['name']][j],
+                baseline_N_per_mm=baseline,published_baseline_N_per_mm=published,written_protocol_baseline_N_per_mm=written,ratio=k/baseline,
                 author_N_per_mm=AUTHOR[desc['name']][j],author_difference_fraction=k/AUTHOR[desc['name']][j]-1,
                 equilibrium_pass=r['equilibrium_pass'],vm_p95_MPa=r['p95_integration_point_vm_MPa'],
-                passed=k>=REF[desc['name']][j] and r['equilibrium_pass'],
+                passed=k>=baseline and r['equilibrium_pass'],
                 author_difference_requires_investigation=abs(k/AUTHOR[desc['name']][j]-1)>.03)
             rows.append(row);(RP/'stiffness.json').write_text(json.dumps(rows,indent=2));print(row,flush=True)
+            if os.getenv('GITHUB_ACTIONS')=='true':subprocess.run([sys.executable,str(ROOT/'cad/l2_r4/ci_checkpoint.py')],cwd=ROOT,check=True)
+        for loads,desc in L.root_cases(m,(35.,42.)):
+            row=next(r for r in rows if r['size_mm']==h and r['case']==desc['name'])
+            if not row['author_difference_requires_investigation']:continue
+            r,u=solve(m,d/('AUTHOR_MASK_'+desc['name']),cons,loads,desc,feet)
+            old_k=25./float(np.sum(loads*u))
+            row['load_interval_investigation']=dict(written_y_mm=[35.5,42.5],author_y_mm=[35.,42.],same_final_BODY_author_mask_stiffness=old_k,
+                interval_effect_fraction=row['stiffness_N_per_mm']/old_k-1,remaining_author_difference_fraction=old_k/row['author_N_per_mm']-1,
+                explanation='Same final BODY and mesh, only load-face interval changes; published author helper used the older interval.',
+                resolved=abs(old_k/row['author_N_per_mm']-1)<=.03 and r['equilibrium_pass'])
+            row['author_difference_requires_investigation']=not row['load_interval_investigation']['resolved']
+            (RP/'stiffness.json').write_text(json.dumps(rows,indent=2))
+            if os.getenv('GITHUB_ACTIONS')=='true':subprocess.run([sys.executable,str(ROOT/'cad/l2_r4/ci_checkpoint.py')],cwd=ROOT,check=True)
         del m
     (RP/'G8.json').write_text(json.dumps(dict(status='COMPLETED' if len(rows)==18 and all(r['passed'] and not r['author_difference_requires_investigation'] for r in rows) else 'REVIEW_REQUIRED',rows=rows),indent=2))
 

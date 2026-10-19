@@ -1,0 +1,5 @@
+{
+  "phase": "C12 unchanged integral frame loose-part assembly",
+  "report_file": "frame_assembly_execution.json",
+  "scripts": ["cad/l2_r4/plan_sf_route.py", "cad/l2_r4/assembly_paths.py"]
+}
