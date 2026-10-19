@@ -47,11 +47,11 @@
   {
     "part": "SF_RETAINER",
     "positive_mesh_volume": true,
-    "mesh_volume_mm3": 103.84524307281121,
-    "adaptive_CAD_volume_mm3": 103.89933000919667,
-    "difference_percent": -0.052057059829613284,
+    "mesh_volume_mm3": 100.11605174421857,
+    "adaptive_CAD_volume_mm3": 100.16368399517599,
+    "difference_percent": -0.04755441199598698,
     "size_mm": [
-      3.699904441833496,
+      3.6998777389526367,
       13.200000762939453,
       6.800000190734863
     ],
@@ -62,9 +62,9 @@
   {
     "part": "SIDE_FRONT_KEY",
     "positive_mesh_volume": true,
-    "mesh_volume_mm3": 76.59462647407297,
-    "adaptive_CAD_volume_mm3": 76.74189104272244,
-    "difference_percent": -0.19189593408310834,
+    "mesh_volume_mm3": 76.54714354789257,
+    "adaptive_CAD_volume_mm3": 76.69917382367888,
+    "difference_percent": -0.19821631473606605,
     "size_mm": [
       6.967317581176758,
       11.999580383300781,
@@ -77,9 +77,9 @@
   {
     "part": "SIDE_REAR_KEY",
     "positive_mesh_volume": true,
-    "mesh_volume_mm3": 81.40840333882063,
-    "adaptive_CAD_volume_mm3": 81.56501095510058,
-    "difference_percent": -0.19200342701620743,
+    "mesh_volume_mm3": 81.3651066090885,
+    "adaptive_CAD_volume_mm3": 81.52505078258017,
+    "difference_percent": -0.1961902163277629,
     "size_mm": [
       7.263078689575195,
       12.599586486816406,
@@ -92,9 +92,9 @@
   {
     "part": "SR_RETAINER",
     "positive_mesh_volume": true,
-    "mesh_volume_mm3": 166.6847914210704,
-    "adaptive_CAD_volume_mm3": 166.7823898016227,
-    "difference_percent": -0.058518396737450296,
+    "mesh_volume_mm3": 160.9037793699581,
+    "adaptive_CAD_volume_mm3": 161.0013898016225,
+    "difference_percent": -0.06062707395549927,
     "size_mm": [
       4.199067115783691,
       16.899845123291016,
@@ -122,11 +122,11 @@
   {
     "part": "WHEEL_CARRIER",
     "positive_mesh_volume": true,
-    "mesh_volume_mm3": 589.7159851657713,
-    "adaptive_CAD_volume_mm3": 589.8949111552149,
-    "difference_percent": -0.030331841495845335,
+    "mesh_volume_mm3": 586.9005129226517,
+    "adaptive_CAD_volume_mm3": 587.0776628018871,
+    "difference_percent": -0.03017486279240922,
     "size_mm": [
-      17.950000286102295,
+      17.87999963760376,
       32.59951400756836,
       11.399686813354492
     ],
