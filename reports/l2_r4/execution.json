@@ -30,6 +30,13 @@
       "seconds": 26.21,
       "available_memory_before_GB": 15.662657536,
       "log_tail": "EXPORTED LEFT_KEY 1718.7297\nEXPORTED RIGHT_KEY 1718.7298\n"
+    },
+    {
+      "script": "cad/l2_r4/build_body.py",
+      "returncode": 0,
+      "seconds": 167.93,
+      "available_memory_before_GB": 15.699402752,
+      "log_tail": "Mother surfaces 0.7351324558258057\nSkin and six windows 33.61835217475891\nSupport 0 34.41785526275635\nSupport 8 44.06824207305908\nSupport 16 57.82219099998474\nSupport 24 68.78164935112\nSupport 32 80.20531988143921\nEXPORTED BODY 12658.3663\n"
     }
   ]
 }
