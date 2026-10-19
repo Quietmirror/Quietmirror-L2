@@ -15,9 +15,14 @@ def main():
     original=load('WHEEL_CARRIER',ROOT/'models/L2_r3/parts');carrier=original
     housing=rigid_housing(load('SWITCH_MIDDLE',OUT/'reference'),mo);b=housing.BoundingBox()
     tool=box(b.xmin-.32,b.xmax+.32,b.ymin-.32,b.ymax+.32,b.zmin-.32,b.zmax+.32)
-    for angle in np.linspace(-4.4,4.4,45):carrier=carrier.cut(tool.rotate(origin,axis,-float(angle))).clean()
+    tools=[tool]
+    for name in ['LEFT_KEY_M2_SWITCH_1_BOLT','RIGHT_KEY_M2_SWITCH_1_BOLT']:
+        b=baseline(name).BoundingBox()
+        tools.append(box(b.xmin-.32,b.xmax+.32,b.ymin-.32,b.ymax+.32,b.zmin-.32,b.zmax+.32))
+    for tool in tools:
+        for angle in np.linspace(-4.4,4.4,45):carrier=carrier.cut(tool.rotate(origin,axis,-float(angle))).clean()
     rows=[export(carrier,'WHEEL_CARRIER')]
-    rows[-1].update(removed_mm3=vol(original)-vol(carrier),change='Local0.32mm rigid middle-switch housing clearance; active plunger contact pad retained')
+    rows[-1].update(removed_mm3=vol(original)-vol(carrier),change='Local0.32mm rigid middle-switch housing and main-switch fastener clearance across45 design poses; active plunger contact pad retained. Independent motion checks remain required')
     pcb=load('ENCODER_ADAPTER_PCB_EST',ROOT/'models/L2_r3/reference');previous=vol(pcb)
     pcb=pcb.cut(box(10.9,25,0,70,0,30)).cut(box(8.6,25,28.8,45,0,30)).clean()
     rows.append(export(pcb,'ENCODER_ADAPTER_PCB_EST',False));rows[-1].update(removed_mm3=previous-vol(pcb),change='Custom PCB edge x<=10.9; rear/east notch x>8.6,y>28.8; original mounting and terminal holes retained')

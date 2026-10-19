@@ -1,11 +1,13 @@
 {
-  "phase": "C12 source hinge web setback",
-  "report_file": "cap_repair_execution.json",
+  "phase": "C12 wheel hardware clearance correction",
+  "report_file": "wheel_c12_execution.json",
   "scripts": [
     "cad/l2_r4/restore_inputs.py",
-    "cad/l2_r4/regenerate_keys.py",
-    "cad/l2_r4/cap_join_probe.py",
-    "cad/l2_r4/side_functional_checks.py",
+    "cad/l2_r4/wheel_clearance_finish.py",
+    "cad/l2_r4/assemble.py",
+    "cad/l2_r4/wheel_endpoint_probe.py",
+    "cad/l2_r4/wheel_rotation_check.py",
+    "cad/l2_r4/surface_mesh_changed.py",
     "cad/l2_r4/mechanism_accounting.py"
   ]
 }

@@ -24,7 +24,7 @@ def main():
         fixed[mo['switch']+'_RIGID_HOUSING']=housing
         named=unite(features[n+'_FIXED_BEARINGS'],features[n+'_PRESS_STOP'])
         nonfunctional_body=parts['BODY'].cut(collar(named,.30001))
-        ori=mo['origin'];axis=[ori[0]+1,*ori[1:]];angles=np.array([-4.4,4.1,4.4]) if n=='WHEEL_CARRIER' else np.array([-.5,2.8,3.1])
+        ori=mo['origin'];axis=[ori[0]+1,*ori[1:]];angles=np.array([-4.4,-2.4,0.,4.1,4.4]) if n=='WHEEL_CARRIER' else np.array([-.5,2.8,3.1])
         samples=[]
         for a in angles:
             pairs=[];scene=[];classified=[]
