@@ -12,11 +12,11 @@ from common import *
 from assembly_paths import H,LO,N,voxelize,inside_points,dense
 
 def transform(points,pivot,pose):
-    a=math.radians(pose[3]);r=np.array([[math.cos(a),0,math.sin(a)],[0,1,0],[-math.sin(a),0,math.cos(a)]])
+    a=math.radians(pose[3]);r=np.array([[1,0,0],[0,math.cos(a),-math.sin(a)],[0,math.sin(a),math.cos(a)]])
     return (points-pivot)@r.T+pivot+np.array(pose[:3])
 
 def moved(shape,pivot,pose):
-    return shape.rotate(tuple(pivot),tuple(pivot+np.array([0,1,0])),pose[3]).translate(tuple(pose[:3]))
+    return shape.rotate(tuple(pivot),tuple(pivot+np.array([1,0,0])),pose[3]).translate(tuple(pose[:3]))
 
 def main():
     starttime=time.time();body=load('BODY');battery=load('BATTERY_CELL_EST',OUT/'reference')
@@ -46,7 +46,7 @@ def main():
             if d<2:invalid|=(axes[d]+mn[d]<0)
             # Entirely below the grid is intentionally free entry space.
             sl=[slice(None)]*3;sl[d]=invalid;blocked[j][tuple(sl)]=True
-        maps.append(dict(rotation_y_deg=angle,roundoff=error));del corr,values,kernel
+        maps.append(dict(rotation_x_deg=angle,roundoff=error));del corr,values,kernel
     sx,sy,sz=shape[1:];plane=sy*sz;orient=sx*plane
     def pack(q):a,x,y,z=q;return a*orient+x*plane+y*sz+z
     def unpack(i):a,r=divmod(i,orient);x,r=divmod(r,plane);y,z=divmod(r,sz);return a,x,y,z
@@ -56,7 +56,7 @@ def main():
     # exhausted millions of irrelevant free states below the mouse.
     start=encode([0.,0.,0.,0.]);assert not blocked[start],('Battery final pose blocked',bool(blocked[start]))
     def highest(q):
-        p=decode(q);a=math.radians(p[3]);return pivot[2]+p[2]+9*abs(math.sin(a))+3*abs(math.cos(a))
+        p=decode(q);a=math.radians(p[3]);return pivot[2]+p[2]+11*abs(math.sin(a))+3*abs(math.cos(a))
     def heuristic(q):return max(0.,highest(q)-2.5)/.5
     sid=pack(start);gid=None;heap=[(1.1*heuristic(start),0,sid)];costs={sid:0};parent={};flat=blocked.ravel();expanded=0;found=False
     while heap:
@@ -75,7 +75,7 @@ def main():
                 nc=cost+(2 if dim==0 else 1)
                 if nc>=costs.get(ni,10**12):continue
                 costs[ni]=nc;parent[ni]=node;heapq.heappush(heap,(nc+1.1*heuristic(v),nc,ni))
-    report=dict(found=found,expanded_states=expanded,pivot_mm=pivot.tolist(),rotation_axis='Y through battery centre',grid_mm=H,search_translation_mm=.5,search_rotation_deg=5,maps=maps,
+    report=dict(found=found,expanded_states=expanded,pivot_mm=pivot.tolist(),rotation_axis='X through battery centre',grid_mm=H,search_translation_mm=.5,search_rotation_deg=5,maps=maps,
         battery_estimated_size_mm=[18,22,6],retained_obstacles=list(fixed),
         service_sequence=['Disconnect battery plug and free flexible wiring','Remove main keys and removable wheel carrier assembly','Remove screwed H electronics stack if already installed','Move battery along the reversed verified route; side module and integral BODY remain in place'],
         limitation='Rigid estimated battery envelope only; adhesive release and actual cell/plug dimensions require physical verification.',passed=False)
