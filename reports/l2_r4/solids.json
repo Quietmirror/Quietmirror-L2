@@ -1,0 +1,164 @@
+[
+  {
+    "name": "BODY",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 12644.25463903635,
+    "bounds_mm": [
+      -33.04800010000001,
+      -1e-07,
+      4.999999898410112,
+      33.04800010000001,
+      88.2360001000004,
+      30.56400009999984
+    ],
+    "closed_mesh": true,
+    "consistent_winding": true,
+    "mesh_components": 1,
+    "brep_self_interference_check": true
+  },
+  {
+    "name": "LEFT_KEY",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1719.6801597484564,
+    "bounds_mm": [
+      5.299999899787287,
+      0.6846852341261915,
+      10.599999899999935,
+      28.00000010000022,
+      41.15,
+      26.119611768562397
+    ],
+    "closed_mesh": true,
+    "consistent_winding": true,
+    "mesh_components": 1,
+    "brep_self_interference_check": true
+  },
+  {
+    "name": "RIGHT_KEY",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1719.680209111002,
+    "bounds_mm": [
+      -28.0000001,
+      0.684685234126075,
+      10.5999999,
+      -5.299999899999995,
+      41.15,
+      26.119611772128
+    ],
+    "closed_mesh": true,
+    "consistent_winding": true,
+    "mesh_components": 1,
+    "brep_self_interference_check": true
+  },
+  {
+    "name": "SF_RETAINER",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 87.38100524712259,
+    "bounds_mm": [
+      16.6,
+      41.8,
+      12.7,
+      18.65,
+      55.0,
+      19.5
+    ],
+    "closed_mesh": true,
+    "consistent_winding": true,
+    "mesh_components": 1,
+    "brep_self_interference_check": true
+  },
+  {
+    "name": "SIDE_FRONT_KEY",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 86.24471624902851,
+    "bounds_mm": [
+      25.97,
+      44.049999899999996,
+      15.299999992433627,
+      32.36945991532829,
+      56.30000010000003,
+      20.75
+    ],
+    "closed_mesh": true,
+    "consistent_winding": true,
+    "mesh_components": 1,
+    "brep_self_interference_check": true
+  },
+  {
+    "name": "SIDE_REAR_KEY",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 91.99475033818099,
+    "bounds_mm": [
+      26.47,
+      58.09999989999986,
+      15.299999992433612,
+      32.69168545942601,
+      70.9500001,
+      20.75
+    ],
+    "closed_mesh": true,
+    "consistent_winding": true,
+    "mesh_components": 1,
+    "brep_self_interference_check": true
+  },
+  {
+    "name": "SR_RETAINER",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 148.85845577434074,
+    "bounds_mm": [
+      16.6,
+      55.3,
+      12.7,
+      19.0,
+      71.20000000000029,
+      19.5
+    ],
+    "closed_mesh": true,
+    "consistent_winding": true,
+    "mesh_components": 1,
+    "brep_self_interference_check": true
+  },
+  {
+    "name": "WHEEL",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 563.1619625874001,
+    "bounds_mm": [
+      -7.25,
+      21.75,
+      12.75,
+      8.85,
+      34.25,
+      25.25
+    ],
+    "closed_mesh": true,
+    "consistent_winding": true,
+    "mesh_components": 1,
+    "brep_self_interference_check": true
+  },
+  {
+    "name": "WHEEL_CARRIER",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 589.8949111552149,
+    "bounds_mm": [
+      -6.8500001,
+      20.0,
+      10.4,
+      11.1,
+      52.6000001,
+      21.800000100000002
+    ],
+    "closed_mesh": true,
+    "consistent_winding": true,
+    "mesh_components": 1,
+    "brep_self_interference_check": true
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "part": "BODY",
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "triangles": 403670,
+    "method": "Conforming final STEP surface triangulation; no hole filling",
+    "passed": true
+  },
+  {
+    "part": "SIDE_FRONT_KEY",
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "triangles": 29560,
+    "method": "Conforming final STEP surface triangulation; no hole filling",
+    "passed": true
+  },
+  {
+    "part": "SIDE_REAR_KEY",
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "triangles": 31720,
+    "method": "Conforming final STEP surface triangulation; no hole filling",
+    "passed": true
+  },
+  {
+    "part": "SF_RETAINER",
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "triangles": 4100,
+    "method": "Conforming final STEP surface triangulation; no hole filling",
+    "passed": true
+  },
+  {
+    "part": "SR_RETAINER",
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "triangles": 4992,
+    "method": "Conforming final STEP surface triangulation; no hole filling",
+    "passed": true
+  }
+]

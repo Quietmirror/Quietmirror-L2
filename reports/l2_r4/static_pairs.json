@@ -1,0 +1,794 @@
+[
+  {
+    "a": "BODY",
+    "b": "LEFT_KEY",
+    "gap_mm": 0.3000000000000007,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+    "nearest_points_mm": [
+      [
+        28.3,
+        25.0,
+        14.904280056849
+      ],
+      [
+        28.0,
+        25.0,
+        14.904280056849
+      ]
+    ]
+  },
+  {
+    "a": "BODY",
+    "b": "RIGHT_KEY",
+    "gap_mm": 0.3000000000000007,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+    "nearest_points_mm": [
+      [
+        -28.3,
+        25.0,
+        14.904280056849
+      ],
+      [
+        -28.0,
+        25.0,
+        14.904280056849
+      ]
+    ]
+  },
+  {
+    "a": "BODY",
+    "b": "SF_RETAINER",
+    "gap_mm": 0.0,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": false,
+    "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+    "nearest_points_mm": [
+      [
+        17.3,
+        41.8,
+        13.7
+      ],
+      [
+        17.3,
+        41.8,
+        13.7
+      ]
+    ]
+  },
+  {
+    "a": "BODY",
+    "b": "SIDE_FRONT_KEY",
+    "gap_mm": 0.07499999999999574,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": false,
+    "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+    "nearest_points_mm": [
+      [
+        29.0,
+        44.825,
+        20.5
+      ],
+      [
+        29.0,
+        44.9,
+        20.5
+      ]
+    ]
+  },
+  {
+    "a": "BODY",
+    "b": "SIDE_REAR_KEY",
+    "gap_mm": 0.07500000000000284,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": false,
+    "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+    "nearest_points_mm": [
+      [
+        29.0,
+        70.175,
+        20.5
+      ],
+      [
+        29.0,
+        70.1,
+        20.5
+      ]
+    ]
+  },
+  {
+    "a": "BODY",
+    "b": "SR_RETAINER",
+    "gap_mm": 0.0,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": false,
+    "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+    "nearest_points_mm": [
+      [
+        19.0,
+        55.75,
+        13.7
+      ],
+      [
+        19.0,
+        55.75,
+        13.7
+      ]
+    ]
+  },
+  {
+    "a": "BODY",
+    "b": "WHEEL",
+    "gap_mm": 4.050289747125348,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        3.2591543651392416,
+        36.9,
+        24.18514764150536
+      ],
+      [
+        3.25,
+        33.400338937336,
+        22.14624210160195
+      ]
+    ]
+  },
+  {
+    "a": "BODY",
+    "b": "WHEEL_CARRIER",
+    "gap_mm": 0.25,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": false,
+    "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+    "nearest_points_mm": [
+      [
+        -3.6,
+        48.825,
+        18.999999947699347
+      ],
+      [
+        -3.3499999999684693,
+        48.82500000000375,
+        18.999999947699347
+      ]
+    ]
+  },
+  {
+    "a": "LEFT_KEY",
+    "b": "RIGHT_KEY",
+    "gap_mm": 10.6,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        5.3,
+        17.6,
+        18.118713200636
+      ],
+      [
+        -5.3,
+        17.6,
+        18.118713208781
+      ]
+    ]
+  },
+  {
+    "a": "LEFT_KEY",
+    "b": "SF_RETAINER",
+    "gap_mm": 0.6499999999999986,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        16.6,
+        41.15,
+        14.32179139245
+      ],
+      [
+        16.6,
+        41.8,
+        14.32179139245
+      ]
+    ]
+  },
+  {
+    "a": "LEFT_KEY",
+    "b": "SIDE_FRONT_KEY",
+    "gap_mm": 4.667145953950036,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        24.9,
+        41.098781603716965,
+        14.840283606646405
+      ],
+      [
+        28.126958786289258,
+        44.40540565664516,
+        15.5
+      ]
+    ]
+  },
+  {
+    "a": "LEFT_KEY",
+    "b": "SIDE_REAR_KEY",
+    "gap_mm": 18.330175248539685,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        24.9,
+        41.127313696612916,
+        14.6678011316051
+      ],
+      [
+        31.390332849494484,
+        58.12322087309398,
+        16.906113753512347
+      ]
+    ]
+  },
+  {
+    "a": "LEFT_KEY",
+    "b": "SR_RETAINER",
+    "gap_mm": 14.149999999999999,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        17.3,
+        41.15,
+        14.32179139245
+      ],
+      [
+        17.3,
+        55.3,
+        14.32179139245
+      ]
+    ]
+  },
+  {
+    "a": "LEFT_KEY",
+    "b": "WHEEL",
+    "gap_mm": 1.158966479558189,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        9.9,
+        27.306275391504624,
+        20.277620632561653
+      ],
+      [
+        8.85,
+        27.517912525227,
+        19.835
+      ]
+    ]
+  },
+  {
+    "a": "LEFT_KEY",
+    "b": "WHEEL_CARRIER",
+    "gap_mm": 3.000463302019518,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        11.7,
+        36.11204222267307,
+        13.172810255222839
+      ],
+      [
+        8.973450865500375,
+        34.983410947974356,
+        12.629762108464952
+      ]
+    ]
+  },
+  {
+    "a": "RIGHT_KEY",
+    "b": "SF_RETAINER",
+    "gap_mm": 27.71922410453614,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        -9.894987437107,
+        37.5,
+        24.119611670104
+      ],
+      [
+        16.6,
+        41.8,
+        17.2
+      ]
+    ]
+  },
+  {
+    "a": "RIGHT_KEY",
+    "b": "SIDE_FRONT_KEY",
+    "gap_mm": 38.6961225326268,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        -9.894987437107,
+        37.5,
+        24.119611670104
+      ],
+      [
+        27.774401589518593,
+        45.05421851936029,
+        19.5
+      ]
+    ]
+  },
+  {
+    "a": "RIGHT_KEY",
+    "b": "SIDE_REAR_KEY",
+    "gap_mm": 44.42311889488827,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        -11.7,
+        41.13971925924585,
+        14.554991376083255
+      ],
+      [
+        26.72453698828966,
+        63.34602301407091,
+        16.516756686557862
+      ]
+    ]
+  },
+  {
+    "a": "RIGHT_KEY",
+    "b": "SR_RETAINER",
+    "gap_mm": 32.267979484312306,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        -11.7,
+        41.15,
+        14.32179139245
+      ],
+      [
+        17.3,
+        55.3,
+        14.32179139245
+      ]
+    ]
+  },
+  {
+    "a": "RIGHT_KEY",
+    "b": "WHEEL",
+    "gap_mm": 2.6882779356952167,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        -9.9,
+        27.368467181005464,
+        20.30750921616502
+      ],
+      [
+        -7.25,
+        27.565071393333593,
+        19.900464939408092
+      ]
+    ]
+  },
+  {
+    "a": "RIGHT_KEY",
+    "b": "WHEEL_CARRIER",
+    "gap_mm": 3.2,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        -9.9,
+        25.225204450227782,
+        19.374846177737336
+      ],
+      [
+        -6.7,
+        25.225204450227782,
+        19.374846177737336
+      ]
+    ]
+  },
+  {
+    "a": "SF_RETAINER",
+    "b": "SIDE_FRONT_KEY",
+    "gap_mm": 7.469999999999999,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        18.5,
+        50.451786882403766,
+        16.600013470197222
+      ],
+      [
+        25.97000000226737,
+        50.451730245785846,
+        16.600060682167452
+      ]
+    ]
+  },
+  {
+    "a": "SF_RETAINER",
+    "b": "SIDE_REAR_KEY",
+    "gap_mm": 11.657287173516892,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        18.5,
+        55.0,
+        16.6
+      ],
+      [
+        26.98324685653334,
+        62.9954278820435,
+        16.6
+      ]
+    ]
+  },
+  {
+    "a": "SF_RETAINER",
+    "b": "SR_RETAINER",
+    "gap_mm": 0.29999999999999716,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        17.3,
+        55.0,
+        13.7
+      ],
+      [
+        17.3,
+        55.3,
+        13.7
+      ]
+    ]
+  },
+  {
+    "a": "SF_RETAINER",
+    "b": "WHEEL",
+    "gap_mm": 15.101685492879154,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        16.6,
+        41.8,
+        17.2
+      ],
+      [
+        8.85,
+        28.964174949547,
+        19.0
+      ]
+    ]
+  },
+  {
+    "a": "SF_RETAINER",
+    "b": "WHEEL_CARRIER",
+    "gap_mm": 9.770348378690983,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        16.6,
+        41.8,
+        17.2
+      ],
+      [
+        6.847529725661701,
+        41.739275202568635,
+        17.787659329981494
+      ]
+    ]
+  },
+  {
+    "a": "SIDE_FRONT_KEY",
+    "b": "SIDE_REAR_KEY",
+    "gap_mm": 1.7999999999998764,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        31.908372421761,
+        56.3,
+        17.0
+      ],
+      [
+        31.908372421761,
+        58.1,
+        17.0
+      ]
+    ]
+  },
+  {
+    "a": "SIDE_FRONT_KEY",
+    "b": "SR_RETAINER",
+    "gap_mm": 8.210348841917252,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        26.201597501346967,
+        51.35705420598189,
+        16.6
+      ],
+      [
+        19.0,
+        55.3,
+        16.6
+      ]
+    ]
+  },
+  {
+    "a": "SIDE_FRONT_KEY",
+    "b": "WHEEL",
+    "gap_mm": 24.689962993015385,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        28.029007866866195,
+        44.51280607383424,
+        19.0
+      ],
+      [
+        8.85,
+        28.964174949547,
+        19.0
+      ]
+    ]
+  },
+  {
+    "a": "SIDE_FRONT_KEY",
+    "b": "WHEEL_CARRIER",
+    "gap_mm": 20.373353241273936,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        26.070275988012824,
+        49.85688135126254,
+        16.718562230161147
+      ],
+      [
+        6.780720160745786,
+        43.42691435892845,
+        18.0
+      ]
+    ]
+  },
+  {
+    "a": "SIDE_REAR_KEY",
+    "b": "SR_RETAINER",
+    "gap_mm": 7.469999999999999,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        26.47000000002786,
+        64.2882916334195,
+        16.60000591902713
+      ],
+      [
+        19.0,
+        64.28829875693435,
+        16.60000438053635
+      ]
+    ]
+  },
+  {
+    "a": "SIDE_REAR_KEY",
+    "b": "WHEEL",
+    "gap_mm": 36.63397414986795,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        30.907877105852315,
+        58.26650684099219,
+        18.387911276919038
+      ],
+      [
+        3.25,
+        34.24872232326078,
+        18.873630198297214
+      ]
+    ]
+  },
+  {
+    "a": "SIDE_REAR_KEY",
+    "b": "WHEEL_CARRIER",
+    "gap_mm": 26.118777281727464,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        26.648295418001133,
+        63.49911525012952,
+        16.732559044791135
+      ],
+      [
+        3.0,
+        52.56408038752846,
+        18.569312449341886
+      ]
+    ]
+  },
+  {
+    "a": "SR_RETAINER",
+    "b": "WHEEL",
+    "gap_mm": 25.308200252092202,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        17.3,
+        55.3,
+        19.0
+      ],
+      [
+        3.25,
+        34.25,
+        19.0
+      ]
+    ]
+  },
+  {
+    "a": "SR_RETAINER",
+    "b": "WHEEL_CARRIER",
+    "gap_mm": 14.552662986546482,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": true,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        17.3,
+        55.3,
+        19.0
+      ],
+      [
+        3.0,
+        52.6,
+        19.0
+      ]
+    ]
+  },
+  {
+    "a": "WHEEL",
+    "b": "WHEEL_CARRIER",
+    "gap_mm": 0.17499998942307696,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.3,
+    "intended_contact": false,
+    "pass_check": false,
+    "distance_kind": "BRepExtrema_DistShapeShape_complete",
+    "nearest_points_mm": [
+      [
+        -6.7,
+        28.0,
+        20.0
+      ],
+      [
+        -6.7,
+        28.0,
+        20.175
+      ]
+    ]
+  }
+]

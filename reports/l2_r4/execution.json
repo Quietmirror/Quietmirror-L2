@@ -1,28 +1,63 @@
 {
   "status": "FAILED",
-  "phase": "candidate_1_exact_diagnostics",
-  "source_commit": "f7331588a8a11cd0500a9cd1f8b560ded2e22d06",
+  "phase": "candidate_2_offset_pad_and_exact_checks",
+  "source_commit": "5936615606f253a9e6a3fcdae577d267ce82f209",
   "steps": [
     {
       "script": "cad/l2_r4/bootstrap_build.py",
       "returncode": 0,
-      "seconds": 0.67,
-      "available_memory_before_GB": 15.602466816,
+      "seconds": 0.15,
+      "available_memory_before_GB": 15.542644736,
       "log_tail": "R4 directories and unchanged R3 components prepared\n"
     },
     {
       "script": "cad/l2_r4/restore_inputs.py",
       "returncode": 0,
-      "seconds": 3.31,
-      "available_memory_before_GB": 15.606366208,
+      "seconds": 3.49,
+      "available_memory_before_GB": 15.54173952,
       "log_tail": "Restored/retained 72 baseline components\n"
     },
     {
       "script": "cad/l2_r4/side_module.py",
+      "returncode": 0,
+      "seconds": 17.71,
+      "available_memory_before_GB": 15.379767296,
+      "log_tail": "EXPORTED SF_RETAINER 87.381\nEXPORTED SR_RETAINER 148.8585\nEXPORTED SIDE_FRONT_KEY 86.2447\nEXPORTED SIDE_REAR_KEY 91.9948\nEXPORTED SF_D2F_01F 488.5038\nEXPORTED SF_TUNING_SHIM_0p33 1.9911\nEXPORTED SF_VERTICAL_PIN 4.3197\nEXPORTED SR_D2F_01F 488.5038\nEXPORTED SR_TUNING_SHIM_0p33 1.9911\nEXPORTED SR_VERTICAL_PIN 4.3197\nEXPORTED SF_RETAINER_M2x5 23.851\nEXPORTED SR_RETAINER_M2x5 23.851\n"
+    },
+    {
+      "script": "cad/l2_r4/build_body.py",
+      "returncode": 0,
+      "seconds": 107.7,
+      "available_memory_before_GB": 15.59506944,
+      "log_tail": "Mother surfaces 0.4398372173309326\nSkin and six windows 20.810837507247925\nSupport 0 21.29016375541687\nSupport 8 27.003040075302124\nSupport 16 35.25206160545349\nSupport 24 42.07050180435181\nSupport 32 49.27189373970032\nEXPORTED BODY 12644.2546\n"
+    },
+    {
+      "script": "cad/l2_r4/assemble.py",
+      "returncode": 0,
+      "seconds": 9.05,
+      "available_memory_before_GB": 15.677984768,
+      "log_tail": "EXPORTED SIDE_SF_NO_ROUTE_EST 6.5962\nEXPORTED SIDE_SR_NO_ROUTE_EST 3.9544\nEXPORTED SIDE_COM_ROUTE_EST 4.8815\nEXPORTED SIDE_COM_GPIO_ROUTE_EST 3.3381\n/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/cadquery/utils.py:82: FutureWarning: save will be removed in the next release.\n  warn(f\"{f.__name__} will be removed in the next release.\", FutureWarning)\nAssembly components 92\n"
+    },
+    {
+      "script": "cad/l2_r4/surface_mesh.py",
+      "returncode": 0,
+      "seconds": 28.22,
+      "available_memory_before_GB": 15.461076992,
+      "log_tail": "{'part': 'BODY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 403670, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SIDE_FRONT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 29560, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SIDE_REAR_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 31720, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SF_RETAINER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 4100, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SR_RETAINER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 4992, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n"
+    },
+    {
+      "script": "cad/l2_r4/diagnostic_checks.py",
+      "returncode": 0,
+      "seconds": 908.26,
+      "available_memory_before_GB": 15.622324224,
+      "log_tail": "': True, 'mesh_components': 1, 'brep_self_interference_check': True}\nSTATIC_REVIEW {'a': 'BODY', 'b': 'SF_RETAINER', 'gap_mm': 0.0, 'overlap_mm3': 0.0, 'required_mm': 0.3, 'intended_contact': False, 'pass_check': False, 'distance_kind': 'BRepExtrema_crop_certified_by_distance_below_3mm', 'nearest_points_mm': [[17.3, 41.8, 13.7], [17.3, 41.8, 13.7]]}\nSTATIC_REVIEW {'a': 'BODY', 'b': 'SIDE_FRONT_KEY', 'gap_mm': 0.07499999999999574, 'overlap_mm3': 0.0, 'required_mm': 0.3, 'intended_contact': False, 'pass_check': False, 'distance_kind': 'BRepExtrema_crop_certified_by_distance_below_3mm', 'nearest_points_mm': [[29.0, 44.825, 20.5], [29.0, 44.9, 20.5]]}\nSTATIC_REVIEW {'a': 'BODY', 'b': 'SIDE_REAR_KEY', 'gap_mm': 0.07500000000000284, 'overlap_mm3': 0.0, 'required_mm': 0.3, 'intended_contact': False, 'pass_check': False, 'distance_kind': 'BRepExtrema_crop_certified_by_distance_below_3mm', 'nearest_points_mm': [[29.0, 70.175, 20.5], [29.0, 70.1, 20.5]]}\nSTATIC_REVIEW {'a': 'BODY', 'b': 'SR_RETAINER', 'gap_mm': 0.0, 'overlap_mm3': 0.0, 'required_mm': 0.3, 'intended_contact': False, 'pass_check': False, 'distance_kind': 'BRepExtrema_crop_certified_by_distance_below_3mm', 'nearest_points_mm': [[19.0, 55.75, 13.7], [19.0, 55.75, 13.7]]}\nSTATIC_REVIEW {'a': 'BODY', 'b': 'WHEEL_CARRIER', 'gap_mm': 0.25, 'overlap_mm3': 0.0, 'required_mm': 0.3, 'intended_contact': False, 'pass_check': False, 'distance_kind': 'BRepExtrema_crop_certified_by_distance_below_3mm', 'nearest_points_mm': [[-3.6, 48.825, 18.999999947699347], [-3.3499999999684693, 48.82500000000375, 18.999999947699347]]}\nSTATIC_REVIEW {'a': 'WHEEL', 'b': 'WHEEL_CARRIER', 'gap_mm': 0.17499998942307696, 'overlap_mm3': 0.0, 'required_mm': 0.3, 'intended_contact': False, 'pass_check': False, 'distance_kind': 'BRepExtrema_DistShapeShape_complete', 'nearest_points_mm': [[-6.7, 28.0, 20.0], [-6.7, 28.0, 20.175]]}\nINSERT_COLLISION SIDE_FRONT_KEY 2.75 0.0010969094781160017 [[30.811009805020127, 44.47489551344592, 15.5], [30.811009805020127, 44.47489551344592, 15.500000000000005]]\nINSERT_COLLISION SIDE_FRONT_KEY 2.5 0.01123566121420529 [[30.789331970348037, 44.271675658349665, 15.5], [30.789331970348016, 44.27167565834965, 15.499999999999996]]\nINSERT_COLLISION SIDE_FRONT_KEY 2.25 0.033557721800329926 [[30.775761015791613, 44.1434545465668, 15.5], [30.775761015791613, 44.1434545465668, 15.499999999999996]]\nINSERT_COLLISION SIDE_FRONT_KEY 2.0 0.06254203505401301 [[30.76819145082315, 44.07168212724534, 15.5], [30.76819145082315, 44.07168212724534, 15.500000000000002]]\nINSERT_COLLISION SIDE_FRONT_KEY 1.75 0.09126929812164855 [[30.76591846881462, 44.05010136316955, 15.5], [30.765918468814615, 44.05010136316955, 15.499999999999998]]\nINSERT_COLLISION SIDE_FRONT_KEY 1.5 0.11153241438784417 [[30.030000000000047, 44.141725421154355, 15.5], [30.030000000000047, 44.141725421154355, 15.5]]\nINSERT_COLLISION SIDE_FRONT_KEY 1.25 0.11440299588026623 [[29.96100000000006, 44.08386719475214, 15.5], [29.96100000000006, 44.08386719475214, 15.5]]\nINSERT_COLLISION SIDE_FRONT_KEY 1.0 0.09306795520663072 [[30.79620961015549, 44.3363868739499, 15.5], [30.79620961015557, 44.33638687394987, 15.500000000000016]]\nINSERT_COLLISION SIDE_FRONT_KEY 0.75 0.049516013161294316 [[30.832647380032604, 44.67520031169299, 15.5], [30.8326473800326, 44.67520031169299, 15.499999999999998]]\nINSERT_COLLISION SIDE_FRONT_KEY 0.5 0.008877860593832283 [[30.090000000000146, 44.198001814883604, 15.5], [30.090000000000146, 44.198001814883604, 15.5]]\nSIDE_RAW SIDE_FRONT_KEY [(-0.5, 0.0), (-0.202, 0.0), (0.0, 0.0), (0.095, 0.0), (0.393, 0.0), (0.69, 0.0), (0.988, 0.0), (1.285, 0.0), (1.583, 0.0), (1.88, 0.0), (2.178, 0.0), (2.476, 0.0), (2.773, 0.0), (3.071, 0.0), (3.368, 0.0), (3.666, 0.0), (3.963, 0.0), (4.261, 0.0), (4.558, 0.0), (4.856, 0.0), (5.154, 0.0), (5.451, 0.0), (5.749, 0.0), (6.046, 0.0), (6.344, 0.0), (6.641, 0.0), (6.936, 0.0), (6.939, 0.0), (7.236, 0.005556)]\nINSERT_COLLISION SIDE_REAR_KEY 2.75 0.007545174265825199 [[30.650686600788774, 70.29498743710658, 15.5], [30.650686600788774, 70.29498743710658, 15.5]]\nINSERT_COLLISION SIDE_REAR_KEY 2.5 0.02650236324810699 [[30.418000000000028, 70.32592012269943, 15.5], [30.418000000000028, 70.32592012269943, 15.5]]\nINSERT_COLLISION SIDE_REAR_KEY 2.25 0.056838616504328074 [[30.909465952024995, 70.90272048380734, 15.5], [30.909465952025, 70.90272048380734, 15.500000000000002]]\nINSERT_COLLISION SIDE_REAR_KEY 2.0 0.09140035088306424 [[30.210000000000036, 70.66871048306501, 15.5], [30.210000000000036, 70.66871048306501, 15.5]]\nINSERT_COLLISION SIDE_REAR_KEY 1.75 0.12229717892517747 [[30.11500000000004, 70.77669633602054, 15.5], [30.11500000000004, 70.77669633602054, 15.5]]\nINSERT_COLLISION SIDE_REAR_KEY 1.5 0.14035139377090763 [[30.030000000000047, 70.85827457884564, 15.5], [30.030000000000047, 70.85827457884564, 15.5]]\nINSERT_COLLISION SIDE_REAR_KEY 1.25 0.1353781987539388 [[29.96100000000006, 70.91613280524787, 15.5], [29.96100000000006, 70.91613280524787, 15.5]]\nINSERT_COLLISION SIDE_REAR_KEY 1.0 0.1001820022995547 [[29.920000000000073, 70.94743737317752, 15.5], [29.920000000000073, 70.94743737317752, 15.5]]\nINSERT_COLLISION SIDE_REAR_KEY 0.75 0.049518346449936586 [[30.849313399211226, 70.29498743710658, 15.5], [30.849313399211226, 70.29498743710658, 15.5]]\nINSERT_COLLISION SIDE_REAR_KEY 0.5 0.008877858847013611 [[30.599313399211226, 70.29498743710658, 15.5], [30.599313399211226, 70.29498743710658, 15.5]]\nSIDE_RAW SIDE_REAR_KEY [(-6.841, 0.006499), (-6.559, 2.3e-05), (-6.541, 0.0), (-6.276, 0.0), (-5.994, 0.0), (-5.712, 0.0), (-5.429, 0.0), (-5.147, 0.0), (-4.865, 0.0), (-4.582, 0.0), (-4.3, 0.0), (-4.018, 0.0), (-3.735, 0.0), (-3.453, 0.0), (-3.17, 0.0), (-2.888, 0.0), (-2.606, 0.0), (-2.323, 0.0), (-2.041, 0.0), (-1.759, 0.0), (-1.476, 0.0), (-1.194, 0.0), (-0.912, 0.0), (-0.629, 0.0), (-0.347, 0.0), (-0.065, 0.0), (0.0, 0.0), (0.218, 0.0), (0.5, 0.0)]\nPAD_COVERAGE [('SIDE_FRONT_KEY', True, 0.0886469220759187), ('SIDE_REAR_KEY', True, 0.12980830879765376)]\n"
+    },
+    {
+      "script": "cad/l2_r4/assembly_paths.py",
       "returncode": 1,
-      "seconds": 1.75,
-      "available_memory_before_GB": 15.428636672,
-      "log_tail": "Traceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/side_module.py\", line 122, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/side_module.py\", line 115, in main\n    for n in ['SF','SR']:rows.append(export(retainer(n),n+'_RETAINER'))\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/common.py\", line 38, in export\n    row['mesh']=dict(watertight=bool(m.is_watertight),winding_consistent=bool(m.is_winding_consistent),components=len(trimesh.graph.connected_components(m.face_adjacency,nodes=range(len(m.faces)),engine='scipy',min_len=1)),triangles=len(m.faces),bounds_mm=m.bounds.tolist(),holes_patched=0)\n                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/trimesh/graph.py\", line 472, in connected_components\n    counts.append(nodes.max())\n                  ^^^^^^^^^\nAttributeError: 'range' object has no attribute 'max'\n"
+      "seconds": 1.5,
+      "available_memory_before_GB": 15.72206592,
+      "log_tail": "Traceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/assembly_paths.py\", line 101, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/assembly_paths.py\", line 68, in main\n    author=ROOT/'cad/l2_r4_author';routes=json.loads((author/'guided_routes.json').read_text());specs=json.loads((author/'loose_parts.json').read_text())\n                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.12/json/__init__.py\", line 335, in loads\n    raise JSONDecodeError(\"Unexpected UTF-8 BOM (decode using utf-8-sig)\",\njson.decoder.JSONDecodeError: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)\n"
     }
   ]
 }
