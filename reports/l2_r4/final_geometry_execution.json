@@ -16,6 +16,13 @@
       "seconds": 1.78,
       "available_memory_before_GB": 15.478644736,
       "log_tail": "EXPORTED BATTERY_CELL_EST 1680.0\n"
+    },
+    {
+      "script": "cad/l2_r4/refresh_assembly.py",
+      "returncode": 0,
+      "seconds": 11.33,
+      "available_memory_before_GB": 15.356575744,
+      "log_tail": "/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/cadquery/utils.py:82: FutureWarning: save will be removed in the next release.\n  warn(f\"{f.__name__} will be removed in the next release.\", FutureWarning)\nASSEMBLY_REFRESH 94\n"
     }
   ]
 }
