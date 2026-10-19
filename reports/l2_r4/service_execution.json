@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "battery_exact_local_escape_diagnostic",
   "source_commit": "5a8dc8607f745e3334902ea80fa9141f4784e456",
   "steps": [
