@@ -131,15 +131,15 @@
           0.0
         ],
         [
-          161.96876335144043,
-          92.24958038330078,
-          4.199999809265137
+          161.96731758117676,
+          91.99958038330078,
+          4.15000057220459
         ]
       ],
       "size_mm": [
-        6.96876335144043,
-        12.249580383300781,
-        4.199999809265137
+        6.967317581176758,
+        11.999580383300781,
+        4.15000057220459
       ]
     },
     {
@@ -148,8 +148,8 @@
       "rotation_x_deg": 0,
       "translation_mm": [
         149.60000038146973,
-        21.900001525878906,
-        -15.30129337310791
+        21.650001525878906,
+        -15.300000190734863
       ],
       "bounds_mm": [
         [
@@ -158,15 +158,15 @@
           0.0
         ],
         [
-          182.2906436920166,
-          92.8495864868164,
-          4.19870662689209
+          182.2630786895752,
+          92.5995864868164,
+          4.15000057220459
         ]
       ],
       "size_mm": [
-        7.290643692016602,
-        12.849586486816406,
-        4.19870662689209
+        7.263078689575195,
+        12.599586486816406,
+        4.15000057220459
       ]
     },
     {
@@ -251,16 +251,16 @@
       ]
     }
   ],
-  "total_filament_g": "36.12",
-  "time": "5h 18m 36s",
+  "total_filament_g": "36.10",
+  "time": "5h 18m 39s",
   "extrusion_roles_g": {
-    "Skirt/Brim": 0.21199502714640003,
-    "Support material interface": 0.7230403334994548,
-    "Support material": 12.993805058473672,
-    "External perimeter": 7.607005598533668,
-    "Perimeter": 11.566825414097057,
+    "Skirt/Brim": 0.20768789755112735,
+    "Support material interface": 0.7272415825865717,
+    "Support material": 13.002242273524391,
+    "External perimeter": 7.596399413817021,
+    "Perimeter": 11.555615501705454,
     "Solid infill": 1.6139598496977294,
-    "Overhang perimeter": 1.064749004502516,
+    "Overhang perimeter": 1.0629294106879976,
     "Bridge infill": 0.2385891984199934,
     "Internal infill": 0.002909506887622271,
     "Top solid infill": 0.09655878821732035
@@ -928,20 +928,21 @@
       "rotation_y_deg": 0,
       "rotation_x_deg": 0,
       "slicer_messages": [],
-      "total_filament_g": "0.16",
-      "time": "2m 44s",
+      "total_filament_g": "0.15",
+      "time": "2m 38s",
       "extrusion_roles_g": {
-        "Skirt/Brim": 0.003061109880003527,
-        "Support material": 0.053744140651265655,
-        "Overhang perimeter": 0.006864397383932927,
-        "External perimeter": 0.06919893682953937,
-        "Perimeter": 0.028493906193862564
+        "Skirt/Brim": 0.003063018711699849,
+        "Support material": 0.056392018294510945,
+        "Support material interface": 0.002115611854924198,
+        "External perimeter": 0.06467915145309859,
+        "Overhang perimeter": 0.005768996419701876,
+        "Perimeter": 0.022706895175026654
       },
       "extrusion_role_bounds_mm": {
         "Skirt/Brim": [
           [
-            9.605,
-            14.414,
+            9.608,
+            14.418,
             0.2
           ],
           [
@@ -952,49 +953,61 @@
         ],
         "Support material": [
           [
-            4.809,
-            5.675,
+            4.102,
+            6.636,
             0.2
           ],
           [
-            19.384,
-            25.532,
+            19.854,
+            26.117,
             3.2
           ]
         ],
-        "Overhang perimeter": [
+        "Support material interface": [
           [
-            10.211,
-            10.203,
-            0.4
+            11.029,
+            9.632,
+            0.2
           ],
           [
-            16.591,
-            21.019,
-            3.6
+            13.003,
+            12.611,
+            0.8
           ]
         ],
         "External perimeter": [
           [
             10.211,
-            10.195,
+            10.198,
             0.4
           ],
           [
-            16.72,
-            22.023,
+            16.71,
+            21.774,
             4.2
+          ]
+        ],
+        "Overhang perimeter": [
+          [
+            10.211,
+            10.202,
+            0.4
+          ],
+          [
+            16.622,
+            20.918,
+            3.6
           ]
         ],
         "Perimeter": [
           [
-            11.217,
-            11.184,
+            11.222,
+            11.181,
             0.6
           ],
           [
-            16.354,
-            21.65,
+            16.285,
+            21.403,
             3.8
           ]
         ]
@@ -1014,74 +1027,87 @@
       "rotation_y_deg": 0,
       "rotation_x_deg": 0,
       "slicer_messages": [],
-      "total_filament_g": "0.17",
-      "time": "2m 47s",
+      "total_filament_g": "0.16",
+      "time": "2m 43s",
       "extrusion_roles_g": {
-        "Skirt/Brim": 0.007372862427040473,
-        "Support material": 0.05206207219536839,
-        "Perimeter": 0.026466547979397934,
-        "External perimeter": 0.07754244017415915,
-        "Overhang perimeter": 0.006544668074799133
+        "Skirt/Brim": 0.003063794174576479,
+        "Support material": 0.05794025975319896,
+        "Support material interface": 0.0020670857741442845,
+        "External perimeter": 0.07110642637857402,
+        "Overhang perimeter": 0.005820266446045249,
+        "Perimeter": 0.021376648261157618
       },
       "extrusion_role_bounds_mm": {
         "Skirt/Brim": [
           [
-            10.117,
-            14.21,
+            10.108,
+            13.956,
             0.2
           ],
           [
-            18.625,
-            18.172,
+            13.009,
+            17.927,
             0.2
           ]
         ],
         "Support material": [
           [
-            4.806,
-            6.763,
+            4.121,
+            6.61,
             0.2
           ],
           [
-            19.878,
-            27.296,
-            3.0
+            19.681,
+            26.391,
+            3.2
           ]
         ],
-        "Perimeter": [
+        "Support material interface": [
           [
-            11.721,
-            10.6,
-            0.4
+            11.038,
+            19.991,
+            0.2
           ],
           [
-            16.69,
-            21.787,
-            3.8
+            13.023,
+            22.932,
+            0.8
           ]
         ],
         "External perimeter": [
           [
             10.211,
-            10.226,
+            10.192,
             0.4
           ],
           [
-            17.062,
-            22.65,
+            17.03,
+            22.4,
             4.2
           ]
         ],
         "Overhang perimeter": [
           [
             10.211,
-            11.24,
+            11.092,
             0.4
           ],
           [
-            16.965,
-            22.648,
-            3.4
+            16.96,
+            22.399,
+            3.6
+          ]
+        ],
+        "Perimeter": [
+          [
+            11.718,
+            10.596,
+            0.6
+          ],
+          [
+            16.655,
+            21.534,
+            3.8
           ]
         ]
       },
@@ -1488,10 +1514,10 @@
     "maximum_bounds_difference_mm": 1.1446102291756688e-05,
     "passed": true
   },
-  "minimum_xy_bounding_rect_gap_mm": 13.03123664855957,
+  "minimum_xy_bounding_rect_gap_mm": 13.032682418823242,
   "role_mass_method": "Positive XY extrusion by G-code TYPE, relative E; excludes standalone retract/reprime",
   "scale": 1.0,
   "artifact_sha256": {
-    "models/L2_r4/L2_r4_H_ALL_PARTS_SINGLE_PLATE.3mf": "e09b3d7a34e7a2647fa11b013c8cd21297017ee4b72862511560b875a0b3e904"
+    "models/L2_r4/L2_r4_H_ALL_PARTS_SINGLE_PLATE.3mf": "cc5c301775f89e07aa7c382cb4eef226c5dc885d999631946f1de3844f974a2a"
   }
 }

@@ -1,0 +1,179 @@
+{
+  "parts": [
+    {
+      "name": "SIDE_FRONT_KEY_F2_TRIAL",
+      "bounds_mm": [
+        [
+          18.0,
+          18.0,
+          0.0
+        ],
+        [
+          25.067319869995117,
+          29.99958038330078,
+          4.15000057220459
+        ]
+      ],
+      "watertight": true,
+      "rotation_y_deg": 0,
+      "rotation_x_deg": 0
+    },
+    {
+      "name": "SIDE_REAR_KEY_F2_TRIAL",
+      "bounds_mm": [
+        [
+          49.06731986999512,
+          18.0,
+          0.0
+        ],
+        [
+          56.430397033691406,
+          30.599586486816406,
+          4.15000057220459
+        ]
+      ],
+      "watertight": true,
+      "rotation_y_deg": 0,
+      "rotation_x_deg": 0
+    },
+    {
+      "name": "SF_RETAINER",
+      "bounds_mm": [
+        [
+          80.4303970336914,
+          18.000000000000004,
+          0.0
+        ],
+        [
+          84.1303014755249,
+          24.800000190734867,
+          13.200000762939453
+        ]
+      ],
+      "watertight": true,
+      "rotation_y_deg": 0,
+      "rotation_x_deg": 90
+    },
+    {
+      "name": "SR_RETAINER",
+      "bounds_mm": [
+        [
+          108.1303014755249,
+          18.000000000000004,
+          0.0
+        ],
+        [
+          112.3293685913086,
+          24.800000190734867,
+          16.899845123291016
+        ]
+      ],
+      "watertight": true,
+      "rotation_y_deg": 0,
+      "rotation_x_deg": 90
+    }
+  ],
+  "status": "ERGONOMIC_TRIAL_NOT_MECHANISM_CERTIFIED",
+  "offset_x_mm": 0.3,
+  "extra_external_ridge": false,
+  "scope": "Two alternative caps and two retainers; use with the main BODY and actual pins. F2 is an ergonomic comparison, not the accepted production mechanism.",
+  "real_slice": {
+    "total_filament_g": "0.92",
+    "time": "13m 52s",
+    "extrusion_roles_g": {
+      "Skirt/Brim": 0.02104665898165609,
+      "Support material": 0.37396744946296817,
+      "Support material interface": 0.010856271494359809,
+      "External perimeter": 0.34294783085442554,
+      "Perimeter": 0.1500783130638206,
+      "Overhang perimeter": 0.019404825118857827
+    },
+    "extrusion_role_bounds_mm": {
+      "Skirt/Brim": [
+        [
+          17.608,
+          16.729,
+          0.2
+        ],
+        [
+          113.604,
+          26.384,
+          0.2
+        ]
+      ],
+      "Support material": [
+        [
+          12.102,
+          14.636,
+          0.2
+        ],
+        [
+          115.373,
+          34.442,
+          15.6
+        ]
+      ],
+      "Support material interface": [
+        [
+          19.029,
+          17.632,
+          0.2
+        ],
+        [
+          109.821,
+          30.932,
+          13.2
+        ]
+      ],
+      "External perimeter": [
+        [
+          18.211,
+          18.199,
+          0.2
+        ],
+        [
+          112.104,
+          30.4,
+          16.8
+        ]
+      ],
+      "Perimeter": [
+        [
+          19.222,
+          18.596,
+          0.2
+        ],
+        [
+          111.728,
+          29.534,
+          16.8
+        ]
+      ],
+      "Overhang perimeter": [
+        [
+          18.211,
+          18.202,
+          0.4
+        ],
+        [
+          112.104,
+          30.399,
+          16.2
+        ]
+      ]
+    },
+    "settings": {
+      "nozzle_diameter": "0.4",
+      "layer_height": "0.2",
+      "filament_density": "1.24",
+      "bed_shape": "0x0,255x0,255x155,0x155",
+      "support_material_style": "organic",
+      "support_material_buildplate_only": "1",
+      "use_relative_e_distances": "1"
+    }
+  },
+  "artifact_sha256": {
+    "models/L2_r4/SIDE_MODULE_F2_TRIAL.3mf": "92fef26b7b0c7bfefd24d9fa9859ffa3219f8eb83d5703f7ba8010d21df07717",
+    "views/l2_r4/PRINT_PLATE.png": "53140c429750a691e0e42514419ce1de824ced81490dc4c713adf5283fc48118"
+  }
+}

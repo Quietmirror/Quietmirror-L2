@@ -30,5 +30,5 @@ MESA OpenGL library was loaded sucessfully
 70 => Generating support material
 89 => Calculating overhanging perimeters
 88 => Generating skirt and brim
-[2026-10-19 12:51:31.093962] [0x00002590] [error]   gcode path conflicts found between SR_RETAINER and SF_RETAINER
 90 => Exporting G-code to D:\a\Quietmirror-L2\Quietmirror-L2\_support\work\l2_r4\slice\F2_validation.gcode
+Slicing result exported to D:\a\Quietmirror-L2\Quietmirror-L2\_support\work\l2_r4\slice\F2_validation.gcode

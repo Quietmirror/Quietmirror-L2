@@ -2989,22 +2989,22 @@
   },
   "reports/l2_r4/slicer_model_info.txt": {
     "script": "cad/l2_r4/slice_plate.py",
-    "source_commit": "b86d42a1e842f5575746ee01b51fdc75ea3402d6",
+    "source_commit": "884370285ebac71269807dba109c480c2edbf4a0",
     "returncode": 0,
-    "report_sha256": "d4d2c9f3e11bb515c8e82448062b3b57b5411b0224ace5994e9e7f9164f9a844",
+    "report_sha256": "d2d6b7b499a404becf513d1ccd528e5181be2ad49db705013552838fd20fd3f5",
     "geometry": {
       "models/L2_r4/parts/BODY.stl": "e48306b2c3fdb1b28acb96c8880ea8f97e58f1a8a113684f1c3c60d0b38f3689",
       "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
       "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
       "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "0238129fd836a7052c21c005a7b4f3c549f20e4e96d268aed089b7bef586a2ce",
-      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "a64ab32c7c1767b4a01b7e43ba432e3d6f0f47a56f4e75391516625351f9b18f",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "233f4a2508511a70323207cf9edcfba67fcf88c175caeaf954241d928466b473",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "21973e96f0bb5d529c42cf1174cb0b66669f38c03b987b2ec19ad79c827183cf",
       "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
       "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
       "models/L2_r4/parts/WHEEL_CARRIER.stl": "ad234b8e421f47b8b86476420635c91963d5c835a07fb8dde52e147144137fae",
       "cad/l2_r4/PLA_0.4_0.20_ESTIMATE.ini": "7f496e9e465f9500b68409eac71c7e42c18dca2f27f474b4df61ff3be3dc6e91",
-      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "2d47a3e17c4ae0bbdda5498faea54c74ecd426617b773b28d4e4eaf77df034a5",
-      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "a006cbba3e51ee9abcc2f5170d305c04f86630b3aa1e0bb8fa101a0121506114"
+      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "54f5f393eb7ce3b2ae66e8fb68fbd3bbc83d61d71e4846813303d9361c3df553",
+      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "e8adb9e6e6b5382d4e1504062896fa97c9cc1b9668ab5d8e2c5c25a9385e6404"
     },
     "verifier_source": {
       "cad/l2_r4/slice_plate.py": "2d89165a63897cc2f6d3d65d963295c6016269a4fd0da0d2ff0d993e1f64e7ea"
@@ -3012,22 +3012,22 @@
   },
   "reports/l2_r4/slice_summary.json": {
     "script": "cad/l2_r4/slice_plate.py",
-    "source_commit": "b86d42a1e842f5575746ee01b51fdc75ea3402d6",
+    "source_commit": "884370285ebac71269807dba109c480c2edbf4a0",
     "returncode": 0,
-    "report_sha256": "6977a9ee8c737122bda197cd544ff8de355af0b999641e1f264e2fa1c1f67c81",
+    "report_sha256": "5a1c9dd1d08cd8a051864d42479cbb3e3f2dc6ff864f64f972ced04a2aad1385",
     "geometry": {
       "models/L2_r4/parts/BODY.stl": "e48306b2c3fdb1b28acb96c8880ea8f97e58f1a8a113684f1c3c60d0b38f3689",
       "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
       "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
       "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "0238129fd836a7052c21c005a7b4f3c549f20e4e96d268aed089b7bef586a2ce",
-      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "a64ab32c7c1767b4a01b7e43ba432e3d6f0f47a56f4e75391516625351f9b18f",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "233f4a2508511a70323207cf9edcfba67fcf88c175caeaf954241d928466b473",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "21973e96f0bb5d529c42cf1174cb0b66669f38c03b987b2ec19ad79c827183cf",
       "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
       "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
       "models/L2_r4/parts/WHEEL_CARRIER.stl": "ad234b8e421f47b8b86476420635c91963d5c835a07fb8dde52e147144137fae",
       "cad/l2_r4/PLA_0.4_0.20_ESTIMATE.ini": "7f496e9e465f9500b68409eac71c7e42c18dca2f27f474b4df61ff3be3dc6e91",
-      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "2d47a3e17c4ae0bbdda5498faea54c74ecd426617b773b28d4e4eaf77df034a5",
-      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "a006cbba3e51ee9abcc2f5170d305c04f86630b3aa1e0bb8fa101a0121506114"
+      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "54f5f393eb7ce3b2ae66e8fb68fbd3bbc83d61d71e4846813303d9361c3df553",
+      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "e8adb9e6e6b5382d4e1504062896fa97c9cc1b9668ab5d8e2c5c25a9385e6404"
     },
     "verifier_source": {
       "cad/l2_r4/slice_plate.py": "2d89165a63897cc2f6d3d65d963295c6016269a4fd0da0d2ff0d993e1f64e7ea"
@@ -3035,7 +3035,7 @@
   },
   "reports/l2_r4/slicer_logs/BODY_slice.log": {
     "script": "cad/l2_r4/slice_plate.py",
-    "source_commit": "b86d42a1e842f5575746ee01b51fdc75ea3402d6",
+    "source_commit": "884370285ebac71269807dba109c480c2edbf4a0",
     "returncode": 0,
     "report_sha256": "6ee96b47104ca5cede4910e84a3ed1f57dd97f8bb6a3b83d0ba314b9d18f3a54",
     "geometry": {
@@ -3043,14 +3043,14 @@
       "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
       "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
       "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "0238129fd836a7052c21c005a7b4f3c549f20e4e96d268aed089b7bef586a2ce",
-      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "a64ab32c7c1767b4a01b7e43ba432e3d6f0f47a56f4e75391516625351f9b18f",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "233f4a2508511a70323207cf9edcfba67fcf88c175caeaf954241d928466b473",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "21973e96f0bb5d529c42cf1174cb0b66669f38c03b987b2ec19ad79c827183cf",
       "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
       "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
       "models/L2_r4/parts/WHEEL_CARRIER.stl": "ad234b8e421f47b8b86476420635c91963d5c835a07fb8dde52e147144137fae",
       "cad/l2_r4/PLA_0.4_0.20_ESTIMATE.ini": "7f496e9e465f9500b68409eac71c7e42c18dca2f27f474b4df61ff3be3dc6e91",
-      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "2d47a3e17c4ae0bbdda5498faea54c74ecd426617b773b28d4e4eaf77df034a5",
-      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "a006cbba3e51ee9abcc2f5170d305c04f86630b3aa1e0bb8fa101a0121506114"
+      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "54f5f393eb7ce3b2ae66e8fb68fbd3bbc83d61d71e4846813303d9361c3df553",
+      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "e8adb9e6e6b5382d4e1504062896fa97c9cc1b9668ab5d8e2c5c25a9385e6404"
     },
     "verifier_source": {
       "cad/l2_r4/slice_plate.py": "2d89165a63897cc2f6d3d65d963295c6016269a4fd0da0d2ff0d993e1f64e7ea"
@@ -3058,7 +3058,7 @@
   },
   "reports/l2_r4/slicer_logs/export.log": {
     "script": "cad/l2_r4/slice_plate.py",
-    "source_commit": "b86d42a1e842f5575746ee01b51fdc75ea3402d6",
+    "source_commit": "884370285ebac71269807dba109c480c2edbf4a0",
     "returncode": 0,
     "report_sha256": "b5e5110d8419c8a31ca737f84f228768597ee1172d684cf5c3e619f4a1a9ed6e",
     "geometry": {
@@ -3066,14 +3066,14 @@
       "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
       "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
       "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "0238129fd836a7052c21c005a7b4f3c549f20e4e96d268aed089b7bef586a2ce",
-      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "a64ab32c7c1767b4a01b7e43ba432e3d6f0f47a56f4e75391516625351f9b18f",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "233f4a2508511a70323207cf9edcfba67fcf88c175caeaf954241d928466b473",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "21973e96f0bb5d529c42cf1174cb0b66669f38c03b987b2ec19ad79c827183cf",
       "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
       "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
       "models/L2_r4/parts/WHEEL_CARRIER.stl": "ad234b8e421f47b8b86476420635c91963d5c835a07fb8dde52e147144137fae",
       "cad/l2_r4/PLA_0.4_0.20_ESTIMATE.ini": "7f496e9e465f9500b68409eac71c7e42c18dca2f27f474b4df61ff3be3dc6e91",
-      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "2d47a3e17c4ae0bbdda5498faea54c74ecd426617b773b28d4e4eaf77df034a5",
-      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "a006cbba3e51ee9abcc2f5170d305c04f86630b3aa1e0bb8fa101a0121506114"
+      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "54f5f393eb7ce3b2ae66e8fb68fbd3bbc83d61d71e4846813303d9361c3df553",
+      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "e8adb9e6e6b5382d4e1504062896fa97c9cc1b9668ab5d8e2c5c25a9385e6404"
     },
     "verifier_source": {
       "cad/l2_r4/slice_plate.py": "2d89165a63897cc2f6d3d65d963295c6016269a4fd0da0d2ff0d993e1f64e7ea"
@@ -3081,22 +3081,22 @@
   },
   "reports/l2_r4/slicer_logs/info.log": {
     "script": "cad/l2_r4/slice_plate.py",
-    "source_commit": "b86d42a1e842f5575746ee01b51fdc75ea3402d6",
+    "source_commit": "884370285ebac71269807dba109c480c2edbf4a0",
     "returncode": 0,
-    "report_sha256": "d4d2c9f3e11bb515c8e82448062b3b57b5411b0224ace5994e9e7f9164f9a844",
+    "report_sha256": "d2d6b7b499a404becf513d1ccd528e5181be2ad49db705013552838fd20fd3f5",
     "geometry": {
       "models/L2_r4/parts/BODY.stl": "e48306b2c3fdb1b28acb96c8880ea8f97e58f1a8a113684f1c3c60d0b38f3689",
       "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
       "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
       "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "0238129fd836a7052c21c005a7b4f3c549f20e4e96d268aed089b7bef586a2ce",
-      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "a64ab32c7c1767b4a01b7e43ba432e3d6f0f47a56f4e75391516625351f9b18f",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "233f4a2508511a70323207cf9edcfba67fcf88c175caeaf954241d928466b473",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "21973e96f0bb5d529c42cf1174cb0b66669f38c03b987b2ec19ad79c827183cf",
       "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
       "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
       "models/L2_r4/parts/WHEEL_CARRIER.stl": "ad234b8e421f47b8b86476420635c91963d5c835a07fb8dde52e147144137fae",
       "cad/l2_r4/PLA_0.4_0.20_ESTIMATE.ini": "7f496e9e465f9500b68409eac71c7e42c18dca2f27f474b4df61ff3be3dc6e91",
-      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "2d47a3e17c4ae0bbdda5498faea54c74ecd426617b773b28d4e4eaf77df034a5",
-      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "a006cbba3e51ee9abcc2f5170d305c04f86630b3aa1e0bb8fa101a0121506114"
+      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "54f5f393eb7ce3b2ae66e8fb68fbd3bbc83d61d71e4846813303d9361c3df553",
+      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "e8adb9e6e6b5382d4e1504062896fa97c9cc1b9668ab5d8e2c5c25a9385e6404"
     },
     "verifier_source": {
       "cad/l2_r4/slice_plate.py": "2d89165a63897cc2f6d3d65d963295c6016269a4fd0da0d2ff0d993e1f64e7ea"
@@ -3104,7 +3104,7 @@
   },
   "reports/l2_r4/slicer_logs/LEFT_KEY_slice.log": {
     "script": "cad/l2_r4/slice_plate.py",
-    "source_commit": "b86d42a1e842f5575746ee01b51fdc75ea3402d6",
+    "source_commit": "884370285ebac71269807dba109c480c2edbf4a0",
     "returncode": 0,
     "report_sha256": "b354322b9cd7c1522d25e806d0f0a2344f9a42358f799dc159890db98e174ccd",
     "geometry": {
@@ -3112,14 +3112,14 @@
       "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
       "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
       "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "0238129fd836a7052c21c005a7b4f3c549f20e4e96d268aed089b7bef586a2ce",
-      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "a64ab32c7c1767b4a01b7e43ba432e3d6f0f47a56f4e75391516625351f9b18f",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "233f4a2508511a70323207cf9edcfba67fcf88c175caeaf954241d928466b473",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "21973e96f0bb5d529c42cf1174cb0b66669f38c03b987b2ec19ad79c827183cf",
       "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
       "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
       "models/L2_r4/parts/WHEEL_CARRIER.stl": "ad234b8e421f47b8b86476420635c91963d5c835a07fb8dde52e147144137fae",
       "cad/l2_r4/PLA_0.4_0.20_ESTIMATE.ini": "7f496e9e465f9500b68409eac71c7e42c18dca2f27f474b4df61ff3be3dc6e91",
-      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "2d47a3e17c4ae0bbdda5498faea54c74ecd426617b773b28d4e4eaf77df034a5",
-      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "a006cbba3e51ee9abcc2f5170d305c04f86630b3aa1e0bb8fa101a0121506114"
+      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "54f5f393eb7ce3b2ae66e8fb68fbd3bbc83d61d71e4846813303d9361c3df553",
+      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "e8adb9e6e6b5382d4e1504062896fa97c9cc1b9668ab5d8e2c5c25a9385e6404"
     },
     "verifier_source": {
       "cad/l2_r4/slice_plate.py": "2d89165a63897cc2f6d3d65d963295c6016269a4fd0da0d2ff0d993e1f64e7ea"
@@ -3127,7 +3127,7 @@
   },
   "reports/l2_r4/slicer_logs/profile.log": {
     "script": "cad/l2_r4/slice_plate.py",
-    "source_commit": "b86d42a1e842f5575746ee01b51fdc75ea3402d6",
+    "source_commit": "884370285ebac71269807dba109c480c2edbf4a0",
     "returncode": 0,
     "report_sha256": "f25e81ab0d7ec9d5d99999b73c863bc4d0f32b214c2c9a030d14fbe85ab24cd8",
     "geometry": {
@@ -3135,14 +3135,14 @@
       "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
       "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
       "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "0238129fd836a7052c21c005a7b4f3c549f20e4e96d268aed089b7bef586a2ce",
-      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "a64ab32c7c1767b4a01b7e43ba432e3d6f0f47a56f4e75391516625351f9b18f",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "233f4a2508511a70323207cf9edcfba67fcf88c175caeaf954241d928466b473",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "21973e96f0bb5d529c42cf1174cb0b66669f38c03b987b2ec19ad79c827183cf",
       "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
       "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
       "models/L2_r4/parts/WHEEL_CARRIER.stl": "ad234b8e421f47b8b86476420635c91963d5c835a07fb8dde52e147144137fae",
       "cad/l2_r4/PLA_0.4_0.20_ESTIMATE.ini": "7f496e9e465f9500b68409eac71c7e42c18dca2f27f474b4df61ff3be3dc6e91",
-      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "2d47a3e17c4ae0bbdda5498faea54c74ecd426617b773b28d4e4eaf77df034a5",
-      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "a006cbba3e51ee9abcc2f5170d305c04f86630b3aa1e0bb8fa101a0121506114"
+      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "54f5f393eb7ce3b2ae66e8fb68fbd3bbc83d61d71e4846813303d9361c3df553",
+      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "e8adb9e6e6b5382d4e1504062896fa97c9cc1b9668ab5d8e2c5c25a9385e6404"
     },
     "verifier_source": {
       "cad/l2_r4/slice_plate.py": "2d89165a63897cc2f6d3d65d963295c6016269a4fd0da0d2ff0d993e1f64e7ea"
@@ -3150,7 +3150,7 @@
   },
   "reports/l2_r4/slicer_logs/RIGHT_KEY_slice.log": {
     "script": "cad/l2_r4/slice_plate.py",
-    "source_commit": "b86d42a1e842f5575746ee01b51fdc75ea3402d6",
+    "source_commit": "884370285ebac71269807dba109c480c2edbf4a0",
     "returncode": 0,
     "report_sha256": "248d5a135dc92d57007aefc00d00af13316ec16d47e968ce811a5b1b16401f4c",
     "geometry": {
@@ -3158,14 +3158,14 @@
       "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
       "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
       "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "0238129fd836a7052c21c005a7b4f3c549f20e4e96d268aed089b7bef586a2ce",
-      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "a64ab32c7c1767b4a01b7e43ba432e3d6f0f47a56f4e75391516625351f9b18f",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "233f4a2508511a70323207cf9edcfba67fcf88c175caeaf954241d928466b473",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "21973e96f0bb5d529c42cf1174cb0b66669f38c03b987b2ec19ad79c827183cf",
       "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
       "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
       "models/L2_r4/parts/WHEEL_CARRIER.stl": "ad234b8e421f47b8b86476420635c91963d5c835a07fb8dde52e147144137fae",
       "cad/l2_r4/PLA_0.4_0.20_ESTIMATE.ini": "7f496e9e465f9500b68409eac71c7e42c18dca2f27f474b4df61ff3be3dc6e91",
-      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "2d47a3e17c4ae0bbdda5498faea54c74ecd426617b773b28d4e4eaf77df034a5",
-      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "a006cbba3e51ee9abcc2f5170d305c04f86630b3aa1e0bb8fa101a0121506114"
+      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "54f5f393eb7ce3b2ae66e8fb68fbd3bbc83d61d71e4846813303d9361c3df553",
+      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "e8adb9e6e6b5382d4e1504062896fa97c9cc1b9668ab5d8e2c5c25a9385e6404"
     },
     "verifier_source": {
       "cad/l2_r4/slice_plate.py": "2d89165a63897cc2f6d3d65d963295c6016269a4fd0da0d2ff0d993e1f64e7ea"
@@ -3173,7 +3173,7 @@
   },
   "reports/l2_r4/slicer_logs/SF_RETAINER_slice.log": {
     "script": "cad/l2_r4/slice_plate.py",
-    "source_commit": "b86d42a1e842f5575746ee01b51fdc75ea3402d6",
+    "source_commit": "884370285ebac71269807dba109c480c2edbf4a0",
     "returncode": 0,
     "report_sha256": "1e1d3a1a6c013358f44565b5f010e13aadc549e36f1f738f842bd090fa0af4ef",
     "geometry": {
@@ -3181,14 +3181,14 @@
       "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
       "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
       "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "0238129fd836a7052c21c005a7b4f3c549f20e4e96d268aed089b7bef586a2ce",
-      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "a64ab32c7c1767b4a01b7e43ba432e3d6f0f47a56f4e75391516625351f9b18f",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "233f4a2508511a70323207cf9edcfba67fcf88c175caeaf954241d928466b473",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "21973e96f0bb5d529c42cf1174cb0b66669f38c03b987b2ec19ad79c827183cf",
       "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
       "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
       "models/L2_r4/parts/WHEEL_CARRIER.stl": "ad234b8e421f47b8b86476420635c91963d5c835a07fb8dde52e147144137fae",
       "cad/l2_r4/PLA_0.4_0.20_ESTIMATE.ini": "7f496e9e465f9500b68409eac71c7e42c18dca2f27f474b4df61ff3be3dc6e91",
-      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "2d47a3e17c4ae0bbdda5498faea54c74ecd426617b773b28d4e4eaf77df034a5",
-      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "a006cbba3e51ee9abcc2f5170d305c04f86630b3aa1e0bb8fa101a0121506114"
+      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "54f5f393eb7ce3b2ae66e8fb68fbd3bbc83d61d71e4846813303d9361c3df553",
+      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "e8adb9e6e6b5382d4e1504062896fa97c9cc1b9668ab5d8e2c5c25a9385e6404"
     },
     "verifier_source": {
       "cad/l2_r4/slice_plate.py": "2d89165a63897cc2f6d3d65d963295c6016269a4fd0da0d2ff0d993e1f64e7ea"
@@ -3196,7 +3196,7 @@
   },
   "reports/l2_r4/slicer_logs/SIDE_FRONT_KEY_slice.log": {
     "script": "cad/l2_r4/slice_plate.py",
-    "source_commit": "b86d42a1e842f5575746ee01b51fdc75ea3402d6",
+    "source_commit": "884370285ebac71269807dba109c480c2edbf4a0",
     "returncode": 0,
     "report_sha256": "d3885f306409c7473be40843c8f0aaf666dfa3d0e3bc745494c76ff855da606a",
     "geometry": {
@@ -3204,14 +3204,14 @@
       "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
       "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
       "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "0238129fd836a7052c21c005a7b4f3c549f20e4e96d268aed089b7bef586a2ce",
-      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "a64ab32c7c1767b4a01b7e43ba432e3d6f0f47a56f4e75391516625351f9b18f",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "233f4a2508511a70323207cf9edcfba67fcf88c175caeaf954241d928466b473",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "21973e96f0bb5d529c42cf1174cb0b66669f38c03b987b2ec19ad79c827183cf",
       "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
       "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
       "models/L2_r4/parts/WHEEL_CARRIER.stl": "ad234b8e421f47b8b86476420635c91963d5c835a07fb8dde52e147144137fae",
       "cad/l2_r4/PLA_0.4_0.20_ESTIMATE.ini": "7f496e9e465f9500b68409eac71c7e42c18dca2f27f474b4df61ff3be3dc6e91",
-      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "2d47a3e17c4ae0bbdda5498faea54c74ecd426617b773b28d4e4eaf77df034a5",
-      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "a006cbba3e51ee9abcc2f5170d305c04f86630b3aa1e0bb8fa101a0121506114"
+      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "54f5f393eb7ce3b2ae66e8fb68fbd3bbc83d61d71e4846813303d9361c3df553",
+      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "e8adb9e6e6b5382d4e1504062896fa97c9cc1b9668ab5d8e2c5c25a9385e6404"
     },
     "verifier_source": {
       "cad/l2_r4/slice_plate.py": "2d89165a63897cc2f6d3d65d963295c6016269a4fd0da0d2ff0d993e1f64e7ea"
@@ -3219,7 +3219,7 @@
   },
   "reports/l2_r4/slicer_logs/SIDE_REAR_KEY_slice.log": {
     "script": "cad/l2_r4/slice_plate.py",
-    "source_commit": "b86d42a1e842f5575746ee01b51fdc75ea3402d6",
+    "source_commit": "884370285ebac71269807dba109c480c2edbf4a0",
     "returncode": 0,
     "report_sha256": "0c1d56d7c627db44a384fb916f79a6c81ddb767b8ece6adf719f330359a4e452",
     "geometry": {
@@ -3227,14 +3227,14 @@
       "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
       "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
       "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "0238129fd836a7052c21c005a7b4f3c549f20e4e96d268aed089b7bef586a2ce",
-      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "a64ab32c7c1767b4a01b7e43ba432e3d6f0f47a56f4e75391516625351f9b18f",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "233f4a2508511a70323207cf9edcfba67fcf88c175caeaf954241d928466b473",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "21973e96f0bb5d529c42cf1174cb0b66669f38c03b987b2ec19ad79c827183cf",
       "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
       "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
       "models/L2_r4/parts/WHEEL_CARRIER.stl": "ad234b8e421f47b8b86476420635c91963d5c835a07fb8dde52e147144137fae",
       "cad/l2_r4/PLA_0.4_0.20_ESTIMATE.ini": "7f496e9e465f9500b68409eac71c7e42c18dca2f27f474b4df61ff3be3dc6e91",
-      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "2d47a3e17c4ae0bbdda5498faea54c74ecd426617b773b28d4e4eaf77df034a5",
-      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "a006cbba3e51ee9abcc2f5170d305c04f86630b3aa1e0bb8fa101a0121506114"
+      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "54f5f393eb7ce3b2ae66e8fb68fbd3bbc83d61d71e4846813303d9361c3df553",
+      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "e8adb9e6e6b5382d4e1504062896fa97c9cc1b9668ab5d8e2c5c25a9385e6404"
     },
     "verifier_source": {
       "cad/l2_r4/slice_plate.py": "2d89165a63897cc2f6d3d65d963295c6016269a4fd0da0d2ff0d993e1f64e7ea"
@@ -3242,7 +3242,7 @@
   },
   "reports/l2_r4/slicer_logs/slice.log": {
     "script": "cad/l2_r4/slice_plate.py",
-    "source_commit": "b86d42a1e842f5575746ee01b51fdc75ea3402d6",
+    "source_commit": "884370285ebac71269807dba109c480c2edbf4a0",
     "returncode": 0,
     "report_sha256": "037a76699b99be78d90471165cfadd3beb8ffea388d1dd1b7277f12ffa39ba63",
     "geometry": {
@@ -3250,14 +3250,14 @@
       "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
       "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
       "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "0238129fd836a7052c21c005a7b4f3c549f20e4e96d268aed089b7bef586a2ce",
-      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "a64ab32c7c1767b4a01b7e43ba432e3d6f0f47a56f4e75391516625351f9b18f",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "233f4a2508511a70323207cf9edcfba67fcf88c175caeaf954241d928466b473",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "21973e96f0bb5d529c42cf1174cb0b66669f38c03b987b2ec19ad79c827183cf",
       "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
       "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
       "models/L2_r4/parts/WHEEL_CARRIER.stl": "ad234b8e421f47b8b86476420635c91963d5c835a07fb8dde52e147144137fae",
       "cad/l2_r4/PLA_0.4_0.20_ESTIMATE.ini": "7f496e9e465f9500b68409eac71c7e42c18dca2f27f474b4df61ff3be3dc6e91",
-      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "2d47a3e17c4ae0bbdda5498faea54c74ecd426617b773b28d4e4eaf77df034a5",
-      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "a006cbba3e51ee9abcc2f5170d305c04f86630b3aa1e0bb8fa101a0121506114"
+      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "54f5f393eb7ce3b2ae66e8fb68fbd3bbc83d61d71e4846813303d9361c3df553",
+      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "e8adb9e6e6b5382d4e1504062896fa97c9cc1b9668ab5d8e2c5c25a9385e6404"
     },
     "verifier_source": {
       "cad/l2_r4/slice_plate.py": "2d89165a63897cc2f6d3d65d963295c6016269a4fd0da0d2ff0d993e1f64e7ea"
@@ -3265,7 +3265,7 @@
   },
   "reports/l2_r4/slicer_logs/SR_RETAINER_slice.log": {
     "script": "cad/l2_r4/slice_plate.py",
-    "source_commit": "b86d42a1e842f5575746ee01b51fdc75ea3402d6",
+    "source_commit": "884370285ebac71269807dba109c480c2edbf4a0",
     "returncode": 0,
     "report_sha256": "f372eaf2243c0ceeb51c80106f08fb3378e9d056547abaad044c21069db17e15",
     "geometry": {
@@ -3273,14 +3273,14 @@
       "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
       "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
       "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "0238129fd836a7052c21c005a7b4f3c549f20e4e96d268aed089b7bef586a2ce",
-      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "a64ab32c7c1767b4a01b7e43ba432e3d6f0f47a56f4e75391516625351f9b18f",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "233f4a2508511a70323207cf9edcfba67fcf88c175caeaf954241d928466b473",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "21973e96f0bb5d529c42cf1174cb0b66669f38c03b987b2ec19ad79c827183cf",
       "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
       "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
       "models/L2_r4/parts/WHEEL_CARRIER.stl": "ad234b8e421f47b8b86476420635c91963d5c835a07fb8dde52e147144137fae",
       "cad/l2_r4/PLA_0.4_0.20_ESTIMATE.ini": "7f496e9e465f9500b68409eac71c7e42c18dca2f27f474b4df61ff3be3dc6e91",
-      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "2d47a3e17c4ae0bbdda5498faea54c74ecd426617b773b28d4e4eaf77df034a5",
-      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "a006cbba3e51ee9abcc2f5170d305c04f86630b3aa1e0bb8fa101a0121506114"
+      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "54f5f393eb7ce3b2ae66e8fb68fbd3bbc83d61d71e4846813303d9361c3df553",
+      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "e8adb9e6e6b5382d4e1504062896fa97c9cc1b9668ab5d8e2c5c25a9385e6404"
     },
     "verifier_source": {
       "cad/l2_r4/slice_plate.py": "2d89165a63897cc2f6d3d65d963295c6016269a4fd0da0d2ff0d993e1f64e7ea"
@@ -3288,7 +3288,7 @@
   },
   "reports/l2_r4/slicer_logs/WHEEL_CARRIER_slice.log": {
     "script": "cad/l2_r4/slice_plate.py",
-    "source_commit": "b86d42a1e842f5575746ee01b51fdc75ea3402d6",
+    "source_commit": "884370285ebac71269807dba109c480c2edbf4a0",
     "returncode": 0,
     "report_sha256": "3acbb1336be3f3ab76a833bb621cab513e6702f6312a33dc8c1660658a727f61",
     "geometry": {
@@ -3296,14 +3296,14 @@
       "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
       "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
       "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "0238129fd836a7052c21c005a7b4f3c549f20e4e96d268aed089b7bef586a2ce",
-      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "a64ab32c7c1767b4a01b7e43ba432e3d6f0f47a56f4e75391516625351f9b18f",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "233f4a2508511a70323207cf9edcfba67fcf88c175caeaf954241d928466b473",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "21973e96f0bb5d529c42cf1174cb0b66669f38c03b987b2ec19ad79c827183cf",
       "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
       "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
       "models/L2_r4/parts/WHEEL_CARRIER.stl": "ad234b8e421f47b8b86476420635c91963d5c835a07fb8dde52e147144137fae",
       "cad/l2_r4/PLA_0.4_0.20_ESTIMATE.ini": "7f496e9e465f9500b68409eac71c7e42c18dca2f27f474b4df61ff3be3dc6e91",
-      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "2d47a3e17c4ae0bbdda5498faea54c74ecd426617b773b28d4e4eaf77df034a5",
-      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "a006cbba3e51ee9abcc2f5170d305c04f86630b3aa1e0bb8fa101a0121506114"
+      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "54f5f393eb7ce3b2ae66e8fb68fbd3bbc83d61d71e4846813303d9361c3df553",
+      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "e8adb9e6e6b5382d4e1504062896fa97c9cc1b9668ab5d8e2c5c25a9385e6404"
     },
     "verifier_source": {
       "cad/l2_r4/slice_plate.py": "2d89165a63897cc2f6d3d65d963295c6016269a4fd0da0d2ff0d993e1f64e7ea"
@@ -3311,7 +3311,7 @@
   },
   "reports/l2_r4/slicer_logs/WHEEL_slice.log": {
     "script": "cad/l2_r4/slice_plate.py",
-    "source_commit": "b86d42a1e842f5575746ee01b51fdc75ea3402d6",
+    "source_commit": "884370285ebac71269807dba109c480c2edbf4a0",
     "returncode": 0,
     "report_sha256": "7563cb41a9843a30daafbfcc5a0cddc97d43193d66bac58992c3b85a766c06c3",
     "geometry": {
@@ -3319,14 +3319,14 @@
       "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
       "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
       "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "0238129fd836a7052c21c005a7b4f3c549f20e4e96d268aed089b7bef586a2ce",
-      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "a64ab32c7c1767b4a01b7e43ba432e3d6f0f47a56f4e75391516625351f9b18f",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "233f4a2508511a70323207cf9edcfba67fcf88c175caeaf954241d928466b473",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "21973e96f0bb5d529c42cf1174cb0b66669f38c03b987b2ec19ad79c827183cf",
       "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
       "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
       "models/L2_r4/parts/WHEEL_CARRIER.stl": "ad234b8e421f47b8b86476420635c91963d5c835a07fb8dde52e147144137fae",
       "cad/l2_r4/PLA_0.4_0.20_ESTIMATE.ini": "7f496e9e465f9500b68409eac71c7e42c18dca2f27f474b4df61ff3be3dc6e91",
-      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "2d47a3e17c4ae0bbdda5498faea54c74ecd426617b773b28d4e4eaf77df034a5",
-      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "a006cbba3e51ee9abcc2f5170d305c04f86630b3aa1e0bb8fa101a0121506114"
+      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "54f5f393eb7ce3b2ae66e8fb68fbd3bbc83d61d71e4846813303d9361c3df553",
+      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "e8adb9e6e6b5382d4e1504062896fa97c9cc1b9668ab5d8e2c5c25a9385e6404"
     },
     "verifier_source": {
       "cad/l2_r4/slice_plate.py": "2d89165a63897cc2f6d3d65d963295c6016269a4fd0da0d2ff0d993e1f64e7ea"
@@ -3334,50 +3334,74 @@
   },
   "reports/l2_r4/slicer_logs/F2_export.log": {
     "script": "cad/l2_r4/trial_and_plate_views.py",
-    "source_commit": "b86d42a1e842f5575746ee01b51fdc75ea3402d6",
-    "returncode": 1,
+    "source_commit": "884370285ebac71269807dba109c480c2edbf4a0",
+    "returncode": 0,
     "report_sha256": "028e6f9dd7e52f88019999b21c267634409931c964b106d87f3c6b08a78961b2",
     "geometry": {
       "models/L2_r4/parts/BODY.stl": "e48306b2c3fdb1b28acb96c8880ea8f97e58f1a8a113684f1c3c60d0b38f3689",
       "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
       "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
       "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "0238129fd836a7052c21c005a7b4f3c549f20e4e96d268aed089b7bef586a2ce",
-      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "a64ab32c7c1767b4a01b7e43ba432e3d6f0f47a56f4e75391516625351f9b18f",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "233f4a2508511a70323207cf9edcfba67fcf88c175caeaf954241d928466b473",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "21973e96f0bb5d529c42cf1174cb0b66669f38c03b987b2ec19ad79c827183cf",
       "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
       "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
       "models/L2_r4/parts/WHEEL_CARRIER.stl": "ad234b8e421f47b8b86476420635c91963d5c835a07fb8dde52e147144137fae",
       "cad/l2_r4/PLA_0.4_0.20_ESTIMATE.ini": "7f496e9e465f9500b68409eac71c7e42c18dca2f27f474b4df61ff3be3dc6e91",
-      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "2d47a3e17c4ae0bbdda5498faea54c74ecd426617b773b28d4e4eaf77df034a5",
-      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "a006cbba3e51ee9abcc2f5170d305c04f86630b3aa1e0bb8fa101a0121506114"
+      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "54f5f393eb7ce3b2ae66e8fb68fbd3bbc83d61d71e4846813303d9361c3df553",
+      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "e8adb9e6e6b5382d4e1504062896fa97c9cc1b9668ab5d8e2c5c25a9385e6404"
     },
     "verifier_source": {
       "cad/l2_r4/slice_plate.py": "2d89165a63897cc2f6d3d65d963295c6016269a4fd0da0d2ff0d993e1f64e7ea",
-      "cad/l2_r4/trial_and_plate_views.py": "7ac4a2773c235296101357d5a88828c4cbd8bc58b2dd188d38f8b88ec3674ac4"
+      "cad/l2_r4/trial_and_plate_views.py": "d1fa55a7e85014320c411646222f76d911c1cf0199ce9dbf6e0c2e188cf0d2e7"
     }
   },
   "reports/l2_r4/slicer_logs/F2_slice.log": {
     "script": "cad/l2_r4/trial_and_plate_views.py",
-    "source_commit": "b86d42a1e842f5575746ee01b51fdc75ea3402d6",
-    "returncode": 1,
-    "report_sha256": "3a7f2917ca2fdeca7e7c0a10152403b251edf82b5ceaa6e61f0324c3e1a9b62d",
+    "source_commit": "884370285ebac71269807dba109c480c2edbf4a0",
+    "returncode": 0,
+    "report_sha256": "1a3ce453cee5e33675adf179ed649ad22c2a3cf9cc00dd6fc4057101a0b9007c",
     "geometry": {
       "models/L2_r4/parts/BODY.stl": "e48306b2c3fdb1b28acb96c8880ea8f97e58f1a8a113684f1c3c60d0b38f3689",
       "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
       "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
       "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "0238129fd836a7052c21c005a7b4f3c549f20e4e96d268aed089b7bef586a2ce",
-      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "a64ab32c7c1767b4a01b7e43ba432e3d6f0f47a56f4e75391516625351f9b18f",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "233f4a2508511a70323207cf9edcfba67fcf88c175caeaf954241d928466b473",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "21973e96f0bb5d529c42cf1174cb0b66669f38c03b987b2ec19ad79c827183cf",
       "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
       "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
       "models/L2_r4/parts/WHEEL_CARRIER.stl": "ad234b8e421f47b8b86476420635c91963d5c835a07fb8dde52e147144137fae",
       "cad/l2_r4/PLA_0.4_0.20_ESTIMATE.ini": "7f496e9e465f9500b68409eac71c7e42c18dca2f27f474b4df61ff3be3dc6e91",
-      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "2d47a3e17c4ae0bbdda5498faea54c74ecd426617b773b28d4e4eaf77df034a5",
-      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "a006cbba3e51ee9abcc2f5170d305c04f86630b3aa1e0bb8fa101a0121506114"
+      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "54f5f393eb7ce3b2ae66e8fb68fbd3bbc83d61d71e4846813303d9361c3df553",
+      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "e8adb9e6e6b5382d4e1504062896fa97c9cc1b9668ab5d8e2c5c25a9385e6404"
     },
     "verifier_source": {
       "cad/l2_r4/slice_plate.py": "2d89165a63897cc2f6d3d65d963295c6016269a4fd0da0d2ff0d993e1f64e7ea",
-      "cad/l2_r4/trial_and_plate_views.py": "7ac4a2773c235296101357d5a88828c4cbd8bc58b2dd188d38f8b88ec3674ac4"
+      "cad/l2_r4/trial_and_plate_views.py": "d1fa55a7e85014320c411646222f76d911c1cf0199ce9dbf6e0c2e188cf0d2e7"
+    }
+  },
+  "reports/l2_r4/F2_trial.json": {
+    "script": "cad/l2_r4/trial_and_plate_views.py",
+    "source_commit": "884370285ebac71269807dba109c480c2edbf4a0",
+    "returncode": 0,
+    "report_sha256": "9ee69f964820a2e7e5a1df0fb2f0102156368dfdd795864f671a554cb215dc57",
+    "geometry": {
+      "models/L2_r4/parts/BODY.stl": "e48306b2c3fdb1b28acb96c8880ea8f97e58f1a8a113684f1c3c60d0b38f3689",
+      "models/L2_r4/parts/LEFT_KEY.stl": "a1369416a425cda95807b36f170f43a72b6fd83a9afbce9e9ccc895a0a0a89c0",
+      "models/L2_r4/parts/RIGHT_KEY.stl": "891c9818f28434a98e67795611fa2f6f4f752db03ba9cad92dc8568a16f8c947",
+      "models/L2_r4/parts/SF_RETAINER.stl": "9a46a440ed8d5aabea8e17662314e5a6ec5a54b7e342644eb9e2d46cf84de088",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.stl": "233f4a2508511a70323207cf9edcfba67fcf88c175caeaf954241d928466b473",
+      "models/L2_r4/parts/SIDE_REAR_KEY.stl": "21973e96f0bb5d529c42cf1174cb0b66669f38c03b987b2ec19ad79c827183cf",
+      "models/L2_r4/parts/SR_RETAINER.stl": "514b8e804fca9afe0944eef769f69bc0b59703b0af90cb0d28252845a31e1dcd",
+      "models/L2_r4/parts/WHEEL.stl": "b9d40bf705c3d1ca784142b752fe2c4a77ae68dfff963d6e203e7ae0e2c373ba",
+      "models/L2_r4/parts/WHEEL_CARRIER.stl": "ad234b8e421f47b8b86476420635c91963d5c835a07fb8dde52e147144137fae",
+      "cad/l2_r4/PLA_0.4_0.20_ESTIMATE.ini": "7f496e9e465f9500b68409eac71c7e42c18dca2f27f474b4df61ff3be3dc6e91",
+      "models/L2_r4/reference/SIDE_FRONT_KEY_F2_TRIAL.step": "54f5f393eb7ce3b2ae66e8fb68fbd3bbc83d61d71e4846813303d9361c3df553",
+      "models/L2_r4/reference/SIDE_REAR_KEY_F2_TRIAL.step": "e8adb9e6e6b5382d4e1504062896fa97c9cc1b9668ab5d8e2c5c25a9385e6404"
+    },
+    "verifier_source": {
+      "cad/l2_r4/slice_plate.py": "2d89165a63897cc2f6d3d65d963295c6016269a4fd0da0d2ff0d993e1f64e7ea",
+      "cad/l2_r4/trial_and_plate_views.py": "d1fa55a7e85014320c411646222f76d911c1cf0199ce9dbf6e0c2e188cf0d2e7"
     }
   }
 }
