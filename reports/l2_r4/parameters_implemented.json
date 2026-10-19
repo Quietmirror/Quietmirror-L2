@@ -5,8 +5,8 @@
     {
       "name": "SIDE_FRONT_KEY",
       "short": "SF",
-      "y0": 44.2,
-      "y1": 56.3,
+      "y0": 44.3,
+      "y1": 56.05,
       "hinge_x": 27.5,
       "hinge_y": 45.3,
       "rod_y": 50.25,
@@ -24,13 +24,13 @@
       "cap_x_offset": 0.2,
       "hinge_journal_z": [
         16.4,
-        18.6
+        18.25
       ],
       "upper_lug_z": [
         19.8,
         20.6
       ],
-      "hinge_bridge": "inboard root clipped to R1.25; z18.3..19.0",
+      "hinge_bridge": "inboard root clipped to R1.25; z18.1..19.0",
       "outward_stop_ear": {
         "x": [
           25.4,
@@ -38,16 +38,17 @@
         ],
         "z": [
           18.6,
-          19.5
+          19.35
         ]
       },
-      "deviation": "Axis X29 to X27.5 and upper lug top20.8 to20.6 prevent measured external skin breakthrough; external key surface unchanged."
+      "rod_radius_mm": 1.05,
+      "deviation": "Axis X29 to X27.5 and upper lug top20.8 to20.6 prevent measured external skin breakthrough; C7 journal/ear heights18.25/19.35. C8 rod radius1.05, SF inner skin pocket around post, SR front edge58.35. Fixed BODY unchanged; source corrections require fresh cap checks."
     },
     {
       "name": "SIDE_REAR_KEY",
       "short": "SR",
-      "y0": 58.1,
-      "y1": 70.8,
+      "y0": 58.35,
+      "y1": 70.7,
       "hinge_x": 27.5,
       "hinge_y": 69.7,
       "rod_y": 64.45,
@@ -65,13 +66,13 @@
       "cap_x_offset": 0.2,
       "hinge_journal_z": [
         16.4,
-        18.6
+        18.25
       ],
       "upper_lug_z": [
         19.8,
         20.6
       ],
-      "hinge_bridge": "inboard root clipped to R1.25; z18.3..19.0",
+      "hinge_bridge": "inboard root clipped to R1.25; z18.1..19.0",
       "outward_stop_ear": {
         "x": [
           25.4,
@@ -79,10 +80,11 @@
         ],
         "z": [
           18.6,
-          19.5
+          19.35
         ]
       },
-      "deviation": "Axis X29 to X27.5 and upper lug top20.8 to20.6 prevent measured external skin breakthrough; external key surface unchanged."
+      "rod_radius_mm": 1.05,
+      "deviation": "Axis X29 to X27.5 and upper lug top20.8 to20.6 prevent measured external skin breakthrough; C7 journal/ear heights18.25/19.35. C8 rod radius1.05, SF inner skin pocket around post, SR front edge58.35. Fixed BODY unchanged; source corrections require fresh cap checks."
     }
   ],
   "frame": "Integrated source feature of BODY, not a separate printed carrier",
@@ -107,5 +109,6 @@
   "pad_radius": 1.8849999999999998,
   "pad_height": 0.52,
   "author_commit": "f637118455159515a200e6e0f35c0eea1c7d1633",
-  "physical_tests": "HARDWARE_PENDING"
+  "physical_tests": "HARDWARE_PENDING",
+  "candidate": "C9 cap perimeter and simple internal post clearance"
 }
