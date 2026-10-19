@@ -201,5 +201,32 @@
   {
     "stage": "pair_begin",
     "part": "ENCODER_M2x3_FRONT"
+  },
+  {
+    "stage": "pair_end",
+    "part": "ENCODER_M2x3_FRONT",
+    "seconds": 0.37039995193481445,
+    "result": {
+      "a": "LEFT_KEY",
+      "b": "ENCODER_M2x3_FRONT",
+      "gap_mm": 6.571474033568601,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.3,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "nearest_points_mm": [
+        [
+          12.85,
+          23.645488251970416,
+          17.117907917936158
+        ],
+        [
+          9.370921435975776,
+          25.60857772500843,
+          11.9
+        ]
+      ]
+    }
   }
 ]
