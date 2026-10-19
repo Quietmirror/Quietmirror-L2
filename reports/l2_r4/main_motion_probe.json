@@ -507,5 +507,9 @@
         ]
       ]
     }
+  },
+  {
+    "stage": "pair_begin",
+    "part": "USB_M2x3_L"
   }
 ]
