@@ -1,32 +1,5 @@
 [
   {
-    "part": "BODY",
-    "watertight": true,
-    "winding_consistent": true,
-    "components": 1,
-    "triangles": 410684,
-    "method": "Conforming final STEP surface triangulation; no hole filling",
-    "passed": true
-  },
-  {
-    "part": "LEFT_KEY",
-    "watertight": true,
-    "winding_consistent": true,
-    "components": 1,
-    "triangles": 27298,
-    "method": "Conforming final STEP surface triangulation; no hole filling",
-    "passed": true
-  },
-  {
-    "part": "RIGHT_KEY",
-    "watertight": true,
-    "winding_consistent": true,
-    "components": 1,
-    "triangles": 27346,
-    "method": "Conforming final STEP surface triangulation; no hole filling",
-    "passed": true
-  },
-  {
     "part": "SIDE_FRONT_KEY",
     "watertight": true,
     "winding_consistent": true,
@@ -40,25 +13,16 @@
     "watertight": true,
     "winding_consistent": true,
     "components": 1,
-    "triangles": 29980,
+    "triangles": 29970,
     "method": "Conforming final STEP surface triangulation; no hole filling",
     "passed": true
   },
   {
-    "part": "SF_RETAINER",
+    "part": "WHEEL_CARRIER",
     "watertight": true,
     "winding_consistent": true,
     "components": 1,
-    "triangles": 5136,
-    "method": "Conforming final STEP surface triangulation; no hole filling",
-    "passed": true
-  },
-  {
-    "part": "SR_RETAINER",
-    "watertight": true,
-    "winding_consistent": true,
-    "components": 1,
-    "triangles": 5732,
+    "triangles": 32992,
     "method": "Conforming final STEP surface triangulation; no hole filling",
     "passed": true
   }
