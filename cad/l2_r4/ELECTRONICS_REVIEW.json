@@ -1,0 +1,9 @@
+{
+  "phase": "C12 electronics and localized functional contact investigation",
+  "report_file": "electronics_review_execution.json",
+  "scripts": [
+    "cad/l2_r4/electronics_checks.py",
+    "cad/l2_r4/wiring_and_fasteners.py",
+    "cad/l2_r4/contact_audit_final.py"
+  ]
+}

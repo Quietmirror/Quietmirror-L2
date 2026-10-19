@@ -1,12 +1,12 @@
 name: L2-r4 candidate exact CAD checks
 on:
   push:
-    branches: [codex/r4-frame-final]
+    branches: [codex/r4-electronics-review]
     paths: ['cad/l2_r4/**', '.github/workflows/l2-r4-candidate.yml']
 permissions:
   contents: write
 concurrency:
-  group: l2-r4-frame-final
+  group: l2-r4-electronics-review
   cancel-in-progress: true
 jobs:
   independent_checks:
@@ -14,10 +14,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - role: frame_diagnostic
-            config: FRAME_DIAGNOSTIC.json
-          - role: frame_assembly
-            config: FRAME_ASSEMBLY.json
+          - role: electronics_review
+            config: ELECTRONICS_REVIEW.json
     runs-on: ubuntu-24.04
     timeout-minutes: 240
     env:

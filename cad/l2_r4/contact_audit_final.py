@@ -93,3 +93,4 @@ def main():
     save('functional_static_contacts.json',dict(rows=rows,passed=all(x['passed'] for x in rows)))
 
 if __name__=='__main__':main()
+
