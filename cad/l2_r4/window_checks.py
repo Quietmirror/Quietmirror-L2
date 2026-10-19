@@ -80,14 +80,18 @@ def main(selected_index=None,report_name='six_window_samples.json'):
                 hit=outer.intersect(cq.Edge.makeLine(V(p.x,p.y,-1),V(p.x,p.y,50)))
                 zs=[q.z for e in hit.Edges() for q in [e.startPoint(),e.endPoint()]]
                 assert zs and np.allclose(oi,[min(zs),max(zs)],atol=1e-6,rtol=0),(name,i,oi,zs)
-            q=p;assert abs(q.z-oi[1])<1e-5,(name,i,q.toTuple(),oi)
+            # OCCT's Boolean intersection curve is approximated in3D.
+            # Reproject its XY location to the exact original roof by ray;
+            # retain the curve error against the specified0.01mm criterion.
+            projection_error=abs(p.z-oi[1]);assert projection_error<=.01,(name,i,p.toTuple(),oi)
+            q=V(p.x,p.y,oi[1])
             d=cq.Vertex.makeVertex(*q.toTuple()).distance(local)
             t=wire.tangentAt(u);normal=roof_face.normalAt(q).cross(t).normalized()
             if not contains(tool,q+normal*.2,1e-7):normal=-normal
             qp=q+normal*.2
             assert contains(tool,qp,1e-7),('Inward surface-normal point left the actual cut domain',name,i)
             inside=bool(contains(local,qp,1e-7));reasons=sorted(set(exceptions(q)+exceptions(qp))) if d>.01 or inside else []
-            boundary.append(dict(point_mm=q.toTuple(),distance_mm=d,inward_point_mm=qp.toTuple(),inward_inside=inside,baseline_inside=bool(contains(oldlocal,qp,1e-7)),declared_regions=reasons,classified_pass=(d<=.01 and not inside) or bool(reasons)))
+            boundary.append(dict(point_mm=q.toTuple(),intersection_curve_projection_error_mm=projection_error,distance_mm=d,inward_point_mm=qp.toTuple(),inward_inside=inside,baseline_inside=bool(contains(oldlocal,qp,1e-7)),declared_regions=reasons,classified_pass=(d<=.01 and not inside) or bool(reasons)))
         full=[];roof=[];empty_columns=0
         while len(full)<1000 or len(roof)<1000:
             x,y=rng.uniform(bb.xmin,bb.xmax),rng.uniform(bb.ymin,bb.ymax)
@@ -121,3 +125,4 @@ def main(selected_index=None,report_name='six_window_samples.json'):
         print('WINDOW',name,r['boundary_raw_pass'],r['full_prism_raw_pass'],r['roof_band_raw_pass'],r['full_prism_new_invasions'],flush=True)
 
 if __name__=='__main__':main()
+
