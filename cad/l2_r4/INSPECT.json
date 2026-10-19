@@ -1,12 +1,10 @@
 {
-  "phase": "C14 ordinary static clearances",
-  "report_file": "c14_geometry_execution.json",
+  "phase": "Final_C17_and_selected_cell",
+  "report_file": "final_geometry_execution.json",
   "scripts": [
     "cad/l2_r4/restore_inputs.py",
-    "cad/l2_r4/retainer_clearance_finish.py",
-    "cad/l2_r4/wheel_clearance_finish.py",
-    "cad/l2_r4/assemble.py",
-    "cad/l2_r4/surface_mesh_changed.py",
-    "cad/l2_r4/mechanism_accounting.py"
+    "cad/l2_r4/battery_candidate.py",
+    "cad/l2_r4/refresh_assembly.py",
+    "cad/l2_r4/distance_regression.py"
   ]
 }
