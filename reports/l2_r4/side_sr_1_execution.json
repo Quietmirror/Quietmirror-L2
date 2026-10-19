@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "Complete side angular partition side_sr_1",
+  "source_commit": "e53634b0988be0938ad416d5e2edfe27e314ab25",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 3.11,
+      "available_memory_before_GB": 15.624704,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
