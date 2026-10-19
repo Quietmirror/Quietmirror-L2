@@ -77,5 +77,32 @@
   {
     "stage": "pair_begin",
     "part": "WHEEL"
+  },
+  {
+    "stage": "pair_end",
+    "part": "WHEEL",
+    "seconds": 7.238939523696899,
+    "result": {
+      "a": "LEFT_KEY",
+      "b": "WHEEL",
+      "gap_mm": 1.188542250481372,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.3,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "nearest_points_mm": [
+        [
+          9.9,
+          27.284532868103884,
+          20.34063486511555
+        ],
+        [
+          8.85,
+          27.517912525227,
+          19.835
+        ]
+      ]
+    }
   }
 ]
