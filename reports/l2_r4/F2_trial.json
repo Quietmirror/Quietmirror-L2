@@ -173,7 +173,7 @@
     }
   },
   "artifact_sha256": {
-    "models/L2_r4/SIDE_MODULE_F2_TRIAL.3mf": "a89ddd6dcd5de5f41176a624cfc5fec37841dac6b57f026fae3a00081bade813",
-    "views/l2_r4/PRINT_PLATE.png": "753fec401fa5134a941dc2c0ca8330461382baf5a9d957ba489a88591effede1"
+    "models/L2_r4/SIDE_MODULE_F2_TRIAL.3mf": "c0818b7616de5899356dbf1a7cbf1b4d3ffd95daa7968b3e170fe9dea0af3200",
+    "views/l2_r4/PRINT_PLATE.png": "cffda95e7f7011b45990a1f285241ba590ce992a45e71823a96e11076a98e524"
   }
 }

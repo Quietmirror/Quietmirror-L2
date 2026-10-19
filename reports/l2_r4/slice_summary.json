@@ -240,30 +240,30 @@
         ],
         [
           222.87999963760376,
-          44.599937438964844,
-          11.399839401245117
+          44.59951400756836,
+          11.399686813354492
         ]
       ],
       "size_mm": [
         17.87999963760376,
-        32.599937438964844,
-        11.399839401245117
+        32.59951400756836,
+        11.399686813354492
       ]
     }
   ],
   "total_filament_g": "36.11",
-  "time": "5h 18m 43s",
+  "time": "5h 18m 40s",
   "extrusion_roles_g": {
-    "Skirt/Brim": 0.20740100611226944,
-    "Support material interface": 0.7292276026646121,
-    "Support material": 13.024419885460635,
-    "External perimeter": 7.591545165336808,
-    "Perimeter": 11.546660784486548,
-    "Solid infill": 1.613953019659316,
-    "Overhang perimeter": 1.0631293309826928,
-    "Bridge infill": 0.23858365087787597,
+    "Skirt/Brim": 0.20723228328561175,
+    "Support material interface": 0.7276509375089464,
+    "Support material": 13.019279163098451,
+    "External perimeter": 7.589299066940137,
+    "Perimeter": 11.543618852400023,
+    "Solid infill": 1.6139599093487198,
+    "Overhang perimeter": 1.0674118843698766,
+    "Bridge infill": 0.2385891984199934,
     "Internal infill": 0.002909506887622271,
-    "Top solid infill": 0.09655040725315366
+    "Top solid infill": 0.09655878821732035
   },
   "extrusion_role_bounds_mm": {
     "Skirt/Brim": [
@@ -281,11 +281,11 @@
     "Support material interface": [
       [
         14.231,
-        18.885,
+        18.884,
         0.2
       ],
       [
-        218.458,
+        218.479,
         96.253,
         23.4
       ]
@@ -293,11 +293,11 @@
     "Support material": [
       [
         2.979,
-        13.478,
+        12.084,
         0.2
       ],
       [
-        225.19,
+        225.18,
         97.898,
         23.6
       ]
@@ -333,7 +333,7 @@
         0.2
       ],
       [
-        218.837,
+        218.838,
         98.636,
         25.2
       ]
@@ -345,7 +345,7 @@
         0.4
       ],
       [
-        221.05,
+        221.068,
         99.197,
         24.0
       ]
@@ -377,11 +377,11 @@
     "Top solid infill": [
       [
         18.118,
-        19.544,
+        19.421,
         1.6
       ],
       [
-        218.933,
+        218.765,
         98.499,
         25.4
       ]
@@ -1363,53 +1363,53 @@
       "rotation_y_deg": 0,
       "rotation_x_deg": 0,
       "slicer_messages": [],
-      "total_filament_g": "1.52",
-      "time": "15m 15s",
+      "total_filament_g": "1.53",
+      "time": "15m 21s",
       "extrusion_roles_g": {
-        "Skirt/Brim": 0.022316449616643214,
-        "Support material": 0.724611749367949,
-        "External perimeter": 0.2744043689341059,
-        "Perimeter": 0.4083623597185315,
-        "Solid infill": 0.01010857615381176,
-        "Overhang perimeter": 0.028007541842738997,
-        "Top solid infill": 0.001941520439120658,
-        "Support material interface": 0.046953829797546205,
-        "Bridge infill": 0.0015647349575640145
+        "Skirt/Brim": 0.022147667138995072,
+        "Support material": 0.7432955729645115,
+        "External perimeter": 0.27215558624286834,
+        "Perimeter": 0.40557457067704594,
+        "Solid infill": 0.010332356844710155,
+        "Overhang perimeter": 0.032162233331762984,
+        "Top solid infill": 0.001950199658239868,
+        "Support material interface": 0.04555552110350514,
+        "Bridge infill": 0.0015702824996814482
       },
       "extrusion_role_bounds_mm": {
         "Skirt/Brim": [
           [
-            14.29,
+            14.28,
             8.725,
             0.2
           ],
           [
             29.155,
-            27.275,
+            25.624,
             0.2
           ]
         ],
         "Support material": [
           [
-            4.212,
-            11.172,
+            5.011,
+            10.084,
             0.2
           ],
           [
-            30.19,
-            47.739,
+            30.18,
+            46.335,
             9.4
           ]
         ],
         "External perimeter": [
           [
-            10.227,
+            10.226,
             10.225,
             0.2
           ],
           [
             27.655,
-            42.369,
+            42.373,
             11.4
           ]
         ],
@@ -1420,56 +1420,56 @@
             0.2
           ],
           [
-            27.246,
-            41.961,
+            27.243,
+            41.965,
             11.4
           ]
         ],
         "Solid infill": [
           [
             15.602,
-            17.42,
+            17.398,
             0.2
           ],
           [
-            23.837,
-            40.368,
+            23.838,
+            40.372,
             10.4
           ]
         ],
         "Overhang perimeter": [
           [
-            10.272,
-            16.968,
-            1.4
+            10.254,
+            16.966,
+            0.4
           ],
           [
-            26.05,
-            40.987,
+            26.068,
+            40.985,
             10.0
           ]
         ],
         "Top solid infill": [
           [
-            15.587,
-            17.544,
+            15.417,
+            17.447,
             1.6
           ],
           [
-            23.933,
-            40.676,
+            23.766,
+            40.515,
             7.4
           ]
         ],
         "Support material interface": [
           [
             9.771,
-            16.885,
+            16.884,
             5.2
           ],
           [
-            23.458,
-            41.083,
+            23.479,
+            41.092,
             6.4
           ]
         ],
@@ -1481,7 +1481,7 @@
           ],
           [
             18.06,
-            40.473,
+            40.477,
             10.0
           ]
         ]
@@ -1518,6 +1518,6 @@
   "role_mass_method": "Positive XY extrusion by G-code TYPE, relative E; excludes standalone retract/reprime",
   "scale": 1.0,
   "artifact_sha256": {
-    "models/L2_r4/L2_r4_H_ALL_PARTS_SINGLE_PLATE.3mf": "49ecd9d72d5bcf6f1cb50ca26e2a4e420d54e246da8694d32ce72e35f282f1ad"
+    "models/L2_r4/L2_r4_H_ALL_PARTS_SINGLE_PLATE.3mf": "c4024adef56c10f3684d0fb2f7e3246d5fa5e92814873bae9da599830f9599e5"
   }
 }
