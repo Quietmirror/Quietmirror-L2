@@ -3,16 +3,17 @@ import json
 from common import *
 from mechanics import beam
 ROUTES={
- 'SIDE_SF_NO_ROUTE_EST':[(14.5,43.17,16.6),(14.2,43.17,18),(12.5,50,19),(4,62,19.1)],
- 'SIDE_SR_NO_ROUTE_EST':[(15,57.37,16.6),(14.3,57.37,17.6),(12.,60,18.8),(4,64,19.1)],
+ 'SIDE_SF_NO_ROUTE_EST':[(14.5,43.17,16.6),(14.1,43.17,19.8),(14.1,55.8,20.3),(12.8,55.8,20.3)],
+ 'SIDE_SR_NO_ROUTE_EST':[(15,57.37,16.6),(14.3,57.37,17.6),(14.3,58.2,19.6),(12.8,58.2,20.3)],
  'SIDE_COM_ROUTE_EST':[(14.5,48.25,16.6),(13.6,48.25,17.6),(13.6,62.45,17.6),(15,62.45,16.6)],
- 'SIDE_COM_GPIO_ROUTE_EST':[(13.6,60,17.6),(10,63,19.1),(4,66,19.1)]}
+ 'SIDE_COM_GPIO_ROUTE_EST':[(13.6,60,17.6),(14,60,20.8),(13.5,57,20.8),(12.8,57,20.3)]}
+
 def main():
     for n,points in ROUTES.items():export(unite(*[beam(a,b,.3) for a,b in zip(points[:-1],points[1:])]),n,False)
     old=json.loads((ROOT/'reports/l2_r3/assembly_inventory.json').read_text(encoding='utf8'))
     printed=[p.stem for p in sorted((OUT/'parts').glob('*.step'))]
     excluded={'CARRIER_M2x5_1','CARRIER_M2x5_2','SIDE_IO_PCB','SIDE_ROUTE_EST'}
-    hardware=[n for n in old['H_hardware'] if n not in excluded]+['SF_RETAINER_M2x5','SR_RETAINER_M2x5',*ROUTES]
+    hardware=[n for n in old['H_hardware'] if n not in excluded]+['SF_RETAINER_M2x5','SR_RETAINER_M2x5','SF_RETAINER_WASHER','SR_RETAINER_WASHER',*ROUTES]
     assert len(set(hardware))==len(hardware)
     assy=cq.Assembly(name='Quietmirror_L2_r4_CAD_CANDIDATE')
     for n in printed+hardware:

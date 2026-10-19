@@ -65,14 +65,19 @@ def dense(route):
     return out
 
 def main():
-    author=ROOT/'cad/l2_r4_author';routes=json.loads((author/'guided_routes.json').read_text());specs=json.loads((author/'loose_parts.json').read_text())
+    author=ROOT/'cad/l2_r4_author';routes=json.loads((author/'guided_routes.json').read_text(encoding='utf-8-sig'));specs=json.loads((author/'loose_parts.json').read_text(encoding='utf-8-sig'))
     body=load('BODY');base,grid=voxelize(body)
     installed={};result=[]
     names={'SR_switch':'SR_D2F_01F','SF_switch':'SF_D2F_01F','SR_retainer':'SR_RETAINER','SF_retainer':'SF_RETAINER'}
     for step in routes['sequence']:
         old=step['part'];name=names[old];s=load(name,OUT/('reference' if old.endswith('switch') else 'parts'))
         ps=inside_points(s);c=pivot_from_author(specs[old]['boxes']);occ=binary_dilation(base,generate_binary_structure(3,1))
-        way=step['route'];samples=dense(way);bad=[]
+        original_way=step['route'];way=[list(p) for p in original_way]
+        if old.endswith('retainer'):
+            for p in way:
+                if abs(p[2]-.3)<1e-8:p[2]=.55
+            way.append([0.,0.,.55,0.])
+        samples=dense(way);bad=[]
         for j,p in enumerate(samples):
             pp=transformed(ps,c,p);idx=np.floor((pp-LO)/H).astype(int);ok=np.all((idx>=0)&(idx<N),axis=1)
             outside_bad=(~ok)&((idx[:,2]>=0)|(idx[:,0]<0)|(idx[:,0]>=N[0])|(idx[:,1]<0)|(idx[:,1]>=N[1]))
@@ -88,7 +93,7 @@ def main():
             actor=moved(s,c,p);pairs=[pair(actor,body,name,'BODY',0.)]
             pairs.extend(pair(actor,b,name,n,0.) for n,b in installed.items())
             seating.append(dict(pose=p,pairs=pairs))
-        r=dict(part=name,source_waypoints=way,pivot=c.tolist(),point_count=len(ps),voxel_poses=len(samples),
+        r=dict(part=name,source_waypoints=original_way,executed_waypoints=way,pivot=c.tolist(),point_count=len(ps),voxel_poses=len(samples),
                starts_below_rim=float(transformed(ps,c,way[0])[:,2].max())<4.8,voxel_collisions=bad,
                exact_turnpoints=exact,exact_final_seating=seating,
                note='Final seating permits only explicitly designed contacts. Raw contact records retained; not an automatic functional exception.')

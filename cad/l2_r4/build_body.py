@@ -1,4 +1,4 @@
-"""Rebuild r3 from the original mother surfaces and source feature sequence.
+"""Rebuild r4 from the original mother surfaces and source feature sequence.
 
 Omit obsolete seats at source, preserve six roof windows and the five foot
 datums, then add the r3 bearing/rim features before final interface bores.
@@ -89,6 +89,6 @@ def main():
     for f in feet:body=body.fuse(cyl(4,1.6,(*f['center'],5.2)))
     # Keep split faces at the foot cylinder interfaces, as in R3.1/R3.2.
     cq.exporters.export(body,str(WORK/'BODY_before_export.step'))
-    row=export(body,'BODY');save('body_build.json',dict(solid=row,seconds=time.time()-start,windows=windows,foot_glue_z=5.2,source_changes=['obsolete side socket loop omitted','thumb-side ear arms lowered and holes drilled after joining','Y54 arms removed outside X +/-6','rear diagonals 1.6 x 2.8','r3 side rim and bearing lugs'],source_level_rebuild=True))
+    row=export(body,'BODY');save('body_build.json',dict(solid=row,seconds=time.time()-start,windows=windows,foot_glue_z=5.2,source_changes=['obsolete side socket loop omitted','thumb-side ear arms lowered and holes drilled after joining','Y54 arms removed outside X +/-6','rear diagonals 1.6 x 2.8','r3 side rim and bearing lugs','D1 integrated floor/frame and D4-D6 reinforcements','D7 inboard hidden ear; 2.2mm journal; independent retainer bosses and pin entry pockets'],source_level_rebuild=True))
 
 if __name__=='__main__':main()

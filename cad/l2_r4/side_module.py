@@ -9,6 +9,7 @@ from common import *
 KEYS=[dict(name='SIDE_FRONT_KEY',short='SF',y0=44.2,y1=56.3,hinge_y=45.3,rod_y=50.25,rod_end=25.97,stop_y=[54.,55.2],stop_x=29.74,sign=1,pad_y_offset=0.2018),
       dict(name='SIDE_REAR_KEY',short='SR',y0=58.1,y1=70.8,hinge_y=69.7,rod_y=64.45,rod_end=26.47,stop_y=[59.3,60.5],stop_x=30.04,sign=-1,pad_y_offset=-0.1617)]
 PAD_RADIUS=2.175*2.6/3;PAD_HEIGHT=.6*2.6/3
+RETAINER_MOUNTS={'SF':dict(x=16.6,y=45.7,pin_y=54.),'SR':dict(x=16.6,y=70.4,pin_y=56.5)}
 
 def inward_travel(k,theta):
     t=math.radians(theta);x=k['rod_end']-29;y=k['rod_y']+k['pad_y_offset']-k['hinge_y']
@@ -35,21 +36,31 @@ def integrated_frame(outer):
     bits.extend([box(24,28.2,41.8,45.8,10.75,13.7),box(24,29.2,64.9,67.9,10.75,13.7)])
     for ya,yb in [(45.8,53.6),(55.4,59.1),(61.1,64.9),(67.9,71.2)]:bits.append(box(25.5,34,ya,yb,12.1,13.7).intersect(outer))
     bits.append(box(25.5,27.9,41.8,43.25,13.7,14.6))
+    for mount in RETAINER_MOUNTS.values():
+        bits.append(cyl(2.05,1.6,(mount['x'],mount['y'],12.1)))
+        bits.append(cyl(1.5,1.6,(17.9,mount['pin_y'],12.1)))
     result=unite(*bits)
-    for y in [43.,70.4]:result=result.cut(cyl(1.1,2,(17.9,y,11.9)))
-    for y in [54.,56.5]:result=result.cut(cyl(.8,1.01,(17.9,y,12.7)))
+    for mount in RETAINER_MOUNTS.values():
+        result=result.cut(cyl(1.1,2,(mount['x'],mount['y'],11.9)))
+        y=mount['pin_y'];result=result.cut(cyl(.8,1.01,(17.9,y,12.7)))
+        # An upper entry channel lets the integral locating pin translate
+        # above the lower 0.30 mm locating socket before the final Z descent.
+        result=result.cut(box(14.5,19.0,y-1.1,y+1.1,13.0,13.71))
     return result.clean()
 
 def retainer(short):
     if short=='SF':
-        s=unite(box(17.3,18.5,41.8,55,13.7,19.5),box(16.6,18.5,41.8,44.6,13.7,17.2))
-        screw_y,pin_y,terminal_y=43.,54.,[43.17,48.25,53.33]
+        s=box(17.3,18.5,41.8,55,13.7,19.5)
+        terminal_y=[43.17,48.25,53.33]
     else:
-        s=unite(box(17.3,19.,55.3,71.2,13.7,19.5),box(16.6,18.5,68.4,71.2,13.7,17.2))
-        screw_y,pin_y,terminal_y=70.4,56.5,[57.37,62.45,67.53]
-    s=unite(s,cyl(.75,1.01,(17.9,pin_y,12.7)))
-    s=s.cut(cyl(.85,3.,(17.9,screw_y,13.7)))
-    for y in terminal_y:s=s.cut(box(16.,19.2,y-.8,y+.8,16.,17.2))
+        s=box(17.3,19.,55.3,71.2,13.7,19.5)
+        terminal_y=[57.37,62.45,67.53]
+    m=RETAINER_MOUNTS[short]
+    s=unite(s,cyl(1.8,3.5,(m['x'],m['y'],13.7)),cyl(.75,1.,(17.9,m['pin_y'],12.7)))
+    s=s.cut(cyl(.85,3.,(m['x'],m['y'],13.7)))
+    # 0.55 mm elevated entry is needed by the locating pin. The larger
+    # terminal-slot height gives at least 0.25 mm above its lower lip then.
+    for y in terminal_y:s=s.cut(box(14.,19.2,y-.8,y+.8,15.6,17.2))
     return valid(s.clean(),short+'_RETAINER')
 
 def fixed_features(outer):
@@ -61,14 +72,13 @@ def fixed_features(outer):
         adds.append(box(28.65,35,a-.3,b+.3,19.8,21).intersect(outer))
         for z0,z1 in [(14.2,15.2),(19.8,20.8)]:adds.append(unite(cyl(1.325,z1-z0,(29,y,z0)),box(29,32.2,y-.9,y+.9,z0,z1).intersect(outer)))
         cuts.extend([cyl(1.55,4.6,(29,y,15.2)),cyl(.475,8,(29,y,13))])
-        # Entry slot is concealed behind the continuous outer skin. The small
-        # outward stop land occupies the extra 0.10 mm entry-slot allowance.
-        slot=box(29,35,y-.5,y+.5,19.8,20.8)
-        cut_ear=box(29,31.4,y-.5,y+.5,19.8,20.8)
-        sweeps=[cut_ear.rotate((29,y,0),(29,y,1),sg*i*.5) for i in range(17)]
-        cuts.append(unite(slot,*sweeps).intersect(box(27,32.2,y-2,y+2,19.8,20.8)))
-        ya,yb=(y-.5,y-.4) if sg>0 else (y+.4,y+.5)
-        lands.append(box(30.6,32.2,ya,yb,19.85,20.75).intersect(outer))
+        # The requested +X ear at Z20 is outside the curved mother skin here.
+        # Put its radial arm inboard, within the existing side opening, and
+        # preserve the complete upper fixed lug instead of cutting its skin.
+        ya,yb=(y+.4,y+1.4) if sg>0 else (y-1.4,y-.4)
+        stop=unite(box(26.5,27.3,ya,yb,18.6,20.8),box(26.5,29.4,ya,yb,19.8,20.8))
+        stop=stop.intersect(outer).cut(cyl(.475,8,(29,y,13)))
+        lands.append(stop)
     return adds,cuts,lands
 
 def crown(k,shift=0.):
@@ -85,18 +95,20 @@ def key(outer,k,offset=.2):
         rounded=cap.Solids()[0].fillet(.3,edges)
         if rounded.isValid():cap=rounded;edge_finish=True
     except Exception:pass
-    y=k['hinge_y'];hinge=cyl(1.25,4,(29,y,15.5))
+    # A full-height flat-ended barrel cannot pass the rounded aperture even
+    # though its Y projection lies inside the rectangular opening bounds.
+    # The 2.2 mm journal preserves diameter/wall and both fixed pin supports.
+    y=k['hinge_y'];hinge=cyl(1.25,2.2,(29,y,16.4))
     web=box(29,33,y-.55,y+.55,15.5,19.5).intersect(surface).intersect(mask)
-    ear=box(29,31.3,y-.4,y+.4,19.85,20.75)
-    # Root bridge connects the upper radial ear to the existing concealed web;
-    # without this bridge the prose dimensions leave a 0.35 mm disconnected gap.
-    bridge=box(30.05,31.3,y-.4,y+.4,19.3,20.0)
+    ear=box(26.7,29,y-.4,y+.4,18.6,19.5)
+    # Inboard barrel-to-arm root stays within the R1.55 journal clearance.
+    bridge=box(27.7,28.3,y-.4,y+.4,18.3,19.0).intersect(cyl(1.25,.7,(29,y,18.3)))
     rod=cyl(1.20,34-k['rod_end']-.40,(k['rod_end']+.40,k['rod_y'],16.6),(1,0,0)).intersect(surface)
     theta=math.radians(k['angle']);yc=k['stop_y'][1] if theta>0 else k['stop_y'][0]
     stop_x=29+(k['stop_x']-29+(yc-y)*math.sin(theta))/math.cos(theta)
     stop=box(stop_x,34,*k['stop_y'],15.9,16.4).intersect(surface)
     s=unite(cap,hinge,web,ear,bridge,rod,crown(k),stop).cut(cyl(.525,6,(29,y,14.5))).clean()
-    return valid(s,k['name']),dict(**k,stop_rib_inner_x=stop_x,edge_R0p3_applied=edge_finish,cap_x_offset=offset,hinge_bridge='x30.05..31.3,z19.3..20.0; joins specified radial ear without a disconnected fragment')
+    return valid(s,k['name']),dict(**k,stop_rib_inner_x=stop_x,edge_R0p3_applied=edge_finish,cap_x_offset=offset,hinge_journal_z=[16.4,18.6],hinge_bridge='inboard root clipped to R1.25; z18.3..19.0',outward_stop_ear='inboard radial arm X26.7..29.0, Z18.6..19.5; existing exterior opening unchanged')
 
 def side_references():
     refs={}
@@ -107,7 +119,10 @@ def side_references():
         shifted=original.translate((-.33,0,0))
         refs[n+'_TUNING_SHIM_0p33']=shifted.cut(original).intersect(box(k['rod_end']-.33,k['rod_end']+PAD_HEIGHT,y+k['pad_y_offset']-1.3,y+k['pad_y_offset']+1.3,15.3,17.9))
         refs[n+'_VERTICAL_PIN']=cyl(.5,5.5,(29,k['hinge_y'],14.75))
-    for n,y in [('SF',43.),('SR',70.4)]:refs[n+'_RETAINER_M2x5']=unite(cyl(1.,5,(17.9,y,11.3)),cyl(1.8,.8,(17.9,y,10.5)))
+    for n,m in RETAINER_MOUNTS.items():
+        x,y=m['x'],m['y']
+        refs[n+'_RETAINER_M2x5']=unite(cyl(1.,5,(x,y,11.6)),cyl(1.8,.8,(x,y,10.8)))
+        refs[n+'_RETAINER_WASHER']=cyl(1.8,.5,(x,y,11.6)).cut(cyl(1.1,.7,(x,y,11.5)))
     return refs
 
 def main():
@@ -118,5 +133,5 @@ def main():
         f2,_=key(outer,k,.3);cq.exporters.export(f2,str(OUT/'reference'/(k['name']+'_F2_TRIAL.step')))
     for n,s in side_references().items():rows.append(export(s,n,False))
     save('side_module_solids.json',rows)
-    save('parameters_implemented.json',dict(version='r4',units='mm',side_keys=params,frame='Integrated source feature of BODY, not a separate printed carrier',retainers=['SF_RETAINER','SR_RETAINER'],pad_radius=PAD_RADIUS,pad_height=PAD_HEIGHT,author_commit='f637118455159515a200e6e0f35c0eea1c7d1633',physical_tests='HARDWARE_PENDING'))
+    save('parameters_implemented.json',dict(version='r4',units='mm',side_keys=params,frame='Integrated source feature of BODY, not a separate printed carrier',retainers=['SF_RETAINER','SR_RETAINER'],retainer_mounts=RETAINER_MOUNTS,pad_radius=PAD_RADIUS,pad_height=PAD_HEIGHT,author_commit='f637118455159515a200e6e0f35c0eea1c7d1633',physical_tests='HARDWARE_PENDING'))
 if __name__=='__main__':main()

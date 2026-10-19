@@ -5,8 +5,14 @@ import psutil
 ROOT=Path(__file__).resolve().parents[2];RP=ROOT/'reports/l2_r4';WORK=ROOT/'_support/work/l2_r4'
 def main():
     RP.mkdir(parents=True,exist_ok=True);WORK.mkdir(parents=True,exist_ok=True)
-    config=json.loads((ROOT/'cad/l2_r4/RUN.json').read_text());report=dict(status='RUNNING',phase=config['phase'],source_commit=os.getenv('GITHUB_SHA'),steps=[])
-    for script in config['scripts']:
+    config=json.loads((ROOT/'cad/l2_r4/RUN.json').read_text())
+    single=int(sys.argv[2]) if len(sys.argv)>2 and sys.argv[1]=='--index' else None
+    indices=range(len(config['scripts'])) if single is None else [single]
+    if single is not None and single>0:
+        report=json.loads((RP/'execution.json').read_text());assert report['phase']==config['phase'] and report['source_commit']==os.getenv('GITHUB_SHA')
+    else:report=dict(status='RUNNING',phase=config['phase'],source_commit=os.getenv('GITHUB_SHA'),steps=[])
+    for index in indices:
+        script=config['scripts'][index]
         start=time.time();log=WORK/(Path(script).stem+'.log');mem=psutil.virtual_memory()
         print('START',script,'available_GB',round(mem.available/1e9,2),flush=True)
         with log.open('w') as f:
@@ -15,5 +21,5 @@ def main():
         report['steps'].append(dict(script=script,returncode=p.returncode,seconds=round(time.time()-start,2),available_memory_before_GB=mem.available/1e9,log_tail=tail))
         report['status']='FAILED' if p.returncode else 'RUNNING';(RP/'execution.json').write_text(json.dumps(report,indent=2))
         if p.returncode:return p.returncode
-    report['status']='PHASE_COMPLETED';(RP/'execution.json').write_text(json.dumps(report,indent=2));return 0
+    report['status']='PHASE_COMPLETED' if single is None or single==len(config['scripts'])-1 else 'RUNNING';(RP/'execution.json').write_text(json.dumps(report,indent=2));return 0
 if __name__=='__main__':sys.exit(main())

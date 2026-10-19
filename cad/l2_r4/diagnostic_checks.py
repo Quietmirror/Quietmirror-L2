@@ -8,7 +8,7 @@ import itertools,json,math,time
 import numpy as np
 import trimesh
 from common import *
-from side_module import KEYS
+from side_module import KEYS,RETAINER_MOUNTS
 
 def main():
     parts={p.stem:load(p.stem) for p in sorted((OUT/'parts').glob('*.step'))}
@@ -21,6 +21,18 @@ def main():
             consistent_winding=bool(m.is_winding_consistent),mesh_components=len(trimesh.graph.connected_components(m.face_adjacency,nodes=np.arange(len(m.faces)),engine='scipy',min_len=1)),
             brep_self_interference_check=bool(BRepAlgoAPI_Check(s.wrapped,True,True).IsValid())))
         print('SOLID',rows[-1],flush=True);save('solids.json',rows)
+    feet=json.loads((ROOT/'reports/rebuild_r3_2/design_metadata.json').read_text())['mechanisms']['feet']
+    footrows=[]
+    for f in feet:
+        x,y=f['center'];area=0.;zs=[]
+        for face in body.Faces():
+            if face.geomType()!='PLANE':continue
+            bb=face.BoundingBox()
+            if bb.zlen<1e-5 and abs(bb.zmin-5.2)<1e-5 and face.normalAt().z<-.9:
+                hit=face.intersect(cyl(4.01,.2,(x,y,5.1)))
+                if hit.Area()>1e-7:area+=hit.Area();zs.append(bb.zmin)
+        footrows.append(dict(x=x,y=y,z=zs,contact_area_mm2=area,passed=area>40 and all(abs(z-5.2)<1e-5 for z in zs)))
+    save('foot_planes.json',dict(feet=footrows,coplanar=all(r['passed'] for r in footrows),glue_z=5.2,skates_mm=.8,ground_z=4.4))
     static=[]
     for (an,a),(bn,b) in itertools.combinations(parts.items(),2):
         row=pair(a,b,an,bn,.3);static.append(row);save('static_pairs.json',static)
@@ -29,9 +41,15 @@ def main():
     insertions=[];motions=[]
     for k in KEYS:
         n=k['name'];cap=parts[n];origin=(29,k['hinge_y'],0);axis=(29,k['hinge_y'],1)
+        shim=load(k['short']+'_TUNING_SHIM_0p33',OUT/'reference')
+        insertion_actor=cq.Compound.makeCompound([cap,shim])
+        bb=insertion_actor.BoundingBox()
+        insertion_body=body.intersect(box(bb.xmin-.01,bb.xmax+10.01,bb.ymin-.01,bb.ymax+.01,bb.zmin-.01,bb.zmax+.01))
         poses=[]
         for dx in np.arange(10.,-.001,-.25):
-            row=pair(cap.translate((float(dx),0,0)),body,n,'BODY',0.)
+            actor=insertion_actor.translate((float(dx),0,0))
+            ov=vol(actor.intersect(insertion_body))
+            row=dict(a=n+' + PET',b='BODY',overlap_mm3=ov,gap_mm=None,pass_check=ov<=.001,nearest_points_mm=[],method='Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6')
             row['dx_mm']=float(dx);poses.append(row)
             if row['overlap_mm3']>.001:print('INSERT_COLLISION',n,dx,row['overlap_mm3'],row['nearest_points_mm'],flush=True)
         insertions.append(dict(part=n,method='exact rigid -X translation at 0.25 mm intervals',samples=poses,
@@ -53,8 +71,8 @@ def main():
     for k in KEYS:
         probe=cyl(1.,14.2,(29,k['hinge_y'],20.8))
         access.append(pair(probe,body,k['short']+'_PIN_TOOL_D2','BODY',0.))
-    for n,y in [('SF',43.),('SR',70.4)]:
-        access.append(pair(cyl(2.,12.1,(17.9,y,0)),body,n+'_SCREWDRIVER_D4','BODY',0.))
+    for n,m in RETAINER_MOUNTS.items():
+        access.append(pair(cyl(2.,12.1,(m['x'],m['y'],0)),body,n+'_SCREWDRIVER_D4','BODY',0.))
     save('assembly_access.json',access)
     # Independent numerical rigid-body calculation, rather than importing
     # rounded angles/travel from the author evidence.
