@@ -1,0 +1,19 @@
+{
+  "part": {
+    "name": "ENCODER_ADAPTER_PCB_EST",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 131.73762847727318,
+    "bounds_mm": [
+      -0.8000000000000007,
+      20.8,
+      9.2,
+      10.600000000000001,
+      34.55000000000015,
+      10.4
+    ]
+  },
+  "revision": "C17 planar rearY34.55, tapered forward diagonal retaining rear lug land",
+  "actual_vendor_board": false
+}

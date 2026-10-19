@@ -9,6 +9,13 @@
       "seconds": 4.7,
       "available_memory_before_GB": 15.642980352,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/encoder_pcb_refine.py",
+      "returncode": 0,
+      "seconds": 1.97,
+      "available_memory_before_GB": 15.642673152,
+      "log_tail": "EXPORTED ENCODER_ADAPTER_PCB_EST 131.7376\n"
     }
   ]
 }
