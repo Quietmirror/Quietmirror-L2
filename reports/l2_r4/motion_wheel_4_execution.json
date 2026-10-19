@@ -9,6 +9,13 @@
       "seconds": 3.95,
       "available_memory_before_GB": 15.682715648,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/motion_wheel_4.py",
+      "returncode": 0,
+      "seconds": 362.1,
+      "available_memory_before_GB": 15.45211904,
+      "log_tail": "G5_RAW WHEEL_CARRIER -2.8 overlaps []\nG5_RAW WHEEL_CARRIER -0.8 overlaps []\nG5_RAW WHEEL_CARRIER 1.2 overlaps []\nG5_RAW WHEEL_CARRIER 3.2 overlaps []\n"
     }
   ]
 }
