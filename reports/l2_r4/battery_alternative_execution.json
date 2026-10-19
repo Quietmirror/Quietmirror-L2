@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "Alternative estimated battery aspect ratios and service routes",
+  "source_commit": "c410128689cd448932f93455e954cd54e87e189b",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 4.49,
+      "available_memory_before_GB": 15.601238016,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
