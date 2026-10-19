@@ -74,7 +74,9 @@ def build_wheel(p,outer):
         holes.append([mx,yy,zz])
     for ty in (my+2.-5.08,my+2.,my+2.+5.08):
         switch=join(switch,box(.6,1.5,3.7,(mx,ty,mb-1.65)))
-        terminal_cuts.append(box(1.2,2.,4.6,(mx,ty,mb-2.1)))
+        # C19: 0.6 x 1.5 mm rigid terminal envelope requires >=0.5 mm
+        # clearance to the lower hub, outside the functional tray seat.
+        terminal_cuts.append(box(1.8,2.7,4.6,(mx,ty,mb-2.1)))
     hardware['SWITCH_MIDDLE']=check(switch,'SWITCH_MIDDLE')
     for sign in (-1,1):
         tie=beam((sign*4.,46.,mb-.9),(sign*(half_width(46.,p)-.3),46.,mb-.9),1.25).intersect(outer)
