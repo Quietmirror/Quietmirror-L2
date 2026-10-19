@@ -18,11 +18,29 @@
     "passed": true
   },
   {
+    "part": "SF_RETAINER",
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "triangles": 5094,
+    "method": "Conforming final STEP surface triangulation; no hole filling",
+    "passed": true
+  },
+  {
+    "part": "SR_RETAINER",
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "triangles": 5812,
+    "method": "Conforming final STEP surface triangulation; no hole filling",
+    "passed": true
+  },
+  {
     "part": "WHEEL_CARRIER",
     "watertight": true,
     "winding_consistent": true,
     "components": 1,
-    "triangles": 32992,
+    "triangles": 33128,
     "method": "Conforming final STEP surface triangulation; no hole filling",
     "passed": true
   }
