@@ -1,6 +1,7 @@
 """Exact final component distances and explicit reserved-space checks."""
 import itertools,json
 from common import *
+from exact_distance import pair
 
 def main():
     inv=json.loads((RP/'assembly_inventory.json').read_text())

@@ -1,12 +1,10 @@
 {
-  "phase": "C14 ordinary static clearances",
-  "report_file": "c14_geometry_execution.json",
+  "phase": "C17_original_body_distances",
+  "report_file": "c17_exact_pcb_execution.json",
   "scripts": [
     "cad/l2_r4/restore_inputs.py",
-    "cad/l2_r4/retainer_clearance_finish.py",
-    "cad/l2_r4/wheel_clearance_finish.py",
-    "cad/l2_r4/assemble.py",
-    "cad/l2_r4/surface_mesh_changed.py",
-    "cad/l2_r4/mechanism_accounting.py"
+    "cad/l2_r4/encoder_pcb_refine.py",
+    "cad/l2_r4/distance_regression.py",
+    "cad/l2_r4/encoder_pcb_probe.py"
   ]
 }

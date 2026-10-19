@@ -2,6 +2,7 @@
 import json
 import numpy as np
 from common import *
+from exact_distance import pair
 from side_module import KEYS,UPPER_LUG_TOP
 
 def main():
