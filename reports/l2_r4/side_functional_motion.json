@@ -16,12 +16,12 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.315728071767,
+              26.8,
               45.7,
               18.6
             ],
             [
-              26.315728071767,
+              26.8,
               45.7,
               18.6
             ]
@@ -31,7 +31,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.20000000000000284,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -39,21 +39,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.464391000473825,
-                46.00001000000028,
-                18.6
+                29.480181192843617,
+                50.25,
+                15.400000000000002
               ],
               [
-                26.464391000473825,
-                46.00001000000028,
-                18.6
+                29.48018119284362,
+                50.25000000000001,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -63,7 +63,7 @@
               [
                 27.159963237281,
                 44.9,
-                19.5
+                19.35
               ],
               [
                 27.159963237281257,
@@ -592,7 +592,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.002769747640963871,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -600,8 +600,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.800010971706282,
+              45.697230274090046,
               18.6
             ],
             [
@@ -615,7 +615,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.20000000000000284,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -623,21 +623,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.46162620010906,
-                45.99590218543991,
-                18.6
+                29.481465026853744,
+                50.257888008228214,
+                15.400000000000002
               ],
               [
-                26.46162620010906,
-                45.99590218543991,
-                18.6
+                29.481465026853744,
+                50.25788800822822,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -647,7 +647,7 @@
               [
                 27.161550411429683,
                 44.89865616237819,
-                19.5
+                19.35
               ],
               [
                 27.16155041142994,
@@ -1176,7 +1176,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.005533175144961726,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -1184,8 +1184,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.80004383640971,
+              45.69446699850407,
               18.6
             ],
             [
@@ -1199,7 +1199,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.20000000000000284,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -1207,21 +1207,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.458877693581336,
-                45.99178345100002,
-                18.6
+                31.637609563406812,
+                50.282936465109856,
+                15.400000000000002
               ],
               [
-                26.458877693581336,
-                45.99178345100002,
-                18.6
+                31.637609563406812,
+                50.28293646510985,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -1231,7 +1231,7 @@
               [
                 27.163142896423494,
                 44.89731862251842,
-                19.5
+                19.35
               ],
               [
                 27.163142896423746,
@@ -1760,7 +1760,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.008290239149155497,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -1768,8 +1768,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.800098517458306,
+              45.69171034624001,
               18.6
             ],
             [
@@ -1783,7 +1783,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.20000000000000284,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -1791,21 +1791,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.456145524019366,
-                45.98765386131047,
-                18.6
+                31.640173432188618,
+                50.2995529791381,
+                15.400000000000002
               ],
               [
-                26.456145524019366,
-                45.98765386131047,
-                18.6
+                31.640173432188618,
+                50.2995529791381,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -1815,7 +1815,7 @@
               [
                 27.164740667273673,
                 44.895987401408924,
-                19.5
+                19.35
               ],
               [
                 27.164740667273925,
@@ -2344,7 +2344,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.011040896390563814,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -2352,8 +2352,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.80017493683311,
+              45.68896048958461,
               18.6
             ],
             [
@@ -2367,7 +2367,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.20000000000000284,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -2375,21 +2375,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.453429734295494,
-                45.98351348117151,
-                18.6
+                31.6427537364717,
+                50.31626931526547,
+                15.400000000000002
               ],
               [
-                26.453429734295494,
-                45.98351348117151,
-                18.6
+                31.642753736471704,
+                50.31626931526547,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -2399,7 +2399,7 @@
               [
                 27.166343698908488,
                 44.89466251993882,
-                19.5
+                19.35
               ],
               [
                 27.16634369890874,
@@ -2928,7 +2928,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.0137851037067315,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -2936,8 +2936,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.800273015154218,
+              45.68621760010264,
               18.6
             ],
             [
@@ -2951,7 +2951,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.20000000000000284,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -2959,21 +2959,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.450730367025038,
-                45.97936237555269,
-                18.6
+                31.64535056646266,
+                50.33308621060714,
+                15.400000000000002
               ],
               [
-                26.450730367025038,
-                45.97936237555269,
-                18.6
+                31.64535056646266,
+                50.333086210607135,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -2983,7 +2983,7 @@
               [
                 27.16795196617366,
                 44.89334399889774,
-                19.5
+                19.35
               ],
               [
                 27.16795196617391,
@@ -3512,7 +3512,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.01652281803641242,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -3520,8 +3520,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.800392671686964,
+              45.683481848626116,
               18.6
             ],
             [
@@ -3535,7 +3535,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.20000000000000284,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -3543,21 +3543,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.448047464565636,
-                45.97520060959185,
-                18.6
+                31.647964012546474,
+                50.35000441141259,
+                15.400000000000002
               ],
               [
-                26.448047464565636,
-                45.97520060959185,
-                18.6
+                31.647964012546478,
+                50.35000441141259,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -3567,7 +3567,7 @@
               [
                 27.16956544383278,
                 44.89203185897549,
-                19.5
+                19.35
               ],
               [
                 27.16956544383303,
@@ -4096,7 +4096,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.019253996420237177,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -4104,8 +4104,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.800533824348143,
+              45.680753405243635,
               18.6
             ],
             [
@@ -4119,7 +4119,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.20000000000000284,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -4127,21 +4127,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.445381069016552,
-                45.97102824859415,
-                18.6
+                31.65059416526475,
+                50.36702467316082,
+                15.400000000000002
               ],
               [
-                26.445381069016552,
-                45.97102824859415,
-                18.6
+                31.650594165264753,
+                50.36702467316082,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -4151,7 +4151,7 @@
               [
                 27.17118410656765,
                 44.890726120761784,
-                19.5
+                19.35
               ],
               [
                 27.171184106567896,
@@ -4680,7 +4680,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.021978596001430244,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -4688,8 +4688,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.80069638971233,
+              45.67803243928966,
               18.6
             ],
             [
@@ -4703,7 +4703,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1999999965352277,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -4711,21 +4711,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.442731222218033,
-                45.96684535803095,
-                18.6
+                31.638632826071834,
+                50.38368467375008,
+                15.399999996535227
               ],
               [
-                26.442731222218033,
-                45.96684535803095,
-                18.6
+                31.638632826071834,
+                50.38368467375008,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -4735,7 +4735,7 @@
               [
                 27.17280792897873,
                 44.889426804745824,
-                19.5
+                19.35
               ],
               [
                 27.172807928978973,
@@ -5264,7 +5264,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.024696574026414647,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -5272,8 +5272,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.80088028301829,
+              45.67531911933399,
               18.6
             ],
             [
@@ -5287,7 +5287,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1999999965352277,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -5295,21 +5295,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.44009796575064,
-                45.962652003538864,
-                18.6
+                31.61846252936183,
+                50.40003901214523,
+                15.399999996535227
               ],
               [
-                26.44009796575064,
-                45.962652003538864,
-                18.6
+                31.618462529361835,
+                50.40003901214523,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -5319,7 +5319,7 @@
               [
                 27.17443688558549,
                 44.88813393131609,
-                19.5
+                19.35
               ],
               [
                 27.17443688558573,
@@ -5848,7 +5848,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.027407887845531255,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -5856,8 +5856,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.801085418175486,
+              45.67261361317119,
               18.6
             ],
             [
@@ -5871,7 +5871,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1999999965352277,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -5879,21 +5879,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.43748134093461,
-                45.95844825091869,
-                18.6
+                31.598227607025365,
+                50.416313322322615,
+                15.399999996535227
               ],
               [
-                26.43748134093461,
-                45.95844825091869,
-                18.6
+                31.598227607025365,
+                50.416313322322615,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -5903,7 +5903,7 @@
               [
                 27.176070950826862,
                 44.886847520759936,
-                19.5
+                19.35
               ],
               [
                 27.17607095082711,
@@ -6432,7 +6432,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.030112494913688524,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -6440,8 +6440,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.801311707770616,
+              45.66991608781007,
               18.6
             ],
             [
@@ -6455,7 +6455,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1999999965352277,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -6463,21 +6463,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.43488138882921,
-                45.95423416613443,
-                18.6
+                31.57792837658251,
+                50.43250734891085,
+                15.399999996535227
               ],
               [
-                26.43488138882921,
-                45.95423416613443,
-                18.6
+                31.577928376582506,
+                50.43250734891086,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -6487,7 +6487,7 @@
               [
                 27.177710099061606,
                 44.88556759326334,
-                19.5
+                19.35
               ],
               [
                 27.17771009906185,
@@ -7016,7 +7016,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.03281035279104421,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -7024,8 +7024,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.8015590630743,
+              45.6672267094633,
               18.6
             ],
             [
@@ -7039,7 +7039,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1999999965352277,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -7047,21 +7047,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.432298150232075,
-                45.95000981531216,
-                18.6
+                31.557565156562443,
+                50.44862083779833,
+                15.399999996535227
               ],
               [
-                26.432298150232075,
-                45.95000981531216,
-                18.6
+                31.55756515656244,
+                50.44862083779833,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -7071,7 +7071,7 @@
               [
                 27.179354304568726,
                 44.88429416891051,
-                19.5
+                19.35
               ],
               [
                 27.179354304568964,
@@ -7600,7 +7600,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.0355014191436537,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -7608,8 +7608,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.801827394047805,
+              45.664545643536975,
               18.6
             ],
             [
@@ -7623,7 +7623,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1999999965352277,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -7631,21 +7631,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.429731665678567,
-                45.945775264739076,
-                18.6
+                31.537138266498445,
+                50.46465353613722,
+                15.399999996535227
               ],
               [
-                26.429731665678567,
-                45.945775264739076,
-                18.6
+                31.53713826649844,
+                50.46465353613722,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -7655,7 +7655,7 @@
               [
                 27.181003541547845,
                 44.88302726768361,
-                19.5
+                19.35
               ],
               [
                 27.181003541548083,
@@ -8184,7 +8184,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.038185651744144726,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -8192,8 +8192,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.802116609349873,
+              45.66187305462032,
               18.6
             ],
             [
@@ -8207,7 +8207,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1999999965352277,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -8215,21 +8215,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.42718197544117,
-                45.941530580862434,
-                18.6
+                31.516648026922883,
+                50.48060519234744,
+                15.399999996535227
               ],
               [
-                26.42718197544117,
-                45.941530580862434,
-                18.6
+                31.516648026922883,
+                50.48060519234744,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -8239,7 +8239,7 @@
               [
                 27.18265778411967,
                 44.88176690946247,
-                19.5
+                19.35
               ],
               [
                 27.182657784119904,
@@ -8768,7 +8768,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.04086300847237374,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -8776,8 +8776,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.802426616343613,
+              45.659209106475416,
               18.6
             ],
             [
@@ -8791,7 +8791,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1999999965352277,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -8799,21 +8799,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.424649119528816,
-                45.93727583028846,
-                18.6
+                31.496094759362208,
+                50.49647555612058,
+                15.399999996535227
               ],
               [
-                26.424649119528816,
-                45.93727583028846,
-                18.6
+                31.496094759362204,
+                50.49647555612058,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -8823,7 +8823,7 @@
               [
                 27.18431700632633,
                 44.88051311402423,
-                19.5
+                19.35
               ],
               [
                 27.18431700632657,
@@ -9352,7 +9352,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.0435334473161101,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -9360,8 +9360,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.802757321103492,
+              45.65655396202694,
               18.6
             ],
             [
@@ -9375,7 +9375,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1951782943249677,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -9383,21 +9383,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.4221331376863,
-                45.933011079781394,
-                18.6
+                31.275019010194555,
+                56.55423850977027,
+                16.918583075439766
               ],
               [
-                26.4221331376863,
-                45.933011079781394,
-                18.6
+                31.29840130052132,
+                56.747968041544915,
+                16.914496072496767
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -9407,7 +9407,7 @@
               [
                 27.18598118213184,
                 44.87926590104307,
-                19.5
+                19.35
               ],
               [
                 27.185981182132075,
@@ -9936,7 +9936,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.04619692637163299,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -9944,8 +9944,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.803108628422397,
+              45.653907783352096,
               18.6
             ],
             [
@@ -9959,7 +9959,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.18749286532155912,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -9967,21 +9967,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.419634069393613,
-                45.92873639626237,
-                18.6
+                31.241950335596076,
+                56.566364142544344,
+                16.993775704963628
               ],
               [
-                26.419634069393613,
-                45.92873639626237,
-                18.6
+                31.278847030715227,
+                56.75,
+                17.00214710223642
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -9991,7 +9991,7 @@
               [
                 27.18765028542247,
                 44.87802529008985,
-                19.5
+                19.35
               ],
               [
                 27.187650285422706,
@@ -10520,7 +10520,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.048853403844491224,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -10528,8 +10528,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.80348044181878,
+              45.651270731670394,
               18.6
             ],
             [
@@ -10543,7 +10543,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.18389373813591828,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -10551,21 +10551,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.417151953865357,
-                45.924451846808374,
-                18.6
+                31.224860460333126,
+                56.57406070612087,
+                16.998290924234396
               ],
               [
-                26.417151953865357,
-                45.924451846808374,
-                18.6
+                31.277030299964707,
+                56.75,
+                17.010147552242778
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -10575,7 +10575,7 @@
               [
                 27.18932429000717,
                 44.87679130063186,
-                19.5
+                19.35
               ],
               [
                 27.18932429000741,
@@ -11104,7 +11104,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.0515028380500638,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -11112,8 +11112,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.803872663543885,
+              45.64864296733371,
               18.6
             ],
             [
@@ -11127,7 +11127,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1846108206066156,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -11135,21 +11135,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.414686830050115,
-                45.92015749865121,
-                18.6
+                31.207126287353116,
+                56.57909506639232,
+                17.002746482927986
               ],
               [
-                26.414686830050115,
-                45.92015749865121,
-                18.6
+                31.275189223526226,
+                56.75,
+                17.018241497387404
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -11159,7 +11159,7 @@
               [
                 27.19100316961799,
                 44.87556395203248,
-                19.5
+                19.35
               ],
               [
                 27.19100316961822,
@@ -11688,7 +11688,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.05414518741424877,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -11696,8 +11696,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.804285194589035,
+              45.646024649816255,
               18.6
             ],
             [
@@ -11711,7 +11711,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1896236715339332,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -11719,21 +11719,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.41223873662983,
-                45.91585341917646,
-                18.6
+                31.188080064413313,
+                56.581735090472826,
+                17.006997475262917
               ],
               [
-                26.41223873662983,
-                45.91585341917646,
-                18.6
+                31.27332187911373,
+                56.75,
+                17.02643686965679
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -11743,7 +11743,7 @@
               [
                 27.192686897910463,
                 44.87434326355087,
-                19.5
+                19.35
               ],
               [
                 27.192686897910693,
@@ -12272,7 +12272,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.056780410474132965,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -12280,8 +12280,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.804717934693038,
+              45.64341593770466,
               18.6
             ],
             [
@@ -12295,7 +12295,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.19880128612719383,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -12303,21 +12303,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.409807712019234,
-                45.91153967592239,
-                18.6
+                31.16717127088272,
+                56.582411709028925,
+                17.01092986599378
               ],
               [
-                26.409807712019234,
-                45.91153967592239,
-                18.6
+                31.271425197035178,
+                56.75,
+                17.034746561335876
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -12327,7 +12327,7 @@
               [
                 27.194375448464065,
                 44.8731292543417,
-                19.5
+                19.35
               ],
               [
                 27.194375448464292,
@@ -12856,7 +12856,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.05940846587861936,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -12864,8 +12864,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.80517078234963,
+              45.64081698868811,
               18.6
             ],
             [
@@ -12879,7 +12879,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1999999965352277,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -12887,21 +12887,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.4073937943652,
-                45.90721633657891,
-                18.6
+                31.350484317489105,
+                50.605271157248346,
+                15.399999996535227
               ],
               [
-                26.4073937943652,
-                45.90721633657891,
-                18.6
+                31.350484317489105,
+                50.605271157248346,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -12911,7 +12911,7 @@
               [
                 27.196068794782583,
                 44.87192194345481,
-                19.5
+                19.35
               ],
               [
                 27.196068794782814,
@@ -13440,7 +13440,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.062029312389071126,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -13448,8 +13448,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.805643634815013,
+              45.63822795954855,
               18.6
             ],
             [
@@ -13463,7 +13463,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1999999965352277,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -13471,21 +13471,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.40499702154615,
-                45.90288346898651,
-                18.6
+                31.329438518614253,
+                50.62048232431179,
+                15.399999996535227
               ],
               [
-                26.40499702154615,
-                45.90288346898651,
-                18.6
+                31.32943851861425,
+                50.62048232431179,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -13495,7 +13495,7 @@
               [
                 27.197766910294547,
                 44.87072134983496,
-                19.5
+                19.35
               ],
               [
                 27.197766910294778,
@@ -14024,7 +14024,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.06464290888001077,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -14032,8 +14032,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.806136388115483,
+              45.63564900615091,
               18.6
             ],
             [
@@ -14047,7 +14047,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1999999965352277,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -14055,21 +14055,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.402617431171528,
-                45.89854114113519,
-                18.6
+                31.308332629387365,
+                50.63561000402993,
+                15.399999996535227
               ],
               [
-                26.402617431171528,
-                45.89854114113519,
-                18.6
+                31.308332629387362,
+                50.63561000402993,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -14079,7 +14079,7 @@
               [
                 27.199469768353683,
                 44.86952749232149,
-                19.5
+                19.35
               ],
               [
                 27.199469768353907,
@@ -14608,7 +14608,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.06724921433968405,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -14616,8 +14616,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.806648937055108,
+              45.63308028343349,
               18.6
             ],
             [
@@ -14631,7 +14631,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1999999965352277,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -14639,21 +14639,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.40025506058109,
-                45.894189421163404,
-                18.6
+                31.287166980995437,
+                50.65065395902395,
+                15.399999996535227
               ],
               [
-                26.40025506058109,
-                45.894189421163404,
-                18.6
+                31.287166980995437,
+                50.65065395902395,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -14663,7 +14663,7 @@
               [
                 27.20117734223925,
                 44.86834038964802,
-                19.5
+                19.35
               ],
               [
                 27.20117734223948,
@@ -15192,7 +15192,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.0698481878707584,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -15200,8 +15200,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.807181175223498,
+              45.63052194539829,
               18.6
             ],
             [
@@ -15215,7 +15215,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1999999965352277,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -15223,21 +15223,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.39790994684444,
-                45.88982837735698,
-                18.6
+                31.265941905563214,
+                50.6656139532288,
+                15.399999996535227
               ],
               [
-                26.39790994684444,
-                45.88982837735698,
-                18.6
+                31.265941905563214,
+                50.66561395322879,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -15247,7 +15247,7 @@
               [
                 27.202889605156546,
                 44.86716006044222,
-                19.5
+                19.35
               ],
               [
                 27.20288960515677,
@@ -15776,7 +15776,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.07243978869095535,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -15784,8 +15784,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.807732995003658,
+              45.627974145101476,
               18.6
             ],
             [
@@ -15799,7 +15799,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1999999965352277,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -15807,21 +15807,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.39558212676036,
-                45.885458078148055,
-                18.6
+                31.244657736147957,
+                50.680489751896936,
+                15.399999996535227
               ],
               [
-                26.39558212676036,
-                45.885458078148055,
-                18.6
+                31.244657736147953,
+                50.68048975189693,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -15831,7 +15831,7 @@
               [
                 27.204606530237275,
                 44.865986523225416,
-                19.5
+                19.35
               ],
               [
                 27.204606530237502,
@@ -16360,7 +16360,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.07502397613367298,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -16368,8 +16368,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
+              26.808304287579904,
+              45.625437034643895,
               18.6
             ],
             [
@@ -16383,7 +16383,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1999999965352277,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -16391,21 +16391,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.393271636856266,
-                45.88107859211401,
-                18.6
+                31.223314806734177,
+                50.69528112160199,
+                15.399999996535227
               ],
               [
-                26.393271636856266,
-                45.88107859211401,
-                18.6
+                31.223314806734173,
+                50.69528112160199,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -16415,7 +16415,7 @@
               [
                 27.206328090539976,
                 44.86481979641243,
-                19.5
+                19.35
               ],
               [
                 27.206328090540197,
@@ -16944,7 +16944,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.05503627257219616,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -16952,14 +16952,14 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
-              18.6
+              29.79467352244787,
+              55.40630850551107,
+              16.4
             ],
             [
-              26.8,
-              45.7,
-              18.6
+              29.74,
+              55.4,
+              16.4
             ]
           ]
         },
@@ -16967,7 +16967,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1747688936657177,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -16975,21 +16975,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.390978513387658,
-                45.87668998797635,
-                18.6
+                29.910971980936317,
+                53.59743803481226,
+                16.43614117129019
               ],
               [
-                26.390978513387658,
-                45.87668998797635,
-                18.6
+                29.74,
+                53.6,
+                16.4
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -16999,7 +16999,7 @@
               [
                 27.208054259050478,
                 44.863659898311134,
-                19.5
+                19.35
               ],
               [
                 27.208054259050694,
@@ -17528,7 +17528,7 @@
         "full": {
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.016334823691375046,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -17536,14 +17536,14 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
-              18.6
+              29.75621961479717,
+              55.401936636481025,
+              16.4
             ],
             [
-              26.8,
-              45.7,
-              18.6
+              29.74,
+              55.4,
+              16.4
             ]
           ]
         },
@@ -17551,7 +17551,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.14248924508319594,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -17559,21 +17559,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.38870279233751,
-                45.87229233459968,
-                18.6
+                29.87940834268214,
+                53.59843974039602,
+                16.4294289745823
               ],
               [
-                26.38870279233751,
-                45.87229233459968,
-                18.6
+                29.74,
+                53.6,
+                16.4
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -17583,7 +17583,7 @@
               [
                 27.209785008682278,
                 44.8625068471223,
-                19.5
+                19.35
               ],
               [
                 27.2097850086825,
@@ -18113,7 +18113,7 @@
           "a": "SIDE_FRONT_KEY",
           "b": "BODY",
           "gap_mm": 0.0,
-          "overlap_mm3": 0.006922645865441248,
+          "overlap_mm3": 0.005768871554534235,
           "required_mm": 0.0,
           "intended_contact": false,
           "pass_check": false,
@@ -18135,7 +18135,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.20000000000000284,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -18143,21 +18143,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.470539095405464,
-                46.009020624461236,
-                18.6
+                31.62701132781384,
+                50.214172605780604,
+                15.400000000000002
               ],
               [
-                26.470539095405464,
-                46.009020624461236,
-                18.6
+                31.62701132781384,
+                50.21417260578061,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -18167,7 +18167,7 @@
               [
                 27.156485570639646,
                 44.90298257365495,
-                19.5
+                19.35
               ],
               [
                 27.1564855706399,
@@ -18686,7 +18686,7 @@
           ],
           "passed": true
         },
-        "named_stop_overlap_mm3": 0.006922645865441248,
+        "named_stop_overlap_mm3": 0.005768871554534235,
         "unexplained_overlap_mm3": 0,
         "passed": false
       },
@@ -18704,14 +18704,14 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              45.7,
-              18.6
+              29.74,
+              55.4,
+              16.4
             ],
             [
-              26.8,
-              45.7,
-              18.6
+              29.74,
+              55.4,
+              16.4
             ]
           ]
         },
@@ -18719,7 +18719,7 @@
           {
             "a": "SIDE_FRONT_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.0998679459166661,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -18727,21 +18727,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.385721523759706,
-                45.866465777772675,
-                18.6
+                29.837720021468584,
+                53.599395839859866,
+                16.42059220766014
               ],
               [
-                26.385721523759706,
-                45.866465777772675,
-                18.6
+                29.74,
+                53.6,
+                16.4
               ]
             ]
           },
           {
             "a": "SIDE_FRONT_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -18751,7 +18751,7 @@
               [
                 27.21207968520253,
                 44.86099328897232,
-                19.5
+                19.35
               ],
               [
                 27.212079685202745,
@@ -19287,13 +19287,13 @@
       "distance_kind": "BRepExtrema_DistShapeShape_complete",
       "nearest_points_mm": [
         [
-          26.315728071767,
+          26.8,
           45.7,
           18.6
         ],
         [
-          26.315728071767,
-          45.7,
+          26.8,
+          45.70000000000001,
           18.6
         ]
       ]
@@ -19319,12 +19319,12 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.315728071767,
+              26.8,
               69.3,
               18.6
             ],
             [
-              26.315728071767,
+              26.8,
               69.3,
               18.6
             ]
@@ -19334,7 +19334,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.20000000000000284,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -19342,21 +19342,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.464391000473647,
-                68.99998999999998,
-                18.6
+                32.407961683301195,
+                64.45,
+                15.400000000000002
               ],
               [
-                26.464391000473647,
-                68.99998999999998,
-                18.6
+                32.407961683301195,
+                64.45,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -19366,7 +19366,7 @@
               [
                 27.159963237278,
                 70.1,
-                19.5
+                19.35
               ],
               [
                 27.159963237279513,
@@ -19878,7 +19878,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.0026176603724093485,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -19886,8 +19886,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.80000979926085,
+              69.30261764203048,
               18.6
             ],
             [
@@ -19901,7 +19901,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.20000000000000284,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -19909,21 +19909,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.46177775637266,
-                69.00387172673608,
-                18.6
+                32.41071590531767,
+                64.43157972685098,
+                15.400000000000002
               ],
               [
-                26.46177775637266,
-                69.00387172673608,
-                18.6
+                32.41071590531767,
+                64.43157972685097,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -19933,7 +19933,7 @@
               [
                 27.161463027437623,
                 70.10127013122178,
-                19.5
+                19.35
               ],
               [
                 27.161463027439122,
@@ -20445,7 +20445,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.005229678468087707,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -20453,8 +20453,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.800039154525102,
+              69.30522953189136,
               18.6
             ],
             [
@@ -20468,7 +20468,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.20000000000000284,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -20476,21 +20476,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.4591790618997,
-                69.00776320900142,
-                18.6
+                32.413487595252406,
+                64.41306460975477,
+                15.400000000000002
               ],
               [
-                26.4591790618997,
-                69.00776320900142,
-                18.6
+                32.413487595252406,
+                64.41306460975477,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -20500,7 +20500,7 @@
               [
                 27.162967561848355,
                 70.10253463905113,
-                19.5
+                19.35
               ],
               [
                 27.16296756184986,
@@ -21012,7 +21012,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.007836017682257317,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -21020,8 +21020,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.800088001194474,
+              69.30783552352472,
               18.6
             ],
             [
@@ -21035,7 +21035,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.20000000000000284,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -21043,21 +21043,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.456594953472848,
-                69.0116643922608,
-                18.6
+                32.41627530097415,
+                64.39445394432728,
+                15.400000000000002
               ],
               [
-                26.456594953472848,
-                69.0116643922608,
-                18.6
+                32.41627530097414,
+                64.39445394432727,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -21067,7 +21067,7 @@
               [
                 27.164476819425676,
                 70.10379350576717,
-                19.5
+                19.35
               ],
               [
                 27.16447681942717,
@@ -21579,7 +21579,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.0104366414897492,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -21587,8 +21587,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.800156273579848,
+              69.31043547143898,
               18.6
             ],
             [
@@ -21602,7 +21602,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.20000000000000284,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -21610,21 +21610,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.454025467305744,
-                69.01557522184315,
-                18.6
+                32.41907727509245,
+                64.37574704589214,
+                15.400000000000002
               ],
               [
-                26.454025467305744,
-                69.01557522184315,
-                18.6
+                32.41907727509245,
+                64.37574704589214,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -21634,7 +21634,7 @@
               [
                 27.165990779018877,
                 70.10504671372823,
-                19.5
+                19.35
               ],
               [
                 27.165990779020362,
@@ -22146,7 +22146,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.01303151344545346,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -22154,8 +22154,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.80024390490582,
+              69.31302923071696,
               18.6
             ],
             [
@@ -22169,7 +22169,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.20000000000000284,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -22177,21 +22177,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.451470639407123,
-                69.01949564294218,
-                18.6
+                32.421891460354274,
+                64.35694325520934,
+                15.400000000000002
               ],
               [
-                26.451470639407123,
-                69.01949564294218,
-                18.6
+                32.42189146035427,
+                64.35694325520934,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -22201,7 +22201,7 @@
               [
                 27.167509419411353,
                 70.10629424537184,
-                19.5
+                19.35
               ],
               [
                 27.16750941941283,
@@ -22713,7 +22713,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.015620597184889621,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -22721,8 +22721,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.800350827315345,
+              69.31561665702407,
               18.6
             ],
             [
@@ -22736,7 +22736,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.20000000000000284,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -22744,21 +22744,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.448930505580286,
-                69.02342560061713,
-                18.6
+                32.42471547462106,
+                64.33804194454608,
+                15.400000000000002
               ],
               [
-                26.448930505580286,
-                69.02342560061713,
-                18.6
+                32.42471547462106,
+                64.33804194454608,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -22768,7 +22768,7 @@
               [
                 27.169032719320903,
                 70.10753608321514,
-                19.5
+                19.35
               ],
               [
                 27.169032719322374,
@@ -23280,7 +23280,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.018203856424669172,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -23288,8 +23288,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.800476971874406,
+              69.31819760661628,
               18.6
             ],
             [
@@ -23303,7 +23303,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.20000000000000284,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -23311,21 +23311,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.446405101422645,
-                69.02736503979366,
-                18.6
+                32.42754659545922,
+                64.31904252410027,
+                15.400000000000002
               ],
               [
-                26.446405101422645,
-                69.02736503979366,
-                18.6
+                32.42754659545922,
+                64.31904252410027,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -23335,7 +23335,7 @@
               [
                 27.17056065740004,
                 70.10877220985502,
-                19.5
+                19.35
               ],
               [
                 27.170560657401502,
@@ -23847,7 +23847,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.02078125496302237,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -23855,8 +23855,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.800622268576774,
+              69.32077193634827,
               18.6
             ],
             [
@@ -23870,7 +23870,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.19999999884498543,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -23878,21 +23878,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.44389446232515,
-                69.03131390526457,
-                18.6
+                32.41540880193288,
+                64.30039298026216,
+                15.399999998844985
               ],
               [
-                26.44389446232515,
-                69.03131390526457,
-                18.6
+                32.41540880193288,
+                64.30039298026215,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.44701653315796724,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -23900,14 +23900,14 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                27.172093212236256,
-                70.11000260796843,
-                19.5
+                26.158725993831343,
+                70.14036022924027,
+                19.35
               ],
               [
-                27.17209321223771,
-                70.1100026079666,
-                19.8
+                26.169346937730662,
+                70.49489775743888,
+                19.622055357539747
               ]
             ]
           },
@@ -24414,7 +24414,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.02335275668040271,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -24422,8 +24422,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.800786646348797,
+              69.32333950368144,
               18.6
             ],
             [
@@ -24437,7 +24437,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.19999999884498543,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -24445,21 +24445,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.441398623471862,
-                69.03527214169051,
-                18.6
+                32.395160829247914,
+                64.28202988993866,
+                15.399999998844985
               ],
               [
-                26.441398623471862,
-                69.03527214169051,
-                18.6
+                32.39516082924792,
+                64.28202988993866,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.44299262868487094,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -24467,14 +24467,14 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                27.17363036235236,
-                70.11122726031259,
-                19.5
+                26.15858399914184,
+                70.14543889250402,
+                19.35
               ],
               [
-                27.17363036235381,
-                70.11122726031077,
-                19.8
+                26.17042295296279,
+                70.49669623541395,
+                19.61966754957431
               ]
             ]
           },
@@ -24981,7 +24981,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.025918325539759146,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -24989,8 +24989,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.80097003305429,
+              69.32590016669171,
               18.6
             ],
             [
@@ -25004,7 +25004,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.19999999884498543,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -25012,21 +25012,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.438917619839422,
-                69.0392396936008,
-                18.6
+                32.37484425586624,
+                64.2637427269518,
+                15.399999998844985
               ],
               [
-                26.438917619839422,
-                69.0392396936008,
-                18.6
+                32.37484425586625,
+                64.2637427269518,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4389639207071561,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -25034,14 +25034,14 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                27.175172086206757,
-                70.11244614972524,
-                19.5
+                26.15847027696002,
+                70.15052445142365,
+                19.35
               ],
               [
-                27.1751720862082,
-                70.11244614972341,
-                19.8
+                26.17150275820958,
+                70.49849551826246,
+                19.617274418450663
               ]
             ]
           },
@@ -25548,7 +25548,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.02847792558728394,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -25556,8 +25556,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.80117235549944,
+              69.32845378407765,
               18.6
             ],
             [
@@ -25571,7 +25571,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.19999999884498543,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -25579,21 +25579,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.43645148619656,
-                69.04321650539428,
-                18.6
+                32.35445936650394,
+                64.24553174757763,
+                15.399999998844985
               ],
               [
-                26.43645148619656,
-                69.04321650539428,
-                18.6
+                32.35445936650394,
+                64.24553174757763,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4349304261803363,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -25601,14 +25601,14 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                27.17671836219375,
-                70.11365925912492,
-                19.5
+                26.15838484312893,
+                70.1556167329737,
+                19.35
               ],
               [
-                27.176718362195196,
-                70.11365925912307,
-                19.8
+                26.172586332312996,
+                70.50029555012297,
+                19.61487602067938
               ]
             ]
           },
@@ -26115,7 +26115,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.03103152095280094,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -26123,8 +26123,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.80139353943779,
+              69.33100021516827,
               18.6
             ],
             [
@@ -26138,7 +26138,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.19999999884498543,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -26146,21 +26146,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.43400025710365,
-                69.04720252133995,
-                18.6
+                32.3340064468345,
+                64.22739720702444,
+                15.399999998844985
               ],
               [
-                26.43400025710365,
-                69.04720252133995,
-                18.6
+                32.3340064468345,
+                64.22739720702444,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.43089216202152075,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -26168,14 +26168,14 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                27.17826916864387,
-                70.11486657151106,
-                19.5
+                26.158327712277757,
+                70.16071556436381,
+                19.35
               ],
               [
-                27.178269168645297,
-                70.11486657150922,
-                19.8
+                26.173673653614085,
+                70.50209627486599,
+                19.612472413546854
               ]
             ]
           },
@@ -26682,7 +26682,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.03357907585024802,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -26690,8 +26690,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.801633509575307,
+              69.33353931993085,
               18.6
             ],
             [
@@ -26705,7 +26705,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.19999999884498543,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -26713,21 +26713,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.431563966912154,
-                69.05119768557789,
-                18.6
+                32.31348578348475,
+                64.20933935942938,
+                15.399999998844985
               ],
               [
-                26.431563966912154,
-                69.05119768557789,
-                18.6
+                32.31348578348475,
+                64.20933935942936,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.42684914511077077,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -26735,14 +26735,14 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                27.179824483824124,
-                70.11606806996448,
-                19.5
+                26.158298898813474,
+                70.16582077300008,
+                19.35
               ],
               [
-                27.179824483825552,
-                70.11606806996262,
-                19.8
+                26.17476470062504,
+                70.5038976372098,
+                19.610063653628526
               ]
             ]
           },
@@ -27249,7 +27249,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.0361205545782387,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -27257,8 +27257,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.80189218957545,
+              69.3360709589788,
               18.6
             ],
             [
@@ -27272,7 +27272,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.19999999884498543,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -27280,21 +27280,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.429142649764206,
-                69.05520194211988,
-                18.6
+                32.29289766403094,
+                64.19135845785476,
+                15.399999998844985
               ],
               [
-                26.429142649764206,
-                69.05520194211988,
-                18.6
+                32.29289766403093,
+                64.19135845785476,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4228013922925423,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -27302,14 +27302,14 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                27.181384285938368,
-                70.11726373764736,
-                19.5
+                26.158298416906714,
+                70.17093218647655,
+                19.35
               ],
               [
-                27.18138428593978,
-                70.11726373764552,
-                19.8
+                26.17585945202398,
+                70.50569958270262,
+                19.607649796805937
               ]
             ]
           },
@@ -27816,7 +27816,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.03865592152053647,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -27824,8 +27824,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.802169502064363,
+              69.3385949935794,
               18.6
             ],
             [
@@ -27839,7 +27839,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.19999999884498543,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -27847,21 +27847,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.4267363395921,
-                69.0592152348504,
-                18.6
+                32.27224237699457,
+                64.17345475428468,
+                15.399999998844985
               ],
               [
-                26.4267363395921,
-                69.0592152348504,
-                18.6
+                32.27224237699457,
+                64.17345475428468,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4187489203769472,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -27869,14 +27869,14 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                27.18294855312755,
-                70.11845355780366,
-                19.5
+                26.15832628047808,
+                70.17604963256737,
+                19.35
               ],
               [
-                27.18294855312896,
-                70.1184535578018,
-                19.8
+                26.176957886649877,
+                70.50750205770535,
+                19.60523089828324
               ]
             ]
           },
@@ -28383,7 +28383,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.04118514114657981,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -28391,8 +28391,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.802465368636064,
+              69.34111128566163,
               18.6
             ],
             [
@@ -28406,7 +28406,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.19541305098127984,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -28414,21 +28414,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.42434507011783,
-                69.0632375075272,
-                18.6
+                31.429689619437404,
+                57.86406506035088,
+                16.756054013844576
               ],
               [
-                26.42434507011783,
-                69.0632375075272,
-                18.6
+                31.42968962197537,
+                57.67092352586183,
+                16.72634529207761
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.41469174614125753,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -28436,14 +28436,14 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                27.184517263470074,
-                70.11963751375924,
-                19.5
+                26.158382503184626,
+                70.18117293921891,
+                19.35
               ],
               [
-                27.184517263471474,
-                70.11963751375738,
-                19.8
+                26.17805998349762,
+                70.50930500937474,
+                19.60280701260342
               ]
             ]
           },
@@ -28950,7 +28950,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.0437081780118776,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -28958,8 +28958,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.80277970985774,
+              69.34361969782363,
               18.6
             ],
             [
@@ -28973,7 +28973,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1810375081335768,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -28981,21 +28981,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.421968874852595,
-                69.06726870378223,
-                18.6
+                31.38585741933797,
+                57.844773419026346,
+                16.789322052076354
               ],
               [
-                26.421968874852595,
-                69.06726870378223,
-                18.6
+                31.38908279124023,
+                57.66520302235614,
+                16.766548186198747
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4106298863310233,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -29003,14 +29003,14 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                27.186090394982045,
-                70.12081558892218,
-                19.5
+                26.158467098406753,
+                70.18630193454253,
+                19.35
               ],
               [
-                27.18609039498344,
-                70.12081558892031,
-                19.8
+                26.179165721713193,
+                70.51110838564685,
+                19.60037819366403
               ]
             ]
           },
@@ -29517,7 +29517,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.04622499675869885,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -29525,8 +29525,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.803112445275083,
+              69.34612009334066,
               18.6
             ],
             [
@@ -29540,7 +29540,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.16912210320143853,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -29548,21 +29548,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.419607787096353,
-                69.07130876712239,
-                18.6
+                31.34958370494168,
+                57.8226798729761,
+                16.880868388614395
               ],
               [
-                26.419607787096353,
-                69.07130876712239,
-                18.6
+                31.36555427637211,
+                57.65452237519678,
+                16.87248491796916
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4065633576613655,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -29570,14 +29570,14 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                27.18766792561763,
-                70.12198776678295,
-                19.5
+                26.158580076092058,
+                70.19143644701958,
+                19.35
               ],
               [
-                27.18766792561902,
-                70.12198776678107,
-                19.8
+                26.18027507844705,
+                70.51291213174365,
+                19.597944499428593
               ]
             ]
           },
@@ -30084,7 +30084,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.048735562116348254,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -30092,8 +30092,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.80346349341766,
+              69.34861233617244,
               18.6
             ],
             [
@@ -30107,7 +30107,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.16088900008365842,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -30115,21 +30115,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.41726183993736,
-                69.07535764093029,
-                18.6
+                31.31503215700305,
+                57.80857749177444,
+                16.96900089628393
               ],
               [
-                26.41726183993736,
-                69.07535764093029,
-                18.6
+                31.34309868505035,
+                57.65020379938547,
+                16.9729141954513
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4024921768183265,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -30137,14 +30137,14 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                27.18924983326935,
-                70.12315403091466,
-                19.5
+                26.158721458459343,
+                70.19657630443393,
+                19.35
               ],
               [
-                27.189249833270733,
-                70.12315403091279,
-                19.8
+                26.181388039559437,
+                70.51471620754444,
+                19.595505968461108
               ]
             ]
           },
@@ -30651,7 +30651,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.05123983890182289,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -30659,8 +30659,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.803832771804377,
+              69.35109629097087,
               18.6
             ],
             [
@@ -30674,7 +30674,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.15671822628824966,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -30682,21 +30682,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.414931066251665,
-                69.07941526846508,
-                18.6
+                31.294370812665157,
+                57.8008956155746,
+                16.996740203084453
               ],
               [
-                26.414931066251665,
-                69.07941526846508,
-                18.6
+                31.335659728886444,
+                57.65,
+                17.00603219149209
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.39841636045994716,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -30704,14 +30704,14 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                27.190836095768375,
-                70.12431436497332,
-                19.5
+                26.158891248553157,
+                70.20172133598679,
+                19.35
               ],
               [
-                27.190836095769747,
-                70.12431436497143,
-                19.8
+                26.18250457819612,
+                70.51652055279644,
+                19.59306266690168
               ]
             ]
           },
@@ -31218,7 +31218,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.05373779202022648,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -31226,8 +31226,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.804220196948986,
+              69.35357182308752,
               18.6
             ],
             [
@@ -31241,7 +31241,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.15704125067561622,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -31249,21 +31249,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.41261549870269,
-                69.08348159286328,
-                18.6
+                31.278245779893133,
+                57.796348801718096,
+                17.00173036861526
               ],
               [
-                26.41261549870269,
-                69.08348159286328,
-                18.6
+                31.33380737677633,
+                57.65,
+                17.01425600637258
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.3943359252174605,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -31271,14 +31271,14 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                27.19242669088485,
-                70.12546875269803,
-                19.5
+                26.159089461664987,
+                70.20687137016921,
+                19.35
               ],
               [
-                27.192426690886222,
-                70.12546875269614,
-                19.8
+                26.183624676203934,
+                70.51832512187401,
+                19.590614641519675
               ]
             ]
           },
@@ -31785,7 +31785,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.056229386465265825,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -31793,8 +31793,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.80462568436563,
+              69.35603879858107,
               18.6
             ],
             [
@@ -31808,7 +31808,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.16186253392667505,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -31816,36 +31816,36 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.410315169740755,
-                69.08755655713944,
-                18.6
+                31.26074423490642,
+                57.7944782718697,
+                17.006511098418795
               ],
               [
-                26.410315169740755,
-                69.08755655713944,
-                18.6
+                31.33192771522387,
+                57.65,
+                17.022586575911042
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.2967081262105434,
+            "gap_mm": 0.3902508876965373,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
-            "pass_check": false,
+            "pass_check": true,
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.12097816865844,
-                70.215190814975,
-                19.5
+                26.159316106218633,
+                70.21202623609621,
+                19.35
               ],
               [
-                26.139799496721857,
-                70.44320564024314,
-                19.688919848685213
+                26.184748313374758,
+                70.52012986631001,
+                19.588161943299465
               ]
             ]
           },
@@ -32352,7 +32352,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.0587145873198618,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -32360,8 +32360,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.80504914857447,
+              69.3584970842249,
               18.6
             ],
             [
@@ -32375,7 +32375,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.17104239407940255,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -32383,36 +32383,36 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.408030111602642,
-                69.09164010418714,
-                18.6
+                31.241211085842142,
+                57.79479382168824,
+                17.010946104349284
               ],
               [
-                26.408030111602642,
-                69.09164010418714,
-                18.6
+                31.33001764177221,
+                57.65,
+                17.031037032579906
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.2926164132288447,
+            "gap_mm": 0.3861612644782447,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
-            "pass_check": false,
+            "pass_check": true,
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.121532819431234,
-                70.22046902732129,
-                19.5
+                26.15957120238994,
+                70.21718576201609,
+                19.35
               ],
               [
-                26.140937704174377,
-                70.44528498539434,
-                19.686294392655054
+                26.185875468803474,
+                70.521934737013,
+                19.585704624456575
               ]
             ]
           },
@@ -32919,7 +32919,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.0611933597563319,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -32927,8 +32927,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.80549050310734,
+              69.36094654751416,
               18.6
             ],
             [
@@ -32942,7 +32942,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.1843314493362032,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -32950,36 +32950,36 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.4057603563111,
-                69.09573217677955,
-                18.6
+                31.21920218571412,
+                57.79668476283129,
+                17.014950993371798
               ],
               [
-                26.4057603563111,
-                69.09573217677955,
-                18.6
+                31.32807289568294,
+                57.65,
+                17.039625516232395
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.28852039622021847,
+            "gap_mm": 0.38206707212031815,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
-            "pass_check": false,
+            "pass_check": true,
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.122114399989236,
-                70.22574969998917,
-                19.5
+                26.159854755450286,
+                70.22234977747702,
+                19.35
               ],
               [
-                26.14207884120426,
-                70.44736213467912,
-                19.683666461045103
+                26.187006125411372,
+                70.52373969148988,
+                19.583242728587948
               ]
             ]
           },
@@ -33486,7 +33486,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.06366566903732787,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -33494,8 +33494,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.805949660513505,
+              69.36338705667362,
               18.6
             ],
             [
@@ -33509,7 +33509,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.19999999884498543,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -33517,36 +33517,36 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.403505935674445,
-                69.09983271757051,
-                18.6
+                32.06205943210556,
+                63.99871826729657,
+                15.399999998844985
               ],
               [
-                26.403505935674445,
-                69.09983271757051,
-                18.6
+                32.062059432105556,
+                63.99871826729657,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.2844200895718256,
+            "gap_mm": 0.3779683271580761,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
-            "pass_check": false,
+            "pass_check": true,
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.122722937351952,
-                70.23103267981101,
-                19.5
+                26.16016677518346,
+                70.22751811177281,
+                19.35
               ],
               [
-                26.14322289500159,
-                70.44943706978202,
-                19.68103607797839
+                26.188140260469005,
+                70.5255446786885,
+                19.58077631132354
               ]
             ]
           },
@@ -34053,7 +34053,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.0661314805158335,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -34061,8 +34061,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.806426532365407,
+              69.36581848066442,
               18.6
             ],
             [
@@ -34076,7 +34076,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.19999999884498543,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -34084,36 +34084,36 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.40126688128609,
-                69.10394166909504,
-                18.6
+                32.04068461037321,
+                63.98168006081845,
+                15.399999998844985
               ],
               [
-                26.40126688128609,
-                69.10394166909504,
-                18.6
+                32.040684610373205,
+                63.981680060818455,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.2803155076937194,
+            "gap_mm": 0.3738650461056096,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
-            "pass_check": false,
+            "pass_check": true,
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.12335845776766,
-                70.2363178134273,
-                19.5
+                26.160507269580506,
+                70.23269059446021,
+                19.35
               ],
               [
-                26.144369852676967,
-                70.45150977247127,
-                19.678403267628074
+                26.189277852664052,
+                70.52734965032779,
+                19.578305424911033
               ]
             ]
           },
@@ -34620,7 +34620,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.06859075963610178,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -34628,8 +34628,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.80692102926452,
+              69.36824068919184,
               18.6
             ],
             [
@@ -34643,7 +34643,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.19999999884498543,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -34651,36 +34651,36 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.3990432245241,
-                69.10805897377043,
-                18.6
+                32.019246155567565,
+                63.96472199077419,
+                15.399999998844985
               ],
               [
-                26.3990432245241,
-                69.10805897377043,
-                18.6
+                32.01924615556757,
+                63.96472199077418,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.2762066650188864,
+            "gap_mm": 0.3697572454566548,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
-            "pass_check": false,
+            "pass_check": true,
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.12402098671335,
-                70.24160494728973,
-                19.5
+                26.16087625998744,
+                70.23786705384371,
+                19.35
               ],
               [
-                26.145519701263343,
-                70.45358022460164,
-                19.675768054213766
+                26.190418890247518,
+                70.52915457372501,
+                19.57583010057655
               ]
             ]
           },
@@ -35187,7 +35187,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.07104347193379931,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -35195,8 +35195,8 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
+              26.807433060847238,
+              69.37065355271216,
               18.6
             ],
             [
@@ -35210,7 +35210,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.19999999884498543,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -35218,36 +35218,36 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.396834996550766,
-                69.11218457389684,
-                18.6
+                31.99774436812674,
+                63.94784429481384,
+                15.399999998844985
               ],
               [
-                26.396834996550766,
-                69.11218457389684,
-                18.6
+                31.99774436812674,
+                63.94784429481385,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.27209357600347156,
+            "gap_mm": 0.3656449416857367,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
-            "pass_check": false,
+            "pass_check": true,
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.12471054903593,
-                70.24689392764884,
-                19.5
+                26.16127374455981,
+                70.24304732055457,
+                19.35
               ],
               [
-                26.146672427831184,
-                70.4556484083199,
-                19.673130461738815
+                26.191563345911558,
+                70.5309593920038,
+                19.57335040305344
               ]
             ]
           },
@@ -35754,7 +35754,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.05547050181814272,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -35762,14 +35762,14 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
-              18.6
+              30.09514394137227,
+              59.093989816817434,
+              16.4
             ],
             [
-              26.8,
-              69.3,
-              18.6
+              30.04,
+              59.1,
+              16.4
             ]
           ]
         },
@@ -35777,7 +35777,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.19999999884498543,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -35785,36 +35785,36 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.39464222831215,
-                69.11631841165814,
-                18.6
+                31.976179549376404,
+                63.931047209461155,
+                15.399999998844985
               ],
               [
-                26.39464222831215,
-                69.11631841165814,
-                18.6
+                31.976179549376404,
+                63.931047209461155,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.2679762551268673,
+            "gap_mm": 0.3615281512490593,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
-            "pass_check": false,
+            "pass_check": true,
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.125427169306647,
-                70.25218460051568,
-                19.5
+                26.161699736231242,
+                70.24823122383832,
+                19.35
               ],
               [
-                26.14782801977667,
-                70.45771430657484,
-                19.670490513335118
+                26.19271120289365,
+                70.53276406544282,
+                19.570866373922055
               ]
             ]
           },
@@ -36321,7 +36321,7 @@
         "full": {
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
-          "gap_mm": 0.0,
+          "gap_mm": 0.017078792976410278,
           "overlap_mm3": 0.0,
           "required_mm": 0.0,
           "intended_contact": false,
@@ -36329,14 +36329,14 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
-              18.6
+              30.05697120214997,
+              59.09808598142227,
+              16.4
             ],
             [
-              26.8,
-              69.3,
-              18.6
+              30.04,
+              59.1,
+              16.4
             ]
           ]
         },
@@ -36344,7 +36344,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.19999999884498543,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -36352,36 +36352,36 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.392464950537672,
-                69.12046042912284,
-                18.6
+                31.95455200152555,
+                63.91433097011019,
+                15.399999998844985
               ],
               [
-                26.392464950537672,
-                69.12046042912284,
-                18.6
+                31.95455200152555,
+                63.914330970110186,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.26385471689187945,
+            "gap_mm": 0.3574068905855016,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
-            "pass_check": false,
+            "pass_check": true,
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.126170870629622,
-                70.2574768117894,
-                19.5
+                26.162154243714284,
+                70.25341859340483,
+                19.35
               ],
               [
-                26.148986463868027,
-                70.45977790140803,
-                19.66784823344435
+                26.193862441919336,
+                70.53456855078335,
+                19.56837805995714
               ]
             ]
           },
@@ -36889,7 +36889,7 @@
           "a": "SIDE_REAR_KEY",
           "b": "BODY",
           "gap_mm": 0.0,
-          "overlap_mm3": 0.0069226458653666965,
+          "overlap_mm3": 0.005768871554470633,
           "required_mm": 0.0,
           "intended_contact": false,
           "pass_check": false,
@@ -36911,7 +36911,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.20000000000000284,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -36919,21 +36919,21 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.470539095405282,
-                68.99097937553904,
-                18.6
+                30.25992277676477,
+                64.47388556966042,
+                15.400000000000002
               ],
               [
-                26.470539095405282,
-                68.99097937553904,
-                18.6
+                30.259922776764768,
+                64.47388556966042,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.3000000000000007,
+            "gap_mm": 0.4499999999999993,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -36943,7 +36943,7 @@
               [
                 27.156485570636644,
                 70.09701742634502,
-                19.5
+                19.35
               ],
               [
                 27.15648557063817,
@@ -37445,7 +37445,7 @@
           ],
           "passed": true
         },
-        "named_stop_overlap_mm3": 0.0069226458653666965,
+        "named_stop_overlap_mm3": 0.005768871554470633,
         "unexplained_overlap_mm3": 0,
         "passed": false
       },
@@ -37463,14 +37463,14 @@
           "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
           "nearest_points_mm": [
             [
-              26.8,
-              69.3,
-              18.6
+              30.04,
+              59.1,
+              16.4
             ],
             [
-              26.8,
-              69.3,
-              18.6
+              30.04,
+              59.1,
+              16.4
             ]
           ]
         },
@@ -37478,7 +37478,7 @@
           {
             "a": "SIDE_REAR_KEY_NONCONTACT",
             "b": "BODY",
-            "gap_mm": 0.0,
+            "gap_mm": 0.19999999884498543,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
@@ -37486,36 +37486,36 @@
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.38944568412211,
-                69.12626738676889,
-                18.6
+                31.924197385847823,
+                63.89108640546454,
+                15.399999998844985
               ],
               [
-                26.38944568412211,
-                69.12626738676889,
-                18.6
+                31.924197385847823,
+                63.89108640546455,
+                15.2
               ]
             ]
           },
           {
             "a": "SIDE_REAR_KEY_EAR",
             "b": "BODY",
-            "gap_mm": 0.2580829671475282,
+            "gap_mm": 0.3516351084861609,
             "overlap_mm3": 0.0,
             "required_mm": 0.3,
             "intended_contact": false,
-            "pass_check": false,
+            "pass_check": true,
             "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
             "nearest_points_mm": [
               [
-                26.127256540712366,
-                70.26488119588889,
-                19.5
+                26.162837800326564,
+                70.26067954210161,
+                19.35
               ],
               [
-                26.15061151378105,
-                70.46266030909334,
-                19.664148669031142
+                26.19547828862248,
+                70.53709204368484,
+                19.56489061638979
               ]
             ]
           },
@@ -38029,12 +38029,12 @@
       "distance_kind": "BRepExtrema_DistShapeShape_complete",
       "nearest_points_mm": [
         [
-          26.315728071767,
+          26.8,
           69.3,
           18.6
         ],
         [
-          26.315728071767,
+          26.8,
           69.3,
           18.6
         ]
