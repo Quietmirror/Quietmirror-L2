@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "final_candidate_solids_and_printed_walls",
   "source_commit": "6548668c2bf29a22a21011d83718e2e9dbe43c5c",
   "steps": [
