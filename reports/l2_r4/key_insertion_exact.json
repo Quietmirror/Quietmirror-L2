@@ -4,1899 +4,833 @@
     "method": "exact rigid -X translation at 0.25 mm intervals",
     "samples": [
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 4.3917373926049175,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
-        "nearest_points_mm": [
-          [
-            36.03865800570186,
-            50.72992914862579,
-            16.179558640909654
-          ],
-          [
-            31.80688238017521,
-            51.37792394013417,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 10.0
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 4.151098688493607,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
-        "nearest_points_mm": [
-          [
-            35.79258544656381,
-            50.72970661953713,
-            16.162797075364153
-          ],
-          [
-            31.801332568168217,
-            51.34170545448901,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 9.75
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 3.9110123876894827,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
-        "nearest_points_mm": [
-          [
-            35.547001094025134,
-            50.72938781450235,
-            16.144686963470757
-          ],
-          [
-            31.795751163947283,
-            51.30532913078371,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 9.5
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 3.6715487044896884,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
-        "nearest_points_mm": [
-          [
-            35.3019901664184,
-            50.72895914795572,
-            16.125064902631433
-          ],
-          [
-            31.790139546434997,
-            51.26880175305613,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 9.25
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 3.4327903631775056,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
-        "nearest_points_mm": [
-          [
-            35.05765684363864,
-            50.72840410522873,
-            16.103741249697716
-          ],
-          [
-            31.784499142588068,
-            51.23213031575633,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 9.0
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 3.1948354398122065,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
-        "nearest_points_mm": [
-          [
-            34.814129435416696,
-            50.7277024420125,
-            16.080494982314317
-          ],
-          [
-            31.77883142594866,
-            51.19532201743545,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 8.75
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 2.9578009946068513,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            34.571567222193636,
-            50.726829124632886,
-            16.05506742834593
-          ],
-          [
-            31.77313791502645,
-            51.158384253749595,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 8.5
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 2.7218277557994535,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            34.330169593891476,
-            50.72575291431449,
-            16.02715461921106
-          ],
-          [
-            31.76742017151322,
-            51.121324609785745,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 8.25
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 2.4870862151894575,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            34.09018837452559,
-            50.72443445797408,
-            15.996397996262834
-          ],
-          [
-            31.76167979833274,
-            51.08415085172103,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 8.0
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 2.2537846370396006,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            33.851944602934,
-            50.72282368895255,
-            15.962373200967608
-          ],
-          [
-            31.7559184375299,
-            51.04687091783057,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 7.75
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 2.022179685177995,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            33.615851597614004,
-            50.72085625487255,
-            15.924576750331928
-          ],
-          [
-            31.750137768004066,
-            51.00949290886372,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 7.5
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 1.7925906660553783,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            33.38244694504974,
-            50.71844856443289,
-            15.88241062161749
-          ],
-          [
-            31.744339503092704,
-            50.97202507781191,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 7.25
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 1.5654188084206928,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            33.15243721856032,
-            50.71549086464988,
-            15.835165309915551
-          ],
-          [
-            31.73852538801246,
-            50.93447581909637,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 7.0
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 1.3411736080010446,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            32.92676087179107,
-            50.711837507515156,
-            15.782003103163706
-          ],
-          [
-            31.732697197165862,
-            50.8968536572073,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 6.75
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 1.120509125706688,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            32.70667691920033,
-            50.70729323110924,
-            15.721945770376095
-          ],
-          [
-            31.726856731322883,
-            50.85916723483031,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 6.5
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.9042743031787387,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            32.493889527934634,
-            50.7015938946512,
-            15.653875770843865
-          ],
-          [
-            31.721005814687484,
-            50.821425300499484,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 6.25
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.6935828442721379,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            32.29072051514014,
-            50.69437981481214,
-            15.576569627824028
-          ],
-          [
-            31.71514629002307,
-            50.78363668373543,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 6.0
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.4899097464568497,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            32.10033980356039,
-            50.68516019823267,
-            15.488799878000775
-          ],
-          [
-            31.70928001823336,
-            50.745810296667315,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 5.75
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.29522216568970927,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            31.92704953173124,
-            50.67326938478382,
-            15.38957289695972
-          ],
-          [
-            31.703408879349308,
-            50.707955152109996,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 5.5
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.11992822398075659,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            31.74,
-            50.56252484919573,
-            15.304723964642834
-          ],
-          [
-            31.6822459646739,
-            50.57147702994774,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 5.25
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.10000000000000142,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
-        "nearest_points_mm": [
-          [
-            31.49,
-            50.4518,
-            15.3
-          ],
-          [
-            31.49,
-            50.4518,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 5.0
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.10000000000000142,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            31.24,
-            50.4518,
-            15.3
-          ],
-          [
-            31.24,
-            50.4518,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 4.75
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.10000000000000142,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.99,
-            50.4518,
-            15.3
-          ],
-          [
-            30.99,
-            50.4518,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 4.5
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.10000000000000142,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.74,
-            50.4518,
-            15.3
-          ],
-          [
-            30.74,
-            50.4518,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 4.25
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.10000000000000142,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.49,
-            50.4518,
-            15.3
-          ],
-          [
-            30.49,
-            50.4518,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 4.0
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.10000000000000142,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.24,
-            50.4518,
-            15.3
-          ],
-          [
-            30.24,
-            50.4518,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 3.75
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.10000000000000142,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            29.99,
-            50.4518,
-            15.3
-          ],
-          [
-            29.99,
-            50.4518,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 3.5
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.10000000000000142,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            29.74,
-            50.4518,
-            15.3
-          ],
-          [
-            29.74,
-            50.4518,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 3.25
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0398985205052427,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.87183071891425,
-            44.76173048273707,
-            15.5
-          ],
-          [
-            30.84690132283099,
-            44.74983622695439,
-            15.471208615371825
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 3.0
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.0010969094781160017,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.811009805020127,
-            44.47489551344592,
-            15.5
-          ],
-          [
-            30.811009805020127,
-            44.47489551344592,
-            15.500000000000005
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 2.75
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.01123566121420529,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.789331970348037,
-            44.271675658349665,
-            15.5
-          ],
-          [
-            30.789331970348016,
-            44.27167565834965,
-            15.499999999999996
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 2.5
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.033557721800329926,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.775761015791613,
-            44.1434545465668,
-            15.5
-          ],
-          [
-            30.775761015791613,
-            44.1434545465668,
-            15.499999999999996
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 2.25
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.06254203505401301,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.76819145082315,
-            44.07168212724534,
-            15.5
-          ],
-          [
-            30.76819145082315,
-            44.07168212724534,
-            15.500000000000002
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 2.0
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.09126929812164855,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.76591846881462,
-            44.05010136316955,
-            15.5
-          ],
-          [
-            30.765918468814615,
-            44.05010136316955,
-            15.499999999999998
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 1.75
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.11153241438784417,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.030000000000047,
-            44.141725421154355,
-            15.5
-          ],
-          [
-            30.030000000000047,
-            44.141725421154355,
-            15.5
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 1.5
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.11440299588026623,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            29.96100000000006,
-            44.08386719475214,
-            15.5
-          ],
-          [
-            29.96100000000006,
-            44.08386719475214,
-            15.5
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 1.25
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.09306795520663072,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.79620961015549,
-            44.3363868739499,
-            15.5
-          ],
-          [
-            30.79620961015557,
-            44.33638687394987,
-            15.500000000000016
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 1.0
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.049516013161294316,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.832647380032604,
-            44.67520031169299,
-            15.5
-          ],
-          [
-            30.8326473800326,
-            44.67520031169299,
-            15.499999999999998
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 0.75
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.008877860593832283,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.090000000000146,
-            44.198001814883604,
-            15.5
-          ],
-          [
-            30.090000000000146,
-            44.198001814883604,
-            15.5
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 0.5
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.07213719444698341,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.372204797555316,
-            44.74940360304136,
-            15.5
-          ],
-          [
-            30.4365227404132,
-            44.71784677163725,
-            15.4915653428674
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 0.25
       },
       {
-        "a": "SIDE_FRONT_KEY",
+        "a": "SIDE_FRONT_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.07499999999999574,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            29.0,
-            44.9,
-            20.5
-          ],
-          [
-            29.0,
-            44.825,
-            20.5
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 0.0
       }
     ],
-    "passed": false
+    "passed": true
   },
   {
     "part": "SIDE_REAR_KEY",
     "method": "exact rigid -X translation at 0.25 mm intervals",
     "samples": [
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 4.1493249544137925,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
-        "nearest_points_mm": [
-          [
-            36.53405473912192,
-            64.07353368135436,
-            16.16266856360301
-          ],
-          [
-            32.52572921573574,
-            63.60078288807907,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 10.0
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 3.908127647272578,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
-        "nearest_points_mm": [
-          [
-            36.28878039122751,
-            64.07137868633225,
-            16.144460236217572
-          ],
-          [
-            32.523253565464984,
-            63.62164065809479,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 9.75
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 3.667595113963502,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
-        "nearest_points_mm": [
-          [
-            36.04409534007197,
-            64.06929169473715,
-            16.124726736627434
-          ],
-          [
-            32.520665588026446,
-            63.64317297309287,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 9.5
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 3.42781225529474,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
-        "nearest_points_mm": [
-          [
-            35.800104890789285,
-            64.06729283747428,
-            16.103276254987183
-          ],
-          [
-            32.51796081923807,
-            63.665398375822534,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 9.25
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 3.1888794940977294,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
-        "nearest_points_mm": [
-          [
-            35.556938814364514,
-            64.06540645976193,
-            16.079885164188497
-          ],
-          [
-            32.515134865289674,
-            63.68833450229137,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 9.0
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 2.950916460766154,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            35.31475832603513,
-            64.06366219406195,
-            16.0542916484579
-          ],
-          [
-            32.51218345895158,
-            63.711997791275216,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 8.75
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 2.714066752083806,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            35.073765418618,
-            64.06209638005669,
-            16.02618793284436
-          ],
-          [
-            32.50910252472368,
-            63.73640315772821,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 8.5
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 2.4785041326245087,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            34.83421546361867,
-            64.06075396643894,
-            15.995210839776902
-          ],
-          [
-            32.50588825332227,
-            63.76156362981113,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 8.25
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 2.2444406935676664,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            34.596434387066296,
-            64.05969108687927,
-            15.960930402969414
-          ],
-          [
-            32.50253718601739,
-            63.78748994761112,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 8.0
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 2.012137692776297,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            34.3608423008652,
-            64.05897859604208,
-            15.922836346046578
-          ],
-          [
-            32.49904630692615,
-            63.81419013945632,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 7.75
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 1.7819201015707862,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            34.127986308714696,
-            64.05870696117256,
-            15.880322470383378
-          ],
-          [
-            32.49541314574958,
-            63.84166905609703,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 7.5
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 1.554196319152113,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            33.89858640554159,
-            64.05899310613748,
-            15.832669567217202
-          ],
-          [
-            32.49163588699603,
-            63.869927891072564,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 7.25
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 1.3294851411752406,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            33.67360007333074,
-            64.0599900478488,
-            15.779028714055539
-          ],
-          [
-            32.48771348506553,
-            63.898963687653854,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 7.0
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 1.1084529534245422,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            33.45431339262317,
-            64.06190050894733,
-            15.718409395083041
-          ],
-          [
-            32.48364578247718,
-            63.92876884607669,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 6.75
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.8919653263509844,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            33.24246902278399,
-            64.06499608423127,
-            15.649682048616818
-          ],
-          [
-            32.47943362790678,
-            63.95933064651025,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 6.5
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.6811586970070374,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            33.04044317478084,
-            64.06964383063392,
-            15.571614653810023
-          ],
-          [
-            32.475078989921556,
-            63.990630806009,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 6.25
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.4770100365839783,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            32.870000000000005,
-            64.15907133317978,
-            15.435800484958783
-          ],
-          [
-            32.459555748701916,
-            64.10014576257242,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 6.0
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.2811387384425254,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            32.620000000000005,
-            64.29548691200263,
-            15.409989199360984
-          ],
-          [
-            32.43506723859935,
-            64.26822154632534,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 5.75
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.11216714503101036,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            32.489999999999995,
-            64.20558839821659,
-            15.30263390250461
-          ],
-          [
-            32.44522348695026,
-            64.19904512990566,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 5.5
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.10000000000000142,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            32.239999999999995,
-            64.2883,
-            15.3
-          ],
-          [
-            32.239999999999995,
-            64.2883,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 5.25
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.10000000000000142,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            31.99,
-            64.2883,
-            15.3
-          ],
-          [
-            31.99,
-            64.2883,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 5.0
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.10000000000000142,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            31.74,
-            64.2883,
-            15.3
-          ],
-          [
-            31.74,
-            64.2883,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 4.75
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.10000000000000142,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_DistShapeShape_complete",
-        "nearest_points_mm": [
-          [
-            31.49,
-            64.2883,
-            15.3
-          ],
-          [
-            31.49,
-            64.2883,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 4.5
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.10000000000000142,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            31.24,
-            64.2883,
-            15.3
-          ],
-          [
-            31.24,
-            64.2883,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 4.25
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.10000000000000142,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.99,
-            64.2883,
-            15.3
-          ],
-          [
-            30.99,
-            64.2883,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 4.0
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.10000000000000142,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.74,
-            64.2883,
-            15.3
-          ],
-          [
-            30.74,
-            64.2883,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 3.75
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.10000000000000142,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.49,
-            64.2883,
-            15.3
-          ],
-          [
-            30.49,
-            64.2883,
-            15.2
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 3.5
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.04861706346114475,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            31.114334405854564,
-            70.22226780321431,
-            15.5
-          ],
-          [
-            31.08702991648602,
-            70.23482454153051,
-            15.461784662205256
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 3.25
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.0005510329334189104,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            31.01841508698891,
-            70.47394512631647,
-            15.5
-          ],
-          [
-            31.01841508698891,
-            70.47394512631647,
-            15.499999999999998
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 3.0
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.007545174265825199,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.650686600788774,
-            70.29498743710658,
-            15.5
-          ],
-          [
-            30.650686600788774,
-            70.29498743710658,
-            15.5
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 2.75
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.02650236324810699,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.418000000000028,
-            70.32592012269943,
-            15.5
-          ],
-          [
-            30.418000000000028,
-            70.32592012269943,
-            15.5
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 2.5
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.056838616504328074,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.909465952024995,
-            70.90272048380734,
-            15.5
-          ],
-          [
-            30.909465952025,
-            70.90272048380734,
-            15.500000000000002
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 2.25
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.09140035088306424,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.210000000000036,
-            70.66871048306501,
-            15.5
-          ],
-          [
-            30.210000000000036,
-            70.66871048306501,
-            15.5
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 2.0
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.12229717892517747,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.11500000000004,
-            70.77669633602054,
-            15.5
-          ],
-          [
-            30.11500000000004,
-            70.77669633602054,
-            15.5
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 1.75
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.14035139377090763,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.030000000000047,
-            70.85827457884564,
-            15.5
-          ],
-          [
-            30.030000000000047,
-            70.85827457884564,
-            15.5
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 1.5
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.1353781987539388,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            29.96100000000006,
-            70.91613280524787,
-            15.5
-          ],
-          [
-            29.96100000000006,
-            70.91613280524787,
-            15.5
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 1.25
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.1001820022995547,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            29.920000000000073,
-            70.94743737317752,
-            15.5
-          ],
-          [
-            29.920000000000073,
-            70.94743737317752,
-            15.5
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 1.0
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.049518346449936586,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.849313399211226,
-            70.29498743710658,
-            15.5
-          ],
-          [
-            30.849313399211226,
-            70.29498743710658,
-            15.5
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 0.75
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.0,
-        "overlap_mm3": 0.008877858847013611,
-        "required_mm": 0.0,
-        "intended_contact": false,
-        "pass_check": false,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.599313399211226,
-            70.29498743710658,
-            15.5
-          ],
-          [
-            30.599313399211226,
-            70.29498743710658,
-            15.5
-          ]
-        ],
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 0.5
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.07213719483498528,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            30.372204796227532,
-            70.25059639966489,
-            15.5
-          ],
-          [
-            30.436522739511116,
-            70.28215323143509,
-            15.491565344164849
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 0.25
       },
       {
-        "a": "SIDE_REAR_KEY",
+        "a": "SIDE_REAR_KEY + PET",
         "b": "BODY",
-        "gap_mm": 0.07500000000000284,
         "overlap_mm3": 0.0,
-        "required_mm": 0.0,
-        "intended_contact": false,
+        "gap_mm": null,
         "pass_check": true,
-        "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-        "nearest_points_mm": [
-          [
-            29.0,
-            70.1,
-            20.5
-          ],
-          [
-            29.0,
-            70.175,
-            20.5
-          ]
-        ],
+        "nearest_points_mm": [],
+        "method": "Exact BRep common volume; complete actor-path bounding region; no distance claim required for cap G6",
         "dx_mm": 0.0
       }
     ],
-    "passed": false
+    "passed": true
   }
 ]

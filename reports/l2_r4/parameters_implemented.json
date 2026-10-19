@@ -21,7 +21,12 @@
       "stop_rib_inner_x": 30.949884872297105,
       "edge_R0p3_applied": true,
       "cap_x_offset": 0.2,
-      "hinge_bridge": "x30.05..31.3,z19.3..20.0; joins specified radial ear without a disconnected fragment"
+      "hinge_journal_z": [
+        16.4,
+        18.6
+      ],
+      "hinge_bridge": "inboard root clipped to R1.25; z18.3..19.0",
+      "outward_stop_ear": "inboard radial arm X26.7..29.0, Z18.6..19.5; existing exterior opening unchanged"
     },
     {
       "name": "SIDE_REAR_KEY",
@@ -42,7 +47,12 @@
       "stop_rib_inner_x": 31.239282687540893,
       "edge_R0p3_applied": true,
       "cap_x_offset": 0.2,
-      "hinge_bridge": "x30.05..31.3,z19.3..20.0; joins specified radial ear without a disconnected fragment"
+      "hinge_journal_z": [
+        16.4,
+        18.6
+      ],
+      "hinge_bridge": "inboard root clipped to R1.25; z18.3..19.0",
+      "outward_stop_ear": "inboard radial arm X26.7..29.0, Z18.6..19.5; existing exterior opening unchanged"
     }
   ],
   "frame": "Integrated source feature of BODY, not a separate printed carrier",
@@ -50,6 +60,18 @@
     "SF_RETAINER",
     "SR_RETAINER"
   ],
+  "retainer_mounts": {
+    "SF": {
+      "x": 16.6,
+      "y": 45.7,
+      "pin_y": 54.0
+    },
+    "SR": {
+      "x": 16.6,
+      "y": 70.4,
+      "pin_y": 56.5
+    }
+  },
   "pad_radius": 1.8849999999999998,
   "pad_height": 0.52,
   "author_commit": "f637118455159515a200e6e0f35c0eea1c7d1633",

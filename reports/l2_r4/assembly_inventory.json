@@ -90,11 +90,13 @@
     "WHEEL_M2_SWITCH_2_WASHER_NUT",
     "SF_RETAINER_M2x5",
     "SR_RETAINER_M2x5",
+    "SF_RETAINER_WASHER",
+    "SR_RETAINER_WASHER",
     "SIDE_SF_NO_ROUTE_EST",
     "SIDE_SR_NO_ROUTE_EST",
     "SIDE_COM_ROUTE_EST",
     "SIDE_COM_GPIO_ROUTE_EST"
   ],
   "D_status": "DONOR_PENDING",
-  "independent_components": 92
+  "independent_components": 94
 }

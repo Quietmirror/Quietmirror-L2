@@ -10,13 +10,13 @@
     "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
     "nearest_points_mm": [
       [
-        28.933892777044,
-        45.770377332652,
+        30.0,
+        45.3,
         20.8
       ],
       [
-        28.933892777044,
-        45.770377332652,
+        30.0,
+        45.3,
         20.8
       ]
     ]
@@ -32,13 +32,13 @@
     "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
     "nearest_points_mm": [
       [
-        29.0,
-        70.175,
+        30.0,
+        69.69999999999999,
         20.8
       ],
       [
-        29.0,
-        70.175,
+        30.0,
+        69.69999999999999,
         20.8
       ]
     ]
@@ -47,20 +47,20 @@
     "a": "SF_SCREWDRIVER_D4",
     "b": "BODY",
     "gap_mm": 0.0,
-    "overlap_mm3": 5.323310698185503,
+    "overlap_mm3": 18.3547240541652,
     "required_mm": 0.0,
     "intended_contact": false,
     "pass_check": false,
     "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
     "nearest_points_mm": [
       [
-        19.9,
-        43.0,
+        18.6,
+        45.7,
         12.1
       ],
       [
-        19.9,
-        43.0,
+        18.6,
+        45.7,
         12.1
       ]
     ]
@@ -69,21 +69,21 @@
     "a": "SR_SCREWDRIVER_D4",
     "b": "BODY",
     "gap_mm": 0.0,
-    "overlap_mm3": 0.0,
+    "overlap_mm3": 0.6492933329176029,
     "required_mm": 0.0,
     "intended_contact": false,
-    "pass_check": true,
+    "pass_check": false,
     "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
     "nearest_points_mm": [
       [
-        19.9,
-        70.4,
-        12.1
+        15.5,
+        71.2,
+        10.4
       ],
       [
-        19.9,
-        70.4,
-        12.1
+        15.5,
+        71.2,
+        10.4
       ]
     ]
   }

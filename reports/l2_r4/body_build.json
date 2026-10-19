@@ -4,7 +4,7 @@
     "printable": true,
     "valid": true,
     "solids": 1,
-    "volume_mm3": 12644.25463903635,
+    "volume_mm3": 12677.68127906499,
     "bounds_mm": [
       -33.04800010000001,
       -1e-07,
@@ -17,7 +17,7 @@
       "watertight": false,
       "winding_consistent": true,
       "components": 1,
-      "triangles": 117118,
+      "triangles": 119112,
       "bounds_mm": [
         [
           -33.04737854003906,
@@ -33,7 +33,7 @@
       "holes_patched": 0
     }
   },
-  "seconds": 105.57523536682129,
+  "seconds": 108.31310224533081,
   "windows": [
     {
       "name": "ROOT_TRI_L",
@@ -152,7 +152,9 @@
     "thumb-side ear arms lowered and holes drilled after joining",
     "Y54 arms removed outside X +/-6",
     "rear diagonals 1.6 x 2.8",
-    "r3 side rim and bearing lugs"
+    "r3 side rim and bearing lugs",
+    "D1 integrated floor/frame and D4-D6 reinforcements",
+    "D7 inboard hidden ear; 2.2mm journal; independent retainer bosses and pin entry pockets"
   ],
   "source_level_rebuild": true
 }
