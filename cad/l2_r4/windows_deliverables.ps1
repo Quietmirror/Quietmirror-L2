@@ -25,7 +25,7 @@ if ($LASTEXITCODE -ne 0) { throw 'Native FreeCAD assembly validation failed' }
 python cad/l2_r4/ci_checkpoint.py
 if ($LASTEXITCODE -ne 0) { throw 'Native checkpoint failed' }
 python -m venv _support/slice-venv
-& _support/slice-venv/Scripts/python.exe -m pip install 'trimesh==5.1.0' 'numpy' 'scipy' 'pillow' 'matplotlib' 'lxml' 'gmsh==4.15.2'
+& _support/slice-venv/Scripts/python.exe -m pip install 'trimesh==5.1.0' 'numpy' 'scipy' 'pillow' 'matplotlib' 'lxml' 'networkx' 'gmsh==4.15.2'
 if ($LASTEXITCODE -ne 0) { throw 'Slicer helper dependency setup failed' }
 python cad/l2_r4/evidence_identity.py --python _support/slice-venv/Scripts/python.exe --script cad/l2_r4/slice_plate.py
 if ($LASTEXITCODE -ne 0) { throw 'Nine-part plate or per-part real slicing failed' }
