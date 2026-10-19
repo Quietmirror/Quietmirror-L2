@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "candidate_9_cap_perimeter_and_local_wires",
   "source_commit": "f1f4272767919bc3eb1c3513bbcd4c2cc338eac7",
   "steps": [
