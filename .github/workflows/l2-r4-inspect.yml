@@ -1,4 +1,4 @@
-name: L2-r4 C19 middle seat source rebuild
+name: L2-r4 hidden bearing development audit
 on:
   push:
     branches: [codex/r4-c19-geometry]

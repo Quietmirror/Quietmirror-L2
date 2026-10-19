@@ -26,9 +26,10 @@ Linux对应解释器为 `_support/venv/bin/python`。CAD/VTK需要OpenGL运行�
 
 主键及滚轮分组报告由 `combine_motion.py` 汇总；侧键由 `combine_side_motion.py` 汇总。必须覆盖完整角度集合且无重复，不能只挑通过的组。功能接触区使用具名源特征分解，并通过重新合并后与原实体双向求差检查是否丢失或新增材料；原始全实体相交结果始终保留。
 
+C19在 `wheel_mechanism.py` 生成中键座时削平横梁端帽，并将三处端子孔改为1.8×2.7mm。中键本体、螺栓轴线和压杆高度不移动；五个脚贴局部区域及Z≤5.1低位区域分别求差确认。`body_c19.py` 是与上一候选比较的开发入口，正常完整重建仍使用 `rebuild_all.py`。C19改变BODY，因此G8/S7、装配路径、各组运动、电子与静态检查、六窗及最终打印/渲染全部重验，不能沿用C18的通过状态。
+
 当前距离检查必须导入 `exact_distance.pair`，场景最小值使用 `bounded_scene.scene_pairs`。它们直接测原始完整实体；不对BODY做布尔裁剪。`common.py`中的旧距离函数仅保留历史源码，已因局部裁剪丢失几何的回归实例撤回验收用途。`distance_regression.py`保存了五个已知姿态的完整实体对照，其中末姿态必须继续判为间隙失败。最终总表同时拒绝任何带旧裁剪方法标记的验收数据。
 
 Windows执行 `windows_deliverables.ps1` 使用官方FreeCAD便携包及PrusaSlicer 2.9.6实际生成并重开FCStd/STEP/3MF。切片工程是255×155mm床面和PLA的估计配置，不含打印机认证G-code。`render.py` 仅从实际组件生成视图，`plot_checks.py` 仅绘制实际计算报告。最后依次运行 `gate_accounting.py` 和 `write_docs.py`；发布前运行 `gate_accounting.py --check-only`，任何CAD失败或证据版本不一致都会阻止发布。
 
 署名、实际来源和许可证见 `ATTRIBUTION.md`、仓库 `NOTICE.md` 与 `LICENSE`。FreeCAD内各组件是独立BRep实体；可编辑参数/结构逻辑由Python源提供，不声称具有完整原生草图树或求解过的运动关节。
-
