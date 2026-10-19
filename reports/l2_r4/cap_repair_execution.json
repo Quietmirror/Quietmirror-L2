@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "C12 source hinge web setback",
   "source_commit": "8254bc23226f4de7d10822b0339069392739cb98",
   "steps": [
