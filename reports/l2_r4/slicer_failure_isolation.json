@@ -1,0 +1,1057 @@
+[
+  {
+    "part": "BODY",
+    "success": true,
+    "total_filament_g": "25.35",
+    "time": "3h 38m 24s",
+    "extrusion_roles_g": {
+      "Skirt/Brim": 0.10915776339943095,
+      "Support material interface": 0.5991690567808108,
+      "Support material": 8.788858802963013,
+      "External perimeter": 5.369753234983003,
+      "Perimeter": 8.245035575578997,
+      "Overhang perimeter": 0.7749630609809873,
+      "Bridge infill": 0.20515144795815438,
+      "Solid infill": 1.1684232611228123,
+      "Internal infill": 0.002909506887622271,
+      "Top solid infill": 0.08838654286645482
+    },
+    "extrusion_role_bounds_mm": {
+      "Skirt/Brim": [
+        [
+          8.741,
+          8.726,
+          0.2
+        ],
+        [
+          77.37,
+          99.661,
+          0.2
+        ]
+      ],
+      "Support material interface": [
+        [
+          12.24,
+          20.388,
+          0.2
+        ],
+        [
+          74.763,
+          94.253,
+          23.4
+        ]
+      ],
+      "Support material": [
+        [
+          0.979,
+          21.606,
+          0.2
+        ],
+        [
+          85.291,
+          95.861,
+          23.6
+        ]
+      ],
+      "External perimeter": [
+        [
+          10.226,
+          10.225,
+          0.2
+        ],
+        [
+          75.869,
+          98.04,
+          25.6
+        ]
+      ],
+      "Perimeter": [
+        [
+          10.657,
+          10.664,
+          0.2
+        ],
+        [
+          75.446,
+          97.604,
+          25.6
+        ]
+      ],
+      "Overhang perimeter": [
+        [
+          10.869,
+          18.227,
+          0.4
+        ],
+        [
+          75.227,
+          97.197,
+          24.0
+        ]
+      ],
+      "Bridge infill": [
+        [
+          15.994,
+          19.616,
+          0.4
+        ],
+        [
+          74.162,
+          96.463,
+          24.0
+        ]
+      ],
+      "Solid infill": [
+        [
+          11.793,
+          19.615,
+          0.4
+        ],
+        [
+          74.283,
+          96.636,
+          25.2
+        ]
+      ],
+      "Internal infill": [
+        [
+          40.895,
+          53.552,
+          1.4
+        ],
+        [
+          69.496,
+          95.396,
+          7.8
+        ]
+      ],
+      "Top solid infill": [
+        [
+          16.118,
+          19.914,
+          1.8
+        ],
+        [
+          74.266,
+          96.499,
+          25.4
+        ]
+      ]
+    },
+    "settings": {
+      "nozzle_diameter": "0.4",
+      "layer_height": "0.2",
+      "filament_density": "1.24",
+      "bed_shape": "0x0,255x0,255x155,0x155",
+      "support_material_style": "organic",
+      "support_material_buildplate_only": "1",
+      "use_relative_e_distances": "1"
+    }
+  },
+  {
+    "part": "LEFT_KEY",
+    "success": true,
+    "total_filament_g": "3.55",
+    "time": "29m 32s",
+    "extrusion_roles_g": {
+      "Skirt/Brim": 0.025390980969511496,
+      "Support material": 1.3315774292123903,
+      "Support material interface": 0.012732175843919417,
+      "Perimeter": 1.215826173402428,
+      "External perimeter": 0.629787224223223,
+      "Overhang perimeter": 0.10527522955460912,
+      "Solid infill": 0.20677923401268763,
+      "Top solid infill": 0.002796348958624731,
+      "Bridge infill": 0.01536555829647073
+    },
+    "extrusion_role_bounds_mm": {
+      "Skirt/Brim": [
+        [
+          10.829,
+          8.817,
+          0.2
+        ],
+        [
+          34.125,
+          26.999,
+          0.2
+        ]
+      ],
+      "Support material": [
+        [
+          3.853,
+          12.132,
+          0.2
+        ],
+        [
+          39.268,
+          53.871,
+          13.2
+        ]
+      ],
+      "Support material interface": [
+        [
+          16.462,
+          47.071,
+          0.2
+        ],
+        [
+          29.741,
+          48.579,
+          0.8
+        ]
+      ],
+      "Perimeter": [
+        [
+          10.603,
+          10.965,
+          0.2
+        ],
+        [
+          32.125,
+          49.88,
+          15.2
+        ]
+      ],
+      "External perimeter": [
+        [
+          10.225,
+          10.506,
+          0.2
+        ],
+        [
+          32.611,
+          50.238,
+          15.4
+        ]
+      ],
+      "Overhang perimeter": [
+        [
+          10.086,
+          13.907,
+          0.4
+        ],
+        [
+          29.417,
+          48.66,
+          13.6
+        ]
+      ],
+      "Solid infill": [
+        [
+          11.71,
+          12.495,
+          0.6
+        ],
+        [
+          27.871,
+          48.317,
+          14.2
+        ]
+      ],
+      "Top solid infill": [
+        [
+          18.137,
+          47.262,
+          2.6
+        ],
+        [
+          27.863,
+          48.369,
+          2.6
+        ]
+      ],
+      "Bridge infill": [
+        [
+          16.372,
+          42.805,
+          5.0
+        ],
+        [
+          28.029,
+          48.237,
+          13.6
+        ]
+      ]
+    },
+    "settings": {
+      "nozzle_diameter": "0.4",
+      "layer_height": "0.2",
+      "filament_density": "1.24",
+      "bed_shape": "0x0,255x0,255x155,0x155",
+      "support_material_style": "organic",
+      "support_material_buildplate_only": "1",
+      "use_relative_e_distances": "1"
+    }
+  },
+  {
+    "part": "RIGHT_KEY",
+    "success": true,
+    "total_filament_g": "3.61",
+    "time": "30m 10s",
+    "extrusion_roles_g": {
+      "Skirt/Brim": 0.025391040620502,
+      "Support material": 1.4003254045536737,
+      "Support material interface": 0.013396479099734439,
+      "Perimeter": 1.2151380097504048,
+      "External perimeter": 0.6293027687037959,
+      "Overhang perimeter": 0.10613897589719438,
+      "Solid infill": 0.20705538827325412,
+      "Top solid infill": 0.0027990034277024277,
+      "Bridge infill": 0.015410803572772594
+    },
+    "extrusion_role_bounds_mm": {
+      "Skirt/Brim": [
+        [
+          8.576,
+          8.803,
+          0.2
+        ],
+        [
+          31.875,
+          27.0,
+          0.2
+        ]
+      ],
+      "Support material": [
+        [
+          3.464,
+          12.723,
+          0.2
+        ],
+        [
+          39.064,
+          53.678,
+          13.2
+        ]
+      ],
+      "Support material interface": [
+        [
+          12.861,
+          47.075,
+          0.2
+        ],
+        [
+          26.248,
+          48.565,
+          0.8
+        ]
+      ],
+      "Perimeter": [
+        [
+          10.575,
+          10.966,
+          0.2
+        ],
+        [
+          32.098,
+          49.88,
+          15.2
+        ]
+      ],
+      "External perimeter": [
+        [
+          10.089,
+          10.504,
+          0.2
+        ],
+        [
+          32.475,
+          50.238,
+          15.4
+        ]
+      ],
+      "Overhang perimeter": [
+        [
+          13.283,
+          13.903,
+          0.4
+        ],
+        [
+          32.614,
+          48.661,
+          13.6
+        ]
+      ],
+      "Solid infill": [
+        [
+          14.711,
+          12.494,
+          0.6
+        ],
+        [
+          30.991,
+          48.317,
+          14.2
+        ]
+      ],
+      "Top solid infill": [
+        [
+          14.667,
+          47.43,
+          2.6
+        ],
+        [
+          24.733,
+          48.199,
+          2.6
+        ]
+      ],
+      "Bridge infill": [
+        [
+          14.671,
+          42.778,
+          5.0
+        ],
+        [
+          26.327,
+          48.236,
+          13.6
+        ]
+      ]
+    },
+    "settings": {
+      "nozzle_diameter": "0.4",
+      "layer_height": "0.2",
+      "filament_density": "1.24",
+      "bed_shape": "0x0,255x0,255x155,0x155",
+      "support_material_style": "organic",
+      "support_material_buildplate_only": "1",
+      "use_relative_e_distances": "1"
+    }
+  },
+  {
+    "part": "SF_RETAINER",
+    "success": true,
+    "total_filament_g": "0.25",
+    "time": "4m 57s",
+    "extrusion_roles_g": {
+      "Skirt/Brim": 0.0072583026997659495,
+      "Support material": 0.11723987610363576,
+      "External perimeter": 0.08852788588846885,
+      "Perimeter": 0.028826520116946527,
+      "Support material interface": 0.0036254380757237245,
+      "Overhang perimeter": 0.0037136917161833226
+    },
+    "extrusion_role_bounds_mm": {
+      "Skirt/Brim": [
+        [
+          11.225,
+          8.729,
+          0.2
+        ],
+        [
+          14.975,
+          17.071,
+          0.2
+        ]
+      ],
+      "Support material": [
+        [
+          5.292,
+          7.496,
+          0.2
+        ],
+        [
+          16.348,
+          23.757,
+          11.4
+        ]
+      ],
+      "External perimeter": [
+        [
+          10.251,
+          10.225,
+          0.2
+        ],
+        [
+          13.475,
+          16.539,
+          13.2
+        ]
+      ],
+      "Perimeter": [
+        [
+          10.857,
+          10.6,
+          0.4
+        ],
+        [
+          13.1,
+          15.243,
+          13.2
+        ]
+      ],
+      "Support material interface": [
+        [
+          10.598,
+          11.99,
+          1.6
+        ],
+        [
+          13.255,
+          15.621,
+          2.0
+        ]
+      ],
+      "Overhang perimeter": [
+        [
+          11.204,
+          12.5,
+          2.4
+        ],
+        [
+          13.475,
+          16.537,
+          12.6
+        ]
+      ]
+    },
+    "settings": {
+      "nozzle_diameter": "0.4",
+      "layer_height": "0.2",
+      "filament_density": "1.24",
+      "bed_shape": "0x0,255x0,255x155,0x155",
+      "support_material_style": "organic",
+      "support_material_buildplate_only": "1",
+      "use_relative_e_distances": "1"
+    }
+  },
+  {
+    "part": "SIDE_FRONT_KEY",
+    "success": true,
+    "total_filament_g": "0.16",
+    "time": "2m 44s",
+    "extrusion_roles_g": {
+      "Skirt/Brim": 0.003061109880003527,
+      "Support material": 0.053744140651265655,
+      "Overhang perimeter": 0.006864397383932927,
+      "External perimeter": 0.06919893682953937,
+      "Perimeter": 0.028493906193862564
+    },
+    "extrusion_role_bounds_mm": {
+      "Skirt/Brim": [
+        [
+          9.605,
+          14.414,
+          0.2
+        ],
+        [
+          12.509,
+          18.384,
+          0.2
+        ]
+      ],
+      "Support material": [
+        [
+          4.809,
+          5.675,
+          0.2
+        ],
+        [
+          19.384,
+          25.532,
+          3.2
+        ]
+      ],
+      "Overhang perimeter": [
+        [
+          10.211,
+          10.203,
+          0.4
+        ],
+        [
+          16.591,
+          21.019,
+          3.6
+        ]
+      ],
+      "External perimeter": [
+        [
+          10.211,
+          10.195,
+          0.4
+        ],
+        [
+          16.72,
+          22.023,
+          4.2
+        ]
+      ],
+      "Perimeter": [
+        [
+          11.217,
+          11.184,
+          0.6
+        ],
+        [
+          16.354,
+          21.65,
+          3.8
+        ]
+      ]
+    },
+    "settings": {
+      "nozzle_diameter": "0.4",
+      "layer_height": "0.2",
+      "filament_density": "1.24",
+      "bed_shape": "0x0,255x0,255x155,0x155",
+      "support_material_style": "organic",
+      "support_material_buildplate_only": "1",
+      "use_relative_e_distances": "1"
+    }
+  },
+  {
+    "part": "SIDE_REAR_KEY",
+    "success": true,
+    "total_filament_g": "0.17",
+    "time": "2m 47s",
+    "extrusion_roles_g": {
+      "Skirt/Brim": 0.007372862427040473,
+      "Support material": 0.05206207219536839,
+      "Perimeter": 0.026466547979397934,
+      "External perimeter": 0.07754244017415915,
+      "Overhang perimeter": 0.006544668074799133
+    },
+    "extrusion_role_bounds_mm": {
+      "Skirt/Brim": [
+        [
+          10.117,
+          14.21,
+          0.2
+        ],
+        [
+          18.625,
+          18.172,
+          0.2
+        ]
+      ],
+      "Support material": [
+        [
+          4.806,
+          6.763,
+          0.2
+        ],
+        [
+          19.878,
+          27.296,
+          3.0
+        ]
+      ],
+      "Perimeter": [
+        [
+          11.721,
+          10.6,
+          0.4
+        ],
+        [
+          16.69,
+          21.787,
+          3.8
+        ]
+      ],
+      "External perimeter": [
+        [
+          10.211,
+          10.226,
+          0.4
+        ],
+        [
+          17.062,
+          22.65,
+          4.2
+        ]
+      ],
+      "Overhang perimeter": [
+        [
+          10.211,
+          11.24,
+          0.4
+        ],
+        [
+          16.965,
+          22.648,
+          3.4
+        ]
+      ]
+    },
+    "settings": {
+      "nozzle_diameter": "0.4",
+      "layer_height": "0.2",
+      "filament_density": "1.24",
+      "bed_shape": "0x0,255x0,255x155,0x155",
+      "support_material_style": "organic",
+      "support_material_buildplate_only": "1",
+      "use_relative_e_distances": "1"
+    }
+  },
+  {
+    "part": "SR_RETAINER",
+    "success": true,
+    "total_filament_g": "0.36",
+    "time": "6m 55s",
+    "extrusion_roles_g": {
+      "Skirt/Brim": 0.007662229382004658,
+      "Support material": 0.1526742645198263,
+      "Perimeter": 0.07709514722181973,
+      "External perimeter": 0.11644070195827765,
+      "Overhang perimeter": 0.004171870974290913,
+      "Support material interface": 0.003035668732550996
+    },
+    "extrusion_role_bounds_mm": {
+      "Skirt/Brim": [
+        [
+          11.224,
+          8.729,
+          0.2
+        ],
+        [
+          15.474,
+          17.054,
+          0.2
+        ]
+      ],
+      "Support material": [
+        [
+          1.967,
+          8.848,
+          0.2
+        ],
+        [
+          17.243,
+          21.541,
+          15.6
+        ]
+      ],
+      "Perimeter": [
+        [
+          10.858,
+          10.639,
+          0.2
+        ],
+        [
+          13.597,
+          16.121,
+          16.8
+        ]
+      ],
+      "External perimeter": [
+        [
+          10.251,
+          10.225,
+          0.2
+        ],
+        [
+          13.974,
+          16.575,
+          16.8
+        ]
+      ],
+      "Overhang perimeter": [
+        [
+          11.2,
+          12.5,
+          0.6
+        ],
+        [
+          13.974,
+          16.536,
+          16.2
+        ]
+      ],
+      "Support material interface": [
+        [
+          10.597,
+          12.056,
+          12.8
+        ],
+        [
+          11.691,
+          16.179,
+          13.2
+        ]
+      ]
+    },
+    "settings": {
+      "nozzle_diameter": "0.4",
+      "layer_height": "0.2",
+      "filament_density": "1.24",
+      "bed_shape": "0x0,255x0,255x155,0x155",
+      "support_material_style": "organic",
+      "support_material_buildplate_only": "1",
+      "use_relative_e_distances": "1"
+    }
+  },
+  {
+    "part": "WHEEL",
+    "success": true,
+    "total_filament_g": "1.13",
+    "time": "14m 26s",
+    "extrusion_roles_g": {
+      "Skirt/Brim": 0.004388463720832852,
+      "Support material": 0.3568649736248262,
+      "Perimeter": 0.3211734297885454,
+      "External perimeter": 0.3522973183285036,
+      "Support material interface": 0.04166296589227751,
+      "Overhang perimeter": 0.028851334928998707,
+      "Bridge infill": 0.0010859761077304639,
+      "Solid infill": 0.02156099964732885,
+      "Top solid infill": 0.0006260669708980848
+    },
+    "extrusion_role_bounds_mm": {
+      "Skirt/Brim": [
+        [
+          13.987,
+          13.867,
+          0.2
+        ],
+        [
+          18.507,
+          18.638,
+          0.2
+        ]
+      ],
+      "Support material": [
+        [
+          5.275,
+          4.248,
+          0.2
+        ],
+        [
+          27.568,
+          27.919,
+          4.8
+        ]
+      ],
+      "Perimeter": [
+        [
+          10.705,
+          10.708,
+          0.2
+        ],
+        [
+          21.863,
+          21.796,
+          16.2
+        ]
+      ],
+      "External perimeter": [
+        [
+          10.225,
+          10.231,
+          0.2
+        ],
+        [
+          22.27,
+          22.273,
+          16.2
+        ]
+      ],
+      "Support material interface": [
+        [
+          10.182,
+          10.179,
+          5.0
+        ],
+        [
+          22.311,
+          22.315,
+          5.4
+        ]
+      ],
+      "Overhang perimeter": [
+        [
+          10.226,
+          10.231,
+          5.8
+        ],
+        [
+          22.261,
+          22.268,
+          5.8
+        ]
+      ],
+      "Bridge infill": [
+        [
+          15.409,
+          15.514,
+          5.8
+        ],
+        [
+          17.003,
+          16.967,
+          5.8
+        ]
+      ],
+      "Solid infill": [
+        [
+          15.507,
+          15.5,
+          6.0
+        ],
+        [
+          17.035,
+          16.999,
+          12.0
+        ]
+      ],
+      "Top solid infill": [
+        [
+          15.371,
+          15.33,
+          12.2
+        ],
+        [
+          17.045,
+          17.014,
+          12.2
+        ]
+      ]
+    },
+    "settings": {
+      "nozzle_diameter": "0.4",
+      "layer_height": "0.2",
+      "filament_density": "1.24",
+      "bed_shape": "0x0,255x0,255x155,0x155",
+      "support_material_style": "organic",
+      "support_material_buildplate_only": "1",
+      "use_relative_e_distances": "1"
+    }
+  },
+  {
+    "part": "WHEEL_CARRIER",
+    "success": true,
+    "total_filament_g": "1.53",
+    "time": "15m 22s",
+    "extrusion_roles_g": {
+      "Skirt/Brim": 0.022312184570821746,
+      "Support material": 0.7334322220326877,
+      "External perimeter": 0.27462337754576366,
+      "Perimeter": 0.4088561804434697,
+      "Solid infill": 0.010186689125884649,
+      "Overhang perimeter": 0.028206358594108933,
+      "Top solid infill": 0.0019530330802890955,
+      "Support material interface": 0.04537140832129594,
+      "Bridge infill": 0.0015702824996814482
+    },
+    "extrusion_role_bounds_mm": {
+      "Skirt/Brim": [
+        [
+          14.291,
+          8.725,
+          0.2
+        ],
+        [
+          29.224,
+          27.275,
+          0.2
+        ]
+      ],
+      "Support material": [
+        [
+          4.632,
+          10.084,
+          0.2
+        ],
+        [
+          30.186,
+          46.335,
+          9.4
+        ]
+      ],
+      "External perimeter": [
+        [
+          10.226,
+          10.225,
+          0.2
+        ],
+        [
+          27.714,
+          42.373,
+          11.4
+        ]
+      ],
+      "Perimeter": [
+        [
+          10.634,
+          10.621,
+          0.2
+        ],
+        [
+          27.29,
+          41.965,
+          11.4
+        ]
+      ],
+      "Solid infill": [
+        [
+          15.602,
+          17.418,
+          0.2
+        ],
+        [
+          23.838,
+          40.372,
+          10.4
+        ]
+      ],
+      "Overhang perimeter": [
+        [
+          10.254,
+          16.966,
+          1.4
+        ],
+        [
+          26.068,
+          40.985,
+          10.0
+        ]
+      ],
+      "Top solid infill": [
+        [
+          15.587,
+          17.421,
+          1.6
+        ],
+        [
+          23.765,
+          40.684,
+          7.4
+        ]
+      ],
+      "Support material interface": [
+        [
+          9.771,
+          16.884,
+          5.2
+        ],
+        [
+          23.479,
+          41.092,
+          6.4
+        ]
+      ],
+      "Bridge infill": [
+        [
+          15.64,
+          39.319,
+          10.0
+        ],
+        [
+          18.06,
+          40.477,
+          10.0
+        ]
+      ]
+    },
+    "settings": {
+      "nozzle_diameter": "0.4",
+      "layer_height": "0.2",
+      "filament_density": "1.24",
+      "bed_shape": "0x0,255x0,255x155,0x155",
+      "support_material_style": "organic",
+      "support_material_buildplate_only": "1",
+      "use_relative_e_distances": "1"
+    }
+  }
+]

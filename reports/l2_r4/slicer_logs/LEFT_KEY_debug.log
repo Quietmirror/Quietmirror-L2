@@ -1,0 +1,13 @@
+Loading MESA OpenGL library: D:\a\Quietmirror-L2\Quietmirror-L2\_support\tools\windows-ci\PrusaSlicer\PrusaSlicer-2.9.6\mesa\opengl32.dll
+MESA OpenGL library was loaded sucessfully
+10 => Processing triangulated mesh
+20 => Generating perimeters
+30 => Preparing infill
+45 => Making infill
+65 => Searching support spots
+69 => Alert if supports needed
+70 => Generating support material
+89 => Calculating overhanging perimeters
+88 => Generating skirt and brim
+90 => Exporting G-code to D:\a\Quietmirror-L2\Quietmirror-L2\_support\work\l2_r4\slice\LEFT_KEY_debug.gcode
+Slicing result exported to D:\a\Quietmirror-L2\Quietmirror-L2\_support\work\l2_r4\slice\LEFT_KEY_debug.gcode
