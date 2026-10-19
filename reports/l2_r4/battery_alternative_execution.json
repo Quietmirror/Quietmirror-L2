@@ -1,21 +1,14 @@
 {
-  "status": "FAILED",
+  "status": "RUNNING",
   "phase": "Alternative estimated battery aspect ratios and service routes",
-  "source_commit": "98d6615106d1a98f42384752fbc4e679749a0f62",
+  "source_commit": "e9fe43871ba543200cc51236d59bdab9b7b9056f",
   "steps": [
     {
       "script": "cad/l2_r4/restore_inputs.py",
       "returncode": 0,
-      "seconds": 4.87,
-      "available_memory_before_GB": 15.668486144,
+      "seconds": 4.62,
+      "available_memory_before_GB": 15.66523392,
       "log_tail": "Restored/retained 72 baseline components\n"
-    },
-    {
-      "script": "cad/l2_r4/battery_envelope_probe.py",
-      "returncode": 1,
-      "seconds": 43.77,
-      "available_memory_before_GB": 15.504781312,
-      "log_tail": "VOXELS 800311 exact odd columns 0\nVOXELS 6701 exact odd columns 0\nVOXELS 10847 exact odd columns 0\nVOXELS 5502 exact odd columns 0\nVOXELS 5822 exact odd columns 0\nVOXELS 31350 exact odd columns 0\nVOXELS 30765 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 1506 exact odd columns 0\nVOXELS 1438 exact odd columns 0\nVOXELS 108232 exact odd columns 0\nVOXELS 108021 exact odd columns 0\nVOXELS 36152 exact odd columns 0\nVOXELS 37492 exact odd columns 3\nVOXELS 576 exact odd columns 0\nVOXELS 414 exact odd columns 0\nVOXELS 5760 exact odd columns 0\nVOXELS 2400 exact odd columns 0\nVOXELS 20736 exact odd columns 0\nVOXELS 12066 exact odd columns 0\nVOXELS 21648 exact odd columns 0\nVOXELS 1296 exact odd columns 0\nVOXELS 1926 exact odd columns 0\nVOXELS 1884 exact odd columns 0\nVOXELS 160 exact odd columns 0\nVOXELS 162 exact odd columns 0\nVOXELS 3667 exact odd columns 0\nVOXELS 1020 exact odd columns 0\nVOXELS 249 exact odd columns 0\nVOXELS 249 exact odd columns 0\nVOXELS 3523 exact odd columns 0\nVOXELS 1056 exact odd columns 0\nVOXELS 250 exact odd columns 0\nVOXELS 250 exact odd columns 0\nVOXELS 4350 exact odd columns 0\nVOXELS 43008 exact odd columns 0\nVOXELS 8192 exact odd columns 0\nVOXELS 10240 exact odd columns 0\nVOXELS 6144 exact odd columns 0\nVOXELS 2400 exact odd columns 0\nVOXELS 672 exact odd columns 0\nVOXELS 1920 exact odd columns 0\nVOXELS 2048 exact odd columns 0\nVOXELS 1920 exact odd columns 0\nVOXELS 1920 exact odd columns 0\nVOXELS 1920 exact odd columns 0\nVOXELS 1440 exact odd columns 0\nVOXELS 3667 exact odd columns 0\nVOXELS 1020 exact odd columns 0\nVOXELS 249 exact odd columns 0\nVOXELS 249 exact odd columns 0\nVOXELS 3523 exact odd columns 0\nVOXELS 1056 exact odd columns 0\nVOXELS 251 exact odd columns 0\nVOXELS 251 exact odd columns 0\nVOXELS 4350 exact odd columns 0\nVOXELS 1152 exact odd columns 0\nVOXELS 25920 exact odd columns 0\nVOXELS 1087 exact odd columns 0\nVOXELS 127 exact odd columns 0\nVOXELS 2064 exact odd columns 0\nVOXELS 2064 exact odd columns 0\nVOXELS 2049 exact odd columns 0\nVOXELS 2049 exact odd columns 0\nVOXELS 2064 exact odd columns 0\nVOXELS 126 exact odd columns 0\nVOXELS 29068 exact odd columns 0\nVOXELS 29716 exact odd columns 0\nVOXELS 29068 exact odd columns 0\nVOXELS 12224 exact odd columns 0\nVOXELS 13572 exact odd columns 0\nVOXELS 1884 exact odd columns 0\nVOXELS 1884 exact odd columns 0\nVOXELS 4280 exact odd columns 0\nVOXELS 256 exact odd columns 0\nVOXELS 256 exact odd columns 0\nVOXELS 2912 exact odd columns 0\nVOXELS 3474 exact odd columns 0\nVOXELS 1032 exact odd columns 0\nVOXELS 254 exact odd columns 0\nVOXELS 508 exact odd columns 0\nVOXELS 3474 exact odd columns 0\nVOXELS 1032 exact odd columns 0\nVOXELS 254 exact odd columns 0\nVOXELS 508 exact odd columns 0\nVOXELS 200 exact odd columns 0\nVOXELS 206 exact odd columns 0\nVOXELS 328 exact odd columns 0\nVOXELS 94 exact odd columns 0\nVOXELS 339 exact odd columns 0\nVOXELS 118 exact odd columns 0\nVOXELS 5248060 exact odd columns 0\nCELL_GOALS [12, 25, 8] 0\nCELL_GOALS [14, 22, 8] 0\nCELL_GOALS [10, 30, 8] 0\nCELL_GOALS [12, 28, 7] 0\nCELL_GOALS [10, 24, 10] 0\nTraceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_envelope_probe.py\", line 124, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_envelope_probe.py\", line 122, in main\n    if not accepted:raise RuntimeError('No exact accepted alternative cell package and route')\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No exact accepted alternative cell package and route\n"
     }
   ]
 }
