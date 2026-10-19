@@ -9,6 +9,13 @@
       "seconds": 4.46,
       "available_memory_before_GB": 15.657029632,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/surface_mesh.py",
+      "returncode": 0,
+      "seconds": 71.39,
+      "available_memory_before_GB": 15.66810112,
+      "log_tail": "{'part': 'BODY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 410684, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'LEFT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 27298, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'RIGHT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 27346, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SIDE_FRONT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 29978, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SIDE_REAR_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 31534, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SF_RETAINER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 5136, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SR_RETAINER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 5732, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n"
     }
   ]
 }
