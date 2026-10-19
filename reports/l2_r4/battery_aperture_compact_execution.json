@@ -9,6 +9,13 @@
       "seconds": 3.65,
       "available_memory_before_GB": 15.673454592,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/battery_plug_access.py",
+      "returncode": 0,
+      "seconds": 18.35,
+      "available_memory_before_GB": 15.400456192,
+      "log_tail": ""
     }
   ]
 }
