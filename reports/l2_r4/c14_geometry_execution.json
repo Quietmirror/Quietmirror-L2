@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "C14 ordinary static clearances",
   "source_commit": "d7a7b0388d1f1b20882453a446f63a53f41abcd2",
   "steps": [
