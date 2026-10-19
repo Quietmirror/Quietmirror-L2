@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "Complete side angular partition side_sr_0",
   "source_commit": "3844d155b625531a6400907c660828c5ca8c82fd",
   "steps": [
