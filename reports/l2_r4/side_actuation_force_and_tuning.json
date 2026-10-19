@@ -1,0 +1,4062 @@
+{
+  "keys": [
+    {
+      "part": "SIDE_FRONT_KEY",
+      "nominal_film_mm": 0.33,
+      "unshimmed_free_gap_mm": 0.34999999999999787,
+      "residual_gap_mm": 0.019999999999999574,
+      "stop_deg": 6.808931963087932,
+      "max_PT_assumption_mm": 0.5,
+      "calculated_PT_max_trigger_deg": 5.7916222162067825,
+      "stop_button_depression_mm": 0.5909673562365576,
+      "available_generic_plunger_protrusion_mm": 0.63,
+      "housing_samples": [
+        {
+          "angle_deg": 0.0,
+          "depression_mm": 0.0,
+          "crown_min_x_mm": 25.64,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 0.22696439876959776,
+          "depression_mm": 0.0004078446942621383,
+          "crown_min_x_mm": 25.61959215530574,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 0.4539287975391955,
+          "depression_mm": 0.02081576144718511,
+          "crown_min_x_mm": 25.599184238552816,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 0.6808931963087933,
+          "depression_mm": 0.041223430024121654,
+          "crown_min_x_mm": 25.57877656997588,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 0.907857595078391,
+          "depression_mm": 0.06163053019432496,
+          "crown_min_x_mm": 25.558369469805676,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 1.1348219938479889,
+          "depression_mm": 0.08203674173594422,
+          "crown_min_x_mm": 25.537963258264057,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 1.3617863926175866,
+          "depression_mm": 0.10244174444110499,
+          "crown_min_x_mm": 25.517558255558896,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 1.5887507913871843,
+          "depression_mm": 0.12284521812086169,
+          "crown_min_x_mm": 25.49715478187914,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 1.815715190156782,
+          "depression_mm": 0.1432468426103135,
+          "crown_min_x_mm": 25.476753157389687,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 2.04267958892638,
+          "depression_mm": 0.16364629777352135,
+          "crown_min_x_mm": 25.45635370222648,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 2.2696439876959777,
+          "depression_mm": 0.18404326350862377,
+          "crown_min_x_mm": 25.435956736491377,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 2.4966083864655753,
+          "depression_mm": 0.2044374197528107,
+          "crown_min_x_mm": 25.41556258024719,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 2.723572785235173,
+          "depression_mm": 0.22482844648735423,
+          "crown_min_x_mm": 25.395171553512647,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 2.9505371840047707,
+          "depression_mm": 0.24521602374263907,
+          "crown_min_x_mm": 25.374783976257362,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 3.1775015827743687,
+          "depression_mm": 0.2655998316031791,
+          "crown_min_x_mm": 25.354400168396822,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 3.404465981543966,
+          "depression_mm": 0.2859795502126339,
+          "crown_min_x_mm": 25.334020449787367,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 3.631430380313564,
+          "depression_mm": 0.3063548597788248,
+          "crown_min_x_mm": 25.313645140221176,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 3.858394779083162,
+          "depression_mm": 0.3267254405787732,
+          "crown_min_x_mm": 25.293274559421228,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 4.08535917785276,
+          "depression_mm": 0.34709097296368085,
+          "crown_min_x_mm": 25.27290902703632,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 4.312323576622357,
+          "depression_mm": 0.3674511373639966,
+          "crown_min_x_mm": 25.252548862636004,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 4.5392879753919555,
+          "depression_mm": 0.38780561429436844,
+          "crown_min_x_mm": 25.232194385705633,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 4.766252374161553,
+          "depression_mm": 0.40815408435872413,
+          "crown_min_x_mm": 25.211845915641277,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 4.9932167729311505,
+          "depression_mm": 0.4284962282552236,
+          "crown_min_x_mm": 25.191503771744777,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 5.220181171700748,
+          "depression_mm": 0.4488317267812967,
+          "crown_min_x_mm": 25.171168273218704,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 5.447145570470346,
+          "depression_mm": 0.4691602608386809,
+          "crown_min_x_mm": 25.15083973916132,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 5.674109969239944,
+          "depression_mm": 0.4894815114383526,
+          "crown_min_x_mm": 25.13051848856165,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 5.901074368009541,
+          "depression_mm": 0.5097951597056074,
+          "crown_min_x_mm": 25.110204840294394,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 6.12803876677914,
+          "depression_mm": 0.5301008868850339,
+          "crown_min_x_mm": 25.089899113114967,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 6.355003165548737,
+          "depression_mm": 0.5503983743455088,
+          "crown_min_x_mm": 25.069601625654492,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 6.581967564318335,
+          "depression_mm": 0.570687303585192,
+          "crown_min_x_mm": 25.04931269641481,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": 6.808931963087932,
+          "depression_mm": 0.5909673562365576,
+          "crown_min_x_mm": 25.029032643763443,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        }
+      ],
+      "force_positions": [
+        {
+          "location": "cap_midpoint",
+          "y_mm": 50.25,
+          "touch_arm_mm": 4.950000000000003,
+          "ideal_force_N": 0.7701680808080805,
+          "pure_lever_arc_travel_mm": 0.5882494924358191,
+          "tangential_inward_travel_mm": 0.5868658739270691,
+          "torque_about_vertical_hinge_Nmm": 3.812332000000001,
+          "assumed_touch_to_plunger_z_offset_mm": -0.9,
+          "eccentric_bending_moment_Nmm": 0.6931512727272725
+        },
+        {
+          "location": "quarter_hinge_to_far",
+          "y_mm": 48.05,
+          "touch_arm_mm": 2.75,
+          "ideal_force_N": 1.386302545454546,
+          "pure_lever_arc_travel_mm": 0.3268052735754549,
+          "tangential_inward_travel_mm": 0.3260365966261493,
+          "torque_about_vertical_hinge_Nmm": 3.8123320000000014,
+          "assumed_touch_to_plunger_z_offset_mm": -0.9,
+          "eccentric_bending_moment_Nmm": 1.2476722909090914
+        },
+        {
+          "location": "far_edge",
+          "y_mm": 56.3,
+          "touch_arm_mm": 11.0,
+          "ideal_force_N": 0.3465756363636365,
+          "pure_lever_arc_travel_mm": 1.3072210943018197,
+          "tangential_inward_travel_mm": 1.3041463865045972,
+          "torque_about_vertical_hinge_Nmm": 3.8123320000000014,
+          "assumed_touch_to_plunger_z_offset_mm": -0.9,
+          "eccentric_bending_moment_Nmm": 0.31191807272727284
+        }
+      ],
+      "switch_OF_max_N": 0.74,
+      "source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-d2f.pdf",
+      "formula": "F_touch = 0.74 * abs(pad_center_y - hinge_y) / abs(touch_y - hinge_y); ideal static lever, ignores friction/compliance.",
+      "physical": "FP/OP/TTP, force and PET adjustment require the selected physical D2F-01F.",
+      "cad_pass": true
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "nominal_film_mm": 0.33,
+      "unshimmed_free_gap_mm": 0.34999999999999787,
+      "residual_gap_mm": 0.019999999999999574,
+      "stop_deg": -6.434649883942413,
+      "max_PT_assumption_mm": 0.5,
+      "calculated_PT_max_trigger_deg": -5.488350803927272,
+      "stop_button_depression_mm": 0.5897959929219319,
+      "available_generic_plunger_protrusion_mm": 0.63,
+      "housing_samples": [
+        {
+          "angle_deg": 0.0,
+          "depression_mm": 0.0,
+          "crown_min_x_mm": 26.14,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -0.2144883294647471,
+          "depression_mm": 0.0002624794286738563,
+          "crown_min_x_mm": 26.119737520571327,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -0.4289766589294942,
+          "depression_mm": 0.02053203223998068,
+          "crown_min_x_mm": 26.09946796776002,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -0.6434649883942414,
+          "depression_mm": 0.04080837437675555,
+          "crown_min_x_mm": 26.079191625623245,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -0.8579533178589884,
+          "depression_mm": 0.061091221686705666,
+          "crown_min_x_mm": 26.058908778313295,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -1.0724416473237355,
+          "depression_mm": 0.08138028992638269,
+          "crown_min_x_mm": 26.03861971007362,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -1.2869299767884828,
+          "depression_mm": 0.10167529476512627,
+          "crown_min_x_mm": 26.018324705234875,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -1.5014183062532298,
+          "depression_mm": 0.12197595178911413,
+          "crown_min_x_mm": 25.998024048210887,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -1.7159066357179769,
+          "depression_mm": 0.1422819765052985,
+          "crown_min_x_mm": 25.977718023494702,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -1.930394965182724,
+          "depression_mm": 0.16259308434540642,
+          "crown_min_x_mm": 25.957406915654595,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -2.144883294647471,
+          "depression_mm": 0.18290899066993305,
+          "crown_min_x_mm": 25.937091009330068,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -2.3593716241122182,
+          "depression_mm": 0.20322941077212775,
+          "crown_min_x_mm": 25.916770589227873,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -2.5738599535769655,
+          "depression_mm": 0.2235540598819874,
+          "crown_min_x_mm": 25.896445940118014,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -2.7883482830417123,
+          "depression_mm": 0.2438826531702425,
+          "crown_min_x_mm": 25.87611734682976,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -3.0028366125064596,
+          "depression_mm": 0.2642149057523575,
+          "crown_min_x_mm": 25.855785094247643,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -3.2173249419712064,
+          "depression_mm": 0.28455053269248864,
+          "crown_min_x_mm": 25.835449467307512,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -3.4318132714359537,
+          "depression_mm": 0.3048892490075268,
+          "crown_min_x_mm": 25.815110750992474,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -3.646301600900701,
+          "depression_mm": 0.32523076967106945,
+          "crown_min_x_mm": 25.79476923032893,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -3.860789930365448,
+          "depression_mm": 0.34557480961740694,
+          "crown_min_x_mm": 25.774425190382594,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -4.075278259830195,
+          "depression_mm": 0.3659210837455298,
+          "crown_min_x_mm": 25.75407891625447,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -4.289766589294942,
+          "depression_mm": 0.3862693069231007,
+          "crown_min_x_mm": 25.7337306930769,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -4.504254918759689,
+          "depression_mm": 0.4066191939904975,
+          "crown_min_x_mm": 25.713380806009503,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -4.7187432482244365,
+          "depression_mm": 0.4269704597647568,
+          "crown_min_x_mm": 25.693029540235244,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -4.933231577689184,
+          "depression_mm": 0.4473228190436025,
+          "crown_min_x_mm": 25.6726771809564,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -5.147719907153931,
+          "depression_mm": 0.4676759866094322,
+          "crown_min_x_mm": 25.65232401339057,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -5.362208236618677,
+          "depression_mm": 0.4880296772333246,
+          "crown_min_x_mm": 25.631970322766676,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -5.576696566083425,
+          "depression_mm": 0.5083836056790183,
+          "crown_min_x_mm": 25.611616394320983,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -5.791184895548172,
+          "depression_mm": 0.5287374867069197,
+          "crown_min_x_mm": 25.59126251329308,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -6.005673225012919,
+          "depression_mm": 0.54909103507811,
+          "crown_min_x_mm": 25.57090896492189,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -6.2201615544776665,
+          "depression_mm": 0.5694439655583103,
+          "crown_min_x_mm": 25.55055603444169,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        },
+        {
+          "angle_deg": -6.434649883942413,
+          "depression_mm": 0.5897959929219319,
+          "crown_min_x_mm": 25.53020400707807,
+          "key_rigid_housing_overlap_mm3": 0.0,
+          "film_rigid_housing_overlap_mm3": 0.0
+        }
+      ],
+      "force_positions": [
+        {
+          "location": "cap_midpoint",
+          "y_mm": 64.45,
+          "touch_arm_mm": 5.25,
+          "ideal_force_N": 0.7627919999999995,
+          "pure_lever_arc_travel_mm": 0.5896055901112971,
+          "tangential_inward_travel_mm": 0.5883669617015174,
+          "torque_about_vertical_hinge_Nmm": 4.004657999999997,
+          "assumed_touch_to_plunger_z_offset_mm": -0.9,
+          "eccentric_bending_moment_Nmm": 0.6865127999999996
+        },
+        {
+          "location": "quarter_hinge_to_far",
+          "y_mm": 66.8,
+          "touch_arm_mm": 2.9000000000000057,
+          "ideal_force_N": 1.3809165517241344,
+          "pure_lever_arc_travel_mm": 0.3256868973948124,
+          "tangential_inward_travel_mm": 0.32500270265417214,
+          "torque_about_vertical_hinge_Nmm": 4.004657999999997,
+          "assumed_touch_to_plunger_z_offset_mm": -0.9,
+          "eccentric_bending_moment_Nmm": 1.242824896551721
+        },
+        {
+          "location": "far_edge",
+          "y_mm": 58.1,
+          "touch_arm_mm": 11.600000000000001,
+          "ideal_force_N": 0.3452291379310342,
+          "pure_lever_arc_travel_mm": 1.302747589579247,
+          "tangential_inward_travel_mm": 1.3000108106166863,
+          "torque_about_vertical_hinge_Nmm": 4.004657999999997,
+          "assumed_touch_to_plunger_z_offset_mm": -0.9,
+          "eccentric_bending_moment_Nmm": 0.3107062241379308
+        }
+      ],
+      "switch_OF_max_N": 0.74,
+      "source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-d2f.pdf",
+      "formula": "F_touch = 0.74 * abs(pad_center_y - hinge_y) / abs(touch_y - hinge_y); ideal static lever, ignores friction/compliance.",
+      "physical": "FP/OP/TTP, force and PET adjustment require the selected physical D2F-01F.",
+      "cad_pass": true
+    }
+  ],
+  "film_range_mm": [
+    0,
+    0.7
+  ],
+  "film_increment_assumption_mm": 0.01,
+  "tolerance_chain_mm": [
+    -0.35,
+    0.35
+  ],
+  "chain_samples": [
+    {
+      "unshimmed_gap_mm": 0.0,
+      "film_mm": 0,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.001,
+      "film_mm": 0,
+      "residual_mm": 0.001
+    },
+    {
+      "unshimmed_gap_mm": 0.002,
+      "film_mm": 0,
+      "residual_mm": 0.002
+    },
+    {
+      "unshimmed_gap_mm": 0.003,
+      "film_mm": 0,
+      "residual_mm": 0.003
+    },
+    {
+      "unshimmed_gap_mm": 0.004,
+      "film_mm": 0,
+      "residual_mm": 0.004
+    },
+    {
+      "unshimmed_gap_mm": 0.005,
+      "film_mm": 0,
+      "residual_mm": 0.005
+    },
+    {
+      "unshimmed_gap_mm": 0.006,
+      "film_mm": 0,
+      "residual_mm": 0.006
+    },
+    {
+      "unshimmed_gap_mm": 0.007,
+      "film_mm": 0,
+      "residual_mm": 0.007
+    },
+    {
+      "unshimmed_gap_mm": 0.008,
+      "film_mm": 0,
+      "residual_mm": 0.008
+    },
+    {
+      "unshimmed_gap_mm": 0.009000000000000001,
+      "film_mm": 0,
+      "residual_mm": 0.009000000000000001
+    },
+    {
+      "unshimmed_gap_mm": 0.01,
+      "film_mm": 0.01,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.011,
+      "film_mm": 0.01,
+      "residual_mm": 0.0009999999999999992
+    },
+    {
+      "unshimmed_gap_mm": 0.012,
+      "film_mm": 0.01,
+      "residual_mm": 0.002
+    },
+    {
+      "unshimmed_gap_mm": 0.013000000000000001,
+      "film_mm": 0.01,
+      "residual_mm": 0.003000000000000001
+    },
+    {
+      "unshimmed_gap_mm": 0.014,
+      "film_mm": 0.01,
+      "residual_mm": 0.004
+    },
+    {
+      "unshimmed_gap_mm": 0.015,
+      "film_mm": 0.01,
+      "residual_mm": 0.004999999999999999
+    },
+    {
+      "unshimmed_gap_mm": 0.016,
+      "film_mm": 0.01,
+      "residual_mm": 0.006
+    },
+    {
+      "unshimmed_gap_mm": 0.017,
+      "film_mm": 0.01,
+      "residual_mm": 0.007000000000000001
+    },
+    {
+      "unshimmed_gap_mm": 0.018000000000000002,
+      "film_mm": 0.01,
+      "residual_mm": 0.008000000000000002
+    },
+    {
+      "unshimmed_gap_mm": 0.019,
+      "film_mm": 0.01,
+      "residual_mm": 0.009
+    },
+    {
+      "unshimmed_gap_mm": 0.02,
+      "film_mm": 0.02,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.021,
+      "film_mm": 0.02,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.022,
+      "film_mm": 0.02,
+      "residual_mm": 0.0019999999999999983
+    },
+    {
+      "unshimmed_gap_mm": 0.023,
+      "film_mm": 0.02,
+      "residual_mm": 0.002999999999999999
+    },
+    {
+      "unshimmed_gap_mm": 0.024,
+      "film_mm": 0.02,
+      "residual_mm": 0.004
+    },
+    {
+      "unshimmed_gap_mm": 0.025,
+      "film_mm": 0.02,
+      "residual_mm": 0.005000000000000001
+    },
+    {
+      "unshimmed_gap_mm": 0.026000000000000002,
+      "film_mm": 0.02,
+      "residual_mm": 0.006000000000000002
+    },
+    {
+      "unshimmed_gap_mm": 0.027,
+      "film_mm": 0.02,
+      "residual_mm": 0.006999999999999999
+    },
+    {
+      "unshimmed_gap_mm": 0.028,
+      "film_mm": 0.02,
+      "residual_mm": 0.008
+    },
+    {
+      "unshimmed_gap_mm": 0.029,
+      "film_mm": 0.02,
+      "residual_mm": 0.009000000000000001
+    },
+    {
+      "unshimmed_gap_mm": 0.03,
+      "film_mm": 0.03,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.031,
+      "film_mm": 0.03,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.032,
+      "film_mm": 0.03,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.033,
+      "film_mm": 0.03,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.034,
+      "film_mm": 0.03,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.035,
+      "film_mm": 0.03,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.036000000000000004,
+      "film_mm": 0.03,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.037,
+      "film_mm": 0.03,
+      "residual_mm": 0.006999999999999999
+    },
+    {
+      "unshimmed_gap_mm": 0.038,
+      "film_mm": 0.03,
+      "residual_mm": 0.008
+    },
+    {
+      "unshimmed_gap_mm": 0.039,
+      "film_mm": 0.03,
+      "residual_mm": 0.009000000000000001
+    },
+    {
+      "unshimmed_gap_mm": 0.04,
+      "film_mm": 0.04,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.041,
+      "film_mm": 0.04,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.042,
+      "film_mm": 0.04,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.043000000000000003,
+      "film_mm": 0.04,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.044,
+      "film_mm": 0.04,
+      "residual_mm": 0.003999999999999997
+    },
+    {
+      "unshimmed_gap_mm": 0.045,
+      "film_mm": 0.04,
+      "residual_mm": 0.0049999999999999975
+    },
+    {
+      "unshimmed_gap_mm": 0.046,
+      "film_mm": 0.04,
+      "residual_mm": 0.005999999999999998
+    },
+    {
+      "unshimmed_gap_mm": 0.047,
+      "film_mm": 0.04,
+      "residual_mm": 0.006999999999999999
+    },
+    {
+      "unshimmed_gap_mm": 0.048,
+      "film_mm": 0.04,
+      "residual_mm": 0.008
+    },
+    {
+      "unshimmed_gap_mm": 0.049,
+      "film_mm": 0.04,
+      "residual_mm": 0.009000000000000001
+    },
+    {
+      "unshimmed_gap_mm": 0.05,
+      "film_mm": 0.05,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.051000000000000004,
+      "film_mm": 0.05,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.052000000000000005,
+      "film_mm": 0.05,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.053,
+      "film_mm": 0.05,
+      "residual_mm": 0.0029999999999999957
+    },
+    {
+      "unshimmed_gap_mm": 0.054,
+      "film_mm": 0.05,
+      "residual_mm": 0.003999999999999997
+    },
+    {
+      "unshimmed_gap_mm": 0.055,
+      "film_mm": 0.05,
+      "residual_mm": 0.0049999999999999975
+    },
+    {
+      "unshimmed_gap_mm": 0.056,
+      "film_mm": 0.05,
+      "residual_mm": 0.005999999999999998
+    },
+    {
+      "unshimmed_gap_mm": 0.057,
+      "film_mm": 0.05,
+      "residual_mm": 0.006999999999999999
+    },
+    {
+      "unshimmed_gap_mm": 0.058,
+      "film_mm": 0.05,
+      "residual_mm": 0.008
+    },
+    {
+      "unshimmed_gap_mm": 0.059000000000000004,
+      "film_mm": 0.05,
+      "residual_mm": 0.009000000000000001
+    },
+    {
+      "unshimmed_gap_mm": 0.06,
+      "film_mm": 0.06,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.061,
+      "film_mm": 0.06,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.062,
+      "film_mm": 0.06,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.063,
+      "film_mm": 0.06,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.064,
+      "film_mm": 0.06,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.065,
+      "film_mm": 0.06,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.066,
+      "film_mm": 0.06,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.067,
+      "film_mm": 0.06,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.068,
+      "film_mm": 0.06,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.069,
+      "film_mm": 0.06,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.07,
+      "film_mm": 0.07,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.07100000000000001,
+      "film_mm": 0.07,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.07200000000000001,
+      "film_mm": 0.07,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.073,
+      "film_mm": 0.07,
+      "residual_mm": 0.002999999999999989
+    },
+    {
+      "unshimmed_gap_mm": 0.074,
+      "film_mm": 0.07,
+      "residual_mm": 0.00399999999999999
+    },
+    {
+      "unshimmed_gap_mm": 0.075,
+      "film_mm": 0.07,
+      "residual_mm": 0.0049999999999999906
+    },
+    {
+      "unshimmed_gap_mm": 0.076,
+      "film_mm": 0.07,
+      "residual_mm": 0.0059999999999999915
+    },
+    {
+      "unshimmed_gap_mm": 0.077,
+      "film_mm": 0.07,
+      "residual_mm": 0.006999999999999992
+    },
+    {
+      "unshimmed_gap_mm": 0.078,
+      "film_mm": 0.07,
+      "residual_mm": 0.007999999999999993
+    },
+    {
+      "unshimmed_gap_mm": 0.079,
+      "film_mm": 0.07,
+      "residual_mm": 0.008999999999999994
+    },
+    {
+      "unshimmed_gap_mm": 0.08,
+      "film_mm": 0.08,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.081,
+      "film_mm": 0.08,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.082,
+      "film_mm": 0.08,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.083,
+      "film_mm": 0.08,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.084,
+      "film_mm": 0.08,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.085,
+      "film_mm": 0.08,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.08600000000000001,
+      "film_mm": 0.08,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.08700000000000001,
+      "film_mm": 0.08,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.088,
+      "film_mm": 0.08,
+      "residual_mm": 0.007999999999999993
+    },
+    {
+      "unshimmed_gap_mm": 0.089,
+      "film_mm": 0.08,
+      "residual_mm": 0.008999999999999994
+    },
+    {
+      "unshimmed_gap_mm": 0.09,
+      "film_mm": 0.09,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.091,
+      "film_mm": 0.09,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.092,
+      "film_mm": 0.09,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.093,
+      "film_mm": 0.09,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.094,
+      "film_mm": 0.09,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.095,
+      "film_mm": 0.09,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.096,
+      "film_mm": 0.09,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.097,
+      "film_mm": 0.09,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.098,
+      "film_mm": 0.09,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.099,
+      "film_mm": 0.09,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.1,
+      "film_mm": 0.1,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.101,
+      "film_mm": 0.1,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.10200000000000001,
+      "film_mm": 0.1,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.10300000000000001,
+      "film_mm": 0.1,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.10400000000000001,
+      "film_mm": 0.1,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.105,
+      "film_mm": 0.1,
+      "residual_mm": 0.0049999999999999906
+    },
+    {
+      "unshimmed_gap_mm": 0.106,
+      "film_mm": 0.1,
+      "residual_mm": 0.0059999999999999915
+    },
+    {
+      "unshimmed_gap_mm": 0.107,
+      "film_mm": 0.1,
+      "residual_mm": 0.006999999999999992
+    },
+    {
+      "unshimmed_gap_mm": 0.108,
+      "film_mm": 0.1,
+      "residual_mm": 0.007999999999999993
+    },
+    {
+      "unshimmed_gap_mm": 0.109,
+      "film_mm": 0.1,
+      "residual_mm": 0.008999999999999994
+    },
+    {
+      "unshimmed_gap_mm": 0.11,
+      "film_mm": 0.11,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.111,
+      "film_mm": 0.11,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.112,
+      "film_mm": 0.11,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.113,
+      "film_mm": 0.11,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.114,
+      "film_mm": 0.11,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.115,
+      "film_mm": 0.11,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.116,
+      "film_mm": 0.11,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.117,
+      "film_mm": 0.11,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.11800000000000001,
+      "film_mm": 0.11,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.11900000000000001,
+      "film_mm": 0.11,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.12,
+      "film_mm": 0.12,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.121,
+      "film_mm": 0.12,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.122,
+      "film_mm": 0.12,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.123,
+      "film_mm": 0.12,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.124,
+      "film_mm": 0.12,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.125,
+      "film_mm": 0.12,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.126,
+      "film_mm": 0.12,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.127,
+      "film_mm": 0.12,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.128,
+      "film_mm": 0.12,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.129,
+      "film_mm": 0.12,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.13,
+      "film_mm": 0.13,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.131,
+      "film_mm": 0.13,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.132,
+      "film_mm": 0.13,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.133,
+      "film_mm": 0.13,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.134,
+      "film_mm": 0.13,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.135,
+      "film_mm": 0.13,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.136,
+      "film_mm": 0.13,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.137,
+      "film_mm": 0.13,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.138,
+      "film_mm": 0.13,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.139,
+      "film_mm": 0.13,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.14,
+      "film_mm": 0.14,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.14100000000000001,
+      "film_mm": 0.14,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.14200000000000002,
+      "film_mm": 0.14,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.14300000000000002,
+      "film_mm": 0.14,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.14400000000000002,
+      "film_mm": 0.14,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.145,
+      "film_mm": 0.14,
+      "residual_mm": 0.004999999999999977
+    },
+    {
+      "unshimmed_gap_mm": 0.146,
+      "film_mm": 0.14,
+      "residual_mm": 0.005999999999999978
+    },
+    {
+      "unshimmed_gap_mm": 0.147,
+      "film_mm": 0.14,
+      "residual_mm": 0.0069999999999999785
+    },
+    {
+      "unshimmed_gap_mm": 0.148,
+      "film_mm": 0.14,
+      "residual_mm": 0.00799999999999998
+    },
+    {
+      "unshimmed_gap_mm": 0.149,
+      "film_mm": 0.14,
+      "residual_mm": 0.00899999999999998
+    },
+    {
+      "unshimmed_gap_mm": 0.15,
+      "film_mm": 0.15,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.151,
+      "film_mm": 0.15,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.152,
+      "film_mm": 0.15,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.153,
+      "film_mm": 0.15,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.154,
+      "film_mm": 0.15,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.155,
+      "film_mm": 0.15,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.156,
+      "film_mm": 0.15,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.157,
+      "film_mm": 0.15,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.158,
+      "film_mm": 0.15,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.159,
+      "film_mm": 0.15,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.16,
+      "film_mm": 0.16,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.161,
+      "film_mm": 0.16,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.162,
+      "film_mm": 0.16,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.163,
+      "film_mm": 0.16,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.164,
+      "film_mm": 0.16,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.165,
+      "film_mm": 0.16,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.166,
+      "film_mm": 0.16,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.167,
+      "film_mm": 0.16,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.168,
+      "film_mm": 0.16,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.169,
+      "film_mm": 0.16,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.17,
+      "film_mm": 0.17,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.171,
+      "film_mm": 0.17,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.17200000000000001,
+      "film_mm": 0.17,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.17300000000000001,
+      "film_mm": 0.17,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.17400000000000002,
+      "film_mm": 0.17,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.17500000000000002,
+      "film_mm": 0.17,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.176,
+      "film_mm": 0.17,
+      "residual_mm": 0.005999999999999978
+    },
+    {
+      "unshimmed_gap_mm": 0.177,
+      "film_mm": 0.17,
+      "residual_mm": 0.0069999999999999785
+    },
+    {
+      "unshimmed_gap_mm": 0.178,
+      "film_mm": 0.17,
+      "residual_mm": 0.00799999999999998
+    },
+    {
+      "unshimmed_gap_mm": 0.179,
+      "film_mm": 0.17,
+      "residual_mm": 0.00899999999999998
+    },
+    {
+      "unshimmed_gap_mm": 0.18,
+      "film_mm": 0.18,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.181,
+      "film_mm": 0.18,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.182,
+      "film_mm": 0.18,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.183,
+      "film_mm": 0.18,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.184,
+      "film_mm": 0.18,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.185,
+      "film_mm": 0.18,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.186,
+      "film_mm": 0.18,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.187,
+      "film_mm": 0.18,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.188,
+      "film_mm": 0.18,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.189,
+      "film_mm": 0.18,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.19,
+      "film_mm": 0.19,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.191,
+      "film_mm": 0.19,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.192,
+      "film_mm": 0.19,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.193,
+      "film_mm": 0.19,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.194,
+      "film_mm": 0.19,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.195,
+      "film_mm": 0.19,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.196,
+      "film_mm": 0.19,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.197,
+      "film_mm": 0.19,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.198,
+      "film_mm": 0.19,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.199,
+      "film_mm": 0.19,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.2,
+      "film_mm": 0.2,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.201,
+      "film_mm": 0.2,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.202,
+      "film_mm": 0.2,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.203,
+      "film_mm": 0.2,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.20400000000000001,
+      "film_mm": 0.2,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.20500000000000002,
+      "film_mm": 0.2,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.20600000000000002,
+      "film_mm": 0.2,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.20700000000000002,
+      "film_mm": 0.2,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.20800000000000002,
+      "film_mm": 0.2,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.209,
+      "film_mm": 0.2,
+      "residual_mm": 0.00899999999999998
+    },
+    {
+      "unshimmed_gap_mm": 0.21,
+      "film_mm": 0.21,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.211,
+      "film_mm": 0.21,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.212,
+      "film_mm": 0.21,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.213,
+      "film_mm": 0.21,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.214,
+      "film_mm": 0.21,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.215,
+      "film_mm": 0.21,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.216,
+      "film_mm": 0.21,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.217,
+      "film_mm": 0.21,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.218,
+      "film_mm": 0.21,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.219,
+      "film_mm": 0.21,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.22,
+      "film_mm": 0.22,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.221,
+      "film_mm": 0.22,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.222,
+      "film_mm": 0.22,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.223,
+      "film_mm": 0.22,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.224,
+      "film_mm": 0.22,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.225,
+      "film_mm": 0.22,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.226,
+      "film_mm": 0.22,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.227,
+      "film_mm": 0.22,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.228,
+      "film_mm": 0.22,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.229,
+      "film_mm": 0.22,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.23,
+      "film_mm": 0.23,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.231,
+      "film_mm": 0.23,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.232,
+      "film_mm": 0.23,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.233,
+      "film_mm": 0.23,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.234,
+      "film_mm": 0.23,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.23500000000000001,
+      "film_mm": 0.23,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.23600000000000002,
+      "film_mm": 0.23,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.23700000000000002,
+      "film_mm": 0.23,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.23800000000000002,
+      "film_mm": 0.23,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.23900000000000002,
+      "film_mm": 0.23,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.24,
+      "film_mm": 0.24,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.241,
+      "film_mm": 0.24,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.242,
+      "film_mm": 0.24,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.243,
+      "film_mm": 0.24,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.244,
+      "film_mm": 0.24,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.245,
+      "film_mm": 0.24,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.246,
+      "film_mm": 0.24,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.247,
+      "film_mm": 0.24,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.248,
+      "film_mm": 0.24,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.249,
+      "film_mm": 0.24,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.25,
+      "film_mm": 0.25,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.251,
+      "film_mm": 0.25,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.252,
+      "film_mm": 0.25,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.253,
+      "film_mm": 0.25,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.254,
+      "film_mm": 0.25,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.255,
+      "film_mm": 0.25,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.256,
+      "film_mm": 0.25,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.257,
+      "film_mm": 0.25,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.258,
+      "film_mm": 0.25,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.259,
+      "film_mm": 0.25,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.26,
+      "film_mm": 0.26,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.261,
+      "film_mm": 0.26,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.262,
+      "film_mm": 0.26,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.263,
+      "film_mm": 0.26,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.264,
+      "film_mm": 0.26,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.265,
+      "film_mm": 0.26,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.266,
+      "film_mm": 0.26,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.267,
+      "film_mm": 0.26,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.268,
+      "film_mm": 0.26,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.269,
+      "film_mm": 0.26,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.27,
+      "film_mm": 0.27,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.271,
+      "film_mm": 0.27,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.272,
+      "film_mm": 0.27,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.273,
+      "film_mm": 0.27,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.274,
+      "film_mm": 0.27,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.275,
+      "film_mm": 0.27,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.276,
+      "film_mm": 0.27,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.277,
+      "film_mm": 0.27,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.278,
+      "film_mm": 0.27,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.279,
+      "film_mm": 0.27,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.28,
+      "film_mm": 0.28,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.281,
+      "film_mm": 0.28,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.28200000000000003,
+      "film_mm": 0.28,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.28300000000000003,
+      "film_mm": 0.28,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.28400000000000003,
+      "film_mm": 0.28,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.28500000000000003,
+      "film_mm": 0.28,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.28600000000000003,
+      "film_mm": 0.28,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.28700000000000003,
+      "film_mm": 0.28,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.28800000000000003,
+      "film_mm": 0.28,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.289,
+      "film_mm": 0.28,
+      "residual_mm": 0.008999999999999952
+    },
+    {
+      "unshimmed_gap_mm": 0.29,
+      "film_mm": 0.29,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.291,
+      "film_mm": 0.29,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.292,
+      "film_mm": 0.29,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.293,
+      "film_mm": 0.29,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.294,
+      "film_mm": 0.29,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.295,
+      "film_mm": 0.29,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.296,
+      "film_mm": 0.29,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.297,
+      "film_mm": 0.29,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.298,
+      "film_mm": 0.29,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.299,
+      "film_mm": 0.29,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.3,
+      "film_mm": 0.3,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.301,
+      "film_mm": 0.3,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.302,
+      "film_mm": 0.3,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.303,
+      "film_mm": 0.3,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.304,
+      "film_mm": 0.3,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.305,
+      "film_mm": 0.3,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.306,
+      "film_mm": 0.3,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.307,
+      "film_mm": 0.3,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.308,
+      "film_mm": 0.3,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.309,
+      "film_mm": 0.3,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.31,
+      "film_mm": 0.31,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.311,
+      "film_mm": 0.31,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.312,
+      "film_mm": 0.31,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.313,
+      "film_mm": 0.31,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.314,
+      "film_mm": 0.31,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.315,
+      "film_mm": 0.31,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.316,
+      "film_mm": 0.31,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.317,
+      "film_mm": 0.31,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.318,
+      "film_mm": 0.31,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.319,
+      "film_mm": 0.31,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.32,
+      "film_mm": 0.32,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.321,
+      "film_mm": 0.32,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.322,
+      "film_mm": 0.32,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.323,
+      "film_mm": 0.32,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.324,
+      "film_mm": 0.32,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.325,
+      "film_mm": 0.32,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.326,
+      "film_mm": 0.32,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.327,
+      "film_mm": 0.32,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.328,
+      "film_mm": 0.32,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.329,
+      "film_mm": 0.32,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.33,
+      "film_mm": 0.33,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.331,
+      "film_mm": 0.33,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.332,
+      "film_mm": 0.33,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.333,
+      "film_mm": 0.33,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.334,
+      "film_mm": 0.33,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.335,
+      "film_mm": 0.33,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.336,
+      "film_mm": 0.33,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.337,
+      "film_mm": 0.33,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.338,
+      "film_mm": 0.33,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.339,
+      "film_mm": 0.33,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.34,
+      "film_mm": 0.34,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.341,
+      "film_mm": 0.34,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.342,
+      "film_mm": 0.34,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.343,
+      "film_mm": 0.34,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.34400000000000003,
+      "film_mm": 0.34,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.34500000000000003,
+      "film_mm": 0.34,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.34600000000000003,
+      "film_mm": 0.34,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.34700000000000003,
+      "film_mm": 0.34,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.34800000000000003,
+      "film_mm": 0.34,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.34900000000000003,
+      "film_mm": 0.34,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.35000000000000003,
+      "film_mm": 0.35000000000000003,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.35100000000000003,
+      "film_mm": 0.35000000000000003,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.352,
+      "film_mm": 0.35000000000000003,
+      "residual_mm": 0.0019999999999999463
+    },
+    {
+      "unshimmed_gap_mm": 0.353,
+      "film_mm": 0.35000000000000003,
+      "residual_mm": 0.002999999999999947
+    },
+    {
+      "unshimmed_gap_mm": 0.354,
+      "film_mm": 0.35000000000000003,
+      "residual_mm": 0.003999999999999948
+    },
+    {
+      "unshimmed_gap_mm": 0.355,
+      "film_mm": 0.35000000000000003,
+      "residual_mm": 0.004999999999999949
+    },
+    {
+      "unshimmed_gap_mm": 0.356,
+      "film_mm": 0.35000000000000003,
+      "residual_mm": 0.00599999999999995
+    },
+    {
+      "unshimmed_gap_mm": 0.357,
+      "film_mm": 0.35000000000000003,
+      "residual_mm": 0.006999999999999951
+    },
+    {
+      "unshimmed_gap_mm": 0.358,
+      "film_mm": 0.35000000000000003,
+      "residual_mm": 0.007999999999999952
+    },
+    {
+      "unshimmed_gap_mm": 0.359,
+      "film_mm": 0.35000000000000003,
+      "residual_mm": 0.008999999999999952
+    },
+    {
+      "unshimmed_gap_mm": 0.36,
+      "film_mm": 0.36,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.361,
+      "film_mm": 0.36,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.362,
+      "film_mm": 0.36,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.363,
+      "film_mm": 0.36,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.364,
+      "film_mm": 0.36,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.365,
+      "film_mm": 0.36,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.366,
+      "film_mm": 0.36,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.367,
+      "film_mm": 0.36,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.368,
+      "film_mm": 0.36,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.369,
+      "film_mm": 0.36,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.37,
+      "film_mm": 0.37,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.371,
+      "film_mm": 0.37,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.372,
+      "film_mm": 0.37,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.373,
+      "film_mm": 0.37,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.374,
+      "film_mm": 0.37,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.375,
+      "film_mm": 0.37,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.376,
+      "film_mm": 0.37,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.377,
+      "film_mm": 0.37,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.378,
+      "film_mm": 0.37,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.379,
+      "film_mm": 0.37,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.38,
+      "film_mm": 0.38,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.381,
+      "film_mm": 0.38,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.382,
+      "film_mm": 0.38,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.383,
+      "film_mm": 0.38,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.384,
+      "film_mm": 0.38,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.385,
+      "film_mm": 0.38,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.386,
+      "film_mm": 0.38,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.387,
+      "film_mm": 0.38,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.388,
+      "film_mm": 0.38,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.389,
+      "film_mm": 0.38,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.39,
+      "film_mm": 0.39,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.391,
+      "film_mm": 0.39,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.392,
+      "film_mm": 0.39,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.393,
+      "film_mm": 0.39,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.394,
+      "film_mm": 0.39,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.395,
+      "film_mm": 0.39,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.396,
+      "film_mm": 0.39,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.397,
+      "film_mm": 0.39,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.398,
+      "film_mm": 0.39,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.399,
+      "film_mm": 0.39,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.4,
+      "film_mm": 0.4,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.401,
+      "film_mm": 0.4,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.402,
+      "film_mm": 0.4,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.403,
+      "film_mm": 0.4,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.404,
+      "film_mm": 0.4,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.405,
+      "film_mm": 0.4,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.406,
+      "film_mm": 0.4,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.40700000000000003,
+      "film_mm": 0.4,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.40800000000000003,
+      "film_mm": 0.4,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.40900000000000003,
+      "film_mm": 0.4,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.41000000000000003,
+      "film_mm": 0.41000000000000003,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.41100000000000003,
+      "film_mm": 0.41000000000000003,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.41200000000000003,
+      "film_mm": 0.41000000000000003,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.41300000000000003,
+      "film_mm": 0.41000000000000003,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.41400000000000003,
+      "film_mm": 0.41000000000000003,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.41500000000000004,
+      "film_mm": 0.41000000000000003,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.41600000000000004,
+      "film_mm": 0.41000000000000003,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.417,
+      "film_mm": 0.41000000000000003,
+      "residual_mm": 0.006999999999999951
+    },
+    {
+      "unshimmed_gap_mm": 0.418,
+      "film_mm": 0.41000000000000003,
+      "residual_mm": 0.007999999999999952
+    },
+    {
+      "unshimmed_gap_mm": 0.419,
+      "film_mm": 0.41000000000000003,
+      "residual_mm": 0.008999999999999952
+    },
+    {
+      "unshimmed_gap_mm": 0.42,
+      "film_mm": 0.42,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.421,
+      "film_mm": 0.42,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.422,
+      "film_mm": 0.42,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.423,
+      "film_mm": 0.42,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.424,
+      "film_mm": 0.42,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.425,
+      "film_mm": 0.42,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.426,
+      "film_mm": 0.42,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.427,
+      "film_mm": 0.42,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.428,
+      "film_mm": 0.42,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.429,
+      "film_mm": 0.42,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.43,
+      "film_mm": 0.43,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.431,
+      "film_mm": 0.43,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.432,
+      "film_mm": 0.43,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.433,
+      "film_mm": 0.43,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.434,
+      "film_mm": 0.43,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.435,
+      "film_mm": 0.43,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.436,
+      "film_mm": 0.43,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.437,
+      "film_mm": 0.43,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.438,
+      "film_mm": 0.43,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.439,
+      "film_mm": 0.43,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.44,
+      "film_mm": 0.44,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.441,
+      "film_mm": 0.44,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.442,
+      "film_mm": 0.44,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.443,
+      "film_mm": 0.44,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.444,
+      "film_mm": 0.44,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.445,
+      "film_mm": 0.44,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.446,
+      "film_mm": 0.44,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.447,
+      "film_mm": 0.44,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.448,
+      "film_mm": 0.44,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.449,
+      "film_mm": 0.44,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.45,
+      "film_mm": 0.45,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.451,
+      "film_mm": 0.45,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.452,
+      "film_mm": 0.45,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.453,
+      "film_mm": 0.45,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.454,
+      "film_mm": 0.45,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.455,
+      "film_mm": 0.45,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.456,
+      "film_mm": 0.45,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.457,
+      "film_mm": 0.45,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.458,
+      "film_mm": 0.45,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.459,
+      "film_mm": 0.45,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.46,
+      "film_mm": 0.46,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.461,
+      "film_mm": 0.46,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.462,
+      "film_mm": 0.46,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.463,
+      "film_mm": 0.46,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.464,
+      "film_mm": 0.46,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.465,
+      "film_mm": 0.46,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.466,
+      "film_mm": 0.46,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.467,
+      "film_mm": 0.46,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.468,
+      "film_mm": 0.46,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.46900000000000003,
+      "film_mm": 0.46,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.47000000000000003,
+      "film_mm": 0.47000000000000003,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.47100000000000003,
+      "film_mm": 0.47000000000000003,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.47200000000000003,
+      "film_mm": 0.47000000000000003,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.47300000000000003,
+      "film_mm": 0.47000000000000003,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.47400000000000003,
+      "film_mm": 0.47000000000000003,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.47500000000000003,
+      "film_mm": 0.47000000000000003,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.47600000000000003,
+      "film_mm": 0.47000000000000003,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.47700000000000004,
+      "film_mm": 0.47000000000000003,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.47800000000000004,
+      "film_mm": 0.47000000000000003,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.47900000000000004,
+      "film_mm": 0.47000000000000003,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.48,
+      "film_mm": 0.48,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.481,
+      "film_mm": 0.48,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.482,
+      "film_mm": 0.48,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.483,
+      "film_mm": 0.48,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.484,
+      "film_mm": 0.48,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.485,
+      "film_mm": 0.48,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.486,
+      "film_mm": 0.48,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.487,
+      "film_mm": 0.48,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.488,
+      "film_mm": 0.48,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.489,
+      "film_mm": 0.48,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.49,
+      "film_mm": 0.49,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.491,
+      "film_mm": 0.49,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.492,
+      "film_mm": 0.49,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.493,
+      "film_mm": 0.49,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.494,
+      "film_mm": 0.49,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.495,
+      "film_mm": 0.49,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.496,
+      "film_mm": 0.49,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.497,
+      "film_mm": 0.49,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.498,
+      "film_mm": 0.49,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.499,
+      "film_mm": 0.49,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.5,
+      "film_mm": 0.5,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.501,
+      "film_mm": 0.5,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.502,
+      "film_mm": 0.5,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.503,
+      "film_mm": 0.5,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.504,
+      "film_mm": 0.5,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.505,
+      "film_mm": 0.5,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.506,
+      "film_mm": 0.5,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.507,
+      "film_mm": 0.5,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.508,
+      "film_mm": 0.5,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.509,
+      "film_mm": 0.5,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.51,
+      "film_mm": 0.51,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.511,
+      "film_mm": 0.51,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.512,
+      "film_mm": 0.51,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.513,
+      "film_mm": 0.51,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.514,
+      "film_mm": 0.51,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.515,
+      "film_mm": 0.51,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.516,
+      "film_mm": 0.51,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.517,
+      "film_mm": 0.51,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.518,
+      "film_mm": 0.51,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.519,
+      "film_mm": 0.51,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.52,
+      "film_mm": 0.52,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.521,
+      "film_mm": 0.52,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.522,
+      "film_mm": 0.52,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.523,
+      "film_mm": 0.52,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.524,
+      "film_mm": 0.52,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.525,
+      "film_mm": 0.52,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.526,
+      "film_mm": 0.52,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.527,
+      "film_mm": 0.52,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.528,
+      "film_mm": 0.52,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.529,
+      "film_mm": 0.52,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.53,
+      "film_mm": 0.53,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.531,
+      "film_mm": 0.53,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.532,
+      "film_mm": 0.53,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.533,
+      "film_mm": 0.53,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.534,
+      "film_mm": 0.53,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.535,
+      "film_mm": 0.53,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.536,
+      "film_mm": 0.53,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.537,
+      "film_mm": 0.53,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.538,
+      "film_mm": 0.53,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.539,
+      "film_mm": 0.53,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.54,
+      "film_mm": 0.54,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.541,
+      "film_mm": 0.54,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.542,
+      "film_mm": 0.54,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.543,
+      "film_mm": 0.54,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.544,
+      "film_mm": 0.54,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.545,
+      "film_mm": 0.54,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.546,
+      "film_mm": 0.54,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.547,
+      "film_mm": 0.54,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.548,
+      "film_mm": 0.54,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.549,
+      "film_mm": 0.54,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.55,
+      "film_mm": 0.55,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.551,
+      "film_mm": 0.55,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.552,
+      "film_mm": 0.55,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.553,
+      "film_mm": 0.55,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.554,
+      "film_mm": 0.55,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.555,
+      "film_mm": 0.55,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.556,
+      "film_mm": 0.55,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.557,
+      "film_mm": 0.55,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.558,
+      "film_mm": 0.55,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.559,
+      "film_mm": 0.55,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.56,
+      "film_mm": 0.56,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.561,
+      "film_mm": 0.56,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.562,
+      "film_mm": 0.56,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.5630000000000001,
+      "film_mm": 0.56,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.5640000000000001,
+      "film_mm": 0.56,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.5650000000000001,
+      "film_mm": 0.56,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.5660000000000001,
+      "film_mm": 0.56,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.5670000000000001,
+      "film_mm": 0.56,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.5680000000000001,
+      "film_mm": 0.56,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.5690000000000001,
+      "film_mm": 0.56,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.5700000000000001,
+      "film_mm": 0.5700000000000001,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.5710000000000001,
+      "film_mm": 0.5700000000000001,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.5720000000000001,
+      "film_mm": 0.5700000000000001,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.5730000000000001,
+      "film_mm": 0.5700000000000001,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.5740000000000001,
+      "film_mm": 0.5700000000000001,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.5750000000000001,
+      "film_mm": 0.5700000000000001,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.5760000000000001,
+      "film_mm": 0.5700000000000001,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.577,
+      "film_mm": 0.5700000000000001,
+      "residual_mm": 0.006999999999999895
+    },
+    {
+      "unshimmed_gap_mm": 0.578,
+      "film_mm": 0.5700000000000001,
+      "residual_mm": 0.007999999999999896
+    },
+    {
+      "unshimmed_gap_mm": 0.579,
+      "film_mm": 0.5700000000000001,
+      "residual_mm": 0.008999999999999897
+    },
+    {
+      "unshimmed_gap_mm": 0.58,
+      "film_mm": 0.58,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.581,
+      "film_mm": 0.58,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.582,
+      "film_mm": 0.58,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.583,
+      "film_mm": 0.58,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.584,
+      "film_mm": 0.58,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.585,
+      "film_mm": 0.58,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.586,
+      "film_mm": 0.58,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.587,
+      "film_mm": 0.58,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.588,
+      "film_mm": 0.58,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.589,
+      "film_mm": 0.58,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.59,
+      "film_mm": 0.59,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.591,
+      "film_mm": 0.59,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.592,
+      "film_mm": 0.59,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.593,
+      "film_mm": 0.59,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.594,
+      "film_mm": 0.59,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.595,
+      "film_mm": 0.59,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.596,
+      "film_mm": 0.59,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.597,
+      "film_mm": 0.59,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.598,
+      "film_mm": 0.59,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.599,
+      "film_mm": 0.59,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.6,
+      "film_mm": 0.6,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.601,
+      "film_mm": 0.6,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.602,
+      "film_mm": 0.6,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.603,
+      "film_mm": 0.6,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.604,
+      "film_mm": 0.6,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.605,
+      "film_mm": 0.6,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.606,
+      "film_mm": 0.6,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.607,
+      "film_mm": 0.6,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.608,
+      "film_mm": 0.6,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.609,
+      "film_mm": 0.6,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.61,
+      "film_mm": 0.61,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.611,
+      "film_mm": 0.61,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.612,
+      "film_mm": 0.61,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.613,
+      "film_mm": 0.61,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.614,
+      "film_mm": 0.61,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.615,
+      "film_mm": 0.61,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.616,
+      "film_mm": 0.61,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.617,
+      "film_mm": 0.61,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.618,
+      "film_mm": 0.61,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.619,
+      "film_mm": 0.61,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.62,
+      "film_mm": 0.62,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.621,
+      "film_mm": 0.62,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.622,
+      "film_mm": 0.62,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.623,
+      "film_mm": 0.62,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.624,
+      "film_mm": 0.62,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.625,
+      "film_mm": 0.62,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.626,
+      "film_mm": 0.62,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.627,
+      "film_mm": 0.62,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.628,
+      "film_mm": 0.62,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.629,
+      "film_mm": 0.62,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.63,
+      "film_mm": 0.63,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.631,
+      "film_mm": 0.63,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.632,
+      "film_mm": 0.63,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.633,
+      "film_mm": 0.63,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.634,
+      "film_mm": 0.63,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.635,
+      "film_mm": 0.63,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.636,
+      "film_mm": 0.63,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.637,
+      "film_mm": 0.63,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.638,
+      "film_mm": 0.63,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.639,
+      "film_mm": 0.63,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.64,
+      "film_mm": 0.64,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.641,
+      "film_mm": 0.64,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.642,
+      "film_mm": 0.64,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.643,
+      "film_mm": 0.64,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.644,
+      "film_mm": 0.64,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.645,
+      "film_mm": 0.64,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.646,
+      "film_mm": 0.64,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.647,
+      "film_mm": 0.64,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.648,
+      "film_mm": 0.64,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.649,
+      "film_mm": 0.64,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.65,
+      "film_mm": 0.65,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.651,
+      "film_mm": 0.65,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.652,
+      "film_mm": 0.65,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.653,
+      "film_mm": 0.65,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.654,
+      "film_mm": 0.65,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.655,
+      "film_mm": 0.65,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.656,
+      "film_mm": 0.65,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.657,
+      "film_mm": 0.65,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.658,
+      "film_mm": 0.65,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.659,
+      "film_mm": 0.65,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.66,
+      "film_mm": 0.66,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.661,
+      "film_mm": 0.66,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.662,
+      "film_mm": 0.66,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.663,
+      "film_mm": 0.66,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.664,
+      "film_mm": 0.66,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.665,
+      "film_mm": 0.66,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.666,
+      "film_mm": 0.66,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.667,
+      "film_mm": 0.66,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.668,
+      "film_mm": 0.66,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.669,
+      "film_mm": 0.66,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.67,
+      "film_mm": 0.67,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.671,
+      "film_mm": 0.67,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.672,
+      "film_mm": 0.67,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.673,
+      "film_mm": 0.67,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.674,
+      "film_mm": 0.67,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.675,
+      "film_mm": 0.67,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.676,
+      "film_mm": 0.67,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.677,
+      "film_mm": 0.67,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.678,
+      "film_mm": 0.67,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.679,
+      "film_mm": 0.67,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.68,
+      "film_mm": 0.68,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.681,
+      "film_mm": 0.68,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.682,
+      "film_mm": 0.68,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.683,
+      "film_mm": 0.68,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.684,
+      "film_mm": 0.68,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.685,
+      "film_mm": 0.68,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.686,
+      "film_mm": 0.68,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.687,
+      "film_mm": 0.68,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.6880000000000001,
+      "film_mm": 0.68,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.6890000000000001,
+      "film_mm": 0.68,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.6900000000000001,
+      "film_mm": 0.6900000000000001,
+      "residual_mm": 0.0
+    },
+    {
+      "unshimmed_gap_mm": 0.6910000000000001,
+      "film_mm": 0.6900000000000001,
+      "residual_mm": 0.0010000000000000009
+    },
+    {
+      "unshimmed_gap_mm": 0.6920000000000001,
+      "film_mm": 0.6900000000000001,
+      "residual_mm": 0.0020000000000000018
+    },
+    {
+      "unshimmed_gap_mm": 0.6930000000000001,
+      "film_mm": 0.6900000000000001,
+      "residual_mm": 0.0030000000000000027
+    },
+    {
+      "unshimmed_gap_mm": 0.6940000000000001,
+      "film_mm": 0.6900000000000001,
+      "residual_mm": 0.0040000000000000036
+    },
+    {
+      "unshimmed_gap_mm": 0.6950000000000001,
+      "film_mm": 0.6900000000000001,
+      "residual_mm": 0.0050000000000000044
+    },
+    {
+      "unshimmed_gap_mm": 0.6960000000000001,
+      "film_mm": 0.6900000000000001,
+      "residual_mm": 0.006000000000000005
+    },
+    {
+      "unshimmed_gap_mm": 0.6970000000000001,
+      "film_mm": 0.6900000000000001,
+      "residual_mm": 0.007000000000000006
+    },
+    {
+      "unshimmed_gap_mm": 0.6980000000000001,
+      "film_mm": 0.6900000000000001,
+      "residual_mm": 0.008000000000000007
+    },
+    {
+      "unshimmed_gap_mm": 0.6990000000000001,
+      "film_mm": 0.6900000000000001,
+      "residual_mm": 0.009000000000000008
+    },
+    {
+      "unshimmed_gap_mm": 0.7,
+      "film_mm": 0.7,
+      "residual_mm": 0.0
+    }
+  ],
+  "range_pass": true,
+  "adjustment": "Select PET plus adhesive stack by measured total thickness; values are stack targets, not a claim that nominal film gauges equal glued thickness."
+}
