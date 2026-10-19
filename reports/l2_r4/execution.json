@@ -1,35 +1,28 @@
 {
   "status": "FAILED",
-  "phase": "source_rebuild_candidate_1",
-  "source_commit": "9dafffb6244a2d440f3d6430aa650143107b08a2",
+  "phase": "candidate_1_exact_diagnostics",
+  "source_commit": "f7331588a8a11cd0500a9cd1f8b560ded2e22d06",
   "steps": [
     {
       "script": "cad/l2_r4/bootstrap_build.py",
       "returncode": 0,
-      "seconds": 0.03,
-      "available_memory_before_GB": 15.668842496,
+      "seconds": 0.67,
+      "available_memory_before_GB": 15.602466816,
       "log_tail": "R4 directories and unchanged R3 components prepared\n"
     },
     {
       "script": "cad/l2_r4/restore_inputs.py",
       "returncode": 0,
-      "seconds": 4.56,
-      "available_memory_before_GB": 15.670095872,
+      "seconds": 3.31,
+      "available_memory_before_GB": 15.606366208,
       "log_tail": "Restored/retained 72 baseline components\n"
     },
     {
       "script": "cad/l2_r4/side_module.py",
-      "returncode": 0,
-      "seconds": 21.11,
-      "available_memory_before_GB": 15.592267776,
-      "log_tail": "EXPORTED SF_RETAINER 87.381\nEXPORTED SR_RETAINER 148.8585\nEXPORTED SIDE_FRONT_KEY 86.1728\nEXPORTED SIDE_REAR_KEY 91.941\nEXPORTED SF_D2F_01F 488.5038\nEXPORTED SF_TUNING_SHIM_0p33 1.9911\nEXPORTED SF_VERTICAL_PIN 4.3197\nEXPORTED SR_D2F_01F 488.5038\nEXPORTED SR_TUNING_SHIM_0p33 1.9911\nEXPORTED SR_VERTICAL_PIN 4.3197\nEXPORTED SF_RETAINER_M2x5 23.851\nEXPORTED SR_RETAINER_M2x5 23.851\n"
-    },
-    {
-      "script": "cad/l2_r4/build_body.py",
       "returncode": 1,
-      "seconds": 125.72,
-      "available_memory_before_GB": 15.725809664,
-      "log_tail": "Mother surfaces 0.5590953826904297\nSkin and six windows 25.249358892440796\nSupport 0 25.84247398376465\nSupport 8 32.917941093444824\nSupport 16 42.9275267124176\nSupport 24 50.957910776138306\nSupport 32 59.39794397354126\nTraceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/build_body.py\", line 94, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/build_body.py\", line 92, in main\n    row=export(body,'BODY');save('body_build.json',dict(solid=row,seconds=time.time()-start,windows=windows,foot_glue_z=5.2,source_changes=['obsolete side socket loop omitted','thumb-side ear arms lowered and holes drilled after joining','Y54 arms removed outside X +/-6','rear diagonals 1.6 x 2.8','r3 side rim and bearing lugs'],source_level_rebuild=True))\n        ^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/common.py\", line 38, in export\n    row['mesh']=dict(watertight=bool(m.is_watertight),winding_consistent=bool(m.is_winding_consistent),components=len(m.split(only_watertight=False)),triangles=len(m.faces),bounds_mm=m.bounds.tolist(),holes_patched=0)\n                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/trimesh/base.py\", line 1454, in split\n    return graph.split(self, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/trimesh/graph.py\", line 391, in split\n    return mesh.submesh(\n           ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/trimesh/base.py\", line 2957, in submesh\n    return util.submesh(\n           ^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/trimesh/util.py\", line 1758, in submesh\n    watertight = [len(i.faces) >= 4 and i.fill_holes() for i in result]\n                                        ^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/trimesh/base.py\", line 1981, in fill_holes\n    return repair.fill_holes(self)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/trimesh/repair.py\", line 246, in fill_holes\n    holes = nx.cycle_basis(nx.from_edgelist(boundary))\n            ^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/trimesh/exceptions.py\", line 35, in __getattribute__\n    raise exc_type(*exc_args)\nModuleNotFoundError: No module named 'networkx'\n"
+      "seconds": 1.75,
+      "available_memory_before_GB": 15.428636672,
+      "log_tail": "Traceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/side_module.py\", line 122, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/side_module.py\", line 115, in main\n    for n in ['SF','SR']:rows.append(export(retainer(n),n+'_RETAINER'))\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/common.py\", line 38, in export\n    row['mesh']=dict(watertight=bool(m.is_watertight),winding_consistent=bool(m.is_winding_consistent),components=len(trimesh.graph.connected_components(m.face_adjacency,nodes=range(len(m.faces)),engine='scipy',min_len=1)),triangles=len(m.faces),bounds_mm=m.bounds.tolist(),holes_patched=0)\n                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/trimesh/graph.py\", line 472, in connected_components\n    counts.append(nodes.max())\n                  ^^^^^^^^^\nAttributeError: 'range' object has no attribute 'max'\n"
     }
   ]
 }
