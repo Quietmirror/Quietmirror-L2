@@ -42,7 +42,8 @@
         ]
       },
       "rod_radius_mm": 1.05,
-      "deviation": "Axis X29 to X27.5 and upper lug top20.8 to20.6 prevent measured external skin breakthrough; C7 journal/ear heights18.25/19.35. C8 rod radius1.05, SF inner skin pocket around post, SR front edge58.35. Fixed BODY unchanged; source corrections require fresh cap checks."
+      "deviation": "Axis X29 to X27.5 and upper lug top20.8 to20.6 prevent measured external skin breakthrough; C7 journal/ear heights18.25/19.35. C8 rod radius1.05, SF inner skin pocket around post, SR front edge58.35. Fixed BODY unchanged; source corrections require fresh cap checks.",
+      "rod_to_crown_finish": "C10: remove rod crescent outside backing sphere over x=end+0.40..end+0.50; pad, contact skin, BODY and retainers unchanged"
     },
     {
       "name": "SIDE_REAR_KEY",
@@ -84,7 +85,8 @@
         ]
       },
       "rod_radius_mm": 1.05,
-      "deviation": "Axis X29 to X27.5 and upper lug top20.8 to20.6 prevent measured external skin breakthrough; C7 journal/ear heights18.25/19.35. C8 rod radius1.05, SF inner skin pocket around post, SR front edge58.35. Fixed BODY unchanged; source corrections require fresh cap checks."
+      "deviation": "Axis X29 to X27.5 and upper lug top20.8 to20.6 prevent measured external skin breakthrough; C7 journal/ear heights18.25/19.35. C8 rod radius1.05, SF inner skin pocket around post, SR front edge58.35. Fixed BODY unchanged; source corrections require fresh cap checks.",
+      "rod_to_crown_finish": "C10: remove rod crescent outside backing sphere over x=end+0.40..end+0.50; pad, contact skin, BODY and retainers unchanged"
     }
   ],
   "frame": "Integrated source feature of BODY, not a separate printed carrier",
@@ -110,5 +112,5 @@
   "pad_height": 0.52,
   "author_commit": "f637118455159515a200e6e0f35c0eea1c7d1633",
   "physical_tests": "HARDWARE_PENDING",
-  "candidate": "C9 cap perimeter and simple internal post clearance"
+  "candidate": "C10 exact rod-to-pad backing-sphere finish"
 }
