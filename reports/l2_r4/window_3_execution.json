@@ -1,0 +1,14 @@
+{
+  "status": "FAILED",
+  "phase": "C10_window_3",
+  "source_commit": "b4da85e3934101e4021af2617851f0ed54a2e898",
+  "steps": [
+    {
+      "script": "cad/l2_r4/window_3.py",
+      "returncode": 1,
+      "seconds": 5.02,
+      "available_memory_before_GB": 15.63795456,
+      "log_tail": "Traceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/window_3.py\", line 2, in <module>\n    if __name__=='__main__':main(3,'window_3.json')\n                            ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/window_checks.py\", line 35, in main\n    b=load('BODY');old=baseline('BODY')\n                       ^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/common.py\", line 27, in baseline\n    def baseline(n):return load(n,ROOT/'exports/rebuild_r3_2/assembly')\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/common.py\", line 26, in load\n    def load(name,base=None):return cq.importers.importStep(str((base or OUT/'parts')/(name+'.step'))).val()\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/cadquery/occ_impl/importers/__init__.py\", line 104, in importStep\n    raise ValueError(\"STEP File could not be loaded\")\nValueError: STEP File could not be loaded\n"
+    }
+  ]
+}
