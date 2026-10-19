@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "full_original_distance_battery_compact",
   "source_commit": "999ef82b9921033978dcd59ce34234ae0fc78db8",
   "steps": [
