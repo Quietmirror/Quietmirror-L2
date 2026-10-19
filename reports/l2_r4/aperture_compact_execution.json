@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "full_original_distance_battery_compact",
+  "source_commit": "999ef82b9921033978dcd59ce34234ae0fc78db8",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 5.16,
+      "available_memory_before_GB": 15.724732416,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
