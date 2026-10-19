@@ -9,7 +9,7 @@ def main():
     for k in KEYS:
         s,p=key(outer,k);rows.append(export(s,k['name']));params.append(p)
         f2,_=key(outer,k,.3);cq.exporters.export(f2,str(OUT/'reference'/(k['name']+'_F2_TRIAL.step')))
-    data=json.loads((RP/'parameters_implemented.json').read_text());data['side_keys']=params;data['candidate']='C7 concealed cap clearances';save('parameters_implemented.json',data)
+    data=json.loads((RP/'parameters_implemented.json').read_text());data['side_keys']=params;data['candidate']='C8 rod floor, post skin and rear corner clearances';save('parameters_implemented.json',data)
     old=json.loads((RP/'side_module_solids.json').read_text());replacements={r['name']:r for r in rows}
     save('side_module_solids.json',[replacements.get(r['name'],r) for r in old])
 

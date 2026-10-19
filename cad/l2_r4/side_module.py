@@ -7,13 +7,14 @@ import math
 from common import *
 
 KEYS=[dict(name='SIDE_FRONT_KEY',short='SF',y0=44.2,y1=56.3,hinge_x=27.5,hinge_y=45.3,rod_y=50.25,rod_end=25.97,stop_y=[54.,55.2],stop_x=29.74,sign=1,pad_y_offset=0.2018),
-      dict(name='SIDE_REAR_KEY',short='SR',y0=58.1,y1=70.8,hinge_x=27.5,hinge_y=69.7,rod_y=64.45,rod_end=26.47,stop_y=[59.3,60.5],stop_x=30.04,sign=-1,pad_y_offset=-0.1617)]
+      dict(name='SIDE_REAR_KEY',short='SR',y0=58.35,y1=70.8,hinge_x=27.5,hinge_y=69.7,rod_y=64.45,rod_end=26.47,stop_y=[59.3,60.5],stop_x=30.04,sign=-1,pad_y_offset=-0.1617)]
 UPPER_LUG_TOP=20.6
 EAR_RADIUS=2.1
 JOURNAL_TOP=18.25
 EAR_TOP=19.35
 BRIDGE_BOTTOM=18.1
 APERTURE_FAR_END_RELIEF=.15
+ROD_RADIUS=1.05
 PAD_RADIUS=2.175*2.6/3;PAD_HEIGHT=.6*2.6/3
 RETAINER_MOUNTS={'SF':dict(x=16.6,y=45.7,pin_x=17.4,pin_y=54.),'SR':dict(x=16.6,y=70.4,pin_x=17.9,pin_y=56.5)}
 
@@ -73,7 +74,10 @@ def fixed_features(outer):
     adds=[box(28.65,35,56.6,57.8,14.5,21).intersect(outer),box(28.65,35,71.1,72.1,14.5,21).intersect(outer)]
     cuts=[];lands=[]
     for k in KEYS:
-        a,b=k['y0']-.3,k['y1']+.3;y=k['hinge_y'];sg=k['sign'];hx=k['hinge_x']
+        # The C8 moving cap front is shortened0.25mm. Retain C6 BODY's
+        # aperture dimensions independently so key correction cannot rebuild
+        # an altered frame or invalidate the completed stiffness geometry.
+        a,b=(58.1 if k['short']=='SR' else k['y0'])-.3,k['y1']+.3;y=k['hinge_y'];sg=k['sign'];hx=k['hinge_x']
         if sg>0:b+=APERTURE_FAR_END_RELIEF
         else:a-=APERTURE_FAR_END_RELIEF
         cuts.append(yz_mask(a,b,15.2,19.8,1.8))
@@ -118,12 +122,20 @@ def key(outer,k,offset=.2):
     ear=box(hx-EAR_RADIUS,hx,y-.4,y+.4,18.6,EAR_TOP)
     # Inboard barrel-to-arm root stays within the R1.55 journal clearance.
     bridge=box(hx-1.3,hx-.7,y-.4,y+.4,BRIDGE_BOTTOM,19.0).intersect(cyl(1.25,19.-BRIDGE_BOTTOM,(hx,y,BRIDGE_BOTTOM)))
-    rod=cyl(1.20,34-k['rod_end']-.40,(k['rod_end']+.40,k['rod_y'],16.6),(1,0,0)).intersect(surface)
+    rod=cyl(ROD_RADIUS,34-k['rod_end']-.40,(k['rod_end']+.40,k['rod_y'],16.6),(1,0,0)).intersect(surface)
     theta=math.radians(k['angle']);yc=k['stop_y'][1] if theta>0 else k['stop_y'][0]
     stop_x=hx+(k['stop_x']-hx+(yc-y)*math.sin(theta))/math.cos(theta)
     stop=box(stop_x,34,*k['stop_y'],15.9,16.4).intersect(surface)
+    if k['short']=='SF':
+        # Source-defined clearance pocket around the fixed upper post. This
+        # removes interfering inner skin, then the separate intended stop rib
+        # is fused back. No whole-pair clearance exception is introduced.
+        fixed_post_with_clearance=box(25.5-.32,29.74+.32,53.6-.32,55.4+.32,15.7-.32,16.4+.32)
+        for angle in np.linspace(0,k['angle']+.3,37):
+            tool=fixed_post_with_clearance.rotate((hx,y,0),(hx,y,1),-float(angle))
+            cap=cap.cut(tool)
     s=unite(cap,hinge,web,ear,bridge,rod,crown(k),stop).cut(cyl(.525,6,(hx,y,14.5))).clean()
-    return valid(s,k['name']),dict(**k,stop_rib_inner_x=stop_x,edge_R0p3_applied=edge_finish,cap_x_offset=offset,hinge_journal_z=[16.4,JOURNAL_TOP],upper_lug_z=[19.8,UPPER_LUG_TOP],hinge_bridge=f'inboard root clipped to R1.25; z{BRIDGE_BOTTOM}..19.0',outward_stop_ear=dict(x=[hx-EAR_RADIUS,hx],z=[18.6,EAR_TOP]),deviation='Axis X29 to X27.5 and upper lug top20.8 to20.6 prevent measured external skin breakthrough; C7 journal top18.25 and ear top19.35 correct measured nonfunctional gaps. External key surface unchanged.')
+    return valid(s,k['name']),dict(**k,stop_rib_inner_x=stop_x,edge_R0p3_applied=edge_finish,cap_x_offset=offset,hinge_journal_z=[16.4,JOURNAL_TOP],upper_lug_z=[19.8,UPPER_LUG_TOP],hinge_bridge=f'inboard root clipped to R1.25; z{BRIDGE_BOTTOM}..19.0',outward_stop_ear=dict(x=[hx-EAR_RADIUS,hx],z=[18.6,EAR_TOP]),rod_radius_mm=ROD_RADIUS,deviation='Axis X29 to X27.5 and upper lug top20.8 to20.6 prevent measured external skin breakthrough; C7 journal/ear heights18.25/19.35. C8 rod radius1.05, SF inner skin pocket around post, SR front edge58.35. Fixed BODY unchanged; source corrections require fresh cap checks.')
 
 def side_references():
     refs={}
