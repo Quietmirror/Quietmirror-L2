@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "FAILED",
   "phase": "C10_window_5",
   "source_commit": "b409d40ad6549e7a46b0ee325a329d84d819fabe",
   "steps": [
@@ -9,6 +9,13 @@
       "seconds": 4.07,
       "available_memory_before_GB": 15.68862208,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/window_5.py",
+      "returncode": 1,
+      "seconds": 20.37,
+      "available_memory_before_GB": 15.467257856,
+      "log_tail": "Traceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/window_5.py\", line 2, in <module>\n    if __name__=='__main__':main(5,'window_5.json')\n                            ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/window_checks.py\", line 83, in main\n    q=p;assert abs(q.z-oi[1])<1e-5,(name,i,q.toTuple(),oi)\n               ^^^^^^^^^^^^^^^^^^^\nAssertionError: ('REAR_TRAP_R', 52, (-6.330335880900962, 64.76735911724231, 29.734571869767727), (5.000000003569929, 29.73456052081859))\n"
     }
   ]
 }
