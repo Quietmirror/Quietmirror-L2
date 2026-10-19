@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "C14 ordinary static clearances",
+  "source_commit": "d7a7b0388d1f1b20882453a446f63a53f41abcd2",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 4.59,
+      "available_memory_before_GB": 15.574003712,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
