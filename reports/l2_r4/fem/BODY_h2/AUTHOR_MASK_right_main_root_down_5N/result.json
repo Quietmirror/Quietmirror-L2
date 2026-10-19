@@ -78,7 +78,7 @@
   },
   "deck_sha256": "70203412cc9a8a511b86d06bfa1ba6da76171597718daa1dba5568cdfd8755f4",
   "dat_sha256": "0eeb45b1f14ed6e5cca2e08a971e9a3edb7afdc82ec8e4f63292a5b1dcde8620",
-  "solving_seconds": 32.029038121999974,
+  "solving_seconds": 32.531520287000035,
   "applied_force_N": [
     0.0,
     0.0,
@@ -179,8 +179,8 @@
   "solver_backend_verified": "SPOOLES in actual CalculiX log",
   "solver_runtime": {
     "returncode": 0,
-    "elapsed_seconds": 32.029038121999974,
-    "peak_resident_GB": 2.255384576,
+    "elapsed_seconds": 32.531520287000035,
+    "peak_resident_GB": 2.268852224,
     "measurement": "psutil process RSS sampled every 0.25 s",
     "solver_command": [
       "/usr/bin/ccx",
@@ -188,5 +188,5 @@
       "solve"
     ]
   },
-  "available_memory_before_solve_GB": 14.947745792
+  "available_memory_before_solve_GB": 14.893494272
 }
