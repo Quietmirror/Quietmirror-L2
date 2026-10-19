@@ -1,0 +1,30 @@
+{
+  "status": "RUNNING",
+  "rows": [
+    {
+      "size_mm": 2.4,
+      "case": "left_main_root_down_5N",
+      "protocol": "written",
+      "root_y_interval_mm": [
+        35.5,
+        42.5
+      ],
+      "stiffness_N_per_mm": 25.892950422229966,
+      "published_reference_N_per_mm": 24.95,
+      "difference_from_published_fraction": 0.03779360409739341,
+      "equilibrium_pass": true,
+      "solver_runtime": {
+        "returncode": 0,
+        "elapsed_seconds": 22.77426037799998,
+        "peak_resident_GB": 1.539416064,
+        "measurement": "psutil process RSS sampled every 0.25 s",
+        "solver_command": [
+          "/usr/bin/ccx",
+          "-i",
+          "solve"
+        ]
+      }
+    }
+  ],
+  "scope": "Reference protocol discrepancy investigation only; final R4 FEM is separate"
+}
