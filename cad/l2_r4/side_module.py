@@ -6,8 +6,8 @@ unchanged in cad/l2_r4_author; this implementation is independently checked.
 import math
 from common import *
 
-KEYS=[dict(name='SIDE_FRONT_KEY',short='SF',y0=44.2,y1=56.3,hinge_x=27.5,hinge_y=45.3,rod_y=50.25,rod_end=25.97,stop_y=[54.,55.2],stop_x=29.74,sign=1,pad_y_offset=0.2018),
-      dict(name='SIDE_REAR_KEY',short='SR',y0=58.35,y1=70.8,hinge_x=27.5,hinge_y=69.7,rod_y=64.45,rod_end=26.47,stop_y=[59.3,60.5],stop_x=30.04,sign=-1,pad_y_offset=-0.1617)]
+KEYS=[dict(name='SIDE_FRONT_KEY',short='SF',y0=44.3,y1=56.05,hinge_x=27.5,hinge_y=45.3,rod_y=50.25,rod_end=25.97,stop_y=[54.,55.2],stop_x=29.74,sign=1,pad_y_offset=0.2018),
+      dict(name='SIDE_REAR_KEY',short='SR',y0=58.35,y1=70.7,hinge_x=27.5,hinge_y=69.7,rod_y=64.45,rod_end=26.47,stop_y=[59.3,60.5],stop_x=30.04,sign=-1,pad_y_offset=-0.1617)]
 UPPER_LUG_TOP=20.6
 EAR_RADIUS=2.1
 JOURNAL_TOP=18.25
@@ -15,6 +15,8 @@ EAR_TOP=19.35
 BRIDGE_BOTTOM=18.1
 APERTURE_FAR_END_RELIEF=.15
 ROD_RADIUS=1.05
+CAP_BOTTOM=15.65
+CAP_TOP=19.45
 PAD_RADIUS=2.175*2.6/3;PAD_HEIGHT=.6*2.6/3
 RETAINER_MOUNTS={'SF':dict(x=16.6,y=45.7,pin_x=17.4,pin_y=54.),'SR':dict(x=16.6,y=70.4,pin_x=17.9,pin_y=56.5)}
 
@@ -77,7 +79,8 @@ def fixed_features(outer):
         # The C8 moving cap front is shortened0.25mm. Retain C6 BODY's
         # aperture dimensions independently so key correction cannot rebuild
         # an altered frame or invalidate the completed stiffness geometry.
-        a,b=(58.1 if k['short']=='SR' else k['y0'])-.3,k['y1']+.3;y=k['hinge_y'];sg=k['sign'];hx=k['hinge_x']
+        body_y0,body_y1=(44.2,56.3) if k['short']=='SF' else (58.1,70.8)
+        a,b=body_y0-.3,body_y1+.3;y=k['hinge_y'];sg=k['sign'];hx=k['hinge_x']
         if sg>0:b+=APERTURE_FAR_END_RELIEF
         else:a-=APERTURE_FAR_END_RELIEF
         cuts.append(yz_mask(a,b,15.2,19.8,1.8))
@@ -105,7 +108,7 @@ def crown(k,shift=0.):
     return sphere.intersect(box(end,end+PAD_HEIGHT,y-1.31,y+1.31,15.29,17.91))
 
 def key(outer,k,offset=.2):
-    mask=yz_mask(k['y0'],k['y1'],15.5,19.5,1.5);surface=outer.translate((offset,0,0))
+    mask=yz_mask(k['y0'],k['y1'],CAP_BOTTOM,CAP_TOP,1.5);surface=outer.translate((offset,0,0))
     cap=surface.cut(outer.translate((offset-1.2,0,0))).intersect(mask).clean()
     edge_finish=False
     try:
@@ -126,14 +129,17 @@ def key(outer,k,offset=.2):
     theta=math.radians(k['angle']);yc=k['stop_y'][1] if theta>0 else k['stop_y'][0]
     stop_x=hx+(k['stop_x']-hx+(yc-y)*math.sin(theta))/math.cos(theta)
     stop=box(stop_x,34,*k['stop_y'],15.9,16.4).intersect(surface)
-    if k['short']=='SF':
-        # Source-defined clearance pocket around the fixed upper post. This
-        # removes interfering inner skin, then the separate intended stop rib
-        # is fused back. No whole-pair clearance exception is introduced.
-        fixed_post_with_clearance=box(25.5-.32,29.74+.32,53.6-.32,55.4+.32,15.7-.32,16.4+.32)
-        for angle in np.linspace(0,k['angle']+.3,37):
-            tool=fixed_post_with_clearance.rotate((hx,y,0),(hx,y,1),-float(angle))
-            cap=cap.cut(tool)
+    # A simple inner pocket encloses the source upper-post clearance sweep.
+    # Keep the intended stop as a separate rib fused back after pocketing.
+    # One planar pocket avoids dozens of tiny stepped boolean faces.
+    x0,ya,yb=(25.5,53.6,55.4) if k['short']=='SF' else (26.,59.1,61.1)
+    q=np.array([[x,yy,z] for x in [x0-.32,k['stop_x']+.32] for yy in [ya-.32,yb+.32] for z in [15.7-.32,16.4+.32]])
+    points=[]
+    for angle in np.linspace(0,k['angle']+k['sign']*.3,37):
+        a=math.radians(-float(angle));rot=np.array([[math.cos(a),-math.sin(a),0],[math.sin(a),math.cos(a),0],[0,0,1]])
+        points.extend((q-np.array([hx,y,0]))@rot.T+np.array([hx,y,0]))
+    low,high=np.min(points,axis=0)-.02,np.max(points,axis=0)+.02
+    cap=cap.cut(box(low[0],high[0],low[1],high[1],low[2],high[2])).clean()
     s=unite(cap,hinge,web,ear,bridge,rod,crown(k),stop).cut(cyl(.525,6,(hx,y,14.5))).clean()
     return valid(s,k['name']),dict(**k,stop_rib_inner_x=stop_x,edge_R0p3_applied=edge_finish,cap_x_offset=offset,hinge_journal_z=[16.4,JOURNAL_TOP],upper_lug_z=[19.8,UPPER_LUG_TOP],hinge_bridge=f'inboard root clipped to R1.25; z{BRIDGE_BOTTOM}..19.0',outward_stop_ear=dict(x=[hx-EAR_RADIUS,hx],z=[18.6,EAR_TOP]),rod_radius_mm=ROD_RADIUS,deviation='Axis X29 to X27.5 and upper lug top20.8 to20.6 prevent measured external skin breakthrough; C7 journal/ear heights18.25/19.35. C8 rod radius1.05, SF inner skin pocket around post, SR front edge58.35. Fixed BODY unchanged; source corrections require fresh cap checks.')
 
