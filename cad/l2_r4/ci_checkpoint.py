@@ -16,10 +16,11 @@ def main():
     git('config','user.name','github-actions[bot]');git('config','user.email','41898282+github-actions[bot]@users.noreply.github.com')
     git('add','--',*paths)
     if not git('diff','--cached','--name-only'):return
+    parent=git('rev-parse','HEAD')
     git('commit','-m','Record L2-r4 candidate outputs and actual validation status')
     # A concurrent source update must never be overwritten.
     head=git('ls-remote','origin','refs/heads/l2-r4-build').split()[0]
-    target='l2-r4-build' if head==os.environ['GITHUB_SHA'] else 'l2-r4-result-'+os.environ['GITHUB_RUN_ID']
+    target='l2-r4-build' if head==parent else 'l2-r4-result-'+os.environ['GITHUB_RUN_ID']
     git('push','origin','HEAD:refs/heads/'+target,auth=True)
     print('CHECKPOINT',target,git('rev-parse','HEAD'))
 if __name__=='__main__':main()

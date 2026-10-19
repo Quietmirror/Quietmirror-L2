@@ -9,7 +9,7 @@ from common import *
 KEYS=[dict(name='SIDE_FRONT_KEY',short='SF',y0=44.2,y1=56.3,hinge_y=45.3,rod_y=50.25,rod_end=25.97,stop_y=[54.,55.2],stop_x=29.74,sign=1,pad_y_offset=0.2018),
       dict(name='SIDE_REAR_KEY',short='SR',y0=58.1,y1=70.8,hinge_y=69.7,rod_y=64.45,rod_end=26.47,stop_y=[59.3,60.5],stop_x=30.04,sign=-1,pad_y_offset=-0.1617)]
 PAD_RADIUS=2.175*2.6/3;PAD_HEIGHT=.6*2.6/3
-RETAINER_MOUNTS={'SF':dict(x=16.6,y=45.7,pin_y=54.),'SR':dict(x=16.6,y=70.4,pin_y=56.5)}
+RETAINER_MOUNTS={'SF':dict(x=16.6,y=45.7,pin_x=17.4,pin_y=54.),'SR':dict(x=16.6,y=70.4,pin_x=17.9,pin_y=56.5)}
 
 def inward_travel(k,theta):
     t=math.radians(theta);x=k['rod_end']-29;y=k['rod_y']+k['pad_y_offset']-k['hinge_y']
@@ -38,11 +38,11 @@ def integrated_frame(outer):
     bits.append(box(25.5,27.9,41.8,43.25,13.7,14.6))
     for mount in RETAINER_MOUNTS.values():
         bits.append(cyl(2.05,1.6,(mount['x'],mount['y'],12.1)))
-        bits.append(cyl(1.5,1.6,(17.9,mount['pin_y'],12.1)))
+        bits.append(cyl(1.5,1.6,(mount['pin_x'],mount['pin_y'],12.1)))
     result=unite(*bits)
     for mount in RETAINER_MOUNTS.values():
         result=result.cut(cyl(1.1,2,(mount['x'],mount['y'],11.9)))
-        y=mount['pin_y'];result=result.cut(cyl(.8,1.01,(17.9,y,12.7)))
+        y=mount['pin_y'];result=result.cut(cyl(.8,1.01,(mount['pin_x'],y,12.7)))
         # An upper entry channel lets the integral locating pin translate
         # above the lower 0.30 mm locating socket before the final Z descent.
         result=result.cut(box(14.5,19.0,y-1.1,y+1.1,13.0,13.71))
@@ -56,7 +56,7 @@ def retainer(short):
         s=box(17.3,19.,55.3,71.2,13.7,19.5)
         terminal_y=[57.37,62.45,67.53]
     m=RETAINER_MOUNTS[short]
-    s=unite(s,cyl(1.8,3.5,(m['x'],m['y'],13.7)),cyl(.75,1.,(17.9,m['pin_y'],12.7)))
+    s=unite(s,cyl(1.8,3.5,(m['x'],m['y'],13.7)),cyl(.75,1.,(m['pin_x'],m['pin_y'],12.7)))
     s=s.cut(cyl(.85,3.,(m['x'],m['y'],13.7)))
     # 0.55 mm elevated entry is needed by the locating pin. The larger
     # terminal-slot height gives at least 0.25 mm above its lower lip then.

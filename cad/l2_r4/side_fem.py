@@ -44,7 +44,7 @@ def main():
             x,y,z=m.centers.T;nx,ny,nz=m.normals.T
             bottom=np.flatnonzero(np.abs(m.xyz[:,2]-13.7)<.02)
             assert len(bottom)>6
-            a=int(bottom[np.argmin(np.linalg.norm(m.xyz[bottom,:2]-[sx,sy],axis=1))]);b=int(bottom[np.argmin(np.linalg.norm(m.xyz[bottom,:2]-[17.9,py],axis=1))])
+            a=int(bottom[np.argmin(np.linalg.norm(m.xyz[bottom,:2]-[sx,sy],axis=1))]);b=int(bottom[np.argmin(np.linalg.norm(m.xyz[bottom,:2]-[mount['pin_x'],py],axis=1))])
             cons=[(int(i),3) for i in bottom]+[(a,1),(a,2),(b,1)]
             radial=np.hypot(x-sx,y-sy)
             f,desc=FC.selected_load(m,(np.abs(radial-.85)<.10)&(z>13.8)&(z<16.),[0,0,-1],20.,'thread_preload')

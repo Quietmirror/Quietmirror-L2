@@ -73,10 +73,12 @@ def main():
         old=step['part'];name=names[old];s=load(name,OUT/('reference' if old.endswith('switch') else 'parts'))
         ps=inside_points(s);c=pivot_from_author(specs[old]['boxes']);occ=binary_dilation(base,generate_binary_structure(3,1))
         original_way=step['route'];way=[list(p) for p in original_way]
+        if old=='SF_switch' and (RP/'SF_route_planning.json').exists():
+            planned=json.loads((RP/'SF_route_planning.json').read_text())
+            if planned.get('found'):way=planned['route']
         if old.endswith('retainer'):
             for p in way:
                 if abs(p[2]-.3)<1e-8:p[2]=.55
-            way.append([0.,0.,.55,0.])
         samples=dense(way);bad=[]
         for j,p in enumerate(samples):
             pp=transformed(ps,c,p);idx=np.floor((pp-LO)/H).astype(int);ok=np.all((idx>=0)&(idx<N),axis=1)
@@ -89,7 +91,8 @@ def main():
             pairs.extend(pair(actor,b,name,n,.25) for n,b in installed.items())
             exact.append(dict(waypoint=j,pose=p,pairs=pairs))
         seating=[]
-        for p in dense([way[-1],[0.,0.,0.,0.]]):
+        seating_way=[way[-1],[0.,0.,.55,0.],[0.,0.,0.,0.]] if old.endswith('retainer') else [way[-1],[0.,0.,0.,0.]]
+        for p in dense(seating_way):
             actor=moved(s,c,p);pairs=[pair(actor,body,name,'BODY',0.)]
             pairs.extend(pair(actor,b,name,n,0.) for n,b in installed.items())
             seating.append(dict(pose=p,pairs=pairs))

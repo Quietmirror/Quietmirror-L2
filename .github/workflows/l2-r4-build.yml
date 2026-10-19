@@ -37,26 +37,8 @@ jobs:
           _support/venv/bin/pip install --disable-pip-version-check cadquery==2.8.0 gmsh==4.15.2 trimesh scipy pillow psutil shapely matplotlib rtree
           free -h
           _support/venv/bin/python -c "import subprocess; r=subprocess.run(['ccx','-v'],capture_output=True,text=True); print(r.stdout+r.stderr); assert r.returncode in (0,201) and 'Version 2.21' in r.stdout+r.stderr, (r.returncode,r.stdout,r.stderr)"
-      - name: bootstrap_build
-        run: _support/venv/bin/python -u cad/l2_r4/ci_run.py --index 0
-      - name: restore_inputs
-        run: _support/venv/bin/python -u cad/l2_r4/ci_run.py --index 1
-      - name: side_module
-        run: _support/venv/bin/python -u cad/l2_r4/ci_run.py --index 2
-      - name: build_body
-        run: _support/venv/bin/python -u cad/l2_r4/ci_run.py --index 3
-      - name: assemble
-        run: _support/venv/bin/python -u cad/l2_r4/ci_run.py --index 4
-      - name: surface_mesh
-        run: _support/venv/bin/python -u cad/l2_r4/ci_run.py --index 5
-      - name: diagnostic_checks
-        run: _support/venv/bin/python -u cad/l2_r4/ci_run.py --index 6
-      - name: assembly_paths
-        run: _support/venv/bin/python -u cad/l2_r4/ci_run.py --index 7
-      - name: electronics_checks
-        run: _support/venv/bin/python -u cad/l2_r4/ci_run.py --index 8
-      - name: render
-        run: xvfb-run -a _support/venv/bin/python -u cad/l2_r4/ci_run.py --index 9
+      - name: Execute finite checks with per-stage evidence checkpoints
+        run: xvfb-run -a _support/venv/bin/python -u cad/l2_r4/ci_run.py
       - name: Preserve candidate results and errors without releasing
         if: always() && !cancelled()
         run: python3 cad/l2_r4/ci_checkpoint.py

@@ -56,9 +56,10 @@ def main():
     b=read('BODY').BoundingBox();dims=f'BODY {b.ylen:.3f} × {b.xlen:.3f} × {b.zlen:.3f} mm（长×宽×高）'
     for n,d,u,t,axes in definitions:
         picture('H_'+n,obj,d,u,title='Quietmirror L2-r4 | '+t,note=axes+' | '+dims)
-        picture('INSIDE_'+n,inside,d,u,title='内部包络 | '+t,note='去掉 BODY；电子元件为估计包络，未认证真实装配')
+        picture('INSIDE_'+n,[o for o in inside if o[0]!='BODY'],d,u,title='内部包络 | '+t,note='去掉 BODY；电子元件为估计包络，未认证真实装配')
     picture('H_ISO_FRONT',obj,(1,-1,1),title='Quietmirror L2-r4 | 前侧斜视',note='实际导出模型；橙色侧键、蓝色可拆挡板、绿色参考电路板')
-    picture('H_ISO_REAR',obj,(-1,1,.8),title='Quietmirror L2-r4 | 后侧斜视',note='保留原六孔和五个共面脚贴平台')
+    picture('H_ISO_REAR',obj,(-1,1,.8),title='Quietmirror L2-r4 | 后侧斜视',note='原六孔布局；五个共面脚贴平台；局部服务孔变更见报告')
+    picture('INTEGRATED_FRAME_ISO',inside,(1,-1,1),title='并入 BODY 的内部托架',note='BODY 透明显示，以保留一体成形的底板、隔板、支撑和止挡')
     for name,origin,normal in [('X23',(23,0,0),(-1,0,0)),('Y50p25',(0,50.25,0),(0,1,0)),('Y64p45',(0,64.45,0),(0,1,0)),('Z16p6',(0,0,16.6),(0,0,-1))]:
         picture('SECTION_'+name,obj,(1,-1,.7),title='实际组件剖视 | '+name,note='剖切展示内部路径；不得作为实际供体尺寸证明',clip=(origin,normal))
     from side_module import KEYS
@@ -91,5 +92,17 @@ def main():
     sheet.paste(Image.open(OUT/'H_ISO_FRONT.png'),(3600,0));d=ImageDraw.Draw(sheet);font=ImageFont.truetype(FONT,50);small=ImageFont.truetype(FONT,32)
     d.text((70,130),'Quietmirror L2-r4',font=font,fill='#203d4b');d.text((70,220),'第三角投影 · 统一 9 px/mm',font=small,fill='#203d4b');d.text((70,290),'CAD 核对见 GATES.md',font=small,fill='#a45524');d.text((70,360),'所有图像均来自实际 CAD 组件',font=small,fill='#455e69');d.text((70,420),'供体与电子元件仍为估计包络',font=small,fill='#455e69')
     sheet.save(OUT/'L2_r4_H_SIX_VIEWS_SHEET.png')
+    routefile=RP/'assembly_routes_final.json'
+    if routefile.exists():
+        route=json.loads(routefile.read_text());placed=[]
+        from assembly_paths import moved
+        for entry in route['sequence']:
+            name=entry['part'];folder='parts' if 'RETAINER' in name else 'reference';shape=read(name,folder)
+            way=entry['executed_waypoints'];indices=sorted(set(np.linspace(0,len(way)-1,5).astype(int).tolist()))
+            for j,index in enumerate(indices):
+                s=moved(shape,np.array(entry['pivot']),way[index])
+                shown=[('BODY',read('BODY'),(.72,.78,.82),.16),*placed,(name+'_PATH_'+str(j),s,(.9,.35,.12),1)]
+                picture('ASSEMBLY_'+name+'_'+str(j+1),shown,(1,-1,-.6),focus=(12,54,12),scale=12,title='装配路线 | '+name+' | '+str(j+1),note='相对最终位置 '+str(way[index])+'；路线检查见 assembly_routes_final.json')
+            placed.append((name,shape,(.26,.54,.69),1))
     compare=Image.new('RGB',(2400,1000),'white');compare.paste(Image.open(OUT/'R3_BASELINE.png'),(0,0));compare.paste(Image.open(OUT/'H_ISO_FRONT.png'),(1200,0));compare.save(OUT/'R3_VS_L2_r4.png')
 if __name__=='__main__':main()

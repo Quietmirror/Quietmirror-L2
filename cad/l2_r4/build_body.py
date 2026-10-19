@@ -9,7 +9,7 @@ sys.path.insert(0,str(HERE))
 from surfaces import make_surfaces
 from mechanics import build_mechanics,beam
 from interfaces import build_interfaces
-from side_module import fixed_features,integrated_frame,KEYS
+from side_module import fixed_features,integrated_frame,KEYS,RETAINER_MOUNTS
 spec=importlib.util.spec_from_file_location('original_export',ROOT/'cad/rebuild_r2/build.py')
 original=importlib.util.module_from_spec(spec);spec.loader.exec_module(original)
 
@@ -74,7 +74,8 @@ def main():
     for mo in meta['mechanisms']['motions']:
         if mo['part'] not in ('LEFT_KEY','RIGHT_KEY','WHEEL_CARRIER'):continue
         actor=baseline(mo['part']);ori=mo['origin'];axis=[ori[0]+1,*ori[1:]]
-        moved=actor.rotate(ori,axis,mo['end_deg'])
+        end=4.4 if mo['part']=='WHEEL_CARRIER' else 3.1
+        moved=actor.rotate(ori,axis,end)
         if mo['part']=='WHEEL_CARRIER':cut=moved.translate((0,0,-.03)).intersect(box(-5.35,-3.35,39,44,10,18))
         else:
             x=mo['actuation_point'][0]/18.3*23
@@ -83,6 +84,10 @@ def main():
     for x in (-7.8,7.8):
         body=unite(body,cyl(2.8,2.4,(x,13,5.6)),beam((x,13,6.8),(x,17.5,6.8),1.35)).cut(cyl(.85,3.2,(x,13,5.4))).clean()
     body=body.cut(box(-10.2,10.2,9.8,20.2,8,28)).clean()
+    # Exact screwdriver corridors stop at the existing floor underside;
+    # neither the 1.6 mm floor nor its washer contact face is counterbored.
+    for mount in RETAINER_MOUNTS.values():
+        body=body.cut(cyl(2.05,12.1,(mount['x'],mount['y'],0))).clean()
     feet=meta['mechanisms']['feet']
     local=unite(*[cyl(4.01,11.2,(*f['center'],-5)) for f in feet])
     body=body.cut(box(-75,75,-31,119,-5,5.2).intersect(local))

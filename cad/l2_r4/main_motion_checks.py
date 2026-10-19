@@ -13,6 +13,9 @@ def main():
         group=[n,*mo.get('moving_children',[]),*mo.get('moving_hardware',[])]
         actors={g:parts[g] if g in parts else hw[g] for g in group}
         fixed={bn:b for bn,b in parts.items() if bn not in group}
+        # Fixed electronic packages, cables, pins and fasteners are also
+        # obstacles. Bearing/seat contacts remain raw for local classification.
+        fixed.update({bn:b for bn,b in hw.items() if bn not in group and bn!=mo['switch']})
         # Strip the compressible plunger only; the fixed rigid housing remains
         # an obstacle at every pose. Original switch-body frame is retained.
         pt=mo['actuation_point'];ax1=[pt[0]+1,*pt[1:]];tilt=mo.get('switch_tilt_deg',0)
@@ -21,11 +24,16 @@ def main():
         ori=mo['origin'];axis=[ori[0]+1,*ori[1:]];angles=np.linspace(-4.4,4.4,23) if n=='WHEEL_CARRIER' else np.linspace(-.5,3.1,25)
         samples=[]
         for a in angles:
-            pairs=[]
+            pairs=[];scene=[]
             for an,actor in actors.items():
                 moved=actor.rotate(ori,axis,float(a))
-                for bn,b in fixed.items():pairs.append(pair(moved,b,an,bn,.3))
-            samples.append(dict(angle_deg=float(a),pairs=pairs))
+                result=scene_pairs(moved,fixed,an,.3)
+                pairs.extend(result['measured_pairs'])
+                # Save the pruning proof separately; AABB bounds are never
+                # relabelled as nearest BRep distances.
+                result['actor']=an
+                scene.append(result)
+            samples.append(dict(angle_deg=float(a),pairs=pairs,scenes=scene));scene=[]
             print('G5_RAW',n,round(float(a),4),'overlaps',[(r['a'],r['b'],round(r['overlap_mm3'],5)) for r in pairs if r['overlap_mm3']>.001],flush=True)
         rows.append(dict(group=n,members=group,origin_mm=ori,axis=axis,samples=samples,
                          scope='Exact at listed poses; rigid housing and complete wheel children. Functional stops and journals still require local contact classification.'))

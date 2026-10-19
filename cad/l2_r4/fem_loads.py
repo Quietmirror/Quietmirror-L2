@@ -46,8 +46,11 @@ def cases(mesh):
     root = P2['main']['root_y']
     out = []
     out.append(FC.selected_load(mesh, (y >= 44) & (y <= 71) & (np.abs(x) <= 24) & (z >= 23) & (nz > 0.3) & roof_out, [0, 0, -1], 20, 'palm_down_20N'))
-    out.append(FC.selected_load(mesh, (y >= root - 3) & (y <= root + 4) & (x >= 6) & (x <= 24) & (z >= 11) & (nz > 0.2), [0, 0, -1], 5, 'left_main_root_down_5N'))
-    out.append(FC.selected_load(mesh, (y >= root - 3) & (y <= root + 4) & (x <= -6) & (x >= -24) & (z >= 11) & (nz > 0.2), [0, 0, -1], 5, 'right_main_root_down_5N'))
+    # Execute-all Appendix B explicitly uses 35.5..42.5. The author's helper
+    # derives 35..42 from the older root_y=38 parameter. Use the requested
+    # interval and disclose this difference when comparing author numbers.
+    out.append(FC.selected_load(mesh, (y >= 35.5) & (y <= 42.5) & (x >= 6) & (x <= 24) & (z >= 11) & (nz > 0.2), [0, 0, -1], 5, 'left_main_root_down_5N'))
+    out.append(FC.selected_load(mesh, (y >= 35.5) & (y <= 42.5) & (x <= -6) & (x >= -24) & (z >= 11) & (nz > 0.2), [0, 0, -1], 5, 'right_main_root_down_5N'))
     for i, m in enumerate(META['mechanisms']['side_motions']):
         tip = np.asarray(m['plunger_tip'], float)
         fx = tip[0] - 7.5

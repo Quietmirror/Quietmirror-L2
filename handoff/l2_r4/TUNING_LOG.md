@@ -41,3 +41,26 @@ Status: CAD checks running. No L2-r4 Release is permitted until all CAD gates co
 - Keep diameter1.5 x1.0 integral locating pins. Add an upper entry pocket Z13.0–13.7, leaving the lower 0.3 mm locating socket; enlarge terminal slots to Z15.6–17.2. Retainer routes use a 0.55 mm elevated approach, followed by aligned vertical seating. These changes still require actual voxel and BRep route tests.
 - Side GPIO routes terminate at the side of the existing RF_IO_HEADER_EST instead of inside MCU_RADIO_EST; all route clearances remain subject to final checks.
 - The CI now exposes each script as a separate job step. G6 cap translation computes exact overlap volume with PET installed, as requested; no unnecessary global-distance claim is made for these insertion poses. G5 still measures exact distances.
+
+
+## Post-candidate-3 audit preparation
+
+- Added source-feature contact decomposition for D7: whole key intersection remains checked; only the named inward rib/post and outward ear/stop are functional contacts. The rest retains 0.30 mm clearance.
+- Main/wheel motion includes fixed H hardware and cables. Broad-phase bounds may prune impossible candidates only after an exact nearest distance is known; bounds are not returned as exact gaps.
+- Appendix B root-load selection is explicitly Y35.5..42.5. The preserved author helper derives Y35..42 from the old root_y=38 parameter. The executable checks now follow the written interval; comparisons must disclose this difference and investigate any >3% discrepancy.
+- Real slicing uses organic, build-plate-only support, all nine individual part slices, plus the complete 255x155 plate at scale1.0; no machine-certified G-code is supplied. Native FreeCAD output must be saved and reopened, and the full assembly STEP reimported. These are prepared steps, not yet passed results.
+- Each future completed CI stage saves a work-branch checkpoint; this creates public candidate evidence, never a Release or automatic acceptance.
+
+
+## Candidate 3 actual outcome (results df1c330a)
+
+- All nine printable solids remain valid, connected, closed and self-interference-check valid. BODY volume 12677.681279 mm3. Both cap plus PET straight-insertion tests pass with maximum intersection exactly 0 mm3. The outward stops block the -/+0.5 degree diagnostic poses. Normal side motion full overlap stays below 0.001 mm3.
+- SR switch route passes the voxel and exact waypoint checks. SF switch route fails because the preserved author obstacle model omitted installed SR terminals; actual terminal geometry collides. Both retainer approaches reach their final alignment, but SF locating pin overlaps the raised switch back by 0.050583 mm3 before descending.
+- Both new driver corridors fail: BODY intersection 18.354724 / 0.649293 mm3. All three reserved-volume tests have no invasions above 0.001 mm3. Inherited main keys overlap the free plunger envelopes by 0.014574 mm3 each at rest.
+
+## Candidate 4 corrections and required rechecks
+
+- Shift only SF locating pin/hole from X17.9 to17.4, keeping diameter1.5/1.6, length1.0 and Y54. Update stress anchors with the same source parameter.
+- Cut explicit radius2.05 screwdriver paths up to Z12.1; leave floor and washer contact faces intact. Recheck BODY validity, access, stiffness and all affected interfaces.
+- Remove inherited main-key rib/plunger overlap with R1.13 spherical clearance around the modeled R1.10 plunger; preserve key exterior, width and actuation datum. Expand rigid-housing relief through the requested -0.5..3.1 degree range. Re-cut only main/wheel stop faces at requested 3.1/4.4 degrees.
+- Plan a replacement SF route with actual SR terminals included, 0.25mm part point clouds, finite yaw samples and conservative 26-neighbor dilation. Search success is only a candidate route; replay and exact turning-point acceptance are mandatory. Retainer final alignment/descent is separately classified as seating, not an open-clearance route.

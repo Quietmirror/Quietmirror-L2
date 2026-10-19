@@ -20,6 +20,10 @@ def main():
         tail=log.read_text(errors='replace')[-6000:];print(tail,flush=True)
         report['steps'].append(dict(script=script,returncode=p.returncode,seconds=round(time.time()-start,2),available_memory_before_GB=mem.available/1e9,log_tail=tail))
         report['status']='FAILED' if p.returncode else 'RUNNING';(RP/'execution.json').write_text(json.dumps(report,indent=2))
+        if os.getenv('GITHUB_ACTIONS')=='true':
+            # Preserve finite completed stages while later checks run; no
+            # release or pass status is inferred from these checkpoints.
+            subprocess.run([sys.executable,str(ROOT/'cad/l2_r4/ci_checkpoint.py')],cwd=ROOT,check=True)
         if p.returncode:return p.returncode
     report['status']='PHASE_COMPLETED' if single is None or single==len(config['scripts'])-1 else 'RUNNING';(RP/'execution.json').write_text(json.dumps(report,indent=2));return 0
 if __name__=='__main__':sys.exit(main())

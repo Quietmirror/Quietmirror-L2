@@ -6,7 +6,7 @@ import gmsh,trimesh
 ROOT=Path(__file__).resolve().parents[2];WORK=ROOT/'_support/work/l2_r4/surface_mesh';OUT=ROOT/'models/L2_r4/parts';RP=ROOT/'reports/l2_r4'
 def main():
     WORK.mkdir(parents=True,exist_ok=True);rows=[]
-    for n in ['BODY','SIDE_FRONT_KEY','SIDE_REAR_KEY','SF_RETAINER','SR_RETAINER']:
+    for n in ['BODY','LEFT_KEY','RIGHT_KEY','SIDE_FRONT_KEY','SIDE_REAR_KEY','SF_RETAINER','SR_RETAINER']:
         gmsh.initialize();gmsh.option.setNumber('General.Terminal',0)
         try:
             gmsh.model.occ.importShapes(str(OUT/(n+'.step')));gmsh.model.occ.synchronize()

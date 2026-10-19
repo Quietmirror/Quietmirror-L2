@@ -1,0 +1,23 @@
+name: Release verified Quietmirror L2-r4
+on:
+  push:
+    branches: [main]
+    paths: ['handoff/l2_r4/FINAL_ACCOUNTING.json']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUTF8: '1'
+    steps:
+      - name: Read exact approved main merge
+        run: |
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+      - name: Verify all CAD gates before publishing tag and formal release
+        run: python3 cad/l2_r4/release.py

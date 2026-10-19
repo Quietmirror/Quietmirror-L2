@@ -74,3 +74,23 @@ def pair(a,b,an,bn,minimum=.5,intended=False):
     return dict(a=an,b=bn,gap_mm=d,overlap_mm3=overlap,required_mm=minimum,
                 intended_contact=intended,pass_check=overlap<=.001 and (intended or d>=minimum-1e-5),
                 distance_kind=method,nearest_points_mm=near)
+
+def scene_pairs(actor,obstacles,name,minimum=.3):
+    """Exact global nearest distance with certified broad-phase pruning.
+
+    An AABB lower bound is used only to prove that a pair cannot improve the
+    already measured exact minimum or fail the requested clearance. No bound
+    is emitted as an exact gap, and all potentially colliding pairs are run.
+    """
+    aa=actor.BoundingBox();queue=[]
+    for n,b in obstacles.items():
+        bb=b.BoundingBox();delta=[max(0.,getattr(aa,c+'min')-getattr(bb,c+'max'),getattr(bb,c+'min')-getattr(aa,c+'max')) for c in 'xyz']
+        queue.append((float(np.linalg.norm(delta)),n,b))
+    queue.sort(key=lambda x:x[0]);best=float('inf');measured=[];pruned=[]
+    for lower,n,b in queue:
+        if lower>max(best,minimum)+1e-6:
+            pruned.append(dict(part=n,lower_bound_mm=lower,reason='Cannot improve measured exact nearest distance or violate required clearance'))
+            continue
+        r=pair(actor,b,name,n,minimum);measured.append(r);best=min(best,r['gap_mm'])
+    return dict(exact_global_minimum_mm=best,measured_pairs=measured,pruned_pairs=pruned,
+                passed=all(r['pass_check'] for r in measured))
