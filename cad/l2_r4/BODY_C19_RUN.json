@@ -1,0 +1,10 @@
+{
+  "phase": "C19_original_middle_switch_seat_tie_relief_source_rebuild",
+  "report_file": "body_c19_execution.json",
+  "scripts": [
+    "cad/l2_r4/restore_inputs.py",
+    "cad/l2_r4/body_c19.py",
+    "cad/l2_r4/surface_body_c19.py",
+    "cad/l2_r4/assemble.py"
+  ]
+}

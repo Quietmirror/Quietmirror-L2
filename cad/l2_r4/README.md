@@ -14,7 +14,7 @@ Linux对应解释器为 `_support/venv/bin/python`。CAD/VTK需要OpenGL运行�
 
 重建不会继承旧的验收状态。运行 `ci_run.py --config` 指定以下检查配置，报告会记录实际几何和验证源码的身份：
 
-- `DIAGNOSTIC_RUN.json`：实体、闭合网格、自相交、厚度截面与尺寸。
+- `GEOMETRY_FINAL.json`：实体、闭合网格、自相交、厚度截面与尺寸；`STATIC_FINAL.json`：打印件完整实体逐对间隙；`ACCESS_FINAL.json`：完整BODY键帽直推、工具可达、压盘覆盖及隐藏特征。旧 `DIAGNOSTIC_RUN.json` 保留为历史诊断，不能代替这些最终入口。
 - `MOTION_RUN.json`：主键和滚轮组；`side_functional_checks.py`：完整侧键运动。
 - `SPACE_RUN.json`：四件装入、工具可达、六个窗口、D板域、电池服务。
 - `ELECTRONICS_RUN.json`：H包络、预留区、硬件和线束；随后运行 `contact_audit_final.py` 对明确的局部功能配合作分类。
@@ -22,7 +22,7 @@ Linux对应解释器为 `_support/venv/bin/python`。CAD/VTK需要OpenGL运行�
 
 `d7_fast_check.py`、`side_clearance_probe.py` 和 `battery_probe.py` 是开发诊断，不可替代G5/S6最终证据。`RUN.json` 只描述当前CI阶段，并不表示无需检查其他门槛。
 
-最终采用 `battery_selection.json` 中的14×20×6mm估计电池，以及 `wheel_clearance_finish.py` 中的C17自制转接板轮廓。原18×22×6mm电池的有限路线搜索未得到通过路径；缩小电池体积不能证明容量或12小时续航。保持原插头、线束、服务预留区和所有打印件。电池最终验收入口为 `battery_service_final.py`，读取实际保存的电池STEP逐姿态重放；候选搜索报告不能替代该报告。
+最终采用 `battery_selection.json` 中的14×20×6mm估计电池，以及 `wheel_clearance_finish.py` 中的C17自制转接板轮廓和C18载架后底面让位。原18×22×6mm电池的有限路线搜索未得到通过路径；缩小电池体积不能证明容量或12小时续航。电池替换保持原插头、线束与服务预留区；C18仅在载架Y34.2..36.2处将底面抬高0.20mm，保留Z12.2座面、1.60mm名义剩余厚度及原BODY与五脚。电池最终验收入口为 `battery_service_final.py`，读取实际保存的电池STEP逐姿态重放；候选搜索报告不能替代该报告。
 
 主键及滚轮分组报告由 `combine_motion.py` 汇总；侧键由 `combine_side_motion.py` 汇总。必须覆盖完整角度集合且无重复，不能只挑通过的组。功能接触区使用具名源特征分解，并通过重新合并后与原实体双向求差检查是否丢失或新增材料；原始全实体相交结果始终保留。
 

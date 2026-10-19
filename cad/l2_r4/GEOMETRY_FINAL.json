@@ -1,0 +1,11 @@
+{
+  "phase": "final_printed_geometry_and_meshes",
+  "report_file": "geometry_final_execution.json",
+  "scripts": [
+    "cad/l2_r4/restore_inputs.py",
+    "cad/l2_r4/geometry_checks_final.py",
+    "cad/l2_r4/mesh_metrics.py",
+    "cad/l2_r4/wall_audit.py",
+    "cad/l2_r4/mesh_self_intersection.py"
+  ]
+}
