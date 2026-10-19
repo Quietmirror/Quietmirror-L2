@@ -1,8 +1,8 @@
 {
   "status": "PARTIAL_NOT_ACCEPTANCE",
   "group": "RIGHT_KEY",
-  "completed_poses": 10,
+  "completed_poses": 15,
   "expected_poses": 25,
-  "last_angle_deg": 0.8499999999999999,
+  "last_angle_deg": 1.6,
   "failures": []
 }
