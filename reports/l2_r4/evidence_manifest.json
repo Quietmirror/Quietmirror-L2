@@ -441,7 +441,7 @@
   },
   "reports/l2_r4/CAD_mass.json": {
     "script": "cad/l2_r4/mechanism_accounting.py",
-    "source_commit": "d7a7b0388d1f1b20882453a446f63a53f41abcd2",
+    "source_commit": "1546de25079f1de5560c5755270089129d4e3f8a",
     "returncode": 0,
     "report_sha256": "6d000db3dcd94c0151c3075de5a85c30bae17e55a857a2602bbb2826e74816e0",
     "geometry": {
@@ -473,12 +473,12 @@
     "verifier_source": {
       "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
       "cad/l2_r4/mechanism_accounting.py": "0bd471cdeafe8986b7989576cc61581d9243a97072029327b8303a1a2fd80a56",
-      "cad/l2_r4/side_module.py": "8a31192fbc207f5e33b5243488944e0c7819b01fa05ff331da1cf17bb5cb1416"
+      "cad/l2_r4/side_module.py": "fdbe9676d759207253220c92f33807f02d5df9fa71fffc6b8940ce7c394dc1ab"
     }
   },
   "reports/l2_r4/side_actuation_force_and_tuning.json": {
     "script": "cad/l2_r4/mechanism_accounting.py",
-    "source_commit": "d7a7b0388d1f1b20882453a446f63a53f41abcd2",
+    "source_commit": "1546de25079f1de5560c5755270089129d4e3f8a",
     "returncode": 0,
     "report_sha256": "4e962bb6c5667f0135d8a0ab9260bab509a9272c5a7f780746bff71ac860b604",
     "geometry": {
@@ -510,12 +510,12 @@
     "verifier_source": {
       "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
       "cad/l2_r4/mechanism_accounting.py": "0bd471cdeafe8986b7989576cc61581d9243a97072029327b8303a1a2fd80a56",
-      "cad/l2_r4/side_module.py": "8a31192fbc207f5e33b5243488944e0c7819b01fa05ff331da1cf17bb5cb1416"
+      "cad/l2_r4/side_module.py": "fdbe9676d759207253220c92f33807f02d5df9fa71fffc6b8940ce7c394dc1ab"
     }
   },
   "reports/l2_r4/optical_stack_and_power.json": {
     "script": "cad/l2_r4/mechanism_accounting.py",
-    "source_commit": "d7a7b0388d1f1b20882453a446f63a53f41abcd2",
+    "source_commit": "1546de25079f1de5560c5755270089129d4e3f8a",
     "returncode": 0,
     "report_sha256": "7d8835013cb6e8be0c23893d549c68525e5abdaad128e3b20e02129c2aba5d92",
     "geometry": {
@@ -547,7 +547,7 @@
     "verifier_source": {
       "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
       "cad/l2_r4/mechanism_accounting.py": "0bd471cdeafe8986b7989576cc61581d9243a97072029327b8303a1a2fd80a56",
-      "cad/l2_r4/side_module.py": "8a31192fbc207f5e33b5243488944e0c7819b01fa05ff331da1cf17bb5cb1416"
+      "cad/l2_r4/side_module.py": "fdbe9676d759207253220c92f33807f02d5df9fa71fffc6b8940ce7c394dc1ab"
     }
   },
   "reports/l2_r4/side_clearance_probe.json": {
