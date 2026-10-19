@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "C13 planar encoder board mounting-land outline",
   "source_commit": "f86477cb3a0ac607edeb58807cf26edc3c8c55f9",
   "steps": [
