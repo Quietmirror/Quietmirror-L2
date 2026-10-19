@@ -634,7 +634,7 @@
   {
     "a": "ANTENNA_FEED_ROUTE_EST",
     "b": "BATTERY_ROUTE_EST",
-    "gap_mm": 1.716908215148145,
+    "gap_mm": 1.7169082151481423,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -642,14 +642,14 @@
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
-        -4.684998723131969,
-        63.27215193268747,
-        22.89241956787806
+        -4.684998779752165,
+        63.272151931317715,
+        22.892419570073685
       ],
       [
-        -4.696115175901555,
-        61.95892674636955,
-        21.786485639588822
+        -4.696115211956327,
+        61.958926739316844,
+        21.78648564832587
       ]
     ]
   },
@@ -832,21 +832,21 @@
     "a": "ANTENNA_FEED_ROUTE_EST",
     "b": "REMOTE_ANTENNA_PCB_EST",
     "gap_mm": 0.0,
-    "overlap_mm3": 0.12356931104117763,
+    "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
-    "pass_check": false,
+    "pass_check": true,
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
         -4.0,
-        62.0,
-        25.0
+        61.8,
+        25.4
       ],
       [
         -4.0,
-        62.0,
-        25.0
+        61.8,
+        25.4
       ]
     ]
   },
@@ -1821,21 +1821,21 @@
     "a": "BATTERY_PLUG_EST",
     "b": "BATTERY_ROUTE_EST",
     "gap_mm": 0.0,
-    "overlap_mm3": 0.22619467105846044,
+    "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
-    "pass_check": false,
+    "pass_check": true,
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
         -15.5,
-        59.9,
-        22.3
+        60.5,
+        22.9
       ],
       [
         -15.5,
-        59.9,
-        22.3
+        60.5,
+        22.9
       ]
     ]
   },
@@ -2585,21 +2585,21 @@
     "a": "BATTERY_ROUTE_EST",
     "b": "RF_BAT_HEADER_EST",
     "gap_mm": 0.0,
-    "overlap_mm3": 0.05602506898894145,
+    "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
-    "pass_check": false,
+    "pass_check": true,
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
         -4.7,
-        62.1,
-        21.4
+        62.09160797831,
+        21.5
       ],
       [
         -4.7,
-        62.1,
-        21.4
+        62.09160797831,
+        21.5
       ]
     ]
   },
@@ -3908,7 +3908,7 @@
   {
     "a": "CONTROLLER_RF_PCB_EST",
     "b": "SENSOR_ROUTE_EST",
-    "gap_mm": 0.05000000000000071,
+    "gap_mm": 0.25,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -3917,13 +3917,13 @@
     "nearest_points_mm": [
       [
         13.0,
-        72.54838709677438,
-        17.9
+        71.77419354838719,
+        19.1
       ],
       [
-        13.05,
-        72.54838709677438,
-        17.9
+        13.25,
+        71.77419354838719,
+        19.1
       ]
     ]
   },
@@ -4205,7 +4205,7 @@
   {
     "a": "CONTROLLER_RF_PCB_EST",
     "b": "SIDE_SR_NO_ROUTE_EST",
-    "gap_mm": 0.7028426749278542,
+    "gap_mm": 0.7334637571188377,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -4218,9 +4218,9 @@
         19.1
       ],
       [
-        13.297221951641436,
+        13.279266182683822,
         58.2,
-        19.736904182088796
+        19.778217872232876
       ]
     ]
   },
@@ -4234,7 +4234,7 @@
   {
     "a": "CONTROLLER_RF_PCB_EST",
     "b": "SIDE_COM_GPIO_ROUTE_EST",
-    "gap_mm": 0.3325771464049078,
+    "gap_mm": 0.29999999999999893,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -4247,9 +4247,9 @@
         17.9
       ],
       [
-        13.330008944678163,
+        13.299999999999999,
         60.0,
-        17.85874888191531
+        17.9
       ]
     ]
   },
@@ -16500,21 +16500,21 @@
     "a": "RF_SENSOR_HEADER_EST",
     "b": "SENSOR_ROUTE_EST",
     "gap_mm": 0.0,
-    "overlap_mm3": 0.22619467105845983,
+    "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
-    "pass_check": false,
+    "pass_check": true,
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
         9.5,
-        70.4,
-        20.3
+        71.0,
+        20.9
       ],
       [
         9.5,
-        70.4,
-        20.3
+        71.0,
+        20.9
       ]
     ]
   },
@@ -20175,21 +20175,21 @@
     "a": "SENSOR_HEADER_EST",
     "b": "SENSOR_ROUTE_EST",
     "gap_mm": 0.0,
-    "overlap_mm3": 0.2696835787627062,
+    "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
-    "pass_check": false,
+    "pass_check": true,
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
-        7.708614241293,
-        72.524494365673,
-        16.15
+        8.0,
+        72.0,
+        15.65
       ],
       [
-        7.708614241293,
-        72.524494365673,
-        16.15
+        8.0,
+        72.0,
+        15.65
       ]
     ]
   },
@@ -24207,21 +24207,21 @@
     "a": "USB_ADAPTER_PCB_REFERENCE",
     "b": "USB_ROUTE_EST",
     "gap_mm": 0.0,
-    "overlap_mm3": 0.5751732549949695,
+    "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
-    "pass_check": false,
+    "pass_check": true,
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
-        -2.0,
+        -2.65,
         19.0,
-        8.65
+        8.0
       ],
       [
-        -2.0,
+        -2.65,
         19.0,
-        8.65
+        8.0
       ]
     ]
   },
@@ -26426,7 +26426,7 @@
   {
     "a": "SIDE_SR_NO_ROUTE_EST",
     "b": "SIDE_COM_ROUTE_EST",
-    "gap_mm": 0.09999999999999964,
+    "gap_mm": 0.29999999999999893,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -26434,7 +26434,7 @@
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
-        14.0,
+        14.2,
         57.37,
         17.6
       ],
@@ -26448,7 +26448,7 @@
   {
     "a": "SIDE_SR_NO_ROUTE_EST",
     "b": "SIDE_COM_GPIO_ROUTE_EST",
-    "gap_mm": 0.23162547344022852,
+    "gap_mm": 0.20339787529414322,
     "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
@@ -26456,14 +26456,14 @@
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
-        13.465994866700958,
-        58.17890805829077,
-        20.31944207697386
+        13.500236130289018,
+        58.18100072347518,
+        20.335453423745783
       ],
       [
-        13.563703529571468,
-        58.16262327069352,
-        20.528817774798082
+        13.577524371328487,
+        58.16811935684223,
+        20.523153434041106
       ]
     ]
   },
@@ -26471,21 +26471,21 @@
     "a": "SIDE_COM_ROUTE_EST",
     "b": "SIDE_COM_GPIO_ROUTE_EST",
     "gap_mm": 0.0,
-    "overlap_mm3": 0.07423837698242523,
+    "overlap_mm3": 0.0,
     "required_mm": 0.0,
     "intended_contact": false,
-    "pass_check": false,
+    "pass_check": true,
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
         13.6,
         60.3,
-        17.6
+        17.9
       ],
       [
         13.6,
         60.3,
-        17.6
+        17.9
       ]
     ]
   }
