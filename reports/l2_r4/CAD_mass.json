@@ -2,51 +2,51 @@
   "parts": [
     {
       "part": "BODY",
-      "volume_mm3": 12677.68127906499,
+      "volume_mm3": 12633.239977596988,
       "PA12_density_g_cm3": 1.01,
-      "PA12_mass_g": 12.804458091855638,
+      "PA12_mass_g": 12.759572377372958,
       "PLA_density_g_cm3": 1.24,
-      "solid_PLA_mass_g": 15.720324786040587
+      "solid_PLA_mass_g": 15.665217572220264
     },
     {
       "part": "LEFT_KEY",
-      "volume_mm3": 1719.6801597484564,
+      "volume_mm3": 1718.7297441178912,
       "PA12_density_g_cm3": 1.01,
-      "PA12_mass_g": 1.736876961345941,
+      "PA12_mass_g": 1.7359170415590701,
       "PLA_density_g_cm3": 1.24,
-      "solid_PLA_mass_g": 2.1324033980880857
+      "solid_PLA_mass_g": 2.131224882706185
     },
     {
       "part": "RIGHT_KEY",
-      "volume_mm3": 1719.680209111002,
+      "volume_mm3": 1718.7297727119435,
       "PA12_density_g_cm3": 1.01,
-      "PA12_mass_g": 1.736877011202112,
+      "PA12_mass_g": 1.735917070439063,
       "PLA_density_g_cm3": 1.24,
-      "solid_PLA_mass_g": 2.132403459297642
+      "solid_PLA_mass_g": 2.13122491816281
     },
     {
       "part": "SF_RETAINER",
-      "volume_mm3": 103.89933000919582,
+      "volume_mm3": 103.89933000919667,
       "PA12_density_g_cm3": 1.01,
-      "PA12_mass_g": 0.10493832330928778,
+      "PA12_mass_g": 0.10493832330928865,
       "PLA_density_g_cm3": 1.24,
-      "solid_PLA_mass_g": 0.1288351692114028
+      "solid_PLA_mass_g": 0.12883516921140387
     },
     {
       "part": "SIDE_FRONT_KEY",
-      "volume_mm3": 80.33163138428115,
+      "volume_mm3": 86.60476888097176,
       "PA12_density_g_cm3": 1.01,
-      "PA12_mass_g": 0.08113494769812396,
+      "PA12_mass_g": 0.08747081656978148,
       "PLA_density_g_cm3": 1.24,
-      "solid_PLA_mass_g": 0.09961122291650862
+      "solid_PLA_mass_g": 0.10738991341240497
     },
     {
       "part": "SIDE_REAR_KEY",
-      "volume_mm3": 85.94332954868055,
+      "volume_mm3": 91.72688389549447,
       "PA12_density_g_cm3": 1.01,
-      "PA12_mass_g": 0.08680276284416737,
+      "PA12_mass_g": 0.09264415273444941,
       "PLA_density_g_cm3": 1.24,
-      "solid_PLA_mass_g": 0.10656972864036388
+      "solid_PLA_mass_g": 0.11374133603041314
     },
     {
       "part": "SR_RETAINER",
@@ -73,9 +73,9 @@
       "solid_PLA_mass_g": 0.7314696898324665
     }
   ],
-  "total_volume_mm3": 17707.055202410844,
-  "total_PA12_g": 17.88412575443495,
-  "total_solid_PLA_g": 21.956748450989444,
+  "total_volume_mm3": 17672.769740756725,
+  "total_PA12_g": 17.849497438164292,
+  "total_solid_PLA_g": 21.914234478538337,
   "volume_method": "BRepGProp.VolumeProperties_s(shape,props,1e-8,True,False)",
   "scope": "Printed polymer geometry only; density assumptions; slicer support/infill mass is separate. No fabricated hardware mass or physical weigh-in."
 }

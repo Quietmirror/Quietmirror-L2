@@ -234,19 +234,34 @@
           "location": "cap_midpoint",
           "y_mm": 50.25,
           "touch_arm_mm": 4.950000000000003,
-          "ideal_force_N": 0.7701680808080805
+          "ideal_force_N": 0.7701680808080805,
+          "pure_lever_arc_travel_mm": 0.5882494924358191,
+          "tangential_inward_travel_mm": 0.5868658739270691,
+          "torque_about_vertical_hinge_Nmm": 3.812332000000001,
+          "assumed_touch_to_plunger_z_offset_mm": -0.9,
+          "eccentric_bending_moment_Nmm": 0.6931512727272725
         },
         {
           "location": "quarter_hinge_to_far",
           "y_mm": 48.05,
           "touch_arm_mm": 2.75,
-          "ideal_force_N": 1.386302545454546
+          "ideal_force_N": 1.386302545454546,
+          "pure_lever_arc_travel_mm": 0.3268052735754549,
+          "tangential_inward_travel_mm": 0.3260365966261493,
+          "torque_about_vertical_hinge_Nmm": 3.8123320000000014,
+          "assumed_touch_to_plunger_z_offset_mm": -0.9,
+          "eccentric_bending_moment_Nmm": 1.2476722909090914
         },
         {
           "location": "far_edge",
           "y_mm": 56.3,
           "touch_arm_mm": 11.0,
-          "ideal_force_N": 0.3465756363636365
+          "ideal_force_N": 0.3465756363636365,
+          "pure_lever_arc_travel_mm": 1.3072210943018197,
+          "tangential_inward_travel_mm": 1.3041463865045972,
+          "torque_about_vertical_hinge_Nmm": 3.8123320000000014,
+          "assumed_touch_to_plunger_z_offset_mm": -0.9,
+          "eccentric_bending_moment_Nmm": 0.31191807272727284
         }
       ],
       "switch_OF_max_N": 0.74,
@@ -489,19 +504,34 @@
           "location": "cap_midpoint",
           "y_mm": 64.45,
           "touch_arm_mm": 5.25,
-          "ideal_force_N": 0.7627919999999995
+          "ideal_force_N": 0.7627919999999995,
+          "pure_lever_arc_travel_mm": 0.5896055901112971,
+          "tangential_inward_travel_mm": 0.5883669617015174,
+          "torque_about_vertical_hinge_Nmm": 4.004657999999997,
+          "assumed_touch_to_plunger_z_offset_mm": -0.9,
+          "eccentric_bending_moment_Nmm": 0.6865127999999996
         },
         {
           "location": "quarter_hinge_to_far",
           "y_mm": 66.8,
           "touch_arm_mm": 2.9000000000000057,
-          "ideal_force_N": 1.3809165517241344
+          "ideal_force_N": 1.3809165517241344,
+          "pure_lever_arc_travel_mm": 0.3256868973948124,
+          "tangential_inward_travel_mm": 0.32500270265417214,
+          "torque_about_vertical_hinge_Nmm": 4.004657999999997,
+          "assumed_touch_to_plunger_z_offset_mm": -0.9,
+          "eccentric_bending_moment_Nmm": 1.242824896551721
         },
         {
           "location": "far_edge",
           "y_mm": 58.1,
           "touch_arm_mm": 11.600000000000001,
-          "ideal_force_N": 0.3452291379310342
+          "ideal_force_N": 0.3452291379310342,
+          "pure_lever_arc_travel_mm": 1.302747589579247,
+          "tangential_inward_travel_mm": 1.3000108106166863,
+          "torque_about_vertical_hinge_Nmm": 4.004657999999997,
+          "assumed_touch_to_plunger_z_offset_mm": -0.9,
+          "eccentric_bending_moment_Nmm": 0.3107062241379308
         }
       ],
       "switch_OF_max_N": 0.74,
