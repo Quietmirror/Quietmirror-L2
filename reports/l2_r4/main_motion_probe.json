@@ -259,5 +259,9 @@
         ]
       ]
     }
+  },
+  {
+    "stage": "pair_begin",
+    "part": "LEFT_KEY_M2_SWITCH_1_NUT"
   }
 ]
