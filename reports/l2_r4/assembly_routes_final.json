@@ -12,7 +12,7 @@
       128
     ],
     "odd_columns_resolved_by_BRep": 0,
-    "triangles": 50671
+    "triangles": 51087
   },
   "sequence": [
     {
@@ -643,159 +643,279 @@
       "executed_waypoints": [
         [
           -15.75,
-          15.75,
+          16.0,
           -14.75,
-          90
-        ],
-        [
-          -15.75,
-          15.75,
-          -10.5,
-          90
+          90.0
         ],
         [
           -15.75,
           16.0,
-          -10.5,
-          90
+          -14.75,
+          25.0
         ],
         [
           -15.75,
           16.0,
-          -10.5,
-          0
+          -9.5,
+          25.0
         ],
         [
-          -15.75,
+          -14.75,
           16.0,
-          0.25,
-          0
+          -9.5,
+          25.0
         ],
         [
-          -15.75,
-          13.0,
-          0.25,
-          0
+          -14.75,
+          16.25,
+          -9.5,
+          25.0
         ],
         [
-          -12.5,
-          13.0,
-          0.25,
-          0
+          -14.75,
+          16.25,
+          -9.25,
+          25.0
         ],
         [
-          -12.5,
-          12.75,
-          0.25,
-          0
+          -14.75,
+          17.0,
+          -9.25,
+          25.0
         ],
         [
-          -12.25,
-          12.75,
-          0.25,
-          0
+          -14.75,
+          17.0,
+          -0.75,
+          25.0
         ],
         [
-          -12.25,
-          9.5,
-          0.25,
-          0
+          -14.75,
+          11.0,
+          -0.75,
+          25.0
+        ],
+        [
+          -14.25,
+          11.0,
+          -0.75,
+          25.0
+        ],
+        [
+          -14.25,
+          11.0,
+          -0.5,
+          25.0
+        ],
+        [
+          -11.5,
+          11.0,
+          -0.5,
+          25.0
+        ],
+        [
+          -11.5,
+          10.5,
+          -0.5,
+          25.0
+        ],
+        [
+          -11.25,
+          10.5,
+          -0.5,
+          25.0
+        ],
+        [
+          -11.25,
+          9.25,
+          -0.5,
+          25.0
+        ],
+        [
+          -11.25,
+          9.25,
+          0.5,
+          25.0
+        ],
+        [
+          -10.75,
+          9.25,
+          0.5,
+          25.0
+        ],
+        [
+          -10.75,
+          9.25,
+          2.0,
+          25.0
+        ],
+        [
+          -10.75,
+          9.25,
+          2.0,
+          20.0
+        ],
+        [
+          -10.5,
+          9.25,
+          2.0,
+          20.0
+        ],
+        [
+          -10.5,
+          9.25,
+          3.25,
+          20.0
+        ],
+        [
+          -9.0,
+          9.25,
+          3.25,
+          20.0
+        ],
+        [
+          -9.0,
+          8.75,
+          3.25,
+          20.0
         ],
         [
           -8.75,
-          9.5,
-          0.25,
-          0
+          8.75,
+          3.25,
+          20.0
         ],
         [
           -8.75,
-          9.25,
-          0.25,
-          0
+          4.5,
+          3.25,
+          20.0
         ],
         [
-          -8.5,
-          9.25,
-          0.25,
-          0
+          -7.25,
+          4.5,
+          3.25,
+          20.0
         ],
         [
-          -8.5,
-          3.0,
-          0.25,
-          0
+          -7.25,
+          3.75,
+          3.25,
+          20.0
         ],
         [
-          -6.75,
-          3.0,
-          0.25,
-          0
+          -7.0,
+          3.75,
+          3.25,
+          20.0
         ],
         [
-          -6.75,
-          3.0,
-          0.25,
-          90
+          -7.0,
+          2.75,
+          3.25,
+          20.0
         ],
         [
-          -6.75,
-          2.0,
-          0.25,
-          90
+          -5.75,
+          2.75,
+          3.25,
+          20.0
         ],
         [
-          -5.25,
-          2.0,
-          0.25,
-          90
+          -5.75,
+          2.25,
+          3.25,
+          20.0
         ],
         [
-          -5.25,
-          1.75,
-          0.25,
-          90
+          -5.5,
+          2.25,
+          3.25,
+          20.0
+        ],
+        [
+          -5.5,
+          0.0,
+          3.25,
+          20.0
+        ],
+        [
+          -5.5,
+          0.0,
+          0.5,
+          20.0
         ],
         [
           -5.0,
-          1.75,
-          0.25,
-          90
+          0.0,
+          0.5,
+          20.0
         ],
         [
           -5.0,
-          -0.5,
-          0.25,
-          90
-        ],
-        [
-          -3.25,
-          -0.5,
-          0.25,
-          90
-        ],
-        [
-          -3.25,
-          -0.5,
-          0.25,
-          0
-        ],
-        [
-          -3.25,
-          -0.5,
-          0.5,
-          0
-        ],
-        [
-          -3.25,
           0.0,
           0.5,
-          0
+          15.0
+        ],
+        [
+          -4.75,
+          0.0,
+          0.5,
+          15.0
+        ],
+        [
+          -4.75,
+          -0.25,
+          0.5,
+          15.0
+        ],
+        [
+          -4.5,
+          -0.25,
+          0.5,
+          15.0
+        ],
+        [
+          -4.5,
+          -0.25,
+          0.5,
+          10.0
+        ],
+        [
+          -4.0,
+          -0.25,
+          0.5,
+          10.0
+        ],
+        [
+          -4.0,
+          -0.25,
+          0.5,
+          5.0
+        ],
+        [
+          -4.0,
+          0.0,
+          0.5,
+          5.0
+        ],
+        [
+          -3.5,
+          0.0,
+          0.5,
+          5.0
+        ],
+        [
+          -3.5,
+          0.0,
+          0.5,
+          0.0
         ],
         [
           -0.5,
           0.0,
           0.5,
-          0
+          0.0
         ]
       ],
       "pivot": [
@@ -804,882 +924,23 @@
         16.578065681968926
       ],
       "point_count": 30757,
-      "voxel_poses": 270,
+      "voxel_poses": 281,
       "starts_below_rim": true,
-      "voxel_collisions": [
-        {
-          "sample": 127,
-          "pose": [
-            -12.25,
-            9.5,
-            0.25,
-            0.0
-          ],
-          "hits": 10,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 128,
-          "pose": [
-            -12.25,
-            9.5,
-            0.25,
-            0.0
-          ],
-          "hits": 10,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 129,
-          "pose": [
-            -12.0,
-            9.5,
-            0.25,
-            0.0
-          ],
-          "hits": 10,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 130,
-          "pose": [
-            -11.75,
-            9.5,
-            0.25,
-            0.0
-          ],
-          "hits": 10,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 131,
-          "pose": [
-            -11.5,
-            9.5,
-            0.25,
-            0.0
-          ],
-          "hits": 10,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 132,
-          "pose": [
-            -11.25,
-            9.5,
-            0.25,
-            0.0
-          ],
-          "hits": 10,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 133,
-          "pose": [
-            -11.0,
-            9.5,
-            0.25,
-            0.0
-          ],
-          "hits": 9,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 134,
-          "pose": [
-            -10.75,
-            9.5,
-            0.25,
-            0.0
-          ],
-          "hits": 8,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 135,
-          "pose": [
-            -10.5,
-            9.5,
-            0.25,
-            0.0
-          ],
-          "hits": 7,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 136,
-          "pose": [
-            -10.25,
-            9.5,
-            0.25,
-            0.0
-          ],
-          "hits": 6,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 137,
-          "pose": [
-            -10.0,
-            9.5,
-            0.25,
-            0.0
-          ],
-          "hits": 5,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 138,
-          "pose": [
-            -9.75,
-            9.5,
-            0.25,
-            0.0
-          ],
-          "hits": 11,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 139,
-          "pose": [
-            -9.5,
-            9.5,
-            0.25,
-            0.0
-          ],
-          "hits": 35,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 140,
-          "pose": [
-            -9.25,
-            9.5,
-            0.25,
-            0.0
-          ],
-          "hits": 59,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 141,
-          "pose": [
-            -9.0,
-            9.5,
-            0.25,
-            0.0
-          ],
-          "hits": 83,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 142,
-          "pose": [
-            -8.75,
-            9.5,
-            0.25,
-            0.0
-          ],
-          "hits": 107,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 143,
-          "pose": [
-            -8.75,
-            9.5,
-            0.25,
-            0.0
-          ],
-          "hits": 107,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 144,
-          "pose": [
-            -8.75,
-            9.25,
-            0.25,
-            0.0
-          ],
-          "hits": 108,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 145,
-          "pose": [
-            -8.75,
-            9.25,
-            0.25,
-            0.0
-          ],
-          "hits": 108,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 146,
-          "pose": [
-            -8.5,
-            9.25,
-            0.25,
-            0.0
-          ],
-          "hits": 132,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 147,
-          "pose": [
-            -8.5,
-            9.25,
-            0.25,
-            0.0
-          ],
-          "hits": 132,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 148,
-          "pose": [
-            -8.5,
-            9.0,
-            0.25,
-            0.0
-          ],
-          "hits": 132,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 149,
-          "pose": [
-            -8.5,
-            8.75,
-            0.25,
-            0.0
-          ],
-          "hits": 132,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 150,
-          "pose": [
-            -8.5,
-            8.5,
-            0.25,
-            0.0
-          ],
-          "hits": 129,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 151,
-          "pose": [
-            -8.5,
-            8.25,
-            0.25,
-            0.0
-          ],
-          "hits": 119,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 152,
-          "pose": [
-            -8.5,
-            8.0,
-            0.25,
-            0.0
-          ],
-          "hits": 109,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 153,
-          "pose": [
-            -8.5,
-            7.75,
-            0.25,
-            0.0
-          ],
-          "hits": 99,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 154,
-          "pose": [
-            -8.5,
-            7.5,
-            0.25,
-            0.0
-          ],
-          "hits": 85,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 155,
-          "pose": [
-            -8.5,
-            7.25,
-            0.25,
-            0.0
-          ],
-          "hits": 80,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 156,
-          "pose": [
-            -8.5,
-            7.0,
-            0.25,
-            0.0
-          ],
-          "hits": 80,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 157,
-          "pose": [
-            -8.5,
-            6.75,
-            0.25,
-            0.0
-          ],
-          "hits": 78,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 158,
-          "pose": [
-            -8.5,
-            6.5,
-            0.25,
-            0.0
-          ],
-          "hits": 74,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 159,
-          "pose": [
-            -8.5,
-            6.25,
-            0.25,
-            0.0
-          ],
-          "hits": 68,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 160,
-          "pose": [
-            -8.5,
-            6.0,
-            0.25,
-            0.0
-          ],
-          "hits": 62,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 161,
-          "pose": [
-            -8.5,
-            5.75,
-            0.25,
-            0.0
-          ],
-          "hits": 58,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 162,
-          "pose": [
-            -8.5,
-            5.5,
-            0.25,
-            0.0
-          ],
-          "hits": 58,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 163,
-          "pose": [
-            -8.5,
-            5.25,
-            0.25,
-            0.0
-          ],
-          "hits": 58,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 164,
-          "pose": [
-            -8.5,
-            5.0,
-            0.25,
-            0.0
-          ],
-          "hits": 58,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 165,
-          "pose": [
-            -8.5,
-            4.75,
-            0.25,
-            0.0
-          ],
-          "hits": 58,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 166,
-          "pose": [
-            -8.5,
-            4.5,
-            0.25,
-            0.0
-          ],
-          "hits": 58,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 167,
-          "pose": [
-            -8.5,
-            4.25,
-            0.25,
-            0.0
-          ],
-          "hits": 58,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 168,
-          "pose": [
-            -8.5,
-            4.0,
-            0.25,
-            0.0
-          ],
-          "hits": 58,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 169,
-          "pose": [
-            -8.5,
-            3.75,
-            0.25,
-            0.0
-          ],
-          "hits": 58,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 170,
-          "pose": [
-            -8.5,
-            3.5,
-            0.25,
-            0.0
-          ],
-          "hits": 58,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 171,
-          "pose": [
-            -8.5,
-            3.25,
-            0.25,
-            0.0
-          ],
-          "hits": 53,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 172,
-          "pose": [
-            -8.5,
-            3.0,
-            0.25,
-            0.0
-          ],
-          "hits": 37,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 173,
-          "pose": [
-            -8.5,
-            3.0,
-            0.25,
-            0.0
-          ],
-          "hits": 37,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 174,
-          "pose": [
-            -8.25,
-            3.0,
-            0.25,
-            0.0
-          ],
-          "hits": 44,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 175,
-          "pose": [
-            -8.0,
-            3.0,
-            0.25,
-            0.0
-          ],
-          "hits": 51,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 176,
-          "pose": [
-            -7.75,
-            3.0,
-            0.25,
-            0.0
-          ],
-          "hits": 58,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 177,
-          "pose": [
-            -7.5,
-            3.0,
-            0.25,
-            0.0
-          ],
-          "hits": 65,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 178,
-          "pose": [
-            -7.25,
-            3.0,
-            0.25,
-            0.0
-          ],
-          "hits": 72,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 179,
-          "pose": [
-            -7.0,
-            3.0,
-            0.25,
-            0.0
-          ],
-          "hits": 79,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 180,
-          "pose": [
-            -6.75,
-            3.0,
-            0.25,
-            0.0
-          ],
-          "hits": 86,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 181,
-          "pose": [
-            -6.75,
-            3.0,
-            0.25,
-            0.0
-          ],
-          "hits": 86,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 182,
-          "pose": [
-            -6.75,
-            3.0,
-            0.25,
-            5.0
-          ],
-          "hits": 103,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 183,
-          "pose": [
-            -6.75,
-            3.0,
-            0.25,
-            10.0
-          ],
-          "hits": 91,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 184,
-          "pose": [
-            -6.75,
-            3.0,
-            0.25,
-            15.0
-          ],
-          "hits": 69,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 185,
-          "pose": [
-            -6.75,
-            3.0,
-            0.25,
-            20.0
-          ],
-          "hits": 46,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 186,
-          "pose": [
-            -6.75,
-            3.0,
-            0.25,
-            25.0
-          ],
-          "hits": 24,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 187,
-          "pose": [
-            -6.75,
-            3.0,
-            0.25,
-            30.0
-          ],
-          "hits": 7,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 188,
-          "pose": [
-            -6.75,
-            3.0,
-            0.25,
-            34.99999999999999
-          ],
-          "hits": 1,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 189,
-          "pose": [
-            -6.75,
-            3.0,
-            0.25,
-            40.0
-          ],
-          "hits": 1,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 190,
-          "pose": [
-            -6.75,
-            3.0,
-            0.25,
-            45.0
-          ],
-          "hits": 1,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 213,
-          "pose": [
-            -5.25,
-            1.75,
-            0.25,
-            90.0
-          ],
-          "hits": 1,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 214,
-          "pose": [
-            -5.25,
-            1.75,
-            0.25,
-            90.0
-          ],
-          "hits": 1,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 217,
-          "pose": [
-            -5.0,
-            1.5,
-            0.25,
-            90.0
-          ],
-          "hits": 1,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 218,
-          "pose": [
-            -5.0,
-            1.25,
-            0.25,
-            90.0
-          ],
-          "hits": 2,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 219,
-          "pose": [
-            -5.0,
-            1.0,
-            0.25,
-            90.0
-          ],
-          "hits": 3,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 220,
-          "pose": [
-            -5.0,
-            0.75,
-            0.25,
-            90.0
-          ],
-          "hits": 4,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 221,
-          "pose": [
-            -5.0,
-            0.5,
-            0.25,
-            90.0
-          ],
-          "hits": 5,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 222,
-          "pose": [
-            -5.0,
-            0.25,
-            0.25,
-            90.0
-          ],
-          "hits": 6,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 223,
-          "pose": [
-            -5.0,
-            2.220446049250313e-16,
-            0.25,
-            90.0
-          ],
-          "hits": 7,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 224,
-          "pose": [
-            -5.0,
-            -0.25,
-            0.25,
-            90.0
-          ],
-          "hits": 8,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 225,
-          "pose": [
-            -5.0,
-            -0.5,
-            0.25,
-            90.0
-          ],
-          "hits": 9,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 226,
-          "pose": [
-            -5.0,
-            -0.5,
-            0.25,
-            90.0
-          ],
-          "hits": 9,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 238,
-          "pose": [
-            -3.25,
-            -0.5,
-            0.25,
-            70.0
-          ],
-          "hits": 1,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 248,
-          "pose": [
-            -3.25,
-            -0.5,
-            0.25,
-            20.000000000000014
-          ],
-          "hits": 22,
-          "outside_invalid": 0
-        }
-      ],
+      "voxel_collisions": [],
       "exact_turnpoints": [
         {
           "waypoint": 0,
           "pose": [
             -15.75,
-            15.75,
+            16.0,
             -14.75,
-            90
+            90.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 3.7831648819134434,
+              "gap_mm": 3.909637825092587,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -1688,12 +949,12 @@
               "nearest_points_mm": [
                 [
                   11.306840037730268,
-                  57.231286926479505,
+                  57.481286926479505,
                   2.0500000000000007
                 ],
                 [
-                  12.552550001783143,
-                  55.37170546571944,
+                  12.668147543921405,
+                  55.44914278863338,
                   5.1
                 ]
               ]
@@ -1710,12 +971,12 @@
               "nearest_points_mm": [
                 [
                   12.176840037730265,
-                  60.9312869264795,
+                  61.1812869264795,
                   4.75
                 ],
                 [
                   19.0,
-                  60.9312869264795,
+                  61.1812869264795,
                   13.7
                 ]
               ]
@@ -1726,37 +987,15 @@
           "waypoint": 1,
           "pose": [
             -15.75,
-            15.75,
-            -10.5,
-            90
+            16.0,
+            -14.75,
+            25.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 1.6088440917999198,
-              "overlap_mm3": 0.0,
-              "required_mm": 0.25,
-              "intended_contact": false,
-              "pass_check": true,
-              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
-              "nearest_points_mm": [
-                [
-                  0.24684003773026575,
-                  57.231286926479505,
-                  6.300000000000001
-                ],
-                [
-                  0.24684003773026575,
-                  56.471966466048954,
-                  7.718383498949084
-                ]
-              ]
-            },
-            {
-              "a": "SF_D2F_01F",
-              "b": "SR_D2F_01F",
-              "gap_mm": 8.032068734138464,
+              "gap_mm": 3.0208487219644664,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -1764,14 +1003,36 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  12.176840037730265,
-                  67.4312869264795,
-                  9.0
+                  5.731461650455099,
+                  57.159622544159646,
+                  4.75
                 ],
                 [
-                  15.3,
-                  67.4312869264795,
-                  16.4
+                  5.731461650455103,
+                  56.288402430517976,
+                  7.642490711234964
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 11.598731094983682,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  11.62246226619332,
+                  59.90664124547419,
+                  4.75
+                ],
+                [
+                  19.0,
+                  59.90664124547419,
+                  13.7
                 ]
               ]
             }
@@ -1782,36 +1043,36 @@
           "pose": [
             -15.75,
             16.0,
-            -10.5,
-            90
+            -9.5,
+            25.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 1.7357285973866439,
+              "gap_mm": 0.15962254415964594,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": true,
+              "pass_check": false,
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  1.1468400377302643,
-                  57.481286926479505,
-                  6.300000000000001
+                  5.731461650455099,
+                  57.159622544159646,
+                  8.6
                 ],
                 [
-                  1.1468400377302643,
-                  56.54145975148797,
-                  7.759273327698837
+                  5.731461650455103,
+                  57.0,
+                  8.6
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 8.032068734138464,
+              "gap_mm": 7.664774178078043,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -1819,13 +1080,13 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  12.176840037730265,
-                  67.6812869264795,
-                  9.0
+                  11.477490367694356,
+                  60.21753448508463,
+                  10.0
                 ],
                 [
                   15.3,
-                  67.6812869264795,
+                  62.0,
                   16.4
                 ]
               ]
@@ -1835,29 +1096,29 @@
         {
           "waypoint": 3,
           "pose": [
-            -15.75,
+            -14.75,
             16.0,
-            -10.5,
-            0
+            -9.5,
+            25.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.8500000000000014,
+              "gap_mm": 0.15962254415964594,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": true,
+              "pass_check": false,
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  2.75,
-                  57.85,
+                  6.731461650455099,
+                  57.159622544159646,
                   8.6
                 ],
                 [
-                  2.75,
+                  6.731461650455103,
                   57.0,
                   8.6
                 ]
@@ -1866,7 +1127,7 @@
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 9.558373292563958,
+              "gap_mm": 7.205909917641485,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -1874,13 +1135,13 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  9.25,
-                  67.98,
-                  9.0
+                  12.298884172537626,
+                  60.60055670664412,
+                  10.0
                 ],
                 [
                   15.3,
-                  67.98,
+                  62.0,
                   16.4
                 ]
               ]
@@ -1890,16 +1151,16 @@
         {
           "waypoint": 4,
           "pose": [
-            -15.75,
-            16.0,
-            0.25,
-            0
+            -14.75,
+            16.25,
+            -9.5,
+            25.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 1.1768602295939805,
+              "gap_mm": 0.40000000000000036,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -1907,21 +1168,21 @@
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  9.25,
-                  57.85,
-                  13.95
+                  9.5,
+                  59.3,
+                  10.0
                 ],
                 [
                   9.5,
-                  57.85,
-                  12.8
+                  59.3,
+                  10.4
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 5.43,
+              "gap_mm": 7.1579731056831495,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -1929,13 +1190,13 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  9.870000000000001,
-                  67.08,
-                  16.4
+                  12.394639727927498,
+                  60.6452082554333,
+                  10.0
                 ],
                 [
                   15.3,
-                  67.08,
+                  62.0,
                   16.4
                 ]
               ]
@@ -1945,38 +1206,38 @@
         {
           "waypoint": 5,
           "pose": [
-            -15.75,
-            13.0,
-            0.25,
-            0
+            -14.75,
+            16.25,
+            -9.25,
+            25.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.3500000000000014,
+              "gap_mm": 0.15000000000000036,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": true,
+              "pass_check": false,
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  6.0,
-                  54.85,
-                  19.0
+                  9.5,
+                  59.3,
+                  10.25
                 ],
                 [
-                  6.0,
-                  54.5,
-                  19.0
+                  9.5,
+                  59.3,
+                  10.4
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 5.43,
+              "gap_mm": 6.935349953800692,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -1984,13 +1245,13 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  9.870000000000001,
-                  62.9,
-                  16.4
+                  12.394639727927498,
+                  60.6452082554333,
+                  10.25
                 ],
                 [
                   15.3,
-                  62.9,
+                  62.0,
                   16.4
                 ]
               ]
@@ -2000,38 +1261,38 @@
         {
           "waypoint": 6,
           "pose": [
-            -12.5,
-            13.0,
-            0.25,
-            0
+            -14.75,
+            17.0,
+            -9.25,
+            25.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.3500000000000014,
+              "gap_mm": 0.20281214888813726,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": true,
+              "pass_check": false,
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  6.0,
-                  54.85,
-                  19.75
+                  9.44231180579462,
+                  59.42371273170513,
+                  10.25
                 ],
                 [
-                  6.0,
-                  54.5,
-                  19.75
+                  9.5,
+                  59.3,
+                  10.4
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 2.1799999999999997,
+              "gap_mm": 6.7961122476057465,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -2039,13 +1300,13 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  13.120000000000001,
-                  62.9,
-                  16.4
+                  12.62246226619332,
+                  60.90664124547419,
+                  10.25
                 ],
                 [
                   15.3,
-                  62.9,
+                  62.0,
                   16.4
                 ]
               ]
@@ -2055,16 +1316,16 @@
         {
           "waypoint": 7,
           "pose": [
-            -12.5,
-            12.75,
-            0.25,
-            0
+            -14.75,
+            17.0,
+            -0.75,
+            25.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.10000000000000142,
+              "gap_mm": 0.20281214888813595,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -2072,21 +1333,21 @@
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  6.0,
-                  54.6,
-                  19.75
+                  9.44231180579462,
+                  59.42371273170513,
+                  12.95
                 ],
                 [
-                  6.0,
-                  54.5,
-                  19.75
+                  9.5,
+                  59.3,
+                  12.8
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 2.1799999999999997,
+              "gap_mm": 2.8921690272279803,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -2094,13 +1355,13 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  13.120000000000001,
-                  62.9,
+                  12.62246226619332,
+                  60.90664124547419,
                   16.4
                 ],
                 [
                   15.3,
-                  62.9,
+                  62.0,
                   16.4
                 ]
               ]
@@ -2110,38 +1371,38 @@
         {
           "waypoint": 8,
           "pose": [
-            -12.25,
-            12.75,
-            0.25,
-            0
+            -14.75,
+            11.0,
+            -0.75,
+            25.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.26925824035672574,
+              "gap_mm": 0.14999999999999858,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": true,
+              "pass_check": false,
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  6.25,
-                  54.6,
-                  19.75
+                  11.3,
+                  56.3,
+                  12.95
                 ],
                 [
-                  6.0,
-                  54.5,
-                  19.75
+                  11.3,
+                  56.3,
+                  12.8
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 1.9299999999999997,
+              "gap_mm": 3.2775554753315763,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -2149,13 +1410,13 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  13.370000000000001,
-                  62.9,
+                  12.329525950262383,
+                  55.53484520225666,
                   16.4
                 ],
                 [
                   15.3,
-                  62.9,
+                  56.92,
                   16.4
                 ]
               ]
@@ -2165,16 +1426,16 @@
         {
           "waypoint": 9,
           "pose": [
-            -12.25,
-            9.5,
-            0.25,
-            0
+            -14.25,
+            11.0,
+            -0.75,
+            25.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.10480963853849282,
+              "gap_mm": 0.14999999999999858,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -2182,21 +1443,21 @@
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  6.0,
-                  52.22,
-                  17.05
+                  11.3,
+                  56.3,
+                  12.95
                 ],
                 [
-                  6.0,
-                  52.141254691158196,
-                  17.11916817668537
+                  11.3,
+                  56.3,
+                  12.8
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 2.1426630347499245,
+              "gap_mm": 2.8244015818132513,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -2204,14 +1465,14 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  13.370000000000001,
-                  58.75033541065269,
-                  16.824101953643854
+                  12.740222852684019,
+                  55.726356313036405,
+                  16.4
                 ],
                 [
                   15.3,
-                  57.82,
-                  16.8
+                  56.92,
+                  16.4
                 ]
               ]
             }
@@ -2220,16 +1481,16 @@
         {
           "waypoint": 10,
           "pose": [
-            -8.75,
-            9.5,
-            0.25,
-            0
+            -14.25,
+            11.0,
+            -0.5,
+            25.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.11612519248883763,
+              "gap_mm": 0.1269970310400918,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -2237,35 +1498,35 @@
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  6.050000000000001,
-                  52.22,
-                  17.05
+                  6.11509839816217,
+                  54.553671264504395,
+                  19.0
                 ],
                 [
                   6.0,
-                  52.141254691158196,
-                  17.11916817668537
+                  54.5,
+                  19.0
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 0.0,
-              "overlap_mm3": 0.6840000000000019,
+              "gap_mm": 2.8244015818132513,
+              "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": false,
+              "pass_check": true,
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  15.3,
-                  62.9,
+                  12.740222852684019,
+                  55.726356313036405,
                   16.4
                 ],
                 [
                   15.3,
-                  62.9,
+                  56.92,
                   16.4
                 ]
               ]
@@ -2275,52 +1536,52 @@
         {
           "waypoint": 11,
           "pose": [
-            -8.75,
-            9.25,
-            0.25,
-            0
+            -11.5,
+            11.0,
+            -0.5,
+            25.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.05000000000000071,
+              "gap_mm": 0.31445072448342304,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": false,
+              "pass_check": true,
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  6.050000000000001,
-                  51.97,
-                  17.05
+                  6.224618268820914,
+                  51.46125331768044,
+                  16.3
                 ],
                 [
                   6.0,
-                  51.97,
-                  17.05
+                  51.35651209876773,
+                  16.493533378259993
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 0.0,
-              "overlap_mm3": 0.6840000000000019,
+              "gap_mm": 0.3320551674624654,
+              "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": false,
+              "pass_check": true,
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  15.3,
-                  62.9,
+                  14.99905581600301,
+                  56.779667422325,
                   16.4
                 ],
                 [
                   15.3,
-                  62.9,
+                  56.92,
                   16.4
                 ]
               ]
@@ -2330,52 +1591,52 @@
         {
           "waypoint": 12,
           "pose": [
-            -8.5,
-            9.25,
-            0.25,
-            0
+            -11.5,
+            10.5,
+            -0.5,
+            25.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.3000000000000007,
+              "gap_mm": 0.15339692835466306,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": true,
+              "pass_check": false,
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  6.300000000000001,
-                  51.97,
-                  17.05
+                  6.101721125255371,
+                  51.2248070925676,
+                  16.3
                 ],
                 [
                   6.0,
-                  51.97,
-                  17.05
+                  51.17737375286488,
+                  16.40456341898615
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 0.0,
-              "overlap_mm3": 0.8640000000000028,
+              "gap_mm": 0.5433642983328155,
+              "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": false,
+              "pass_check": true,
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  15.3,
-                  62.9,
+                  14.807544705223265,
+                  56.69036432474663,
                   16.4
                 ],
                 [
                   15.3,
-                  62.9,
+                  56.92,
                   16.4
                 ]
               ]
@@ -2385,47 +1646,47 @@
         {
           "waypoint": 13,
           "pose": [
-            -8.5,
-            3.0,
-            0.25,
-            0
+            -11.25,
+            10.5,
+            -0.5,
+            25.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.25,
+              "gap_mm": 0.1999999999999993,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": true,
+              "pass_check": false,
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  14.734524189382238,
-                  44.85,
-                  13.95
+                  16.12246226619332,
+                  54.40664124547419,
+                  13.2
                 ],
                 [
-                  14.734524189382238,
-                  44.85,
-                  13.7
+                  16.12246226619332,
+                  54.40664124547419,
+                  13.0
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 0.0,
-              "overlap_mm3": 0.35040000000000016,
+              "gap_mm": 0.3167873515736522,
+              "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": false,
+              "pass_check": true,
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  15.3,
-                  56.92,
+                  15.012893156434084,
+                  56.7861198801365,
                   16.4
                 ],
                 [
@@ -2440,47 +1701,47 @@
         {
           "waypoint": 14,
           "pose": [
-            -6.75,
-            3.0,
-            0.25,
-            0
+            -11.25,
+            9.25,
+            -0.5,
+            25.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.25,
+              "gap_mm": 0.13008851513845698,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": true,
+              "pass_check": false,
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  18.25,
-                  44.85,
-                  13.95
+                  6.130088515138457,
+                  50.45009975877392,
+                  16.3
                 ],
                 [
-                  18.25,
-                  44.85,
-                  13.7
+                  6.0,
+                  50.45009975877392,
+                  16.3
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 0.0,
-              "overlap_mm3": 0.8614000000000006,
+              "gap_mm": 0.8450601787495255,
+              "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": false,
+              "pass_check": true,
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  15.3,
-                  56.92,
+                  14.53411537948472,
+                  56.562862136190596,
                   16.4
                 ],
                 [
@@ -2495,38 +1756,38 @@
         {
           "waypoint": 15,
           "pose": [
-            -6.75,
-            3.0,
-            0.25,
-            90
+            -11.25,
+            9.25,
+            0.5,
+            25.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.25,
+              "gap_mm": 0.13008851513845698,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": true,
+              "pass_check": false,
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  21.176840037730265,
-                  54.6812869264795,
-                  13.95
+                  6.130088515138457,
+                  50.45009975877392,
+                  16.9
                 ],
                 [
-                  21.176840037730265,
-                  54.6812869264795,
-                  13.7
+                  6.0,
+                  50.45009975877392,
+                  16.9
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 1.368713073520496,
+              "gap_mm": 0.8450601787495255,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -2534,14 +1795,14 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  21.176840037730265,
-                  54.6812869264795,
-                  13.95
+                  14.53411537948472,
+                  56.562862136190596,
+                  16.4
                 ],
                 [
-                  21.176840037730265,
-                  56.05,
-                  13.95
+                  15.3,
+                  56.92,
+                  16.4
                 ]
               ]
             }
@@ -2550,38 +1811,38 @@
         {
           "waypoint": 16,
           "pose": [
-            -6.75,
-            2.0,
-            0.25,
-            90
+            -10.75,
+            9.25,
+            0.5,
+            25.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.23128692647950544,
+              "gap_mm": 0.5166764999247224,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": false,
+              "pass_check": true,
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  10.146840037730264,
-                  43.481286926479505,
-                  17.05
+                  16.325167035940307,
+                  53.01801020287426,
+                  14.2
                 ],
                 [
-                  10.146840037730264,
-                  43.25,
-                  17.05
+                  16.380196097281,
+                  52.9,
+                  13.7
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 2.368713073520496,
+              "gap_mm": 0.3919062852312003,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -2589,14 +1850,14 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  21.176840037730265,
-                  53.6812869264795,
-                  13.95
+                  14.944812281906357,
+                  56.75437324697034,
+                  16.4
                 ],
                 [
-                  21.176840037730265,
-                  56.05,
-                  13.95
+                  15.3,
+                  56.92,
+                  16.4
                 ]
               ]
             }
@@ -2605,16 +1866,16 @@
         {
           "waypoint": 17,
           "pose": [
-            -5.25,
+            -10.75,
+            9.25,
             2.0,
-            0.25,
-            90
+            25.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.23128692647950544,
+              "gap_mm": 0.1999999999999993,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -2622,21 +1883,21 @@
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  10.746840037730266,
-                  43.481286926479505,
-                  16.65
+                  4.8635441810623306,
+                  54.23846630858712,
+                  18.8
                 ],
                 [
-                  10.746840037730266,
-                  43.25,
-                  16.65
+                  4.8635441810623306,
+                  54.23846630858712,
+                  19.0
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 2.368713073520496,
+              "gap_mm": 0.3919062852312003,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -2644,14 +1905,14 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  22.676840037730265,
-                  53.6812869264795,
-                  13.95
+                  14.944812281906357,
+                  56.75437324697034,
+                  16.4
                 ],
                 [
-                  22.676840037730265,
-                  56.05,
-                  13.95
+                  15.3,
+                  56.92,
+                  16.4
                 ]
               ]
             }
@@ -2660,38 +1921,38 @@
         {
           "waypoint": 18,
           "pose": [
-            -5.25,
-            1.75,
-            0.25,
-            90
+            -10.75,
+            9.25,
+            2.0,
+            20.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.0,
-              "overlap_mm3": 0.0026434833353794606,
+              "gap_mm": 0.1462433180189567,
+              "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
               "pass_check": false,
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  10.746840037730266,
-                  43.25,
-                  16.65
+                  6.041577557891415,
+                  50.84308570909653,
+                  18.4
                 ],
                 [
-                  10.746840037730266,
-                  43.25,
-                  16.65
+                  6.0,
+                  50.957319110559254,
+                  18.318703353481
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 2.618713073520496,
+              "gap_mm": 0.5872717311558675,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -2699,14 +1960,14 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  22.676840037730265,
-                  53.4312869264795,
-                  13.95
+                  14.748145087836667,
+                  56.719141238338956,
+                  16.4
                 ],
                 [
-                  22.676840037730265,
-                  56.05,
-                  13.95
+                  15.3,
+                  56.92,
+                  16.4
                 ]
               ]
             }
@@ -2715,38 +1976,38 @@
         {
           "waypoint": 19,
           "pose": [
-            -5.0,
-            1.75,
-            0.25,
-            90
+            -10.5,
+            9.25,
+            2.0,
+            20.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.0,
-              "overlap_mm3": 0.0007721759833299942,
+              "gap_mm": 0.31721801820208206,
+              "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": false,
+              "pass_check": true,
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  10.996840037730266,
-                  43.25,
-                  16.65
+                  6.283333272338677,
+                  50.84008503455254,
+                  18.4
                 ],
                 [
-                  10.996840037730266,
-                  43.25,
-                  16.65
+                  6.0,
+                  50.9561695251339,
+                  18.31709089974931
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 2.618713073520496,
+              "gap_mm": 0.35234857595939134,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -2754,14 +2015,14 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  22.926840037730265,
-                  53.4312869264795,
-                  13.95
+                  14.968900643226538,
+                  56.79948968954977,
+                  16.4
                 ],
                 [
-                  22.926840037730265,
-                  56.05,
-                  13.95
+                  15.3,
+                  56.92,
+                  16.4
                 ]
               ]
             }
@@ -2770,38 +2031,38 @@
         {
           "waypoint": 20,
           "pose": [
-            -5.0,
-            -0.5,
-            0.25,
-            90
+            -10.5,
+            9.25,
+            3.25,
+            20.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.0,
-              "overlap_mm3": 0.09361614202609089,
+              "gap_mm": 0.26800018943763604,
+              "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": false,
+              "pass_check": true,
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  11.1,
-                  40.981286926479505,
-                  16.65
+                  4.853689073237382,
+                  54.768000189437636,
+                  19.65
                 ],
                 [
-                  11.1,
-                  40.981286926479505,
-                  16.65
+                  4.853689073237382,
+                  54.5,
+                  19.65
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 4.868713073520496,
+              "gap_mm": 0.3829484547306733,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -2809,14 +2070,14 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  22.926840037730265,
-                  51.1812869264795,
-                  13.95
+                  14.968900643226538,
+                  56.79948968954977,
+                  16.95
                 ],
                 [
-                  22.926840037730265,
-                  56.05,
-                  13.95
+                  15.3,
+                  56.92,
+                  16.8
                 ]
               ]
             }
@@ -2825,16 +2086,16 @@
         {
           "waypoint": 21,
           "pose": [
-            -3.25,
-            -0.5,
-            0.25,
-            90
+            -9.0,
+            9.25,
+            3.25,
+            20.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.25,
+              "gap_mm": 0.44375676002301834,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -2842,36 +2103,36 @@
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  24.676840037730265,
-                  51.1812869264795,
-                  13.95
+                  6.353689073237382,
+                  54.768000189437636,
+                  19.65
                 ],
                 [
-                  24.676840037730265,
-                  51.1812869264795,
-                  13.7
+                  6.0,
+                  54.5,
+                  19.65
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 4.584849292689277,
+              "gap_mm": 0.14999999999999858,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": true,
+              "pass_check": false,
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  17.276840037730267,
-                  51.801286926479506,
-                  16.85
+                  15.3,
+                  57.82,
+                  16.95
                 ],
                 [
-                  19.0,
-                  56.05,
-                  16.85
+                  15.3,
+                  57.82,
+                  16.8
                 ]
               ]
             }
@@ -2880,16 +2141,16 @@
         {
           "waypoint": 22,
           "pose": [
-            -3.25,
-            -0.5,
-            0.25,
-            0
+            -9.0,
+            8.75,
+            3.25,
+            20.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.25,
+              "gap_mm": 0.2530104037137065,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -2897,36 +2158,36 @@
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  21.75,
-                  54.15,
-                  13.95
+                  6.2377520093518335,
+                  54.58653465454105,
+                  19.65
                 ],
                 [
-                  21.75,
-                  54.15,
-                  13.7
+                  6.0,
+                  54.5,
+                  19.65
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 1.8999999999999986,
+              "gap_mm": 0.14999999999999858,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": true,
+              "pass_check": false,
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  21.75,
-                  54.15,
-                  13.95
+                  15.3,
+                  57.82,
+                  16.95
                 ],
                 [
-                  21.75,
-                  56.05,
-                  13.95
+                  15.3,
+                  57.82,
+                  16.8
                 ]
               ]
             }
@@ -2935,16 +2196,16 @@
         {
           "waypoint": 23,
           "pose": [
-            -3.25,
-            -0.5,
-            0.5,
-            0
+            -8.75,
+            8.75,
+            3.25,
+            20.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.45000000000000107,
+              "gap_mm": 0.48793355891018353,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -2952,36 +2213,36 @@
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  11.55,
-                  42.22,
-                  17.3
+                  6.458507564741706,
+                  54.666883105751864,
+                  19.65
                 ],
                 [
-                  11.1,
-                  42.22,
-                  17.3
+                  6.0,
+                  54.5,
+                  19.65
                 ]
               ]
             },
             {
               "a": "SF_D2F_01F",
               "b": "SR_D2F_01F",
-              "gap_mm": 1.8999999999999986,
+              "gap_mm": 0.14999999999999858,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": true,
+              "pass_check": false,
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  21.75,
-                  54.15,
-                  14.2
+                  15.3,
+                  57.82,
+                  16.95
                 ],
                 [
-                  21.75,
-                  56.05,
-                  14.2
+                  15.3,
+                  57.82,
+                  16.8
                 ]
               ]
             }
@@ -2990,16 +2251,16 @@
         {
           "waypoint": 24,
           "pose": [
-            -3.25,
-            0.0,
-            0.5,
-            0
+            -8.75,
+            4.5,
+            3.25,
+            20.0
           ],
           "pairs": [
             {
               "a": "SF_D2F_01F",
               "b": "BODY",
-              "gap_mm": 0.30000000000000426,
+              "gap_mm": 0.2916387030300527,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -3007,14 +2268,1114 @@
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  21.75,
-                  54.65,
+                  4.866226745142983,
+                  54.79163870303005,
+                  19.65
+                ],
+                [
+                  4.866226745142983,
+                  54.5,
+                  19.65
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 0.36475251009587917,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  14.987568957950113,
+                  56.80628440043307,
+                  16.95
+                ],
+                [
+                  15.3,
+                  56.92,
+                  16.8
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 25,
+          "pose": [
+            -7.25,
+            4.5,
+            3.25,
+            20.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.4681614699685085,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  6.366226745142983,
+                  54.79163870303005,
+                  19.65
+                ],
+                [
+                  6.0,
+                  54.5,
+                  19.65
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 0.14999999999999858,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  15.3,
+                  56.92,
+                  16.95
+                ],
+                [
+                  15.3,
+                  56.92,
+                  16.8
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 26,
+          "pose": [
+            -7.25,
+            3.75,
+            3.25,
+            20.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.18737177346070316,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  6.176071872864591,
+                  54.56408492081422,
+                  19.65
+                ],
+                [
+                  6.0,
+                  54.5,
+                  19.65
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 0.14999999999999858,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  15.3,
+                  56.92,
+                  16.95
+                ],
+                [
+                  15.3,
+                  56.92,
+                  16.8
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 27,
+          "pose": [
+            -7.0,
+            3.75,
+            3.25,
+            20.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.4222949286571802,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  6.396827428254463,
+                  54.644433372025034,
+                  19.65
+                ],
+                [
+                  6.0,
+                  54.5,
+                  19.65
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 0.14999999999999858,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  15.3,
+                  56.92,
+                  16.95
+                ],
+                [
+                  15.3,
+                  56.92,
+                  16.8
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 28,
+          "pose": [
+            -7.0,
+            2.75,
+            3.25,
+            20.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.2443616758452194,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  10.091151401331778,
+                  43.49436167584522,
+                  19.65
+                ],
+                [
+                  10.091151401331778,
+                  43.25,
+                  19.65
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 0.14999999999999858,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  15.3,
+                  56.92,
+                  16.95
+                ],
+                [
+                  15.3,
+                  56.92,
+                  16.8
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 29,
+          "pose": [
+            -5.75,
+            2.75,
+            3.25,
+            20.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.29502257339946425,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  18.722769464811254,
+                  54.84909633716161,
+                  19.5
+                ],
+                [
+                  19.0,
+                  54.95,
+                  19.5
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 0.14999999999999858,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  15.3,
+                  56.92,
+                  16.95
+                ],
+                [
+                  15.3,
+                  56.92,
+                  16.8
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 30,
+          "pose": [
+            -5.75,
+            2.25,
+            3.25,
+            20.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.13917473605670175,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  11.230781472472309,
+                  43.297600563173425,
+                  19.65
+                ],
+                [
+                  11.1,
+                  43.25,
+                  19.65
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 0.14999999999999858,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  16.845715823472815,
+                  57.69350010374293,
+                  16.95
+                ],
+                [
+                  16.845715823472815,
+                  57.69350010374293,
+                  16.8
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 31,
+          "pose": [
+            -5.5,
+            2.25,
+            3.25,
+            20.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.32035854361188737,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  18.85552608213288,
+                  54.67121988365092,
+                  19.563549431544633
+                ],
+                [
+                  19.0,
+                  54.95,
+                  19.5
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 0.14999999999999858,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  17.095715823472815,
+                  57.69350010374293,
+                  16.95
+                ],
+                [
+                  17.095715823472815,
+                  57.69350010374293,
+                  16.8
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 32,
+          "pose": [
+            -5.5,
+            0.0,
+            3.25,
+            20.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.18333327233867713,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  11.283333272338677,
+                  41.59008503455254,
+                  20.05
+                ],
+                [
+                  11.1,
+                  41.59008503455254,
+                  20.05
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 1.4840997081217795,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  17.095715823472815,
+                  55.44350010374293,
+                  16.95
+                ],
+                [
+                  17.095715823472815,
+                  56.92,
+                  16.8
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 33,
+          "pose": [
+            -5.5,
+            0.0,
+            0.5,
+            20.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.18333327233867713,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  11.283333272338677,
+                  41.59008503455254,
+                  16.9
+                ],
+                [
+                  11.1,
+                  41.59008503455254,
+                  16.9
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 1.4764998962570743,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  17.095715823472815,
+                  55.44350010374293,
+                  16.4
+                ],
+                [
+                  17.095715823472815,
+                  56.92,
+                  16.4
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 34,
+          "pose": [
+            -5.0,
+            0.0,
+            0.5,
+            20.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.5,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  21.973573658041374,
+                  43.415434557683305,
                   14.2
                 ],
                 [
-                  21.75,
+                  21.973573658041374,
+                  43.415434557683305,
+                  13.7
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 1.4764998962570743,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  17.595715823472815,
+                  55.44350010374293,
+                  16.4
+                ],
+                [
+                  17.595715823472815,
+                  56.92,
+                  16.4
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 35,
+          "pose": [
+            -5.0,
+            0.0,
+            0.5,
+            15.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.12283831977421933,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  11.222838319774219,
+                  42.030596945041815,
+                  16.9
+                ],
+                [
+                  11.1,
+                  42.030596945041815,
+                  16.9
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 1.064729734931961,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  18.22050768044191,
+                  55.32471306905595,
+                  14.2
+                ],
+                [
+                  19.0,
+                  56.05,
+                  14.2
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 36,
+          "pose": [
+            -4.75,
+            0.0,
+            0.5,
+            15.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.37283831977421933,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  11.472838319774219,
+                  42.030596945041815,
+                  16.9
+                ],
+                [
+                  11.1,
+                  42.030596945041815,
+                  16.9
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 0.8979995816642893,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  18.47050768044191,
+                  55.32471306905595,
+                  14.2
+                ],
+                [
+                  19.0,
+                  56.05,
+                  14.2
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 37,
+          "pose": [
+            -4.75,
+            -0.25,
+            0.5,
+            15.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.37283831977421933,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  11.472838319774219,
+                  41.780596945041815,
+                  16.9
+                ],
+                [
+                  11.1,
+                  41.780596945041815,
+                  16.9
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 1.1097507441499017,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  18.47050768044191,
+                  55.07471306905595,
+                  14.2
+                ],
+                [
+                  19.0,
+                  56.05,
+                  14.2
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 38,
+          "pose": [
+            -4.5,
+            -0.25,
+            0.5,
+            15.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.23769073226573165,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  18.77040838303497,
+                  54.88848111164527,
+                  19.5
+                ],
+                [
+                  19.0,
+                  54.95,
+                  19.5
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 1.0145445058558127,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  18.72050768044191,
+                  55.07471306905595,
+                  14.2
+                ],
+                [
+                  19.0,
+                  56.05,
+                  14.2
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 39,
+          "pose": [
+            -4.5,
+            -0.25,
+            0.5,
+            10.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.048076143458096965,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  19.332569043528483,
+                  54.901923856541906,
+                  14.2
+                ],
+                [
+                  19.332569043528483,
                   54.95,
                   14.2
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 1.1480761434580913,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  19.332569043528483,
+                  54.901923856541906,
+                  14.2
+                ],
+                [
+                  19.332569043528483,
+                  56.05,
+                  14.2
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 40,
+          "pose": [
+            -4.0,
+            -0.25,
+            0.5,
+            10.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.048076143458096965,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  19.832569043528483,
+                  54.901923856541906,
+                  14.2
+                ],
+                [
+                  19.832569043528483,
+                  54.95,
+                  14.2
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 1.1480761434580913,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  19.832569043528483,
+                  54.901923856541906,
+                  14.2
+                ],
+                [
+                  19.832569043528483,
+                  56.05,
+                  14.2
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 41,
+          "pose": [
+            -4.0,
+            -0.25,
+            0.5,
+            5.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.12738367815755858,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  11.227383678157558,
+                  42.79943140046295,
+                  16.9
+                ],
+                [
+                  11.1,
+                  42.79943140046295,
+                  16.9
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 1.373552503558976,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  20.427241756186696,
+                  54.67644749644102,
+                  14.2
+                ],
+                [
+                  20.427241756186696,
+                  56.05,
+                  14.2
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 42,
+          "pose": [
+            -4.0,
+            0.0,
+            0.5,
+            5.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.02355250355898164,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  20.427241756186696,
+                  54.92644749644102,
+                  14.2
+                ],
+                [
+                  20.427241756186696,
+                  54.95,
+                  14.2
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 1.123552503558976,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  20.427241756186696,
+                  54.92644749644102,
+                  14.2
+                ],
+                [
+                  20.427241756186696,
+                  56.05,
+                  14.2
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 43,
+          "pose": [
+            -3.5,
+            0.0,
+            0.5,
+            5.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.02355250355898164,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  20.927241756186696,
+                  54.92644749644102,
+                  14.2
+                ],
+                [
+                  20.927241756186696,
+                  54.95,
+                  14.2
+                ]
+              ]
+            },
+            {
+              "a": "SF_D2F_01F",
+              "b": "SR_D2F_01F",
+              "gap_mm": 1.123552503558976,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  20.927241756186696,
+                  54.92644749644102,
+                  14.2
+                ],
+                [
+                  20.927241756186696,
+                  56.05,
+                  14.2
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "waypoint": 44,
+          "pose": [
+            -3.5,
+            0.0,
+            0.5,
+            0.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_D2F_01F",
+              "b": "BODY",
+              "gap_mm": 0.20000000000000107,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": false,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  11.3,
+                  42.72,
+                  16.9
+                ],
+                [
+                  11.1,
+                  42.72,
+                  16.9
                 ]
               ]
             },
@@ -3029,12 +3390,12 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  21.75,
+                  21.5,
                   54.65,
                   14.2
                 ],
                 [
-                  21.75,
+                  21.5,
                   56.05,
                   14.2
                 ]
@@ -3043,12 +3404,12 @@
           ]
         },
         {
-          "waypoint": 25,
+          "waypoint": 45,
           "pose": [
             -0.5,
             0.0,
             0.5,
-            0
+            0.0
           ],
           "pairs": [
             {
@@ -3383,12 +3744,6 @@
           0,
           0.55,
           0
-        ],
-        [
-          0.0,
-          0.0,
-          0.55,
-          0.0
         ]
       ],
       "pivot": [
@@ -3397,32 +3752,9 @@
         16.45485436893421
       ],
       "point_count": 10970,
-      "voxel_poses": 126,
+      "voxel_poses": 123,
       "starts_below_rim": true,
-      "voxel_collisions": [
-        {
-          "sample": 124,
-          "pose": [
-            -0.15,
-            0.0,
-            0.55,
-            0.0
-          ],
-          "hits": 999,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 125,
-          "pose": [
-            0.0,
-            0.0,
-            0.55,
-            0.0
-          ],
-          "hits": 999,
-          "outside_invalid": 0
-        }
-      ],
+      "voxel_collisions": [],
       "exact_turnpoints": [
         {
           "waypoint": 0,
@@ -3808,9 +4140,162 @@
               ]
             }
           ]
+        }
+      ],
+      "exact_final_seating": [
+        {
+          "pose": [
+            -0.3,
+            0.0,
+            0.55,
+            0.0
+          ],
+          "pairs": [
+            {
+              "a": "SR_RETAINER",
+              "b": "BODY",
+              "gap_mm": 0.25,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.0,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  17.620833333333326,
+                  57.24971059231027,
+                  13.25
+                ],
+                [
+                  17.620833333333326,
+                  57.24971059231027,
+                  13.0
+                ]
+              ]
+            },
+            {
+              "a": "SR_RETAINER",
+              "b": "SR_D2F_01F",
+              "gap_mm": 0.25,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.0,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  17.0,
+                  67.98,
+                  16.15
+                ],
+                [
+                  17.0,
+                  67.98,
+                  16.4
+                ]
+              ]
+            },
+            {
+              "a": "SR_RETAINER",
+              "b": "SF_D2F_01F",
+              "gap_mm": 0.6499999999999986,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.0,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  18.7,
+                  55.3,
+                  14.25
+                ],
+                [
+                  18.7,
+                  54.65,
+                  14.25
+                ]
+              ]
+            }
+          ]
         },
         {
-          "waypoint": 5,
+          "pose": [
+            -0.15,
+            0.0,
+            0.55,
+            0.0
+          ],
+          "pairs": [
+            {
+              "a": "SR_RETAINER",
+              "b": "BODY",
+              "gap_mm": 0.14999999999999858,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.0,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  18.85,
+                  55.3,
+                  14.25
+                ],
+                [
+                  19.0,
+                  55.3,
+                  14.25
+                ]
+              ]
+            },
+            {
+              "a": "SR_RETAINER",
+              "b": "SR_D2F_01F",
+              "gap_mm": 0.14999999999999858,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.0,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  18.85,
+                  68.33,
+                  16.15
+                ],
+                [
+                  19.0,
+                  68.33,
+                  16.15
+                ]
+              ]
+            },
+            {
+              "a": "SR_RETAINER",
+              "b": "SF_D2F_01F",
+              "gap_mm": 0.6499999999999986,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.0,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  18.85,
+                  55.3,
+                  14.25
+                ],
+                [
+                  18.85,
+                  54.65,
+                  14.25
+                ]
+              ]
+            }
+          ]
+        },
+        {
           "pose": [
             0.0,
             0.0,
@@ -3823,9 +4308,9 @@
               "b": "BODY",
               "gap_mm": 0.0,
               "overlap_mm3": 0.0,
-              "required_mm": 0.25,
+              "required_mm": 0.0,
               "intended_contact": false,
-              "pass_check": false,
+              "pass_check": true,
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
@@ -3845,9 +4330,9 @@
               "b": "SR_D2F_01F",
               "gap_mm": 0.0,
               "overlap_mm3": 0.0,
-              "required_mm": 0.25,
+              "required_mm": 0.0,
               "intended_contact": false,
-              "pass_check": false,
+              "pass_check": true,
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
@@ -3867,7 +4352,7 @@
               "b": "SF_D2F_01F",
               "gap_mm": 0.6499999999999986,
               "overlap_mm3": 0.0,
-              "required_mm": 0.25,
+              "required_mm": 0.0,
               "intended_contact": false,
               "pass_check": true,
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
@@ -3885,9 +4370,7 @@
               ]
             }
           ]
-        }
-      ],
-      "exact_final_seating": [
+        },
         {
           "pose": [
             0.0,
@@ -4194,7 +4677,7 @@
         }
       ],
       "note": "Final seating permits only explicitly designed contacts. Raw contact records retained; not an automatic functional exception.",
-      "raw_pass": false
+      "raw_pass": true
     },
     {
       "part": "SF_RETAINER",
@@ -4356,12 +4839,6 @@
           0,
           0.55,
           0
-        ],
-        [
-          0.0,
-          0.0,
-          0.55,
-          0.0
         ]
       ],
       "pivot": [
@@ -4370,32 +4847,9 @@
         16.385836631634444
       ],
       "point_count": 6893,
-      "voxel_poses": 209,
+      "voxel_poses": 206,
       "starts_below_rim": true,
-      "voxel_collisions": [
-        {
-          "sample": 207,
-          "pose": [
-            -0.15,
-            0.0,
-            0.55,
-            0.0
-          ],
-          "hits": 986,
-          "outside_invalid": 0
-        },
-        {
-          "sample": 208,
-          "pose": [
-            0.0,
-            0.0,
-            0.55,
-            0.0
-          ],
-          "hits": 986,
-          "outside_invalid": 0
-        }
-      ],
+      "voxel_collisions": [],
       "exact_turnpoints": [
         {
           "waypoint": 0,
@@ -4871,7 +5325,7 @@
             {
               "a": "SF_RETAINER",
               "b": "SR_RETAINER",
-              "gap_mm": 8.005804090641321,
+              "gap_mm": 8.15,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -4879,13 +5333,13 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  6.79958761379582,
-                  70.07486783552876,
+                  6.65,
+                  70.4,
                   14.25
                 ],
                 [
-                  14.800989726890029,
-                  70.34031719473096,
+                  14.8,
+                  70.4,
                   14.25
                 ]
               ]
@@ -5267,7 +5721,7 @@
             {
               "a": "SF_RETAINER",
               "b": "SR_RETAINER",
-              "gap_mm": 5.150000000000002,
+              "gap_mm": 5.179285665031423,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -5275,14 +5729,14 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  12.149999999999999,
-                  63.5,
+                  12.0,
+                  56.5,
                   14.25
                 ],
                 [
-                  17.3,
-                  63.5,
-                  14.25
+                  17.15,
+                  56.5,
+                  13.7
                 ]
               ]
             }
@@ -5366,7 +5820,7 @@
             {
               "a": "SF_RETAINER",
               "b": "SR_RETAINER",
-              "gap_mm": 5.0192024052026465,
+              "gap_mm": 5.179285665031423,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -5374,14 +5828,14 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  12.147790864126184,
-                  56.057522374163554,
-                  13.25
+                  12.0,
+                  56.5,
+                  14.25
                 ],
                 [
-                  17.15220913587381,
-                  56.442477625836446,
-                  13.25
+                  17.15,
+                  56.5,
+                  13.7
                 ]
               ]
             }
@@ -5399,7 +5853,7 @@
             {
               "a": "SF_RETAINER",
               "b": "BODY",
-              "gap_mm": 0.4499999999999993,
+              "gap_mm": 0.4527692569068702,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -5407,12 +5861,12 @@
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  14.149999999999999,
+                  13.649999999999999,
                   56.0,
                   13.25
                 ],
                 [
-                  14.149999999999999,
+                  13.7,
                   56.0,
                   12.8
                 ]
@@ -5465,7 +5919,7 @@
             {
               "a": "SF_RETAINER",
               "b": "SR_RETAINER",
-              "gap_mm": 3.0276925690687064,
+              "gap_mm": 3.1976553910638947,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -5473,14 +5927,14 @@
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  14.145412801005213,
-                  56.082823644556136,
-                  13.25
+                  14.0,
+                  56.5,
+                  14.25
                 ],
                 [
-                  17.154587198994783,
-                  56.417176355443864,
-                  13.25
+                  17.15,
+                  56.5,
+                  13.7
                 ]
               ]
             }
@@ -5498,7 +5952,7 @@
             {
               "a": "SF_RETAINER",
               "b": "BODY",
-              "gap_mm": 0.4499999999999993,
+              "gap_mm": 0.4527692569068702,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
@@ -5506,12 +5960,12 @@
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  14.149999999999999,
+                  13.649999999999999,
                   54.0,
                   13.25
                 ],
                 [
-                  14.149999999999999,
+                  13.7,
                   54.0,
                   12.8
                 ]
@@ -5605,12 +6059,12 @@
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  17.620833333333326,
+                  17.120833333333326,
                   54.74971059231027,
                   13.25
                 ],
                 [
-                  17.620833333333326,
+                  17.120833333333326,
                   54.74971059231027,
                   13.0
                 ]
@@ -5641,22 +6095,22 @@
             {
               "a": "SF_RETAINER",
               "b": "SF_D2F_01F",
-              "gap_mm": 0.15000000000000213,
+              "gap_mm": 0.25,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
               "intended_contact": false,
-              "pass_check": false,
+              "pass_check": true,
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  18.349999999999998,
-                  54.0,
-                  14.25
+                  17.0,
+                  53.78,
+                  16.15
                 ],
                 [
-                  18.5,
-                  54.0,
-                  14.25
+                  17.0,
+                  53.78,
+                  16.4
                 ]
               ]
             },
@@ -5666,6 +6120,106 @@
               "gap_mm": 0.29999999999999716,
               "overlap_mm3": 0.0,
               "required_mm": 0.25,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  18.2,
+                  55.0,
+                  14.25
+                ],
+                [
+                  18.2,
+                  55.3,
+                  14.25
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "exact_final_seating": [
+        {
+          "pose": [
+            -0.3,
+            0.0,
+            0.55,
+            0.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_RETAINER",
+              "b": "BODY",
+              "gap_mm": 0.25,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.0,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  17.120833333333326,
+                  54.74971059231027,
+                  13.25
+                ],
+                [
+                  17.120833333333326,
+                  54.74971059231027,
+                  13.0
+                ]
+              ]
+            },
+            {
+              "a": "SF_RETAINER",
+              "b": "SR_D2F_01F",
+              "gap_mm": 1.3200378782444069,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.0,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  18.2,
+                  55.0,
+                  14.25
+                ],
+                [
+                  19.0,
+                  56.05,
+                  14.25
+                ]
+              ]
+            },
+            {
+              "a": "SF_RETAINER",
+              "b": "SF_D2F_01F",
+              "gap_mm": 0.25,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.0,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  17.0,
+                  53.78,
+                  16.15
+                ],
+                [
+                  17.0,
+                  53.78,
+                  16.4
+                ]
+              ]
+            },
+            {
+              "a": "SF_RETAINER",
+              "b": "SR_RETAINER",
+              "gap_mm": 0.29999999999999716,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.0,
               "intended_contact": false,
               "pass_check": true,
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
@@ -5685,9 +6239,8 @@
           ]
         },
         {
-          "waypoint": 13,
           "pose": [
-            0.0,
+            -0.15,
             0.0,
             0.55,
             0.0
@@ -5696,21 +6249,21 @@
             {
               "a": "SF_RETAINER",
               "b": "BODY",
-              "gap_mm": 0.25495097567963937,
+              "gap_mm": 0.25,
               "overlap_mm3": 0.0,
-              "required_mm": 0.25,
+              "required_mm": 0.0,
               "intended_contact": false,
               "pass_check": true,
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  18.65,
-                  54.0,
+                  17.066666666666634,
+                  54.72724747430904,
                   13.25
                 ],
                 [
-                  18.7,
-                  54.0,
+                  17.066666666666634,
+                  54.72724747430903,
                   13.0
                 ]
               ]
@@ -5718,15 +6271,15 @@
             {
               "a": "SF_RETAINER",
               "b": "SR_D2F_01F",
-              "gap_mm": 1.162970334961298,
+              "gap_mm": 1.2349089035228438,
               "overlap_mm3": 0.0,
-              "required_mm": 0.25,
+              "required_mm": 0.0,
               "intended_contact": false,
               "pass_check": true,
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  18.5,
+                  18.35,
                   55.0,
                   14.25
                 ],
@@ -5740,22 +6293,22 @@
             {
               "a": "SF_RETAINER",
               "b": "SF_D2F_01F",
-              "gap_mm": 0.0,
-              "overlap_mm3": 0.05058315553292206,
-              "required_mm": 0.25,
+              "gap_mm": 0.14999999999999858,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.0,
               "intended_contact": false,
-              "pass_check": false,
+              "pass_check": true,
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  18.65,
-                  54.0,
-                  14.25
+                  18.35,
+                  54.13,
+                  16.15
                 ],
                 [
-                  18.65,
-                  54.0,
-                  14.25
+                  18.5,
+                  54.13,
+                  16.15
                 ]
               ]
             },
@@ -5764,27 +6317,25 @@
               "b": "SR_RETAINER",
               "gap_mm": 0.29999999999999716,
               "overlap_mm3": 0.0,
-              "required_mm": 0.25,
+              "required_mm": 0.0,
               "intended_contact": false,
               "pass_check": true,
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  17.3,
+                  18.35,
                   55.0,
                   14.25
                 ],
                 [
-                  17.3,
+                  18.35,
                   55.3,
                   14.25
                 ]
               ]
             }
           ]
-        }
-      ],
-      "exact_final_seating": [
+        },
         {
           "pose": [
             0.0,
@@ -5804,12 +6355,12 @@
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  18.65,
+                  18.15,
                   54.0,
                   13.25
                 ],
                 [
-                  18.7,
+                  18.2,
                   54.0,
                   13.0
                 ]
@@ -5841,21 +6392,119 @@
               "a": "SF_RETAINER",
               "b": "SF_D2F_01F",
               "gap_mm": 0.0,
-              "overlap_mm3": 0.05058315553292206,
+              "overlap_mm3": 0.0,
               "required_mm": 0.0,
               "intended_contact": false,
-              "pass_check": false,
+              "pass_check": true,
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  18.65,
-                  54.0,
+                  18.5,
+                  54.13,
+                  16.15
+                ],
+                [
+                  18.5,
+                  54.13,
+                  16.15
+                ]
+              ]
+            },
+            {
+              "a": "SF_RETAINER",
+              "b": "SR_RETAINER",
+              "gap_mm": 0.29999999999999716,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.0,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  17.3,
+                  55.0,
                   14.25
                 ],
                 [
-                  18.65,
-                  54.0,
+                  17.3,
+                  55.3,
                   14.25
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "pose": [
+            0.0,
+            0.0,
+            0.55,
+            0.0
+          ],
+          "pairs": [
+            {
+              "a": "SF_RETAINER",
+              "b": "BODY",
+              "gap_mm": 0.25495097567963937,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.0,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+              "nearest_points_mm": [
+                [
+                  18.15,
+                  54.0,
+                  13.25
+                ],
+                [
+                  18.2,
+                  54.0,
+                  13.0
+                ]
+              ]
+            },
+            {
+              "a": "SF_RETAINER",
+              "b": "SR_D2F_01F",
+              "gap_mm": 1.162970334961298,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.0,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  18.5,
+                  55.0,
+                  14.25
+                ],
+                [
+                  19.0,
+                  56.05,
+                  14.25
+                ]
+              ]
+            },
+            {
+              "a": "SF_RETAINER",
+              "b": "SF_D2F_01F",
+              "gap_mm": 0.0,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.0,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  18.5,
+                  54.13,
+                  16.15
+                ],
+                [
+                  18.5,
+                  54.13,
+                  16.15
                 ]
               ]
             },
@@ -5902,12 +6551,12 @@
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  18.65,
+                  18.15,
                   54.0,
                   13.066666666666666
                 ],
                 [
-                  18.7,
+                  18.2,
                   54.0,
                   13.0
                 ]
@@ -5939,21 +6588,21 @@
               "a": "SF_RETAINER",
               "b": "SF_D2F_01F",
               "gap_mm": 0.0,
-              "overlap_mm3": 0.0337221036886147,
+              "overlap_mm3": 0.0,
               "required_mm": 0.0,
               "intended_contact": false,
-              "pass_check": false,
+              "pass_check": true,
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  18.65,
-                  54.0,
-                  14.066666666666666
+                  18.5,
+                  54.13,
+                  15.966666666666667
                 ],
                 [
-                  18.65,
-                  54.0,
-                  14.066666666666666
+                  18.5,
+                  54.13,
+                  15.966666666666667
                 ]
               ]
             },
@@ -6000,12 +6649,12 @@
               "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
               "nearest_points_mm": [
                 [
-                  18.65,
+                  18.15,
                   54.0,
                   12.883333333333333
                 ],
                 [
-                  18.7,
+                  18.2,
                   54.0,
                   12.883333333333333
                 ]
@@ -6037,21 +6686,21 @@
               "a": "SF_RETAINER",
               "b": "SF_D2F_01F",
               "gap_mm": 0.0,
-              "overlap_mm3": 0.01686105184430735,
+              "overlap_mm3": 0.0,
               "required_mm": 0.0,
               "intended_contact": false,
-              "pass_check": false,
+              "pass_check": true,
               "distance_kind": "BRepExtrema_DistShapeShape_complete",
               "nearest_points_mm": [
                 [
-                  18.65,
-                  54.0,
-                  13.883333333333333
+                  18.5,
+                  54.13,
+                  15.783333333333333
                 ],
                 [
-                  18.65,
-                  54.0,
-                  13.883333333333333
+                  18.5,
+                  54.13,
+                  15.783333333333333
                 ]
               ]
             },
@@ -6143,13 +6792,13 @@
               "nearest_points_mm": [
                 [
                   18.5,
-                  54.45,
-                  13.7
+                  41.85,
+                  19.5
                 ],
                 [
                   18.5,
-                  54.45,
-                  13.7
+                  41.85,
+                  19.5
                 ]
               ]
             },
@@ -6179,7 +6828,7 @@
         }
       ],
       "note": "Final seating permits only explicitly designed contacts. Raw contact records retained; not an automatic functional exception.",
-      "raw_pass": false
+      "raw_pass": true
     }
   ]
 }
