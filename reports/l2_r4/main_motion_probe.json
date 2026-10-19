@@ -13,5 +13,9 @@
     "stage": "body_cut",
     "seconds": 1.0448923110961914,
     "valid": true
+  },
+  {
+    "stage": "pair_begin",
+    "part": "BODY"
   }
 ]
