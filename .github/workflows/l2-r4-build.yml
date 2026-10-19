@@ -36,7 +36,7 @@ jobs:
           python3 -m venv _support/venv
           _support/venv/bin/pip install --disable-pip-version-check cadquery==2.8.0 gmsh==4.15.2 trimesh scipy pillow psutil shapely matplotlib rtree
           free -h
-          ccx -v
+          _support/venv/bin/python -c "import subprocess; r=subprocess.run(['ccx','-v'],capture_output=True,text=True); print(r.stdout+r.stderr); assert r.returncode in (0,201) and 'Version 2.21' in r.stdout+r.stderr, (r.returncode,r.stdout,r.stderr)"
       - name: Run actual candidate work serially
         run: _support/venv/bin/python -u cad/l2_r4/ci_run.py
       - name: Preserve candidate results and errors without releasing
