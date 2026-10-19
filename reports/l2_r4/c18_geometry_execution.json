@@ -23,6 +23,13 @@
       "seconds": 11.71,
       "available_memory_before_GB": 15.654043648,
       "log_tail": "/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/cadquery/utils.py:82: FutureWarning: save will be removed in the next release.\n  warn(f\"{f.__name__} will be removed in the next release.\", FutureWarning)\nASSEMBLY_REFRESH 94\n"
+    },
+    {
+      "script": "cad/l2_r4/carrier_c18_extreme.py",
+      "returncode": 0,
+      "seconds": 365.39,
+      "available_memory_before_GB": 15.508402176,
+      "log_tail": "G5_RAW WHEEL_CARRIER 4.4 overlaps []\n"
     }
   ]
 }
