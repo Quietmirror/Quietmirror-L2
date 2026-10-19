@@ -37,6 +37,13 @@
       "seconds": 167.93,
       "available_memory_before_GB": 15.699402752,
       "log_tail": "Mother surfaces 0.7351324558258057\nSkin and six windows 33.61835217475891\nSupport 0 34.41785526275635\nSupport 8 44.06824207305908\nSupport 16 57.82219099998474\nSupport 24 68.78164935112\nSupport 32 80.20531988143921\nEXPORTED BODY 12658.3663\n"
+    },
+    {
+      "script": "cad/l2_r4/assemble.py",
+      "returncode": 0,
+      "seconds": 12.65,
+      "available_memory_before_GB": 15.683203072,
+      "log_tail": "EXPORTED SIDE_SF_NO_ROUTE_EST 4.8541\nEXPORTED SIDE_SR_NO_ROUTE_EST 1.457\nEXPORTED SIDE_COM_ROUTE_EST 4.8815\nEXPORTED SIDE_COM_GPIO_ROUTE_EST 2.012\n/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/cadquery/utils.py:82: FutureWarning: save will be removed in the next release.\n  warn(f\"{f.__name__} will be removed in the next release.\", FutureWarning)\nAssembly components 94\n"
     }
   ]
 }
