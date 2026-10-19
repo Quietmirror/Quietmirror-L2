@@ -16,6 +16,13 @@
       "seconds": 13.87,
       "available_memory_before_GB": 15.682883584,
       "log_tail": "EXPORTED SIDE_SF_NO_ROUTE_EST 4.8541\nEXPORTED SIDE_SR_NO_ROUTE_EST 1.4785\nEXPORTED SIDE_COM_ROUTE_EST 4.8815\nEXPORTED SIDE_COM_GPIO_ROUTE_EST 1.9279\nEXPORTED BATTERY_ROUTE_EST 12.5862\nEXPORTED SENSOR_ROUTE_EST 17.0216\nEXPORTED USB_ROUTE_EST 67.5772\nEXPORTED ANTENNA_FEED_ROUTE_EST 6.4158\nEXPORTED SIDE_COM_GPIO_ROUTE_EST 1.9278\n/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/cadquery/utils.py:82: FutureWarning: save will be removed in the next release.\n  warn(f\"{f.__name__} will be removed in the next release.\", FutureWarning)\nAssembly components 94\n"
+    },
+    {
+      "script": "cad/l2_r4/surface_mesh.py",
+      "returncode": 0,
+      "seconds": 82.78,
+      "available_memory_before_GB": 15.624593408,
+      "log_tail": "{'part': 'BODY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 410684, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'LEFT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 27298, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'RIGHT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 27346, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SIDE_FRONT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 27578, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SIDE_REAR_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 29996, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SF_RETAINER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 5136, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SR_RETAINER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 5732, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n"
     }
   ]
 }
