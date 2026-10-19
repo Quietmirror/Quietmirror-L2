@@ -9,6 +9,13 @@
       "seconds": 4.59,
       "available_memory_before_GB": 15.574003712,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/retainer_clearance_finish.py",
+      "returncode": 0,
+      "seconds": 2.52,
+      "available_memory_before_GB": 15.54960384,
+      "log_tail": "EXPORTED SF_RETAINER 100.1637\nEXPORTED SR_RETAINER 161.0014\n"
     }
   ]
 }
