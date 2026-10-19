@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "Complete finite angular partition motion_wheel_4",
+  "source_commit": "e53634b0988be0938ad416d5e2edfe27e314ab25",
+  "steps": [
+    {
+      "script": "cad/l2_r4/motion_wheel_4.py",
+      "returncode": 0,
+      "seconds": 1088.43,
+      "available_memory_before_GB": 15.667130368,
+      "log_tail": "G5_RAW WHEEL_CARRIER -2.8 overlaps []\nG5_RAW WHEEL_CARRIER -0.8 overlaps []\nG5_RAW WHEEL_CARRIER 1.2 overlaps []\nG5_RAW WHEEL_CARRIER 3.2 overlaps []\n"
+    }
+  ]
+}
