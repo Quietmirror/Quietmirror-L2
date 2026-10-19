@@ -8,5 +8,10 @@
     "stage": "united_contacts",
     "seconds": 0.032138824462890625,
     "solids": 3
+  },
+  {
+    "stage": "body_cut",
+    "seconds": 1.0448923110961914,
+    "valid": true
   }
 ]
