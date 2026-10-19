@@ -3,5 +3,10 @@
     "stage": "loaded",
     "key_faces": 184,
     "body_faces": 831
+  },
+  {
+    "stage": "united_contacts",
+    "seconds": 0.032138824462890625,
+    "solids": 3
   }
 ]
