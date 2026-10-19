@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "Complete side angular partition side_sr_1",
+  "source_commit": "3844d155b625531a6400907c660828c5ca8c82fd",
+  "steps": [
+    {
+      "script": "cad/l2_r4/side_sr_1.py",
+      "returncode": 0,
+      "seconds": 760.11,
+      "available_memory_before_GB": 15.654981632,
+      "log_tail": "SIDE_LOCAL SR -0.2144883294647471 full 0.0 residual 0 min_nonfunctional 0.29999994895263404\nSIDE_LOCAL SR -1.2869299767884828 full 0.0 residual 0 min_nonfunctional 0.29999994895262333\nSIDE_LOCAL SR -2.3593716241122182 full 0.0 residual 0 min_nonfunctional 0.29999994895262394\nSIDE_LOCAL SR -3.4318132714359537 full 0.0 residual 0 min_nonfunctional 0.29999994895262977\nSIDE_LOCAL SR -4.504254918759689 full 0.0 residual 0 min_nonfunctional 0.2999999489526291\nSIDE_LOCAL SR -5.576696566083425 full 0.0 residual 0 min_nonfunctional 0.299999948952636\nSIDE_LOCAL SR 0.5 full 0.005768871554472116 residual 0 min_nonfunctional 0.2999999489526253\nSIDE_LOCAL SR -6.734649883942413 full 0.0028647642129913096 residual 0 min_nonfunctional 0.2999999489526134\n"
+    }
+  ]
+}
