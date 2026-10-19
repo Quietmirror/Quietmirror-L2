@@ -47,7 +47,9 @@ def model_files(script):
         # construction parameters and named fixed-bearing feature solids.
         # Unrelated movable parts/electronics are not window-check inputs.
         paths=[parts/'BODY.step',ROOT/'models/L2_r3/inputs/R32_BASELINE.FCStd',ROOT/'cad/rebuild_r2/parameters.json',ROOT/'cad/rebuild_r2/build.py',*sorted((ROOT/'models/L2_r4/validation_features').glob('*FIXED_BEARINGS.step'))]
-        if stem=='combine_windows':paths.extend(RP/f'window_{i}.json' for i in range(6))
+        if stem=='combine_windows':
+            paths.extend(RP/f'window_{i}.json' for i in range(6))
+            paths.append(ROOT/'models/L2_r4/validation_features/SWITCH_MIDDLE_MOUNT.step')
         return paths
     if stem in ['slice_plate','trial_and_plate_views']:
         return sorted(parts.glob('*.stl'))+[HERE/'PLA_0.4_0.20_ESTIMATE.ini']+sorted((ROOT/'models/L2_r4/reference').glob('*F2_TRIAL.step'))

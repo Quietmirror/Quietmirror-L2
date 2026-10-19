@@ -9,6 +9,7 @@ import numpy as np
 from common import *
 from exact_distance import pair
 from bounded_scene import scene_pairs
+from partition_check import subtract
 from side_module import KEYS,fixed_features,key,UPPER_LUG_TOP,EAR_RADIUS,EAR_TOP,BRIDGE_BOTTOM
 
 def main(selected_key=None,angle_indices=None,report_name=None):
@@ -32,12 +33,14 @@ def main(selected_key=None,angle_indices=None,report_name=None):
         def collar(s):
             b=s.BoundingBox();d=.30001
             return box(b.xmin-d,b.xmax+d,b.ymin-d,b.ymax+d,b.zmin-d,b.zmax+d)
-        rest=cap.cut(collar(ear)).cut(collar(rib))
+        rest,pe=subtract(cap,collar(ear),k['name']+' ear collar')
+        rest,pr=subtract(rest,collar(rib),k['name']+' rib collar')
         ya,yb=(y+.4,y+1.4) if sg>0 else (y-1.4,y-.4)
         outward=body.intersect(unite(box(hx-1.5,hx-.7,ya,yb,18.6,UPPER_LUG_TOP),box(hx-1.5,hx+.7,ya,yb,19.8,UPPER_LUG_TOP)))
         px0,py0,py1=(25.5,53.6,55.4) if sg>0 else (26.,59.1,61.1)
         post=body.intersect(box(px0,k['stop_x'],py0,py1,15.7,16.4))
-        without_outward=body.cut(collar(outward));without_post=body.cut(collar(post))
+        without_outward,po=subtract(body,collar(outward),k['name']+' BODY outward stop')
+        without_post,pp=subtract(body,collar(post),k['name']+' BODY inward post')
         others={n:s for n,s in {**parts,**hardware}.items() if n not in [k['name'],k['short']+'_VERTICAL_PIN',k['short']+'_TUNING_SHIM_0p33',k['short']+'_D2F_01F']}
         shim=hardware[k['short']+'_TUNING_SHIM_0p33']
         tests=[]
@@ -62,7 +65,7 @@ def main(selected_key=None,angle_indices=None,report_name=None):
         # overlap; its -0.5-degree diagnostic pose must be blocked there.
         outward_sample=tests[-2]
         outpass=rest_contact['gap_mm']<=.001 and rest_contact['overlap_mm3']<=.001 and outward_sample['named_stop_overlap_mm3']>.001 and outward_sample['unexplained_overlap_mm3']<=.001
-        r=dict(part=k['name'],samples=tests,outward_stop_angle_deg=0.,outward_rest_contact=rest_contact,
+        r=dict(part=k['name'],samples=tests,functional_partitions=[pe,pr,po,pp],outward_stop_angle_deg=0.,outward_rest_contact=rest_contact,
                outward_stop_pass=outpass,passed=all(t['passed'] for t in tests) and outpass,
                method='Independent exact BRep full common + source-feature contact decomposition; forced poses beyond hard stop are diagnostic only, not usable travel.')
         rows.append(r);save(report_name or ('side_clearance_probe.json' if development else 'side_functional_motion.json'),rows)
