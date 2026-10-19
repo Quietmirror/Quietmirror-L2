@@ -1791,7 +1791,7 @@
   },
   "reports/l2_r4/native_roundtrip.json": {
     "script": "cad/l2_r4/native.py",
-    "source_commit": "6548668c2bf29a22a21011d83718e2e9dbe43c5c",
+    "source_commit": "ed048cf77692f03a92fa72a4d7b859d44859673c",
     "returncode": 0,
     "report_sha256": "cb953b8615e382bc99bb9413cc0407568f5bffa100f711b9fe378f9bfaf9da1b",
     "geometry": {
