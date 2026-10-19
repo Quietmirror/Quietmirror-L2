@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "final_candidate_solids_and_printed_walls",
+  "source_commit": "af4c75463101fb62b3b4346bb8193d7ca7de3cc8",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 5.76,
+      "available_memory_before_GB": 15.732207616,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
