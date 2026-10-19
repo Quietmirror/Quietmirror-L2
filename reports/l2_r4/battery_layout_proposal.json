@@ -1,0 +1,33 @@
+{
+  "status": "NO_ACCEPTED_LAYOUT",
+  "accepted": null,
+  "attempts": [],
+  "nodes": 62772,
+  "evaluations": 255747,
+  "elapsed_s": 228.01835870742798,
+  "cell_size_mm": [
+    18,
+    22,
+    6
+  ],
+  "pivot_mm": [
+    -16.999999999999996,
+    57.0,
+    16.400000000000002
+  ],
+  "planning_clearance_mm": 0.7,
+  "exact_clearance_mm": 0.5,
+  "unchanged": [
+    "BODY",
+    "all printed mechanical parts",
+    "cell dimensions",
+    "all other H components"
+  ],
+  "removed_for_service": [
+    "main keys",
+    "wheel carrier group",
+    "removable H electronics"
+  ],
+  "definition": "Placement proposal only. Rebuild assembly, service reserve and wiring, then repeat every affected gate before acceptance.",
+  "passed": false
+}
