@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "final_side_stress_fixed_physical_patch",
   "source_commit": "5f5cd812668ae889eb6858a62927b354b5aa15df",
   "steps": [
