@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "Complete finite angular partition motion_left_3",
+  "source_commit": "e53634b0988be0938ad416d5e2edfe27e314ab25",
+  "steps": [
+    {
+      "script": "cad/l2_r4/motion_left_3.py",
+      "returncode": 0,
+      "seconds": 2062.35,
+      "available_memory_before_GB": 15.6406784,
+      "log_tail": "G5_RAW LEFT_KEY -0.05 overlaps []\nG5_RAW LEFT_KEY 0.7 overlaps []\nG5_RAW LEFT_KEY 1.45 overlaps []\nG5_RAW LEFT_KEY 2.2 overlaps []\nG5_RAW LEFT_KEY 2.95 overlaps []\nremote: \nremote: Create a pull request for 'codex/r4-accept_left_3-39281098872' on GitHub by visiting:        \nremote:      https://github.com/Quietmirror/Quietmirror-L2/pull/new/codex/r4-accept_left_3-39281098872        \nremote: \nTo https://github.com/Quietmirror/Quietmirror-L2.git\n * [new branch]      HEAD -> codex/r4-accept_left_3-39281098872\nCHECKPOINT codex/r4-accept_left_3-39281098872 232e6a8ec3f355ec117740bced8451da7cc32d72\n"
+    }
+  ]
+}
