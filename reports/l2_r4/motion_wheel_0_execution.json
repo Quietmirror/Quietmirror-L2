@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "Complete finite angular partition motion_wheel_0",
   "source_commit": "e53634b0988be0938ad416d5e2edfe27e314ab25",
   "steps": [
