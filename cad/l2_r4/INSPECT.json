@@ -1,12 +1,8 @@
 {
-  "phase": "C14 ordinary static clearances",
-  "report_file": "c14_geometry_execution.json",
+  "phase": "Explicit compact battery proposals only",
+  "report_file": "battery_compact_execution.json",
   "scripts": [
     "cad/l2_r4/restore_inputs.py",
-    "cad/l2_r4/retainer_clearance_finish.py",
-    "cad/l2_r4/wheel_clearance_finish.py",
-    "cad/l2_r4/assemble.py",
-    "cad/l2_r4/surface_mesh_changed.py",
-    "cad/l2_r4/mechanism_accounting.py"
+    "cad/l2_r4/battery_compact_direct.py"
   ]
 }
