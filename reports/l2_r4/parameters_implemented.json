@@ -5,8 +5,8 @@
     {
       "name": "SIDE_FRONT_KEY",
       "short": "SF",
-      "y0": 44.2,
-      "y1": 56.3,
+      "y0": 44.3,
+      "y1": 56.05,
       "hinge_x": 27.5,
       "hinge_y": 45.3,
       "rod_y": 50.25,
@@ -48,7 +48,7 @@
       "name": "SIDE_REAR_KEY",
       "short": "SR",
       "y0": 58.35,
-      "y1": 70.8,
+      "y1": 70.7,
       "hinge_x": 27.5,
       "hinge_y": 69.7,
       "rod_y": 64.45,
@@ -110,5 +110,5 @@
   "pad_height": 0.52,
   "author_commit": "f637118455159515a200e6e0f35c0eea1c7d1633",
   "physical_tests": "HARDWARE_PENDING",
-  "candidate": "C8 rod floor, post skin and rear corner clearances"
+  "candidate": "C9 cap perimeter and simple internal post clearance"
 }
