@@ -1,12 +1,9 @@
 {
-  "phase": "C14 ordinary static clearances",
-  "report_file": "c14_geometry_execution.json",
+  "phase": "Shorter similar-volume cell proposals and connector access",
+  "report_file": "battery_wide_execution.json",
   "scripts": [
     "cad/l2_r4/restore_inputs.py",
-    "cad/l2_r4/retainer_clearance_finish.py",
-    "cad/l2_r4/wheel_clearance_finish.py",
-    "cad/l2_r4/assemble.py",
-    "cad/l2_r4/surface_mesh_changed.py",
-    "cad/l2_r4/mechanism_accounting.py"
+    "cad/l2_r4/battery_plug_access.py",
+    "cad/l2_r4/battery_wide_direct.py"
   ]
 }
