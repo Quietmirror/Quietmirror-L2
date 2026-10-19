@@ -1,5 +1,5 @@
 """Actual inherited main-key and complete wheel-group motion, exact distances."""
-import json
+import json,os,subprocess,sys
 import numpy as np
 from common import *
 from contact_audit import collar,rigid_housing
@@ -48,6 +48,9 @@ def main():
                     classified.append(c)
             samples.append(dict(angle_deg=float(a),pairs=pairs,scenes=scene,functional_classification=classified,passed=all(c['passed'] for c in classified)));scene=[]
             print('G5_RAW',n,round(float(a),4),'overlaps',[(r['a'],r['b'],round(r['overlap_mm3'],5)) for r in pairs if r['overlap_mm3']>.001],flush=True)
+            if len(samples)%5==0:
+                save('main_motion_progress.json',dict(status='PARTIAL_NOT_ACCEPTANCE',group=n,completed_poses=len(samples),expected_poses=len(angles),last_angle_deg=float(a),failures=[dict(angle=s['angle_deg'],items=[c for c in s['functional_classification'] if not c['passed']]) for s in samples if not s['passed']]))
+                if os.getenv('GITHUB_ACTIONS')=='true':subprocess.run([sys.executable,str(HERE/'ci_checkpoint.py')],cwd=ROOT,check=True)
         rows.append(dict(group=n,members=group,origin_mm=ori,axis=axis,samples=samples,passed=all(s['passed'] for s in samples),
                          scope='Exact at listed poses; rigid housing and complete wheel children. Functional stops and journals still require local contact classification.'))
         save('main_and_wheel_motion_raw.json',rows)

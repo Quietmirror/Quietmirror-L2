@@ -1,1 +1,11 @@
-{"phase":"candidate_10_pad_backing_crescent","report_file":"inspection_execution.json","scripts":["cad/l2_r4/regenerate_keys.py","cad/l2_r4/assemble.py","cad/l2_r4/surface_mesh.py","cad/l2_r4/cap_join_probe.py","cad/l2_r4/mechanism_accounting.py"]}
+{
+  "phase": "candidate_7_concealed_cap_clearances_only",
+  "report_file": "inspection_execution.json",
+  "scripts": [
+    "cad/l2_r4/regenerate_keys.py",
+    "cad/l2_r4/refresh_assembly.py",
+    "cad/l2_r4/d7_fast_check.py",
+    "cad/l2_r4/side_functional_checks.py",
+    "cad/l2_r4/mechanism_accounting.py"
+  ]
+}

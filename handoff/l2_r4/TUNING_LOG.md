@@ -96,3 +96,40 @@ Status: CAD checks running. No L2-r4 Release is permitted until all CAD gates co
 
 - Full33-pose side checks found zero unexplained overlap and all other-component clearances passed. However, both journals touched the underside of the fixed outward stop atZ18.6. SR ear clearance fell to0.263855mm at its physical stop and0.258083mm at the extra diagnostic pose. Therefore C6 side G5 failed despite no penetrations.
 - C7 changes only generated key internals: journal top18.6 to18.25 (diameter2.5, bore1.05 and bottom16.4 retained); ear top19.5 to19.35; concealed bridge starts18.1 so it positively joins the shortened journal. The outer contact skin, BODY, fixed lugs, pins, electronics, floor and foot datums stay identical. Recheck full motion, cap insertion, key validity/mesh and affected assembly data. No pass inferred from dimensions alone.
+
+## Candidate7 and8 measured local results; candidate9 corrections
+
+- C7 removed the journal/stop contact and raised SR ear clearance above0.35mm. The new nearest surfaces exposed rod-to-aperture floor0.20mm, SF cap/post0.14249mm at physical stop and SR cap/divider0.15672mm. These remained failures, not allowed contacts.
+- C8 reduced the concealed rod radius1.20 to1.05mm, shortened SR front edge58.10 to58.35, and relieved SF inner skin near its upper stop. Its nine-pose development test passed both keys at rest but still found curved far-corner/floor gaps below0.30mm. The development test was not promoted to G5.
+- C9 retains the exact C6 BODY, fixed pin locations and stop angles. Exposed cap limits become SF Y44.30..56.05, SR Y58.35..70.70, Z15.65..19.45. Original BODY aperture dimensions are stored independently. Both cap inner skins receive one simple pocket enclosing the source-defined upper-post clearance sweep, with the intended stop rib restored separately. This is a small disclosed perimeter reduction, not a claim that the earlier cap outline passed. Rod radius1.05, hinge diameter2.5 and bore1.05 remain.
+- Exact C7 wire checks found sensor-line gaps0.05/0.15mm to two boards, USB-line0.15mm to a header away from its termination, and two side-wire gaps0.10mm. R4-only route overrides shift the sensor outer segmentX13.65 to13.85 and low endZ16.15 to16.25; USB upper traverseZ22.30 to22.40; SR-NO segmentX14.30 to14.50. COM branch departure is raised0.30mm. Historical electronics.json is retained; all new segments require fresh G3 and hardware-intersection checks.
+
+## Execution and print diagnostics
+
+- Run39246099870 completed all18 final-BODY solves and same-mesh root interval investigations. Its last Git push failed remotely, so no final aggregate and no S7 run were claimed. ci_checkpoint now retries a failed fast-forward push and can resume an already-committed unsent checkpoint without overwriting an unrelated source update.
+- Run39250371699 reruns all18 cases and adds the author-V2 geometric control before S7, serially. The numerical final-BODY values reproduced exactly. At2.4/2.0mm the control squeeze stiffness920.897515/923.889716 reproduces the author922.03/923.32 within−0.1228%/+0.0617%, supporting a geometric explanation for the final8–9% reduction. Fine-grid and final S7 results remain in their actual reports.
+- FreeCAD1.1.4 saved/reopened94 valid independent components and reimported the full STEP. PrusaSlicer preparation initially lacked networkx; that dependency was added. The next run exported/reopened the nine-object3MF but the slicing engine exited3221225477. This is a failed real slice, not a mass estimate. Per-part isolation and actual engine-log retention were added before changing geometry or printing settings.
+- Battery single-axis searches exhausted finite reachable sets (Y306 states, X453; finerY top/bottom8829). Exact local tests showed feasible small pitch/translation combinations, but no complete service route was claimed. A coupled pitch/yaw search now explores the existing windows with the same cell dimensions and retained frame, followed by exact per-pose0.5mm clearance. Search failure is retained rather than relabeled hardware pending.
+
+## C9 finite checks, fixed-area S7 and slicer correction
+
+- C9 nine-pose local side clearance probe passed both caps, including ordinary 0.30 mm non-contact regions. Full 33-pose checks with the remaining hardware are a separate required result and were still running at this checkpoint.
+- G8 final aggregate reached COMPLETED: 18/18 cases pass, minimum ratio1.071705219. Author-V2 squeeze controls at2.4/2.0/1.6 reproduce the source table within−0.1228%/+0.0617%/−0.0616%; the remaining8.3–8.9% final squeeze reduction is geometric. Source interval investigation resolves the root-load deviations.
+- Initial S7 stopped before the1.6mm solve: the inherited generic selected_load requires at least1mm2, while the specified stop patch is only1.2x0.5=0.6mm2. Earlier centroid-selected coarse meshes overestimated that patch. Added exact planar triangle clipping and quadratic consistent nodal traction for this patch, with independent5N force/moment and0.6mm2 area checks. No stress threshold or force was relaxed. All12 rerun S7 cases now pass; maximum globalP95=1.939979MPa. This is equivalent linear traction, not nonlinear contact certification.
+- Nine individual Prusa2.9.6 slices passed. Repositioning the formal plate to leave room for the measured organic-support footprints and loading the identical explicit profile fixed the whole-plate export. C9 actual formal plate:36.10g,5h18m39s; the F2 trial was separately respaced after its previous log reported intersecting retainer paths. Final F2/native status remains tied to its own report.
+- The first C9 matrix checkout lacked three config JSONs inherited only on the earlier main work branch. The jobs failed before numerical checks; complete current source/configuration has now been published to an independent validation branch. This was an execution packaging error, not a geometry result.
+- Full rigid battery search now tests all six motion degrees and both top/bottom approaches. Approximate distance-field planning is only a proposal; exact BRep0.5mm checks at every dense replay pose are still mandatory. No battery dimension or acceptance threshold has been reduced.
+- Cross-platform source identity may differ only by CRLF or final blank lines. Such equivalence requires the exact original producer source bytes saved as a digest-checked snapshot; normalized text must match completely. Changed code and changed geometry still invalidate evidence.
+
+
+### C10：推杆和 PET 背衬交界修剪
+
+C9 全部 672 项线束检查通过，765 项打印件/硬件相交检查仅 SF 键帽对其 PET 膜剩余 0.003832615 mm³ 相交。偏置球冠与推杆前端相交后，在球面背衬之外留下一小片推杆材料。源码生成步骤在 rod_end+0.40 到 +0.50 mm 区间只切去球面外的月牙状材料，保持球冠接触面和接触尺寸。修正同时用于正常键帽和 F2 样件；完整重建脚本加入该精修步骤。BODY、挡板、孔位、脚贴和电子布局均不改动。所有受影响的帽件、运动、干涉、原生装配和切片检查须重新取得结果。
+
+### 跨平台证据字节布局
+
+合并 Windows 产物时发现 Git 在提交时将 CRLF 转为 LF，而运行时证据记录的是原始 CRLF。已用原记录的 SHA-256 逐项验证还原后的字节：数值、STEP 实体数据和所有非换行字节完全不变；二进制文件不使用换行转换。最终校验保留原始生产者哈希，仅允许哈希可以验证的 LF/CRLF 形式。少数手动提交的源码末尾空行差异另保存原始生产者源码快照，禁止把真实代码/几何变动当作换行差异。
+
+### 图像复核
+
+已目视核对 C9 六视图拼图、俯视、右视、底视、等轴测、内部骨架、Z16.6剖面和真实单盘位置图。图示均来自实际 CAD；五脚和内部结构可见，九件排盘有清晰间距。图像检查不替代精确干涉检查。C10 完成后按最终产物身份再生成相应视图。
