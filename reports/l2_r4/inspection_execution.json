@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "C11 wheel corrections and exact motion probe",
   "source_commit": "b7039daee3c8e227b40827c713a8b2f24b77af3d",
   "steps": [
