@@ -441,9 +441,9 @@
   },
   "reports/l2_r4/CAD_mass.json": {
     "script": "cad/l2_r4/mechanism_accounting.py",
-    "source_commit": "e58c5d38334a5520ffe4a58d6e30514474bfdcea",
+    "source_commit": "8254bc23226f4de7d10822b0339069392739cb98",
     "returncode": 0,
-    "report_sha256": "c6426ec5282433b5891cdac8a333790f0ed81978fc6ecc68c90c93ebd11eb525",
+    "report_sha256": "6d863abaa4988840da4a24e1150b4bba7349896d29a6f1ab400739507394162d",
     "geometry": {
       "cad/rebuild_r2/parameters.json": "1b80721457bb4f2b11f7021d3e2d98ef9f6068510906099e9b0e38f2f33141f0",
       "cad/rebuild_r3_2/electronics.json": "866e3892c6d2ddd8b001e746b3bbc4b77bdf3fc799ded156e8bf2b10458d4c08",
@@ -451,11 +451,11 @@
       "models/L2_r4/parts/LEFT_KEY.step": "2b66a0d6f6673ec5ac337dcb63366b1c165122e199ca5497153ab9667cbb4f43",
       "models/L2_r4/parts/RIGHT_KEY.step": "57791da2e062cca8e799d912828827fbb9a7968444b1ed38037aa9acaecae071",
       "models/L2_r4/parts/SF_RETAINER.step": "fe5d9c684cb607b7a3e40f1886cb243b87c9fae1174ef54b78986b8fe34b3213",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.step": "9e78aee58ed14f13c451809fa156de457eed83cb962bcbe495eac8400c442bb4",
-      "models/L2_r4/parts/SIDE_REAR_KEY.step": "472d2cc881ddc95dd52300806bfb985250dce02ca9c0a8ca0584d60678e6bb42",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.step": "5c4ec2bba2ede9068ca19b0793750c20a1e2ac6bd24b55aea773279d689c6bd2",
+      "models/L2_r4/parts/SIDE_REAR_KEY.step": "16520bda196aae2bd440d4eff00e84bba614c9b9b851a08fd8dbd9cf5b36efec",
       "models/L2_r4/parts/SR_RETAINER.step": "c52152888ef9bf3e8bddb7b6f6605a34a2fc6046057a467329310a02275ebb71",
       "models/L2_r4/parts/WHEEL.step": "efec7b9b652ab89778cad7141f762d4eb55fe694be9bf9e5ef355baad0da1c83",
-      "models/L2_r4/parts/WHEEL_CARRIER.step": "c74b8833dfc598a5c40c7d354a7b9cf0c6d40609332228cf3cd81c6e1dbee234",
+      "models/L2_r4/parts/WHEEL_CARRIER.step": "b48a8d53f728433c529761df1e293cdede1cbad90917a554a3cc8adc9e32fe6a",
       "models/L2_r4/reference/ANTENNA_FEED_HEADER_EST.step": "ccedcb46b4a09b2d87724b48872e2fbf4c85c7379d92bdea63d00e33aabb1337",
       "models/L2_r4/reference/ANTENNA_FEED_ROUTE_EST.step": "644ab401da6df95fc09966b7a9dcee2525c55afcd32286dfae172c4e440a7606",
       "models/L2_r4/reference/BATTERY_CELL_EST.step": "a16cd91e213921688e78fd9e4d23e41025f21fe5e8fa513bf5fe535fa2a2f4c3",
@@ -463,7 +463,7 @@
       "models/L2_r4/reference/BATTERY_ROUTE_EST.step": "ef44328ef2237d4bb063b0f104c5145bea47889a54f6faf9b1af4463902a2b83",
       "models/L2_r4/reference/CHARGE_POWERPATH_EST.step": "ecd85ee9150f20fb0def234dbbe76f3a72231f9bfe6cd1cb19a7d4c482526a08",
       "models/L2_r4/reference/CONTROLLER_RF_PCB_EST.step": "43746c12c68f587a94627690732d523312bf4b2b683bb79a97bee6efb1212ed0",
-      "models/L2_r4/reference/ENCODER_ADAPTER_PCB_EST.step": "b912c170bc42ae2f596b991adb702bfead0801ed02fe4bbab3089ff870f5571e",
+      "models/L2_r4/reference/ENCODER_ADAPTER_PCB_EST.step": "e6a925e6d169b6f3303d77f3ada542db4c968357d21dff9b9a2e78f97a246a73",
       "models/L2_r4/reference/ENCODER_EC10E_HOUSING.step": "2309e8380c9bc978902234f73f394d5f4d5821d663117a1bf280a86c8caea16f",
       "models/L2_r4/reference/ENCODER_EC10E_ROTOR.step": "953480b86c9e830ff6527d606ceef4980e235510bbd48c08eea5a7024affea95",
       "models/L2_r4/reference/ENCODER_M2x3_FRONT.step": "7ab2cd4880e26e0eaea16088d05fda2d9d39495653b447aa63b58b8887c12479",
@@ -546,12 +546,12 @@
     "verifier_source": {
       "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
       "cad/l2_r4/mechanism_accounting.py": "0bd471cdeafe8986b7989576cc61581d9243a97072029327b8303a1a2fd80a56",
-      "cad/l2_r4/side_module.py": "0312dd046b3ddc938e0daa8e82fb8eb318bc0301ea433d6cb1c270cc77b29094"
+      "cad/l2_r4/side_module.py": "080de0cc79fe96a676287e267e33cee6d9c9068ddb55eaf4fa11b77080e6252e"
     }
   },
   "reports/l2_r4/side_actuation_force_and_tuning.json": {
     "script": "cad/l2_r4/mechanism_accounting.py",
-    "source_commit": "e58c5d38334a5520ffe4a58d6e30514474bfdcea",
+    "source_commit": "8254bc23226f4de7d10822b0339069392739cb98",
     "returncode": 0,
     "report_sha256": "4e962bb6c5667f0135d8a0ab9260bab509a9272c5a7f780746bff71ac860b604",
     "geometry": {
@@ -561,11 +561,11 @@
       "models/L2_r4/parts/LEFT_KEY.step": "2b66a0d6f6673ec5ac337dcb63366b1c165122e199ca5497153ab9667cbb4f43",
       "models/L2_r4/parts/RIGHT_KEY.step": "57791da2e062cca8e799d912828827fbb9a7968444b1ed38037aa9acaecae071",
       "models/L2_r4/parts/SF_RETAINER.step": "fe5d9c684cb607b7a3e40f1886cb243b87c9fae1174ef54b78986b8fe34b3213",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.step": "9e78aee58ed14f13c451809fa156de457eed83cb962bcbe495eac8400c442bb4",
-      "models/L2_r4/parts/SIDE_REAR_KEY.step": "472d2cc881ddc95dd52300806bfb985250dce02ca9c0a8ca0584d60678e6bb42",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.step": "5c4ec2bba2ede9068ca19b0793750c20a1e2ac6bd24b55aea773279d689c6bd2",
+      "models/L2_r4/parts/SIDE_REAR_KEY.step": "16520bda196aae2bd440d4eff00e84bba614c9b9b851a08fd8dbd9cf5b36efec",
       "models/L2_r4/parts/SR_RETAINER.step": "c52152888ef9bf3e8bddb7b6f6605a34a2fc6046057a467329310a02275ebb71",
       "models/L2_r4/parts/WHEEL.step": "efec7b9b652ab89778cad7141f762d4eb55fe694be9bf9e5ef355baad0da1c83",
-      "models/L2_r4/parts/WHEEL_CARRIER.step": "c74b8833dfc598a5c40c7d354a7b9cf0c6d40609332228cf3cd81c6e1dbee234",
+      "models/L2_r4/parts/WHEEL_CARRIER.step": "b48a8d53f728433c529761df1e293cdede1cbad90917a554a3cc8adc9e32fe6a",
       "models/L2_r4/reference/ANTENNA_FEED_HEADER_EST.step": "ccedcb46b4a09b2d87724b48872e2fbf4c85c7379d92bdea63d00e33aabb1337",
       "models/L2_r4/reference/ANTENNA_FEED_ROUTE_EST.step": "644ab401da6df95fc09966b7a9dcee2525c55afcd32286dfae172c4e440a7606",
       "models/L2_r4/reference/BATTERY_CELL_EST.step": "a16cd91e213921688e78fd9e4d23e41025f21fe5e8fa513bf5fe535fa2a2f4c3",
@@ -573,7 +573,7 @@
       "models/L2_r4/reference/BATTERY_ROUTE_EST.step": "ef44328ef2237d4bb063b0f104c5145bea47889a54f6faf9b1af4463902a2b83",
       "models/L2_r4/reference/CHARGE_POWERPATH_EST.step": "ecd85ee9150f20fb0def234dbbe76f3a72231f9bfe6cd1cb19a7d4c482526a08",
       "models/L2_r4/reference/CONTROLLER_RF_PCB_EST.step": "43746c12c68f587a94627690732d523312bf4b2b683bb79a97bee6efb1212ed0",
-      "models/L2_r4/reference/ENCODER_ADAPTER_PCB_EST.step": "b912c170bc42ae2f596b991adb702bfead0801ed02fe4bbab3089ff870f5571e",
+      "models/L2_r4/reference/ENCODER_ADAPTER_PCB_EST.step": "e6a925e6d169b6f3303d77f3ada542db4c968357d21dff9b9a2e78f97a246a73",
       "models/L2_r4/reference/ENCODER_EC10E_HOUSING.step": "2309e8380c9bc978902234f73f394d5f4d5821d663117a1bf280a86c8caea16f",
       "models/L2_r4/reference/ENCODER_EC10E_ROTOR.step": "953480b86c9e830ff6527d606ceef4980e235510bbd48c08eea5a7024affea95",
       "models/L2_r4/reference/ENCODER_M2x3_FRONT.step": "7ab2cd4880e26e0eaea16088d05fda2d9d39495653b447aa63b58b8887c12479",
@@ -656,12 +656,12 @@
     "verifier_source": {
       "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
       "cad/l2_r4/mechanism_accounting.py": "0bd471cdeafe8986b7989576cc61581d9243a97072029327b8303a1a2fd80a56",
-      "cad/l2_r4/side_module.py": "0312dd046b3ddc938e0daa8e82fb8eb318bc0301ea433d6cb1c270cc77b29094"
+      "cad/l2_r4/side_module.py": "080de0cc79fe96a676287e267e33cee6d9c9068ddb55eaf4fa11b77080e6252e"
     }
   },
   "reports/l2_r4/optical_stack_and_power.json": {
     "script": "cad/l2_r4/mechanism_accounting.py",
-    "source_commit": "e58c5d38334a5520ffe4a58d6e30514474bfdcea",
+    "source_commit": "8254bc23226f4de7d10822b0339069392739cb98",
     "returncode": 0,
     "report_sha256": "7d8835013cb6e8be0c23893d549c68525e5abdaad128e3b20e02129c2aba5d92",
     "geometry": {
@@ -671,11 +671,11 @@
       "models/L2_r4/parts/LEFT_KEY.step": "2b66a0d6f6673ec5ac337dcb63366b1c165122e199ca5497153ab9667cbb4f43",
       "models/L2_r4/parts/RIGHT_KEY.step": "57791da2e062cca8e799d912828827fbb9a7968444b1ed38037aa9acaecae071",
       "models/L2_r4/parts/SF_RETAINER.step": "fe5d9c684cb607b7a3e40f1886cb243b87c9fae1174ef54b78986b8fe34b3213",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.step": "9e78aee58ed14f13c451809fa156de457eed83cb962bcbe495eac8400c442bb4",
-      "models/L2_r4/parts/SIDE_REAR_KEY.step": "472d2cc881ddc95dd52300806bfb985250dce02ca9c0a8ca0584d60678e6bb42",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.step": "5c4ec2bba2ede9068ca19b0793750c20a1e2ac6bd24b55aea773279d689c6bd2",
+      "models/L2_r4/parts/SIDE_REAR_KEY.step": "16520bda196aae2bd440d4eff00e84bba614c9b9b851a08fd8dbd9cf5b36efec",
       "models/L2_r4/parts/SR_RETAINER.step": "c52152888ef9bf3e8bddb7b6f6605a34a2fc6046057a467329310a02275ebb71",
       "models/L2_r4/parts/WHEEL.step": "efec7b9b652ab89778cad7141f762d4eb55fe694be9bf9e5ef355baad0da1c83",
-      "models/L2_r4/parts/WHEEL_CARRIER.step": "c74b8833dfc598a5c40c7d354a7b9cf0c6d40609332228cf3cd81c6e1dbee234",
+      "models/L2_r4/parts/WHEEL_CARRIER.step": "b48a8d53f728433c529761df1e293cdede1cbad90917a554a3cc8adc9e32fe6a",
       "models/L2_r4/reference/ANTENNA_FEED_HEADER_EST.step": "ccedcb46b4a09b2d87724b48872e2fbf4c85c7379d92bdea63d00e33aabb1337",
       "models/L2_r4/reference/ANTENNA_FEED_ROUTE_EST.step": "644ab401da6df95fc09966b7a9dcee2525c55afcd32286dfae172c4e440a7606",
       "models/L2_r4/reference/BATTERY_CELL_EST.step": "a16cd91e213921688e78fd9e4d23e41025f21fe5e8fa513bf5fe535fa2a2f4c3",
@@ -683,7 +683,7 @@
       "models/L2_r4/reference/BATTERY_ROUTE_EST.step": "ef44328ef2237d4bb063b0f104c5145bea47889a54f6faf9b1af4463902a2b83",
       "models/L2_r4/reference/CHARGE_POWERPATH_EST.step": "ecd85ee9150f20fb0def234dbbe76f3a72231f9bfe6cd1cb19a7d4c482526a08",
       "models/L2_r4/reference/CONTROLLER_RF_PCB_EST.step": "43746c12c68f587a94627690732d523312bf4b2b683bb79a97bee6efb1212ed0",
-      "models/L2_r4/reference/ENCODER_ADAPTER_PCB_EST.step": "b912c170bc42ae2f596b991adb702bfead0801ed02fe4bbab3089ff870f5571e",
+      "models/L2_r4/reference/ENCODER_ADAPTER_PCB_EST.step": "e6a925e6d169b6f3303d77f3ada542db4c968357d21dff9b9a2e78f97a246a73",
       "models/L2_r4/reference/ENCODER_EC10E_HOUSING.step": "2309e8380c9bc978902234f73f394d5f4d5821d663117a1bf280a86c8caea16f",
       "models/L2_r4/reference/ENCODER_EC10E_ROTOR.step": "953480b86c9e830ff6527d606ceef4980e235510bbd48c08eea5a7024affea95",
       "models/L2_r4/reference/ENCODER_M2x3_FRONT.step": "7ab2cd4880e26e0eaea16088d05fda2d9d39495653b447aa63b58b8887c12479",
@@ -766,7 +766,7 @@
     "verifier_source": {
       "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
       "cad/l2_r4/mechanism_accounting.py": "0bd471cdeafe8986b7989576cc61581d9243a97072029327b8303a1a2fd80a56",
-      "cad/l2_r4/side_module.py": "0312dd046b3ddc938e0daa8e82fb8eb318bc0301ea433d6cb1c270cc77b29094"
+      "cad/l2_r4/side_module.py": "080de0cc79fe96a676287e267e33cee6d9c9068ddb55eaf4fa11b77080e6252e"
     }
   },
   "reports/l2_r4/side_clearance_probe.json": {
