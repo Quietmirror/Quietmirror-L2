@@ -170,5 +170,32 @@
   {
     "stage": "pair_begin",
     "part": "ENCODER_EC10E_ROTOR"
+  },
+  {
+    "stage": "pair_end",
+    "part": "ENCODER_EC10E_ROTOR",
+    "seconds": 1.7674000263214111,
+    "result": {
+      "a": "LEFT_KEY",
+      "b": "ENCODER_EC10E_ROTOR",
+      "gap_mm": 1.950190773107291,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.3,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "nearest_points_mm": [
+        [
+          9.9,
+          27.35755956871492,
+          20.37455473538519
+        ],
+        [
+          7.95,
+          27.369109234161492,
+          20.349843265560747
+        ]
+      ]
+    }
   }
 ]
