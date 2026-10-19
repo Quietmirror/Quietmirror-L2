@@ -5,7 +5,7 @@ script may write a failed candidate report; only all-completed CAD permits a
 formal release. The release workflow reuses the same check-only assessment.
 """
 from pathlib import Path
-import argparse,json,math,os,sys
+import argparse,json,math,os,sys,hashlib
 import evidence_identity as evidence
 ROOT=Path(__file__).resolve().parents[2];RP=ROOT/'reports/l2_r4';OUT=ROOT/'handoff/l2_r4'
 HARDWARE_PENDING=[
@@ -46,7 +46,8 @@ def assess():
       'G9':['side_actuation_force_and_tuning.json','optical_stack_and_power.json','battery_service_path.json','battery_plug_access.json','fem/S7.json'],
       'G10':['CAD_mass.json','slice_summary.json','F2_trial.json'],
       'G11':['side_kinematics_independent.json','side_actuation_force_and_tuning.json','side_functional_motion.json','D7_exterior_containment.json']}
-    versions=evidence.verify(sorted(set(sum(defs.values(),[])))) if evidence.MANIFEST.exists() else []
+    auxiliary=['render_manifest.json','motion_plot_manifest.json']
+    versions=evidence.verify(sorted(set(sum(defs.values(),[])+auxiliary))) if evidence.MANIFEST.exists() else []
     current={r['report']:r['passed'] for r in versions};gates={}
     def gate(n,ok,summary,data):
         missing=[p for p in defs[n] if not (RP/p).exists()];stale=[p for p in defs[n] if (RP/p).exists() and not current.get(p,False)]
@@ -79,8 +80,20 @@ def assess():
     required_assets += ['views/l2_r4/'+prefix+n+'.png' for prefix in ['H_','INSIDE_'] for n in ['TOP','BOTTOM','FRONT','BACK','LEFT','RIGHT']]
     required_assets += ['views/l2_r4/'+n+'.png' for n in ['H_ISO_FRONT','H_ISO_REAR','SIDE_MOTION_OVERLAY','SECTION_Z16p6','SECTION_Y50p25','SECTION_Y64p45','R3_VS_L2_r4_TOP_RIGHT_BOTTOM']]
     missing_assets=[p for p in required_assets if not (ROOT/p).exists()]
-    complete=all(r['status']=='COMPLETED' for r in gates.values()) and not missing_assets
-    return dict(status='CAD_COMPLETE / HARDWARE_PENDING' if complete else 'CAD_INCOMPLETE — RELEASE PROHIBITED',gates=gates,version_checks=versions,missing_assets=missing_assets,source_work_branch='l2-r4-build',tag='L2-r4',hardware_pending=HARDWARE_PENDING,printed_parts=mass.get('parts',[]),mass_and_slice=gates['G10']['metrics'],inventory=inv,baseline='Quietmirror/github@f1b1090931d717117287ea2b79c2e14ddc234937',author_evidence='Quietmirror/Quietmirror-L2@f637118455159515a200e6e0f35c0eea1c7d1633',evidence_limit='精确值仅对应声明的模型与离散姿态；封闭网格、线弹性模拟和参考电子包络均不等于实物装配/打印强度/电子性能认证。')
+    # Existing stale pictures or binary CAD must never certify a new model.
+    asset_identity={}
+    for report,key in [(read('render_manifest.json'),'files'),(read('motion_plot_manifest.json'),'files'),(native,'artifact_sha256'),(sliced,'artifact_sha256'),(f2,'artifact_sha256')]:asset_identity.update(report.get(key,{}))
+    asset_problems=[]
+    for p in required_assets:
+        if p.endswith('D_MAX_BOARD_ENVELOPE.step'):continue # Bound to producer's geometry/outline numerical report.
+        if p not in asset_identity:asset_problems.append('No produced artifact identity: '+p)
+        elif (ROOT/p).exists() and not evidence.hash_matches(ROOT/p,asset_identity[p]):asset_problems.append('Artifact version mismatch: '+p)
+    for p in auxiliary:
+        if not current.get(p,False):asset_problems.append('Stale/missing image producer: '+p)
+    s7_numerical= len(s7.get('rows',[]))==12 and all(r.get('equilibrium_pass') and number(r.get('global_p95_MPa'))<=10 and number(r.get('side_frame_region',{}).get('p95_MPa',0))<=10 for r in s7.get('rows',[]))
+    if not s7_numerical and gates['G9']['status']=='COMPLETED':gates['G9']['status']='FAILED'
+    complete=all(r['status']=='COMPLETED' for r in gates.values()) and not missing_assets and not asset_problems
+    return dict(status='CAD_COMPLETE / HARDWARE_PENDING' if complete else 'CAD_INCOMPLETE — RELEASE PROHIBITED',gates=gates,version_checks=versions,missing_assets=missing_assets,artifact_identity_problems=asset_problems,source_work_branch='l2-r4-build',tag='L2-r4',hardware_pending=HARDWARE_PENDING,printed_parts=mass.get('parts',[]),mass_and_slice=gates['G10']['metrics'],inventory=inv,baseline='Quietmirror/github@f1b1090931d717117287ea2b79c2e14ddc234937',author_evidence='Quietmirror/Quietmirror-L2@f637118455159515a200e6e0f35c0eea1c7d1633',evidence_limit='精确值仅对应声明的模型与离散姿态；封闭网格、线弹性模拟和参考电子包络均不等于实物装配/打印强度/电子性能认证。')
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--check-only',action='store_true');args=ap.parse_args();a=assess()

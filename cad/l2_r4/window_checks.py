@@ -9,10 +9,25 @@ import numpy as np
 from common import *
 from surfaces import make_surfaces
 from side_module import integrated_frame,fixed_features,KEYS,UPPER_LUG_TOP
+from OCP.BRepClass3d import BRepClass3d_SolidClassifier
+from OCP.IntCurvesFace import IntCurvesFace_ShapeIntersector
+from OCP.gp import gp_Pnt,gp_Dir,gp_Lin
+from OCP.TopAbs import TopAbs_IN
+
+_classifiers={};_rays={}
+def contains(shape,p,tol=1e-7):
+    key=id(shape)
+    if key not in _classifiers:_classifiers[key]=(shape,BRepClass3d_SolidClassifier(shape.wrapped))
+    classifier=_classifiers[key][1];classifier.Perform(gp_Pnt(*p.toTuple()),tol)
+    return classifier.State()==TopAbs_IN or classifier.IsOnAFace()
 
 def z_interval(shape,x,y):
-    hit=shape.intersect(cq.Edge.makeLine(V(x,y,-1),V(x,y,50)))
-    zs=[p.z for e in hit.Edges() for p in [e.startPoint(),e.endPoint()]]
+    key=id(shape)
+    if key not in _rays:
+        query=IntCurvesFace_ShapeIntersector();query.Load(shape.wrapped,1e-8);_rays[key]=(shape,query)
+    query=_rays[key][1];query.Perform(gp_Lin(gp_Pnt(x,y,-1),gp_Dir(0,0,1)),0.,51.)
+    if not query.IsDone():raise RuntimeError('Exact mother-surface ray intersection failed')
+    zs=[query.Pnt(i).Z() for i in range(1,query.NbPnt()+1)]
     return (min(zs),max(zs)) if zs else None
 
 def main():
@@ -33,7 +48,7 @@ def main():
     from interfaces import build_interfaces
     it=build_interfaces(cfg,outer,{'LEFT_KEY':baseline('LEFT_KEY'),'RIGHT_KEY':baseline('RIGHT_KEY')})
     regions['retained_sensor_and_USB_mounts']=unite(*[s.mirror('YZ') for s in it['body_additions']])
-    def exceptions(p):return [name for name,s in regions.items() if s.isInside(p,1e-6)]
+    def exceptions(p):return [name for name,s in regions.items() if contains(s,p,1e-6)]
     spec=importlib.util.spec_from_file_location('original_windows',ROOT/'cad/rebuild_r2/build.py')
     source=importlib.util.module_from_spec(spec);spec.loader.exec_module(source)
     rng=np.random.default_rng(20261019);rows=[]
@@ -49,28 +64,34 @@ def main():
             p=wire.positionAt((i+.314159)/200)
             oi=z_interval(outer,p.x,p.y)
             if not oi:raise RuntimeError('Window outside mother surface '+name)
+            if i<3:
+                # Independent Boolean-line comparison protects the optimized
+                # exact ray implementation; no tessellated roof substitute.
+                hit=outer.intersect(cq.Edge.makeLine(V(p.x,p.y,-1),V(p.x,p.y,50)))
+                zs=[q.z for e in hit.Edges() for q in [e.startPoint(),e.endPoint()]]
+                assert zs and np.allclose(oi,[min(zs),max(zs)],atol=1e-6,rtol=0),(name,i,oi,zs)
             q=V(p.x,p.y,oi[1]);d=cq.Vertex.makeVertex(*q.toTuple()).distance(local)
             t=wire.tangentAt((i+.314159)/200);normal=V(-t.y,t.x,0).normalized()
-            if not tool.isInside(V(p.x+normal.x*.2,p.y+normal.y*.2,30),1e-7):normal=-normal
+            if not contains(tool,V(p.x+normal.x*.2,p.y+normal.y*.2,30),1e-7):normal=-normal
             qp=q+normal*.2
-            inside=bool(b.isInside(qp,1e-7));reasons=sorted(set(exceptions(q)+exceptions(qp))) if d>.01 or inside else []
-            boundary.append(dict(point_mm=q.toTuple(),distance_mm=d,inward_point_mm=qp.toTuple(),inward_inside=inside,baseline_inside=bool(old.isInside(qp,1e-7)),declared_regions=reasons,classified_pass=(d<=.01 and not inside) or bool(reasons)))
+            inside=bool(contains(b,qp,1e-7));reasons=sorted(set(exceptions(q)+exceptions(qp))) if d>.01 or inside else []
+            boundary.append(dict(point_mm=q.toTuple(),distance_mm=d,inward_point_mm=qp.toTuple(),inward_inside=inside,baseline_inside=bool(contains(old,qp,1e-7)),declared_regions=reasons,classified_pass=(d<=.01 and not inside) or bool(reasons)))
         full=[];roof=[]
         while len(full)<1000 or len(roof)<1000:
             x,y=rng.uniform(bb.xmin,bb.xmax),rng.uniform(bb.ymin,bb.ymax)
-            if not tool.isInside(V(x,y,30),1e-7):continue
+            if not contains(tool,V(x,y,30),1e-7):continue
             oi=z_interval(outer,x,y);ii=z_interval(inner,x,y)
             if not oi:continue
             if len(full)<1000:
                 z=rng.uniform(10.5*cfg['host']['scale'],oi[1]+.2);p=V(x,y,z)
-                if not tool.isInside(p,1e-7):continue
-                inside=bool(b.isInside(p,1e-7));reasons=exceptions(p) if inside else []
-                full.append(dict(point_mm=p.toTuple(),inside=inside,baseline_inside=bool(old.isInside(p,1e-7)),declared_regions=reasons,classified_pass=not inside or bool(reasons)))
+                if not contains(tool,p,1e-7):continue
+                inside=bool(contains(b,p,1e-7));reasons=exceptions(p) if inside else []
+                full.append(dict(point_mm=p.toTuple(),inside=inside,baseline_inside=bool(contains(old,p,1e-7)),declared_regions=reasons,classified_pass=not inside or bool(reasons)))
             if len(roof)<1000 and ii:
                 z=rng.uniform(ii[1],oi[1]+.2);p=V(x,y,z)
-                if not tool.isInside(p,1e-7):continue
-                inside=bool(b.isInside(p,1e-7));reasons=exceptions(p) if inside else []
-                roof.append(dict(point_mm=p.toTuple(),inside=inside,baseline_inside=bool(old.isInside(p,1e-7)),declared_regions=reasons,classified_pass=not inside or bool(reasons)))
+                if not contains(tool,p,1e-7):continue
+                inside=bool(contains(b,p,1e-7));reasons=exceptions(p) if inside else []
+                roof.append(dict(point_mm=p.toTuple(),inside=inside,baseline_inside=bool(contains(old,p,1e-7)),declared_regions=reasons,classified_pass=not inside or bool(reasons)))
         r=dict(window=name,assembly_x_mirrored=True,boundary=boundary,full_prism=full,roof_shell_band=roof,
                boundary_raw_pass=all(p['distance_mm']<=.01 and not p['inward_inside'] for p in boundary),
                full_prism_raw_pass=not any(p['inside'] for p in full),roof_band_raw_pass=not any(p['inside'] for p in roof),

@@ -12,11 +12,11 @@ from common import *
 from assembly_paths import H,LO,N,voxelize,inside_points,dense
 
 def transform(points,pivot,pose):
-    a=math.radians(pose[3]);r=np.array([[1,0,0],[0,math.cos(a),-math.sin(a)],[0,math.sin(a),math.cos(a)]])
+    a=math.radians(pose[3]);r=np.array([[math.cos(a),0,math.sin(a)],[0,1,0],[-math.sin(a),0,math.cos(a)]])
     return (points-pivot)@r.T+pivot+np.array(pose[:3])
 
 def moved(shape,pivot,pose):
-    return shape.rotate(tuple(pivot),tuple(pivot+np.array([1,0,0])),pose[3]).translate(tuple(pose[:3]))
+    return shape.rotate(tuple(pivot),tuple(pivot+np.array([0,1,0])),pose[3]).translate(tuple(pose[:3]))
 
 def main():
     starttime=time.time();body=load('BODY');battery=load('BATTERY_CELL_EST',OUT/'reference')
@@ -28,10 +28,13 @@ def main():
     base,grid=voxelize(body)
     for n,s in fixed.items():
         if n!='BODY':additional,_=voxelize(s);base|=additional
-    occ=binary_dilation(base,np.ones((3,3,3),bool),iterations=2).astype(np.float32)
-    # Translation0.5mm search, independently replayed at<=0.25mm afterwards.
-    axes=[np.arange(-48,141,2),np.arange(-140,101,2),np.arange(-128,81,2)]
-    angles=list(range(-90,91,5));shape=(len(angles),*[len(a) for a in axes]);blocked=np.zeros(shape,bool);maps=[]
+    # Euclidean0.5mm dilation instead of an unnecessarily restrictive cube.
+    # Every resulting route pose is checked by exact BRep at0.5mm below.
+    q=np.mgrid[-2:3,-2:3,-2:3];ball=np.sum(q*q,axis=0)<=4
+    occ=binary_dilation(base,ball).astype(np.float32)
+    # Finer translations allow a coupled corner lift in the narrow final bay.
+    axes=[np.arange(-48,141),np.arange(-140,101),np.arange(-128,161)]
+    angles=list(np.arange(-90.,90.01,2.5));shape=(len(angles),*[len(a) for a in axes]);blocked=np.zeros(shape,bool);maps=[]
     for j,angle in enumerate(angles):
         ps=transform(pts,pivot,[0,0,0,angle]);ix=np.floor((ps-LO)/H).astype(int)
         mn,mx=ix.min(0),ix.max(0);sz=mx-mn+1;kernel=np.zeros(sz,np.float32);kernel[tuple((ix-mn).T)]=1
@@ -40,30 +43,33 @@ def main():
         valid=[(q>=0)&(q<corr.shape[d]) for d,q in enumerate(selected)]
         clipped=[np.clip(q,0,corr.shape[d]-1) for d,q in enumerate(selected)]
         values=corr[np.ix_(*clipped)];error=float(np.max(np.abs(values-np.rint(values))));assert error<.25,error
+        values[~(valid[0][:,None,None]&valid[1][None,:,None]&valid[2][None,None,:])]=0
         blocked[j]=values>.5
         for d in range(3):
-            invalid=(axes[d]+mx[d]>=N[d])
-            if d<2:invalid|=(axes[d]+mn[d]<0)
-            # Entirely below the grid is intentionally free entry space.
+            invalid=((axes[d]+mx[d]>=N[d])|(axes[d]+mn[d]<0)) if d<2 else np.zeros(len(axes[d]),bool)
+            # Either open bottom or top can be the service approach. The
+            # previous bottom-only search was an unnecessary route constraint.
             sl=[slice(None)]*3;sl[d]=invalid;blocked[j][tuple(sl)]=True
-        maps.append(dict(rotation_x_deg=angle,roundoff=error));del corr,values,kernel
+        maps.append(dict(rotation_y_deg=angle,roundoff=error));del corr,values,kernel
     sx,sy,sz=shape[1:];plane=sy*sz;orient=sx*plane
     def pack(q):a,x,y,z=q;return a*orient+x*plane+y*sz+z
     def unpack(i):a,r=divmod(i,orient);x,r=divmod(r,plane);y,z=divmod(r,sz);return a,x,y,z
-    def encode(p):return (angles.index(round(p[3]/5)*5),*[round((p[d]/H-axes[d][0])/2) for d in range(3)])
+    def encode(p):return (angles.index(round(p[3]/2.5)*2.5),*[round(p[d]/H-axes[d][0]) for d in range(3)])
     def decode(q):return [float(axes[d][q[d+1]]*H) for d in range(3)]+[float(angles[q[0]])]
     # Search outward from the constrained final bay. Searching inward first
     # exhausted millions of irrelevant free states below the mouse.
     start=encode([0.,0.,0.,0.]);assert not blocked[start],('Battery final pose blocked',bool(blocked[start]))
-    def highest(q):
-        p=decode(q);a=math.radians(p[3]);return pivot[2]+p[2]+11*abs(math.sin(a))+3*abs(math.cos(a))
-    def heuristic(q):return max(0.,highest(q)-2.5)/.5
+    def limits(q):
+        p=decode(q);a=math.radians(p[3]);half=9*abs(math.sin(a))+3*abs(math.cos(a));return pivot[2]+p[2]-half,pivot[2]+p[2]+half
+    def heuristic(q):
+        low,high=limits(q);return max(0.,min(high-2.5,35.5-low))/.25
     sid=pack(start);gid=None;heap=[(1.1*heuristic(start),0,sid)];costs={sid:0};parent={};flat=blocked.ravel();expanded=0;found=False
     while heap:
         _,cost,node=heapq.heappop(heap)
         if cost!=costs[node]:continue
         q=unpack(node)
-        if highest(q)<2.5:found=True;gid=node;break
+        low,high=limits(q)
+        if high<2.5 or low>35.5:found=True;gid=node;break
         expanded+=1
         if expanded>4000000:break
         for dim in range(4):
@@ -75,7 +81,7 @@ def main():
                 nc=cost+(2 if dim==0 else 1)
                 if nc>=costs.get(ni,10**12):continue
                 costs[ni]=nc;parent[ni]=node;heapq.heappush(heap,(nc+1.1*heuristic(v),nc,ni))
-    report=dict(found=found,expanded_states=expanded,pivot_mm=pivot.tolist(),rotation_axis='X through battery centre',grid_mm=H,search_translation_mm=.5,search_rotation_deg=5,maps=maps,
+    report=dict(found=found,expanded_states=expanded,pivot_mm=pivot.tolist(),rotation_axis='Y through battery centre',grid_mm=H,search_translation_mm=.25,search_rotation_deg=2.5,maps=maps,
         battery_estimated_size_mm=[18,22,6],retained_obstacles=list(fixed),
         service_sequence=['Disconnect battery plug and free flexible wiring','Remove main keys and removable wheel carrier assembly','Remove screwed H electronics stack if already installed','Move battery along the reversed verified route; side module and integral BODY remain in place'],
         limitation='Rigid estimated battery envelope only; adhesive release and actual cell/plug dimensions require physical verification.',passed=False)
@@ -91,13 +97,13 @@ def main():
     for j,p in enumerate(replay):
         pp=transform(pts,pivot,p);ix=np.floor((pp-LO)/H).astype(int);ok=np.all((ix>=0)&(ix<N),axis=1)
         hits=0 if not ok.any() else int(occ[tuple(ix[ok].T)].sum())
-        invalid=(~ok)&((ix[:,2]>=0)|(ix[:,0]<0)|(ix[:,0]>=N[0])|(ix[:,1]<0)|(ix[:,1]>=N[1]))
+        invalid=(ix[:,0]<0)|(ix[:,0]>=N[0])|(ix[:,1]<0)|(ix[:,1]>=N[1])
         if hits or invalid.any():bad.append(dict(pose=j,offset=p,hits=hits,outside_invalid=int(invalid.sum())))
     exact=[]
-    for j,p in enumerate(route):
+    for j,p in enumerate(replay):
         scene=scene_pairs(moved(battery,pivot,p),fixed,'BATTERY_CELL_EST',.5)
-        exact.append(dict(waypoint=j,pose=p,**scene));print('BATTERY_TURN',j,len(route),scene['exact_global_minimum_mm'],scene['passed'],flush=True)
-    report.update(route=route,replay_poses=len(replay),voxel_collisions=bad,exact_turnpoints=exact,passed=not bad and all(r['passed'] for r in exact),elapsed_s=time.time()-starttime)
+        exact.append(dict(pose_index=j,pose=p,**scene));print('BATTERY_POSE',j,len(replay),scene['exact_global_minimum_mm'],scene['passed'],flush=True)
+    report.update(route=route,replay_poses=len(replay),voxel_collisions=bad,exact_all_poses=exact,passed=not bad and all(r['passed'] for r in exact),elapsed_s=time.time()-starttime)
     save('battery_service_path.json',report)
     # A real tool approach to the declared plug after removable modules are
     # removed. The two fingers stop at the plug side faces; no pin/contact

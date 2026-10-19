@@ -3,6 +3,7 @@ import json
 from common import *
 from side_module import RETAINER_MOUNTS
 from assemble import ROUTES
+from wire_layout import definition as wire_definition
 
 def lower_bound(a,b):
     aa,bb=a.BoundingBox(),b.BoundingBox()
@@ -29,7 +30,7 @@ def main():
             if residual>.001:print('PRINTED_HARDWARE_REVIEW',allpairs[-1],flush=True)
         save('all_printed_hardware_intersections.json',dict(rows=allpairs,passed=False))
     save('all_printed_hardware_intersections.json',dict(rows=allpairs,passed=all(p['passed'] for p in allpairs)))
-    definition=json.loads((ROOT/'cad/rebuild_r3_2/electronics.json').read_text());ends={}
+    definition=wire_definition();ends={}
     for r in definition['routes']:
         if r['name'] not in hw:continue
         ends[r['name']]=[(n,p,r['radius']+.8) for n,p in zip(r['end_contacts'],[r['points'][0],r['points'][-1]])]

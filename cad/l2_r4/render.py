@@ -53,7 +53,9 @@ def picture(name,objects_,direction,up=(0,0,1),focus=(0,44,16),scale=SCALE,title
 def main():
     OUT.mkdir(exist_ok=True);obj=objects();inside=objects(True)
     definitions=[('FRONT',(0,-1,0),(0,0,1),'前视 −Y','X / Z'),('BACK',(0,1,0),(0,0,1),'后视 +Y','X / Z'),('LEFT',(-1,0,0),(0,0,1),'左视 −X','Y / Z'),('RIGHT',(1,0,0),(0,0,1),'右视 +X · 侧键侧','Y / Z'),('TOP',(0,0,1),(0,-1,0),'俯视 +Z','X / Y'),('BOTTOM',(0,0,-1),(0,1,0),'底视 −Z','X / Y')]
-    b=read('BODY').BoundingBox();dims=f'BODY {b.ylen:.3f} × {b.xlen:.3f} × {b.zlen:.3f} mm（长×宽×高）'
+    b=read('BODY').BoundingBox()
+    full=cq.Compound.makeCompound([s for _,s,_,_ in obj]).BoundingBox()
+    dims=f'整机 {full.ylen:.3f} × {full.xlen:.3f} × {full.zlen:.3f} mm（长×宽×高；含0.8mm脚贴）'
     for n,d,u,t,axes in definitions:
         picture('H_'+n,obj,d,u,title='Quietmirror L2-r4 | '+t,note=axes+' | '+dims)
         picture('INSIDE_'+n,[o for o in inside if o[0]!='BODY'],d,u,title='内部包络 | '+t,note='去掉 BODY；电子元件为估计包络，未认证真实装配')

@@ -10,6 +10,31 @@ MANIFEST=RP/'evidence_manifest.json'
 
 def digest(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def relative(p):return p.relative_to(ROOT).as_posix()
+TEXT_SUFFIXES={'.py','.json','.txt','.log','.step','.stp','.ini','.md','.yml','.yaml'}
+def verified_text_layout(data,expected):
+    """Recover a hash-proven LF/CRLF layout; every non-newline byte is exact.
+
+    Windows Git changed line endings between a producer's checkout and its
+    committed result. The stored producer hash is never replaced. Binary CAD
+    and meshes do not use this function.
+    """
+    try:data.decode('utf8')
+    except UnicodeDecodeError:return None
+    lf=data.replace(b'\r\n',b'\n')
+    for candidate in [data,lf,lf.replace(b'\n',b'\r\n')]:
+        if hashlib.sha256(candidate).hexdigest()==expected:return candidate
+    return None
+
+def hash_matches(path,expected):
+    if not path.exists():return False
+    raw=path.read_bytes()
+    return hashlib.sha256(raw).hexdigest()==expected or (path.suffix.lower() in TEXT_SUFFIXES and verified_text_layout(raw,expected) is not None)
+def same_source_text(a,b):
+    # Windows tools may preserve CRLF and append one final blank line.
+    # Only these representation differences are ignored, never code tokens
+    # or internal whitespace. The original bytes remain hash-verified.
+    normalize=lambda v:v.decode('utf-8').replace('\r\n','\n').rstrip()+'\n'
+    return normalize(a)==normalize(b)
 
 def model_files(script):
     stem=Path(script).stem;parts=ROOT/'models/L2_r4/parts'
@@ -72,7 +97,13 @@ def verify(paths):
             if r['returncode']!=0:problems.append('Producer failed')
             for p,expected in {**r['geometry'],**r['verifier_source'],key:r['report_sha256']}.items():
                 if p not in cache:cache[p]=digest(ROOT/p) if (ROOT/p).exists() else None
-                if cache[p]!=expected:problems.append('Version mismatch: '+p)
+                if cache[p]!=expected:
+                    equivalent=hash_matches(ROOT/p,expected)
+                    snapshot=r.get('verified_source_snapshots',{}).get(p)
+                    if p in r['verifier_source'] and snapshot and (ROOT/snapshot).exists() and (ROOT/p).exists():
+                        original=(ROOT/snapshot).read_bytes()
+                        equivalent=hashlib.sha256(original).hexdigest()==expected and same_source_text(original,(ROOT/p).read_bytes())
+                    if not equivalent:problems.append('Version mismatch: '+p)
         results.append(dict(report=path,passed=not problems,problems=problems))
     return results
 
