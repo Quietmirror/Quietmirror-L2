@@ -1,0 +1,37 @@
+name: L2-r4 native CAD and real slicing
+on:
+  push:
+    branches: [codex/r4-c18-print]
+    paths: ['cad/l2_r4/**', '.github/workflows/l2-r4-print.yml']
+permissions:
+  contents: write
+concurrency:
+  group: l2-r4-c18-print
+  cancel-in-progress: true
+jobs:
+  print:
+    runs-on: windows-2025
+    timeout-minutes: 120
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUTF8: '1'
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      R4_TARGET_BRANCH: codex/r4-c18-print
+      R4_SLICE_DIAGNOSTIC: '0'
+    steps:
+      - name: Read exact candidate commit
+        shell: pwsh
+        run: |
+          git init .
+          git remote add origin "https://github.com/$env:GITHUB_REPOSITORY.git"
+          git fetch --depth=1 origin $env:GITHUB_SHA
+          git checkout --detach FETCH_HEAD
+          if ($LASTEXITCODE -ne 0) { throw 'Exact candidate checkout failed' }
+      - name: FreeCAD roundtrip and real slicing on C18 components
+        shell: pwsh
+        run: ./cad/l2_r4/windows_deliverables.ps1
+      - name: Preserve actual results
+        if: always() && !cancelled()
+        shell: pwsh
+        run: python cad/l2_r4/ci_checkpoint.py
