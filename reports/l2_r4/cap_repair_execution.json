@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "C12 source hinge web setback",
+  "source_commit": "8254bc23226f4de7d10822b0339069392739cb98",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 4.42,
+      "available_memory_before_GB": 15.622320128,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
