@@ -1154,16 +1154,18 @@
   },
   "reports/l2_r4/SF_route_planning.json": {
     "script": "cad/l2_r4/plan_sf_route.py",
-    "source_commit": "6a034e3908a06bc1b6a4476880c8df266c65e00b",
+    "source_commit": "6548668c2bf29a22a21011d83718e2e9dbe43c5c",
     "returncode": 0,
-    "report_sha256": "3894d6bd6ff90c03f3af3331c88778030af655effad521e6b61fc58f6d8c61c0",
+    "report_sha256": "da614098a11d14eea86616e3c13cfa8d0a01e98fca0d31fe7c9ca095ebb2173a",
     "geometry": {
+      "cad/rebuild_r2/parameters.json": "1b80721457bb4f2b11f7021d3e2d98ef9f6068510906099e9b0e38f2f33141f0",
+      "cad/rebuild_r3_2/electronics.json": "866e3892c6d2ddd8b001e746b3bbc4b77bdf3fc799ded156e8bf2b10458d4c08",
       "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
       "models/L2_r4/parts/LEFT_KEY.step": "2b66a0d6f6673ec5ac337dcb63366b1c165122e199ca5497153ab9667cbb4f43",
       "models/L2_r4/parts/RIGHT_KEY.step": "57791da2e062cca8e799d912828827fbb9a7968444b1ed38037aa9acaecae071",
       "models/L2_r4/parts/SF_RETAINER.step": "fe5d9c684cb607b7a3e40f1886cb243b87c9fae1174ef54b78986b8fe34b3213",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.step": "7b4cf7655026a8894d4bc24349ce3fd00cd1439e8564e7192809a432a3ee3b75",
-      "models/L2_r4/parts/SIDE_REAR_KEY.step": "85551a8427c0bc8e50d4226f1af8a12203d30ff74766a3ada6302df40180f7e4",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.step": "7fad221143c1a171ecddfa300d00e8d7c92b1671d64bf69853decb9ccb7fa486",
+      "models/L2_r4/parts/SIDE_REAR_KEY.step": "cb1697253f27cf55d54c4c7572860f749660150d0dd4322ecedf2dbae98d3f09",
       "models/L2_r4/parts/SR_RETAINER.step": "c52152888ef9bf3e8bddb7b6f6605a34a2fc6046057a467329310a02275ebb71",
       "models/L2_r4/parts/WHEEL.step": "efec7b9b652ab89778cad7141f762d4eb55fe694be9bf9e5ef355baad0da1c83",
       "models/L2_r4/parts/WHEEL_CARRIER.step": "c74b8833dfc598a5c40c7d354a7b9cf0c6d40609332228cf3cd81c6e1dbee234",
@@ -1251,7 +1253,8 @@
       "models/L2_r4/reference/WHEEL_M2_SWITCH_2_BOLT.step": "4b9a3b6a15e208c5090f6fd98e1df3980ef5198c7d20379de0ccb2b2986d8448",
       "models/L2_r4/reference/WHEEL_M2_SWITCH_2_NUT.step": "124429338186d8667c30a9297c97c55fb64a3a40afe46f3ab6020d5fa6be46c9",
       "models/L2_r4/reference/WHEEL_M2_SWITCH_2_WASHER_HEAD.step": "f27a86147facd4df981ece941f122fe49c7a3b9a29a094775614c4e179c1883e",
-      "models/L2_r4/reference/WHEEL_M2_SWITCH_2_WASHER_NUT.step": "b82cd9cf29205f58485049decd8f4cdbbdfdbdd950a01487cdcc08dfee2648f7"
+      "models/L2_r4/reference/WHEEL_M2_SWITCH_2_WASHER_NUT.step": "b82cd9cf29205f58485049decd8f4cdbbdfdbdd950a01487cdcc08dfee2648f7",
+      "reports/rebuild_r3_2/design_metadata.json": "2147fc0ea5a1bd32ba66296badddf0506ef61e67a56a9209c67feba8570206db"
     },
     "verifier_source": {
       "cad/l2_r4/assembly_paths.py": "c38241db571a3e0bd4c93e048ca0740cf7d874a0cd072f8b2a2b87412e2ebad9",
