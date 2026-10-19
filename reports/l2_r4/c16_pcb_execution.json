@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "C16 PCB rear-edge source correction and all23 poses",
+  "source_commit": "655750a98d130835b398f7f26ac05b2544a174bb",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 3.99,
+      "available_memory_before_GB": 15.66322688,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
