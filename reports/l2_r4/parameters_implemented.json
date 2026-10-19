@@ -24,13 +24,13 @@
       "cap_x_offset": 0.2,
       "hinge_journal_z": [
         16.4,
-        18.6
+        18.25
       ],
       "upper_lug_z": [
         19.8,
         20.6
       ],
-      "hinge_bridge": "inboard root clipped to R1.25; z18.3..19.0",
+      "hinge_bridge": "inboard root clipped to R1.25; z18.1..19.0",
       "outward_stop_ear": {
         "x": [
           25.4,
@@ -38,10 +38,10 @@
         ],
         "z": [
           18.6,
-          19.5
+          19.35
         ]
       },
-      "deviation": "Axis X29 to X27.5 and upper lug top20.8 to20.6 prevent measured external skin breakthrough; external key surface unchanged."
+      "deviation": "Axis X29 to X27.5 and upper lug top20.8 to20.6 prevent measured external skin breakthrough; C7 journal top18.25 and ear top19.35 correct measured nonfunctional gaps. External key surface unchanged."
     },
     {
       "name": "SIDE_REAR_KEY",
@@ -65,13 +65,13 @@
       "cap_x_offset": 0.2,
       "hinge_journal_z": [
         16.4,
-        18.6
+        18.25
       ],
       "upper_lug_z": [
         19.8,
         20.6
       ],
-      "hinge_bridge": "inboard root clipped to R1.25; z18.3..19.0",
+      "hinge_bridge": "inboard root clipped to R1.25; z18.1..19.0",
       "outward_stop_ear": {
         "x": [
           25.4,
@@ -79,10 +79,10 @@
         ],
         "z": [
           18.6,
-          19.5
+          19.35
         ]
       },
-      "deviation": "Axis X29 to X27.5 and upper lug top20.8 to20.6 prevent measured external skin breakthrough; external key surface unchanged."
+      "deviation": "Axis X29 to X27.5 and upper lug top20.8 to20.6 prevent measured external skin breakthrough; C7 journal top18.25 and ear top19.35 correct measured nonfunctional gaps. External key surface unchanged."
     }
   ],
   "frame": "Integrated source feature of BODY, not a separate printed carrier",
@@ -107,5 +107,6 @@
   "pad_radius": 1.8849999999999998,
   "pad_height": 0.52,
   "author_commit": "f637118455159515a200e6e0f35c0eea1c7d1633",
-  "physical_tests": "HARDWARE_PENDING"
+  "physical_tests": "HARDWARE_PENDING",
+  "candidate": "C7 concealed cap clearances"
 }
