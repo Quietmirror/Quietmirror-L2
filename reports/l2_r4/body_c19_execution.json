@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "FAILED",
   "phase": "C19_original_middle_switch_seat_tie_relief_source_rebuild",
   "source_commit": "aa30c9c049705e154dc2e5ceb4274b6031cd21a3",
   "steps": [
@@ -9,6 +9,13 @@
       "seconds": 3.98,
       "available_memory_before_GB": 15.70574336,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/body_c19.py",
+      "returncode": 1,
+      "seconds": 302.71,
+      "available_memory_before_GB": 15.448645632,
+      "log_tail": "Mother surfaces 0.5775744915008545\nSkin and six windows 25.42419195175171\nSupport 0 26.01852321624756\nSupport 8 33.09350395202637\nSupport 16 43.11946153640747\nSupport 24 51.199721813201904\nSupport 32 59.735777378082275\nEXPORTED BODY 12612.8417\nTraceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/body_c19.py\", line 34, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/body_c19.py\", line 14, in main\n    low_removed=vol(before.cut(after));low_added=vol(after.cut(before))\n                    ^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/cadquery/occ_impl/shapes.py\", line 4898, in cut\n    return tcast(Compound, self._bool_op(self, toCut, cut_op))\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/cadquery/occ_impl/shapes.py\", line 1412, in _bool_op\n    return Shape.cast(op.Shape())\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/cadquery/occ_impl/shapes.py\", line 477, in cast\n    t = shapetype(obj)\n        ^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/cadquery/occ_impl/shapes.py\", line 399, in shapetype\n    raise ValueError(\"Null TopoDS_Shape object\")\nValueError: Null TopoDS_Shape object\n"
     }
   ]
 }
