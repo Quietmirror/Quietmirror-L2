@@ -9,6 +9,13 @@
       "seconds": 2.99,
       "available_memory_before_GB": 15.62503168,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/motion_left_4.py",
+      "returncode": 0,
+      "seconds": 391.48,
+      "available_memory_before_GB": 15.383453696,
+      "log_tail": "G5_RAW LEFT_KEY 0.1 overlaps []\nG5_RAW LEFT_KEY 0.85 overlaps []\nG5_RAW LEFT_KEY 1.6 overlaps []\nG5_RAW LEFT_KEY 2.35 overlaps []\nG5_RAW LEFT_KEY 3.1 overlaps []\nTo https://github.com/Quietmirror/Quietmirror-L2.git\n   f2b0284..807d301  HEAD -> codex/r4-final_left_4-39273969144\nCHECKPOINT codex/r4-final_left_4-39273969144 807d3013af58c96fe4339bfcb85eee39ec5adcc0\n"
     }
   ]
 }
