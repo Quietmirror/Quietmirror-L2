@@ -47,5 +47,31 @@
   },
   {
     "stage": "nonfunctional_begin"
+  },
+  {
+    "stage": "nonfunctional_end",
+    "seconds": 24.144487857818604,
+    "result": {
+      "a": "LEFT_KEY",
+      "b": "BODY",
+      "gap_mm": 0.3000000000000007,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.3,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+      "nearest_points_mm": [
+        [
+          28.0,
+          36.0293120749796,
+          17.691530873903087
+        ],
+        [
+          28.3,
+          36.0293120749796,
+          17.691530873903087
+        ]
+      ]
+    }
   }
 ]
