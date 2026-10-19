@@ -26,7 +26,7 @@
     },
     {
       "part": "SF_RETAINER",
-      "faces": 5136,
+      "faces": 5094,
       "self_intersecting_faces": 0,
       "selected_face_ids": [],
       "passed": true
@@ -40,14 +40,14 @@
     },
     {
       "part": "SIDE_REAR_KEY",
-      "faces": 29980,
+      "faces": 29970,
       "self_intersecting_faces": 0,
       "selected_face_ids": [],
       "passed": true
     },
     {
       "part": "SR_RETAINER",
-      "faces": 5732,
+      "faces": 5812,
       "self_intersecting_faces": 0,
       "selected_face_ids": [],
       "passed": true
@@ -61,7 +61,7 @@
     },
     {
       "part": "WHEEL_CARRIER",
-      "faces": 10828,
+      "faces": 10882,
       "self_intersecting_faces": 0,
       "selected_face_ids": [],
       "passed": true
