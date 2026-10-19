@@ -1,11 +1,10 @@
 {
-  "phase": "candidate_7_concealed_cap_clearances_only",
-  "report_file": "inspection_execution.json",
+  "phase": "C18_carrier_source_relief_and_complete_endpoint",
+  "report_file": "c18_geometry_execution.json",
   "scripts": [
-    "cad/l2_r4/regenerate_keys.py",
+    "cad/l2_r4/restore_inputs.py",
+    "cad/l2_r4/carrier_c18.py",
     "cad/l2_r4/refresh_assembly.py",
-    "cad/l2_r4/d7_fast_check.py",
-    "cad/l2_r4/side_functional_checks.py",
-    "cad/l2_r4/mechanism_accounting.py"
+    "cad/l2_r4/carrier_c18_extreme.py"
   ]
 }

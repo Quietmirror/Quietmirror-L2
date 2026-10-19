@@ -53,7 +53,8 @@ def model_files(script):
         return paths
     if stem in ['slice_plate','trial_and_plate_views']:
         return sorted(parts.glob('*.stl'))+[HERE/'PLA_0.4_0.20_ESTIMATE.ini']+sorted((ROOT/'models/L2_r4/reference').glob('*F2_TRIAL.step'))
-    if stem in ['diagnostic_checks','exterior_audit','mesh_metrics','wall_audit','mesh_self_intersection','mechanism_accounting']:
+    if stem=='static_checks_final':return sorted(parts.glob('*.step'))
+    if stem in ['geometry_checks_final','diagnostic_checks','exterior_audit','mesh_metrics','wall_audit','mesh_self_intersection','mechanism_accounting']:
         paths=[*sorted(parts.glob('*.step')),*sorted(parts.glob('*.stl')),ROOT/'cad/rebuild_r2/parameters.json',ROOT/'reports/rebuild_r3_2/design_metadata.json',RP/'assembly_inventory.json']
         names={'diagnostic_checks':['SF_TUNING_SHIM_0p33','SR_TUNING_SHIM_0p33'],
                'exterior_audit':['SF_VERTICAL_PIN','SR_VERTICAL_PIN'],

@@ -1,4 +1,4 @@
-"""C17 local wheel-group corrections from inherited parameterized parts.
+"""C18 carrier relief with the C17 custom encoder-board outline.
 
 BODY, wheel axis, encoder body, bolt axes and main key outlines are unchanged.
 The hypothetical encoder PCB is a NEW custom outline, not a donor-PCB cut.
@@ -20,7 +20,7 @@ def encoder_pcb():
     # rear metal-lug land atY34.25. This remains a planar custom outline.
     return pcb.cut(edge_tool).cut(box(-20,25,34.55,70,0,30)).clean()
 
-def main():
+def carrier_geometry():
     meta=json.loads((ROOT/'reports/rebuild_r3_2/design_metadata.json').read_text())
     mo=next(m for m in meta['mechanisms']['motions'] if m['part']=='WHEEL_CARRIER')
     origin=mo['origin'];axis=[origin[0]+1,*origin[1:]]
@@ -37,8 +37,17 @@ def main():
     # rail above that cradle is relieved around the rear metal lug. The
     # measured prior ordinary gap was0.14654mm atZ13.4866, outside the seat.
     carrier=carrier.cut(box(5.13,6.37,32.23,34.57,12.2,14.52)).clean()
+    # Complete-BODY C17 sweep found 0.227428734mm at +4.4deg against
+    # the fixed support near (4.35,35.75,9.05). Lift only the underside of
+    # the rear cradle strip by0.20mm. Its topZ12.2, board seat, holes and
+    # hinge remain; nominal residual floor thickness is1.60mm.
+    return carrier.cut(box(-15,15,34.2,36.2,0,10.6)).clean()
+
+def main():
+    original=load('WHEEL_CARRIER',ROOT/'models/L2_r3/parts')
+    carrier=carrier_geometry()
     rows=[export(carrier,'WHEEL_CARRIER')]
-    rows[-1].update(removed_mm3=vol(original)-vol(carrier),change='Local0.32mm rigid middle-switch housing and main-switch fastener clearance across45 design poses; active plunger contact pad retained. Independent motion checks remain required')
+    rows[-1].update(removed_mm3=vol(original)-vol(carrier),change='C18: source-generated0.32mm housing/bolt relief and rear-cradle underside raised0.20mm atY34.2..36.2, retaining1.60mm floor. Active plunger pad, board seat, holes and hinge retained. Independent motion checks required')
     previous=vol(load('ENCODER_ADAPTER_PCB_EST',ROOT/'models/L2_r3/reference'))
     # The remaining rectangular corner crossed the fixed front diagonal at
     # +4.1/+4.4deg. Preserve a2.1mm circular mounting land around the existing
@@ -54,6 +63,6 @@ def main():
         if n.startswith('LEFT'):trim=box(b.xmin-1,b.xmin+.7,b.ymin-1,b.ymax+1,b.zmin-1,b.zmax+1)
         else:trim=box(b.xmax-.7,b.xmax+1,b.ymin-1,b.ymax+1,b.zmin-1,b.zmax+1)
         pin=original.cut(trim).clean();rows.append(export(pin,n,False));rows[-1].update(original_bounds_mm=bounds(original),change='Shorter steel pin at inboard end by0.70mm; diameter and outboard end unchanged; both sides symmetric')
-    save('wheel_group_clearance_changes.json',dict(candidate='C17',parts=rows,body_changed=False,scope='Source-level proposed interfaces; no claim of measured supplier or solder geometry. All affected CAD gates must be rechecked.'))
+    save('wheel_group_clearance_changes.json',dict(candidate='C18',parts=rows,body_changed=False,scope='Source-level proposed interfaces; no claim of measured supplier or solder geometry. All affected CAD gates must be rechecked.'))
 
 if __name__=='__main__':main()
