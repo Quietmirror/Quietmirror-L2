@@ -44,6 +44,13 @@
       "seconds": 8.76,
       "available_memory_before_GB": 15.701946368,
       "log_tail": "{'part': 'SIDE_FRONT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 27560, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SIDE_REAR_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 29970, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'WHEEL_CARRIER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 32992, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n"
+    },
+    {
+      "script": "cad/l2_r4/mechanism_accounting.py",
+      "returncode": 0,
+      "seconds": 18.22,
+      "available_memory_before_GB": 15.66273536,
+      "log_tail": "ACTUATION [('SIDE_FRONT_KEY', True), ('SIDE_REAR_KEY', True)]\n"
     }
   ]
 }
