@@ -1,7 +1,7 @@
-"""Coupled pitch/yaw battery service search with exact finite-pose validation.
+"""Coupled pitch/roll battery service search with exact finite-pose validation.
 
-No change to cell size or BODY. The two single-axis searches exhausted their
-reachable components; this adds diagonal orientation through roof windows.
+No change to cell size or BODY. Single-axis and pitch/yaw searches exhausted
+their reachable components; this tests compound tilt through roof windows.
 """
 import heapq,math,time
 import numpy as np
@@ -11,10 +11,10 @@ from common import *
 from assembly_paths import H,LO,N,voxelize,inside_points
 
 def matrix(pitch,yaw):
-    a,b=map(math.radians,[pitch,yaw]);ry=np.array([[math.cos(a),0,math.sin(a)],[0,1,0],[-math.sin(a),0,math.cos(a)]]);rz=np.array([[math.cos(b),-math.sin(b),0],[math.sin(b),math.cos(b),0],[0,0,1]])
-    return rz@ry
+    a,b=map(math.radians,[pitch,yaw]);ry=np.array([[math.cos(a),0,math.sin(a)],[0,1,0],[-math.sin(a),0,math.cos(a)]]);rx=np.array([[1,0,0],[0,math.cos(b),-math.sin(b)],[0,math.sin(b),math.cos(b)]])
+    return rx@ry
 def points_at(points,pivot,p):return (points-pivot)@matrix(*p[3:]).T+pivot+np.array(p[:3])
-def moved(s,pivot,p):return s.rotate(tuple(pivot),tuple(pivot+[0,1,0]),p[3]).rotate(tuple(pivot),tuple(pivot+[0,0,1]),p[4]).translate(tuple(p[:3]))
+def moved(s,pivot,p):return s.rotate(tuple(pivot),tuple(pivot+[0,1,0]),p[3]).rotate(tuple(pivot),tuple(pivot+[1,0,0]),p[4]).translate(tuple(p[:3]))
 
 def main():
     started=time.time();body=load('BODY');battery=load('BATTERY_CELL_EST',OUT/'reference');pivot=np.array(battery.Center().toTuple());pts=inside_points(battery)
@@ -44,10 +44,10 @@ def main():
             cells=values>.5
             for d in range(2):
                 bad=(axes[d]+mx[d]>=N[d])|(axes[d]+mn[d]<0);sl=[slice(None)]*3;sl[d]=bad;cells[tuple(sl)]=True
-            cache[key]=np.packbits(cells.reshape(-1));mapinfo.append(dict(pitch=angles[q[0]],yaw=angles[q[1]],roundoff=err));print('BATTERY_ORIENTATION',len(cache),key,'seconds',round(time.time()-started),flush=True)
+            cache[key]=np.packbits(cells.reshape(-1));mapinfo.append(dict(pitch=angles[q[0]],roll=angles[q[1]],roundoff=err));print('BATTERY_ORIENTATION',len(cache),key,'seconds',round(time.time()-started),flush=True)
         index=q[2]*dims[3]*dims[4]+q[3]*dims[4]+q[4];return bool(cache[key][index//8]&(1<<(7-index%8)))
     def limits(q):
-        p=decode(q);a=math.radians(p[3]);half=9*abs(math.sin(a))+3*abs(math.cos(a));return pivot[2]+p[2]-half,pivot[2]+p[2]+half
+        p=decode(q);half=float(np.abs(matrix(*p[3:])[2])@np.array([9,11,3]));return pivot[2]+p[2]-half,pivot[2]+p[2]+half
     def heuristic(q):
         lo,hi=limits(q);return max(0.,min(hi-2.5,35.5-lo))/.5
     start=(angles.index(0),angles.index(0),*[int(np.where(a==0)[0][0]) for a in axes]);assert not blocked(start)
@@ -67,9 +67,9 @@ def main():
                 if nc>=costs.get(ni,10**12):continue
                 parent[ni]=node;costs[ni]=nc;heapq.heappush(heap,(nc+1.1*heuristic(v),nc,ni))
         if expanded%100000==0:print('BATTERY_SEARCH',expanded,'frontier',len(heap),flush=True)
-    report=dict(found=gid is not None,expanded_states=expanded,grid_mm=.25,search_translation_mm=.5,search_rotation_deg=5,rotation_order='Y pitch then Z yaw about battery centre',pivot_mm=pivot.tolist(),maps=mapinfo,retained_obstacles=list(fixed),battery_estimated_size_mm=[18,22,6],service_sequence=['Disconnect battery plug and free wiring','Remove main keys, wheel carrier and removable H electronics stack','Tilt and yaw the rigid battery along the reverse of the reported exact route; integral BODY and side module stay assembled'],limitation='Finite rigid-envelope route, not adhesive peel or actual-cell handling proof.',passed=False)
+    report=dict(found=gid is not None,expanded_states=expanded,grid_mm=.25,search_translation_mm=.5,search_rotation_deg=5,rotation_order='Y pitch then X roll about battery centre',pivot_mm=pivot.tolist(),maps=mapinfo,retained_obstacles=list(fixed),battery_estimated_size_mm=[18,22,6],service_sequence=['Disconnect battery plug and free wiring','Remove main keys, wheel carrier and removable H electronics stack','Pitch and roll the rigid battery along the reverse of the reported exact route; integral BODY and side module stay assembled'],limitation='Finite rigid-envelope route, not adhesive peel or actual-cell handling proof.',passed=False)
     save('battery_service_path.json',report)
-    if gid is None:raise RuntimeError('Coupled pitch/yaw search found no accepted path; no service pass')
+    if gid is None:raise RuntimeError('Coupled pitch/roll search found no accepted path; no service pass')
     nodes=[gid]
     while nodes[-1]!=sid:nodes.append(parent[nodes[-1]])
     ps=[decode(unpack(i)) for i in nodes];route=[ps[0]]
