@@ -75,7 +75,7 @@
     "name": "SIDE_FRONT_KEY",
     "valid": true,
     "solids": 1,
-    "volume_mm3": 87.75391081422555,
+    "volume_mm3": 86.60476888097176,
     "bounds_mm": [
       25.4,
       44.05,
@@ -93,7 +93,7 @@
     "name": "SIDE_REAR_KEY",
     "valid": true,
     "solids": 1,
-    "volume_mm3": 92.87602541512685,
+    "volume_mm3": 91.72688389549447,
     "bounds_mm": [
       25.4,
       58.09999989999986,
