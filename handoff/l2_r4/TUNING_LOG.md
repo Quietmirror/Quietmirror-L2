@@ -71,3 +71,17 @@ Status: CAD checks running. No L2-r4 Release is permitted until all CAD gates co
 - Parameterize both hinge X coordinates and move them to27.5, keeping Y45.3/69.7 and the complete external key surface. Upper fixed lug is Z19.8..20.6, lower lug unchanged. Clip fixed bearing additions to the actual mother surface. Keep diameter2.5 moving journals and diameter1x5.5 steel pins.
 - Shorten only the concealed inboard ear radius2.3 to2.1 and place the outward stop riser X26.0..26.8 so both estimated micro housings retain space. The stop roof remains below the mother surface. This is a disclosed correction to the literal D7 coordinates, not a claim that those original dimensions passed.
 - Recompute stop angles, pad coverage, source masks, pin access and rendering from hinge_x; all affected final gates must be rerun. No result is inferred from these source edits alone.
+
+## Candidate4 assembly replay result and route correction
+
+- Both retainer routes and SR micro route passed exact and voxel checks. The SF path had no voxel hits but many exact gaps below0.25mm (smallest0.023553mm); therefore it FAILED G6 despite zero solid intersection.
+- Increase planner obstacle dilation from one to two26-neighbour0.25mm layers. Start lower and target an elevated/pre-alignment pose0.5mm forward of the divider; retain exact waypoint and final seating tests. This is added search margin, not a substituted acceptance criterion.
+- Export named construction mating features for local contact checks. Clearance collars at continuous feature seams are recorded; all whole-solid intersections remain measured.
+- Fixed side pin bores use diameter1.05 as required by the document; the old0.95mm press-fit reference would intentionally intersect a1mm cylinder and is removed from the current source. Real printed fit and retention remain hardware tests.
+- Wire tube end spheres are trimmed only inside declared local termination balls at their matching connectors/COM junction. Mid-route geometry remains unchanged and must retain0.2mm clearance.
+
+## Candidate5 measured outcome and candidate6 correction
+
+- Exact containment now gives0mm3 outside the mother surface for both fixed hinge regions, both concealed moving ears, and both steel pins. Straight cap+PET insertion and diameter2 pin tool access pass.
+- End-press intersections remain: SF0.227701/SR0.220540mm3, localized at the far cap corners inside the middle divider (SF Y56.088..56.748, SR Y57.659..58.311). These are real nonfunctional collisions, not stop contact.
+- Keep cap exterior dimensions. Add source-defined backside clearance inside the middle divider, retaining the outer0.8mm X-offset lip; enlarge only each existing aperture's far end0.15mm. No extra hole is added. Recheck full movement, local wall geometry, window changes and final stiffness; the thin local aperture lip is explicitly distinguished from ordinary shell thickness.

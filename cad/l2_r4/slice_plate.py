@@ -1,6 +1,7 @@
 """Real PrusaSlicer 2.9.6 single plate; generic 3D45-sized PLA estimate."""
 import json,math,subprocess,zipfile,os,re
 import trimesh
+import numpy as np
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'models/L2_r4';RP=ROOT/'reports/l2_r4';WORK=ROOT/'_support/work/l2_r4/slice'
 SL=Path(os.environ.get('QM_PRUSASLICER',str(ROOT/'_support/tools/PrusaSlicer/PrusaSlicer-2.9.6/prusa-slicer-console.exe')))
@@ -9,16 +10,26 @@ def run(args,label):
         subprocess.run([str(SL),'--sw-renderer','--threads','1','--datadir',str(ROOT/'_support/config/PrusaSlicer'),*map(str,args)],stdout=stream,stderr=subprocess.STDOUT,check=True,timeout=2400,creationflags=0x08000000 if os.name=='nt' else 0)
 
 def parse_gcode(path):
-    footer={};role='UNKNOWN';extrusion={}
+    footer={};role='UNKNOWN';extrusion={};position=[0.,0.,0.];role_bounds={}
     for line in path.read_text(errors='replace').splitlines():
         if line.startswith('; ') and ' = ' in line:
             key,value=line[2:].split(' = ',1);footer[key]=value
         if line.startswith(';TYPE:'):role=line[6:]
+        old=list(position)
+        if line.startswith(('G0 ','G1 ','G2 ','G3 ')):
+            for i,letter in enumerate('XYZ'):
+                value=re.search(r' '+letter+r'([-+\d.]+)',line)
+                if value:position[i]=float(value.group(1))
         if line.startswith(('G1 ','G2 ','G3 ')) and ' E' in line:
             match=re.search(r' E([-+\d.]+)',line)
-            if match and (' X' in line or ' Y' in line):extrusion[role]=extrusion.get(role,0)+max(0,float(match.group(1)))
+            if match and (' X' in line or ' Y' in line) and float(match.group(1))>0:
+                extrusion[role]=extrusion.get(role,0)+float(match.group(1))
+                b=role_bounds.setdefault(role,[[float('inf')]*3,[-float('inf')]*3])
+                for i in range(3):b[0][i]=min(b[0][i],old[i],position[i]);b[1][i]=max(b[1][i],old[i],position[i])
     factor=math.pi*(1.75/2)**2*1.24/1000
-    return dict(total_filament_g=footer.get('filament used [g]'),time=footer.get('estimated printing time (normal mode)'),extrusion_roles_g={k:v*factor for k,v in extrusion.items()},settings={k:footer.get(k) for k in ['nozzle_diameter','layer_height','filament_density','bed_shape','support_material_style','support_material_buildplate_only','use_relative_e_distances']})
+    assert footer.get('use_relative_e_distances')=='1','Role-mass parser requires actual relative extrusion G-code'
+    assert float(footer['filament used [g]'])>0 and footer.get('estimated printing time (normal mode)')
+    return dict(total_filament_g=footer.get('filament used [g]'),time=footer.get('estimated printing time (normal mode)'),extrusion_roles_g={k:v*factor for k,v in extrusion.items()},extrusion_role_bounds_mm=role_bounds,settings={k:footer.get(k) for k in ['nozzle_diameter','layer_height','filament_density','bed_shape','support_material_style','support_material_buildplate_only','use_relative_e_distances']})
 
 def orient(name,mesh):
     if name in ('SF_RETAINER','SR_RETAINER'):
@@ -57,6 +68,10 @@ def main():
     run(['--load',ini,'--dont-arrange','--export-3mf','--output',target,raw],'export')
     full=WORK/'full.ini';run(['--load',ini,'--save',full],'profile')
     embed_profile(target,full)
+    reopened=trimesh.load(target,force='scene')
+    assert len(reopened.graph.nodes_geometry)==9,(len(reopened.graph.nodes_geometry),'3MF object count')
+    assert np.allclose(reopened.bounds,scene.bounds,atol=.05),(reopened.bounds,scene.bounds)
+    roundtrip=dict(object_count=len(reopened.graph.nodes_geometry),bounds_mm=reopened.bounds.tolist(),maximum_bounds_difference_mm=float(np.max(np.abs(reopened.bounds-scene.bounds))),passed=True)
     gcode=WORK/'validation_only.gcode';run(['--dont-arrange','--export-gcode','--output',gcode,target],'slice')
     run(['--info',target],'info')
     parsed=parse_gcode(gcode);per_part=[]
@@ -65,7 +80,8 @@ def main():
         m.apply_translation([10-m.bounds[0,0],10-m.bounds[0,1],-m.bounds[0,2]])
         stl=WORK/(n+'_oriented.stl');m.export(stl);gc=WORK/(n+'_validation.gcode')
         run(['--load',ini,'--dont-arrange','--export-gcode','--output',gc,stl],n+'_slice')
-        per_part.append(dict(name=n,rotation_y_deg=rotation,rotation_x_deg=90 if n in ('SF_RETAINER','SR_RETAINER') else 0,**parse_gcode(gc)))
+        warnings=[line for line in (WORK/(n+'_slice.log')).read_text(errors='replace').splitlines() if any(w in line.lower() for w in ['warn','error','empty','non-manifold'])]
+        per_part.append(dict(name=n,rotation_y_deg=rotation,rotation_x_deg=90 if n in ('SF_RETAINER','SR_RETAINER') else 0,slicer_messages=warnings,**parse_gcode(gc)))
         print('SLICED_PART',per_part[-1],flush=True)
     gaps=[]
     for i,a in enumerate(placements):
@@ -75,7 +91,7 @@ def main():
             gaps.append(math.hypot(dx,dy))
     assert min(gaps)>=5
     assert parsed['settings']['support_material_style']=='organic',parsed
-    save=dict(slicer='PrusaSlicer 2.9.6',status='REAL_SLICE_ESTIMATE_NOT_PRINTER_CERTIFIED',bed_mm=[255,155],assumption='Dremel 3D45 bed footprint only; generic Marlin estimate, no machine-specific G-code delivered',placements=placements,**parsed,per_part=per_part,minimum_xy_bounding_rect_gap_mm=min(gaps),role_mass_method='Positive XY extrusion by G-code TYPE, relative E; excludes standalone retract/reprime',scale=1.)
+    save=dict(slicer='PrusaSlicer 2.9.6',status='REAL_SLICE_ESTIMATE_NOT_PRINTER_CERTIFIED',bed_mm=[255,155],assumption='Dremel 3D45 bed footprint only; generic Marlin estimate, no machine-specific G-code delivered',placements=placements,**parsed,per_part=per_part,plate_roundtrip=roundtrip,minimum_xy_bounding_rect_gap_mm=min(gaps),role_mass_method='Positive XY extrusion by G-code TYPE, relative E; excludes standalone retract/reprime',scale=1.)
     (RP/'slice_summary.json').write_text(json.dumps(save,indent=2))
     (RP/'slicer_model_info.txt').write_text((WORK/'info.log').read_text())
     print(json.dumps(save,indent=2),flush=True)

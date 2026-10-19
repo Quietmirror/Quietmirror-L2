@@ -10,6 +10,27 @@ ROUTES={
 
 def main():
     for n,points in ROUTES.items():export(unite(*[beam(a,b,.3) for a,b in zip(points[:-1],points[1:])]),n,False)
+    # End-cap spheres in the inherited tube envelopes extended into their
+    # mating components. Trim only a declared local termination ball; retain
+    # all other route geometry, so unintended mid-route intersections remain
+    # detectable. This is an envelope boundary, not electrical solder detail.
+    definition=json.loads((ROOT/'cad/rebuild_r3_2/electronics.json').read_text())
+    terminations=[]
+    for route in definition['routes']:
+        name=route['name']
+        if name=='SIDE_ROUTE_EST':continue
+        shape=load(name,OUT/'reference')
+        for point,target in zip([route['points'][0],route['points'][-1]],route['end_contacts']):
+            mate=load(target,OUT/'reference');r=float(route['radius'])+.8
+            zone=cq.Solid.makeSphere(r,V(*point),angleDegrees1=-90,angleDegrees2=90)
+            trim=mate.intersect(zone);before=vol(shape);shape=shape.cut(trim).clean()
+            terminations.append(dict(route=name,target=target,point_mm=point,local_ball_radius_mm=r,removed_mm3=before-vol(shape),purpose='Localized wire-to-connector termination; remainder retains normal G3 clearance'))
+        export(shape,name,False)
+    branch=load('SIDE_COM_GPIO_ROUTE_EST',OUT/'reference');trunk=load('SIDE_COM_ROUTE_EST',OUT/'reference')
+    point=ROUTES['SIDE_COM_GPIO_ROUTE_EST'][0];zone=cq.Solid.makeSphere(1.,V(*point),angleDegrees1=-90,angleDegrees2=90)
+    before=vol(branch);branch=branch.cut(trunk.intersect(zone)).clean();export(branch,'SIDE_COM_GPIO_ROUTE_EST',False)
+    terminations.append(dict(route='SIDE_COM_GPIO_ROUTE_EST',target='SIDE_COM_ROUTE_EST',point_mm=point,local_ball_radius_mm=1.,removed_mm3=before-vol(branch),purpose='Same electrical COM net branch junction'))
+    save('wire_termination_boundaries.json',terminations)
     old=json.loads((ROOT/'reports/l2_r3/assembly_inventory.json').read_text(encoding='utf8'))
     printed=[p.stem for p in sorted((OUT/'parts').glob('*.step'))]
     excluded={'CARRIER_M2x5_1','CARRIER_M2x5_2','SIDE_IO_PCB','SIDE_ROUTE_EST'}

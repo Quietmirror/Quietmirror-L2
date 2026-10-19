@@ -13,6 +13,9 @@ jobs:
   execute:
     runs-on: ubuntu-24.04
     timeout-minutes: 330
+    outputs:
+      artifact_sha: ${{ steps.checkpoint.outputs.sha }}
+      run_windows: ${{ steps.checkpoint.outputs.windows }}
     env:
       GH_TOKEN: ${{ github.token }}
       PYTHONUTF8: '1'
@@ -40,5 +43,37 @@ jobs:
       - name: Execute finite checks with per-stage evidence checkpoints
         run: xvfb-run -a _support/venv/bin/python -u cad/l2_r4/ci_run.py
       - name: Preserve candidate results and errors without releasing
+        id: checkpoint
         if: always() && !cancelled()
-        run: python3 cad/l2_r4/ci_checkpoint.py
+        run: |
+          python3 cad/l2_r4/ci_checkpoint.py
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          python3 -c "import json,os; c=json.load(open('cad/l2_r4/RUN.json')); open(os.environ['GITHUB_OUTPUT'],'a').write('windows='+str(c.get('windows',False)).lower()+'\n')"
+  windows_artifacts:
+    needs: execute
+    if: needs.execute.result == 'success' && needs.execute.outputs.run_windows == 'true'
+    runs-on: windows-2025
+    timeout-minutes: 120
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUTF8: '1'
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+    steps:
+      - name: Read the exact Linux artifact checkpoint
+        shell: pwsh
+        env:
+          ARTIFACT_SHA: ${{ needs.execute.outputs.artifact_sha }}
+        run: |
+          git init .
+          git remote add origin "https://github.com/$env:GITHUB_REPOSITORY.git"
+          git fetch --depth=1 origin $env:ARTIFACT_SHA
+          git checkout --detach FETCH_HEAD
+          if ($LASTEXITCODE -ne 0) { throw 'Artifact checkpoint checkout failed' }
+      - name: Actual FreeCAD roundtrip and PrusaSlicer project slicing
+        shell: pwsh
+        run: ./cad/l2_r4/windows_deliverables.ps1
+      - name: Preserve Windows artifact evidence
+        if: always() && !cancelled()
+        shell: pwsh
+        run: python cad/l2_r4/ci_checkpoint.py

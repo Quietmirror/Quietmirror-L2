@@ -17,6 +17,7 @@ jobs:
       OMP_NUM_THREADS: '1'
       OPENBLAS_NUM_THREADS: '1'
       PYTHONUTF8: '1'
+      R4_TARGET_BRANCH: codex/r4-inspect
     steps:
       - run: |
           git init .
@@ -29,9 +30,7 @@ jobs:
           _support/venv/bin/pip install --disable-pip-version-check cadquery==2.8.0 gmsh==4.15.2 trimesh scipy pillow psutil shapely matplotlib rtree
       - name: Build local hinge correction and audit actual solids
         run: |
-          for script in exterior_audit d7_fast_check; do
-            _support/venv/bin/python -u cad/l2_r4/${script}.py
-          done
+          xvfb-run -a _support/venv/bin/python -u cad/l2_r4/ci_run.py --config cad/l2_r4/INSPECT.json
       - name: Preserve independent evidence on inspection branch only
         if: always()
         env:

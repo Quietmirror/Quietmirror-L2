@@ -6,7 +6,7 @@ from surfaces import half_width
 V=cq.Vector
 
 def build_wheel(p,outer):
-    h=p['hardware']; parts={}; hardware={}; additions=[]; cuts=[]; terminal_cuts=[]
+    h=p['hardware']; parts={}; hardware={}; additions=[]; cuts=[]; terminal_cuts=[]; functional={};fixed_ears=[]
     wy,wz=28.,19.; py=50.; pivot=[0.,py,wz]
     def hex_prism(af,length,x):
         rr=af/math.sqrt(3)
@@ -56,6 +56,8 @@ def build_wheel(p,outer):
         lug=box(2.4,4.,tz-wz+.5,(x,py+2.5,(tz+wz+.5)/2))
         ear=join(ear,lug).cut(cylinder(1.175,4,(x-2,py,wz),(1,0,0)))
         additions.append(check(ear,'CARRIER_EAR'))
+        fixed_ears.append(ear)
+    functional['WHEEL_CARRIER_FIXED_BEARINGS']=join(*fixed_ears)
     cuts.append(cylinder(1.175,82.,(-41,py,wz),(1,0,0)))
     mx,my,mb=.4,41.5,9.05
     switch=box(5.8,12.8,6.5,(mx,my+2,mb+3.25))
@@ -77,6 +79,7 @@ def build_wheel(p,outer):
     for sign in (-1,1):
         tray=join(tray,beam((sign*4.,46.,mb-.9),(sign*(half_width(46.,p)-.3),46.,mb-.9),1.25).intersect(outer))
     additions.append(check(tray,'MIDDLE_TRAY'))
+    functional['SWITCH_MIDDLE_MOUNT']=tray
     angle=3.8
     # A positive stop under the carrier pad. Its top is machined by the
     # displaced pad itself; this avoids a flat stop intersecting a tilted pad.
@@ -85,6 +88,7 @@ def build_wheel(p,outer):
     stop=stop.cut(pressed)
     stop=join(stop,beam((4.35,41.5,12.5),(4.35,42.,8.15),.5))
     additions.append(check(stop,'MIDDLE_STOP'))
+    functional['WHEEL_CARRIER_PRESS_STOP']=stop
     cuts.append(box(19.8,17.8,32.,(0,wy,17.)))
     motion=dict(part='WHEEL_CARRIER',kind='rotate',origin=pivot,axis=[1,0,0],end_deg=angle,
        moving_children=['WHEEL'],moving_hardware=['ENCODER_EC10E_HOUSING','ENCODER_EC10E_ROTOR'],
@@ -97,4 +101,4 @@ def build_wheel(p,outer):
           three_terminal_pitch_mm=2.5,designed_clearance_hole_mm=1.25,
           source='https://tech.alpsalpine.com/cms.media/product_catalog_ec_03_ec10e_en_a9ede251c7.pdf'),
        installation='Preassemble on bench; insert integral hex driver along X into encoder rotor, then fit rear click hinge. Pin dimensions are not scaled.')
-    return dict(parts=parts,hardware=hardware,additions=additions,cuts=cuts,motion=motion,wheel=wm,terminal_cuts=terminal_cuts)
+    return dict(parts=parts,hardware=hardware,additions=additions,cuts=cuts,motion=motion,wheel=wm,terminal_cuts=terminal_cuts,functional_features=functional)

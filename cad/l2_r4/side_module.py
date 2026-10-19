@@ -10,6 +10,7 @@ KEYS=[dict(name='SIDE_FRONT_KEY',short='SF',y0=44.2,y1=56.3,hinge_x=27.5,hinge_y
       dict(name='SIDE_REAR_KEY',short='SR',y0=58.1,y1=70.8,hinge_x=27.5,hinge_y=69.7,rod_y=64.45,rod_end=26.47,stop_y=[59.3,60.5],stop_x=30.04,sign=-1,pad_y_offset=-0.1617)]
 UPPER_LUG_TOP=20.6
 EAR_RADIUS=2.1
+APERTURE_FAR_END_RELIEF=.15
 PAD_RADIUS=2.175*2.6/3;PAD_HEIGHT=.6*2.6/3
 RETAINER_MOUNTS={'SF':dict(x=16.6,y=45.7,pin_x=17.4,pin_y=54.),'SR':dict(x=16.6,y=70.4,pin_x=17.9,pin_y=56.5)}
 
@@ -70,18 +71,25 @@ def fixed_features(outer):
     cuts=[];lands=[]
     for k in KEYS:
         a,b=k['y0']-.3,k['y1']+.3;y=k['hinge_y'];sg=k['sign'];hx=k['hinge_x']
+        if sg>0:b+=APERTURE_FAR_END_RELIEF
+        else:a-=APERTURE_FAR_END_RELIEF
         cuts.append(yz_mask(a,b,15.2,19.8,1.8))
         adds.append(box(28.65,35,a-.3,b+.3,19.8,21).intersect(outer))
         for z0,z1 in [(14.2,15.2),(19.8,UPPER_LUG_TOP)]:
             adds.append(unite(cyl(1.325,z1-z0,(hx,y,z0)),box(hx,32.2,y-.9,y+.9,z0,z1)).intersect(outer))
-        cuts.extend([cyl(1.55,4.6,(hx,y,15.2)),cyl(.475,8,(hx,y,13))])
+        cuts.extend([cyl(1.55,4.6,(hx,y,15.2)),cyl(.525,8,(hx,y,13))])
         # The requested +X ear at Z20 is outside the curved mother skin here.
         # Put its radial arm inboard, within the existing side opening, and
         # preserve the complete upper fixed lug instead of cutting its skin.
         ya,yb=(y+.4,y+1.4) if sg>0 else (y-1.4,y-.4)
         stop=unite(box(hx-1.5,hx-.7,ya,yb,18.6,UPPER_LUG_TOP),box(hx-1.5,hx+.7,ya,yb,19.8,UPPER_LUG_TOP))
-        stop=stop.intersect(outer).cut(cyl(.475,8,(hx,y,13)))
+        stop=stop.intersect(outer).cut(cyl(.525,8,(hx,y,13)))
         lands.append(stop)
+    # Moving X27.5 axes causes both far cap corners to enter the inside of
+    # the middle divider. Keep the finger surfaces, clear only its backside,
+    # and retain the outer 0.8mm X-offset lip. The existing aperture far ends
+    # gain 0.15mm each; no additional opening is created.
+    cuts.append(box(28.5,40,55.4,58.9,15.2,19.8).intersect(outer.translate((-.8,0,0))))
     return adds,cuts,lands
 
 def crown(k,shift=0.):

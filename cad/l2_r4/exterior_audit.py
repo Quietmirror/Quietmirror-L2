@@ -15,7 +15,7 @@ def main():
         for z in [19.8,20.,20.25,20.6,20.8]:
             hit=outer.intersect(cq.Edge.makeLine(V(0,y,z),V(40,y,z)))
             xmax=max([max(e.startPoint().x,e.endPoint().x) for e in hit.Edges()])
-            sampled.append(dict(z=z,outer_x=xmax,axis_to_outer_wall_mm=xmax-hx,fixed_bore_wall_mm=xmax-hx-.475))
+            sampled.append(dict(z=z,outer_x=xmax,axis_to_outer_wall_mm=xmax-hx,fixed_bore_wall_mm=xmax-hx-.525))
         rows.append(dict(part=k['name'],fixed_bearing_region_outside_mother_mm3=vol(outside),outside_regions=[bounds(s) for s in outside.Solids()],
                          moving_inboard_ear_outside_mother_mm3=vol(ear.cut(outer)),pin_outside_mother_mm3=vol(pin.cut(outer)),upper_profile_samples=sampled,
                          passed=max(vol(outside),vol(ear.cut(outer)),vol(pin.cut(outer)))<=.001,evidence='Exact current final BODY and original mother surface; cap exterior offset is intentionally excluded from hidden-feature containment.'))
