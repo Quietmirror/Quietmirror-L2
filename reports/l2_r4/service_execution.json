@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "FAILED",
   "phase": "candidate_6_reverse_service_search_wall_and_STL_audit",
   "source_commit": "fa42b920a4386b6e5b1420c31dd1502c5a8125b5",
   "steps": [
@@ -23,6 +23,13 @@
       "seconds": 4.51,
       "available_memory_before_GB": 15.600820224,
       "log_tail": "ACTUATION [('SIDE_FRONT_KEY', True), ('SIDE_REAR_KEY', True)]\n"
+    },
+    {
+      "script": "cad/l2_r4/battery_service.py",
+      "returncode": 1,
+      "seconds": 70.61,
+      "available_memory_before_GB": 15.553339392,
+      "log_tail": "VOXELS 800311 exact odd columns 0\nVOXELS 6701 exact odd columns 0\nVOXELS 10847 exact odd columns 0\nVOXELS 31350 exact odd columns 0\nVOXELS 30765 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 1506 exact odd columns 0\nVOXELS 1438 exact odd columns 0\nTraceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_service.py\", line 112, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_service.py\", line 82, in main\n    if not found:save('battery_service_path.json',report);raise RuntimeError('No battery route found within stated search domain; no service-access pass')\n                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No battery route found within stated search domain; no service-access pass\n"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "found": false,
-  "expanded_states": 4000001,
+  "expanded_states": 306,
   "pivot_mm": [
     -16.999999999999996,
     57.0,
@@ -11,6 +11,78 @@
   "search_translation_mm": 0.5,
   "search_rotation_deg": 5,
   "maps": [
+    {
+      "rotation_y_deg": -90,
+      "roundoff": 0.0234375
+    },
+    {
+      "rotation_y_deg": -85,
+      "roundoff": 0.0234375
+    },
+    {
+      "rotation_y_deg": -80,
+      "roundoff": 0.0234375
+    },
+    {
+      "rotation_y_deg": -75,
+      "roundoff": 0.0234375
+    },
+    {
+      "rotation_y_deg": -70,
+      "roundoff": 0.01953125
+    },
+    {
+      "rotation_y_deg": -65,
+      "roundoff": 0.0234375
+    },
+    {
+      "rotation_y_deg": -60,
+      "roundoff": 0.01953125
+    },
+    {
+      "rotation_y_deg": -55,
+      "roundoff": 0.015625
+    },
+    {
+      "rotation_y_deg": -50,
+      "roundoff": 0.01953125
+    },
+    {
+      "rotation_y_deg": -45,
+      "roundoff": 0.01953125
+    },
+    {
+      "rotation_y_deg": -40,
+      "roundoff": 0.0234375
+    },
+    {
+      "rotation_y_deg": -35,
+      "roundoff": 0.015625
+    },
+    {
+      "rotation_y_deg": -30,
+      "roundoff": 0.01953125
+    },
+    {
+      "rotation_y_deg": -25,
+      "roundoff": 0.03125
+    },
+    {
+      "rotation_y_deg": -20,
+      "roundoff": 0.0234375
+    },
+    {
+      "rotation_y_deg": -15,
+      "roundoff": 0.01953125
+    },
+    {
+      "rotation_y_deg": -10,
+      "roundoff": 0.0234375
+    },
+    {
+      "rotation_y_deg": -5,
+      "roundoff": 0.0234375
+    },
     {
       "rotation_y_deg": 0,
       "roundoff": 0.0234375
