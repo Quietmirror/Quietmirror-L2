@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "final_printed_geometry_and_meshes",
+  "source_commit": "3844d155b625531a6400907c660828c5ca8c82fd",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 4.48,
+      "available_memory_before_GB": 15.660908544,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
