@@ -1,14 +1,14 @@
 {
   "status": "FAILED",
   "phase": "Directed original-cell coupled service route",
-  "source_commit": "203999d5ecc436e577e1231a25493665c25a8ba2",
+  "source_commit": "776dc33856a152ef30210664f78a276ca25d90d7",
   "steps": [
     {
       "script": "cad/l2_r4/battery_direct_service.py",
       "returncode": 1,
-      "seconds": 2.36,
-      "available_memory_before_GB": 15.651160064,
-      "log_tail": "Traceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_direct_service.py\", line 12, in <module>\n    from battery_service_rrt import moved,matrix\nModuleNotFoundError: No module named 'battery_service_rrt'\n"
+      "seconds": 25.73,
+      "available_memory_before_GB": 15.602659328,
+      "log_tail": "VOXELS 800311 exact odd columns 0\nVOXELS 6701 exact odd columns 0\nVOXELS 10847 exact odd columns 0\nVOXELS 4864 exact odd columns 0\nVOXELS 5037 exact odd columns 0\nVOXELS 31350 exact odd columns 0\nVOXELS 30765 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 308 exact odd columns 0\nVOXELS 1506 exact odd columns 0\nVOXELS 1438 exact odd columns 0\nTraceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_direct_service.py\", line 64, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_direct_service.py\", line 62, in main\n    if not accepted:raise RuntimeError('No directed service route accepted for unchanged original cell')\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No directed service route accepted for unchanged original cell\n"
     }
   ]
 }
