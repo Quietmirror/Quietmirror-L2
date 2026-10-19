@@ -1,13 +1,20 @@
 """Real PrusaSlicer 2.9.6 single plate; generic 3D45-sized PLA estimate."""
-import json,math,subprocess,zipfile,os,re
+import json,math,subprocess,zipfile,os,re,hashlib
 import trimesh
 import numpy as np
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'models/L2_r4';RP=ROOT/'reports/l2_r4';WORK=ROOT/'_support/work/l2_r4/slice'
 SL=Path(os.environ.get('QM_PRUSASLICER',str(ROOT/'_support/tools/PrusaSlicer/PrusaSlicer-2.9.6/prusa-slicer-console.exe')))
 def run(args,label):
-    with (WORK/(label+'.log')).open('w',encoding='utf8') as stream:
-        subprocess.run([str(SL),'--sw-renderer','--threads','1','--datadir',str(ROOT/'_support/config/PrusaSlicer'),*map(str,args)],stdout=stream,stderr=subprocess.STDOUT,check=True,timeout=2400,creationflags=0x08000000 if os.name=='nt' else 0)
+    log=WORK/(label+'.log')
+    with log.open('w',encoding='utf8') as stream:
+        result=subprocess.run([str(SL),'--sw-renderer','--threads','1','--datadir',str(ROOT/'_support/config/PrusaSlicer'),*map(str,args)],stdout=stream,stderr=subprocess.STDOUT,timeout=2400,creationflags=0x08000000 if os.name=='nt' else 0)
+    # Preserve actual engine diagnostics even when it exits before a Python
+    # result can be formed (for example a native access violation).
+    logs=RP/'slicer_logs';logs.mkdir(exist_ok=True)
+    (logs/(label+'.log')).write_text(log.read_text(errors='replace'),encoding='utf8')
+    print('PRUSA_STAGE',label,'returncode',result.returncode,log.read_text(errors='replace')[-4000:],flush=True)
+    result.check_returncode()
 
 def parse_gcode(path):
     footer={};role='UNKNOWN';extrusion={};position=[0.,0.,0.];role_bounds={}
@@ -92,6 +99,8 @@ def main():
     assert min(gaps)>=5
     assert parsed['settings']['support_material_style']=='organic',parsed
     save=dict(slicer='PrusaSlicer 2.9.6',status='REAL_SLICE_ESTIMATE_NOT_PRINTER_CERTIFIED',bed_mm=[255,155],assumption='Dremel 3D45 bed footprint only; generic Marlin estimate, no machine-specific G-code delivered',placements=placements,**parsed,per_part=per_part,plate_roundtrip=roundtrip,minimum_xy_bounding_rect_gap_mm=min(gaps),role_mass_method='Positive XY extrusion by G-code TYPE, relative E; excludes standalone retract/reprime',scale=1.)
+    (RP/'slice_summary.json').write_text(json.dumps(save,indent=2))
+    save['artifact_sha256']={target.relative_to(ROOT).as_posix():hashlib.sha256(target.read_bytes()).hexdigest()}
     (RP/'slice_summary.json').write_text(json.dumps(save,indent=2))
     (RP/'slicer_model_info.txt').write_text((WORK/'info.log').read_text())
     print(json.dumps(save,indent=2),flush=True)

@@ -1,6 +1,6 @@
 """F2 side-module trial and verified 3MF plate-layout images."""
 from pathlib import Path
-import json,subprocess,zipfile,os
+import json,subprocess,zipfile,os,hashlib
 import numpy as np
 import trimesh
 from PIL import Image,ImageDraw,ImageFont
@@ -45,5 +45,7 @@ def main():
         bb=m.bounds;ax.text((bb[0,0]+bb[1,0])/2,bb[0,1]-2.0,p['name'],ha='center',va='top',fontsize=6.5)
     ax.set(xlim=(0,255),ylim=(0,155),xlabel='X / mm',ylabel='Y / mm',aspect='equal',title='L2-r4 / actual single-plate placement | 255 x 155 mm | scale 1:1 in 3MF')
     ax.grid(alpha=.15);fig.savefig(VIEWS/'PRINT_PLATE.png',dpi=160);plt.close(fig)
+    report=json.loads((RP/'F2_trial.json').read_text());report['artifact_sha256']={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in [target,VIEWS/'PRINT_PLATE.png']}
+    (RP/'F2_trial.json').write_text(json.dumps(report,indent=2))
     print('F2 3MF and actual plate projection exported',flush=True)
 if __name__=='__main__':main()
