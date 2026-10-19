@@ -4,7 +4,25 @@
     "watertight": true,
     "winding_consistent": true,
     "components": 1,
-    "triangles": 405612,
+    "triangles": 412058,
+    "method": "Conforming final STEP surface triangulation; no hole filling",
+    "passed": true
+  },
+  {
+    "part": "LEFT_KEY",
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "triangles": 27298,
+    "method": "Conforming final STEP surface triangulation; no hole filling",
+    "passed": true
+  },
+  {
+    "part": "RIGHT_KEY",
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "triangles": 27346,
     "method": "Conforming final STEP surface triangulation; no hole filling",
     "passed": true
   },
@@ -31,7 +49,7 @@
     "watertight": true,
     "winding_consistent": true,
     "components": 1,
-    "triangles": 5172,
+    "triangles": 5136,
     "method": "Conforming final STEP surface triangulation; no hole filling",
     "passed": true
   },
