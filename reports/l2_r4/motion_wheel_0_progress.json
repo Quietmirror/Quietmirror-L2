@@ -1,0 +1,20 @@
+{
+  "status": "PARTIAL_NOT_ACCEPTANCE",
+  "group": "WHEEL_CARRIER",
+  "completed_poses": 5,
+  "expected_poses": 5,
+  "last_angle_deg": 3.5999999999999996,
+  "failures": [
+    {
+      "angle": 3.5999999999999996,
+      "items": [
+        {
+          "a": "ENCODER_ADAPTER_PCB_EST",
+          "b": "BODY",
+          "passed": false,
+          "classification": "ordinary clearance"
+        }
+      ]
+    }
+  ]
+}
