@@ -5,36 +5,25 @@
     "name": "SF_stop",
     "magnitude_N": 5.0,
     "direction": [
-      -1.0,
-      0.0,
-      0.0
+      -1,
+      0,
+      0
     ],
     "selected_triangles": 2,
-    "surface_area_mm2": 1.2599999999999925,
-    "pressure_magnitude_MPa": 3.968253968253992,
+    "surface_area_mm2": 0.5999999999999993,
+    "expected_area_mm2": 0.5999999999999993,
+    "pressure_magnitude_MPa": 8.333333333333343,
     "area_centroid_mm": [
-      29.740000000000002,
-      54.5,
-      16.05
+      29.74,
+      54.6,
+      16.15
     ],
     "actual_force_sum_N": [
-      -4.999999999999999,
+      -4.999999999999962,
       0.0,
       0.0
     ],
-    "selected_face_centers_bounds_mm": [
-      [
-        29.74,
-        54.199999999999996,
-        15.933333333333334
-      ],
-      [
-        29.740000000000002,
-        54.79999999999999,
-        16.166666666666668
-      ]
-    ],
-    "distribution": "Uniform vector surface traction, integrated using 7-point quadratic-triangle shape functions; total resultant normalized to specified N.",
+    "distribution": "Exact planar clipping to the specified rectangular 1.2 x 0.5 mm equivalent stop-load patch, with quadratic consistent nodal traction and resultant/moment checks.",
     "screw_preload_N_each": 20.0,
     "preload_surface_definitions": [
       {
@@ -220,42 +209,42 @@
     },
     "gmsh_version": "4.15.2"
   },
-  "deck_sha256": "f9feea8e90d89be3d89f95a2b97ffd972c513d58db494f102bd5bb9ed3e394d4",
-  "dat_sha256": "6bc574a7242b67b8b350e08ee21bf98946135135541255e100c509a75b04658b",
-  "solving_seconds": 32.28186375599989,
+  "deck_sha256": "a87fc22b18467351703753fda06385be9eedb547b78c71490e3caa082bdaa18c",
+  "dat_sha256": "b0c0c399cab983719a0c25e93f631ed1a7a26a83f2bd0fb3ce2d352150de194e",
+  "solving_seconds": 33.03520681399999,
   "applied_force_N": [
-    -4.999999999999999,
+    -4.999999999999962,
     0.0,
     -4.163336342344337e-16
   ],
   "support_reaction_N": [
-    5.000000000011716,
-    -1.5360765273905497e-11,
-    2.153730989662428e-07
+    5.0000000000115525,
+    -1.553654136566356e-11,
+    4.34468988893405e-08
   ],
   "force_balance_error_N": [
-    1.1716849712684052e-11,
-    -1.5360765273905497e-11,
-    2.1537309854990916e-07
+    1.1590728377086634e-11,
+    -1.553654136566356e-11,
+    4.344689847300687e-08
   ],
-  "force_balance_relative_error": 4.307461988328003e-08,
+  "force_balance_relative_error": 8.689380559402142e-09,
   "moment_balance_error_Nmm": [
-    5.632759053408876e-06,
-    -2.3173541592313995e-06,
-    -2.1427879005386785e-05
+    -9.795590447669866e-07,
+    5.0213876221505416e-06,
+    1.4897082962761488e-05
   ],
-  "moment_balance_relative_error": 5.049348706531119e-08,
+  "moment_balance_relative_error": 3.570219326506468e-08,
   "equilibrium_pass": true,
-  "maximum_displacement_mm": 0.20520388830681546,
+  "maximum_displacement_mm": 0.2069569742244375,
   "maximum_displacement_node": 1071,
   "displacement_components_at_max_mm": [
-    -0.1946329,
-    0.01341196,
-    -0.06361438
+    -0.1960065,
+    0.01300629,
+    -0.06514198
   ],
-  "maximum_vm_stress_MPa": 25.935974493286,
-  "p95_integration_point_vm_MPa": 0.6768576253727745,
-  "unweighted_integration_point_p95_vm_MPa": 0.8831697726282117,
+  "maximum_vm_stress_MPa": 25.996901845768804,
+  "p95_integration_point_vm_MPa": 0.6818843276994812,
+  "unweighted_integration_point_p95_vm_MPa": 0.8869153971825988,
   "p95_definition": "95th percentile of integration-point von Mises stress weighted by actual C3D10 Jacobian quadrature volume; avoids overweighting locally tiny elements.",
   "peak_stress_element": 9155,
   "peak_stress_element_centroid_mm": [
@@ -264,16 +253,16 @@
     5.3726264398102
   ],
   "peak_element_distance_to_nearest_horizontal_constraint_node_mm": 0.2760753568950286,
-  "auxiliary_peak_vm_outside_3mm_horizontal_constraint_neighbourhood_MPa": 6.971657656984426,
+  "auxiliary_peak_vm_outside_3mm_horizontal_constraint_neighbourhood_MPa": 7.036780007219006,
   "auxiliary_stress_scope": "Diagnostic only: removes element-centroid regions within 3 mm of the minimum horizontal point anchors, which can create stress singularities. The global maximum remains separately reported and is not replaced for a strength claim.",
   "foot_reactions": [
     {
       "foot": 1,
       "constrained_nodes": 584,
       "reaction_N": [
-        5.000000000000548,
-        4.5750700000006095,
-        -0.06596334795099973
+        5.000000000000514,
+        4.585842000000629,
+        -0.06553845310700068
       ],
       "negative_z_requires_hold_down": true
     },
@@ -281,9 +270,9 @@
       "foot": 2,
       "constrained_nodes": 494,
       "reaction_N": [
-        3.207947729967998e-11,
-        -4.575070000013531,
-        -0.12926737042000006
+        3.156896289091302e-11,
+        -4.585842000013354,
+        -0.1297182944160002
       ],
       "negative_z_requires_hold_down": true
     },
@@ -291,9 +280,9 @@
       "foot": 3,
       "constrained_nodes": 438,
       "reaction_N": [
-        -8.98439772106299e-12,
-        -1.4375448064500017e-12,
-        0.5693880381840002
+        -8.391909729899994e-12,
+        -1.6366641461199995e-12,
+        0.5736610788730001
       ],
       "negative_z_requires_hold_down": false
     },
@@ -301,9 +290,9 @@
       "foot": 4,
       "constrained_nodes": 438,
       "reaction_N": [
-        -5.504311900400007e-12,
-        2.8958695510599992e-12,
-        -0.16439462220000034
+        -5.062641890800006e-12,
+        2.794667769170004e-12,
+        -0.1675091750199995
       ],
       "negative_z_requires_hold_down": true
     },
@@ -311,9 +300,9 @@
       "foot": 5,
       "constrained_nodes": 581,
       "reaction_N": [
-        -6.428166368000001e-12,
-        -3.900719419859998e-12,
-        -0.20976248223989974
+        -7.07021659987251e-12,
+        -3.963091924659998e-12,
+        -0.2108951128831005
       ],
       "negative_z_requires_hold_down": true
     }
@@ -323,8 +312,8 @@
   "solver_backend_verified": "SPOOLES in actual CalculiX log",
   "solver_runtime": {
     "returncode": 0,
-    "elapsed_seconds": 32.28186375599989,
-    "peak_resident_GB": 2.275823616,
+    "elapsed_seconds": 33.03520681399999,
+    "peak_resident_GB": 2.27252224,
     "measurement": "psutil process RSS sampled every 0.25 s",
     "solver_command": [
       "/usr/bin/ccx",
@@ -332,5 +321,5 @@
       "solve"
     ]
   },
-  "available_memory_before_solve_GB": 15.160590336
+  "available_memory_before_solve_GB": 14.994436096
 }
