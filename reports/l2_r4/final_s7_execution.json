@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "Final C12 source-bound S7; unchanged BODY G8 retained",
   "source_commit": "6067534d56a74504b420cd7fbd13ef6960a37511",
   "steps": [
