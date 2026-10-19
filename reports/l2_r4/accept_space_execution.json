@@ -30,6 +30,13 @@
       "seconds": 17.76,
       "available_memory_before_GB": 15.646175232,
       "log_tail": "ACTUATION [('SIDE_FRONT_KEY', True), ('SIDE_REAR_KEY', True)]\n"
+    },
+    {
+      "script": "cad/l2_r4/battery_plug_access.py",
+      "returncode": 0,
+      "seconds": 30.74,
+      "available_memory_before_GB": 15.646859264,
+      "log_tail": ""
     }
   ]
 }
