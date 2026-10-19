@@ -1,5 +1,5 @@
 """Actual numerical curves from validation JSON; no synthetic acceptance data."""
-import json
+import json,hashlib
 from pathlib import Path
 import matplotlib
 matplotlib.use('Agg')
@@ -30,5 +30,7 @@ def main():
                 ax.plot([s['angle_deg'] for s in ss],[s['nonfunctional'][index]['gap_mm'] for s in ss],'.-',label=label)
             ax.axhline(.3,color='red',linestyle='--');ax.set(title=g['part'],xlabel='Rotation / degrees',ylabel='Exact nonfunctional clearance / mm');ax.grid(alpha=.25);ax.legend(fontsize=7)
         fig.savefig(OUT/'SIDE_LOCAL_CONTACT_DECOMPOSITION.png',dpi=160);plt.close(fig)
+    names=['SIDE_EXACT_MOTION_CURVES','MAIN_WHEEL_EXACT_MOTION_CURVES','SIDE_LOCAL_CONTACT_DECOMPOSITION']
+    (RP/'motion_plot_manifest.json').write_text(json.dumps(dict(files={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in [OUT/(n+'.png') for n in names] if p.exists()}),indent=2))
 
 if __name__=='__main__':main()

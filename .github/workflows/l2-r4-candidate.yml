@@ -1,12 +1,12 @@
 name: L2-r4 candidate exact CAD checks
 on:
   push:
-    branches: [codex/r4-candidate-checks]
+    branches: [codex/r4-validation]
     paths: ['cad/l2_r4/**', '.github/workflows/l2-r4-candidate.yml']
 permissions:
   contents: write
 concurrency:
-  group: l2-r4-candidate-checks
+  group: l2-r4-validation
   cancel-in-progress: true
 jobs:
   independent_checks:
