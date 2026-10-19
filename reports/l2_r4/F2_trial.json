@@ -79,25 +79,25 @@
   "scope": "Two alternative caps and two retainers; use with the main BODY and actual pins. F2 is an ergonomic comparison, not the accepted production mechanism.",
   "real_slice": {
     "total_filament_g": "0.92",
-    "time": "13m 52s",
+    "time": "13m 51s",
     "extrusion_roles_g": {
-      "Skirt/Brim": 0.02104665898165609,
-      "Support material": 0.37396744946296817,
+      "Skirt/Brim": 0.02104218515736782,
+      "Support material": 0.3739665248726153,
       "Support material interface": 0.010856271494359809,
-      "External perimeter": 0.34294783085442554,
-      "Perimeter": 0.1500783130638206,
+      "External perimeter": 0.3429290109669197,
+      "Perimeter": 0.15007798498337277,
       "Overhang perimeter": 0.019404825118857827
     },
     "extrusion_role_bounds_mm": {
       "Skirt/Brim": [
         [
-          17.608,
+          17.627,
           16.729,
           0.2
         ],
         [
           113.604,
-          26.384,
+          26.389,
           0.2
         ]
       ],
@@ -139,7 +139,7 @@
       ],
       "Perimeter": [
         [
-          19.222,
+          19.218,
           18.596,
           0.2
         ],
@@ -173,7 +173,7 @@
     }
   },
   "artifact_sha256": {
-    "models/L2_r4/SIDE_MODULE_F2_TRIAL.3mf": "92fef26b7b0c7bfefd24d9fa9859ffa3219f8eb83d5703f7ba8010d21df07717",
-    "views/l2_r4/PRINT_PLATE.png": "53140c429750a691e0e42514419ce1de824ced81490dc4c713adf5283fc48118"
+    "models/L2_r4/SIDE_MODULE_F2_TRIAL.3mf": "5d01078bb3c6f7898c211b261b8dd5727de911a1ed43ce3b9ee745ab58c592ac",
+    "views/l2_r4/PRINT_PLATE.png": "92e5389dca3f542307876636a0d4b37e6d389b7e32ed0f8cefeca7a5541ada37"
   }
 }

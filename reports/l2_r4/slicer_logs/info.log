@@ -66,10 +66,10 @@ min_z = -2.075000
 max_x = 3.483658
 max_y = 5.999790
 max_z = 2.075000
-number_of_facets = 27578
+number_of_facets = 27560
 manifold = yes
 number_of_parts =  1
-volume = 76.598343
+volume = 76.594627
 [L2_r4_H_ALL_PARTS_SINGLE_PLATE.3mf]
 size_x = 7.263077
 size_y = 12.599586
@@ -80,10 +80,10 @@ min_z = -2.075000
 max_x = 3.631538
 max_y = 6.299793
 max_z = 2.075000
-number_of_facets = 29996
+number_of_facets = 29980
 manifold = yes
 number_of_parts =  1
-volume = 81.409523
+volume = 81.408554
 [L2_r4_H_ALL_PARTS_SINGLE_PLATE.3mf]
 size_x = 4.199066
 size_y = 6.800003
