@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "C12 wheel hardware clearance correction",
   "source_commit": "019027359a96e62c852dced2ad2b318d6d99f019",
   "steps": [
