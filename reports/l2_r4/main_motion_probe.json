@@ -108,5 +108,32 @@
   {
     "stage": "pair_begin",
     "part": "WHEEL_CARRIER"
+  },
+  {
+    "stage": "pair_end",
+    "part": "WHEEL_CARRIER",
+    "seconds": 14.900250673294067,
+    "result": {
+      "a": "LEFT_KEY",
+      "b": "WHEEL_CARRIER",
+      "gap_mm": 3.000463302019518,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.3,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "nearest_points_mm": [
+        [
+          11.7,
+          36.11204222267307,
+          13.172810255222839
+        ],
+        [
+          8.973450865500375,
+          34.983410947974356,
+          12.629762108464952
+        ]
+      ]
+    }
   }
 ]
