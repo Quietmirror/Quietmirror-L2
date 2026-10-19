@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "Explicit compact battery proposals only",
+  "source_commit": "ede982c73ba573d112c74395a34d19f63e7837c3",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 3.15,
+      "available_memory_before_GB": 15.652765696,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
