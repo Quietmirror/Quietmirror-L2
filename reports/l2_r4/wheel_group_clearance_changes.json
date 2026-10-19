@@ -6,7 +6,7 @@
       "printable": true,
       "valid": true,
       "solids": 1,
-      "volume_mm3": 589.6884804740555,
+      "volume_mm3": 589.5574051454165,
       "bounds_mm": [
         -6.8500001,
         20.0,
@@ -19,7 +19,7 @@
         "watertight": true,
         "winding_consistent": true,
         "components": 1,
-        "triangles": 10812,
+        "triangles": 10868,
         "bounds_mm": [
           [
             -6.849999904632568,
@@ -34,7 +34,7 @@
         ],
         "holes_patched": 0
       },
-      "removed_mm3": 0.20643068117169605,
+      "removed_mm3": 0.33750604051306254,
       "change": "Local0.32mm rigid middle-switch housing and main-switch fastener clearance across45 design poses; active plunger contact pad retained. Independent motion checks remain required"
     },
     {
@@ -42,17 +42,17 @@
       "printable": false,
       "valid": true,
       "solids": 1,
-      "volume_mm3": 156.9881799446221,
+      "volume_mm3": 145.2255649508282,
       "bounds_mm": [
         -0.8,
         20.8,
-        9.199999999999974,
-        10.9,
+        9.2,
+        10.600000000000001,
         35.9,
         10.4
       ],
-      "removed_mm3": 22.627412672772437,
-      "change": "Custom PCB edge x<=10.9; rear/east notch x>8.6,y>28.8; original mounting and terminal holes retained"
+      "removed_mm3": 34.39002766656972,
+      "change": "C13 custom PCB: x>8.6 retained only insideR2.1 land centered(8.5,26.1);1.0mm edge material aroundR1.1 mounting hole. Original mounting and terminal centers retained; PCB thickness unchanged"
     },
     {
       "name": "ENCODER_EC10E_HOUSING",
