@@ -9,6 +9,13 @@
       "seconds": 0.06,
       "available_memory_before_GB": 15.620079616,
       "log_tail": "R4 directories and unchanged R3 components prepared\n"
+    },
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 6.05,
+      "available_memory_before_GB": 15.634804736,
+      "log_tail": "Restored/retained 72 baseline components\n"
     }
   ]
 }
