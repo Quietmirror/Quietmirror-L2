@@ -1,10 +1,10 @@
 {
   "found": false,
-  "expanded_states": 11853,
+  "expanded_states": 2043,
   "grid_mm": 0.25,
   "search_translation_mm": 0.5,
   "search_rotation_deg": 5,
-  "rotation_order": "Y pitch then Z yaw about battery centre",
+  "rotation_order": "Y pitch then X roll about battery centre",
   "pivot_mm": [
     -16.999999999999996,
     57.0,
@@ -13,753 +13,368 @@
   "maps": [
     {
       "pitch": 0,
-      "yaw": 0,
+      "roll": 0,
       "roundoff": 0.01953125
     },
     {
       "pitch": -5,
-      "yaw": 0,
+      "roll": 0,
       "roundoff": 0.01953125
     },
     {
       "pitch": 5,
-      "yaw": 0,
+      "roll": 0,
       "roundoff": 0.01953125
     },
     {
       "pitch": 0,
-      "yaw": -5,
+      "roll": -5,
       "roundoff": 0.0234375
     },
     {
       "pitch": 0,
-      "yaw": 5,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -5,
-      "yaw": -5,
-      "roundoff": 0.017578125
-    },
-    {
-      "pitch": 5,
-      "yaw": -5,
-      "roundoff": 0.017578125
-    },
-    {
-      "pitch": 0,
-      "yaw": -10,
-      "roundoff": 0.017578125
-    },
-    {
-      "pitch": -5,
-      "yaw": 5,
-      "roundoff": 0.01708984375
-    },
-    {
-      "pitch": 5,
-      "yaw": 5,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": 0,
-      "yaw": 10,
-      "roundoff": 0.015625
-    },
-    {
-      "pitch": -10,
-      "yaw": 0,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -5,
-      "yaw": -10,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 5,
-      "yaw": -10,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 0,
-      "yaw": -15,
+      "roll": 5,
       "roundoff": 0.0234375
     },
     {
       "pitch": -10,
-      "yaw": -5,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": -10,
-      "yaw": 5,
-      "roundoff": 0.01953125
+      "roll": 0,
+      "roundoff": 0.0234375
     },
     {
       "pitch": -5,
-      "yaw": 10,
+      "roll": -5,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -5,
+      "roll": 5,
       "roundoff": 0.0234375
     },
     {
       "pitch": 5,
-      "yaw": 10,
-      "roundoff": 0.01953125
+      "roll": -5,
+      "roundoff": 0.0234375
     },
     {
       "pitch": 0,
-      "yaw": 15,
+      "roll": -10,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 5,
+      "roll": 5,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 0,
+      "roll": 10,
       "roundoff": 0.0234375
     },
     {
       "pitch": 10,
-      "yaw": 0,
+      "roll": 0,
       "roundoff": 0.01953125
     },
     {
       "pitch": -15,
-      "yaw": 0,
+      "roll": 0,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -10,
+      "roll": -5,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -10,
+      "roll": 5,
       "roundoff": 0.0234375
     },
     {
       "pitch": -5,
-      "yaw": -15,
+      "roll": -10,
       "roundoff": 0.0234375
     },
     {
       "pitch": 5,
-      "yaw": -15,
+      "roll": -10,
       "roundoff": 0.0234375
     },
     {
       "pitch": 0,
-      "yaw": -20,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -10,
-      "yaw": -10,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 10,
-      "yaw": -5,
-      "roundoff": 0.017578125
-    },
-    {
-      "pitch": 10,
-      "yaw": 5,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": -15,
-      "yaw": -5,
-      "roundoff": 0.01618172787129879
-    },
-    {
-      "pitch": -15,
-      "yaw": 5,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": -10,
-      "yaw": 10,
+      "roll": -15,
       "roundoff": 0.0234375
     },
     {
       "pitch": -5,
-      "yaw": 15,
+      "roll": 10,
       "roundoff": 0.0234375
     },
     {
       "pitch": 10,
-      "yaw": -10,
+      "roll": -5,
       "roundoff": 0.01953125
     },
     {
-      "pitch": -5,
-      "yaw": -20,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 5,
-      "yaw": -20,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 0,
-      "yaw": -25,
-      "roundoff": 0.0234375
-    },
-    {
       "pitch": -15,
-      "yaw": -10,
-      "roundoff": 0.02734375
-    },
-    {
-      "pitch": -10,
-      "yaw": -15,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -15,
-      "yaw": 10,
+      "roll": -5,
       "roundoff": 0.0234375
     },
     {
       "pitch": -10,
-      "yaw": 15,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 10,
-      "yaw": -15,
+      "roll": -10,
       "roundoff": 0.0234375
     },
     {
       "pitch": -20,
-      "yaw": 0,
+      "roll": 0,
       "roundoff": 0.0234375
     },
     {
-      "pitch": 10,
-      "yaw": 10,
+      "pitch": -15,
+      "roll": 5,
       "roundoff": 0.0234375
     },
     {
       "pitch": 5,
-      "yaw": 15,
+      "roll": 10,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 0,
+      "roll": 15,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -10,
+      "roll": 10,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -5,
+      "roll": -15,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": 5,
+      "roll": -15,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": 0,
+      "roll": -20,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": -5,
+      "roll": 15,
       "roundoff": 0.0234375
     },
     {
       "pitch": -20,
-      "yaw": -5,
+      "roll": -5,
       "roundoff": 0.015625
     },
     {
       "pitch": -15,
-      "yaw": -15,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -10,
-      "yaw": -20,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -5,
-      "yaw": -25,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -20,
-      "yaw": -10,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 5,
-      "yaw": -25,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 0,
-      "yaw": -30,
+      "roll": -10,
       "roundoff": 0.0234375
     },
     {
       "pitch": 10,
-      "yaw": -20,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": -25,
-      "yaw": -5,
-      "roundoff": 0.017578125
-    },
-    {
-      "pitch": -10,
-      "yaw": -25,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -5,
-      "yaw": -30,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -20,
-      "yaw": -15,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -15,
-      "yaw": -20,
-      "roundoff": 0.03125
-    },
-    {
-      "pitch": -20,
-      "yaw": 5,
-      "roundoff": 0.017578125
-    },
-    {
-      "pitch": -15,
-      "yaw": 15,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -10,
-      "yaw": 20,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 5,
-      "yaw": -30,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 0,
-      "yaw": -35,
+      "roll": 5,
       "roundoff": 0.0234375
     },
     {
       "pitch": 10,
-      "yaw": -25,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -20,
-      "yaw": 10,
+      "roll": -10,
       "roundoff": 0.01953125
-    },
-    {
-      "pitch": -20,
-      "yaw": -20,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -15,
-      "yaw": -25,
-      "roundoff": 0.0234375
     },
     {
       "pitch": -10,
-      "yaw": -30,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -25,
-      "yaw": -15,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -5,
-      "yaw": -35,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": 5,
-      "yaw": -35,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": 0,
-      "yaw": -40,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": -25,
-      "yaw": -20,
-      "roundoff": 0.0234375
+      "roll": -15,
+      "roundoff": 0.015625
     },
     {
       "pitch": -20,
-      "yaw": -25,
-      "roundoff": 0.0234375
+      "roll": -10,
+      "roundoff": 0.01621333323419094
     },
     {
-      "pitch": -25,
-      "yaw": -10,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -5,
-      "yaw": -40,
+      "pitch": -15,
+      "roll": -15,
       "roundoff": 0.015625
     },
     {
       "pitch": 5,
-      "yaw": -40,
-      "roundoff": 0.01953125
+      "roll": 15,
+      "roundoff": 0.0234375
     },
     {
       "pitch": 0,
-      "yaw": -45,
+      "roll": 20,
       "roundoff": 0.0234375
     },
     {
       "pitch": 10,
-      "yaw": -30,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": -10,
-      "yaw": -35,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": -15,
-      "yaw": -30,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": -5,
-      "yaw": -45,
+      "roll": -15,
       "roundoff": 0.015625
     },
     {
       "pitch": 5,
-      "yaw": -45,
+      "roll": -20,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -5,
+      "roll": -20,
       "roundoff": 0.015625
     },
     {
-      "pitch": 0,
-      "yaw": -50,
-      "roundoff": 0.015625
-    },
-    {
-      "pitch": -10,
-      "yaw": -40,
-      "roundoff": 0.015625
-    },
-    {
-      "pitch": 10,
-      "yaw": -35,
+      "pitch": 15,
+      "roll": -10,
       "roundoff": 0.015625
     },
     {
       "pitch": -25,
-      "yaw": -25,
+      "roll": -10,
       "roundoff": 0.0234375
     },
     {
       "pitch": -20,
-      "yaw": -30,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": -5,
-      "yaw": -50,
+      "roll": -15,
       "roundoff": 0.015625
     },
     {
-      "pitch": 5,
-      "yaw": -50,
-      "roundoff": 0.01600000075995922
+      "pitch": -15,
+      "roll": -20,
+      "roundoff": 0.01953125
     },
     {
       "pitch": 0,
-      "yaw": -55,
-      "roundoff": 0.0234375
+      "roll": -25,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": 10,
+      "roll": -20,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": 5,
+      "roll": -25,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": 15,
+      "roll": -15,
+      "roundoff": 0.015625
     },
     {
       "pitch": -10,
-      "yaw": -45,
+      "roll": -20,
       "roundoff": 0.015625
     },
     {
       "pitch": -25,
-      "yaw": -30,
-      "roundoff": 0.01953125
+      "roll": -15,
+      "roundoff": 0.015625
     },
     {
       "pitch": -20,
-      "yaw": -35,
+      "roll": -20,
       "roundoff": 0.01953125
-    },
-    {
-      "pitch": 10,
-      "yaw": -40,
-      "roundoff": 0.015625
     },
     {
       "pitch": -5,
-      "yaw": -55,
+      "roll": -25,
       "roundoff": 0.015625
     },
     {
-      "pitch": 5,
-      "yaw": -55,
+      "pitch": 15,
+      "roll": -20,
+      "roundoff": 0.01605224609375
+    },
+    {
+      "pitch": 10,
+      "roll": -25,
       "roundoff": 0.01953125
+    },
+    {
+      "pitch": 5,
+      "roll": -30,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": -15,
+      "roll": -25,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": 15,
+      "roll": -25,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": 10,
+      "roll": -30,
+      "roundoff": 0.015625
     },
     {
       "pitch": 0,
-      "yaw": -60,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -10,
-      "yaw": -50,
-      "roundoff": 0.015625
-    },
-    {
-      "pitch": 10,
-      "yaw": -45,
-      "roundoff": 0.015625
-    },
-    {
-      "pitch": -5,
-      "yaw": -60,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 5,
-      "yaw": -60,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 0,
-      "yaw": -65,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 10,
-      "yaw": -50,
+      "roll": -30,
       "roundoff": 0.015625
     },
     {
       "pitch": -10,
-      "yaw": -55,
+      "roll": -25,
+      "roundoff": 0.0234375
+    },
+    {
+      "pitch": -25,
+      "roll": -20,
       "roundoff": 0.015625
-    },
-    {
-      "pitch": -5,
-      "yaw": -65,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 5,
-      "yaw": -65,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 0,
-      "yaw": -70,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 10,
-      "yaw": -55,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": -10,
-      "yaw": -60,
-      "roundoff": 0.015625
-    },
-    {
-      "pitch": -15,
-      "yaw": -45,
-      "roundoff": 0.015625
-    },
-    {
-      "pitch": 10,
-      "yaw": -60,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": -5,
-      "yaw": -70,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 5,
-      "yaw": -70,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": 0,
-      "yaw": -75,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -15,
-      "yaw": -50,
-      "roundoff": 0.015625
-    },
-    {
-      "pitch": -10,
-      "yaw": -65,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -5,
-      "yaw": -75,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 5,
-      "yaw": -75,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 0,
-      "yaw": -80,
-      "roundoff": 0.03125
-    },
-    {
-      "pitch": 10,
-      "yaw": -65,
-      "roundoff": 0.02734375
-    },
-    {
-      "pitch": -15,
-      "yaw": -55,
-      "roundoff": 0.015625
-    },
-    {
-      "pitch": -10,
-      "yaw": -70,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": -15,
-      "yaw": -60,
-      "roundoff": 0.015625
-    },
-    {
-      "pitch": 10,
-      "yaw": -70,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -5,
-      "yaw": -80,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 5,
-      "yaw": -80,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 0,
-      "yaw": -85,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -10,
-      "yaw": -75,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": -15,
-      "yaw": -65,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -5,
-      "yaw": -85,
-      "roundoff": 0.03125
-    },
-    {
-      "pitch": 5,
-      "yaw": -85,
-      "roundoff": 0.03125
-    },
-    {
-      "pitch": 0,
-      "yaw": -90,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -10,
-      "yaw": -80,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 10,
-      "yaw": -75,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": -15,
-      "yaw": -70,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": -5,
-      "yaw": -90,
-      "roundoff": 0.021484375
-    },
-    {
-      "pitch": 5,
-      "yaw": -90,
-      "roundoff": 0.015802469104528427
-    },
-    {
-      "pitch": -10,
-      "yaw": -85,
-      "roundoff": 0.03125
-    },
-    {
-      "pitch": 10,
-      "yaw": -80,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -15,
-      "yaw": -75,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 10,
-      "yaw": -85,
-      "roundoff": 0.02734375
-    },
-    {
-      "pitch": -10,
-      "yaw": -90,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": 10,
-      "yaw": -90,
-      "roundoff": 0.0205078125
-    },
-    {
-      "pitch": -15,
-      "yaw": -80,
-      "roundoff": 0.0234375
     },
     {
       "pitch": -20,
-      "yaw": -75,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": -15,
-      "yaw": -85,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -15,
-      "yaw": -90,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -20,
-      "yaw": -80,
-      "roundoff": 0.01953125
-    },
-    {
-      "pitch": -20,
-      "yaw": -85,
-      "roundoff": 0.0234375
-    },
-    {
-      "pitch": -20,
-      "yaw": -90,
+      "roll": -25,
       "roundoff": 0.015625
+    },
+    {
+      "pitch": 20,
+      "roll": -20,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": -5,
+      "roll": -30,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": 20,
+      "roll": -25,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": 15,
+      "roll": -30,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": 10,
+      "roll": -35,
+      "roundoff": 0.01953125
+    },
+    {
+      "pitch": 20,
+      "roll": -30,
+      "roundoff": 0.015625
+    },
+    {
+      "pitch": 15,
+      "roll": -35,
+      "roundoff": 0.01365333329886198
     }
   ],
   "retained_obstacles": [
@@ -781,7 +396,7 @@
   "service_sequence": [
     "Disconnect battery plug and free wiring",
     "Remove main keys, wheel carrier and removable H electronics stack",
-    "Tilt and yaw the rigid battery along the reverse of the reported exact route; integral BODY and side module stay assembled"
+    "Pitch and roll the rigid battery along the reverse of the reported exact route; integral BODY and side module stay assembled"
   ],
   "limitation": "Finite rigid-envelope route, not adhesive peel or actual-cell handling proof.",
   "passed": false
