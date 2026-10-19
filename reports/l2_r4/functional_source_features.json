@@ -1,0 +1,119 @@
+[
+  {
+    "name": "LEFT_KEY_FIXED_BEARINGS",
+    "volume_mm3": 285.30733863256637,
+    "bounds_mm": [
+      8.6999999,
+      35.6499999,
+      11.471791292450048,
+      27.900000100000007,
+      43.25000010000003,
+      27.793580539096265
+    ],
+    "basis": "Named construction feature intersected with actual final BODY"
+  },
+  {
+    "name": "SWITCH_LEFT_MOUNT",
+    "volume_mm3": 434.28198831867627,
+    "bounds_mm": [
+      13.549999999999976,
+      21.205622309304662,
+      6.101752534972002,
+      29.865108237365437,
+      36.408123250124945,
+      16.136730107309234
+    ],
+    "basis": "Named construction feature intersected with actual final BODY"
+  },
+  {
+    "name": "LEFT_KEY_PRESS_STOP",
+    "volume_mm3": 22.918796839167765,
+    "bounds_mm": [
+      21.9999999,
+      10.4999999,
+      5.9499999,
+      28.02412231755042,
+      12.500000100000035,
+      10.767781747835196
+    ],
+    "basis": "Named construction feature intersected with actual final BODY"
+  },
+  {
+    "name": "RIGHT_KEY_FIXED_BEARINGS",
+    "volume_mm3": 277.94323327648004,
+    "bounds_mm": [
+      -27.900000100000007,
+      35.6499999,
+      11.481715167628789,
+      -8.699999900000002,
+      43.2500001,
+      27.79358053903932
+    ],
+    "basis": "Named construction feature intersected with actual final BODY"
+  },
+  {
+    "name": "SWITCH_RIGHT_MOUNT",
+    "volume_mm3": 434.28198834693586,
+    "bounds_mm": [
+      -29.865108237365437,
+      21.20562230930466,
+      6.101752534972294,
+      -13.549999999999983,
+      36.408123250124945,
+      16.136730107309518
+    ],
+    "basis": "Named construction feature intersected with actual final BODY"
+  },
+  {
+    "name": "RIGHT_KEY_PRESS_STOP",
+    "volume_mm3": 22.91879688392955,
+    "bounds_mm": [
+      -28.02412231755042,
+      10.4999999,
+      5.9499999,
+      -21.9999999,
+      12.500000100000035,
+      10.767781747835194
+    ],
+    "basis": "Named construction feature intersected with actual final BODY"
+  },
+  {
+    "name": "WHEEL_CARRIER_FIXED_BEARINGS",
+    "volume_mm3": 292.6625977554637,
+    "bounds_mm": [
+      -6.0000001,
+      47.4999999,
+      16.149999899999997,
+      6.0000001,
+      54.5000001,
+      30.349938262365082
+    ],
+    "basis": "Named construction feature intersected with actual final BODY"
+  },
+  {
+    "name": "SWITCH_MIDDLE_MOUNT",
+    "volume_mm3": 595.3113288718554,
+    "bounds_mm": [
+      -31.723086529058495,
+      35.75,
+      6.899999899999586,
+      31.723086529456104,
+      51.25,
+      13.350000000000245
+    ],
+    "basis": "Named construction feature intersected with actual final BODY"
+  },
+  {
+    "name": "WHEEL_CARRIER_PRESS_STOP",
+    "volume_mm3": 10.575009853641161,
+    "bounds_mm": [
+      -4.8500001,
+      40.3,
+      8.092904563687753,
+      -3.8499999,
+      42.7,
+      15.981142190150091
+    ],
+    "basis": "Named construction feature intersected with actual final BODY"
+  }
+]

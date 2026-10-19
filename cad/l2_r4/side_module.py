@@ -6,13 +6,16 @@ unchanged in cad/l2_r4_author; this implementation is independently checked.
 import math
 from common import *
 
-KEYS=[dict(name='SIDE_FRONT_KEY',short='SF',y0=44.2,y1=56.3,hinge_y=45.3,rod_y=50.25,rod_end=25.97,stop_y=[54.,55.2],stop_x=29.74,sign=1,pad_y_offset=0.2018),
-      dict(name='SIDE_REAR_KEY',short='SR',y0=58.1,y1=70.8,hinge_y=69.7,rod_y=64.45,rod_end=26.47,stop_y=[59.3,60.5],stop_x=30.04,sign=-1,pad_y_offset=-0.1617)]
+KEYS=[dict(name='SIDE_FRONT_KEY',short='SF',y0=44.2,y1=56.3,hinge_x=27.5,hinge_y=45.3,rod_y=50.25,rod_end=25.97,stop_y=[54.,55.2],stop_x=29.74,sign=1,pad_y_offset=0.2018),
+      dict(name='SIDE_REAR_KEY',short='SR',y0=58.1,y1=70.8,hinge_x=27.5,hinge_y=69.7,rod_y=64.45,rod_end=26.47,stop_y=[59.3,60.5],stop_x=30.04,sign=-1,pad_y_offset=-0.1617)]
+UPPER_LUG_TOP=20.6
+EAR_RADIUS=2.1
+APERTURE_FAR_END_RELIEF=.15
 PAD_RADIUS=2.175*2.6/3;PAD_HEIGHT=.6*2.6/3
 RETAINER_MOUNTS={'SF':dict(x=16.6,y=45.7,pin_x=17.4,pin_y=54.),'SR':dict(x=16.6,y=70.4,pin_x=17.9,pin_y=56.5)}
 
 def inward_travel(k,theta):
-    t=math.radians(theta);x=k['rod_end']-29;y=k['rod_y']+k['pad_y_offset']-k['hinge_y']
+    t=math.radians(theta);x=k['rod_end']-k['hinge_x'];y=k['rod_y']+k['pad_y_offset']-k['hinge_y']
     return x-(x*math.cos(t)-y*math.sin(t))
 
 def stop_angle(k):
@@ -67,18 +70,26 @@ def fixed_features(outer):
     adds=[box(28.65,35,56.6,57.8,14.5,21).intersect(outer),box(28.65,35,71.1,72.1,14.5,21).intersect(outer)]
     cuts=[];lands=[]
     for k in KEYS:
-        a,b=k['y0']-.3,k['y1']+.3;y=k['hinge_y'];sg=k['sign']
+        a,b=k['y0']-.3,k['y1']+.3;y=k['hinge_y'];sg=k['sign'];hx=k['hinge_x']
+        if sg>0:b+=APERTURE_FAR_END_RELIEF
+        else:a-=APERTURE_FAR_END_RELIEF
         cuts.append(yz_mask(a,b,15.2,19.8,1.8))
         adds.append(box(28.65,35,a-.3,b+.3,19.8,21).intersect(outer))
-        for z0,z1 in [(14.2,15.2),(19.8,20.8)]:adds.append(unite(cyl(1.325,z1-z0,(29,y,z0)),box(29,32.2,y-.9,y+.9,z0,z1).intersect(outer)))
-        cuts.extend([cyl(1.55,4.6,(29,y,15.2)),cyl(.475,8,(29,y,13))])
+        for z0,z1 in [(14.2,15.2),(19.8,UPPER_LUG_TOP)]:
+            adds.append(unite(cyl(1.325,z1-z0,(hx,y,z0)),box(hx,32.2,y-.9,y+.9,z0,z1)).intersect(outer))
+        cuts.extend([cyl(1.55,4.6,(hx,y,15.2)),cyl(.525,8,(hx,y,13))])
         # The requested +X ear at Z20 is outside the curved mother skin here.
         # Put its radial arm inboard, within the existing side opening, and
         # preserve the complete upper fixed lug instead of cutting its skin.
         ya,yb=(y+.4,y+1.4) if sg>0 else (y-1.4,y-.4)
-        stop=unite(box(26.5,27.3,ya,yb,18.6,20.8),box(26.5,29.4,ya,yb,19.8,20.8))
-        stop=stop.intersect(outer).cut(cyl(.475,8,(29,y,13)))
+        stop=unite(box(hx-1.5,hx-.7,ya,yb,18.6,UPPER_LUG_TOP),box(hx-1.5,hx+.7,ya,yb,19.8,UPPER_LUG_TOP))
+        stop=stop.intersect(outer).cut(cyl(.525,8,(hx,y,13)))
         lands.append(stop)
+    # Moving X27.5 axes causes both far cap corners to enter the inside of
+    # the middle divider. Keep the finger surfaces, clear only its backside,
+    # and retain the outer 0.8mm X-offset lip. The existing aperture far ends
+    # gain 0.15mm each; no additional opening is created.
+    cuts.append(box(28.5,40,55.4,58.9,15.2,19.8).intersect(outer.translate((-.8,0,0))))
     return adds,cuts,lands
 
 def crown(k,shift=0.):
@@ -98,17 +109,17 @@ def key(outer,k,offset=.2):
     # A full-height flat-ended barrel cannot pass the rounded aperture even
     # though its Y projection lies inside the rectangular opening bounds.
     # The 2.2 mm journal preserves diameter/wall and both fixed pin supports.
-    y=k['hinge_y'];hinge=cyl(1.25,2.2,(29,y,16.4))
-    web=box(29,33,y-.55,y+.55,15.5,19.5).intersect(surface).intersect(mask)
-    ear=box(26.7,29,y-.4,y+.4,18.6,19.5)
+    y=k['hinge_y'];hx=k['hinge_x'];hinge=cyl(1.25,2.2,(hx,y,16.4))
+    web=box(hx,33,y-.55,y+.55,15.5,19.5).intersect(surface).intersect(mask)
+    ear=box(hx-EAR_RADIUS,hx,y-.4,y+.4,18.6,19.5)
     # Inboard barrel-to-arm root stays within the R1.55 journal clearance.
-    bridge=box(27.7,28.3,y-.4,y+.4,18.3,19.0).intersect(cyl(1.25,.7,(29,y,18.3)))
+    bridge=box(hx-1.3,hx-.7,y-.4,y+.4,18.3,19.0).intersect(cyl(1.25,.7,(hx,y,18.3)))
     rod=cyl(1.20,34-k['rod_end']-.40,(k['rod_end']+.40,k['rod_y'],16.6),(1,0,0)).intersect(surface)
     theta=math.radians(k['angle']);yc=k['stop_y'][1] if theta>0 else k['stop_y'][0]
-    stop_x=29+(k['stop_x']-29+(yc-y)*math.sin(theta))/math.cos(theta)
+    stop_x=hx+(k['stop_x']-hx+(yc-y)*math.sin(theta))/math.cos(theta)
     stop=box(stop_x,34,*k['stop_y'],15.9,16.4).intersect(surface)
-    s=unite(cap,hinge,web,ear,bridge,rod,crown(k),stop).cut(cyl(.525,6,(29,y,14.5))).clean()
-    return valid(s,k['name']),dict(**k,stop_rib_inner_x=stop_x,edge_R0p3_applied=edge_finish,cap_x_offset=offset,hinge_journal_z=[16.4,18.6],hinge_bridge='inboard root clipped to R1.25; z18.3..19.0',outward_stop_ear='inboard radial arm X26.7..29.0, Z18.6..19.5; existing exterior opening unchanged')
+    s=unite(cap,hinge,web,ear,bridge,rod,crown(k),stop).cut(cyl(.525,6,(hx,y,14.5))).clean()
+    return valid(s,k['name']),dict(**k,stop_rib_inner_x=stop_x,edge_R0p3_applied=edge_finish,cap_x_offset=offset,hinge_journal_z=[16.4,18.6],upper_lug_z=[19.8,UPPER_LUG_TOP],hinge_bridge='inboard root clipped to R1.25; z18.3..19.0',outward_stop_ear=dict(x=[hx-EAR_RADIUS,hx],z=[18.6,19.5]),deviation='Axis X29 to X27.5 and upper lug top20.8 to20.6 prevent measured external skin breakthrough; external key surface unchanged.')
 
 def side_references():
     refs={}
@@ -118,7 +129,7 @@ def side_references():
         original=cq.Solid.makeSphere(PAD_RADIUS,V(k['rod_end']+PAD_RADIUS,y+k['pad_y_offset'],16.6),angleDegrees1=-90,angleDegrees2=90)
         shifted=original.translate((-.33,0,0))
         refs[n+'_TUNING_SHIM_0p33']=shifted.cut(original).intersect(box(k['rod_end']-.33,k['rod_end']+PAD_HEIGHT,y+k['pad_y_offset']-1.3,y+k['pad_y_offset']+1.3,15.3,17.9))
-        refs[n+'_VERTICAL_PIN']=cyl(.5,5.5,(29,k['hinge_y'],14.75))
+        refs[n+'_VERTICAL_PIN']=cyl(.5,5.5,(k['hinge_x'],k['hinge_y'],14.75))
     for n,m in RETAINER_MOUNTS.items():
         x,y=m['x'],m['y']
         refs[n+'_RETAINER_M2x5']=unite(cyl(1.,5,(x,y,11.6)),cyl(1.8,.8,(x,y,10.8)))

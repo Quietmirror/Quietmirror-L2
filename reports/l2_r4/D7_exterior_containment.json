@@ -1,0 +1,84 @@
+[
+  {
+    "part": "SIDE_FRONT_KEY",
+    "fixed_bearing_region_outside_mother_mm3": 0.0,
+    "outside_regions": [],
+    "moving_inboard_ear_outside_mother_mm3": 0.0,
+    "pin_outside_mother_mm3": 0.0,
+    "upper_profile_samples": [
+      {
+        "z": 19.8,
+        "outer_x": 29.393807079750307,
+        "axis_to_outer_wall_mm": 1.8938070797503066,
+        "fixed_bore_wall_mm": 1.3688070797503067
+      },
+      {
+        "z": 20.0,
+        "outer_x": 29.284567135506226,
+        "axis_to_outer_wall_mm": 1.7845671355062258,
+        "fixed_bore_wall_mm": 1.259567135506226
+      },
+      {
+        "z": 20.25,
+        "outer_x": 29.141533445088115,
+        "axis_to_outer_wall_mm": 1.6415334450881147,
+        "fixed_bore_wall_mm": 1.1165334450881148
+      },
+      {
+        "z": 20.6,
+        "outer_x": 28.92850961048493,
+        "axis_to_outer_wall_mm": 1.4285096104849302,
+        "fixed_bore_wall_mm": 0.9035096104849302
+      },
+      {
+        "z": 20.8,
+        "outer_x": 28.799709783624326,
+        "axis_to_outer_wall_mm": 1.2997097836243263,
+        "fixed_bore_wall_mm": 0.7747097836243263
+      }
+    ],
+    "passed": true,
+    "evidence": "Exact current final BODY and original mother surface; cap exterior offset is intentionally excluded from hidden-feature containment."
+  },
+  {
+    "part": "SIDE_REAR_KEY",
+    "fixed_bearing_region_outside_mother_mm3": 0.0,
+    "outside_regions": [],
+    "moving_inboard_ear_outside_mother_mm3": 0.0,
+    "pin_outside_mother_mm3": 0.0,
+    "upper_profile_samples": [
+      {
+        "z": 19.8,
+        "outer_x": 29.53166942984664,
+        "axis_to_outer_wall_mm": 2.031669429846641,
+        "fixed_bore_wall_mm": 1.506669429846641
+      },
+      {
+        "z": 20.0,
+        "outer_x": 29.40966980311899,
+        "axis_to_outer_wall_mm": 1.909669803118991,
+        "fixed_bore_wall_mm": 1.384669803118991
+      },
+      {
+        "z": 20.25,
+        "outer_x": 29.24975704956807,
+        "axis_to_outer_wall_mm": 1.7497570495680712,
+        "fixed_bore_wall_mm": 1.2247570495680713
+      },
+      {
+        "z": 20.6,
+        "outer_x": 29.01121085558137,
+        "axis_to_outer_wall_mm": 1.5112108555813712,
+        "fixed_bore_wall_mm": 0.9862108555813712
+      },
+      {
+        "z": 20.8,
+        "outer_x": 28.866729886090447,
+        "axis_to_outer_wall_mm": 1.3667298860904467,
+        "fixed_bore_wall_mm": 0.8417298860904466
+      }
+    ],
+    "passed": true,
+    "evidence": "Exact current final BODY and original mother surface; cap exterior offset is intentionally excluded from hidden-feature containment."
+  }
+]

@@ -8,6 +8,7 @@ import importlib.util,json
 import numpy as np
 from common import *
 from surfaces import make_surfaces
+from side_module import integrated_frame,fixed_features,KEYS,UPPER_LUG_TOP
 
 def z_interval(shape,x,y):
     hit=shape.intersect(cq.Edge.makeLine(V(x,y,-1),V(x,y,50)))
@@ -17,11 +18,29 @@ def z_interval(shape,x,y):
 def main():
     cfg=json.loads((ROOT/'cad/rebuild_r2/parameters.json').read_text());outer,inner,_=make_surfaces(cfg)
     b=load('BODY');old=baseline('BODY')
+    # Explicit structural exceptions are retained as actual source solids,
+    # not a blanket exclusion of anything also found in the old BODY.
+    regions={'D1_integrated_side_frame':integrated_frame(outer),
+        'D4_lower_tie':cyl(1.,80,(-40,56,8.6),(1,0,0)).intersect(outer),
+        'D5_main_bearing_struts':unite(cyl(1.2,4.6,(-9.9,40.8,7.4)),cyl(1.2,4.6,(9.9,40.8,7.4))),
+        'D6_enlarged_upper_tie':cyl(1.5,80,(-40,67.5,23),(1,0,0)).intersect(outer),
+        'retained_central_Y54_connection':cyl(1.2,12,(-6,54,23),(1,0,0)),
+        'D7_side_contact_band':outer.cut(inner).intersect(box(24,38,40,73,10.9,21))}
+    adds,cuts,lands=fixed_features(outer)
+    regions['D7_rims_bearings_and_stops']=unite(*adds,*lands)
+    regions['D7_pin_service_reliefs']=unite(*[cyl(1.05,15,(k['hinge_x'],k['hinge_y'],UPPER_LUG_TOP)) for k in KEYS])
+    for f in (OUT/'validation_features').glob('*FIXED_BEARINGS.step'):regions['retained_'+f.stem]=cq.importers.importStep(str(f)).val()
+    from interfaces import build_interfaces
+    it=build_interfaces(cfg,outer,{'LEFT_KEY':baseline('LEFT_KEY'),'RIGHT_KEY':baseline('RIGHT_KEY')})
+    regions['retained_sensor_and_USB_mounts']=unite(*[s.mirror('YZ') for s in it['body_additions']])
+    def exceptions(p):return [name for name,s in regions.items() if s.isInside(p,1e-6)]
     spec=importlib.util.spec_from_file_location('original_windows',ROOT/'cad/rebuild_r2/build.py')
     source=importlib.util.module_from_spec(spec);spec.loader.exec_module(source)
     rng=np.random.default_rng(20261019);rows=[]
-    for name,points,_ in source.window_layout(cfg):
-        tool=source.window(points,10.5*cfg['host']['scale']).mirror('YZ')
+    for name,points,original_tool in source.window_layout(cfg):
+        # Use the actual R3.2 source window, including the deliberately kept
+        # finger-contact bands, rather than a fictitious full-depth polygon.
+        tool=original_tool.mirror('YZ')
         top=max([f for f in tool.Faces() if f.geomType()=='PLANE' and abs(f.normalAt().z)>.99],key=lambda f:f.Center().z)
         wire=top.outerWire();bb=tool.BoundingBox()
         local=b.intersect(box(bb.xmin-1,bb.xmax+1,bb.ymin-1,bb.ymax+1,10,40))
@@ -34,7 +53,8 @@ def main():
             t=wire.tangentAt((i+.314159)/200);normal=V(-t.y,t.x,0).normalized()
             if not tool.isInside(V(p.x+normal.x*.2,p.y+normal.y*.2,30),1e-7):normal=-normal
             qp=q+normal*.2
-            boundary.append(dict(point_mm=q.toTuple(),distance_mm=d,inward_point_mm=qp.toTuple(),inward_inside=bool(b.isInside(qp,1e-7)),baseline_inside=bool(old.isInside(qp,1e-7))))
+            inside=bool(b.isInside(qp,1e-7));reasons=sorted(set(exceptions(q)+exceptions(qp))) if d>.01 or inside else []
+            boundary.append(dict(point_mm=q.toTuple(),distance_mm=d,inward_point_mm=qp.toTuple(),inward_inside=inside,baseline_inside=bool(old.isInside(qp,1e-7)),declared_regions=reasons,classified_pass=(d<=.01 and not inside) or bool(reasons)))
         full=[];roof=[]
         while len(full)<1000 or len(roof)<1000:
             x,y=rng.uniform(bb.xmin,bb.xmax),rng.uniform(bb.ymin,bb.ymax)
@@ -43,14 +63,21 @@ def main():
             if not oi:continue
             if len(full)<1000:
                 z=rng.uniform(10.5*cfg['host']['scale'],oi[1]+.2);p=V(x,y,z)
-                full.append(dict(point_mm=p.toTuple(),inside=bool(b.isInside(p,1e-7)),baseline_inside=bool(old.isInside(p,1e-7))))
+                if not tool.isInside(p,1e-7):continue
+                inside=bool(b.isInside(p,1e-7));reasons=exceptions(p) if inside else []
+                full.append(dict(point_mm=p.toTuple(),inside=inside,baseline_inside=bool(old.isInside(p,1e-7)),declared_regions=reasons,classified_pass=not inside or bool(reasons)))
             if len(roof)<1000 and ii:
                 z=rng.uniform(ii[1],oi[1]+.2);p=V(x,y,z)
-                roof.append(dict(point_mm=p.toTuple(),inside=bool(b.isInside(p,1e-7)),baseline_inside=bool(old.isInside(p,1e-7))))
+                if not tool.isInside(p,1e-7):continue
+                inside=bool(b.isInside(p,1e-7));reasons=exceptions(p) if inside else []
+                roof.append(dict(point_mm=p.toTuple(),inside=inside,baseline_inside=bool(old.isInside(p,1e-7)),declared_regions=reasons,classified_pass=not inside or bool(reasons)))
         r=dict(window=name,assembly_x_mirrored=True,boundary=boundary,full_prism=full,roof_shell_band=roof,
                boundary_raw_pass=all(p['distance_mm']<=.01 and not p['inward_inside'] for p in boundary),
                full_prism_raw_pass=not any(p['inside'] for p in full),roof_band_raw_pass=not any(p['inside'] for p in roof),
-               full_prism_new_invasions=sum(p['inside'] and not p['baseline_inside'] for p in full))
+               full_prism_new_invasions=sum(p['inside'] and not p['baseline_inside'] for p in full),
+               declared_structural_exceptions={n:bounds(s) for n,s in regions.items()},
+               classified_pass=all(p['classified_pass'] for p in boundary+full+roof),
+               definition='Actual six source cut tools including preserved grip bands; named retained bearings/mounts and D1/D4-D7 modifications are separately reported. Raw occupied points are never relabeled empty.')
         rows.append(r);save('six_window_samples.json',rows)
         print('WINDOW',name,r['boundary_raw_pass'],r['full_prism_raw_pass'],r['roof_band_raw_pass'],r['full_prism_new_invasions'],flush=True)
 

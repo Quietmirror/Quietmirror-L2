@@ -2,10 +2,12 @@
 import json
 import numpy as np
 from common import *
+from contact_audit import collar,rigid_housing
 
 def main():
     inv=json.loads((RP/'assembly_inventory.json').read_text());meta=json.loads((ROOT/'reports/rebuild_r3_2/design_metadata.json').read_text())
     parts={n:load(n) for n in inv['printable']};hw={n:load(n,OUT/'reference') for n in inv['H_hardware']}
+    features={p.stem:cq.importers.importStep(str(p)).val() for p in (OUT/'validation_features').glob('*.step')}
     rows=[]
     for mo in meta['mechanisms']['motions']:
         n=mo['part']
@@ -18,13 +20,14 @@ def main():
         fixed.update({bn:b for bn,b in hw.items() if bn not in group and bn!=mo['switch']})
         # Strip the compressible plunger only; the fixed rigid housing remains
         # an obstacle at every pose. Original switch-body frame is retained.
-        pt=mo['actuation_point'];ax1=[pt[0]+1,*pt[1:]];tilt=mo.get('switch_tilt_deg',0)
-        housing=hw[mo['switch']].rotate(pt,ax1,-tilt).intersect(box(-50,50,0,90,0,pt[2]-1.03)).rotate(pt,ax1,tilt)
+        housing=rigid_housing(hw[mo['switch']],mo)
         fixed[mo['switch']+'_RIGID_HOUSING']=housing
+        named=unite(features[n+'_FIXED_BEARINGS'],features[n+'_PRESS_STOP'])
+        nonfunctional_body=parts['BODY'].cut(collar(named,.30001))
         ori=mo['origin'];axis=[ori[0]+1,*ori[1:]];angles=np.linspace(-4.4,4.4,23) if n=='WHEEL_CARRIER' else np.linspace(-.5,3.1,25)
         samples=[]
         for a in angles:
-            pairs=[];scene=[]
+            pairs=[];scene=[];classified=[]
             for an,actor in actors.items():
                 moved=actor.rotate(ori,axis,float(a))
                 result=scene_pairs(moved,fixed,an,.3)
@@ -33,9 +36,19 @@ def main():
                 # relabelled as nearest BRep distances.
                 result['actor']=an
                 scene.append(result)
-            samples.append(dict(angle_deg=float(a),pairs=pairs,scenes=scene));scene=[]
+                for r in result['measured_pairs']:
+                    c=dict(a=an,b=r['b'],passed=r['pass_check'],classification='ordinary clearance')
+                    if not c['passed'] and an==n and r['b']=='BODY':
+                        other=pair(moved,nonfunctional_body,an,'BODY',.3)
+                        c.update(classification='source-defined fixed hinge and press stop; full common volume retained',nonfunctional=other,
+                                 passed=r['overlap_mm3']<=.001 and other['pass_check'])
+                    elif not c['passed'] and an==n and r['b']==n+'_STEEL_PIN':
+                        c.update(classification='coaxial diameter2.00 pin / diameter2.35 bore',radial_clearance_mm=r['gap_mm'],
+                                 passed=r['overlap_mm3']<=.001 and abs(r['gap_mm']-.175)<.01)
+                    classified.append(c)
+            samples.append(dict(angle_deg=float(a),pairs=pairs,scenes=scene,functional_classification=classified,passed=all(c['passed'] for c in classified)));scene=[]
             print('G5_RAW',n,round(float(a),4),'overlaps',[(r['a'],r['b'],round(r['overlap_mm3'],5)) for r in pairs if r['overlap_mm3']>.001],flush=True)
-        rows.append(dict(group=n,members=group,origin_mm=ori,axis=axis,samples=samples,
+        rows.append(dict(group=n,members=group,origin_mm=ori,axis=axis,samples=samples,passed=all(s['passed'] for s in samples),
                          scope='Exact at listed poses; rigid housing and complete wheel children. Functional stops and journals still require local contact classification.'))
         save('main_and_wheel_motion_raw.json',rows)
 

@@ -63,17 +63,20 @@ def main():
     for name,origin,normal in [('X23',(23,0,0),(-1,0,0)),('Y50p25',(0,50.25,0),(0,1,0)),('Y64p45',(0,64.45,0),(0,1,0)),('Z16p6',(0,0,16.6),(0,0,-1))]:
         picture('SECTION_'+name,obj,(1,-1,.7),title='实际组件剖视 | '+name,note='剖切展示内部路径；不得作为实际供体尺寸证明',clip=(origin,normal))
     from side_module import KEYS
+    actuation={k['part']:k for k in json.loads((RP/'side_actuation_force_and_tuning.json').read_text())['keys']}
+    def state_angle(k,state):
+        return 0. if state=='REST' else (k['angle'] if state=='STOP' else actuation[k['name']]['calculated_PT_max_trigger_deg'])
     for state,fraction in [('REST',0),('TRIGGER',.83),('STOP',1)]:
         shown=[]
         for n,s,c,a in inside:
             k=next((k for k in KEYS if k['name']==n),None)
-            if k:s=s.rotate((29,k['hinge_y'],0),(29,k['hinge_y'],1),k['angle']*fraction);n+='_'+state
+            if k:s=s.rotate((k['hinge_x'],k['hinge_y'],0),(k['hinge_x'],k['hinge_y'],1),state_angle(k,state));n+='_'+state
             shown.append((n,s,c,a))
-        picture('SIDE_'+state,shown,(1,-.12,.12),focus=(24,57,16),scale=20,title='侧键机构 | '+state,note='触发图为名义近似姿态；实际触发点取决于微动与 PET 调整')
+        picture('SIDE_'+state,shown,(1,-.12,.12),focus=(24,57,16),scale=20,title='侧键机构 | '+state,note='触发姿态按 PT 最大值0.5mm及实际刚体几何计算；真实触发点仍需实测')
     overlay=[o for o in inside if o[0] not in [k['name'] for k in KEYS]]
     for k in KEYS:
         for state,fraction,col in [('REST',0,(.1,.5,.8)),('TRIGGER',.83,(.9,.55,.12)),('STOP',1,(.8,.18,.2))]:
-            s=read(k['name']).rotate((29,k['hinge_y'],0),(29,k['hinge_y'],1),k['angle']*fraction)
+            s=read(k['name']).rotate((k['hinge_x'],k['hinge_y'],0),(k['hinge_x'],k['hinge_y'],1),state_angle(k,state))
             overlay.append((k['name']+'_'+state,s,col,.4))
     picture('SIDE_MOTION_OVERLAY',overlay,(0,0,1),up=(0,1,0),focus=(25,57,16),scale=20,title='侧键动作叠图 | 静止 / 触发示意 / 止挡',note='蓝=静止，黄=名义触发，红=止挡；实际触发角需微动实测')
     old=[]

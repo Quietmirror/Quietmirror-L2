@@ -58,7 +58,7 @@ def rounded_block(dx, dy, dz, center, radius=.55):
 
 def build_mechanics(p, outer, inner):
     additions, cuts, parts, hardware = [], [], {}, {}
-    bolt_paths=[]; fastener_cuts=[]; fastener_meta=[]; terminal_cuts=[]
+    bolt_paths=[]; fastener_cuts=[]; fastener_meta=[]; terminal_cuts=[]; functional={}
     from fasteners import m2_set
     meta = dict(feet=[], main_hinges=[], side_motions=[], motions=[],
                 printed_interfaces=[], installation=[], hardware_limitations=[])
@@ -134,6 +134,7 @@ def build_mechanics(p, outer, inner):
             ear = ear.cut(cylinder(bore/2,4,(ax-2,root_y,pivot_z),(1,0,0))).clean()
             ears.append(check(ear,name+'_FIXED_BEARING'))
         additions.extend(ears)
+        functional[name+'_FIXED_BEARINGS']=join(*ears)
         hardware[name+'_STEEL_PIN'] = cylinder(pin_d/2,21.8,(sign*main_x-10.9,root_y,pivot_z),(1,0,0))
         # Actual lateral tool/pin entry through the retained fixed side skin.
         cuts.append(cylinder(bore/2,82.,(-41.,root_y,pivot_z),(1,0,0)))
@@ -187,6 +188,7 @@ def build_mechanics(p, outer, inner):
         sidewall_x=sign*(half_width(anchor[1],p)-2.1)
         arm=beam(anchor,(sidewall_x,anchor[1],anchor[2]),1.6)
         tray=join(tray,arm)
+        functional[sw_name+'_MOUNT']=tray
         if tray.BoundingBox().zmin < 5.01:
             raise ValueError(f'{name} tilted socket violates open band: {tray.BoundingBox().zmin}')
         additions.append(check(tray,name+'_SUSPENDED_TRAY'))
@@ -207,6 +209,7 @@ def build_mechanics(p, outer, inner):
         pressed=parts[name].rotate(pivot,[1.,root_y,pivot_z],travel_deg).translate((0,0,-.06))
         stop=stop.cut(pressed).clean()
         additions.append(check(stop,name+'_HARD_STOP'))
+        functional[name+'_PRESS_STOP']=stop
         end_displacement = abs((contact[1]-root_y)*math.sin(a)+(contact[2]-pivot_z)*(math.cos(a)-1))
         info=dict(part=name,origin=pivot,axis=[1,0,0],end_deg=travel_deg,
            pin_diameter_mm=pin_d,bore_diameter_mm=bore,diametral_clearance_mm=bore-pin_d,
@@ -224,6 +227,7 @@ def build_mechanics(p, outer, inner):
     wm=build_wheel(p,outer)
     parts.update(wm['parts']);hardware.update(wm['hardware'])
     additions.extend(wm['additions']);cuts.extend(wm['cuts'])
+    functional.update(wm['functional_features'])
     meta['wheel']=wm['wheel'];meta['motions'].append(wm['motion'])
     terminal_cuts.extend(wm['terminal_cuts'])
     for j,hole in enumerate(wm['motion']['switch_mount_holes'],1):
@@ -314,4 +318,4 @@ def build_mechanics(p, outer, inner):
             shape=shape.cut(path)
         additions[k]=check(shape.clean(),f'FIXED_SUPPORT_{k}')
     for name,shape in parts.items():check(shape,name)
-    return dict(body_additions=additions,body_cuts=cuts,parts=parts,hardware=hardware,metadata=meta,terminal_cuts=terminal_cuts)
+    return dict(body_additions=additions,body_cuts=cuts,parts=parts,hardware=hardware,metadata=meta,terminal_cuts=terminal_cuts,functional_features=functional)

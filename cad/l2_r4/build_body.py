@@ -9,7 +9,7 @@ sys.path.insert(0,str(HERE))
 from surfaces import make_surfaces
 from mechanics import build_mechanics,beam
 from interfaces import build_interfaces
-from side_module import fixed_features,integrated_frame,KEYS,RETAINER_MOUNTS
+from side_module import fixed_features,integrated_frame,KEYS,RETAINER_MOUNTS,UPPER_LUG_TOP
 spec=importlib.util.spec_from_file_location('original_export',ROOT/'cad/rebuild_r2/build.py')
 original=importlib.util.module_from_spec(spec);spec.loader.exec_module(original)
 
@@ -55,7 +55,7 @@ def main():
     # Starts at the upper lug top: press-fit bores and lug wall are retained.
     # This changes the local window/rim edge and is reported as a deviation
     # from literal unchanged six-window boundaries, necessary for B7 access.
-    for y in (45.3,69.7):body=body.cut(cyl(1.05,15,(29,y,20.8))).clean()
+    for k in KEYS:body=body.cut(cyl(1.05,15,(k['hinge_x'],k['hinge_y'],UPPER_LUG_TOP))).clean()
     # Inboard faces of the original main-key fixed bearings: retain their
     # axes/bores, reduce axial width from 2.4 to 2.2 for wheel-carrier clearance.
     for sign in (-1,1):
@@ -92,6 +92,16 @@ def main():
     local=unite(*[cyl(4.01,11.2,(*f['center'],-5)) for f in feet])
     body=body.cut(box(-75,75,-31,119,-5,5.2).intersect(local))
     for f in feet:body=body.fuse(cyl(4,1.6,(*f['center'],5.2)))
+    # Named source features permit local mating classifications without
+    # excluding the whole BODY. These are validation geometry, not parts.
+    features=OUT/'validation_features';features.mkdir(exist_ok=True)
+    feature_rows=[]
+    for name,feature in m['functional_features'].items():
+        actual=body.intersect(feature.mirror('YZ'))
+        assert actual.Solids(),name
+        cq.exporters.export(actual,str(features/(name+'.step')))
+        feature_rows.append(dict(name=name,volume_mm3=vol(actual),bounds_mm=bounds(actual),basis='Named construction feature intersected with actual final BODY'))
+    save('functional_source_features.json',feature_rows)
     # Keep split faces at the foot cylinder interfaces, as in R3.1/R3.2.
     cq.exporters.export(body,str(WORK/'BODY_before_export.step'))
     row=export(body,'BODY');save('body_build.json',dict(solid=row,seconds=time.time()-start,windows=windows,foot_glue_z=5.2,source_changes=['obsolete side socket loop omitted','thumb-side ear arms lowered and holes drilled after joining','Y54 arms removed outside X +/-6','rear diagonals 1.6 x 2.8','r3 side rim and bearing lugs','D1 integrated floor/frame and D4-D6 reinforcements','D7 inboard hidden ear; 2.2mm journal; independent retainer bosses and pin entry pockets'],source_level_rebuild=True))

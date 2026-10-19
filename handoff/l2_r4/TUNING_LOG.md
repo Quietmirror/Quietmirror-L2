@@ -64,3 +64,30 @@ Status: CAD checks running. No L2-r4 Release is permitted until all CAD gates co
 - Cut explicit radius2.05 screwdriver paths up to Z12.1; leave floor and washer contact faces intact. Recheck BODY validity, access, stiffness and all affected interfaces.
 - Remove inherited main-key rib/plunger overlap with R1.13 spherical clearance around the modeled R1.10 plunger; preserve key exterior, width and actuation datum. Expand rigid-housing relief through the requested -0.5..3.1 degree range. Re-cut only main/wheel stop faces at requested 3.1/4.4 degrees.
 - Plan a replacement SF route with actual SR terminals included, 0.25mm part point clouds, finite yaw samples and conservative 26-neighbor dilation. Search success is only a candidate route; replay and exact turning-point acceptance are mandatory. Retainer final alignment/descent is separately classified as seating, not an open-clearance route.
+
+## Candidate 5 - measured hidden-hinge containment repair
+
+- Candidate4 actual mother-profile subtraction found SF/SR upper fixed-lug material outside the mother surface by 2.214577/2.096916 mm3, and steel-pin material outside by0.068486/0.031634 mm3. The proposed X29 axes cannot satisfy the document's hidden-bearing requirement at the upper Z range.
+- Parameterize both hinge X coordinates and move them to27.5, keeping Y45.3/69.7 and the complete external key surface. Upper fixed lug is Z19.8..20.6, lower lug unchanged. Clip fixed bearing additions to the actual mother surface. Keep diameter2.5 moving journals and diameter1x5.5 steel pins.
+- Shorten only the concealed inboard ear radius2.3 to2.1 and place the outward stop riser X26.0..26.8 so both estimated micro housings retain space. The stop roof remains below the mother surface. This is a disclosed correction to the literal D7 coordinates, not a claim that those original dimensions passed.
+- Recompute stop angles, pad coverage, source masks, pin access and rendering from hinge_x; all affected final gates must be rerun. No result is inferred from these source edits alone.
+
+## Candidate4 assembly replay result and route correction
+
+- Both retainer routes and SR micro route passed exact and voxel checks. The SF path had no voxel hits but many exact gaps below0.25mm (smallest0.023553mm); therefore it FAILED G6 despite zero solid intersection.
+- Increase planner obstacle dilation from one to two26-neighbour0.25mm layers. Start lower and target an elevated/pre-alignment pose0.5mm forward of the divider; retain exact waypoint and final seating tests. This is added search margin, not a substituted acceptance criterion.
+- Export named construction mating features for local contact checks. Clearance collars at continuous feature seams are recorded; all whole-solid intersections remain measured.
+- Fixed side pin bores use diameter1.05 as required by the document; the old0.95mm press-fit reference would intentionally intersect a1mm cylinder and is removed from the current source. Real printed fit and retention remain hardware tests.
+- Wire tube end spheres are trimmed only inside declared local termination balls at their matching connectors/COM junction. Mid-route geometry remains unchanged and must retain0.2mm clearance.
+
+## Candidate5 measured outcome and candidate6 correction
+
+- Exact containment now gives0mm3 outside the mother surface for both fixed hinge regions, both concealed moving ears, and both steel pins. Straight cap+PET insertion and diameter2 pin tool access pass.
+- End-press intersections remain: SF0.227701/SR0.220540mm3, localized at the far cap corners inside the middle divider (SF Y56.088..56.748, SR Y57.659..58.311). These are real nonfunctional collisions, not stop contact.
+- Keep cap exterior dimensions. Add source-defined backside clearance inside the middle divider, retaining the outer0.8mm X-offset lip; enlarge only each existing aperture's far end0.15mm. No extra hole is added. Recheck full movement, local wall geometry, window changes and final stiffness; the thin local aperture lip is explicitly distinguished from ordinary shell thickness.
+
+## Candidate6 route and reference investigation checkpoint
+
+- Geometry source85481b87332f9a698dcda3beb64891eac9f95741, checkpoint29842da7fb5bd076e532d9aa057b36984dde2b07: all four loose-part routes pass. Replay includes157 SR-switch,350 SF-switch,123 SR-retainer and206 SF-retainer poses; exact turning-point and seating checks also pass. The new SF route includes installed SR terminals.
+- R3.2 reference run39243764463 completed12 serial SPOOLES solves across all three meshes. Written root interval35.5..42.5 increases coarse-grid stiffness by3.78%/3.27% versus the published table. Replaying the author's35..42 interval reproduces the coarse values within0.058%. Final G8 uses the written interval and the larger of the independently recomputed written baseline and the published baseline. Every>3% final-author discrepancy still requires investigation.
+- Complete candidate verification reuses the exact saved C6 component bytes, without bootstrap overwriting the relieved main keys or trimmed wires. New report identity records bind geometry and verifier sources to results across CAD, FEM and Windows artifact phases. No CAD-complete status or Release is inferred from workflow success.

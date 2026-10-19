@@ -794,7 +794,7 @@
   {
     "a": "BODY",
     "b": "BATTERY_ROUTE_EST",
-    "gap_mm": 4.109669878504001,
+    "gap_mm": 4.109669878504009,
     "overlap_mm3": 0.0,
     "required_mm": 0.2,
     "intended_contact": false,
@@ -2048,7 +2048,7 @@
   {
     "a": "SF_RETAINER",
     "b": "MATCHED_LENS_EST",
-    "gap_mm": 11.732862413600756,
+    "gap_mm": 12.136721138759018,
     "overlap_mm3": 0.0,
     "required_mm": 0.5,
     "intended_contact": false,
@@ -2056,9 +2056,9 @@
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
-        16.713158843404536,
-        54.3012461213138,
-        12.7
+        17.3,
+        55.0,
+        13.7
       ],
       [
         6.0,
@@ -2444,7 +2444,7 @@
   {
     "a": "SF_RETAINER",
     "b": "PAW3950_PACKAGE_EST",
-    "gap_mm": 14.85640893991952,
+    "gap_mm": 15.029637387508723,
     "overlap_mm3": 0.0,
     "required_mm": 0.5,
     "intended_contact": false,
@@ -2452,14 +2452,14 @@
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
-        16.756033791073282,
-        54.38445743816521,
-        12.7
+        17.3,
+        55.0,
+        13.7
       ],
       [
         4.0,
         62.0,
-        12.7
+        13.7
       ]
     ]
   },
@@ -2642,7 +2642,7 @@
   {
     "a": "SF_RETAINER",
     "b": "POWER_SWITCH_BODY_EST",
-    "gap_mm": 36.06752175566795,
+    "gap_mm": 36.39972527368853,
     "overlap_mm3": 0.0,
     "required_mm": 0.5,
     "intended_contact": false,
@@ -2650,9 +2650,9 @@
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
-        16.718136959542253,
-        54.312350434700704,
-        12.7
+        17.3,
+        55.0,
+        13.7
       ],
       [
         -16.0,
@@ -2840,7 +2840,7 @@
   {
     "a": "SF_RETAINER",
     "b": "POWER_SWITCH_PCB_EST",
-    "gap_mm": 36.0493202010559,
+    "gap_mm": 36.34680178502642,
     "overlap_mm3": 0.0,
     "required_mm": 0.5,
     "intended_contact": false,
@@ -2848,9 +2848,9 @@
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
-        16.718911143623878,
-        54.314034981682404,
-        12.7
+        17.3,
+        55.0,
+        13.7
       ],
       [
         -16.0,
@@ -3038,7 +3038,7 @@
   {
     "a": "SF_RETAINER",
     "b": "POWER_SWITCH_TAB_EST",
-    "gap_mm": 39.05229542535049,
+    "gap_mm": 39.454910974427506,
     "overlap_mm3": 0.0,
     "required_mm": 0.5,
     "intended_contact": false,
@@ -3046,9 +3046,9 @@
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
-        16.71709491148271,
-        54.31006554158306,
-        12.7
+        17.3,
+        55.0,
+        13.7
       ],
       [
         -18.5,
@@ -4622,7 +4622,7 @@
   {
     "a": "SF_RETAINER",
     "b": "SENSOR_PCB_EST",
-    "gap_mm": 4.602649652817753,
+    "gap_mm": 4.742362280551751,
     "overlap_mm3": 0.0,
     "required_mm": 0.5,
     "intended_contact": false,
@@ -4630,9 +4630,9 @@
     "distance_kind": "BRepExtrema_DistShapeShape_complete",
     "nearest_points_mm": [
       [
-        16.78032949289434,
-        54.42250261848113,
-        13.7
+        17.3,
+        55.0,
+        14.2
       ],
       [
         13.0,
@@ -5027,13 +5027,13 @@
     "nearest_points_mm": [
       [
         18.5,
-        41.85,
-        19.5
+        54.45,
+        13.7
       ],
       [
         18.5,
-        41.85,
-        19.5
+        54.45,
+        13.7
       ]
     ]
   },
@@ -6162,8 +6162,8 @@
   {
     "a": "LEFT_KEY",
     "b": "SWITCH_LEFT",
-    "gap_mm": 0.02999999999982351,
-    "overlap_mm3": 0.0,
+    "gap_mm": 0.0,
+    "overlap_mm3": 0.014574361869938886,
     "required_mm": 0.3,
     "intended_contact": false,
     "pass_check": false,
@@ -6171,13 +6171,13 @@
     "nearest_points_mm": [
       [
         18.3,
-        24.109025949867,
-        16.65448472314
+        24.309016994375,
+        16.707975004454
       ],
       [
         18.3,
-        24.12335983672518,
-        16.62813060225629
+        24.309016994375,
+        16.707975004454
       ]
     ]
   },
@@ -6580,8 +6580,8 @@
   {
     "a": "RIGHT_KEY",
     "b": "SWITCH_RIGHT",
-    "gap_mm": 0.029999999999313652,
-    "overlap_mm3": 0.0,
+    "gap_mm": 0.0,
+    "overlap_mm3": 0.014574363044895988,
     "required_mm": 0.3,
     "intended_contact": false,
     "pass_check": false,
@@ -6589,13 +6589,13 @@
     "nearest_points_mm": [
       [
         -18.3,
-        24.109025949869,
-        16.654484723141
+        24.309016994375,
+        16.707975004454
       ],
       [
         -18.3,
-        24.123359836726678,
-        16.628130602258107
+        24.309016994375,
+        16.707975004454
       ]
     ]
   },

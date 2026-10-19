@@ -5,7 +5,7 @@ a claimed torque conversion. The stop load is 5 N, applied over its actual
 contact patch. Equivalent surface tractions represent contact forces; this is
 linear FEM, not a nonlinear frictional contact/printed-material certification.
 """
-import json
+import json,os,subprocess,sys
 import numpy as np
 from fem_stage import FC,L,ROOT,RP,WORK,mesh,solve
 from side_module import RETAINER_MOUNTS
@@ -37,6 +37,7 @@ def main():
             local=percentile_region(m,r,d/name,lambda c:(c[:,0]>15)&(c[:,1]>40)&(c[:,1]<73)&(c[:,2]>10)&(c[:,2]<21.5))
             rows.append(dict(part='BODY',size_mm=h,case=name,global_p95_MPa=r['p95_integration_point_vm_MPa'],side_frame_region=local,equilibrium_pass=r['equilibrium_pass'],passed=r['equilibrium_pass'] and max(local['p95_MPa'],r['p95_integration_point_vm_MPa'])<=10))
             (RP/'S7.json').write_text(json.dumps(dict(status='RUNNING',preload_assumption_N=20,rows=rows),indent=2))
+            if os.getenv('GITHUB_ACTIONS')=='true':subprocess.run([sys.executable,str(ROOT/'cad/l2_r4/ci_checkpoint.py')],cwd=ROOT,check=True)
         del m
         for name,xface,ylo,yhi in [('SF_RETAINER',18.5,44.7,54.),('SR_RETAINER',19.,57.,68.)]:
             mount=RETAINER_MOUNTS[name[:2]];sx,sy,py=mount['x'],mount['y'],mount['pin_y']
@@ -53,6 +54,7 @@ def main():
             r,u=solve(m,d/'clamp',cons,f+g,desc,None)
             rows.append(dict(part=name,size_mm=h,case=desc['name'],global_p95_MPa=r['p95_integration_point_vm_MPa'],equilibrium_pass=r['equilibrium_pass'],passed=r['equilibrium_pass'] and r['p95_integration_point_vm_MPa']<=10))
             (RP/'S7.json').write_text(json.dumps(dict(status='RUNNING',preload_assumption_N=20,rows=rows),indent=2));del m
+            if os.getenv('GITHUB_ACTIONS')=='true':subprocess.run([sys.executable,str(ROOT/'cad/l2_r4/ci_checkpoint.py')],cwd=ROOT,check=True)
     (RP/'S7.json').write_text(json.dumps(dict(status='COMPLETED' if len(rows)==12 and all(r['passed'] for r in rows) else 'FAILED',preload_assumption_N=20,rows=rows),indent=2))
 
 if __name__=='__main__':main()
