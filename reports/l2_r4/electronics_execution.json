@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "final_candidate_hardware_and_wiring",
   "source_commit": "e7d6b5fdaa8c83758f5ade9c565967582c92362a",
   "steps": [
