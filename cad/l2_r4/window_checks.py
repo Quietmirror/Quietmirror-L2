@@ -30,7 +30,7 @@ def z_interval(shape,x,y):
     zs=[query.Pnt(i).Z() for i in range(1,query.NbPnt()+1)]
     return (min(zs),max(zs)) if zs else None
 
-def main():
+def main(selected_index=None,report_name='six_window_samples.json'):
     cfg=json.loads((ROOT/'cad/rebuild_r2/parameters.json').read_text());outer,inner,_=make_surfaces(cfg)
     b=load('BODY');old=baseline('BODY')
     # Explicit structural exceptions are retained as actual source solids,
@@ -52,7 +52,8 @@ def main():
     spec=importlib.util.spec_from_file_location('original_windows',ROOT/'cad/rebuild_r2/build.py')
     source=importlib.util.module_from_spec(spec);spec.loader.exec_module(source)
     rng=np.random.default_rng(20261019);rows=[]
-    for name,points,original_tool in source.window_layout(cfg):
+    for window_index,(name,points,original_tool) in enumerate(source.window_layout(cfg)):
+        if selected_index is not None and window_index!=selected_index:continue
         # Use the actual R3.2 source window, including the deliberately kept
         # finger-contact bands, rather than a fictitious full-depth polygon.
         tool=original_tool.mirror('YZ')
@@ -99,7 +100,7 @@ def main():
                declared_structural_exceptions={n:bounds(s) for n,s in regions.items()},
                classified_pass=all(p['classified_pass'] for p in boundary+full+roof),
                definition='Actual six source cut tools including preserved grip bands; named retained bearings/mounts and D1/D4-D7 modifications are separately reported. Raw occupied points are never relabeled empty.')
-        rows.append(r);save('six_window_samples.json',rows)
+        rows.append(r);save(report_name,rows)
         print('WINDOW',name,r['boundary_raw_pass'],r['full_prism_raw_pass'],r['roof_band_raw_pass'],r['full_prism_new_invasions'],flush=True)
 
 if __name__=='__main__':main()

@@ -1,12 +1,12 @@
 name: L2-r4 candidate exact CAD checks
 on:
   push:
-    branches: [codex/r4-c10]
+    branches: [codex/r4-parallel]
     paths: ['cad/l2_r4/**', '.github/workflows/l2-r4-candidate.yml']
 permissions:
   contents: write
 concurrency:
-  group: l2-r4-c10
+  group: l2-r4-parallel
   cancel-in-progress: true
 jobs:
   independent_checks:
@@ -14,18 +14,24 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - role: diagnostic
-            config: DIAGNOSTIC_RUN.json
-          - role: motion
-            config: MOTION_RUN.json
-          - role: space
-            config: SPACE_RUN.json
-          - role: electronics
-            config: ELECTRONICS_RUN.json
-          - role: side
-            config: SIDE_RUN.json
-          - role: probe
-            config: PROBE_RUN.json
+          - role: motion_left
+            config: MOTION_LEFT.json
+          - role: motion_right
+            config: MOTION_RIGHT.json
+          - role: motion_wheel
+            config: MOTION_WHEEL.json
+          - role: window_0
+            config: WINDOW_0.json
+          - role: window_1
+            config: WINDOW_1.json
+          - role: window_2
+            config: WINDOW_2.json
+          - role: window_3
+            config: WINDOW_3.json
+          - role: window_4
+            config: WINDOW_4.json
+          - role: window_5
+            config: WINDOW_5.json
     runs-on: ubuntu-24.04
     timeout-minutes: 240
     env:
