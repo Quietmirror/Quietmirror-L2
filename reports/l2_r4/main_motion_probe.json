@@ -542,5 +542,32 @@
   {
     "stage": "pair_begin",
     "part": "WHEEL_M2_SWITCH_1_BOLT"
+  },
+  {
+    "stage": "pair_end",
+    "part": "WHEEL_M2_SWITCH_1_BOLT",
+    "seconds": 0.4583888053894043,
+    "result": {
+      "a": "LEFT_KEY",
+      "b": "WHEEL_M2_SWITCH_1_BOLT",
+      "gap_mm": 5.17299354788714,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.3,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "nearest_points_mm": [
+        [
+          11.7,
+          39.588901136221196,
+          11.905845549609936
+        ],
+        [
+          6.55,
+          39.78909391085993,
+          11.461677676543422
+        ]
+      ]
+    }
   }
 ]
