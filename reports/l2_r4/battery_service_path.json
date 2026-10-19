@@ -1,15 +1,29 @@
 {
+  "reachable_start_bounds": [
+    -1.4682330809438704,
+    -3.5528773362337067,
+    -0.6196052233608429,
+    -45.997589800362334,
+    -29.765363667808288,
+    -64.4806275448322,
+    8.652684775376215,
+    12.279750684421346,
+    3.3549720382620154,
+    10.628533200306927,
+    12.823833710269284,
+    15.828338803647414
+  ],
   "found": false,
   "planner": "Six-DOF bidirectional RRT; approximate grid only proposes route",
   "grid_mm": 0.25,
-  "planning_clearance_mm": 0.55,
+  "planning_clearance_mm": 0.45,
   "exact_required_clearance_mm": 0.5,
-  "attempted_iterations": 40000,
+  "attempted_iterations": 400000,
   "nodes": [
-    236,
-    10883
+    44038,
+    163796
   ],
-  "planner_evaluations": 75365,
+  "planner_evaluations": 737273,
   "rotation_order": "global X then Y then Z about battery centre; pose dx/dy/dz/roll/pitch/yaw",
   "pivot_mm": [
     -16.999999999999996,
