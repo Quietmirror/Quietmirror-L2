@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "C16 optical-connected donor board and roll checks",
+  "source_commit": "1546de25079f1de5560c5755270089129d4e3f8a",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 4.63,
+      "available_memory_before_GB": 15.641706496,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
