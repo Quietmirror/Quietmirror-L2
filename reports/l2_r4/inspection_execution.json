@@ -30,6 +30,13 @@
       "seconds": 83.64,
       "available_memory_before_GB": 15.601995776,
       "log_tail": "{'part': 'BODY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 410684, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'LEFT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 27298, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'RIGHT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 27346, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SIDE_FRONT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 27474, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SIDE_REAR_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 29914, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SF_RETAINER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 5136, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SR_RETAINER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 5732, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'WHEEL_CARRIER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 32948, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n"
+    },
+    {
+      "script": "cad/l2_r4/wheel_endpoint_probe.py",
+      "returncode": 0,
+      "seconds": 370.76,
+      "available_memory_before_GB": 15.664050176,
+      "log_tail": "G5_RAW WHEEL_CARRIER -4.4 overlaps []\nG5_RAW WHEEL_CARRIER 4.1 overlaps []\nG5_RAW WHEEL_CARRIER 4.4 overlaps []\n"
     }
   ]
 }
