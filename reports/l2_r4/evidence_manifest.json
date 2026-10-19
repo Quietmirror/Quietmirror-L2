@@ -3831,9 +3831,9 @@
   },
   "reports/l2_r4/key_insertion_exact.json": {
     "script": "cad/l2_r4/cap_insertion_final.py",
-    "source_commit": "4752584f78bcdd4c8d1dd4aa49f40132b41d2393",
+    "source_commit": "3844d155b625531a6400907c660828c5ca8c82fd",
     "returncode": 0,
-    "report_sha256": "350ba44fc3a9ba6318c5240bd88b24236b13328fed074787eed7e70ab11adac3",
+    "report_sha256": "c04ee40e6aec3bc5cc3370864561ed808c8b850c42d93842191a231e5f7ca128",
     "geometry": {
       "cad/rebuild_r2/parameters.json": "1b80721457bb4f2b11f7021d3e2d98ef9f6068510906099e9b0e38f2f33141f0",
       "cad/rebuild_r3_2/electronics.json": "866e3892c6d2ddd8b001e746b3bbc4b77bdf3fc799ded156e8bf2b10458d4c08",
@@ -3845,7 +3845,7 @@
       "models/L2_r4/parts/SIDE_REAR_KEY.step": "16520bda196aae2bd440d4eff00e84bba614c9b9b851a08fd8dbd9cf5b36efec",
       "models/L2_r4/parts/SR_RETAINER.step": "97a6a961b563a2592e8103c04815e8df7a3ae10fb408b101118423d0758e2c6f",
       "models/L2_r4/parts/WHEEL.step": "efec7b9b652ab89778cad7141f762d4eb55fe694be9bf9e5ef355baad0da1c83",
-      "models/L2_r4/parts/WHEEL_CARRIER.step": "0c791a3509f022242e18180c2ab460164a792da3a7a358a01076598509c55b36",
+      "models/L2_r4/parts/WHEEL_CARRIER.step": "f1a2035e0544e5f11919d8ee386cd561b5af8856cec83c24617aea8601af80be",
       "models/L2_r4/reference/ANTENNA_FEED_HEADER_EST.step": "ccedcb46b4a09b2d87724b48872e2fbf4c85c7379d92bdea63d00e33aabb1337",
       "models/L2_r4/reference/ANTENNA_FEED_ROUTE_EST.step": "f6019fa4c487b4ff51f0a5bd88658da938429bb2c6b0766853f40e871e5b3fe1",
       "models/L2_r4/reference/BATTERY_CELL_EST.step": "849cb94915d5659124879f825468d957c59c5f2402c3306922c0586a8a0fe58a",
