@@ -3,7 +3,7 @@
     "name": "BODY",
     "valid": true,
     "solids": 1,
-    "volume_mm3": 12677.68127906499,
+    "volume_mm3": 12633.239977596988,
     "bounds_mm": [
       -33.04800010000001,
       -1e-07,
@@ -21,7 +21,7 @@
     "name": "LEFT_KEY",
     "valid": true,
     "solids": 1,
-    "volume_mm3": 1719.6801597484564,
+    "volume_mm3": 1718.7297441178912,
     "bounds_mm": [
       5.299999899787287,
       0.6846852341261915,
@@ -39,7 +39,7 @@
     "name": "RIGHT_KEY",
     "valid": true,
     "solids": 1,
-    "volume_mm3": 1719.680209111002,
+    "volume_mm3": 1718.7297727119435,
     "bounds_mm": [
       -28.0000001,
       0.684685234126075,
@@ -57,12 +57,12 @@
     "name": "SF_RETAINER",
     "valid": true,
     "solids": 1,
-    "volume_mm3": 103.89933000919582,
+    "volume_mm3": 103.89933000919667,
     "bounds_mm": [
       14.8,
       41.8,
       12.7,
-      18.65,
+      18.5,
       55.0,
       19.5
     ],
@@ -75,14 +75,14 @@
     "name": "SIDE_FRONT_KEY",
     "valid": true,
     "solids": 1,
-    "volume_mm3": 80.33163138428115,
+    "volume_mm3": 76.74189104272244,
     "bounds_mm": [
-      25.97,
-      44.049999899999996,
-      15.299999992433627,
-      32.36945991532829,
-      56.30000010000003,
-      19.50000010000019
+      25.4,
+      44.05,
+      15.299999992433628,
+      32.367318773232,
+      56.05000010000002,
+      19.45000010000021
     ],
     "closed_mesh": true,
     "consistent_winding": true,
@@ -93,19 +93,19 @@
     "name": "SIDE_REAR_KEY",
     "valid": true,
     "solids": 1,
-    "volume_mm3": 85.94332954868055,
+    "volume_mm3": 81.56501095510058,
     "bounds_mm": [
-      26.47,
-      58.09999989999986,
-      15.299999992433612,
-      32.69168545942601,
-      70.9500001,
-      19.500000100002968
+      25.4,
+      58.34999989999997,
+      15.299999992433628,
+      32.66429196856799,
+      70.95,
+      19.450000100000015
     ],
     "closed_mesh": true,
     "consistent_winding": true,
     "mesh_components": 1,
-    "brep_self_interference_check": true
+    "brep_self_interference_check": false
   },
   {
     "name": "SR_RETAINER",
