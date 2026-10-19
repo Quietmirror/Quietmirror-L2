@@ -121,7 +121,10 @@ def key(outer,k,offset=.2):
     # The1.85mm journal preserves diameter/wall and both fixed pin supports;
     # its top now clears the fixed outward-stop riser by0.35mm.
     y=k['hinge_y'];hx=k['hinge_x'];hinge=cyl(1.25,JOURNAL_TOP-16.4,(hx,y,16.4))
-    web=box(hx,33,y-.55,y+.55,15.5,19.5).intersect(surface).intersect(mask)
+    # Keep the hinge web behind the rounded finger skin. Extending the web
+    # to the unfilleted outer surface split the rear corner into an actual
+    # edge/face self-interference at Y70.25 (BOPAlgo_Check evidence).
+    web=box(hx,33,y-.55,y+.55,15.5,19.5).intersect(outer.translate((offset-.4,0,0))).intersect(mask)
     ear=box(hx-EAR_RADIUS,hx,y-.4,y+.4,18.6,EAR_TOP)
     # Inboard barrel-to-arm root stays within the R1.55 journal clearance.
     bridge=box(hx-1.3,hx-.7,y-.4,y+.4,BRIDGE_BOTTOM,19.0).intersect(cyl(1.25,19.-BRIDGE_BOTTOM,(hx,y,BRIDGE_BOTTOM)))
