@@ -1,14 +1,14 @@
 {
-  "status": "FAILED",
-  "phase": "C11_wheel_group_clearance",
-  "source_commit": "f206615304612657cbdc70b20c9ecef559c25e69",
+  "status": "RUNNING",
+  "phase": "C11_direct_pad_join_and_wheel_clearance",
+  "source_commit": "89b6b1b5e68aa446290d41026804db786cf49ac4",
   "steps": [
     {
-      "script": "cad/l2_r4/wheel_clearance_finish.py",
-      "returncode": 1,
-      "seconds": 2.79,
-      "available_memory_before_GB": 15.486509056,
-      "log_tail": "EXPORTED WHEEL_CARRIER 589.7894\nEXPORTED ENCODER_ADAPTER_PCB_EST 156.9882\nTraceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/wheel_clearance_finish.py\", line 34, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/wheel_clearance_finish.py\", line 24, in main\n    encoder=baseline('ENCODER_EC10E_HOUSING');previous=vol(encoder)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/common.py\", line 27, in baseline\n    def baseline(n):return load(n,ROOT/'exports/rebuild_r3_2/assembly')\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/common.py\", line 26, in load\n    def load(name,base=None):return cq.importers.importStep(str((base or OUT/'parts')/(name+'.step'))).val()\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/cadquery/occ_impl/importers/__init__.py\", line 104, in importStep\n    raise ValueError(\"STEP File could not be loaded\")\nValueError: STEP File could not be loaded\n"
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 3.7,
+      "available_memory_before_GB": 15.55576832,
+      "log_tail": "Restored/retained 72 baseline components\n"
     }
   ]
 }
