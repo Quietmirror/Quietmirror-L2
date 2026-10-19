@@ -1,3 +1,4 @@
+import numpy as np
 from pathlib import Path
 import json
 import cadquery as cq
@@ -35,7 +36,7 @@ def export(s,n,printable=True):
         m=trimesh.load_mesh(raw);m.merge_vertices(digits_vertex=6)
         m.update_faces(m.nondegenerate_faces(height=1e-7));m.update_faces(m.unique_faces());m.remove_unreferenced_vertices()
         m.export(folder/(n+'.stl'))
-        row['mesh']=dict(watertight=bool(m.is_watertight),winding_consistent=bool(m.is_winding_consistent),components=len(trimesh.graph.connected_components(m.face_adjacency,nodes=range(len(m.faces)),engine='scipy',min_len=1)),triangles=len(m.faces),bounds_mm=m.bounds.tolist(),holes_patched=0)
+        row['mesh']=dict(watertight=bool(m.is_watertight),winding_consistent=bool(m.is_winding_consistent),components=len(trimesh.graph.connected_components(m.face_adjacency,nodes=np.arange(len(m.faces)),engine='scipy',min_len=1)),triangles=len(m.faces),bounds_mm=m.bounds.tolist(),holes_patched=0)
     print('EXPORTED',n,round(row['volume_mm3'],4),flush=True)
     return row
 def pair(a,b,an,bn,minimum=.5,intended=False):

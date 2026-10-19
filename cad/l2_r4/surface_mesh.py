@@ -1,3 +1,4 @@
+import numpy as np
 """Conforming surface mesh from final STEP, without hole filling."""
 import json
 from pathlib import Path
@@ -13,7 +14,7 @@ def main():
             gmsh.model.mesh.generate(2);gmsh.write(str(WORK/(n+'.stl')))
         finally:gmsh.finalize()
         m=trimesh.load_mesh(WORK/(n+'.stl'));m.merge_vertices(digits_vertex=6);m.update_faces(m.nondegenerate_faces(height=1e-9));m.update_faces(m.unique_faces());m.remove_unreferenced_vertices()
-        row=dict(part=n,watertight=bool(m.is_watertight),winding_consistent=bool(m.is_winding_consistent),components=len(trimesh.graph.connected_components(m.face_adjacency,nodes=range(len(m.faces)),engine='scipy',min_len=1)),triangles=len(m.faces),method='Conforming final STEP surface triangulation; no hole filling')
+        row=dict(part=n,watertight=bool(m.is_watertight),winding_consistent=bool(m.is_winding_consistent),components=len(trimesh.graph.connected_components(m.face_adjacency,nodes=np.arange(len(m.faces)),engine='scipy',min_len=1)),triangles=len(m.faces),method='Conforming final STEP surface triangulation; no hole filling')
         row['passed']=row['watertight'] and row['winding_consistent'] and row['components']==1
         rows.append(row);(RP/'surface_mesh_checks.json').write_text(json.dumps(rows,indent=2));print(row,flush=True)
         if not row['passed']:raise RuntimeError('Final surface mesh failed '+n)

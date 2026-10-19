@@ -8,7 +8,7 @@ permissions:
   contents: write
 concurrency:
   group: l2-r4-build
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   execute:
     runs-on: ubuntu-24.04
@@ -40,5 +40,5 @@ jobs:
       - name: Run actual candidate work serially
         run: _support/venv/bin/python -u cad/l2_r4/ci_run.py
       - name: Preserve candidate results and errors without releasing
-        if: always()
+        if: always() && !cancelled()
         run: python3 cad/l2_r4/ci_checkpoint.py

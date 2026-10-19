@@ -6,8 +6,8 @@ unchanged in cad/l2_r4_author; this implementation is independently checked.
 import math
 from common import *
 
-KEYS=[dict(name='SIDE_FRONT_KEY',short='SF',y0=44.2,y1=56.3,hinge_y=45.3,rod_y=50.25,rod_end=25.97,stop_y=[54.,55.2],stop_x=29.74,sign=1,pad_y_offset=0.),
-      dict(name='SIDE_REAR_KEY',short='SR',y0=58.1,y1=70.8,hinge_y=69.7,rod_y=64.45,rod_end=26.47,stop_y=[59.3,60.5],stop_x=30.04,sign=-1,pad_y_offset=0.)]
+KEYS=[dict(name='SIDE_FRONT_KEY',short='SF',y0=44.2,y1=56.3,hinge_y=45.3,rod_y=50.25,rod_end=25.97,stop_y=[54.,55.2],stop_x=29.74,sign=1,pad_y_offset=0.2018),
+      dict(name='SIDE_REAR_KEY',short='SR',y0=58.1,y1=70.8,hinge_y=69.7,rod_y=64.45,rod_end=26.47,stop_y=[59.3,60.5],stop_x=30.04,sign=-1,pad_y_offset=-0.1617)]
 PAD_RADIUS=2.175*2.6/3;PAD_HEIGHT=.6*2.6/3
 
 def inward_travel(k,theta):

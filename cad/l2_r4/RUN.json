@@ -1,5 +1,5 @@
 {
-  "phase": "candidate_1_exact_diagnostics",
+  "phase": "candidate_2_offset_pad_and_exact_checks",
   "scripts": [
     "cad/l2_r4/bootstrap_build.py",
     "cad/l2_r4/restore_inputs.py",
@@ -7,6 +7,7 @@
     "cad/l2_r4/build_body.py",
     "cad/l2_r4/assemble.py",
     "cad/l2_r4/surface_mesh.py",
-    "cad/l2_r4/diagnostic_checks.py"
+    "cad/l2_r4/diagnostic_checks.py",
+    "cad/l2_r4/assembly_paths.py"
   ]
 }

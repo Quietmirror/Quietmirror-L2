@@ -18,7 +18,7 @@ def main():
         m=trimesh.load_mesh(OUT/'parts'/(n+'.stl'))
         rows.append(dict(name=n,valid=s.isValid(),solids=len(s.Solids()),
             volume_mm3=vol(s),bounds_mm=bounds(s),closed_mesh=bool(m.is_watertight),
-            consistent_winding=bool(m.is_winding_consistent),mesh_components=len(trimesh.graph.connected_components(m.face_adjacency,nodes=range(len(m.faces)),engine='scipy',min_len=1)),
+            consistent_winding=bool(m.is_winding_consistent),mesh_components=len(trimesh.graph.connected_components(m.face_adjacency,nodes=np.arange(len(m.faces)),engine='scipy',min_len=1)),
             brep_self_interference_check=bool(BRepAlgoAPI_Check(s.wrapped,True,True).IsValid())))
         print('SOLID',rows[-1],flush=True);save('solids.json',rows)
     static=[]
