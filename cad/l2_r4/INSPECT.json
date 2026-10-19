@@ -1,9 +1,11 @@
 {
-  "phase": "C16 PCB rear-edge source correction and all23 poses",
-  "report_file": "c16_pcb_execution.json",
+  "phase": "C16 optical-connected donor board and roll checks",
+  "report_file": "c16_space_execution.json",
   "scripts": [
     "cad/l2_r4/restore_inputs.py",
-    "cad/l2_r4/encoder_pcb_refine.py",
-    "cad/l2_r4/encoder_pcb_probe.py"
+    "cad/l2_r4/donor_envelope.py",
+    "cad/l2_r4/wheel_rotation_check.py",
+    "cad/l2_r4/mechanism_accounting.py",
+    "cad/l2_r4/battery_plug_access.py"
   ]
 }
