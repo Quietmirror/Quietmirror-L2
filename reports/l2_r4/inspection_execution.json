@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "candidate_7_concealed_cap_clearances_only",
   "source_commit": "f73ba1a39c29c3f8b1c23944e1ea390afa9f930f",
   "steps": [
