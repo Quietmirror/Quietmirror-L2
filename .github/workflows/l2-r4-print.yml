@@ -18,7 +18,7 @@ jobs:
       OMP_NUM_THREADS: '1'
       OPENBLAS_NUM_THREADS: '1'
       R4_TARGET_BRANCH: codex/r4-print-fix
-      R4_SLICE_DIAGNOSTIC: '1'
+      R4_SLICE_DIAGNOSTIC: '0'
     steps:
       - name: Read exact candidate commit
         shell: pwsh

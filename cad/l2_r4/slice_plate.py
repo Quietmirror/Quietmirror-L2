@@ -58,18 +58,24 @@ def main():
     ini=Path(__file__).with_name('PLA_0.4_0.20_ESTIMATE.ini')
     assert 'support_material_style = organic' in ini.read_text()
     assert 'support_material_buildplate_only = 1' in ini.read_text()
-    scene=trimesh.Scene();x=y=8.;rowh=0.;placements=[]
+    scene=trimesh.Scene();placements=[]
+    # Measured isolated organic-support footprints extend about 9 mm past
+    # some parts. Reserve that space rather than packing at the bed edge.
+    anchors={'BODY':(12,12),'LEFT_KEY':(110,12),'RIGHT_KEY':(155,12),
+             'WHEEL_CARRIER':(205,12),'SF_RETAINER':(110,80),
+             'SR_RETAINER':(130,80),'SIDE_FRONT_KEY':(155,80),
+             'SIDE_REAR_KEY':(175,80),'WHEEL':(205,80)}
     names=json.loads((RP/'assembly_inventory.json').read_text())['printable']
     names.sort(key=lambda n:0 if n=='BODY' else 1)
     for n in names:
         m=trimesh.load_mesh(OUT/'parts'/(n+'.stl'))
         rotation=orient(n,m)
         w,h,z=m.extents
-        if x+w>247:x=8;y+=rowh+12;rowh=0
+        x,y=anchors[n]
+        assert x+w<=247,(n,'plate overflow',x+w)
         assert y+h<=147,(n,'plate overflow',y+h)
         shift=[x-m.bounds[0,0],y-m.bounds[0,1],-m.bounds[0,2]];m.apply_translation(shift)
         scene.add_geometry(m,node_name=n,geom_name=n);placements.append(dict(name=n,rotation_y_deg=rotation,rotation_x_deg=90 if n in ('SF_RETAINER','SR_RETAINER') else 0,translation_mm=shift,bounds_mm=m.bounds.tolist(),size_mm=m.extents.tolist()))
-        x+=w+12;rowh=max(rowh,h)
     scene.units='mm';raw=WORK/'raw_plate.3mf';raw.write_bytes(trimesh.exchange.threemf.export_3MF(scene))
     target=OUT/'L2_r4_H_ALL_PARTS_SINGLE_PLATE.3mf'
     run(['--load',ini,'--dont-arrange','--export-3mf','--output',target,raw],'export')
@@ -79,7 +85,7 @@ def main():
     assert len(reopened.graph.nodes_geometry)==9,(len(reopened.graph.nodes_geometry),'3MF object count')
     assert np.allclose(reopened.bounds,scene.bounds,atol=.05),(reopened.bounds,scene.bounds)
     roundtrip=dict(object_count=len(reopened.graph.nodes_geometry),bounds_mm=reopened.bounds.tolist(),maximum_bounds_difference_mm=float(np.max(np.abs(reopened.bounds-scene.bounds))),passed=True)
-    gcode=WORK/'validation_only.gcode';run(['--dont-arrange','--export-gcode','--output',gcode,target],'slice')
+    gcode=WORK/'validation_only.gcode';run(['--load',ini,'--dont-arrange','--export-gcode','--output',gcode,target],'slice')
     run(['--info',target],'info')
     parsed=parse_gcode(gcode);per_part=[]
     for n in names:
