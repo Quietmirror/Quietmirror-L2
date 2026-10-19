@@ -9,6 +9,13 @@
       "seconds": 5.7,
       "available_memory_before_GB": 15.70797568,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/side_sf_0.py",
+      "returncode": 0,
+      "seconds": 862.48,
+      "available_memory_before_GB": 15.595446272,
+      "log_tail": "SIDE_LOCAL SF 0.0 full 0.0 residual 0 min_nonfunctional 0.29999999142793016\nSIDE_LOCAL SF 1.1348219938479889 full 0.0 residual 0 min_nonfunctional 0.29999999142792927\nSIDE_LOCAL SF 2.2696439876959777 full 0.0 residual 0 min_nonfunctional 0.29999999142792066\nSIDE_LOCAL SF 3.404465981543966 full 0.0 residual 0 min_nonfunctional 0.2999999914279239\nSIDE_LOCAL SF 4.5392879753919555 full 0.0 residual 0 min_nonfunctional 0.2999999914279291\nSIDE_LOCAL SF 5.674109969239944 full 0.0 residual 0 min_nonfunctional 0.2999999914279296\nSIDE_LOCAL SF 6.808931963087932 full 0.0 residual 0 min_nonfunctional 0.29999999142791967\nSIDE_LOCAL SF -0.5 full 0.005768871554534312 residual 0 min_nonfunctional 0.29999999142791944\nSIDE_LOCAL SF 7.108931963087932 full 0.0024565989291424166 residual 0 min_nonfunctional 0.2999999914279273\n"
     }
   ]
 }
