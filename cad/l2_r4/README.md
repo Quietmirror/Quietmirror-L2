@@ -14,7 +14,7 @@ Linux对应解释器为 `_support/venv/bin/python`。CAD/VTK需要OpenGL运行�
 
 重建不会继承旧的验收状态。运行 `ci_run.py --config` 指定以下检查配置，报告会记录实际几何和验证源码的身份：
 
-- `DIAGNOSTIC_RUN.json`：实体、闭合网格、自相交、厚度截面与尺寸。
+- `GEOMETRY_FINAL.json`：实体、闭合网格、自相交、厚度截面与尺寸；`STATIC_FINAL.json`：打印件完整实体逐对间隙；`ACCESS_FINAL.json`：完整BODY键帽直推、工具可达、压盘覆盖及隐藏特征。旧 `DIAGNOSTIC_RUN.json` 保留为历史诊断，不能代替这些最终入口。
 - `MOTION_RUN.json`：主键和滚轮组；`side_functional_checks.py`：完整侧键运动。
 - `SPACE_RUN.json`：四件装入、工具可达、六个窗口、D板域、电池服务。
 - `ELECTRONICS_RUN.json`：H包络、预留区、硬件和线束；随后运行 `contact_audit_final.py` 对明确的局部功能配合作分类。

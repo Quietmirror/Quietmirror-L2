@@ -1,0 +1,103 @@
+name: L2-r4 candidate exact CAD checks
+on:
+  push:
+    branches: [codex/r4-c18-checks]
+    paths: ['cad/l2_r4/**', '.github/workflows/l2-r4-candidate.yml']
+permissions:
+  contents: write
+concurrency:
+  group: l2-r4-c18-checks
+  cancel-in-progress: true
+jobs:
+  independent_checks:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - role: c18_left_0
+            config: MOTION_LEFT_0.json
+          - role: c18_left_1
+            config: MOTION_LEFT_1.json
+          - role: c18_left_2
+            config: MOTION_LEFT_2.json
+          - role: c18_left_3
+            config: MOTION_LEFT_3.json
+          - role: c18_left_4
+            config: MOTION_LEFT_4.json
+          - role: c18_right_0
+            config: MOTION_RIGHT_0.json
+          - role: c18_right_1
+            config: MOTION_RIGHT_1.json
+          - role: c18_right_2
+            config: MOTION_RIGHT_2.json
+          - role: c18_right_3
+            config: MOTION_RIGHT_3.json
+          - role: c18_right_4
+            config: MOTION_RIGHT_4.json
+          - role: c18_wheel_0
+            config: MOTION_WHEEL_0.json
+          - role: c18_wheel_1
+            config: MOTION_WHEEL_1.json
+          - role: c18_wheel_2
+            config: MOTION_WHEEL_2.json
+          - role: c18_wheel_3
+            config: MOTION_WHEEL_3.json
+          - role: c18_wheel_4
+            config: MOTION_WHEEL_4.json
+          - role: c18_side_sf_0
+            config: SIDE_SF_0.json
+          - role: c18_side_sf_1
+            config: SIDE_SF_1.json
+          - role: c18_side_sf_2
+            config: SIDE_SF_2.json
+          - role: c18_side_sf_3
+            config: SIDE_SF_3.json
+          - role: c18_side_sf_4
+            config: SIDE_SF_4.json
+          - role: c18_side_sr_0
+            config: SIDE_SR_0.json
+          - role: c18_side_sr_1
+            config: SIDE_SR_1.json
+          - role: c18_side_sr_2
+            config: SIDE_SR_2.json
+          - role: c18_side_sr_3
+            config: SIDE_SR_3.json
+          - role: c18_side_sr_4
+            config: SIDE_SR_4.json
+          - role: c18_electronics
+            config: ELECTRONICS_RUN.json
+          - role: c18_space
+            config: FINAL_SPACE.json
+          - role: c18_service
+            config: FINAL_SERVICE.json
+          - role: c18_geometry
+            config: GEOMETRY_FINAL.json
+          - role: c18_static
+            config: STATIC_FINAL.json
+          - role: c18_access
+            config: ACCESS_FINAL.json
+    runs-on: ubuntu-24.04
+    timeout-minutes: 150
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUTF8: '1'
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      R4_TARGET_BRANCH: codex/r4-${{ matrix.role }}-${{ github.run_id }}
+      ARTIFACT_SHA: ${{ github.sha }}
+    steps:
+      - name: Read identical immutable geometry for independent checks
+        run: |
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=1 origin "$ARTIFACT_SHA"
+          git checkout --detach FETCH_HEAD
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libglu1-mesa libgl1 libopengl0 libegl1 fonts-noto-cjk xvfb
+          python3 -m venv _support/venv
+          _support/venv/bin/pip install --disable-pip-version-check cadquery==2.8.0 gmsh==4.15.2 trimesh scipy pillow psutil shapely matplotlib rtree pymeshlab
+      - name: Numerical checks with independent result branches
+        run: xvfb-run -a _support/venv/bin/python -u cad/l2_r4/ci_run.py --config cad/l2_r4/${{ matrix.config }}
+      - name: Preserve actual result even if a criterion fails
+        if: always() && !cancelled()
+        run: python3 cad/l2_r4/ci_checkpoint.py
