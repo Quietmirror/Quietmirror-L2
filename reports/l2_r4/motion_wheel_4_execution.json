@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "Complete finite angular partition motion_wheel_4",
+  "source_commit": "d16322de8c3a9756fd0f9f36aada67e95c5e5cfe",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 3.95,
+      "available_memory_before_GB": 15.682715648,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
