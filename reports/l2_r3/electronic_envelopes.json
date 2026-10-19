@@ -1,0 +1,306 @@
+{
+  "H": [
+    {
+      "name": "SENSOR_PCB_EST",
+      "kind": "pcb",
+      "size": [
+        18,
+        18,
+        1.2
+      ],
+      "center": [
+        4,
+        66,
+        14.8
+      ],
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    },
+    {
+      "name": "PAW3950_PACKAGE_EST",
+      "kind": "sensor",
+      "size": [
+        8,
+        8,
+        2.4
+      ],
+      "center": [
+        0,
+        66,
+        13
+      ],
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    },
+    {
+      "name": "MATCHED_LENS_EST",
+      "kind": "lens",
+      "size": [
+        12,
+        14,
+        4
+      ],
+      "center": [
+        0,
+        66,
+        9.8
+      ],
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    },
+    {
+      "name": "CONTROLLER_RF_PCB_EST",
+      "kind": "pcb",
+      "size": [
+        18,
+        18,
+        1.2
+      ],
+      "center": [
+        4,
+        64,
+        18.5
+      ],
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    },
+    {
+      "name": "MCU_RADIO_EST",
+      "kind": "chip",
+      "size": [
+        8,
+        8,
+        2
+      ],
+      "center": [
+        3,
+        60.5,
+        20.1
+      ],
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    },
+    {
+      "name": "CHARGE_POWERPATH_EST",
+      "kind": "chip",
+      "size": [
+        5,
+        5,
+        1.5
+      ],
+      "center": [
+        3,
+        69,
+        19.85
+      ],
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    },
+    {
+      "name": "REGULATOR_EST",
+      "kind": "chip",
+      "size": [
+        4,
+        5,
+        1.5
+      ],
+      "center": [
+        -2.5,
+        69,
+        19.85
+      ],
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    },
+    {
+      "name": "BATTERY_CELL_EST",
+      "kind": "battery",
+      "size": [
+        18,
+        22,
+        6
+      ],
+      "center": [
+        -17,
+        57,
+        16.4
+      ],
+      "basis": "R3 smaller candidate package; actual cell capacity unknown. Historical20x24x6 failed tested placements.",
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    },
+    {
+      "name": "BATTERY_PLUG_EST",
+      "kind": "connector",
+      "size": [
+        5,
+        6,
+        3
+      ],
+      "center": [
+        -18,
+        60.5,
+        22.3
+      ],
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    },
+    {
+      "name": "RF_BAT_HEADER_EST",
+      "kind": "connector",
+      "size": [
+        3,
+        4,
+        2.4
+      ],
+      "center": [
+        -3.2,
+        61.5,
+        20.3
+      ],
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    },
+    {
+      "name": "RF_IO_HEADER_EST",
+      "kind": "connector",
+      "size": [
+        3,
+        4,
+        2.4
+      ],
+      "center": [
+        11,
+        57,
+        20.3
+      ],
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    },
+    {
+      "name": "RF_SENSOR_HEADER_EST",
+      "kind": "connector",
+      "size": [
+        3,
+        4,
+        2.4
+      ],
+      "center": [
+        8,
+        71,
+        20.3
+      ],
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    },
+    {
+      "name": "SENSOR_HEADER_EST",
+      "kind": "connector",
+      "size": [
+        3,
+        4,
+        1.5
+      ],
+      "center": [
+        6.5,
+        71,
+        16.15
+      ],
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    },
+    {
+      "name": "REMOTE_ANTENNA_PCB_EST",
+      "kind": "antenna",
+      "size": [
+        8,
+        4,
+        0.8
+      ],
+      "center": [
+        0,
+        61.5,
+        25
+      ],
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    },
+    {
+      "name": "POWER_SWITCH_BODY_EST",
+      "kind": "switch",
+      "size": [
+        8,
+        4,
+        3
+      ],
+      "center": [
+        -20,
+        71.3,
+        8.8
+      ],
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    },
+    {
+      "name": "POWER_SWITCH_TAB_EST",
+      "kind": "switch",
+      "size": [
+        3,
+        2,
+        1.8
+      ],
+      "center": [
+        -20,
+        71.3,
+        6.4
+      ],
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    },
+    {
+      "name": "POWER_SWITCH_PCB_EST",
+      "kind": "pcb",
+      "size": [
+        8,
+        3.8,
+        1.2
+      ],
+      "center": [
+        -20,
+        71.3,
+        10.9
+      ],
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    },
+    {
+      "name": "RF_USB_HEADER_EST",
+      "kind": "connector",
+      "size": [
+        3,
+        3,
+        2.4
+      ],
+      "center": [
+        -3.2,
+        56.5,
+        20.3
+      ],
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    },
+    {
+      "name": "ANTENNA_FEED_HEADER_EST",
+      "kind": "connector",
+      "size": [
+        3,
+        2,
+        1.5
+      ],
+      "center": [
+        -3,
+        65,
+        19.85
+      ],
+      "status": "ESTIMATED_PACKAGE_NOT_VENDOR_GEOMETRY"
+    }
+  ],
+  "D_status": "DONOR_ID_PENDING_USER_CONFIRMATION / PCB_GEOMETRY_UNVERIFIED / FIT_NOT_CERTIFIED",
+  "donor_user_name": "ATK A1 Plus",
+  "H_component_count": 81,
+  "coordinates": "mm; @ interpreted as geometric center",
+  "functional_status": {
+    "400-6400DPI": "UNVERIFIED",
+    "1000Hz wireless": "UNVERIFIED",
+    "no sync technologies": "UNVERIFIED",
+    "macros": "UNVERIFIED",
+    "adjustable LOD": "UNVERIFIED",
+    "low latency": "UNVERIFIED",
+    "charging": "UNVERIFIED",
+    "12h full power endurance": "UNVERIFIED"
+  },
+  "battery_requirement": "Capacity >= 12*h average_current_mA / usable_fraction; no measured current or capacity supplied",
+  "optics": "Lens height and focal datum require real package and lens; global Z axis points normal to pad"
+}

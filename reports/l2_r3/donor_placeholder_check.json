@@ -1,0 +1,87 @@
+{
+  "name": "ATK_A1_PLUS_UNMEASURED_DIAGNOSTIC",
+  "status": "FIT_NOT_CERTIFIED",
+  "pairs": [
+    {
+      "a": "ATK_A1_PLUS_UNMEASURED_DIAGNOSTIC",
+      "b": "BODY",
+      "gap_mm": null,
+      "overlap_mm3": 229.4632669418632,
+      "required_mm": null,
+      "intended_contact": false,
+      "pass_check": false,
+      "distance_kind": "not_measured_during_motion; static clearance reported separately"
+    },
+    {
+      "a": "ATK_A1_PLUS_UNMEASURED_DIAGNOSTIC",
+      "b": "LEFT_KEY",
+      "gap_mm": null,
+      "overlap_mm3": 0.0,
+      "required_mm": null,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "not_measured_during_motion; static clearance reported separately"
+    },
+    {
+      "a": "ATK_A1_PLUS_UNMEASURED_DIAGNOSTIC",
+      "b": "RIGHT_KEY",
+      "gap_mm": null,
+      "overlap_mm3": 0.0,
+      "required_mm": null,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "not_measured_during_motion; static clearance reported separately"
+    },
+    {
+      "a": "ATK_A1_PLUS_UNMEASURED_DIAGNOSTIC",
+      "b": "SIDE_FRONT_KEY",
+      "gap_mm": null,
+      "overlap_mm3": 0.0,
+      "required_mm": null,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "not_measured_during_motion; static clearance reported separately"
+    },
+    {
+      "a": "ATK_A1_PLUS_UNMEASURED_DIAGNOSTIC",
+      "b": "SIDE_REAR_KEY",
+      "gap_mm": null,
+      "overlap_mm3": 0.0,
+      "required_mm": null,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "not_measured_during_motion; static clearance reported separately"
+    },
+    {
+      "a": "ATK_A1_PLUS_UNMEASURED_DIAGNOSTIC",
+      "b": "SIDE_SWITCH_CARRIER",
+      "gap_mm": null,
+      "overlap_mm3": 0.0,
+      "required_mm": null,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "not_measured_during_motion; static clearance reported separately"
+    },
+    {
+      "a": "ATK_A1_PLUS_UNMEASURED_DIAGNOSTIC",
+      "b": "WHEEL",
+      "gap_mm": null,
+      "overlap_mm3": 0.0,
+      "required_mm": null,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "not_measured_during_motion; static clearance reported separately"
+    },
+    {
+      "a": "ATK_A1_PLUS_UNMEASURED_DIAGNOSTIC",
+      "b": "WHEEL_CARRIER",
+      "gap_mm": null,
+      "overlap_mm3": 0.0,
+      "required_mm": null,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "not_measured_during_motion; static clearance reported separately"
+    }
+  ],
+  "scope": "Placeholder board only; positive intersection applies to this assumed outline/height, not to the unknown real donor PCB"
+}

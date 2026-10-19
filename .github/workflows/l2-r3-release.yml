@@ -1,0 +1,30 @@
+name: L2-r3 measured artifact release
+on:
+  push:
+    branches: [l2-r3, main]
+    paths: ['releases/L2-r3-bundle.zip*', .github/workflows/l2-r3-release.yml, cad/l2_r3/publish_bundle.py]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: l2-r3-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Read the exact triggering commit
+        run: |
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+      - name: Materialize and verify reviewed outputs on the review branch
+        if: github.ref == 'refs/heads/l2-r3'
+        run: python3 cad/l2_r3/publish_bundle.py expand
+      - name: Publish the merged INCOMPLETE prerelease
+        if: github.ref == 'refs/heads/main'
+        run: python3 cad/l2_r3/publish_bundle.py release

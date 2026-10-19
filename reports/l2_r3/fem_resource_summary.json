@@ -1,0 +1,17 @@
+{
+  "reason": "SYSTEM_FREE_MEMORY_BELOW_512_MIB",
+  "returncode": 137,
+  "seconds": 615.3,
+  "memory_cap_gib": 4.0,
+  "peak_job_memory_gib": 0.471,
+  "solver": "CalculiX 2.22 ITERATIVE CHOLESKY",
+  "geometry": "R32",
+  "mesh_size_mm": 2.4,
+  "nodes": 149513,
+  "elements": 76440,
+  "fully_completed": false,
+  "complete_displacement_sections": 1,
+  "validated_complete_load_suite": false,
+  "raw_data_location": "_support/work/fem_r3/R32_2.4_curvature24",
+  "note": "Raw partial output is not a completed eight-load-case result and is not used to certify K3 or G8."
+}

@@ -1,0 +1,783 @@
+[
+  {
+    "name": "LEFT_KEY",
+    "printable": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1722.4990462833123,
+    "bounds_mm": [
+      5.299999899787287,
+      0.6846852341261915,
+      10.599999899999935,
+      28.00000010000022,
+      41.15,
+      26.119611768562397
+    ],
+    "mesh": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 4732,
+      "bounds_mm": [
+        [
+          5.300000190734863,
+          0.6846853494644165,
+          10.600000381469727
+        ],
+        [
+          28.0,
+          41.14970397949219,
+          26.119611740112305
+        ]
+      ],
+      "holes_patched": 0
+    }
+  },
+  {
+    "name": "RIGHT_KEY",
+    "printable": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1722.499148177148,
+    "bounds_mm": [
+      -28.0000001,
+      0.684685234126075,
+      10.5999999,
+      -5.299999899999995,
+      41.15,
+      26.119611772128
+    ],
+    "mesh": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 5652,
+      "bounds_mm": [
+        [
+          -28.0,
+          0.6846853494644165,
+          10.600000381469727
+        ],
+        [
+          -5.300000190734863,
+          41.14970397949219,
+          26.119611740112305
+        ]
+      ],
+      "holes_patched": 0
+    }
+  },
+  {
+    "name": "WHEEL",
+    "printable": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 563.1619625874001,
+    "bounds_mm": [
+      -7.25,
+      21.75,
+      12.75,
+      8.85,
+      34.25,
+      25.25
+    ],
+    "mesh": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 1520,
+      "bounds_mm": [
+        [
+          -7.25,
+          21.750699996948242,
+          12.75279712677002
+        ],
+        [
+          8.850000381469727,
+          34.24930191040039,
+          25.25
+        ]
+      ],
+      "holes_patched": 0
+    }
+  },
+  {
+    "name": "WHEEL_CARRIER",
+    "printable": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 589.8949111552148,
+    "bounds_mm": [
+      -6.8500001,
+      20.0,
+      10.4,
+      11.1,
+      52.6000001,
+      21.800000100000002
+    ],
+    "mesh": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 10828,
+      "bounds_mm": [
+        [
+          -6.849999904632568,
+          20.0,
+          10.399999618530273
+        ],
+        [
+          11.100000381469727,
+          52.59951400756836,
+          21.799686431884766
+        ]
+      ],
+      "holes_patched": 0
+    }
+  },
+  {
+    "name": "LEFT_KEY_STEEL_PIN",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 68.48671984825751,
+    "bounds_mm": [
+      7.4,
+      37.5,
+      13.32179139245,
+      29.2,
+      39.5,
+      15.32179139245
+    ]
+  },
+  {
+    "name": "LEFT_KEY_M2_SWITCH_1_BOLT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 55.844951010212924,
+    "bounds_mm": [
+      11.35,
+      23.026745489441,
+      8.699913813996,
+      24.95,
+      26.826745489441,
+      12.499913813996
+    ]
+  },
+  {
+    "name": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4.7500880922276325,
+    "bounds_mm": [
+      13.25,
+      22.426745489441,
+      8.099913813996,
+      13.55,
+      27.426745489441,
+      13.099913813996
+    ]
+  },
+  {
+    "name": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4.750088092227632,
+    "bounds_mm": [
+      23.05,
+      22.426745489441,
+      8.099913813996,
+      23.35,
+      27.426745489441,
+      13.099913813996
+    ]
+  },
+  {
+    "name": "LEFT_KEY_M2_SWITCH_1_NUT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 17.1437020911302,
+    "bounds_mm": [
+      11.65,
+      22.66781036707769,
+      8.403542871206,
+      13.25,
+      27.185680611804315,
+      12.796284756786
+    ]
+  },
+  {
+    "name": "LEFT_KEY_M2_SWITCH_2_BOLT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 55.844951010212924,
+    "bounds_mm": [
+      11.35,
+      29.208612845359003,
+      10.708524277433,
+      24.95,
+      33.008612845359,
+      14.508524277433
+    ]
+  },
+  {
+    "name": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4.750088092227632,
+    "bounds_mm": [
+      13.25,
+      28.608612845359,
+      10.108524277433,
+      13.55,
+      33.608612845359005,
+      15.108524277433
+    ]
+  },
+  {
+    "name": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4.750088092227632,
+    "bounds_mm": [
+      23.05,
+      28.608612845359,
+      10.108524277433,
+      23.35,
+      33.608612845359005,
+      15.108524277433
+    ]
+  },
+  {
+    "name": "LEFT_KEY_M2_SWITCH_2_NUT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 17.14370209113582,
+    "bounds_mm": [
+      11.65,
+      28.849677722995686,
+      10.412153334643,
+      13.25,
+      33.36754796772331,
+      14.804895220223
+    ]
+  },
+  {
+    "name": "SWITCH_LEFT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 457.97607958609564,
+    "bounds_mm": [
+      15.4,
+      20.4333853170504,
+      5.062818236751,
+      21.2,
+      35.15497645509,
+      18.352661240909587
+    ]
+  },
+  {
+    "name": "RIGHT_KEY_STEEL_PIN",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 68.48671984825751,
+    "bounds_mm": [
+      -29.2,
+      37.5,
+      13.32179139245,
+      -7.4,
+      39.5,
+      15.32179139245
+    ]
+  },
+  {
+    "name": "RIGHT_KEY_M2_SWITCH_1_BOLT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 55.84495101021294,
+    "bounds_mm": [
+      -24.95,
+      23.026745489441,
+      8.699913813996,
+      -11.35,
+      26.826745489441,
+      12.499913813996
+    ]
+  },
+  {
+    "name": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4.7500880922276325,
+    "bounds_mm": [
+      -13.55,
+      22.426745489441,
+      8.099913813996,
+      -13.25,
+      27.426745489441,
+      13.099913813996
+    ]
+  },
+  {
+    "name": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4.750088092227633,
+    "bounds_mm": [
+      -23.35,
+      22.426745489441,
+      8.099913813996,
+      -23.05,
+      27.426745489441,
+      13.099913813996
+    ]
+  },
+  {
+    "name": "RIGHT_KEY_M2_SWITCH_1_NUT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 17.14370209113624,
+    "bounds_mm": [
+      -13.25,
+      22.667810367077248,
+      8.403542871205435,
+      -11.65,
+      27.185680611804752,
+      12.796284756786566
+    ]
+  },
+  {
+    "name": "RIGHT_KEY_M2_SWITCH_2_BOLT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 55.84495101021294,
+    "bounds_mm": [
+      -24.95,
+      29.208612845359003,
+      10.708524277433,
+      -11.35,
+      33.008612845359,
+      14.508524277433
+    ]
+  },
+  {
+    "name": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4.75008809222763,
+    "bounds_mm": [
+      -13.55,
+      28.608612845359,
+      10.108524277433,
+      -13.25,
+      33.608612845359005,
+      15.108524277433
+    ]
+  },
+  {
+    "name": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4.750088092227629,
+    "bounds_mm": [
+      -23.35,
+      28.608612845359,
+      10.108524277433,
+      -23.05,
+      33.608612845359005,
+      15.108524277433
+    ]
+  },
+  {
+    "name": "RIGHT_KEY_M2_SWITCH_2_NUT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 17.143702091142753,
+    "bounds_mm": [
+      -13.25,
+      28.84967772299525,
+      10.412153334642232,
+      -11.65,
+      33.36754796772375,
+      14.804895220223768
+    ]
+  },
+  {
+    "name": "SWITCH_RIGHT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 457.97607958615396,
+    "bounds_mm": [
+      -21.2,
+      20.433385317050107,
+      5.062818236752,
+      -15.4,
+      35.15497645509019,
+      18.352661240910493
+    ]
+  },
+  {
+    "name": "ENCODER_EC10E_HOUSING",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 326.28910034997637,
+    "bounds_mm": [
+      3.5,
+      21.75,
+      8.5,
+      7.95,
+      34.25,
+      22.6
+    ]
+  },
+  {
+    "name": "ENCODER_EC10E_ROTOR",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 19.283978644690745,
+    "bounds_mm": [
+      3.55,
+      26.51,
+      17.51,
+      7.95,
+      29.49,
+      20.49
+    ]
+  },
+  {
+    "name": "WHEEL_CARRIER_STEEL_PIN",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 43.35397861953914,
+    "bounds_mm": [
+      -6.9,
+      49.0,
+      18.0,
+      6.9,
+      51.0,
+      20.0
+    ]
+  },
+  {
+    "name": "SWITCH_MIDDLE",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 457.976079586122,
+    "bounds_mm": [
+      -3.3000000000000007,
+      37.1,
+      5.55,
+      2.5,
+      49.9,
+      16.55
+    ]
+  },
+  {
+    "name": "WHEEL_M2_SWITCH_1_BOLT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 55.84495101021295,
+    "bounds_mm": [
+      -7.05,
+      38.300000000000004,
+      8.65,
+      6.55,
+      42.1,
+      12.450000000000001
+    ]
+  },
+  {
+    "name": "WHEEL_M2_SWITCH_1_WASHER_NUT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4.750088092227631,
+    "bounds_mm": [
+      4.35,
+      37.7,
+      8.05,
+      4.65,
+      42.7,
+      13.05
+    ]
+  },
+  {
+    "name": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4.750088092227617,
+    "bounds_mm": [
+      -5.45,
+      37.7,
+      8.05,
+      -5.15,
+      42.7,
+      13.05
+    ]
+  },
+  {
+    "name": "WHEEL_M2_SWITCH_1_NUT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 17.143702091140053,
+    "bounds_mm": [
+      4.65,
+      38.19999999999993,
+      8.240598923241,
+      6.25,
+      42.200000000000074,
+      12.859401076759
+    ]
+  },
+  {
+    "name": "WHEEL_M2_SWITCH_2_BOLT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 55.84495101021295,
+    "bounds_mm": [
+      -7.05,
+      44.800000000000004,
+      8.65,
+      6.55,
+      48.6,
+      12.450000000000001
+    ]
+  },
+  {
+    "name": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4.750088092227631,
+    "bounds_mm": [
+      4.35,
+      44.2,
+      8.05,
+      4.65,
+      49.2,
+      13.05
+    ]
+  },
+  {
+    "name": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4.750088092227617,
+    "bounds_mm": [
+      -5.45,
+      44.2,
+      8.05,
+      -5.15,
+      49.2,
+      13.05
+    ]
+  },
+  {
+    "name": "WHEEL_M2_SWITCH_2_NUT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 17.14370209114005,
+    "bounds_mm": [
+      4.65,
+      44.69999999999993,
+      8.240598923241,
+      6.25,
+      48.700000000000074,
+      12.859401076759
+    ]
+  },
+  {
+    "name": "USB_C_REFERENCE",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 217.49679,
+    "bounds_mm": [
+      -4.47,
+      10.5,
+      9.0,
+      4.47,
+      17.85,
+      12.31
+    ]
+  },
+  {
+    "name": "USB_ADAPTER_PCB_REFERENCE",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 190.95221315766136,
+    "bounds_mm": [
+      -10.0,
+      10.0,
+      8.0,
+      10.0,
+      20.0,
+      9.0
+    ]
+  },
+  {
+    "name": "USB_M2x3_L",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 27.570617127904022,
+    "bounds_mm": [
+      5.9,
+      11.1,
+      6.3,
+      9.7,
+      14.9,
+      10.9
+    ]
+  },
+  {
+    "name": "USB_WASHER_L",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4.750088092227779,
+    "bounds_mm": [
+      5.3,
+      10.5,
+      9.0,
+      10.3,
+      15.5,
+      9.3
+    ]
+  },
+  {
+    "name": "USB_M2x3_R",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 27.570617127904015,
+    "bounds_mm": [
+      -9.7,
+      11.1,
+      6.3,
+      -5.9,
+      14.9,
+      10.9
+    ]
+  },
+  {
+    "name": "USB_WASHER_R",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4.750088092227777,
+    "bounds_mm": [
+      -10.3,
+      10.5,
+      9.0,
+      -5.3,
+      15.5,
+      9.3
+    ]
+  },
+  {
+    "name": "ENCODER_M2x3_FRONT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 27.570617127904033,
+    "bounds_mm": [
+      6.6,
+      24.200000000000003,
+      7.3,
+      10.4,
+      28.0,
+      11.9
+    ]
+  },
+  {
+    "name": "ENCODER_WASHER_FRONT",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 3.0159289474461897,
+    "bounds_mm": [
+      6.4,
+      24.0,
+      8.9,
+      10.6,
+      28.200000000000003,
+      9.2
+    ]
+  },
+  {
+    "name": "ENCODER_M2x3_REAR",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 27.570617127904026,
+    "bounds_mm": [
+      -0.5999999999999999,
+      30.6,
+      7.3,
+      3.2,
+      34.4,
+      11.9
+    ]
+  },
+  {
+    "name": "ENCODER_WASHER_REAR",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 3.015928947446193,
+    "bounds_mm": [
+      -0.8,
+      30.4,
+      8.9,
+      3.4000000000000004,
+      34.6,
+      9.2
+    ]
+  },
+  {
+    "name": "ENCODER_ADAPTER_PCB_EST",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 179.9927202483955,
+    "bounds_mm": [
+      -0.8,
+      20.8,
+      9.2,
+      11.4,
+      35.9,
+      10.4
+    ]
+  }
+]

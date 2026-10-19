@@ -1,0 +1,1232 @@
+[
+  {
+    "path": ".github/workflows/l2-r3-release.yml",
+    "bytes": 1023,
+    "git_blob_sha": "df0608d6a2cc27065d55bd75e9d5242209237a1e"
+  },
+  {
+    "path": "README.md",
+    "bytes": 3928,
+    "git_blob_sha": "c7c37f1ac4b7037b62f166b04c2ddbd252a3431f"
+  },
+  {
+    "path": "REPRODUCE.md",
+    "bytes": 3036,
+    "git_blob_sha": "550c3441019336d9e3fb80740ddc2deefacbfb9c"
+  },
+  {
+    "path": "cad/l2_r3/ATTRIBUTION.md",
+    "bytes": 1036,
+    "git_blob_sha": "4041319df862ab85fc5a945e5306d20cdd7e3117"
+  },
+  {
+    "path": "cad/l2_r3/PLA_0.4_0.20_ESTIMATE.ini",
+    "bytes": 2261,
+    "git_blob_sha": "0f1ab4ce9fe4b05fafaa22cf66e9bca269efc9e4"
+  },
+  {
+    "path": "cad/l2_r3/additional_checks.py",
+    "bytes": 3051,
+    "git_blob_sha": "103876fd30124051c5a39dbb186a4c0619709411"
+  },
+  {
+    "path": "cad/l2_r3/bootstrap.py",
+    "bytes": 2013,
+    "git_blob_sha": "8597bce04b490251175b82de9911a2ba44d683be"
+  },
+  {
+    "path": "cad/l2_r3/build_body.py",
+    "bytes": 5109,
+    "git_blob_sha": "a3ee7239bed7367c352d33445be153c2b0a0bd63"
+  },
+  {
+    "path": "cad/l2_r3/closest_points.py",
+    "bytes": 674,
+    "git_blob_sha": "1a363c6c8b73fc45b75b73c21cace146e3c3d6f7"
+  },
+  {
+    "path": "cad/l2_r3/common.py",
+    "bytes": 4036,
+    "git_blob_sha": "ad8a4b6095a31a7e58bd3ab638afa8794c196731"
+  },
+  {
+    "path": "cad/l2_r3/electronics_assembly.py",
+    "bytes": 5027,
+    "git_blob_sha": "9c65f63ec717579449645b5ccdacd1da91898bcf"
+  },
+  {
+    "path": "cad/l2_r3/fasteners.py",
+    "bytes": 1846,
+    "git_blob_sha": "116e9a4a55c1fc12c953ab2f3df8e69f95a561d3"
+  },
+  {
+    "path": "cad/l2_r3/fem_baseline.py",
+    "bytes": 727,
+    "git_blob_sha": "4df901e70f329d6754ecb6e9906eb068b0fe34ac"
+  },
+  {
+    "path": "cad/l2_r3/fem_iterative_prepare.py",
+    "bytes": 933,
+    "git_blob_sha": "21f94d7aece0c31f6f98b29cadef4edcf7082d77"
+  },
+  {
+    "path": "cad/l2_r3/fem_mesh.py",
+    "bytes": 1478,
+    "git_blob_sha": "6bb7c45c422e6be8e566506fd29de502ae1c9375"
+  },
+  {
+    "path": "cad/l2_r3/fem_stage.py",
+    "bytes": 7305,
+    "git_blob_sha": "d5f17ef62e3269e37b71eacb6ef8e31f32c21fcc"
+  },
+  {
+    "path": "cad/l2_r3/functional_checks.py",
+    "bytes": 4559,
+    "git_blob_sha": "1df10ffa9d3016015e6cb4c715c2d88f90e41174"
+  },
+  {
+    "path": "cad/l2_r3/guard.py",
+    "bytes": 4211,
+    "git_blob_sha": "517e67d51fc6c8c0cf1aa6b3d7d1bc4f9649865b"
+  },
+  {
+    "path": "cad/l2_r3/independent_precheck.py",
+    "bytes": 1914,
+    "git_blob_sha": "17c4996baee55aa14a45a342d8eb292490c7bff6"
+  },
+  {
+    "path": "cad/l2_r3/inspect_hits.py",
+    "bytes": 438,
+    "git_blob_sha": "35f2c0bb98cb4b1169e4142ad52e1bd0aaa878e5"
+  },
+  {
+    "path": "cad/l2_r3/interface_check.py",
+    "bytes": 14470,
+    "git_blob_sha": "264151e5820514e2c05f6558bd1c17bc50bd4d46"
+  },
+  {
+    "path": "cad/l2_r3/interfaces.py",
+    "bytes": 5018,
+    "git_blob_sha": "793658286b5e294a633248a2b3c65b5a5d994eac"
+  },
+  {
+    "path": "cad/l2_r3/mechanics.py",
+    "bytes": 19406,
+    "git_blob_sha": "aef07c9145e12846ae708b15960c74cdbef44b11"
+  },
+  {
+    "path": "cad/l2_r3/mesh_audit.py",
+    "bytes": 1275,
+    "git_blob_sha": "27c2bb85f622bf76d727d023c557e0ded0149032"
+  },
+  {
+    "path": "cad/l2_r3/mesh_metrics.py",
+    "bytes": 760,
+    "git_blob_sha": "2ad639e507da712c89018c34edc018a53e3fb74a"
+  },
+  {
+    "path": "cad/l2_r3/native.py",
+    "bytes": 2171,
+    "git_blob_sha": "4d426c4b116be4fae8a701c13ffa657f7a88eef2"
+  },
+  {
+    "path": "cad/l2_r3/prepare_model_bundle.py",
+    "bytes": 1972,
+    "git_blob_sha": "824e6fbf6ca0cc3df178ac508945d2bba881be69"
+  },
+  {
+    "path": "cad/l2_r3/prepare_publication.py",
+    "bytes": 2561,
+    "git_blob_sha": "19d4c02e6aeaa0e2aa6e32d641201641a2e4bffd"
+  },
+  {
+    "path": "cad/l2_r3/prepare_sources.py",
+    "bytes": 2462,
+    "git_blob_sha": "138daa0d2d6047d7497c869ed2da2992ab3043cf"
+  },
+  {
+    "path": "cad/l2_r3/publish_bundle.py",
+    "bytes": 5516,
+    "git_blob_sha": "7b53f0bf563741a30d8589d0b9d146550ca85ca6"
+  },
+  {
+    "path": "cad/l2_r3/remaining_parts.py",
+    "bytes": 4015,
+    "git_blob_sha": "03ccd8c32f76fa47b9dcb2a5b7fb25a98164fb15"
+  },
+  {
+    "path": "cad/l2_r3/render.py",
+    "bytes": 8299,
+    "git_blob_sha": "05358c8335feab0bfa43ff05d978f7be5a5e5227"
+  },
+  {
+    "path": "cad/l2_r3/requirements.txt",
+    "bytes": 149,
+    "git_blob_sha": "d1e1b23d4259ab44a2ee8fee02a36b578c7fa32a"
+  },
+  {
+    "path": "cad/l2_r3/restore_inputs.py",
+    "bytes": 820,
+    "git_blob_sha": "a4a53ddb35e430c0bfc8180bee4eada124014bdc"
+  },
+  {
+    "path": "cad/l2_r3/run_staged_fem.py",
+    "bytes": 3288,
+    "git_blob_sha": "5537a66915c8f0e09c301f83426d726834e5606c"
+  },
+  {
+    "path": "cad/l2_r3/side_module.py",
+    "bytes": 7802,
+    "git_blob_sha": "7188d6628866f59f20034eec340291d11bd78614"
+  },
+  {
+    "path": "cad/l2_r3/slice_plate.py",
+    "bytes": 4143,
+    "git_blob_sha": "0fadb60bb2e428aac0473e950764d9d4defcb6b5"
+  },
+  {
+    "path": "cad/l2_r3/surface_mesh.py",
+    "bytes": 1596,
+    "git_blob_sha": "55731f7d871384817391c75e18a6349cb317852e"
+  },
+  {
+    "path": "cad/l2_r3/surfaces.py",
+    "bytes": 11268,
+    "git_blob_sha": "1428a699a8c091920502a8328e0efef8302d51e9"
+  },
+  {
+    "path": "cad/l2_r3/trial_and_plate_views.py",
+    "bytes": 3925,
+    "git_blob_sha": "a6fa8d42bcebf6b0e53404b5c4b880d667ddb055"
+  },
+  {
+    "path": "cad/l2_r3/validate.py",
+    "bytes": 7488,
+    "git_blob_sha": "97e147e085a39da73aeffb95322e277b8bebcc0c"
+  },
+  {
+    "path": "cad/l2_r3/wheel_mechanism.py",
+    "bytes": 6224,
+    "git_blob_sha": "b4bf48fb03bb057333ab1a51a0eabe1336509d76"
+  },
+  {
+    "path": "cad/l2_r3/write_report.py",
+    "bytes": 27587,
+    "git_blob_sha": "fe31de0e286dbc1ab2b6be9f595c01022dd4d7ab"
+  },
+  {
+    "path": "handoff/archive/l2_r2/ROOT_README.md",
+    "bytes": 1859,
+    "git_blob_sha": "0c666701fed7f6c9b70352dedba418502103d95c"
+  },
+  {
+    "path": "handoff/archive/l2_r2/ROOT_REPRODUCE.md",
+    "bytes": 3440,
+    "git_blob_sha": "9edf6433441e692989248b57fc8b51e7ccd2c160"
+  },
+  {
+    "path": "handoff/l2_r3/ASSEMBLY_SEQUENCE.md",
+    "bytes": 1459,
+    "git_blob_sha": "85a4b626e339591367687457ca1a8701b839f9fd"
+  },
+  {
+    "path": "handoff/l2_r3/FINAL_ACCOUNTING.json",
+    "bytes": 7400,
+    "git_blob_sha": "48b9e2b745a6214dd98c110925099d7c34d5ab5e"
+  },
+  {
+    "path": "handoff/l2_r3/FINAL_ACCOUNTING.md",
+    "bytes": 899,
+    "git_blob_sha": "f0ecd5d525c569565611e3a2270958660b8afcbf"
+  },
+  {
+    "path": "handoff/l2_r3/INTERFERENCE_REPORT.md",
+    "bytes": 3573,
+    "git_blob_sha": "184a744eab6d1209f74000eb04168ba2e8810fe5"
+  },
+  {
+    "path": "handoff/l2_r3/INTERNAL_COMPONENTS_SIMULATION.md",
+    "bytes": 1878,
+    "git_blob_sha": "a35982504bc9afa983bf87d6acb3a7fc1ddb01ae"
+  },
+  {
+    "path": "handoff/l2_r3/OPENINGS_RESOLUTION.md",
+    "bytes": 835,
+    "git_blob_sha": "5abeacd136244ea28186e94b37067ae43c6d62ce"
+  },
+  {
+    "path": "handoff/l2_r3/PARAMETERS_CORRECTED.md",
+    "bytes": 2996,
+    "git_blob_sha": "9e04497dcda1a04672378e667e0d0732fc4c9ef5"
+  },
+  {
+    "path": "handoff/l2_r3/README.md",
+    "bytes": 250,
+    "git_blob_sha": "0909af1f5425e614c4a004bf1c1d8f78786d66b2"
+  },
+  {
+    "path": "handoff/l2_r3/RELEASE_NOTES.md",
+    "bytes": 2425,
+    "git_blob_sha": "88bdd23f94ce6c128d985a24e06fbcf7e504f051"
+  },
+  {
+    "path": "handoff/l2_r3/SECOND_CHECK.md",
+    "bytes": 3087,
+    "git_blob_sha": "edb6c77dc507e2dd580b1cd85bc6614636ee59e9"
+  },
+  {
+    "path": "handoff/l2_r3/SIDE_KEY_FUNCTION.md",
+    "bytes": 1346,
+    "git_blob_sha": "07c8a6980d30ed10a880e4c56d7ffa6302b50918"
+  },
+  {
+    "path": "handoff/l2_r3/SLICE_REPORT.md",
+    "bytes": 967,
+    "git_blob_sha": "a7b50efd9a83059ebfa23ec44bd520522076c100"
+  },
+  {
+    "path": "handoff/l2_r3/TUNING_LOG.md",
+    "bytes": 576,
+    "git_blob_sha": "ae3ab17bb3f45e8b1c27784b7e84cd684edce172"
+  },
+  {
+    "path": "models/L2_r3/FULL_ASSEMBLY_D_PLACEHOLDER.step",
+    "bytes": 38665623,
+    "git_blob_sha": "5346594af27a38278025bcd1a20ad72d9c44d351"
+  },
+  {
+    "path": "models/L2_r3/FULL_ASSEMBLY_H.FCStd",
+    "bytes": 7916817,
+    "git_blob_sha": "d4a1d5c2109be51e1bca4814f3003e7d2187ff41"
+  },
+  {
+    "path": "models/L2_r3/FULL_ASSEMBLY_H.step",
+    "bytes": 40987732,
+    "git_blob_sha": "7067764500b0e6cb822ebb1aa0f3d7f2481ff3e0"
+  },
+  {
+    "path": "models/L2_r3/L2_r3_H_ALL_PARTS_SINGLE_PLATE.3mf",
+    "bytes": 7296671,
+    "git_blob_sha": "d4a885baecf0179b7b1c904155bac88b007bd8a4"
+  },
+  {
+    "path": "models/L2_r3/SIDE_MODULE_F2_TRIAL.3mf",
+    "bytes": 998304,
+    "git_blob_sha": "25cd4d0146f69fe5251947df30cf80ec454fce59"
+  },
+  {
+    "path": "models/L2_r3/inputs/R32_BASELINE.FCStd",
+    "bytes": 4304925,
+    "git_blob_sha": "9796db517829fe12595b528115a273acff5d61b8"
+  },
+  {
+    "path": "models/L2_r3/parts/BODY.step",
+    "bytes": 16823051,
+    "git_blob_sha": "23cbdde0e35dd515f8cd5545922d95492e285b69"
+  },
+  {
+    "path": "models/L2_r3/parts/BODY.stl",
+    "bytes": 18637784,
+    "git_blob_sha": "6a08ffd0add98ad9482c0f780702ccbed87f2386"
+  },
+  {
+    "path": "models/L2_r3/parts/LEFT_KEY.step",
+    "bytes": 8507767,
+    "git_blob_sha": "e2faf1f3a5687502fc083b2b25d240ceb3bacaf4"
+  },
+  {
+    "path": "models/L2_r3/parts/LEFT_KEY.stl",
+    "bytes": 261884,
+    "git_blob_sha": "d8afa3b59593f98151ca3d5309f0d5d9e4c340c8"
+  },
+  {
+    "path": "models/L2_r3/parts/RIGHT_KEY.step",
+    "bytes": 8609610,
+    "git_blob_sha": "69d8c163117d5515eb515c6ac64bfad6d7efee01"
+  },
+  {
+    "path": "models/L2_r3/parts/RIGHT_KEY.stl",
+    "bytes": 293384,
+    "git_blob_sha": "c2c974d5360493cfedcbfa24a54429d789a39155"
+  },
+  {
+    "path": "models/L2_r3/parts/SIDE_FRONT_KEY.step",
+    "bytes": 2480942,
+    "git_blob_sha": "a7846cbdf8f61b1c0fe4fe19da092a783ef98adc"
+  },
+  {
+    "path": "models/L2_r3/parts/SIDE_FRONT_KEY.stl",
+    "bytes": 1423984,
+    "git_blob_sha": "df43de9286a46de6082a42e5a6d49024387e4ee5"
+  },
+  {
+    "path": "models/L2_r3/parts/SIDE_REAR_KEY.step",
+    "bytes": 2244532,
+    "git_blob_sha": "7408730c87fdc3425f30f849a90cc247c47bcd01"
+  },
+  {
+    "path": "models/L2_r3/parts/SIDE_REAR_KEY.stl",
+    "bytes": 1512184,
+    "git_blob_sha": "0d4874e4ba25c2ae3aaa8c6793d60d6da7699005"
+  },
+  {
+    "path": "models/L2_r3/parts/SIDE_SWITCH_CARRIER.step",
+    "bytes": 335454,
+    "git_blob_sha": "3eb95b7367a4376e04b2ad3d99c6f3f4dd996a67"
+  },
+  {
+    "path": "models/L2_r3/parts/SIDE_SWITCH_CARRIER.stl",
+    "bytes": 103284,
+    "git_blob_sha": "4fcb19302a33ec285a5ac3b9c6359eb3cddd06a7"
+  },
+  {
+    "path": "models/L2_r3/parts/WHEEL.step",
+    "bytes": 112214,
+    "git_blob_sha": "b8a07b8f1a75b1ba5b623b804ed22609e6ec0830"
+  },
+  {
+    "path": "models/L2_r3/parts/WHEEL.stl",
+    "bytes": 76084,
+    "git_blob_sha": "3439dcc27d35af2abe190c6bf5dbda82dd3cc316"
+  },
+  {
+    "path": "models/L2_r3/parts/WHEEL_CARRIER.step",
+    "bytes": 500553,
+    "git_blob_sha": "0383b2c49ab4f006488216df91ec744f9ec47565"
+  },
+  {
+    "path": "models/L2_r3/parts/WHEEL_CARRIER.stl",
+    "bytes": 541484,
+    "git_blob_sha": "b238a2adc17409bfca13df00dd9620653a00b5bc"
+  },
+  {
+    "path": "models/L2_r3/reference/ANTENNA_FEED_HEADER_EST.step",
+    "bytes": 15513,
+    "git_blob_sha": "44107e70efd310e41b67f225aa75ba0ed22ad42a"
+  },
+  {
+    "path": "models/L2_r3/reference/ANTENNA_FEED_ROUTE_EST.step",
+    "bytes": 62032,
+    "git_blob_sha": "6c950bd64f1d9fb0519c5ba996e93c710b3b98ba"
+  },
+  {
+    "path": "models/L2_r3/reference/ANTENNA_KEEPOUT_EST.step",
+    "bytes": 15502,
+    "git_blob_sha": "7208be2efd1fc8b34630469665f80b0c57483e20"
+  },
+  {
+    "path": "models/L2_r3/reference/ATK_A1_PLUS_UNMEASURED_DIAGNOSTIC.step",
+    "bytes": 15475,
+    "git_blob_sha": "7568c865c95e50d35f141689f7f8f7747a00766b"
+  },
+  {
+    "path": "models/L2_r3/reference/BATTERY_CELL_EST.step",
+    "bytes": 15508,
+    "git_blob_sha": "114cbc7e8e6d5c77f621a8184bbbd739607ae7e9"
+  },
+  {
+    "path": "models/L2_r3/reference/BATTERY_PLUG_EST.step",
+    "bytes": 15561,
+    "git_blob_sha": "9ed4bb5cae75e86f7098bd5ece2c04055a80bf50"
+  },
+  {
+    "path": "models/L2_r3/reference/BATTERY_ROUTE_EST.step",
+    "bytes": 57219,
+    "git_blob_sha": "afa7b40b24a59caa2e98bdc16ede05e242ca1799"
+  },
+  {
+    "path": "models/L2_r3/reference/BATTERY_SERVICE_EST.step",
+    "bytes": 15558,
+    "git_blob_sha": "47aa40f3668f43934def8d2e51f67c0318f78cfe"
+  },
+  {
+    "path": "models/L2_r3/reference/CARRIER_M2x5_1.step",
+    "bytes": 9527,
+    "git_blob_sha": "ba86d0b9e9da4626c1848e1077548e83b9cfb4b6"
+  },
+  {
+    "path": "models/L2_r3/reference/CARRIER_M2x5_2.step",
+    "bytes": 9500,
+    "git_blob_sha": "aeec7c8416823459e767dc0865565cdf6047ca13"
+  },
+  {
+    "path": "models/L2_r3/reference/CHARGE_POWERPATH_EST.step",
+    "bytes": 15511,
+    "git_blob_sha": "3007fe075b41db6496bb4784a3509da574adfbd5"
+  },
+  {
+    "path": "models/L2_r3/reference/CONTROLLER_RF_PCB_EST.step",
+    "bytes": 15493,
+    "git_blob_sha": "bac9bbd02e7c56aefd21792499b5daff4243295c"
+  },
+  {
+    "path": "models/L2_r3/reference/ENCODER_ADAPTER_PCB_EST.step",
+    "bytes": 99844,
+    "git_blob_sha": "f90b1781950d701c6d9da856d402046741ebe0e0"
+  },
+  {
+    "path": "models/L2_r3/reference/ENCODER_EC10E_HOUSING.step",
+    "bytes": 131700,
+    "git_blob_sha": "2abdabf37a0c2b1cc21cfbd41ead815e46e3a533"
+  },
+  {
+    "path": "models/L2_r3/reference/ENCODER_EC10E_ROTOR.step",
+    "bytes": 28321,
+    "git_blob_sha": "ac948437a3738f93ae272aa47e5d73989464ba43"
+  },
+  {
+    "path": "models/L2_r3/reference/ENCODER_M2x3_FRONT.step",
+    "bytes": 9485,
+    "git_blob_sha": "df3c92086087be96b5819f456382e7341c9ae6d4"
+  },
+  {
+    "path": "models/L2_r3/reference/ENCODER_M2x3_REAR.step",
+    "bytes": 9482,
+    "git_blob_sha": "8c3bcafd2f4beeb5dca3390871c67e6aa30845cd"
+  },
+  {
+    "path": "models/L2_r3/reference/ENCODER_WASHER_FRONT.step",
+    "bytes": 9267,
+    "git_blob_sha": "083bf81ac11dab797f262e19d7864f7e3ed08b4b"
+  },
+  {
+    "path": "models/L2_r3/reference/ENCODER_WASHER_REAR.step",
+    "bytes": 9264,
+    "git_blob_sha": "a6cf39ac7fa1a7b3cfea17e497c7f55f054c5491"
+  },
+  {
+    "path": "models/L2_r3/reference/LEFT_KEY_M2_SWITCH_1_BOLT.step",
+    "bytes": 12637,
+    "git_blob_sha": "f5096f9c6d720bc08e0e0c59cc366fa9459db612"
+  },
+  {
+    "path": "models/L2_r3/reference/LEFT_KEY_M2_SWITCH_1_NUT.step",
+    "bytes": 30170,
+    "git_blob_sha": "1742cbcfcce4013a9717750814026b0212833c69"
+  },
+  {
+    "path": "models/L2_r3/reference/LEFT_KEY_M2_SWITCH_1_WASHER_HEAD.step",
+    "bytes": 12358,
+    "git_blob_sha": "a07ddb29f0dfa78c213cc6d53feab7457877066d"
+  },
+  {
+    "path": "models/L2_r3/reference/LEFT_KEY_M2_SWITCH_1_WASHER_NUT.step",
+    "bytes": 12358,
+    "git_blob_sha": "4e290e99b430fb564b0ee771ccebc6ab8d5c183b"
+  },
+  {
+    "path": "models/L2_r3/reference/LEFT_KEY_M2_SWITCH_2_BOLT.step",
+    "bytes": 12641,
+    "git_blob_sha": "d6af96d9aba76fdf47807f948e7f31b5806fa56c"
+  },
+  {
+    "path": "models/L2_r3/reference/LEFT_KEY_M2_SWITCH_2_NUT.step",
+    "bytes": 30232,
+    "git_blob_sha": "f3b2bf389cb9321815a7f774462bfa283a253814"
+  },
+  {
+    "path": "models/L2_r3/reference/LEFT_KEY_M2_SWITCH_2_WASHER_HEAD.step",
+    "bytes": 12365,
+    "git_blob_sha": "ada858aa03c26f4dc5e48ec09ed2cb030d88b24d"
+  },
+  {
+    "path": "models/L2_r3/reference/LEFT_KEY_M2_SWITCH_2_WASHER_NUT.step",
+    "bytes": 12365,
+    "git_blob_sha": "3917a3d2182725c3bd9ca4986cc7fdef702ab9fe"
+  },
+  {
+    "path": "models/L2_r3/reference/LEFT_KEY_STEEL_PIN.step",
+    "bytes": 6877,
+    "git_blob_sha": "9fab31a5cc3377f5f3c3199bc9976aeb7d40e737"
+  },
+  {
+    "path": "models/L2_r3/reference/MATCHED_LENS_EST.step",
+    "bytes": 15463,
+    "git_blob_sha": "2d1194f503641edb20ffc74bc954712b5bfb53c2"
+  },
+  {
+    "path": "models/L2_r3/reference/MCU_RADIO_EST.step",
+    "bytes": 15498,
+    "git_blob_sha": "7bd6f8376d97e256a6df6d751bfc0c0ead8acd18"
+  },
+  {
+    "path": "models/L2_r3/reference/OPTICAL_PATH_EST.step",
+    "bytes": 15497,
+    "git_blob_sha": "05183a184fcc48f471775f658606251f63cc35a6"
+  },
+  {
+    "path": "models/L2_r3/reference/PAW3950_PACKAGE_EST.step",
+    "bytes": 15476,
+    "git_blob_sha": "128f69667fdf0911b71f7bd3e453debc0527c177"
+  },
+  {
+    "path": "models/L2_r3/reference/POWER_SWITCH_BODY_EST.step",
+    "bytes": 15518,
+    "git_blob_sha": "f01c12d4145cea0854d96610e2538f5ead9fe578"
+  },
+  {
+    "path": "models/L2_r3/reference/POWER_SWITCH_PCB_EST.step",
+    "bytes": 15543,
+    "git_blob_sha": "4d4f7fe753188034e63f150bfc87b7581565d68c"
+  },
+  {
+    "path": "models/L2_r3/reference/POWER_SWITCH_TAB_EST.step",
+    "bytes": 15539,
+    "git_blob_sha": "f6dd6467bacd381a8868e9f2134403cb8cc2014e"
+  },
+  {
+    "path": "models/L2_r3/reference/REGULATOR_EST.step",
+    "bytes": 15539,
+    "git_blob_sha": "08ec1731f2169224961803df41139cfb0cf2f8ee"
+  },
+  {
+    "path": "models/L2_r3/reference/REMOTE_ANTENNA_PCB_EST.step",
+    "bytes": 15504,
+    "git_blob_sha": "2f27f7152a8ae97f035857381b4c2078caf797d1"
+  },
+  {
+    "path": "models/L2_r3/reference/RF_BAT_HEADER_EST.step",
+    "bytes": 15539,
+    "git_blob_sha": "c1785eb338296f6033410d66b84b8f63d27ce757"
+  },
+  {
+    "path": "models/L2_r3/reference/RF_IO_HEADER_EST.step",
+    "bytes": 15496,
+    "git_blob_sha": "c89d171d4c163f82f03c0f4410cb5f98f02986db"
+  },
+  {
+    "path": "models/L2_r3/reference/RF_SENSOR_HEADER_EST.step",
+    "bytes": 15487,
+    "git_blob_sha": "2b29c291441647b0a09ed98e163cb2e28444c17c"
+  },
+  {
+    "path": "models/L2_r3/reference/RF_USB_HEADER_EST.step",
+    "bytes": 15513,
+    "git_blob_sha": "0bf1ad2d61544c181c18201c40955be9c8381b95"
+  },
+  {
+    "path": "models/L2_r3/reference/RIGHT_KEY_M2_SWITCH_1_BOLT.step",
+    "bytes": 12653,
+    "git_blob_sha": "ab2df8a0cb625b3fda8ce53e2e6526d0c26d908d"
+  },
+  {
+    "path": "models/L2_r3/reference/RIGHT_KEY_M2_SWITCH_1_NUT.step",
+    "bytes": 30217,
+    "git_blob_sha": "b4cfdf55218774b68fc20958f8aba9a92db4ddce"
+  },
+  {
+    "path": "models/L2_r3/reference/RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD.step",
+    "bytes": 12371,
+    "git_blob_sha": "68e0afc22d070d00be85a9b9656e776417937d31"
+  },
+  {
+    "path": "models/L2_r3/reference/RIGHT_KEY_M2_SWITCH_1_WASHER_NUT.step",
+    "bytes": 12378,
+    "git_blob_sha": "dcb65f5cac604c41302bc1070b6493378d2aef71"
+  },
+  {
+    "path": "models/L2_r3/reference/RIGHT_KEY_M2_SWITCH_2_BOLT.step",
+    "bytes": 12659,
+    "git_blob_sha": "f614dba5d9476a5db771406a2342ababfd1a618f"
+  },
+  {
+    "path": "models/L2_r3/reference/RIGHT_KEY_M2_SWITCH_2_NUT.step",
+    "bytes": 30278,
+    "git_blob_sha": "aa2412242f289fd97f0cf9741fd40b5d4cc41103"
+  },
+  {
+    "path": "models/L2_r3/reference/RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD.step",
+    "bytes": 12377,
+    "git_blob_sha": "1a06bb92421a692c13c519084aba19ddd0c96f85"
+  },
+  {
+    "path": "models/L2_r3/reference/RIGHT_KEY_M2_SWITCH_2_WASHER_NUT.step",
+    "bytes": 12377,
+    "git_blob_sha": "a3fad2756e3e670d19545dd99ae8f8b529338bf3"
+  },
+  {
+    "path": "models/L2_r3/reference/RIGHT_KEY_STEEL_PIN.step",
+    "bytes": 6885,
+    "git_blob_sha": "67bad7f146f95b2f7653553df19c28cddacdb650"
+  },
+  {
+    "path": "models/L2_r3/reference/SENSOR_HEADER_EST.step",
+    "bytes": 15461,
+    "git_blob_sha": "95f3d79e254f64f0d87f9245c4609bad89365490"
+  },
+  {
+    "path": "models/L2_r3/reference/SENSOR_PCB_EST.step",
+    "bytes": 15493,
+    "git_blob_sha": "a65edb2b4189ec40e10c0fd07b0d21f1169b0181"
+  },
+  {
+    "path": "models/L2_r3/reference/SENSOR_ROUTE_EST.step",
+    "bytes": 71001,
+    "git_blob_sha": "75ca2117c10da9971873bb7d5fa909f901c3bf6a"
+  },
+  {
+    "path": "models/L2_r3/reference/SF_D2F_01F.step",
+    "bytes": 63476,
+    "git_blob_sha": "9bd9031cf12d3a3907b33d4ae1e6cb3b5cbc3f8e"
+  },
+  {
+    "path": "models/L2_r3/reference/SF_TUNING_SHIM_0p33.step",
+    "bytes": 37324,
+    "git_blob_sha": "9c1910922ab0e81c7c62394dc2e14dfe33785e72"
+  },
+  {
+    "path": "models/L2_r3/reference/SF_VERTICAL_PIN.step",
+    "bytes": 5652,
+    "git_blob_sha": "11318231d7d8ecc4ce3354338dbfd30ae202319e"
+  },
+  {
+    "path": "models/L2_r3/reference/SIDE_FRONT_KEY_F2_TRIAL.step",
+    "bytes": 2718140,
+    "git_blob_sha": "5b7b53ffc28e22be619238f8a724f6082a408104"
+  },
+  {
+    "path": "models/L2_r3/reference/SIDE_IO_PCB.step",
+    "bytes": 44768,
+    "git_blob_sha": "a9504b38f5e68e2f0325876f523c49be8b2dbd73"
+  },
+  {
+    "path": "models/L2_r3/reference/SIDE_REAR_KEY_F2_TRIAL.step",
+    "bytes": 2631253,
+    "git_blob_sha": "0c499e3379e50181922843db2afc809d07cf6db3"
+  },
+  {
+    "path": "models/L2_r3/reference/SIDE_ROUTE_EST.step",
+    "bytes": 36926,
+    "git_blob_sha": "8014bcf01c0a6dd5cbb0727a37550c3231dd2e5d"
+  },
+  {
+    "path": "models/L2_r3/reference/SKATE_1_0p8.step",
+    "bytes": 5649,
+    "git_blob_sha": "cb247be6d6bcb75df7941c47dc670278f64911c5"
+  },
+  {
+    "path": "models/L2_r3/reference/SKATE_2_0p8.step",
+    "bytes": 5657,
+    "git_blob_sha": "cfc536e31e6b44385de976d800f91fca9391151a"
+  },
+  {
+    "path": "models/L2_r3/reference/SKATE_3_0p8.step",
+    "bytes": 5665,
+    "git_blob_sha": "4e535b7fa075f243bfde56982b87e676e031e39c"
+  },
+  {
+    "path": "models/L2_r3/reference/SKATE_4_0p8.step",
+    "bytes": 5673,
+    "git_blob_sha": "575cfc29d6ad2c62625f946663fbaf5f27d60eff"
+  },
+  {
+    "path": "models/L2_r3/reference/SKATE_5_0p8.step",
+    "bytes": 5653,
+    "git_blob_sha": "25176d2ea0b7b0fc64eb65ca277b984d3c8f7050"
+  },
+  {
+    "path": "models/L2_r3/reference/SR_D2F_01F.step",
+    "bytes": 63432,
+    "git_blob_sha": "8e779d433da18b884ea815ddfea65611a984bd86"
+  },
+  {
+    "path": "models/L2_r3/reference/SR_TUNING_SHIM_0p33.step",
+    "bytes": 35824,
+    "git_blob_sha": "1b2eec9247d44db9c7dd63703d82d18098ff93be"
+  },
+  {
+    "path": "models/L2_r3/reference/SR_VERTICAL_PIN.step",
+    "bytes": 5652,
+    "git_blob_sha": "cdfcbcedb4dc4338e1564c3845b79a4a46fd9c0d"
+  },
+  {
+    "path": "models/L2_r3/reference/SWITCH_LEFT.step",
+    "bytes": 77995,
+    "git_blob_sha": "5c3d417bb0846dbe0c7a710c2864d10cd94fb1c3"
+  },
+  {
+    "path": "models/L2_r3/reference/SWITCH_MIDDLE.step",
+    "bytes": 73197,
+    "git_blob_sha": "be19823e54bd0ccfbf85fd61b6cb574670b3d75d"
+  },
+  {
+    "path": "models/L2_r3/reference/SWITCH_RIGHT.step",
+    "bytes": 78076,
+    "git_blob_sha": "3d9f854ab5b347a03606e03db27431ada83f37bb"
+  },
+  {
+    "path": "models/L2_r3/reference/USB_ADAPTER_PCB_REFERENCE.step",
+    "bytes": 22685,
+    "git_blob_sha": "5dd003586ec92365a940e4141468db6419509a7e"
+  },
+  {
+    "path": "models/L2_r3/reference/USB_C_REFERENCE.step",
+    "bytes": 15578,
+    "git_blob_sha": "f270e39adc8cf9d33d1a31ed1229b95d2c254f37"
+  },
+  {
+    "path": "models/L2_r3/reference/USB_M2x3_L.step",
+    "bytes": 9467,
+    "git_blob_sha": "5b8a8e3feabc367437c9100d795fb3d38bfe924f"
+  },
+  {
+    "path": "models/L2_r3/reference/USB_M2x3_R.step",
+    "bytes": 9482,
+    "git_blob_sha": "1b21294e5ae2a4b1c5e2466358b90ac4009c5024"
+  },
+  {
+    "path": "models/L2_r3/reference/USB_ROUTE_EST.step",
+    "bytes": 189422,
+    "git_blob_sha": "c3de437a2b985b819d2f1a87acef19e5faa72148"
+  },
+  {
+    "path": "models/L2_r3/reference/USB_WASHER_L.step",
+    "bytes": 9246,
+    "git_blob_sha": "9acb3a36f21c10827207927bb598f134db96005c"
+  },
+  {
+    "path": "models/L2_r3/reference/USB_WASHER_R.step",
+    "bytes": 9257,
+    "git_blob_sha": "0a570e9abc22275bfce93ce58f4b6b2727fa487a"
+  },
+  {
+    "path": "models/L2_r3/reference/WHEEL_CARRIER_STEEL_PIN.step",
+    "bytes": 6781,
+    "git_blob_sha": "d4f15c2aec7b7fabecd1b174d93619ba705b9202"
+  },
+  {
+    "path": "models/L2_r3/reference/WHEEL_M2_SWITCH_1_BOLT.step",
+    "bytes": 11927,
+    "git_blob_sha": "74cf8cc652e3667b565f0891ee2d3a07112a94ce"
+  },
+  {
+    "path": "models/L2_r3/reference/WHEEL_M2_SWITCH_1_NUT.step",
+    "bytes": 28697,
+    "git_blob_sha": "7c39997bacc8ef84bab10901f61ee0a8e433913c"
+  },
+  {
+    "path": "models/L2_r3/reference/WHEEL_M2_SWITCH_1_WASHER_HEAD.step",
+    "bytes": 11718,
+    "git_blob_sha": "a17c4ac2616dd881c777de9bc774ba98d13b9842"
+  },
+  {
+    "path": "models/L2_r3/reference/WHEEL_M2_SWITCH_1_WASHER_NUT.step",
+    "bytes": 11704,
+    "git_blob_sha": "e7a5943927bbff5e29633fdaf8fc8c3f15633ef2"
+  },
+  {
+    "path": "models/L2_r3/reference/WHEEL_M2_SWITCH_2_BOLT.step",
+    "bytes": 11927,
+    "git_blob_sha": "adddf0dba2d482babc0078475beb52261815232f"
+  },
+  {
+    "path": "models/L2_r3/reference/WHEEL_M2_SWITCH_2_NUT.step",
+    "bytes": 28697,
+    "git_blob_sha": "9e4da11291441ece385fe70459c2d704ed824592"
+  },
+  {
+    "path": "models/L2_r3/reference/WHEEL_M2_SWITCH_2_WASHER_HEAD.step",
+    "bytes": 11718,
+    "git_blob_sha": "53a5a8cdb750da0eee2c6029412417a4bba707c7"
+  },
+  {
+    "path": "models/L2_r3/reference/WHEEL_M2_SWITCH_2_WASHER_NUT.step",
+    "bytes": 11704,
+    "git_blob_sha": "4f1a3b771fb6c128681335d6afafc652ce61de51"
+  },
+  {
+    "path": "reports/l2_r3/F2_trial.json",
+    "bytes": 1187,
+    "git_blob_sha": "9c6523a8cd75ef67f0a7c1e36eb2fb034f11e80f"
+  },
+  {
+    "path": "reports/l2_r3/FEM_beam_2.4.json",
+    "bytes": 953,
+    "git_blob_sha": "20593dbddea297abb484d3399eacabc6a891313a"
+  },
+  {
+    "path": "reports/l2_r3/K3_inputs_2.4.json",
+    "bytes": 4996,
+    "git_blob_sha": "e59ae10f0f9a3396f4ec7e3758d52e037a773cd7"
+  },
+  {
+    "path": "reports/l2_r3/README.md",
+    "bytes": 1233,
+    "git_blob_sha": "1b7399b86010f3f29c17f26168eb490dd348e078"
+  },
+  {
+    "path": "reports/l2_r3/adoption.json",
+    "bytes": 1093,
+    "git_blob_sha": "88d34d4073770129c6128e7eeb8fcd5d40e1f497"
+  },
+  {
+    "path": "reports/l2_r3/assembly_access.json",
+    "bytes": 434,
+    "git_blob_sha": "d87150475973ba1631162247d1666fb4a55ac3ba"
+  },
+  {
+    "path": "reports/l2_r3/assembly_inventory.json",
+    "bytes": 2583,
+    "git_blob_sha": "1d6d4a45e2476d5a87981ede821bece34d298e5a"
+  },
+  {
+    "path": "reports/l2_r3/body_build.json",
+    "bytes": 2937,
+    "git_blob_sha": "91c1b5f16819e98a248336bad9f592dc7c35be2f"
+  },
+  {
+    "path": "reports/l2_r3/component_pairs.json",
+    "bytes": 62946,
+    "git_blob_sha": "e47acc19e6d9b3432a28c238ffe790953228022b"
+  },
+  {
+    "path": "reports/l2_r3/donor_placeholder_check.json",
+    "bytes": 2821,
+    "git_blob_sha": "bfd6342531769539a52f01f6fae28f8cbec6d84a"
+  },
+  {
+    "path": "reports/l2_r3/electronic_envelopes.json",
+    "bytes": 6020,
+    "git_blob_sha": "930972a63d98b8a8760ad5102e158ddd48b94dcd"
+  },
+  {
+    "path": "reports/l2_r3/encoder_outline_correction.json",
+    "bytes": 418,
+    "git_blob_sha": "9619711c9f7623d76ec76e122fa94fdda3f227b7"
+  },
+  {
+    "path": "reports/l2_r3/fem_resource_summary.json",
+    "bytes": 583,
+    "git_blob_sha": "41c82481665cc30fb12dde4e828b897d1a206815"
+  },
+  {
+    "path": "reports/l2_r3/fem_status.json",
+    "bytes": 1628,
+    "git_blob_sha": "d36270b09e3a4fc77d92dca7fcad38fa83b8926d"
+  },
+  {
+    "path": "reports/l2_r3/foot_planes.json",
+    "bytes": 1201,
+    "git_blob_sha": "6abd4a32f15bf2083e997d221657b04f13349726"
+  },
+  {
+    "path": "reports/l2_r3/functional_motion.json",
+    "bytes": 216163,
+    "git_blob_sha": "79ec6aa442373b81ce2116325c5167a171ba1333"
+  },
+  {
+    "path": "reports/l2_r3/independent_precheck.json",
+    "bytes": 2790,
+    "git_blob_sha": "50350c4953ffba7d816dea34d14bac0950025b12"
+  },
+  {
+    "path": "reports/l2_r3/insertion_attempts.json",
+    "bytes": 2320,
+    "git_blob_sha": "3d737d896bf22a330e4b8b705c50722ea076dfc3"
+  },
+  {
+    "path": "reports/l2_r3/key_wheel_changes.json",
+    "bytes": 652,
+    "git_blob_sha": "4cb922d82d057f5dc132a30cc06d2ffa38329401"
+  },
+  {
+    "path": "reports/l2_r3/mesh_seam_audit.json",
+    "bytes": 5577,
+    "git_blob_sha": "5e4849413ad7485457cec1b012fa0e3dd4fa43f4"
+  },
+  {
+    "path": "reports/l2_r3/mesh_units_and_volume.json",
+    "bytes": 3458,
+    "git_blob_sha": "23c27bd10bfcab58fc2905a71dea0f2a6af00282"
+  },
+  {
+    "path": "reports/l2_r3/motion_samples.json",
+    "bytes": 272407,
+    "git_blob_sha": "796f23b8d02bffd90dae182721c95203cfbe6048"
+  },
+  {
+    "path": "reports/l2_r3/native_roundtrip.json",
+    "bytes": 8500,
+    "git_blob_sha": "53686404208c52c017b9cc95fe254fe1badb331c"
+  },
+  {
+    "path": "reports/l2_r3/openings_check.json",
+    "bytes": 448,
+    "git_blob_sha": "9c8bccf2ae6caebd561582c7e2d727f592dc4a81"
+  },
+  {
+    "path": "reports/l2_r3/parameters_implemented.json",
+    "bytes": 2731,
+    "git_blob_sha": "9b5da85b3e90e2303738fcc9259ac8339eebbdc4"
+  },
+  {
+    "path": "reports/l2_r3/pin_access_precheck.json",
+    "bytes": 167,
+    "git_blob_sha": "a6191cefc4c6f056ab1befd8ada5b23f2728e86f"
+  },
+  {
+    "path": "reports/l2_r3/pre_correction_overlap.json",
+    "bytes": 1338,
+    "git_blob_sha": "2c45682c2f334370411692ea71312cdf6a78bcdb"
+  },
+  {
+    "path": "reports/l2_r3/release_summary.json",
+    "bytes": 17660,
+    "git_blob_sha": "bd915faa3966990df2dd56b95fcca2e340ae814f"
+  },
+  {
+    "path": "reports/l2_r3/remaining_solids.json",
+    "bytes": 14886,
+    "git_blob_sha": "ace0bbc78f4f8ce42eaf0567e26e9946765ddbc8"
+  },
+  {
+    "path": "reports/l2_r3/revision1_diagnostics/nearest_clearance_locations.json",
+    "bytes": 798,
+    "git_blob_sha": "be45098b7fdba0de97a22eee12c6b8d5539d7392"
+  },
+  {
+    "path": "reports/l2_r3/revision1_diagnostics/parameters_implemented.json",
+    "bytes": 2576,
+    "git_blob_sha": "ccca50a46ea0adcffbf5365c4f6b36bdca4f1613"
+  },
+  {
+    "path": "reports/l2_r3/revision1_diagnostics/side_actuation_housing_check.json",
+    "bytes": 6643,
+    "git_blob_sha": "00ba269e748ea5356e7e9692c7c08493380ae644"
+  },
+  {
+    "path": "reports/l2_r3/revision1_diagnostics/static_pairs.json",
+    "bytes": 6881,
+    "git_blob_sha": "15014a61a4ffd43c993d51d8a615ce002cbd1cd2"
+  },
+  {
+    "path": "reports/l2_r3/revision2_diagnostics/SCALING_beam_2.4.json",
+    "bytes": 955,
+    "git_blob_sha": "136563978ad4dd4fd83963f4a3bb985b66fd5278"
+  },
+  {
+    "path": "reports/l2_r3/revision2_diagnostics/functional_motion_before_rib_relief.json",
+    "bytes": 216761,
+    "git_blob_sha": "0feaae568de1e1e64671adb7ca0aa28473db8fb3"
+  },
+  {
+    "path": "reports/l2_r3/revision2_diagnostics/nearest_clearance_locations_before_last_body_relief.json",
+    "bytes": 743,
+    "git_blob_sha": "d1a21c9db8468f15d72b227f6bad651e6e62cef0"
+  },
+  {
+    "path": "reports/l2_r3/revision2_diagnostics/scaling_fem_attempt.json",
+    "bytes": 1861,
+    "git_blob_sha": "ca82c834d3f9fdba781f32495d3993223caa8539"
+  },
+  {
+    "path": "reports/l2_r3/side_actuation_housing_check.json",
+    "bytes": 6510,
+    "git_blob_sha": "339779c53b2cca3ca8d374a0eb6b6095c33609dd"
+  },
+  {
+    "path": "reports/l2_r3/side_force_estimate.json",
+    "bytes": 988,
+    "git_blob_sha": "0d4fe10bcbbb348f122bfc3f91fe979affff0049"
+  },
+  {
+    "path": "reports/l2_r3/side_module_solids.json",
+    "bytes": 4375,
+    "git_blob_sha": "ee034cb421480c04ee5cead99225e0eac1129b3e"
+  },
+  {
+    "path": "reports/l2_r3/slice_summary.json",
+    "bytes": 5328,
+    "git_blob_sha": "65a5c27d4c95971349e36c717742adcdd418de6a"
+  },
+  {
+    "path": "reports/l2_r3/slicer_model_info.txt",
+    "bytes": 2519,
+    "git_blob_sha": "0061ed7738560d0220c6579fd410b1770bd552f6"
+  },
+  {
+    "path": "reports/l2_r3/solids.json",
+    "bytes": 3979,
+    "git_blob_sha": "8c9e991e488d6ba28f34a2451b6b1b0ec0cdf956"
+  },
+  {
+    "path": "reports/l2_r3/static_pairs.json",
+    "bytes": 6864,
+    "git_blob_sha": "fc1d0ad53a345801b6a36fef0e1a66bcfebdbe03"
+  },
+  {
+    "path": "reports/l2_r3/surface_mesh_checks.json",
+    "bytes": 821,
+    "git_blob_sha": "e504aa3dbd575ac23787b7fefcbd1c69cd6af5be"
+  },
+  {
+    "path": "reports/l2_r3/validation_runtime.json",
+    "bytes": 39,
+    "git_blob_sha": "76470bec507d640caad6ebf2720289a381fb3ff0"
+  },
+  {
+    "path": "reports/l2_r3/wall_samples.json",
+    "bytes": 8545,
+    "git_blob_sha": "8d7de482de9dbac014ac5ebb9a642b50a5adc293"
+  },
+  {
+    "path": "specs/Quietmirror_L2_r3_FINAL_Build_and_Release_2026-10-18.md",
+    "bytes": 26007,
+    "git_blob_sha": "930edf924b6dd6df3ae9d2b6f59e0bc823306907"
+  },
+  {
+    "path": "specs/archive/Quietmirror_L2_FINAL_Plan_2026-10-17_r2.md",
+    "bytes": 42347,
+    "git_blob_sha": "92e7896ba31e25289cc2230f5afd7753c0c4270b"
+  },
+  {
+    "path": "views/l2_r3/H_BACK.png",
+    "bytes": 79451,
+    "git_blob_sha": "d0a7b7a374bc529daddade2ee417eb2749b3abd0"
+  },
+  {
+    "path": "views/l2_r3/H_BOTTOM.png",
+    "bytes": 130981,
+    "git_blob_sha": "4a8f41d2199606fd8d1a7eafb9163210a24271f9"
+  },
+  {
+    "path": "views/l2_r3/H_FRONT.png",
+    "bytes": 81402,
+    "git_blob_sha": "1b9db250c15a7c476291ca9106032abb946e14e3"
+  },
+  {
+    "path": "views/l2_r3/H_ISO_FRONT.png",
+    "bytes": 160173,
+    "git_blob_sha": "4e5d49b3ece7c29c74f6fa42c3ccd9fc1c8e7de0"
+  },
+  {
+    "path": "views/l2_r3/H_ISO_REAR.png",
+    "bytes": 174593,
+    "git_blob_sha": "bfd8d72f99c6eb4330270e7db49b6e612ed05d8d"
+  },
+  {
+    "path": "views/l2_r3/H_LEFT.png",
+    "bytes": 87523,
+    "git_blob_sha": "d3b17b879b96903d16cf33206e2037021f520db4"
+  },
+  {
+    "path": "views/l2_r3/H_RIGHT.png",
+    "bytes": 88142,
+    "git_blob_sha": "ebf6130b5200e2e4e8305de862abfbe31917d45a"
+  },
+  {
+    "path": "views/l2_r3/H_TOP.png",
+    "bytes": 156696,
+    "git_blob_sha": "b386e56c2cfd3ff548f258846bdfaab79f701eda"
+  },
+  {
+    "path": "views/l2_r3/INSIDE_BACK.png",
+    "bytes": 52760,
+    "git_blob_sha": "83ec871d2771131d5b66801c9d47f32f75da78a9"
+  },
+  {
+    "path": "views/l2_r3/INSIDE_BOTTOM.png",
+    "bytes": 70040,
+    "git_blob_sha": "9a51041f6c022ebcff21ba35c0f1e15cc1eb0301"
+  },
+  {
+    "path": "views/l2_r3/INSIDE_FRONT.png",
+    "bytes": 67918,
+    "git_blob_sha": "bd02fdc69fb4771191f574dc1b81bdbd778a56b2"
+  },
+  {
+    "path": "views/l2_r3/INSIDE_LEFT.png",
+    "bytes": 61269,
+    "git_blob_sha": "b9910895dcac4e5adde3cb96c2b6805b42d69299"
+  },
+  {
+    "path": "views/l2_r3/INSIDE_RIGHT.png",
+    "bytes": 64586,
+    "git_blob_sha": "14a1ff25b10cd33b3606a140dea8ea466d02a03c"
+  },
+  {
+    "path": "views/l2_r3/INSIDE_TOP.png",
+    "bytes": 83570,
+    "git_blob_sha": "bdb2a69a3fecaadf066e8aff92c9f49ad3da7171"
+  },
+  {
+    "path": "views/l2_r3/L2_r3_H_SIX_VIEWS_SHEET.png",
+    "bytes": 823088,
+    "git_blob_sha": "7858c0955e14d7bc5d7fb952a467d11ec5e1056e"
+  },
+  {
+    "path": "views/l2_r3/PRINT_PLATE.png",
+    "bytes": 534887,
+    "git_blob_sha": "cd4bc956ab824aae2aa24d01d06c1ce004cbfd41"
+  },
+  {
+    "path": "views/l2_r3/R32_BASELINE.png",
+    "bytes": 168956,
+    "git_blob_sha": "a437b7d2bcea3a10cb2358841e53d2b20b33883a"
+  },
+  {
+    "path": "views/l2_r3/R32_BOTTOM.png",
+    "bytes": 140729,
+    "git_blob_sha": "900195739f1ce250afbae20d66c5fb316fd7cf85"
+  },
+  {
+    "path": "views/l2_r3/R32_RIGHT.png",
+    "bytes": 85989,
+    "git_blob_sha": "3a0e5126be5148f1b64d093a4f072a6b8074070b"
+  },
+  {
+    "path": "views/l2_r3/R32_TOP.png",
+    "bytes": 164139,
+    "git_blob_sha": "9f62e719c9b32840fbecc84d431d991b28c718d3"
+  },
+  {
+    "path": "views/l2_r3/R32_VS_L2_r3.png",
+    "bytes": 325936,
+    "git_blob_sha": "f7ad08f257d86ef533471148a01247d5a78d4407"
+  },
+  {
+    "path": "views/l2_r3/R32_VS_L2_r3_TOP_RIGHT_BOTTOM.png",
+    "bytes": 731768,
+    "git_blob_sha": "dfc2bdd57550f09ebb3fc6c1a8c4d2086c5c97d8"
+  },
+  {
+    "path": "views/l2_r3/SECTION_X23.png",
+    "bytes": 126252,
+    "git_blob_sha": "bc91b7f49ed8a5896267fbf67dd9f03f3fb6cbf6"
+  },
+  {
+    "path": "views/l2_r3/SECTION_Y50p25.png",
+    "bytes": 97557,
+    "git_blob_sha": "9e270d71c2159b483023d11334db0f6a1925893b"
+  },
+  {
+    "path": "views/l2_r3/SECTION_Y64p45.png",
+    "bytes": 74812,
+    "git_blob_sha": "84273f2a327fd575c9c2ab3db4cd19b201be8f3a"
+  },
+  {
+    "path": "views/l2_r3/SECTION_Z16p6.png",
+    "bytes": 137689,
+    "git_blob_sha": "f07138c245e1e6fe0e04b213f6742038f9dc6d94"
+  },
+  {
+    "path": "views/l2_r3/SIDE_MOTION_OVERLAY.png",
+    "bytes": 115920,
+    "git_blob_sha": "9cec1ccce63aaf065cc5b4a728d55205be7411df"
+  },
+  {
+    "path": "views/l2_r3/SIDE_REST.png",
+    "bytes": 119378,
+    "git_blob_sha": "ec7eaeac1247e495e1423ef47ddc7c854fd0b47c"
+  },
+  {
+    "path": "views/l2_r3/SIDE_STOP.png",
+    "bytes": 117151,
+    "git_blob_sha": "b04d073a18b74cbcb2ba944a9c93709b6d984f8a"
+  },
+  {
+    "path": "views/l2_r3/SIDE_TRIGGER.png",
+    "bytes": 116667,
+    "git_blob_sha": "194bb6236f630382d667cc3d2568be7c676d4b77"
+  }
+]

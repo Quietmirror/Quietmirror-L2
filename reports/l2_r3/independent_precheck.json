@@ -1,0 +1,104 @@
+{
+  "K1": {
+    "parts": [
+      {
+        "name": "BODY",
+        "volume_mm3": 12801.730065878228
+      },
+      {
+        "name": "LEFT_KEY",
+        "volume_mm3": 1780.44791094537
+      },
+      {
+        "name": "RIGHT_KEY",
+        "volume_mm3": 1780.4480118708038
+      },
+      {
+        "name": "SIDE_FRONT_KEY",
+        "volume_mm3": 167.91622438332115
+      },
+      {
+        "name": "SIDE_FRONT_KEY_SWITCH_CLAMP",
+        "volume_mm3": 192.8835410522591
+      },
+      {
+        "name": "SIDE_REAR_KEY",
+        "volume_mm3": 176.7121856033234
+      },
+      {
+        "name": "SIDE_REAR_KEY_SWITCH_CLAMP",
+        "volume_mm3": 192.88354105225906
+      },
+      {
+        "name": "WHEEL",
+        "volume_mm3": 823.7618265070902
+      },
+      {
+        "name": "WHEEL_CARRIER",
+        "volume_mm3": 589.8949111552353
+      }
+    ],
+    "total_mm3": 18506.67821844789,
+    "reference_mm3": 18506.678,
+    "within_0p5": true
+  },
+  "K8_rigid_endpoint": [
+    {
+      "name": "SF",
+      "stop_center_motion_mm": 0.600306323171937,
+      "nominal_unshimmed_depression_mm": 0.250306323171937,
+      "after_shim_0p03_gap_mm": 0.570306323171937,
+      "zero_gap_PT0p5_angle_deg": 5.625003388789006,
+      "y_slide_mm": -0.3956951064093789
+    },
+    {
+      "name": "SR",
+      "stop_center_motion_mm": 0.6001447803937717,
+      "nominal_unshimmed_depression_mm": 0.25014478039377175,
+      "after_shim_0p03_gap_mm": 0.5701447803937717,
+      "zero_gap_PT0p5_angle_deg": 5.2800800395026215,
+      "y_slide_mm": 0.3149647896338247
+    }
+  ],
+  "context_pairs": [
+    {
+      "a": "r3_carrier",
+      "b": "R32_BODY",
+      "gap_mm": 0.0,
+      "overlap_mm3": 63.637364798937874,
+      "required_mm": 0,
+      "intended_contact": true,
+      "pass_check": false
+    },
+    {
+      "a": "r3_carrier",
+      "b": "R32_LEFT_KEY",
+      "gap_mm": 0.6499999999999986,
+      "overlap_mm3": 0.0,
+      "required_mm": 0,
+      "intended_contact": false,
+      "pass_check": true
+    },
+    {
+      "a": "r3_carrier",
+      "b": "R32_RIGHT_KEY",
+      "gap_mm": 27.917703230870707,
+      "overlap_mm3": 0.0,
+      "required_mm": 0,
+      "intended_contact": false,
+      "pass_check": true
+    },
+    {
+      "a": "r3_carrier",
+      "b": "R32_WHEEL_CARRIER",
+      "gap_mm": 9.692049702960484,
+      "overlap_mm3": 0.0,
+      "required_mm": 0,
+      "intended_contact": false,
+      "pass_check": true
+    }
+  ],
+  "author_files_available": false,
+  "K9_reference_claim_status": "UNVERIFIED: absent author JSON/STEP; final rebuilt geometry checked separately",
+  "production_permission": "User explicitly authorized incomplete pre-release despite unresolved author reproduction gate"
+}

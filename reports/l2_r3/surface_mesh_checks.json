@@ -1,0 +1,29 @@
+[
+  {
+    "part": "BODY",
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "triangles": 372754,
+    "method": "Gmsh conforming mesh of the original STEP surfaces; no hole filling or geometric repairs",
+    "accepted": true
+  },
+  {
+    "part": "SIDE_FRONT_KEY",
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "triangles": 28478,
+    "method": "Gmsh conforming mesh of the original STEP surfaces; no hole filling or geometric repairs",
+    "accepted": true
+  },
+  {
+    "part": "SIDE_REAR_KEY",
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "triangles": 30242,
+    "method": "Gmsh conforming mesh of the original STEP surfaces; no hole filling or geometric repairs",
+    "accepted": true
+  }
+]

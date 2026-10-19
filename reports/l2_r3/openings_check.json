@@ -1,0 +1,9 @@
+{
+  "O3_body_intersection_mm3": 0.0,
+  "O3_body_pass": true,
+  "old_side_seats": "Omitted at source; no full reverse-equivalence proof against absent author reconstruction",
+  "old_M2_tool_paths": "Omitted with old side loop",
+  "PH1_PH2": "Old capture-pin bores omitted",
+  "six_windows": "Original source polygon coordinates retained; r3 B9 side-band keep-mask intentionally updated",
+  "roof_boundary_exact_equivalence": "UNVERIFIED"
+}

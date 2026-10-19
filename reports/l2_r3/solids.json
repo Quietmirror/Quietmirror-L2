@@ -1,0 +1,186 @@
+[
+  {
+    "name": "BODY",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 11697.000738157265,
+    "bounds_mm": [
+      -33.04800010000001,
+      -1e-07,
+      4.999999898410112,
+      33.04800010000001,
+      88.2360001000004,
+      30.56400009999984
+    ],
+    "closed_mesh": true,
+    "consistent_winding": true,
+    "mesh_components": 1,
+    "brep_self_interference_check": true,
+    "check_error": null,
+    "cad_step_size_mtime": [
+      16823051,
+      1792371230888118000
+    ]
+  },
+  {
+    "name": "LEFT_KEY",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1719.6801597484564,
+    "bounds_mm": [
+      5.299999899787287,
+      0.6846852341261915,
+      10.599999899999935,
+      28.00000010000022,
+      41.15,
+      26.119611768562397
+    ],
+    "closed_mesh": true,
+    "consistent_winding": true,
+    "mesh_components": 1,
+    "brep_self_interference_check": true,
+    "check_error": null,
+    "cad_step_size_mtime": [
+      8507767,
+      1792372319686613800
+    ]
+  },
+  {
+    "name": "RIGHT_KEY",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1719.680209111002,
+    "bounds_mm": [
+      -28.0000001,
+      0.684685234126075,
+      10.5999999,
+      -5.299999899999995,
+      41.15,
+      26.119611772128
+    ],
+    "closed_mesh": true,
+    "consistent_winding": true,
+    "mesh_components": 1,
+    "brep_self_interference_check": true,
+    "check_error": null,
+    "cad_step_size_mtime": [
+      8609610,
+      1792372330257640500
+    ]
+  },
+  {
+    "name": "SIDE_FRONT_KEY",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 90.60074917546034,
+    "bounds_mm": [
+      25.97,
+      43.674999899999996,
+      15.100000000000001,
+      32.36945991532829,
+      57.1000001,
+      19.500000100012574
+    ],
+    "closed_mesh": true,
+    "consistent_winding": true,
+    "mesh_components": 1,
+    "brep_self_interference_check": true,
+    "check_error": null,
+    "cad_step_size_mtime": [
+      2480942,
+      1792370607211994500
+    ]
+  },
+  {
+    "name": "SIDE_REAR_KEY",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 96.26512891306405,
+    "bounds_mm": [
+      26.47,
+      57.3499999,
+      15.100000000000001,
+      32.69168545942541,
+      71.3250001,
+      19.500000100019488
+    ],
+    "closed_mesh": true,
+    "consistent_winding": true,
+    "mesh_components": 1,
+    "brep_self_interference_check": true,
+    "check_error": null,
+    "cad_step_size_mtime": [
+      2244532,
+      1792370613140053400
+    ]
+  },
+  {
+    "name": "SIDE_SWITCH_CARRIER",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 662.5719212420573,
+    "bounds_mm": [
+      16.2,
+      41.8,
+      10.75,
+      30.04,
+      71.2,
+      19.5
+    ],
+    "closed_mesh": true,
+    "consistent_winding": true,
+    "mesh_components": 1,
+    "brep_self_interference_check": true,
+    "check_error": null,
+    "cad_step_size_mtime": [
+      335454,
+      1792370602946287000
+    ]
+  },
+  {
+    "name": "WHEEL",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 563.1619625874001,
+    "bounds_mm": [
+      -7.25,
+      21.75,
+      12.75,
+      8.85,
+      34.25,
+      25.25
+    ],
+    "closed_mesh": true,
+    "consistent_winding": true,
+    "mesh_components": 1,
+    "brep_self_interference_check": true,
+    "check_error": null,
+    "cad_step_size_mtime": [
+      112214,
+      1792370700441174000
+    ]
+  },
+  {
+    "name": "WHEEL_CARRIER",
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 589.8949111552148,
+    "bounds_mm": [
+      -6.8500001,
+      20.0,
+      10.4,
+      11.1,
+      52.6000001,
+      21.800000100000002
+    ],
+    "closed_mesh": true,
+    "consistent_winding": true,
+    "mesh_components": 1,
+    "brep_self_interference_check": true,
+    "check_error": null,
+    "cad_step_size_mtime": [
+      500553,
+      1792370700620344100
+    ]
+  }
+]

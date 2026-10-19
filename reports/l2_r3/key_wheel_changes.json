@@ -1,0 +1,16 @@
+[
+  {
+    "part": "LEFT_KEY",
+    "old_mm3": 1780.44791094537,
+    "new_mm3": 1719.6801088938305,
+    "rigid_switch_relief": "0.3 mm expanded rigid-housing box at 21 inverse poses, trigger boss preserved",
+    "root_fillet_R0p4": "UNVERIFIED: final rib fillet not added if it compromises inherited cap topology"
+  },
+  {
+    "part": "RIGHT_KEY",
+    "old_mm3": 1780.4480118708038,
+    "new_mm3": 1719.6801760821143,
+    "rigid_switch_relief": "0.3 mm expanded rigid-housing box at 21 inverse poses, trigger boss preserved",
+    "root_fillet_R0p4": "UNVERIFIED: final rib fillet not added if it compromises inherited cap topology"
+  }
+]

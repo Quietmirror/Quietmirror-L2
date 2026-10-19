@@ -1,0 +1,106 @@
+{
+  "carrier_straight_up": [
+    {
+      "z_offset_mm": -12.0,
+      "overlap_mm3": 116.74470465333965
+    },
+    {
+      "z_offset_mm": -11.5,
+      "overlap_mm3": 143.74834550190542
+    },
+    {
+      "z_offset_mm": -11.0,
+      "overlap_mm3": 163.44572720286337
+    },
+    {
+      "z_offset_mm": -10.5,
+      "overlap_mm3": 180.93911870927468
+    },
+    {
+      "z_offset_mm": -10.0,
+      "overlap_mm3": 193.0487762355864
+    },
+    {
+      "z_offset_mm": -9.5,
+      "overlap_mm3": 201.4451790919825
+    },
+    {
+      "z_offset_mm": -9.0,
+      "overlap_mm3": 208.58965740359818
+    },
+    {
+      "z_offset_mm": -8.5,
+      "overlap_mm3": 212.24977407405385
+    },
+    {
+      "z_offset_mm": -8.0,
+      "overlap_mm3": 207.71005680745702
+    },
+    {
+      "z_offset_mm": -7.5,
+      "overlap_mm3": 198.86203069766808
+    },
+    {
+      "z_offset_mm": -7.0,
+      "overlap_mm3": 189.62280526205845
+    },
+    {
+      "z_offset_mm": -6.5,
+      "overlap_mm3": 171.4640321865292
+    },
+    {
+      "z_offset_mm": -6.0,
+      "overlap_mm3": 148.86000956019188
+    },
+    {
+      "z_offset_mm": -5.5,
+      "overlap_mm3": 125.7938535250291
+    },
+    {
+      "z_offset_mm": -5.0,
+      "overlap_mm3": 110.96274702542202
+    },
+    {
+      "z_offset_mm": -4.5,
+      "overlap_mm3": 96.11162239316107
+    },
+    {
+      "z_offset_mm": -4.0,
+      "overlap_mm3": 85.06261949904193
+    },
+    {
+      "z_offset_mm": -3.5,
+      "overlap_mm3": 80.10792982180249
+    },
+    {
+      "z_offset_mm": -3.0,
+      "overlap_mm3": 77.64808166810559
+    },
+    {
+      "z_offset_mm": -2.5,
+      "overlap_mm3": 69.31758083782445
+    },
+    {
+      "z_offset_mm": -2.0,
+      "overlap_mm3": 53.255905194750916
+    },
+    {
+      "z_offset_mm": -1.5,
+      "overlap_mm3": 37.219948582648385
+    },
+    {
+      "z_offset_mm": -1.0,
+      "overlap_mm3": 23.674458087574
+    },
+    {
+      "z_offset_mm": -0.5,
+      "overlap_mm3": 11.192229043786998
+    },
+    {
+      "z_offset_mm": 0.0,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "status": "Straight route tested only; a collision means this route is unusable, not that every tilted path is impossible",
+  "cap_hooked_route": "UNVERIFIED; complete hooked/tilted route not proved"
+}
