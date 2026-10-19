@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "FAILED",
   "phase": "C10_window_3",
   "source_commit": "b409d40ad6549e7a46b0ee325a329d84d819fabe",
   "steps": [
@@ -9,6 +9,13 @@
       "seconds": 3.9,
       "available_memory_before_GB": 15.65868032,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/window_3.py",
+      "returncode": 1,
+      "seconds": 19.26,
+      "available_memory_before_GB": 15.472939008,
+      "log_tail": "Traceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/window_3.py\", line 2, in <module>\n    if __name__=='__main__':main(3,'window_3.json')\n                            ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/window_checks.py\", line 83, in main\n    q=p;assert abs(q.z-oi[1])<1e-5,(name,i,q.toTuple(),oi)\n               ^^^^^^^^^^^^^^^^^^^\nAssertionError: ('SHOULDER_TRI_R', 57, (-12.174904855394074, 57.08553426596864, 30.169114809307523), (5.000000004289945, 30.16917389669891))\n"
     }
   ]
 }
