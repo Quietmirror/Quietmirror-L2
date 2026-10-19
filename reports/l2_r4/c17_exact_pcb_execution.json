@@ -16,6 +16,13 @@
       "seconds": 1.97,
       "available_memory_before_GB": 15.642673152,
       "log_tail": "EXPORTED ENCODER_ADAPTER_PCB_EST 131.7376\n"
+    },
+    {
+      "script": "cad/l2_r4/distance_regression.py",
+      "returncode": 0,
+      "seconds": 53.08,
+      "available_memory_before_GB": 15.453458432,
+      "log_tail": "FULL_DISTANCE_REGRESSION 0.6474665946154016 0.0\nFULL_DISTANCE_REGRESSION 0.6021436285718165 0.0\nFULL_DISTANCE_REGRESSION 0.5617138533764201 0.0\nFULL_DISTANCE_REGRESSION 0.5068644486451762 0.0\nFULL_DISTANCE_REGRESSION 0.33888163890597184 0.0\n"
     }
   ]
 }

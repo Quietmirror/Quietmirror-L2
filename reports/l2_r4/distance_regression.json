@@ -1,0 +1,196 @@
+{
+  "samples": [
+    {
+      "pose": [
+        0.9484244877053786,
+        1.4820858377835822,
+        0.3161325054977692,
+        -12.579857597880919,
+        -1.018594245326664,
+        -2.3999578127092085
+      ],
+      "full_original_mm": 0.6474665946154016,
+      "obsolete_cropped_mm": 0.6474665946154033,
+      "result": {
+        "a": "CELL",
+        "b": "BODY",
+        "gap_mm": 0.6474665946154016,
+        "overlap_mm3": 0.0,
+        "required_mm": 0.5,
+        "intended_contact": false,
+        "pass_check": true,
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+        "nearest_points_mm": [
+          [
+            -15.505318641844271,
+            59.44136503149463,
+            13.431823259355273
+          ],
+          [
+            -15.5,
+            59.3,
+            12.8
+          ]
+        ]
+      },
+      "independent_tree_mm": 0.6474665946154016,
+      "scene_minimum_mm": 0.6474665946154016,
+      "max_difference_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pose": [
+        1.0514024114857168,
+        1.6919111018613937,
+        0.2670143722572335,
+        -14.144685866155982,
+        -0.9058925907072364,
+        -2.6963555244495567
+      ],
+      "full_original_mm": 0.6021436285718165,
+      "obsolete_cropped_mm": 0.6021436285718165,
+      "result": {
+        "a": "CELL",
+        "b": "BODY",
+        "gap_mm": 0.6021436285718165,
+        "overlap_mm3": 0.0,
+        "required_mm": 0.5,
+        "intended_contact": false,
+        "pass_check": true,
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+        "nearest_points_mm": [
+          [
+            -15.502298923827002,
+            59.44741801400195,
+            13.38381469108493
+          ],
+          [
+            -15.5,
+            59.3,
+            12.8
+          ]
+        ]
+      },
+      "independent_tree_mm": 0.6021436285718165,
+      "scene_minimum_mm": 0.6021436285718165,
+      "max_difference_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pose": [
+        1.1543803352660549,
+        1.9017363659392053,
+        0.21789623901669786,
+        -15.709514134431046,
+        -0.7931909360878089,
+        -2.992753236189905
+      ],
+      "full_original_mm": 0.5617138533764201,
+      "obsolete_cropped_mm": 2.308833080171829,
+      "result": {
+        "a": "CELL",
+        "b": "BODY",
+        "gap_mm": 0.5617138533764201,
+        "overlap_mm3": 0.0,
+        "required_mm": 0.5,
+        "intended_contact": false,
+        "pass_check": true,
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+        "nearest_points_mm": [
+          [
+            -9.499534778695239,
+            59.452273200833794,
+            13.340680228001686
+          ],
+          [
+            -9.5,
+            59.3,
+            12.8
+          ]
+        ]
+      },
+      "independent_tree_mm": 0.5617138533764201,
+      "scene_minimum_mm": 0.5617138533764201,
+      "max_difference_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pose": [
+        1.2573582590463932,
+        2.111561630017017,
+        0.16877810577616215,
+        -17.27434240270611,
+        -0.6804892814683812,
+        -3.289150947930253
+      ],
+      "full_original_mm": 0.5068644486451762,
+      "obsolete_cropped_mm": 2.4398351810730543,
+      "result": {
+        "a": "CELL",
+        "b": "BODY",
+        "gap_mm": 0.5068644486451762,
+        "overlap_mm3": 0.0,
+        "required_mm": 0.5,
+        "intended_contact": false,
+        "pass_check": true,
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+        "nearest_points_mm": [
+          [
+            -9.497103151675839,
+            59.45059389297816,
+            13.283967619751412
+          ],
+          [
+            -9.5,
+            59.3,
+            12.8
+          ]
+        ]
+      },
+      "independent_tree_mm": 0.5068644486451762,
+      "scene_minimum_mm": 0.5068644486451762,
+      "max_difference_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pose": [
+        2.1841595730694374,
+        3.9999890067173207,
+        -0.27328509338865903,
+        -31.35779681718169,
+        0.33382561010646694,
+        -5.956730353593387
+      ],
+      "full_original_mm": 0.33888163890597184,
+      "obsolete_cropped_mm": 0.33888163890597184,
+      "result": {
+        "a": "CELL",
+        "b": "BODY",
+        "gap_mm": 0.33888163890597184,
+        "overlap_mm3": 0.0,
+        "required_mm": 0.5,
+        "intended_contact": false,
+        "pass_check": false,
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+        "nearest_points_mm": [
+          [
+            -15.52900946309862,
+            70.9120732136009,
+            12.976344497822348
+          ],
+          [
+            -15.5,
+            71.2,
+            12.8
+          ]
+        ]
+      },
+      "independent_tree_mm": 0.33888163890597184,
+      "scene_minimum_mm": 0.33888163890597184,
+      "max_difference_mm": 0.0,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "scope": "Five known lost-crop poses; original BODY supplied without Boolean cropping. The last pose must remain a clearance failure."
+}
