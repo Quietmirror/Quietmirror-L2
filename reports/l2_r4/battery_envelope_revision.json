@@ -1,0 +1,100 @@
+{
+  "selection": {
+    "dimensions_mm": [
+      14,
+      20,
+      6
+    ],
+    "center_mm": [
+      -16.999999999999996,
+      57,
+      16.400000000000002
+    ],
+    "candidate_exact_path_passed": true,
+    "proposal_source_commit": "999ef82b9921033978dcd59ce34234ae0fc78db8",
+    "proposal_result_commit": "38bcb4ca5501b341d046f46df5ae0deb0622c6a8",
+    "proposal_report": "reports/l2_r4/battery_aperture_medium.json",
+    "extraction_route": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        -0.08578016733464139,
+        1.5437689049260577,
+        1.3341524065710093,
+        -4.958363427764546,
+        0.4894803521518871,
+        -11.723781624897402
+      ],
+      [
+        2.4196584500928404,
+        4.379707853603384,
+        0.18889570279468532,
+        -49.57568404795384,
+        -1.9626015434012156,
+        -6.761359893277706
+      ],
+      [
+        3.435600525942635,
+        6.181638971584482,
+        -1.1037515314839341,
+        -57.99907781477098,
+        4.728141037532297,
+        -7.602066411757406
+      ],
+      [
+        5.73812192423743,
+        6.726227452602712,
+        -6.038604202483178,
+        -86.0013745024095,
+        0.23412286057941167,
+        -0.4655036520955941
+      ],
+      [
+        5.9999999999999964,
+        7,
+        -31.400000000000002,
+        -90,
+        0,
+        0
+      ]
+    ],
+    "status": "ESTIMATED_CELL_PACKAGE_NOT_VENDOR_SPECIFICATION",
+    "basis": "Largest of the two tested exact-path passing alternatives; original18x22x6 has no accepted route in recorded searches, not a proof of impossibility."
+  },
+  "part": {
+    "name": "BATTERY_CELL_EST",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1679.9999999999995,
+    "bounds_mm": [
+      -24.0,
+      47.0,
+      13.4,
+      -10.0,
+      67.0,
+      19.4
+    ]
+  },
+  "previous_dimensions_mm": [
+    18,
+    22,
+    6
+  ],
+  "previous_volume_mm3": 2376,
+  "volume_fraction": 0.7070707070707068,
+  "unchanged": [
+    "BODY",
+    "printed parts",
+    "BATTERY_SERVICE_EST 19x23x7",
+    "BATTERY_PLUG_EST",
+    "existing wire routes"
+  ],
+  "limitation": "Estimated envelope only. A supplier cell, lead exit, retention, capacity and12h endurance still require the specified hardware measurements. Final current-component service replay is mandatory."
+}

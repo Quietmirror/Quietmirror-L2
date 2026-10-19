@@ -9,6 +9,13 @@
       "seconds": 4.48,
       "available_memory_before_GB": 15.574646784,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/battery_candidate.py",
+      "returncode": 0,
+      "seconds": 1.78,
+      "available_memory_before_GB": 15.478644736,
+      "log_tail": "EXPORTED BATTERY_CELL_EST 1680.0\n"
     }
   ]
 }
