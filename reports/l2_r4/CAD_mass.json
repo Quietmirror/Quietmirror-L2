@@ -34,19 +34,19 @@
     },
     {
       "part": "SIDE_FRONT_KEY",
-      "volume_mm3": 76.74572366234688,
+      "volume_mm3": 76.74189104272244,
       "PA12_density_g_cm3": 1.01,
-      "PA12_mass_g": 0.07751318089897034,
+      "PA12_mass_g": 0.07750930995314967,
       "PLA_density_g_cm3": 1.24,
-      "solid_PLA_mass_g": 0.09516469734131013
+      "solid_PLA_mass_g": 0.09515994489297583
     },
     {
       "part": "SIDE_REAR_KEY",
-      "volume_mm3": 81.56598224677873,
+      "volume_mm3": 81.56501095510058,
       "PA12_density_g_cm3": 1.01,
-      "PA12_mass_g": 0.08238164206924653,
+      "PA12_mass_g": 0.08238066106465157,
       "PLA_density_g_cm3": 1.24,
-      "solid_PLA_mass_g": 0.10114181798600562
+      "solid_PLA_mass_g": 0.10114061358432472
     },
     {
       "part": "SR_RETAINER",
@@ -73,9 +73,9 @@
       "solid_PLA_mass_g": 0.7314696898324665
     }
   ],
-  "total_volume_mm3": 17652.749793889383,
-  "total_PA12_g": 17.829277291828276,
-  "total_solid_PLA_g": 21.889409744422835,
+  "total_volume_mm3": 17652.74498997808,
+  "total_PA12_g": 17.82927243987786,
+  "total_solid_PLA_g": 21.889403787572817,
   "volume_method": "BRepGProp.VolumeProperties_s(shape,props,1e-8,True,False)",
   "scope": "Printed polymer geometry only; density assumptions; slicer support/infill mass is separate. No fabricated hardware mass or physical weigh-in."
 }

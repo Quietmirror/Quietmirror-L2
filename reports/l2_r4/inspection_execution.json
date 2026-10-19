@@ -30,6 +30,13 @@
       "seconds": 32.18,
       "available_memory_before_GB": 15.682646016,
       "log_tail": "CAP_FINISH {'part': 'SIDE_FRONT_KEY', 'shim': {'a': 'SIDE_FRONT_KEY', 'b': 'SF_TUNING_SHIM_0p33', 'gap_mm': 0.0, 'overlap_mm3': 0.0, 'required_mm': 0.0, 'intended_contact': False, 'pass_check': True, 'distance_kind': 'BRepExtrema_DistShapeShape_complete', 'nearest_points_mm': [[26.49, 50.4518, 17.9], [26.49, 50.4518, 17.9]]}, 'added_material_mm3': 0.0, 'removed_material_mm3': 0.0038326155474774568, 'valid': True, 'solids': 1, 'passed': True}\nCAP_FINISH {'part': 'SIDE_REAR_KEY', 'shim': {'a': 'SIDE_REAR_KEY', 'b': 'SR_TUNING_SHIM_0p33', 'gap_mm': 0.0, 'overlap_mm3': 0.0, 'required_mm': 0.0, 'intended_contact': False, 'pass_check': True, 'distance_kind': 'BRepExtrema_DistShapeShape_complete', 'nearest_points_mm': [[26.99, 64.2883, 17.9], [26.99, 64.2883, 17.9]]}, 'added_material_mm3': 0.0, 'removed_material_mm3': 0.0009712835186520483, 'valid': True, 'solids': 1, 'passed': True}\n"
+    },
+    {
+      "script": "cad/l2_r4/mechanism_accounting.py",
+      "returncode": 0,
+      "seconds": 17.61,
+      "available_memory_before_GB": 15.688597504,
+      "log_tail": "ACTUATION [('SIDE_FRONT_KEY', True), ('SIDE_REAR_KEY', True)]\n"
     }
   ]
 }
