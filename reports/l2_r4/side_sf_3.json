@@ -1,0 +1,4705 @@
+[
+  {
+    "part": "SIDE_FRONT_KEY",
+    "samples": [
+      {
+        "angle_deg": 0.6808931963087933,
+        "within_physical_travel": true,
+        "full": {
+          "a": "SIDE_FRONT_KEY",
+          "b": "BODY",
+          "gap_mm": 0.008290239149155497,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              26.800098517458306,
+              45.69171034624001,
+              18.6
+            ],
+            [
+              26.8,
+              45.7,
+              18.6
+            ]
+          ]
+        },
+        "nonfunctional": [
+          {
+            "a": "SIDE_FRONT_KEY_NONCONTACT",
+            "b": "BODY",
+            "gap_mm": 0.29999999142792244,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                28.036457044179762,
+                44.170967741935634,
+                18.0
+              ],
+              [
+                28.165206734783,
+                43.9,
+                18.0
+              ]
+            ]
+          },
+          {
+            "a": "SIDE_FRONT_KEY_EAR",
+            "b": "BODY",
+            "gap_mm": 0.4499999999999993,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                27.164740667273673,
+                44.895987401408924,
+                19.35
+              ],
+              [
+                27.164740667273925,
+                44.89598740140923,
+                19.8
+              ]
+            ]
+          },
+          {
+            "a": "SIDE_FRONT_KEY_PRESS_RIB",
+            "b": "BODY",
+            "gap_mm": 0.6579246156938541,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                32.24932785351913,
+                55.25714195974831,
+                15.9
+              ],
+              [
+                32.24932785351913,
+                55.43407971587868,
+                15.266314091689381
+              ]
+            ]
+          }
+        ],
+        "other_components": {
+          "exact_global_minimum_mm": 2.249046791918736,
+          "measured_pairs": [
+            {
+              "a": "SIDE_FRONT_KEY+PET",
+              "b": "SR_D2F_01F",
+              "gap_mm": 4.353846629168588,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.3,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  26.08342434221691,
+                  51.73542047156024,
+                  16.6
+                ],
+                [
+                  25.5,
+                  56.05,
+                  16.6
+                ]
+              ]
+            },
+            {
+              "a": "SIDE_FRONT_KEY+PET",
+              "b": "SIDE_REAR_KEY",
+              "gap_mm": 2.249046791918736,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.3,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  31.725632423903313,
+                  56.10095401016214,
+                  17.14754763851735
+                ],
+                [
+                  31.725632421031364,
+                  58.35000032091454,
+                  17.149018805056414
+                ]
+              ]
+            }
+          ],
+          "pruned_pairs": [
+            {
+              "part": "LEFT_KEY",
+              "lower_bound_mm": 2.8999999999999986,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_STEEL_PIN",
+              "lower_bound_mm": 4.549999999999997,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER",
+              "lower_bound_mm": 6.395394865528164,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_TUNING_SHIM_0p33",
+              "lower_bound_mm": 6.887345569576638,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER",
+              "lower_bound_mm": 6.895394865528164,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_M2x5",
+              "lower_bound_mm": 6.995394865528162,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_WASHER",
+              "lower_bound_mm": 7.692564547968021,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_LEFT",
+              "lower_bound_mm": 9.834774117497732,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_COM_ROUTE_EST",
+              "lower_bound_mm": 10.095394865528164,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_SR_NO_ROUTE_EST",
+              "lower_bound_mm": 10.141797020590065,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_3_0p8",
+              "lower_bound_mm": 10.491433636359005,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_SF_NO_ROUTE_EST",
+              "lower_bound_mm": 10.595394865528164,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 10.641563269621773,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 11.078675042816363,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_COM_GPIO_ROUTE_EST",
+              "lower_bound_mm": 11.111554473448741,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "CONTROLLER_RF_PCB_EST",
+              "lower_bound_mm": 12.395394865528164,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_PCB_EST",
+              "lower_bound_mm": 12.427956260324473,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_IO_HEADER_EST",
+              "lower_bound_mm": 12.895394865528164,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_VERTICAL_PIN",
+              "lower_bound_mm": 13.099045569577157,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_M2x5",
+              "lower_bound_mm": 14.32346639173019,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_CARRIER",
+              "lower_bound_mm": 14.365394865528131,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_WASHER",
+              "lower_bound_mm": 14.67656940415644,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 15.791535966640968,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 16.182414115466447,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 16.892501588118687,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 17.455066747817874,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_ADAPTER_PCB_EST",
+              "lower_bound_mm": 17.58795636868855,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_ROUTE_EST",
+              "lower_bound_mm": 18.007342195981465,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "MCU_RADIO_EST",
+              "lower_bound_mm": 18.39972254207381,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_CARRIER_STEEL_PIN",
+              "lower_bound_mm": 18.495394865528162,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 19.059680155702306,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 19.159172937203536,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL",
+              "lower_bound_mm": 19.229926969602506,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 19.300328174958963,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 19.388789742042036,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "MATCHED_LENS_EST",
+              "lower_bound_mm": 19.920738118961292,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_EC10E_HOUSING",
+              "lower_bound_mm": 20.009542773741643,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_SENSOR_HEADER_EST",
+              "lower_bound_mm": 20.47068524835178,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 20.53013271435293,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 20.86705317304482,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 20.910676893077373,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 20.932856347994417,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_HEADER_EST",
+              "lower_bound_mm": 21.656064719465345,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "PAW3950_PACKAGE_EST",
+              "lower_bound_mm": 22.2209734279085,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_M2x3_FRONT",
+              "lower_bound_mm": 22.226658929607588,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "REMOTE_ANTENNA_PCB_EST",
+              "lower_bound_mm": 22.267441056527552,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "CHARGE_POWERPATH_EST",
+              "lower_bound_mm": 22.44920679252224,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_WASHER_FRONT",
+              "lower_bound_mm": 22.524125049086607,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_EC10E_ROTOR",
+              "lower_bound_mm": 22.723014809091605,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_MIDDLE",
+              "lower_bound_mm": 22.895394865528164,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_M2x3_REAR",
+              "lower_bound_mm": 24.440091105327543,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_WASHER_REAR",
+              "lower_bound_mm": 24.704450920643758,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_ROUTE_EST",
+              "lower_bound_mm": 26.745394865528166,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_USB_HEADER_EST",
+              "lower_bound_mm": 27.095394865528164,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_BAT_HEADER_EST",
+              "lower_bound_mm": 27.307763249723546,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "REGULATOR_EST",
+              "lower_bound_mm": 27.90540492449025,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ANTENNA_FEED_HEADER_EST",
+              "lower_bound_mm": 28.0313607568904,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ANTENNA_FEED_ROUTE_EST",
+              "lower_bound_mm": 28.34565578649625,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_ADAPTER_PCB_REFERENCE",
+              "lower_bound_mm": 29.242275613664617,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_ROUTE_EST",
+              "lower_bound_mm": 29.77798998683608,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_1_0p8",
+              "lower_bound_mm": 30.095390012425316,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 30.628151225482615,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 30.657888829647618,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY",
+              "lower_bound_mm": 30.832081665233268,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_WASHER_L",
+              "lower_bound_mm": 32.84773121763827,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_CELL_EST",
+              "lower_bound_mm": 33.39539486552816,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_M2x3_L",
+              "lower_bound_mm": 33.39802269573519,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_C_REFERENCE",
+              "lower_bound_mm": 33.66381217685052,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_5_0p8",
+              "lower_bound_mm": 33.66878087816432,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_STEEL_PIN",
+              "lower_bound_mm": 33.80301727949223,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 38.37659062425513,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 38.55802369037786,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 40.03155971203251,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 40.67806561782556,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 40.78032784553179,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_PLUG_EST",
+              "lower_bound_mm": 40.9415821560821,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_RIGHT",
+              "lower_bound_mm": 41.75387031280887,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 42.126470467643664,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_WASHER_R",
+              "lower_bound_mm": 42.34748830746266,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_M2x3_R",
+              "lower_bound_mm": 42.994002369973906,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_PCB_EST",
+              "lower_bound_mm": 43.644969115978085,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_BODY_EST",
+              "lower_bound_mm": 43.73549496714041,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_TAB_EST",
+              "lower_bound_mm": 46.823269700946305,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_4_0p8",
+              "lower_bound_mm": 47.70338724909113,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 49.55820328000579,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 51.2652831205057,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_2_0p8",
+              "lower_bound_mm": 54.0659337839115,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            }
+          ],
+          "passed": true
+        },
+        "named_stop_overlap_mm3": 0.0,
+        "unexplained_overlap_mm3": 0,
+        "passed": true
+      },
+      {
+        "angle_deg": 1.815715190156782,
+        "within_physical_travel": true,
+        "full": {
+          "a": "SIDE_FRONT_KEY",
+          "b": "BODY",
+          "gap_mm": 0.021978596001430244,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              26.80069638971233,
+              45.67803243928966,
+              18.6
+            ],
+            [
+              26.8,
+              45.7,
+              18.6
+            ]
+          ]
+        },
+        "nonfunctional": [
+          {
+            "a": "SIDE_FRONT_KEY_NONCONTACT",
+            "b": "BODY",
+            "gap_mm": 0.2999999914279293,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                28.036457044179766,
+                44.170967741935634,
+                18.0
+              ],
+              [
+                28.165206734783,
+                43.9,
+                18.0
+              ]
+            ]
+          },
+          {
+            "a": "SIDE_FRONT_KEY_EAR",
+            "b": "BODY",
+            "gap_mm": 0.4499999999999993,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                27.17280792897873,
+                44.889426804745824,
+                19.35
+              ],
+              [
+                27.172807928978973,
+                44.88942680474613,
+                19.8
+              ]
+            ]
+          },
+          {
+            "a": "SIDE_FRONT_KEY_PRESS_RIB",
+            "b": "BODY",
+            "gap_mm": 0.6297861689073279,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                32.05119427520634,
+                55.349249809618726,
+                15.9
+              ],
+              [
+                32.05119427520634,
+                55.56411823909368,
+                15.308001540067936
+              ]
+            ]
+          }
+        ],
+        "other_components": {
+          "exact_global_minimum_mm": 2.167407071761817,
+          "measured_pairs": [
+            {
+              "a": "SIDE_FRONT_KEY+PET",
+              "b": "SR_D2F_01F",
+              "gap_mm": 4.367791777760489,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.3,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  25.95624813815944,
+                  51.706102826919334,
+                  16.6
+                ],
+                [
+                  25.5,
+                  56.05,
+                  16.6
+                ]
+              ]
+            },
+            {
+              "a": "SIDE_FRONT_KEY+PET",
+              "b": "SIDE_REAR_KEY",
+              "gap_mm": 2.167407071761817,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.3,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  31.51788163253851,
+                  56.182598659340734,
+                  17.14351644085457
+                ],
+                [
+                  31.51788163865307,
+                  58.350002344058844,
+                  17.147348175904547
+                ]
+              ]
+            }
+          ],
+          "pruned_pairs": [
+            {
+              "part": "LEFT_KEY",
+              "lower_bound_mm": 2.8999999999999986,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_STEEL_PIN",
+              "lower_bound_mm": 4.549999999999997,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER",
+              "lower_bound_mm": 6.3883804327795595,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_TUNING_SHIM_0p33",
+              "lower_bound_mm": 6.805698906270685,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER",
+              "lower_bound_mm": 6.8883804327795595,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_M2x5",
+              "lower_bound_mm": 6.988380432779557,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_WASHER",
+              "lower_bound_mm": 7.686186380335366,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_LEFT",
+              "lower_bound_mm": 9.831783892773167,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_COM_ROUTE_EST",
+              "lower_bound_mm": 10.088380432779559,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_SR_NO_ROUTE_EST",
+              "lower_bound_mm": 10.127334129737243,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_3_0p8",
+              "lower_bound_mm": 10.469634603380152,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_SF_NO_ROUTE_EST",
+              "lower_bound_mm": 10.588380432779559,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 10.640217265365067,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 11.07839525932918,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_COM_GPIO_ROUTE_EST",
+              "lower_bound_mm": 11.100445137482517,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "CONTROLLER_RF_PCB_EST",
+              "lower_bound_mm": 12.38838043277956,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_PCB_EST",
+              "lower_bound_mm": 12.41531758430886,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_IO_HEADER_EST",
+              "lower_bound_mm": 12.88838043277956,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_VERTICAL_PIN",
+              "lower_bound_mm": 13.017398906271204,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_M2x5",
+              "lower_bound_mm": 14.24883351965071,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_CARRIER",
+              "lower_bound_mm": 14.358380432779526,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_WASHER",
+              "lower_bound_mm": 14.603741187473787,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 15.786275049442544,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 16.17715023407199,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 16.8916536945736,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 17.454889171472338,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_ADAPTER_PCB_EST",
+              "lower_bound_mm": 17.582056075004772,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_ROUTE_EST",
+              "lower_bound_mm": 17.938299756450064,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "MCU_RADIO_EST",
+              "lower_bound_mm": 18.391119514763975,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_CARRIER_STEEL_PIN",
+              "lower_bound_mm": 18.488380432779557,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 19.052744614100323,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 19.15227342458667,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL",
+              "lower_bound_mm": 19.22389209653825,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 19.293370070931676,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 19.381863395812122,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "MATCHED_LENS_EST",
+              "lower_bound_mm": 19.90218662366635,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_EC10E_HOUSING",
+              "lower_bound_mm": 20.003427509263233,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_SENSOR_HEADER_EST",
+              "lower_bound_mm": 20.413876346720986,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 20.52608635419527,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 20.860079649289254,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 20.903717922290564,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 20.928787303067946,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_HEADER_EST",
+              "lower_bound_mm": 21.601886232400012,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "PAW3950_PACKAGE_EST",
+              "lower_bound_mm": 22.192677791830164,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_M2x3_FRONT",
+              "lower_bound_mm": 22.221927189101432,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "REMOTE_ANTENNA_PCB_EST",
+              "lower_bound_mm": 22.248380885148357,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "CHARGE_POWERPATH_EST",
+              "lower_bound_mm": 22.40527608466575,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_WASHER_FRONT",
+              "lower_bound_mm": 22.5195181081792,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_EC10E_ROTOR",
+              "lower_bound_mm": 22.717629984625358,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_MIDDLE",
+              "lower_bound_mm": 22.88838043277956,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_M2x3_REAR",
+              "lower_bound_mm": 24.433721088482436,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_WASHER_REAR",
+              "lower_bound_mm": 24.698205887404786,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_ROUTE_EST",
+              "lower_bound_mm": 26.73838043277956,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_USB_HEADER_EST",
+              "lower_bound_mm": 27.08838043277956,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_BAT_HEADER_EST",
+              "lower_bound_mm": 27.290758325380477,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "REGULATOR_EST",
+              "lower_bound_mm": 27.868565833631443,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ANTENNA_FEED_HEADER_EST",
+              "lower_bound_mm": 28.00172723168435,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ANTENNA_FEED_ROUTE_EST",
+              "lower_bound_mm": 28.324752340586926,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_ADAPTER_PCB_REFERENCE",
+              "lower_bound_mm": 29.23858328209399,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_ROUTE_EST",
+              "lower_bound_mm": 29.760731502923445,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_1_0p8",
+              "lower_bound_mm": 30.095390012425316,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 30.62115574985979,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 30.65090014105901,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY",
+              "lower_bound_mm": 30.82509833640975,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_WASHER_L",
+              "lower_bound_mm": 32.84450827892357,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_CELL_EST",
+              "lower_bound_mm": 33.388380432779556,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_M2x3_L",
+              "lower_bound_mm": 33.39472683828415,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_5_0p8",
+              "lower_bound_mm": 33.60687245385836,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_C_REFERENCE",
+              "lower_bound_mm": 33.65945246034896,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_STEEL_PIN",
+              "lower_bound_mm": 33.796066694373955,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 38.36987439309286,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 38.55128448246761,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 40.02478820847946,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 40.67172943714317,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 40.773955946528694,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_PLUG_EST",
+              "lower_bound_mm": 40.931866485953876,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_RIGHT",
+              "lower_bound_mm": 41.74701692568769,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 42.120035757544954,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_WASHER_R",
+              "lower_bound_mm": 42.342404201780994,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_M2x3_R",
+              "lower_bound_mm": 42.98889682355594,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_PCB_EST",
+              "lower_bound_mm": 43.613503283914085,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_BODY_EST",
+              "lower_bound_mm": 43.70428112799396,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_TAB_EST",
+              "lower_bound_mm": 46.79199599174165,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_4_0p8",
+              "lower_bound_mm": 47.69175436514952,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 49.55134637541261,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 51.2586545736361,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_2_0p8",
+              "lower_bound_mm": 54.06010666929217,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            }
+          ],
+          "passed": true
+        },
+        "named_stop_overlap_mm3": 0.0,
+        "unexplained_overlap_mm3": 0,
+        "passed": true
+      },
+      {
+        "angle_deg": 2.9505371840047707,
+        "within_physical_travel": true,
+        "full": {
+          "a": "SIDE_FRONT_KEY",
+          "b": "BODY",
+          "gap_mm": 0.0355014191436537,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              26.801827394047805,
+              45.664545643536975,
+              18.6
+            ],
+            [
+              26.8,
+              45.7,
+              18.6
+            ]
+          ]
+        },
+        "nonfunctional": [
+          {
+            "a": "SIDE_FRONT_KEY_NONCONTACT",
+            "b": "BODY",
+            "gap_mm": 0.2999999914279222,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                28.036457044179762,
+                44.170967741935634,
+                18.0
+              ],
+              [
+                28.165206734783,
+                43.9,
+                18.0
+              ]
+            ]
+          },
+          {
+            "a": "SIDE_FRONT_KEY_EAR",
+            "b": "BODY",
+            "gap_mm": 0.4499999999999993,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                27.181003541547845,
+                44.88302726768361,
+                19.35
+              ],
+              [
+                27.181003541548083,
+                44.88302726768392,
+                19.8
+              ]
+            ]
+          },
+          {
+            "a": "SIDE_FRONT_KEY_PRESS_RIB",
+            "b": "BODY",
+            "gap_mm": 0.5968483430351703,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                31.851275354981322,
+                55.43741554105016,
+                15.9
+              ],
+              [
+                31.851275354981322,
+                55.67920813333171,
+                15.35432217664487
+              ]
+            ]
+          }
+        ],
+        "other_components": {
+          "exact_global_minimum_mm": 2.09416142032614,
+          "measured_pairs": [
+            {
+              "a": "SIDE_FRONT_KEY+PET",
+              "b": "SR_D2F_01F",
+              "gap_mm": 4.388129563997642,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.3,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  25.829677516886264,
+                  51.67427219707511,
+                  16.6
+                ],
+                [
+                  25.5,
+                  56.05,
+                  16.6
+                ]
+              ]
+            },
+            {
+              "a": "SIDE_FRONT_KEY+PET",
+              "b": "SIDE_REAR_KEY",
+              "gap_mm": 2.09416142032614,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.3,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  31.326043884195432,
+                  56.25964600251835,
+                  17.138198594666317
+                ],
+                [
+                  31.441147282080436,
+                  58.350477318483605,
+                  17.164422064244683
+                ]
+              ]
+            }
+          ],
+          "pruned_pairs": [
+            {
+              "part": "LEFT_KEY",
+              "lower_bound_mm": 2.8999999999999986,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_STEEL_PIN",
+              "lower_bound_mm": 4.549999999999997,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER",
+              "lower_bound_mm": 6.374783976257358,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_TUNING_SHIM_0p33",
+              "lower_bound_mm": 6.7281765774984805,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER",
+              "lower_bound_mm": 6.874783976257358,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_M2x5",
+              "lower_bound_mm": 6.974783976257356,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_WASHER",
+              "lower_bound_mm": 7.673826393361597,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_LEFT",
+              "lower_bound_mm": 9.825999446006415,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_COM_ROUTE_EST",
+              "lower_bound_mm": 10.074783976257358,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_SR_NO_ROUTE_EST",
+              "lower_bound_mm": 10.107283128468971,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_3_0p8",
+              "lower_bound_mm": 10.449485081601734,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_SF_NO_ROUTE_EST",
+              "lower_bound_mm": 10.574783976257358,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 10.63762091898103,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 11.07786556808523,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_COM_GPIO_ROUTE_EST",
+              "lower_bound_mm": 11.083516207603026,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "CONTROLLER_RF_PCB_EST",
+              "lower_bound_mm": 12.374783976257358,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_PCB_EST",
+              "lower_bound_mm": 12.39688250363645,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_IO_HEADER_EST",
+              "lower_bound_mm": 12.874783976257358,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_VERTICAL_PIN",
+              "lower_bound_mm": 12.939876577499,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_M2x5",
+              "lower_bound_mm": 14.174631052107316,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_CARRIER",
+              "lower_bound_mm": 14.344783976257325,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_WASHER",
+              "lower_bound_mm": 14.531351123118649,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 15.776081413031154,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 16.16695075256175,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 16.89001835106084,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 17.45455298800354,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_ADAPTER_PCB_EST",
+              "lower_bound_mm": 17.570621546919337,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_ROUTE_EST",
+              "lower_bound_mm": 17.868604157986,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "MCU_RADIO_EST",
+              "lower_bound_mm": 18.376349663264378,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_CARRIER_STEEL_PIN",
+              "lower_bound_mm": 18.474783976257356,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 19.03930124118931,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 19.138899961929702,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL",
+              "lower_bound_mm": 19.21219626856784,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 19.279882915687864,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 19.36843786273515,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "MATCHED_LENS_EST",
+              "lower_bound_mm": 19.878108003191926,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_EC10E_HOUSING",
+              "lower_bound_mm": 19.991575641235364,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_SENSOR_HEADER_EST",
+              "lower_bound_mm": 20.354685492602062,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 20.518247630677823,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 20.846562567064417,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 20.890229076353645,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 20.92090449567321,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_HEADER_EST",
+              "lower_bound_mm": 21.545012727578438,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "PAW3950_PACKAGE_EST",
+              "lower_bound_mm": 22.159367616351076,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_M2x3_FRONT",
+              "lower_bound_mm": 22.212758836658956,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "REMOTE_ANTENNA_PCB_EST",
+              "lower_bound_mm": 22.223876557412137,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "CHARGE_POWERPATH_EST",
+              "lower_bound_mm": 22.35759625776682,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_WASHER_FRONT",
+              "lower_bound_mm": 22.51059176354688,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_EC10E_ROTOR",
+              "lower_bound_mm": 22.70719482056811,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_MIDDLE",
+              "lower_bound_mm": 22.87478397625736,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_M2x3_REAR",
+              "lower_bound_mm": 24.42137474413913,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_WASHER_REAR",
+              "lower_bound_mm": 24.68610197668256,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_ROUTE_EST",
+              "lower_bound_mm": 26.72478397625736,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_USB_HEADER_EST",
+              "lower_bound_mm": 27.074783976257358,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_BAT_HEADER_EST",
+              "lower_bound_mm": 27.26794322273737,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "REGULATOR_EST",
+              "lower_bound_mm": 27.827316042701586,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ANTENNA_FEED_HEADER_EST",
+              "lower_bound_mm": 27.967118249927303,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ANTENNA_FEED_ROUTE_EST",
+              "lower_bound_mm": 28.298277535265946,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_ADAPTER_PCB_REFERENCE",
+              "lower_bound_mm": 29.231429700180136,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_ROUTE_EST",
+              "lower_bound_mm": 29.737667496886242,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_1_0p8",
+              "lower_bound_mm": 30.095390012425316,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 30.607596063676347,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 30.63735361935126,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY",
+              "lower_bound_mm": 30.8115622105582,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_WASHER_L",
+              "lower_bound_mm": 32.83826444760471,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_CELL_EST",
+              "lower_bound_mm": 33.37478397625736,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_M2x3_L",
+              "lower_bound_mm": 33.38834156861238,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_5_0p8",
+              "lower_bound_mm": 33.54368837278956,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_C_REFERENCE",
+              "lower_bound_mm": 33.6510043400488,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_STEEL_PIN",
+              "lower_bound_mm": 33.78259407234879,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 38.35685626091967,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 38.53822178893784,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 40.01166287319213,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 40.65944830770958,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 40.761605549029575,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_PLUG_EST",
+              "lower_bound_mm": 40.91586194574344,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_RIGHT",
+              "lower_bound_mm": 41.73373278506194,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 42.10756353627233,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_WASHER_R",
+              "lower_bound_mm": 42.33255097428041,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_M2x3_R",
+              "lower_bound_mm": 42.97900199820326,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_PCB_EST",
+              "lower_bound_mm": 43.57716266066282,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_BODY_EST",
+              "lower_bound_mm": 43.66819357654224,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_TAB_EST",
+              "lower_bound_mm": 46.755906613760004,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_4_0p8",
+              "lower_bound_mm": 47.67406912388018,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 49.53805538989824,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 51.245806393263585,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_2_0p8",
+              "lower_bound_mm": 54.04881245943156,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            }
+          ],
+          "passed": true
+        },
+        "named_stop_overlap_mm3": 0.0,
+        "unexplained_overlap_mm3": 0,
+        "passed": true
+      },
+      {
+        "angle_deg": 4.08535917785276,
+        "within_physical_travel": true,
+        "full": {
+          "a": "SIDE_FRONT_KEY",
+          "b": "BODY",
+          "gap_mm": 0.048853403844491224,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              26.80348044181878,
+              45.651270731670394,
+              18.6
+            ],
+            [
+              26.8,
+              45.7,
+              18.6
+            ]
+          ]
+        },
+        "nonfunctional": [
+          {
+            "a": "SIDE_FRONT_KEY_NONCONTACT",
+            "b": "BODY",
+            "gap_mm": 0.2999999914279226,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                28.036457044179766,
+                44.170967741935634,
+                18.0
+              ],
+              [
+                28.165206734783,
+                43.9,
+                18.0
+              ]
+            ]
+          },
+          {
+            "a": "SIDE_FRONT_KEY_EAR",
+            "b": "BODY",
+            "gap_mm": 0.4499999999999993,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                27.18932429000717,
+                44.87679130063186,
+                19.35
+              ],
+              [
+                27.18932429000741,
+                44.87679130063218,
+                19.8
+              ]
+            ]
+          },
+          {
+            "a": "SIDE_FRONT_KEY_PRESS_RIB",
+            "b": "BODY",
+            "gap_mm": 0.5603501370884998,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                31.649649517012687,
+                55.52160456840066,
+                15.9
+              ],
+              [
+                31.649649517012687,
+                55.779982928167065,
+                15.402774800176497
+              ]
+            ]
+          }
+        ],
+        "other_components": {
+          "exact_global_minimum_mm": 2.040935654569562,
+          "measured_pairs": [
+            {
+              "a": "SIDE_FRONT_KEY+PET",
+              "b": "SR_D2F_01F",
+              "gap_mm": 4.21996779154146,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.3,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  29.647488901784012,
+                  55.27124203296161,
+                  19.055528259078308
+                ],
+                [
+                  25.5,
+                  56.05,
+                  19.055528259078308
+                ]
+              ]
+            },
+            {
+              "a": "SIDE_FRONT_KEY+PET",
+              "b": "SIDE_REAR_KEY",
+              "gap_mm": 2.040935654569562,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.3,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  31.13889292899954,
+                  56.3307148402179,
+                  17.13715054134347
+                ],
+                [
+                  31.408803100273484,
+                  58.352774775262425,
+                  17.19912202368729
+                ]
+              ]
+            }
+          ],
+          "pruned_pairs": [
+            {
+              "part": "LEFT_KEY",
+              "lower_bound_mm": 2.8999999999999986,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_STEEL_PIN",
+              "lower_bound_mm": 4.549999999999997,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER",
+              "lower_bound_mm": 6.272909027036317,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_TUNING_SHIM_0p33",
+              "lower_bound_mm": 6.654809175936116,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER",
+              "lower_bound_mm": 6.772909027036317,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_M2x5",
+              "lower_bound_mm": 6.8729090270363145,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_WASHER",
+              "lower_bound_mm": 7.581350703793746,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_LEFT",
+              "lower_bound_mm": 9.783150402964125,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_COM_ROUTE_EST",
+              "lower_bound_mm": 9.972909027036316,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_SR_NO_ROUTE_EST",
+              "lower_bound_mm": 10.000068011157788,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_3_0p8",
+              "lower_bound_mm": 10.430910319058032,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_SF_NO_ROUTE_EST",
+              "lower_bound_mm": 10.472909027036316,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 10.618700852349688,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_COM_GPIO_ROUTE_EST",
+              "lower_bound_mm": 10.979028258077342,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 11.074427044223317,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "CONTROLLER_RF_PCB_EST",
+              "lower_bound_mm": 12.272909027036317,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_PCB_EST",
+              "lower_bound_mm": 12.290993876311111,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_IO_HEADER_EST",
+              "lower_bound_mm": 12.772909027036317,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_VERTICAL_PIN",
+              "lower_bound_mm": 12.866509175936635,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_M2x5",
+              "lower_bound_mm": 14.060729919077994,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_CARRIER",
+              "lower_bound_mm": 14.242909027036283,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_WASHER",
+              "lower_bound_mm": 14.420267884378978,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 15.69986702878734,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 16.09068835187734,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 16.8781085692361,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 17.45237086542341,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_ADAPTER_PCB_EST",
+              "lower_bound_mm": 17.485043875143084,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_ROUTE_EST",
+              "lower_bound_mm": 17.748296825448175,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "MCU_RADIO_EST",
+              "lower_bound_mm": 18.27366765638514,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_CARRIER_STEEL_PIN",
+              "lower_bound_mm": 18.372909027036314,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 18.938580264493826,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 19.03870590231056,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL",
+              "lower_bound_mm": 19.12464224267505,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 19.178831845423286,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 19.267851228277173,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "MATCHED_LENS_EST",
+              "lower_bound_mm": 19.768795955995106,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_EC10E_HOUSING",
+              "lower_bound_mm": 19.902843444065383,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_SENSOR_HEADER_EST",
+              "lower_bound_mm": 20.229313233010423,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 20.459705907095362,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 20.745285650899426,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 20.789164887926923,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 20.86202770390653,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_HEADER_EST",
+              "lower_bound_mm": 21.41947340530013,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "PAW3950_PACKAGE_EST",
+              "lower_bound_mm": 22.04214111000871,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "REMOTE_ANTENNA_PCB_EST",
+              "lower_bound_mm": 22.115287423044087,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_M2x3_FRONT",
+              "lower_bound_mm": 22.144207435049346,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "CHARGE_POWERPATH_EST",
+              "lower_bound_mm": 22.233439684759936,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_WASHER_FRONT",
+              "lower_bound_mm": 22.44385794188863,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_EC10E_ROTOR",
+              "lower_bound_mm": 22.629113485927288,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_MIDDLE",
+              "lower_bound_mm": 22.772909027036317,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_M2x3_REAR",
+              "lower_bound_mm": 24.328908995592418,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_WASHER_REAR",
+              "lower_bound_mm": 24.595459932780283,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_ROUTE_EST",
+              "lower_bound_mm": 26.622909027036318,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_USB_HEADER_EST",
+              "lower_bound_mm": 26.972909027036316,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_BAT_HEADER_EST",
+              "lower_bound_mm": 27.15814061643521,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "REGULATOR_EST",
+              "lower_bound_mm": 27.705608611620384,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ANTENNA_FEED_HEADER_EST",
+              "lower_bound_mm": 27.84895008280713,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ANTENNA_FEED_ROUTE_EST",
+              "lower_bound_mm": 28.185692886341034,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_ADAPTER_PCB_REFERENCE",
+              "lower_bound_mm": 29.177975429219227,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_ROUTE_EST",
+              "lower_bound_mm": 29.627746096318663,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_1_0p8",
+              "lower_bound_mm": 30.095390012425316,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 30.505997667136302,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 30.535854231825994,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY",
+              "lower_bound_mm": 30.71014100034151,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_WASHER_L",
+              "lower_bound_mm": 32.79162247788144,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_CELL_EST",
+              "lower_bound_mm": 33.27290902703632,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_M2x3_L",
+              "lower_bound_mm": 33.34063580024149,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_5_0p8",
+              "lower_bound_mm": 33.4264384058407,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_C_REFERENCE",
+              "lower_bound_mm": 33.587812134569674,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_STEEL_PIN",
+              "lower_bound_mm": 33.681650151482216,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 38.259327355831296,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 38.44035797418697,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 39.91332795659553,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 40.56745548080526,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 40.66909231179072,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_PLUG_EST",
+              "lower_bound_mm": 40.81192661360799,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_RIGHT",
+              "lower_bound_mm": 41.634204358748974,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 42.014134403245535,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_WASHER_R",
+              "lower_bound_mm": 42.25878922041464,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_M2x3_R",
+              "lower_bound_mm": 42.90492695726072,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_PCB_EST",
+              "lower_bound_mm": 43.458332706154856,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_BODY_EST",
+              "lower_bound_mm": 43.54978047893766,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_TAB_EST",
+              "lower_bound_mm": 46.6382991033197,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_4_0p8",
+              "lower_bound_mm": 47.57060031612152,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 49.43847454665913,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 51.14955040451373,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_2_0p8",
+              "lower_bound_mm": 53.96422147223418,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            }
+          ],
+          "passed": true
+        },
+        "named_stop_overlap_mm3": 0.0,
+        "unexplained_overlap_mm3": 0,
+        "passed": true
+      },
+      {
+        "angle_deg": 5.220181171700748,
+        "within_physical_travel": true,
+        "full": {
+          "a": "SIDE_FRONT_KEY",
+          "b": "BODY",
+          "gap_mm": 0.062029312389071126,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              26.805643634815013,
+              45.63822795954855,
+              18.6
+            ],
+            [
+              26.8,
+              45.7,
+              18.6
+            ]
+          ]
+        },
+        "nonfunctional": [
+          {
+            "a": "SIDE_FRONT_KEY_NONCONTACT",
+            "b": "BODY",
+            "gap_mm": 0.29999999142792777,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                28.036457044179762,
+                44.170967741935634,
+                17.0
+              ],
+              [
+                28.165206734783,
+                43.9,
+                17.0
+              ]
+            ]
+          },
+          {
+            "a": "SIDE_FRONT_KEY_EAR",
+            "b": "BODY",
+            "gap_mm": 0.4499999999999993,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                27.197766910294547,
+                44.87072134983496,
+                19.35
+              ],
+              [
+                27.197766910294778,
+                44.870721349835286,
+                19.8
+              ]
+            ]
+          },
+          {
+            "a": "SIDE_FRONT_KEY_PRESS_RIB",
+            "b": "BODY",
+            "gap_mm": 0.524883203756506,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                31.446395855058547,
+                55.601783866009306,
+                15.9
+              ],
+              [
+                31.506777287618124,
+                55.86805626455332,
+                15.451719429417953
+              ]
+            ]
+          }
+        ],
+        "other_components": {
+          "exact_global_minimum_mm": 2.0094784146880813,
+          "measured_pairs": [
+            {
+              "a": "SIDE_FRONT_KEY+PET",
+              "b": "SR_D2F_01F",
+              "gap_mm": 4.01764068547357,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.3,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  29.455619533916824,
+                  55.34678539515438,
+                  19.041771292240682
+                ],
+                [
+                  25.5,
+                  56.05,
+                  19.041771292240686
+                ]
+              ]
+            },
+            {
+              "a": "SIDE_FRONT_KEY+PET",
+              "b": "SIDE_REAR_KEY",
+              "gap_mm": 2.0094784146880813,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.3,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  30.950791691217617,
+                  56.395526528572326,
+                  17.13668061202627
+                ],
+                [
+                  31.375508368437778,
+                  58.3571450926501,
+                  17.235026187696285
+                ]
+              ]
+            }
+          ],
+          "pruned_pairs": [
+            {
+              "part": "LEFT_KEY",
+              "lower_bound_mm": 2.8999999999999986,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_STEEL_PIN",
+              "lower_bound_mm": 4.549999999999997,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER",
+              "lower_bound_mm": 6.171168273218694,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_TUNING_SHIM_0p33",
+              "lower_bound_mm": 6.585625624318361,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER",
+              "lower_bound_mm": 6.671168273218694,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_M2x5",
+              "lower_bound_mm": 6.7711682732186915,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_WASHER",
+              "lower_bound_mm": 7.489240267493097,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_LEFT",
+              "lower_bound_mm": 9.741233049194642,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_COM_ROUTE_EST",
+              "lower_bound_mm": 9.871168273218693,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_SR_NO_ROUTE_EST",
+              "lower_bound_mm": 9.893699336803797,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_SF_NO_ROUTE_EST",
+              "lower_bound_mm": 10.371168273218693,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_3_0p8",
+              "lower_bound_mm": 10.413837972804005,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 10.60074915016918,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_COM_GPIO_ROUTE_EST",
+              "lower_bound_mm": 10.875233429748222,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 11.071927543258301,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "CONTROLLER_RF_PCB_EST",
+              "lower_bound_mm": 12.171168273218694,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_PCB_EST",
+              "lower_bound_mm": 12.18581696220952,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_IO_HEADER_EST",
+              "lower_bound_mm": 12.671168273218694,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_VERTICAL_PIN",
+              "lower_bound_mm": 12.79732562431888,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_M2x5",
+              "lower_bound_mm": 13.95075167042656,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_CARRIER",
+              "lower_bound_mm": 14.14116827321866,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_WASHER",
+              "lower_bound_mm": 14.313052510555048,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 15.62404495320911,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 16.014810743909706,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 16.86682019907848,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_ADAPTER_PCB_EST",
+              "lower_bound_mm": 17.39975416051761,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 17.450784910416406,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_ROUTE_EST",
+              "lower_bound_mm": 17.631465446067867,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "MCU_RADIO_EST",
+              "lower_bound_mm": 18.171428911639797,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_CARRIER_STEEL_PIN",
+              "lower_bound_mm": 18.27116827321869,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 18.83800434917466,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 18.938661723034272,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL",
+              "lower_bound_mm": 19.0373457656975,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 19.077922631344858,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 19.16741067352552,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "MATCHED_LENS_EST",
+              "lower_bound_mm": 19.660360967154364,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_EC10E_HOUSING",
+              "lower_bound_mm": 19.814354309300974,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_SENSOR_HEADER_EST",
+              "lower_bound_mm": 20.106668742799172,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 20.401581354961877,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 20.644148015787792,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 20.688241764291018,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 20.803560066598415,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_HEADER_EST",
+              "lower_bound_mm": 21.29651691597274,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "PAW3950_PACKAGE_EST",
+              "lower_bound_mm": 21.926203962327754,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "REMOTE_ANTENNA_PCB_EST",
+              "lower_bound_mm": 22.007596212353633,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_M2x3_FRONT",
+              "lower_bound_mm": 22.076003083795285,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "CHARGE_POWERPATH_EST",
+              "lower_bound_mm": 22.111328453912765,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_WASHER_FRONT",
+              "lower_bound_mm": 22.37747628412213,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_EC10E_ROTOR",
+              "lower_bound_mm": 22.551324499783025,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_MIDDLE",
+              "lower_bound_mm": 22.671168273218694,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_M2x3_REAR",
+              "lower_bound_mm": 24.236640346592765,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_WASHER_REAR",
+              "lower_bound_mm": 24.50502536176606,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_ROUTE_EST",
+              "lower_bound_mm": 26.521168273218695,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_USB_HEADER_EST",
+              "lower_bound_mm": 26.871168273218693,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_BAT_HEADER_EST",
+              "lower_bound_mm": 27.049087052813764,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "REGULATOR_EST",
+              "lower_bound_mm": 27.58559162453176,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ANTENNA_FEED_HEADER_EST",
+              "lower_bound_mm": 27.732121694891642,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ANTENNA_FEED_ROUTE_EST",
+              "lower_bound_mm": 28.07403526874616,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_ADAPTER_PCB_REFERENCE",
+              "lower_bound_mm": 29.12484930045666,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_ROUTE_EST",
+              "lower_bound_mm": 29.518577833556115,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_1_0p8",
+              "lower_bound_mm": 30.095390012425316,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 30.404534948800674,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 30.43449104967654,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY",
+              "lower_bound_mm": 30.608856395503828,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_WASHER_L",
+              "lower_bound_mm": 32.7452919640424,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_CELL_EST",
+              "lower_bound_mm": 33.1711682732187,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_M2x3_L",
+              "lower_bound_mm": 33.29323576551616,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_5_0p8",
+              "lower_bound_mm": 33.312271837376876,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_C_REFERENCE",
+              "lower_bound_mm": 33.524893256744505,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_STEEL_PIN",
+              "lower_bound_mm": 33.58084481166062,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 38.161949585402986,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 38.34264392513285,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 39.8151403381229,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 40.47563107136557,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 40.5767456981316,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_PLUG_EST",
+              "lower_bound_mm": 40.70835973070221,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_RIGHT",
+              "lower_bound_mm": 41.53481839274522,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 41.92086761062622,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_WASHER_R",
+              "lower_bound_mm": 42.18524144691841,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_M2x3_R",
+              "lower_bound_mm": 42.83106346873338,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_PCB_EST",
+              "lower_bound_mm": 43.340922583238374,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_BODY_EST",
+              "lower_bound_mm": 43.43277685390835,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_TAB_EST",
+              "lower_bound_mm": 46.52210869958632,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_4_0p8",
+              "lower_bound_mm": 47.46759239896408,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 49.339034225443726,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 51.05344297285675,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_2_0p8",
+              "lower_bound_mm": 53.87980161085542,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            }
+          ],
+          "passed": true
+        },
+        "named_stop_overlap_mm3": 0.0,
+        "unexplained_overlap_mm3": 0,
+        "passed": true
+      },
+      {
+        "angle_deg": 6.355003165548737,
+        "within_physical_travel": true,
+        "full": {
+          "a": "SIDE_FRONT_KEY",
+          "b": "BODY",
+          "gap_mm": 0.07502397613367298,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              26.808304287579904,
+              45.625437034643895,
+              18.6
+            ],
+            [
+              26.8,
+              45.7,
+              18.6
+            ]
+          ]
+        },
+        "nonfunctional": [
+          {
+            "a": "SIDE_FRONT_KEY_NONCONTACT",
+            "b": "BODY",
+            "gap_mm": 0.29999999142792466,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                28.036457044179762,
+                44.170967741935634,
+                17.0
+              ],
+              [
+                28.165206734783,
+                43.9,
+                17.0
+              ]
+            ]
+          },
+          {
+            "a": "SIDE_FRONT_KEY_EAR",
+            "b": "BODY",
+            "gap_mm": 0.4499999999999993,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                27.206328090539976,
+                44.86481979641243,
+                19.35
+              ],
+              [
+                27.206328090540197,
+                44.86481979641275,
+                19.8
+              ]
+            ]
+          },
+          {
+            "a": "SIDE_FRONT_KEY_PRESS_RIB",
+            "b": "BODY",
+            "gap_mm": 0.5486749519584466,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                31.241594101439617,
+                55.6779219811514,
+                15.9
+              ],
+              [
+                31.50558437340815,
+                55.94886569698146,
+                15.502579766412449
+              ]
+            ]
+          }
+        ],
+        "other_components": {
+          "exact_global_minimum_mm": 2.000557567809122,
+          "measured_pairs": [
+            {
+              "a": "SIDE_FRONT_KEY+PET",
+              "b": "SR_D2F_01F",
+              "gap_mm": 3.8145804884786325,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.3,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  29.261900449213456,
+                  55.41823318123735,
+                  19.02714817269778
+                ],
+                [
+                  25.5,
+                  56.05,
+                  19.02714817269778
+                ]
+              ]
+            },
+            {
+              "a": "SIDE_FRONT_KEY+PET",
+              "b": "SIDE_REAR_KEY",
+              "gap_mm": 2.000557567809122,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.3,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  30.761211687112006,
+                  56.45400695487193,
+                  17.13665375225632
+                ],
+                [
+                  31.341857529912676,
+                  58.36363550986644,
+                  17.272299501567606
+                ]
+              ]
+            }
+          ],
+          "pruned_pairs": [
+            {
+              "part": "LEFT_KEY",
+              "lower_bound_mm": 2.8999999999999986,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_STEEL_PIN",
+              "lower_bound_mm": 4.549999999999997,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER",
+              "lower_bound_mm": 6.069601625654492,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_TUNING_SHIM_0p33",
+              "lower_bound_mm": 6.520653165482855,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER",
+              "lower_bound_mm": 6.569601625654492,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_M2x5",
+              "lower_bound_mm": 6.66960162565449,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_WASHER",
+              "lower_bound_mm": 7.39753917495066,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_LEFT",
+              "lower_bound_mm": 9.700271161455802,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_COM_ROUTE_EST",
+              "lower_bound_mm": 9.769601625654492,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_SR_NO_ROUTE_EST",
+              "lower_bound_mm": 9.788153312037911,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_SF_NO_ROUTE_EST",
+              "lower_bound_mm": 10.269601625654492,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_3_0p8",
+              "lower_bound_mm": 10.398198410054748,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 10.583773354356556,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_COM_GPIO_ROUTE_EST",
+              "lower_bound_mm": 10.772107833140645,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 11.070364432435928,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "CONTROLLER_RF_PCB_EST",
+              "lower_bound_mm": 12.069601625654492,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_PCB_EST",
+              "lower_bound_mm": 12.081336155194164,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_IO_HEADER_EST",
+              "lower_bound_mm": 12.569601625654492,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_VERTICAL_PIN",
+              "lower_bound_mm": 12.732353165483374,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_M2x5",
+              "lower_bound_mm": 13.844767212811764,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_CARRIER",
+              "lower_bound_mm": 14.03960162565446,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_WASHER",
+              "lower_bound_mm": 14.209770553282848,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 15.54864786015864,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 15.939350449564254,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 16.856156130613435,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_ADAPTER_PCB_EST",
+              "lower_bound_mm": 17.314787645395423,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 17.449793211766078,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_ROUTE_EST",
+              "lower_bound_mm": 17.518173518245508,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "MCU_RADIO_EST",
+              "lower_bound_mm": 18.069630589394247,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_CARRIER_STEEL_PIN",
+              "lower_bound_mm": 18.169601625654494,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 18.737613091665157,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 18.838806872329826,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL",
+              "lower_bound_mm": 18.950342395189956,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 18.977194957434037,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 19.067155751513113,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "MATCHED_LENS_EST",
+              "lower_bound_mm": 19.552813575439583,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_EC10E_HOUSING",
+              "lower_bound_mm": 19.726144068750788,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_SENSOR_HEADER_EST",
+              "lower_bound_mm": 19.986804913391836,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 20.34389813586484,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 20.54318939576884,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 20.58749937584527,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 20.745525807637332,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_HEADER_EST",
+              "lower_bound_mm": 21.17619360326467,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "PAW3950_PACKAGE_EST",
+              "lower_bound_mm": 21.81158050695582,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "REMOTE_ANTENNA_PCB_EST",
+              "lower_bound_mm": 21.90081681933341,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "CHARGE_POWERPATH_EST",
+              "lower_bound_mm": 21.99130323159142,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_M2x3_FRONT",
+              "lower_bound_mm": 22.00817375102717,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_WASHER_FRONT",
+              "lower_bound_mm": 22.31147398100665,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_EC10E_ROTOR",
+              "lower_bound_mm": 22.473859477648958,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_MIDDLE",
+              "lower_bound_mm": 22.569601625654492,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_M2x3_REAR",
+              "lower_bound_mm": 24.144605510648255,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_WASHER_REAR",
+              "lower_bound_mm": 24.414834314706326,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_ROUTE_EST",
+              "lower_bound_mm": 26.419601625654494,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_USB_HEADER_EST",
+              "lower_bound_mm": 26.76960162565449,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_BAT_HEADER_EST",
+              "lower_bound_mm": 26.940800599025646,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "REGULATOR_EST",
+              "lower_bound_mm": 27.467301238593812,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ANTENNA_FEED_HEADER_EST",
+              "lower_bound_mm": 27.616662990947134,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ANTENNA_FEED_ROUTE_EST",
+              "lower_bound_mm": 27.963327033526564,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_ADAPTER_PCB_REFERENCE",
+              "lower_bound_mm": 29.072072391832027,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_ROUTE_EST",
+              "lower_bound_mm": 29.410182951948443,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_1_0p8",
+              "lower_bound_mm": 30.095390012425316,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 30.303247720553934,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 30.333303849288445,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY",
+              "lower_bound_mm": 30.50774814415242,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_WASHER_L",
+              "lower_bound_mm": 32.69929100424854,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_CELL_EST",
+              "lower_bound_mm": 33.06960162565449,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_5_0p8",
+              "lower_bound_mm": 33.20123790729362,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_M2x3_L",
+              "lower_bound_mm": 33.24615999076159,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_C_REFERENCE",
+              "lower_bound_mm": 33.46227259370863,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_STEEL_PIN",
+              "lower_bound_mm": 33.48021762182291,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 38.0647612193937,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 38.24511803762158,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 39.717138585430554,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 40.38401120686148,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 40.48460203574839,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_PLUG_EST",
+              "lower_bound_mm": 40.60518229059673,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_RIGHT",
+              "lower_bound_mm": 41.435613904027974,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 41.82779982855333,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_WASHER_R",
+              "lower_bound_mm": 42.11193658454749,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_M2x3_R",
+              "lower_bound_mm": 42.757440578824834,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_PCB_EST",
+              "lower_bound_mm": 43.224968896307445,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_BODY_EST",
+              "lower_bound_mm": 43.31721904108859,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_TAB_EST",
+              "lower_bound_mm": 46.40737204273567,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_4_0p8",
+              "lower_bound_mm": 47.36506954050163,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 49.2397734486779,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 50.95752182318479,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_2_0p8",
+              "lower_bound_mm": 53.79558600047553,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            }
+          ],
+          "passed": true
+        },
+        "named_stop_overlap_mm3": 0.0,
+        "unexplained_overlap_mm3": 0,
+        "passed": true
+      },
+      {
+        "angle_deg": -0.5,
+        "within_physical_travel": false,
+        "full": {
+          "a": "SIDE_FRONT_KEY",
+          "b": "BODY",
+          "gap_mm": 0.0,
+          "overlap_mm3": 0.005768871554534312,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": false,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              26.8,
+              45.7,
+              18.6
+            ],
+            [
+              26.8,
+              45.7,
+              18.6
+            ]
+          ]
+        },
+        "nonfunctional": [
+          {
+            "a": "SIDE_FRONT_KEY_NONCONTACT",
+            "b": "BODY",
+            "gap_mm": 0.29999999142791944,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                28.036457044179762,
+                44.170967741935634,
+                18.0
+              ],
+              [
+                28.165206734783,
+                43.9,
+                18.0
+              ]
+            ]
+          },
+          {
+            "a": "SIDE_FRONT_KEY_EAR",
+            "b": "BODY",
+            "gap_mm": 0.4499999999999993,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                27.156485570639646,
+                44.90298257365495,
+                19.35
+              ],
+              [
+                27.1564855706399,
+                44.90298257365525,
+                19.8
+              ]
+            ]
+          },
+          {
+            "a": "SIDE_FRONT_KEY_PRESS_RIB",
+            "b": "BODY",
+            "gap_mm": 0.678289897778628,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                31.024241482378986,
+                55.16962138653938,
+                15.9
+              ],
+              [
+                31.024241482378986,
+                55.30242483328627,
+                15.234838042307974
+              ]
+            ]
+          }
+        ],
+        "other_components": {
+          "exact_global_minimum_mm": 2.3323405009770832,
+          "measured_pairs": [
+            {
+              "a": "SIDE_FRONT_KEY+PET",
+              "b": "SR_D2F_01F",
+              "gap_mm": 4.3461943219597154,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.3,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  26.21635288482242,
+                  51.76324789279325,
+                  16.6
+                ],
+                [
+                  25.5,
+                  56.05,
+                  16.6
+                ]
+              ]
+            },
+            {
+              "a": "SIDE_FRONT_KEY+PET",
+              "b": "SIDE_REAR_KEY",
+              "gap_mm": 2.3323405009770832,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.3,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  31.240985169589166,
+                  56.01776205301808,
+                  17.95078734716102
+                ],
+                [
+                  31.261338430399103,
+                  58.35001342422883,
+                  17.952011584896773
+                ]
+              ]
+            }
+          ],
+          "pruned_pairs": [
+            {
+              "part": "LEFT_KEY",
+              "lower_bound_mm": 2.8999999999999986,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_STEEL_PIN",
+              "lower_bound_mm": 4.549999999999997,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER",
+              "lower_bound_mm": 6.3965893473658895,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER",
+              "lower_bound_mm": 6.8965893473658895,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_TUNING_SHIM_0p33",
+              "lower_bound_mm": 6.96980681468726,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_M2x5",
+              "lower_bound_mm": 6.996589347365887,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_WASHER",
+              "lower_bound_mm": 7.693650791117991,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_LEFT",
+              "lower_bound_mm": 9.835283728237231,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_COM_ROUTE_EST",
+              "lower_bound_mm": 10.096589347365889,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_SR_NO_ROUTE_EST",
+              "lower_bound_mm": 10.151196137927647,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_3_0p8",
+              "lower_bound_mm": 10.514047844111067,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_SF_NO_ROUTE_EST",
+              "lower_bound_mm": 10.596589347365889,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 10.641792923290032,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 11.078723128739338,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_COM_GPIO_ROUTE_EST",
+              "lower_bound_mm": 11.1174973210044,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "CONTROLLER_RF_PCB_EST",
+              "lower_bound_mm": 12.39658934736589,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_PCB_EST",
+              "lower_bound_mm": 12.43538431551289,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_IO_HEADER_EST",
+              "lower_bound_mm": 12.89658934736589,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_VERTICAL_PIN",
+              "lower_bound_mm": 13.18150681468778,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_CARRIER",
+              "lower_bound_mm": 14.366589347365856,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_M2x5",
+              "lower_bound_mm": 14.396061135731154,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_WASHER",
+              "lower_bound_mm": 14.747426088090954,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 15.792431979608372,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 16.183310629731864,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 16.892646261181667,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 17.45509726783896,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_ADAPTER_PCB_EST",
+              "lower_bound_mm": 17.58896120623889,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_ROUTE_EST",
+              "lower_bound_mm": 18.07361492897244,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "MCU_RADIO_EST",
+              "lower_bound_mm": 18.402889676032046,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_CARRIER_STEEL_PIN",
+              "lower_bound_mm": 18.49658934736589,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 19.0608612089864,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 19.160347857704526,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL",
+              "lower_bound_mm": 19.230954709279576,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 19.301513068689395,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 19.389969230011356,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "MATCHED_LENS_EST",
+              "lower_bound_mm": 19.934067853711493,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_EC10E_HOUSING",
+              "lower_bound_mm": 20.010584195760526,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_SENSOR_HEADER_EST",
+              "lower_bound_mm": 20.523671018084748,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 20.53082192494461,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 20.86824069125698,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 20.911861934037187,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 20.933549417614653,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_HEADER_EST",
+              "lower_bound_mm": 21.706239658233518,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_M2x3_FRONT",
+              "lower_bound_mm": 22.22746481390814,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "PAW3950_PACKAGE_EST",
+              "lower_bound_mm": 22.244155625106714,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "REMOTE_ANTENNA_PCB_EST",
+              "lower_bound_mm": 22.281324564992243,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "CHARGE_POWERPATH_EST",
+              "lower_bound_mm": 22.488580496866852,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_WASHER_FRONT",
+              "lower_bound_mm": 22.524909684937146,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_EC10E_ROTOR",
+              "lower_bound_mm": 22.723931874911543,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_MIDDLE",
+              "lower_bound_mm": 22.89658934736589,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_M2x3_REAR",
+              "lower_bound_mm": 24.4411758852882,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_WASHER_REAR",
+              "lower_bound_mm": 24.705514423234426,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_ROUTE_EST",
+              "lower_bound_mm": 26.74658934736589,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_USB_HEADER_EST",
+              "lower_bound_mm": 27.09658934736589,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_BAT_HEADER_EST",
+              "lower_bound_mm": 27.319334617821497,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "REGULATOR_EST",
+              "lower_bound_mm": 27.93734641895058,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ANTENNA_FEED_HEADER_EST",
+              "lower_bound_mm": 28.05585446130172,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ANTENNA_FEED_ROUTE_EST",
+              "lower_bound_mm": 28.36119897201718,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_ADAPTER_PCB_REFERENCE",
+              "lower_bound_mm": 29.242904498893644,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_ROUTE_EST",
+              "lower_bound_mm": 29.789805646744362,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_1_0p8",
+              "lower_bound_mm": 30.095390012425316,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 30.629342479991383,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 30.659078928705682,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY",
+              "lower_bound_mm": 30.833270851816856,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_WASHER_L",
+              "lower_bound_mm": 32.84828016689755,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_CELL_EST",
+              "lower_bound_mm": 33.39658934736589,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_M2x3_L",
+              "lower_bound_mm": 33.39858405890639,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_C_REFERENCE",
+              "lower_bound_mm": 33.66455467867181,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_5_0p8",
+              "lower_bound_mm": 33.72760447270442,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_STEEL_PIN",
+              "lower_bound_mm": 33.80420089139908,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 38.37773433622714,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 38.55917131419195,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 40.03271283399826,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 40.67914462287135,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 40.78141293185559,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_PLUG_EST",
+              "lower_bound_mm": 40.9456759917216,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_RIGHT",
+              "lower_bound_mm": 41.755037375652144,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 42.127566247441806,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_WASHER_R",
+              "lower_bound_mm": 42.348354130483166,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_M2x3_R",
+              "lower_bound_mm": 42.99487184278669,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_PCB_EST",
+              "lower_bound_mm": 43.671298746728134,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_BODY_EST",
+              "lower_bound_mm": 43.76158169974023,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_TAB_EST",
+              "lower_bound_mm": 46.849460970530295,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_4_0p8",
+              "lower_bound_mm": 47.709531020055366,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 49.559370940900166,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 51.26641190039506,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_2_0p8",
+              "lower_bound_mm": 54.066926106446,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            }
+          ],
+          "passed": true
+        },
+        "named_stop_overlap_mm3": 0.005768871554534312,
+        "unexplained_overlap_mm3": 0,
+        "passed": true
+      },
+      {
+        "angle_deg": 7.108931963087932,
+        "within_physical_travel": false,
+        "full": {
+          "a": "SIDE_FRONT_KEY",
+          "b": "BODY",
+          "gap_mm": 0.0,
+          "overlap_mm3": 0.0024565989291424166,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": false,
+          "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+          "nearest_points_mm": [
+            [
+              29.74,
+              55.4,
+              16.4
+            ],
+            [
+              29.74,
+              55.4,
+              16.4
+            ]
+          ]
+        },
+        "nonfunctional": [
+          {
+            "a": "SIDE_FRONT_KEY_NONCONTACT",
+            "b": "BODY",
+            "gap_mm": 0.2999999914279273,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                28.036457044179766,
+                44.170967741935634,
+                17.0
+              ],
+              [
+                28.165206734783,
+                43.9,
+                17.0
+              ]
+            ]
+          },
+          {
+            "a": "SIDE_FRONT_KEY_EAR",
+            "b": "BODY",
+            "gap_mm": 0.4499999999999993,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                27.21207968520253,
+                44.86099328897232,
+                19.35
+              ],
+              [
+                27.212079685202745,
+                44.86099328897265,
+                19.8
+              ]
+            ]
+          },
+          {
+            "a": "SIDE_FRONT_KEY_PRESS_RIB",
+            "b": "BODY",
+            "gap_mm": 0.5603887329090695,
+            "overlap_mm3": 0.0,
+            "required_mm": 0.3,
+            "intended_contact": false,
+            "pass_check": true,
+            "distance_kind": "BRepExtrema_crop_certified_by_distance_below_3mm",
+            "nearest_points_mm": [
+              [
+                29.701087520734603,
+                55.4313143545803,
+                15.9
+              ],
+              [
+                29.45,
+                55.4,
+                15.399989999999999
+              ]
+            ]
+          }
+        ],
+        "other_components": {
+          "exact_global_minimum_mm": 2.0072126440292215,
+          "measured_pairs": [
+            {
+              "a": "SIDE_FRONT_KEY+PET",
+              "b": "SR_D2F_01F",
+              "gap_mm": 3.6792840420702833,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.3,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  29.132223775259035,
+                  55.46341538660135,
+                  19.01695817931852
+                ],
+                [
+                  25.5,
+                  56.05,
+                  19.016958179318515
+                ]
+              ]
+            },
+            {
+              "a": "SIDE_FRONT_KEY+PET",
+              "b": "SIDE_REAR_KEY",
+              "gap_mm": 2.0072126440292215,
+              "overlap_mm3": 0.0,
+              "required_mm": 0.3,
+              "intended_contact": false,
+              "pass_check": true,
+              "distance_kind": "BRepExtrema_DistShapeShape_complete",
+              "nearest_points_mm": [
+                [
+                  30.634171084716872,
+                  56.489401857476665,
+                  17.136819588510672
+                ],
+                [
+                  31.31960632235708,
+                  58.369063821847966,
+                  17.297915935606774
+                ]
+              ]
+            }
+          ],
+          "pruned_pairs": [
+            {
+              "part": "LEFT_KEY",
+              "lower_bound_mm": 2.8999999999999986,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_STEEL_PIN",
+              "lower_bound_mm": 4.549999999999997,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER",
+              "lower_bound_mm": 6.002240769463203,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_TUNING_SHIM_0p33",
+              "lower_bound_mm": 6.479828936024354,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER",
+              "lower_bound_mm": 6.502240769463203,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_M2x5",
+              "lower_bound_mm": 6.602240769463201,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SF_RETAINER_WASHER",
+              "lower_bound_mm": 7.336864669459204,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_LEFT",
+              "lower_bound_mm": 9.673596990441112,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_COM_ROUTE_EST",
+              "lower_bound_mm": 9.702240769463202,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_SR_NO_ROUTE_EST",
+              "lower_bound_mm": 9.718476768230047,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_SF_NO_ROUTE_EST",
+              "lower_bound_mm": 10.202240769463202,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_3_0p8",
+              "lower_bound_mm": 10.388567416478352,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 10.573037795530224,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SIDE_COM_GPIO_ROUTE_EST",
+              "lower_bound_mm": 10.703954447814843,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 11.06984160754242,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "CONTROLLER_RF_PCB_EST",
+              "lower_bound_mm": 12.002240769463203,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_PCB_EST",
+              "lower_bound_mm": 12.012301369142984,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_IO_HEADER_EST",
+              "lower_bound_mm": 12.502240769463203,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_VERTICAL_PIN",
+              "lower_bound_mm": 12.691528936024874,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_M2x5",
+              "lower_bound_mm": 13.776598099265616,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_CARRIER",
+              "lower_bound_mm": 13.97224076946317,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SR_RETAINER_WASHER",
+              "lower_bound_mm": 14.143360816605282,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 15.498807931811704,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 15.889464222190842,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 16.849417476842923,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_ADAPTER_PCB_EST",
+              "lower_bound_mm": 17.258535255970678,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_ROUTE_EST",
+              "lower_bound_mm": 17.444894996449186,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 17.44946152987342,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "MCU_RADIO_EST",
+              "lower_bound_mm": 18.002240769463203,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_CARRIER_STEEL_PIN",
+              "lower_bound_mm": 18.1022407694632,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 18.67103878776532,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 18.772591441094033,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL",
+              "lower_bound_mm": 18.89272034077436,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 18.910395473919642,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 19.000672540203418,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "MATCHED_LENS_EST",
+              "lower_bound_mm": 19.48186004209288,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_EC10E_HOUSING",
+              "lower_bound_mm": 19.667712507044204,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_SENSOR_HEADER_EST",
+              "lower_bound_mm": 19.90873587232383,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 20.305831388801064,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 20.476235111421182,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 20.520689665267046,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "LEFT_KEY_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 20.707221483086652,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SENSOR_HEADER_EST",
+              "lower_bound_mm": 21.09773652177748,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "PAW3950_PACKAGE_EST",
+              "lower_bound_mm": 21.736168185623235,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "REMOTE_ANTENNA_PCB_EST",
+              "lower_bound_mm": 21.83038849135705,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "CHARGE_POWERPATH_EST",
+              "lower_bound_mm": 21.912737061114363,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_M2x3_FRONT",
+              "lower_bound_mm": 21.96333161178808,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_WASHER_FRONT",
+              "lower_bound_mm": 22.2678476548943,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_EC10E_ROTOR",
+              "lower_bound_mm": 22.422589396850288,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_MIDDLE",
+              "lower_bound_mm": 22.502240769463203,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_M2x3_REAR",
+              "lower_bound_mm": 24.083608586954735,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ENCODER_WASHER_REAR",
+              "lower_bound_mm": 24.355067363114635,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_ROUTE_EST",
+              "lower_bound_mm": 26.352240769463204,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_USB_HEADER_EST",
+              "lower_bound_mm": 26.702240769463202,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RF_BAT_HEADER_EST",
+              "lower_bound_mm": 26.869293021690332,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "REGULATOR_EST",
+              "lower_bound_mm": 27.389686649231557,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ANTENNA_FEED_HEADER_EST",
+              "lower_bound_mm": 27.54072932225825,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "ANTENNA_FEED_ROUTE_EST",
+              "lower_bound_mm": 27.890313359563965,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_ADAPTER_PCB_REFERENCE",
+              "lower_bound_mm": 29.037212815711793,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_ROUTE_EST",
+              "lower_bound_mm": 29.338607836011196,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_1_0p8",
+              "lower_bound_mm": 30.095390012425316,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 30.23607321428622,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 30.266196051365235,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY",
+              "lower_bound_mm": 30.440692988006525,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_WASHER_L",
+              "lower_bound_mm": 32.66892076030764,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_CELL_EST",
+              "lower_bound_mm": 33.0022407694632,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_5_0p8",
+              "lower_bound_mm": 33.12922741405088,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_M2x3_L",
+              "lower_bound_mm": 33.21507297247165,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_STEEL_PIN",
+              "lower_bound_mm": 33.41348296660364,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_C_REFERENCE",
+              "lower_bound_mm": 33.42084695239191,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_BOLT",
+              "lower_bound_mm": 38.00031674972073,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_NUT",
+              "lower_bound_mm": 38.180448708567326,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+              "lower_bound_mm": 39.65215192836848,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_BOLT",
+              "lower_bound_mm": 40.32327352219263,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_NUT",
+              "lower_bound_mm": 40.42351558027648,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "BATTERY_PLUG_EST",
+              "lower_bound_mm": 40.536861456069104,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SWITCH_RIGHT",
+              "lower_bound_mm": 41.36982599743652,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+              "lower_bound_mm": 41.76609741924239,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_WASHER_R",
+              "lower_bound_mm": 42.0633842629253,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "USB_M2x3_R",
+              "lower_bound_mm": 42.70867575298805,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_PCB_EST",
+              "lower_bound_mm": 43.148757414616156,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_BODY_EST",
+              "lower_bound_mm": 43.24126455873124,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "POWER_SWITCH_TAB_EST",
+              "lower_bound_mm": 46.331967607231505,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_4_0p8",
+              "lower_bound_mm": 47.297237934089004,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+              "lower_bound_mm": 49.17394708208703,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+              "lower_bound_mm": 50.89391724671156,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            },
+            {
+              "part": "SKATE_2_0p8",
+              "lower_bound_mm": 53.73976575250436,
+              "reason": "Cannot improve measured exact nearest distance or violate required clearance"
+            }
+          ],
+          "passed": true
+        },
+        "named_stop_overlap_mm3": 0.0024565989291424166,
+        "unexplained_overlap_mm3": 0,
+        "passed": true
+      }
+    ],
+    "outward_stop_angle_deg": 0.0,
+    "outward_rest_contact": {
+      "a": "EAR",
+      "b": "OUTWARD_STOP",
+      "gap_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.0,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "nearest_points_mm": [
+        [
+          26.8,
+          45.7,
+          18.6
+        ],
+        [
+          26.8,
+          45.70000000000001,
+          18.6
+        ]
+      ]
+    },
+    "outward_stop_pass": true,
+    "passed": true,
+    "method": "Independent exact BRep full common + source-feature contact decomposition; forced poses beyond hard stop are diagnostic only, not usable travel."
+  }
+]
