@@ -1,0 +1,482 @@
+{
+  "application": "FreeCAD 1.1.4",
+  "parts": [
+    {
+      "name": "BODY",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LEFT_KEY",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RIGHT_KEY",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SF_RETAINER",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SIDE_FRONT_KEY",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SIDE_REAR_KEY",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SR_RETAINER",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WHEEL",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WHEEL_CARRIER",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ANTENNA_FEED_HEADER_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ANTENNA_FEED_ROUTE_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BATTERY_CELL_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BATTERY_PLUG_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BATTERY_ROUTE_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CHARGE_POWERPATH_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "CONTROLLER_RF_PCB_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ENCODER_ADAPTER_PCB_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ENCODER_EC10E_HOUSING",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ENCODER_EC10E_ROTOR",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ENCODER_M2x3_FRONT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ENCODER_M2x3_REAR",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ENCODER_WASHER_FRONT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "ENCODER_WASHER_REAR",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LEFT_KEY_M2_SWITCH_1_BOLT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LEFT_KEY_M2_SWITCH_1_NUT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LEFT_KEY_M2_SWITCH_2_BOLT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LEFT_KEY_M2_SWITCH_2_NUT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "LEFT_KEY_STEEL_PIN",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "MATCHED_LENS_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "MCU_RADIO_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "PAW3950_PACKAGE_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "POWER_SWITCH_BODY_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "POWER_SWITCH_PCB_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "POWER_SWITCH_TAB_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "REGULATOR_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "REMOTE_ANTENNA_PCB_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RF_BAT_HEADER_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RF_IO_HEADER_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RF_SENSOR_HEADER_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RF_USB_HEADER_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RIGHT_KEY_M2_SWITCH_1_BOLT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RIGHT_KEY_M2_SWITCH_1_NUT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RIGHT_KEY_M2_SWITCH_2_BOLT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RIGHT_KEY_M2_SWITCH_2_NUT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RIGHT_KEY_STEEL_PIN",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SENSOR_HEADER_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SENSOR_PCB_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SENSOR_ROUTE_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SF_D2F_01F",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SF_TUNING_SHIM_0p33",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SF_VERTICAL_PIN",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SKATE_1_0p8",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SKATE_2_0p8",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SKATE_3_0p8",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SKATE_4_0p8",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SKATE_5_0p8",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SR_D2F_01F",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SR_TUNING_SHIM_0p33",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SR_VERTICAL_PIN",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SWITCH_LEFT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SWITCH_MIDDLE",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SWITCH_RIGHT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "USB_ADAPTER_PCB_REFERENCE",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "USB_C_REFERENCE",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "USB_M2x3_L",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "USB_M2x3_R",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "USB_ROUTE_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "USB_WASHER_L",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "USB_WASHER_R",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WHEEL_CARRIER_STEEL_PIN",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WHEEL_M2_SWITCH_1_BOLT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WHEEL_M2_SWITCH_1_NUT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WHEEL_M2_SWITCH_1_WASHER_NUT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WHEEL_M2_SWITCH_2_BOLT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WHEEL_M2_SWITCH_2_NUT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SF_RETAINER_M2x5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SR_RETAINER_M2x5",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SF_RETAINER_WASHER",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SR_RETAINER_WASHER",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SIDE_SF_NO_ROUTE_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SIDE_SR_NO_ROUTE_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SIDE_COM_ROUTE_EST",
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "SIDE_COM_GPIO_ROUTE_EST",
+      "valid": true,
+      "solids": 1
+    }
+  ],
+  "all_valid": true,
+  "full_step_roundtrip": {
+    "solids": 94,
+    "valid": true,
+    "expected_components": 94
+  },
+  "scope": "Saved/reopened imported components, not constrained feature history"
+}
