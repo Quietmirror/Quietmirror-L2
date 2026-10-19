@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "COMPLETED",
   "cause": "Combined source geometry corrections after author V2: D7 concealed hinges/aperture back relief, relocated retainer pilots and locating sockets, explicit driver access and final stop reliefs. Same loads/material/solver settings; individual feature shares are not inferred.",
   "geometry_difference": {
     "author_control_volume_mm3": 12643.438743331006,

@@ -1,18 +1,21 @@
 {
   "reports/l2_r4/fem/G8.json": {
-    "script": "cad/l2_r4/fem_stage.py",
+    "script": "cad/l2_r4/fem_geometry_investigation.py",
     "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
     "returncode": 0,
-    "report_sha256": "631bc8a662c15eeb6f2b35d0b7290cd72e8f2755d3f5e25db9d82bad33d05545",
+    "report_sha256": "812b2ab72351e26908b844eb2cc8307163dc463f87cfb4a170d36ece738baba7",
     "geometry": {
       "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
-      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
+      "models/L2_r3/parts/BODY.step": "15fccea983a447b03bc11814861b4c2d9f22b73abf203eb7813850a295b4cb4c",
+      "cad/l2_fem_author/variants/R4_SIDE_FRAME_ONLY.step": "77efd27598da1fddd68257c5b2e334bc372c37aebc1179a873859c6f73b0705f",
+      "exports/l2_r2_diagnostic/support_reference/MOTHER_OUTER_FROM_R32_SURFACE.step": "d4b25ee5beaeb4d9eaf268311c001315d08ccd83d23973a5e0effc4c8da01f55"
     },
     "verifier_source": {
+      "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
+      "cad/l2_r4/fem_geometry_investigation.py": "49e9c41cf5181c9a17d7b66d85689106ba4409e225ecb0db02b26c25007bfb59",
       "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
       "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
-      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
-      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434"
     }
   },
   "reports/l2_r4/fem/stiffness.json": {
@@ -1085,6 +1088,215 @@
       "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
       "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
       "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
+    }
+  },
+  "reports/l2_r4/fem/G8_before_geometry_investigation.json": {
+    "script": "cad/l2_r4/fem_geometry_investigation.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "631bc8a662c15eeb6f2b35d0b7290cd72e8f2755d3f5e25db9d82bad33d05545",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r3/parts/BODY.step": "15fccea983a447b03bc11814861b4c2d9f22b73abf203eb7813850a295b4cb4c",
+      "cad/l2_fem_author/variants/R4_SIDE_FRAME_ONLY.step": "77efd27598da1fddd68257c5b2e334bc372c37aebc1179a873859c6f73b0705f",
+      "exports/l2_r2_diagnostic/support_reference/MOTHER_OUTER_FROM_R32_SURFACE.step": "d4b25ee5beaeb4d9eaf268311c001315d08ccd83d23973a5e0effc4c8da01f55"
+    },
+    "verifier_source": {
+      "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
+      "cad/l2_r4/fem_geometry_investigation.py": "49e9c41cf5181c9a17d7b66d85689106ba4409e225ecb0db02b26c25007bfb59",
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434"
+    }
+  },
+  "reports/l2_r4/fem/AUTHOR_GEOMETRY_DIFFERENCE.json": {
+    "script": "cad/l2_r4/fem_geometry_investigation.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "cda668fca5ae8b58e0a9365a176a057d479cea0dccccea3c709c8c3f2cfc8cb1",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r3/parts/BODY.step": "15fccea983a447b03bc11814861b4c2d9f22b73abf203eb7813850a295b4cb4c",
+      "cad/l2_fem_author/variants/R4_SIDE_FRAME_ONLY.step": "77efd27598da1fddd68257c5b2e334bc372c37aebc1179a873859c6f73b0705f",
+      "exports/l2_r2_diagnostic/support_reference/MOTHER_OUTER_FROM_R32_SURFACE.step": "d4b25ee5beaeb4d9eaf268311c001315d08ccd83d23973a5e0effc4c8da01f55"
+    },
+    "verifier_source": {
+      "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
+      "cad/l2_r4/fem_geometry_investigation.py": "49e9c41cf5181c9a17d7b66d85689106ba4409e225ecb0db02b26c25007bfb59",
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434"
+    }
+  },
+  "reports/l2_r4/fem/AUTHOR_V2_CONTROL_h2.4/LC3_squeeze_2x2N/ccx.log": {
+    "script": "cad/l2_r4/fem_geometry_investigation.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "d5b3ca2e8ef8155e5536b70c9465364989d4f9ef479fbf9caafd0f35f37fa9ab",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r3/parts/BODY.step": "15fccea983a447b03bc11814861b4c2d9f22b73abf203eb7813850a295b4cb4c",
+      "cad/l2_fem_author/variants/R4_SIDE_FRAME_ONLY.step": "77efd27598da1fddd68257c5b2e334bc372c37aebc1179a873859c6f73b0705f",
+      "exports/l2_r2_diagnostic/support_reference/MOTHER_OUTER_FROM_R32_SURFACE.step": "d4b25ee5beaeb4d9eaf268311c001315d08ccd83d23973a5e0effc4c8da01f55"
+    },
+    "verifier_source": {
+      "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
+      "cad/l2_r4/fem_geometry_investigation.py": "49e9c41cf5181c9a17d7b66d85689106ba4409e225ecb0db02b26c25007bfb59",
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434"
+    }
+  },
+  "reports/l2_r4/fem/AUTHOR_V2_CONTROL_h2.4/LC3_squeeze_2x2N/result.json": {
+    "script": "cad/l2_r4/fem_geometry_investigation.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "dc79d470a18c83e854a38aff25b521ac595267fbc3b1991d21db4134fd9d4769",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r3/parts/BODY.step": "15fccea983a447b03bc11814861b4c2d9f22b73abf203eb7813850a295b4cb4c",
+      "cad/l2_fem_author/variants/R4_SIDE_FRAME_ONLY.step": "77efd27598da1fddd68257c5b2e334bc372c37aebc1179a873859c6f73b0705f",
+      "exports/l2_r2_diagnostic/support_reference/MOTHER_OUTER_FROM_R32_SURFACE.step": "d4b25ee5beaeb4d9eaf268311c001315d08ccd83d23973a5e0effc4c8da01f55"
+    },
+    "verifier_source": {
+      "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
+      "cad/l2_r4/fem_geometry_investigation.py": "49e9c41cf5181c9a17d7b66d85689106ba4409e225ecb0db02b26c25007bfb59",
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434"
+    }
+  },
+  "reports/l2_r4/fem/AUTHOR_V2_CONTROL_h2.4/LC3_squeeze_2x2N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_geometry_investigation.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "b0290504bce6a827a73202ebba5d57933d4dccea7e77c2b373862ceed7051543",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r3/parts/BODY.step": "15fccea983a447b03bc11814861b4c2d9f22b73abf203eb7813850a295b4cb4c",
+      "cad/l2_fem_author/variants/R4_SIDE_FRAME_ONLY.step": "77efd27598da1fddd68257c5b2e334bc372c37aebc1179a873859c6f73b0705f",
+      "exports/l2_r2_diagnostic/support_reference/MOTHER_OUTER_FROM_R32_SURFACE.step": "d4b25ee5beaeb4d9eaf268311c001315d08ccd83d23973a5e0effc4c8da01f55"
+    },
+    "verifier_source": {
+      "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
+      "cad/l2_r4/fem_geometry_investigation.py": "49e9c41cf5181c9a17d7b66d85689106ba4409e225ecb0db02b26c25007bfb59",
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434"
+    }
+  },
+  "reports/l2_r4/fem/AUTHOR_V2_CONTROL_h1.6/LC3_squeeze_2x2N/ccx.log": {
+    "script": "cad/l2_r4/fem_geometry_investigation.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "f5dd8f5fae79fa2eab05d03abaf1fe4aae29f0d5ce020c849423cc0169dbff38",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r3/parts/BODY.step": "15fccea983a447b03bc11814861b4c2d9f22b73abf203eb7813850a295b4cb4c",
+      "cad/l2_fem_author/variants/R4_SIDE_FRAME_ONLY.step": "77efd27598da1fddd68257c5b2e334bc372c37aebc1179a873859c6f73b0705f",
+      "exports/l2_r2_diagnostic/support_reference/MOTHER_OUTER_FROM_R32_SURFACE.step": "d4b25ee5beaeb4d9eaf268311c001315d08ccd83d23973a5e0effc4c8da01f55"
+    },
+    "verifier_source": {
+      "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
+      "cad/l2_r4/fem_geometry_investigation.py": "49e9c41cf5181c9a17d7b66d85689106ba4409e225ecb0db02b26c25007bfb59",
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434"
+    }
+  },
+  "reports/l2_r4/fem/AUTHOR_V2_CONTROL_h1.6/LC3_squeeze_2x2N/result.json": {
+    "script": "cad/l2_r4/fem_geometry_investigation.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "ed6d023bf9aacbe8bbb9046d7f91a94d6b59ecd3d64f74f67e59b5b28c9a5df3",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r3/parts/BODY.step": "15fccea983a447b03bc11814861b4c2d9f22b73abf203eb7813850a295b4cb4c",
+      "cad/l2_fem_author/variants/R4_SIDE_FRAME_ONLY.step": "77efd27598da1fddd68257c5b2e334bc372c37aebc1179a873859c6f73b0705f",
+      "exports/l2_r2_diagnostic/support_reference/MOTHER_OUTER_FROM_R32_SURFACE.step": "d4b25ee5beaeb4d9eaf268311c001315d08ccd83d23973a5e0effc4c8da01f55"
+    },
+    "verifier_source": {
+      "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
+      "cad/l2_r4/fem_geometry_investigation.py": "49e9c41cf5181c9a17d7b66d85689106ba4409e225ecb0db02b26c25007bfb59",
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434"
+    }
+  },
+  "reports/l2_r4/fem/AUTHOR_V2_CONTROL_h1.6/LC3_squeeze_2x2N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_geometry_investigation.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "49d3f3d7c8200c9d5b6d38799f61f2ef1b86f6188991add897342424627c08d8",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r3/parts/BODY.step": "15fccea983a447b03bc11814861b4c2d9f22b73abf203eb7813850a295b4cb4c",
+      "cad/l2_fem_author/variants/R4_SIDE_FRAME_ONLY.step": "77efd27598da1fddd68257c5b2e334bc372c37aebc1179a873859c6f73b0705f",
+      "exports/l2_r2_diagnostic/support_reference/MOTHER_OUTER_FROM_R32_SURFACE.step": "d4b25ee5beaeb4d9eaf268311c001315d08ccd83d23973a5e0effc4c8da01f55"
+    },
+    "verifier_source": {
+      "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
+      "cad/l2_r4/fem_geometry_investigation.py": "49e9c41cf5181c9a17d7b66d85689106ba4409e225ecb0db02b26c25007bfb59",
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434"
+    }
+  },
+  "reports/l2_r4/fem/AUTHOR_V2_CONTROL_h2/LC3_squeeze_2x2N/ccx.log": {
+    "script": "cad/l2_r4/fem_geometry_investigation.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "a1d94d3ec26a0c444b9e3a6eddc4adecea95cd2c8afc62d0bd44931e021f774d",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r3/parts/BODY.step": "15fccea983a447b03bc11814861b4c2d9f22b73abf203eb7813850a295b4cb4c",
+      "cad/l2_fem_author/variants/R4_SIDE_FRAME_ONLY.step": "77efd27598da1fddd68257c5b2e334bc372c37aebc1179a873859c6f73b0705f",
+      "exports/l2_r2_diagnostic/support_reference/MOTHER_OUTER_FROM_R32_SURFACE.step": "d4b25ee5beaeb4d9eaf268311c001315d08ccd83d23973a5e0effc4c8da01f55"
+    },
+    "verifier_source": {
+      "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
+      "cad/l2_r4/fem_geometry_investigation.py": "49e9c41cf5181c9a17d7b66d85689106ba4409e225ecb0db02b26c25007bfb59",
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434"
+    }
+  },
+  "reports/l2_r4/fem/AUTHOR_V2_CONTROL_h2/LC3_squeeze_2x2N/result.json": {
+    "script": "cad/l2_r4/fem_geometry_investigation.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "2c5ebaa5658e2c477d6675c831db5c72d5645afda32a9c23c10db0b625f08e01",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r3/parts/BODY.step": "15fccea983a447b03bc11814861b4c2d9f22b73abf203eb7813850a295b4cb4c",
+      "cad/l2_fem_author/variants/R4_SIDE_FRAME_ONLY.step": "77efd27598da1fddd68257c5b2e334bc372c37aebc1179a873859c6f73b0705f",
+      "exports/l2_r2_diagnostic/support_reference/MOTHER_OUTER_FROM_R32_SURFACE.step": "d4b25ee5beaeb4d9eaf268311c001315d08ccd83d23973a5e0effc4c8da01f55"
+    },
+    "verifier_source": {
+      "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
+      "cad/l2_r4/fem_geometry_investigation.py": "49e9c41cf5181c9a17d7b66d85689106ba4409e225ecb0db02b26c25007bfb59",
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434"
+    }
+  },
+  "reports/l2_r4/fem/AUTHOR_V2_CONTROL_h2/LC3_squeeze_2x2N/mesh_settings.json": {
+    "script": "cad/l2_r4/fem_geometry_investigation.py",
+    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "returncode": 0,
+    "report_sha256": "2d17272735174d05285ad253982fe7739f255f36082ad55a7be8a63a0e94285c",
+    "geometry": {
+      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r3/parts/BODY.step": "15fccea983a447b03bc11814861b4c2d9f22b73abf203eb7813850a295b4cb4c",
+      "cad/l2_fem_author/variants/R4_SIDE_FRAME_ONLY.step": "77efd27598da1fddd68257c5b2e334bc372c37aebc1179a873859c6f73b0705f",
+      "exports/l2_r2_diagnostic/support_reference/MOTHER_OUTER_FROM_R32_SURFACE.step": "d4b25ee5beaeb4d9eaf268311c001315d08ccd83d23973a5e0effc4c8da01f55"
+    },
+    "verifier_source": {
+      "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
+      "cad/l2_r4/fem_geometry_investigation.py": "49e9c41cf5181c9a17d7b66d85689106ba4409e225ecb0db02b26c25007bfb59",
+      "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
+      "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434"
     }
   }
 }
