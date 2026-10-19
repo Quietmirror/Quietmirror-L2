@@ -1,0 +1,14 @@
+{
+  "status": "FAILED",
+  "phase": "Directed original-cell coupled service route",
+  "source_commit": "203999d5ecc436e577e1231a25493665c25a8ba2",
+  "steps": [
+    {
+      "script": "cad/l2_r4/battery_direct_service.py",
+      "returncode": 1,
+      "seconds": 2.36,
+      "available_memory_before_GB": 15.651160064,
+      "log_tail": "Traceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_direct_service.py\", line 12, in <module>\n    from battery_service_rrt import moved,matrix\nModuleNotFoundError: No module named 'battery_service_rrt'\n"
+    }
+  ]
+}
