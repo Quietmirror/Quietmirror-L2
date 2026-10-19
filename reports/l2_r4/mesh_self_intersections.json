@@ -1,0 +1,71 @@
+{
+  "library": "PyMeshLab 2025.7.post1",
+  "filter": "compute_selection_by_self_intersections_per_face",
+  "source": "https://pymeshlab.readthedocs.io/en/latest/filter_list.html#compute-selection-by-self-intersections-per-face",
+  "parts": [
+    {
+      "part": "BODY",
+      "faces": 410684,
+      "self_intersecting_faces": 0,
+      "selected_face_ids": [],
+      "passed": true
+    },
+    {
+      "part": "LEFT_KEY",
+      "faces": 27298,
+      "self_intersecting_faces": 0,
+      "selected_face_ids": [],
+      "passed": true
+    },
+    {
+      "part": "RIGHT_KEY",
+      "faces": 27346,
+      "self_intersecting_faces": 0,
+      "selected_face_ids": [],
+      "passed": true
+    },
+    {
+      "part": "SF_RETAINER",
+      "faces": 5136,
+      "self_intersecting_faces": 0,
+      "selected_face_ids": [],
+      "passed": true
+    },
+    {
+      "part": "SIDE_FRONT_KEY",
+      "faces": 29872,
+      "self_intersecting_faces": 0,
+      "selected_face_ids": [],
+      "passed": true
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "faces": 31352,
+      "self_intersecting_faces": 0,
+      "selected_face_ids": [],
+      "passed": true
+    },
+    {
+      "part": "SR_RETAINER",
+      "faces": 5732,
+      "self_intersecting_faces": 0,
+      "selected_face_ids": [],
+      "passed": true
+    },
+    {
+      "part": "WHEEL",
+      "faces": 1520,
+      "self_intersecting_faces": 0,
+      "selected_face_ids": [],
+      "passed": true
+    },
+    {
+      "part": "WHEEL_CARRIER",
+      "faces": 10828,
+      "self_intersecting_faces": 0,
+      "selected_face_ids": [],
+      "passed": true
+    }
+  ],
+  "passed": true
+}
