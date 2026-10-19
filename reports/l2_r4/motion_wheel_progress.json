@@ -1,9 +1,9 @@
 {
   "status": "PARTIAL_NOT_ACCEPTANCE",
   "group": "WHEEL_CARRIER",
-  "completed_poses": 5,
+  "completed_poses": 10,
   "expected_poses": 23,
-  "last_angle_deg": -2.8000000000000003,
+  "last_angle_deg": -0.8000000000000003,
   "failures": [
     {
       "angle": -4.4,
@@ -85,6 +85,91 @@
         {
           "a": "ENCODER_ADAPTER_PCB_EST",
           "b": "LEFT_KEY_M2_SWITCH_2_BOLT",
+          "passed": false,
+          "classification": "ordinary clearance"
+        },
+        {
+          "a": "ENCODER_ADAPTER_PCB_EST",
+          "b": "LEFT_KEY_M2_SWITCH_2_NUT",
+          "passed": false,
+          "classification": "ordinary clearance"
+        }
+      ]
+    },
+    {
+      "angle": -2.4000000000000004,
+      "items": [
+        {
+          "a": "WHEEL_CARRIER",
+          "b": "LEFT_KEY_M2_SWITCH_1_BOLT",
+          "passed": false,
+          "classification": "ordinary clearance"
+        },
+        {
+          "a": "ENCODER_ADAPTER_PCB_EST",
+          "b": "LEFT_KEY_M2_SWITCH_2_NUT",
+          "passed": false,
+          "classification": "ordinary clearance"
+        }
+      ]
+    },
+    {
+      "angle": -2.0,
+      "items": [
+        {
+          "a": "WHEEL_CARRIER",
+          "b": "LEFT_KEY_M2_SWITCH_1_BOLT",
+          "passed": false,
+          "classification": "ordinary clearance"
+        },
+        {
+          "a": "ENCODER_ADAPTER_PCB_EST",
+          "b": "LEFT_KEY_M2_SWITCH_2_NUT",
+          "passed": false,
+          "classification": "ordinary clearance"
+        }
+      ]
+    },
+    {
+      "angle": -1.6,
+      "items": [
+        {
+          "a": "WHEEL_CARRIER",
+          "b": "LEFT_KEY_M2_SWITCH_1_BOLT",
+          "passed": false,
+          "classification": "ordinary clearance"
+        },
+        {
+          "a": "ENCODER_ADAPTER_PCB_EST",
+          "b": "LEFT_KEY_M2_SWITCH_2_NUT",
+          "passed": false,
+          "classification": "ordinary clearance"
+        }
+      ]
+    },
+    {
+      "angle": -1.2000000000000002,
+      "items": [
+        {
+          "a": "WHEEL_CARRIER",
+          "b": "LEFT_KEY_M2_SWITCH_1_BOLT",
+          "passed": false,
+          "classification": "ordinary clearance"
+        },
+        {
+          "a": "ENCODER_ADAPTER_PCB_EST",
+          "b": "LEFT_KEY_M2_SWITCH_2_NUT",
+          "passed": false,
+          "classification": "ordinary clearance"
+        }
+      ]
+    },
+    {
+      "angle": -0.8000000000000003,
+      "items": [
+        {
+          "a": "WHEEL_CARRIER",
+          "b": "LEFT_KEY_M2_SWITCH_1_BOLT",
           "passed": false,
           "classification": "ordinary clearance"
         },
