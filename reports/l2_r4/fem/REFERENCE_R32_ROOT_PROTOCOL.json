@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "COMPLETED",
   "rows": [
     {
       "size_mm": 2.4,
@@ -289,6 +289,5 @@
         ]
       }
     }
-  ],
-  "scope": "Reference protocol discrepancy investigation only; final R4 FEM is separate"
+  ]
 }
