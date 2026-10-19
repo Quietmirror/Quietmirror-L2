@@ -1,9 +1,9 @@
 {
   "reports/l2_r4/side_module_solids.json": {
     "script": "cad/l2_r4/regenerate_keys.py",
-    "source_commit": "f73ba1a39c29c3f8b1c23944e1ea390afa9f930f",
+    "source_commit": "977d56401a45b744a55a0ecbc8054530201cb2a9",
     "returncode": 0,
-    "report_sha256": "3f2e6aa775f4e9f434f00b22493ab89bb8860965b0b83d084b7dc3039d49af7c",
+    "report_sha256": "7ea67ee2c960893b676cd7eb17d73913fefd8921acdb889b617dd6dfc4a651f7",
     "geometry": {
       "cad/rebuild_r2/parameters.json": "1b80721457bb4f2b11f7021d3e2d98ef9f6068510906099e9b0e38f2f33141f0",
       "cad/rebuild_r3_2/electronics.json": "866e3892c6d2ddd8b001e746b3bbc4b77bdf3fc799ded156e8bf2b10458d4c08",
@@ -11,8 +11,8 @@
       "models/L2_r4/parts/LEFT_KEY.step": "2b66a0d6f6673ec5ac337dcb63366b1c165122e199ca5497153ab9667cbb4f43",
       "models/L2_r4/parts/RIGHT_KEY.step": "57791da2e062cca8e799d912828827fbb9a7968444b1ed38037aa9acaecae071",
       "models/L2_r4/parts/SF_RETAINER.step": "fe5d9c684cb607b7a3e40f1886cb243b87c9fae1174ef54b78986b8fe34b3213",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.step": "7b4cf7655026a8894d4bc24349ce3fd00cd1439e8564e7192809a432a3ee3b75",
-      "models/L2_r4/parts/SIDE_REAR_KEY.step": "85551a8427c0bc8e50d4226f1af8a12203d30ff74766a3ada6302df40180f7e4",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.step": "7fad221143c1a171ecddfa300d00e8d7c92b1671d64bf69853decb9ccb7fa486",
+      "models/L2_r4/parts/SIDE_REAR_KEY.step": "cb1697253f27cf55d54c4c7572860f749660150d0dd4322ecedf2dbae98d3f09",
       "models/L2_r4/parts/SR_RETAINER.step": "c52152888ef9bf3e8bddb7b6f6605a34a2fc6046057a467329310a02275ebb71",
       "models/L2_r4/parts/WHEEL.step": "efec7b9b652ab89778cad7141f762d4eb55fe694be9bf9e5ef355baad0da1c83",
       "models/L2_r4/parts/WHEEL_CARRIER.step": "c74b8833dfc598a5c40c7d354a7b9cf0c6d40609332228cf3cd81c6e1dbee234",
@@ -105,15 +105,15 @@
     },
     "verifier_source": {
       "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
-      "cad/l2_r4/regenerate_keys.py": "56d2604a9cfcaba3801f06973a497b0cedf10d84aed16ee594c8db5088d34290",
-      "cad/l2_r4/side_module.py": "e695f003f86bb00e03d9d37e9de1a7c37b971b1db52a554b160c2b6f5e362251"
+      "cad/l2_r4/regenerate_keys.py": "95680c9b44fd9da10463f6a994cfc8fcbf7c742f535b2a7d6b033eca4a315c5e",
+      "cad/l2_r4/side_module.py": "59dfdd09b50aed5fa3b4293704dc997f78ba1ef6ebd41ceb054a3ef972a287fa"
     }
   },
   "reports/l2_r4/parameters_implemented.json": {
     "script": "cad/l2_r4/regenerate_keys.py",
-    "source_commit": "f73ba1a39c29c3f8b1c23944e1ea390afa9f930f",
+    "source_commit": "977d56401a45b744a55a0ecbc8054530201cb2a9",
     "returncode": 0,
-    "report_sha256": "6e8a86fe45ce3fb1ddec8c4be95dd8764143c3d232c3642204193d061639cb83",
+    "report_sha256": "6f7f51658cba277cd2189084b93b19f523be7fc3599acd3f84e50fd985a58d9a",
     "geometry": {
       "cad/rebuild_r2/parameters.json": "1b80721457bb4f2b11f7021d3e2d98ef9f6068510906099e9b0e38f2f33141f0",
       "cad/rebuild_r3_2/electronics.json": "866e3892c6d2ddd8b001e746b3bbc4b77bdf3fc799ded156e8bf2b10458d4c08",
@@ -121,8 +121,8 @@
       "models/L2_r4/parts/LEFT_KEY.step": "2b66a0d6f6673ec5ac337dcb63366b1c165122e199ca5497153ab9667cbb4f43",
       "models/L2_r4/parts/RIGHT_KEY.step": "57791da2e062cca8e799d912828827fbb9a7968444b1ed38037aa9acaecae071",
       "models/L2_r4/parts/SF_RETAINER.step": "fe5d9c684cb607b7a3e40f1886cb243b87c9fae1174ef54b78986b8fe34b3213",
-      "models/L2_r4/parts/SIDE_FRONT_KEY.step": "7b4cf7655026a8894d4bc24349ce3fd00cd1439e8564e7192809a432a3ee3b75",
-      "models/L2_r4/parts/SIDE_REAR_KEY.step": "85551a8427c0bc8e50d4226f1af8a12203d30ff74766a3ada6302df40180f7e4",
+      "models/L2_r4/parts/SIDE_FRONT_KEY.step": "7fad221143c1a171ecddfa300d00e8d7c92b1671d64bf69853decb9ccb7fa486",
+      "models/L2_r4/parts/SIDE_REAR_KEY.step": "cb1697253f27cf55d54c4c7572860f749660150d0dd4322ecedf2dbae98d3f09",
       "models/L2_r4/parts/SR_RETAINER.step": "c52152888ef9bf3e8bddb7b6f6605a34a2fc6046057a467329310a02275ebb71",
       "models/L2_r4/parts/WHEEL.step": "efec7b9b652ab89778cad7141f762d4eb55fe694be9bf9e5ef355baad0da1c83",
       "models/L2_r4/parts/WHEEL_CARRIER.step": "c74b8833dfc598a5c40c7d354a7b9cf0c6d40609332228cf3cd81c6e1dbee234",
@@ -215,8 +215,8 @@
     },
     "verifier_source": {
       "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
-      "cad/l2_r4/regenerate_keys.py": "56d2604a9cfcaba3801f06973a497b0cedf10d84aed16ee594c8db5088d34290",
-      "cad/l2_r4/side_module.py": "e695f003f86bb00e03d9d37e9de1a7c37b971b1db52a554b160c2b6f5e362251"
+      "cad/l2_r4/regenerate_keys.py": "95680c9b44fd9da10463f6a994cfc8fcbf7c742f535b2a7d6b033eca4a315c5e",
+      "cad/l2_r4/side_module.py": "59dfdd09b50aed5fa3b4293704dc997f78ba1ef6ebd41ceb054a3ef972a287fa"
     }
   },
   "reports/l2_r4/D7_development_checks.json": {
