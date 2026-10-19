@@ -73,6 +73,7 @@ def model_files(script):
     report_inputs={'contact_audit':['static_pairs.json','component_pairs.json','side_functional_motion.json'],
         'contact_audit_final':['static_pairs.json','component_pairs.json','side_functional_motion.json'],
         'combine_motion':[f'motion_{g}_{i}.json' for g in ['left','right','wheel'] for i in range(5)],
+        'combine_side_motion':[f'side_{g}_{i}.json' for g in ['sf','sr'] for i in range(5)],
         'mesh_metrics':['solids.json'],
         'render':['assembly_inventory.json','side_actuation_force_and_tuning.json','assembly_routes_final.json'],
         'plot_checks':['side_motion_raw.json','main_and_wheel_motion_raw.json','side_functional_motion.json']}

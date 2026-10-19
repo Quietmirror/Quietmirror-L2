@@ -1,12 +1,12 @@
 name: L2-r4 candidate exact CAD checks
 on:
   push:
-    branches: [codex/r4-frame-final]
+    branches: [codex/r4-wheel-sweep]
     paths: ['cad/l2_r4/**', '.github/workflows/l2-r4-candidate.yml']
 permissions:
   contents: write
 concurrency:
-  group: l2-r4-frame-final
+  group: l2-r4-wheel-sweep
   cancel-in-progress: true
 jobs:
   independent_checks:
@@ -14,10 +14,16 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - role: frame_diagnostic
-            config: FRAME_DIAGNOSTIC.json
-          - role: frame_assembly
-            config: FRAME_ASSEMBLY.json
+          - role: motion_wheel_0
+            config: MOTION_WHEEL_0.json
+          - role: motion_wheel_1
+            config: MOTION_WHEEL_1.json
+          - role: motion_wheel_2
+            config: MOTION_WHEEL_2.json
+          - role: motion_wheel_3
+            config: MOTION_WHEEL_3.json
+          - role: motion_wheel_4
+            config: MOTION_WHEEL_4.json
     runs-on: ubuntu-24.04
     timeout-minutes: 240
     env:
