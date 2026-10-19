@@ -1,0 +1,24 @@
+name: Stop superseded Quietmirror validation runs
+on:
+  push:
+    branches: [codex/r4-stop-superseded]
+permissions:
+  actions: write
+  contents: read
+jobs:
+  stop_superseded:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Retain checkpoints and stop only obsolete candidate computations
+        shell: bash
+        run: |
+          for id in 39250345128 39256824824 39260200189 39262399400 39265324555; do
+            state=$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${id}" --jq '.status')
+            if [ "$state" != "completed" ]; then
+              gh api --method POST "repos/${GITHUB_REPOSITORY}/actions/runs/${id}/cancel"
+            fi
+            echo "Superseded run ${id}: previous state ${state}; saved branch checkpoints retained."
+          done
