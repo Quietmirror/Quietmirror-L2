@@ -1,100 +1,84 @@
 [
   {
     "part": "SIDE_FRONT_KEY",
-    "fixed_bearing_region_outside_mother_mm3": 2.214576662279881,
-    "outside_regions": [
-      [
-        28.56861837684183,
-        43.974999895301906,
-        19.7999993,
-        30.3250001,
-        46.62400178660659,
-        20.800000100002002
-      ]
-    ],
+    "fixed_bearing_region_outside_mother_mm3": 0.0,
+    "outside_regions": [],
     "moving_inboard_ear_outside_mother_mm3": 0.0,
-    "pin_outside_mother_mm3": 0.06848642178457029,
+    "pin_outside_mother_mm3": 0.0,
     "upper_profile_samples": [
       {
         "z": 19.8,
         "outer_x": 29.393807079750307,
-        "axis_to_outer_wall_mm": 0.3938070797503066,
-        "fixed_bore_wall_mm": -0.08119292024969338
+        "axis_to_outer_wall_mm": 1.8938070797503066,
+        "fixed_bore_wall_mm": 1.4188070797503065
       },
       {
         "z": 20.0,
         "outer_x": 29.284567135506226,
-        "axis_to_outer_wall_mm": 0.2845671355062258,
-        "fixed_bore_wall_mm": -0.19043286449377417
+        "axis_to_outer_wall_mm": 1.7845671355062258,
+        "fixed_bore_wall_mm": 1.3095671355062257
       },
       {
         "z": 20.25,
         "outer_x": 29.141533445088115,
-        "axis_to_outer_wall_mm": 0.14153344508811472,
-        "fixed_bore_wall_mm": -0.33346655491188526
+        "axis_to_outer_wall_mm": 1.6415334450881147,
+        "fixed_bore_wall_mm": 1.1665334450881146
       },
       {
         "z": 20.6,
         "outer_x": 28.92850961048493,
-        "axis_to_outer_wall_mm": -0.07149038951506981,
-        "fixed_bore_wall_mm": -0.5464903895150698
+        "axis_to_outer_wall_mm": 1.4285096104849302,
+        "fixed_bore_wall_mm": 0.9535096104849302
       },
       {
         "z": 20.8,
         "outer_x": 28.799709783624326,
-        "axis_to_outer_wall_mm": -0.20029021637567368,
-        "fixed_bore_wall_mm": -0.6752902163756737
+        "axis_to_outer_wall_mm": 1.2997097836243263,
+        "fixed_bore_wall_mm": 0.8247097836243263
       }
     ],
+    "passed": true,
     "evidence": "Exact current final BODY and original mother surface; cap exterior offset is intentionally excluded from hidden-feature containment."
   },
   {
     "part": "SIDE_REAR_KEY",
-    "fixed_bearing_region_outside_mother_mm3": 2.096916120571119,
-    "outside_regions": [
-      [
-        28.309475307376243,
-        68.42792281136416,
-        19.7999999,
-        30.3250001,
-        71.0250001,
-        20.800000700000002
-      ]
-    ],
+    "fixed_bearing_region_outside_mother_mm3": 0.0,
+    "outside_regions": [],
     "moving_inboard_ear_outside_mother_mm3": 0.0,
-    "pin_outside_mother_mm3": 0.031634228546893954,
+    "pin_outside_mother_mm3": 0.0,
     "upper_profile_samples": [
       {
         "z": 19.8,
         "outer_x": 29.53166942984664,
-        "axis_to_outer_wall_mm": 0.5316694298466409,
-        "fixed_bore_wall_mm": 0.05666942984664092
+        "axis_to_outer_wall_mm": 2.031669429846641,
+        "fixed_bore_wall_mm": 1.5566694298466408
       },
       {
         "z": 20.0,
         "outer_x": 29.40966980311899,
-        "axis_to_outer_wall_mm": 0.4096698031189909,
-        "fixed_bore_wall_mm": -0.06533019688100905
+        "axis_to_outer_wall_mm": 1.909669803118991,
+        "fixed_bore_wall_mm": 1.4346698031189908
       },
       {
         "z": 20.25,
         "outer_x": 29.24975704956807,
-        "axis_to_outer_wall_mm": 0.2497570495680712,
-        "fixed_bore_wall_mm": -0.22524295043192877
+        "axis_to_outer_wall_mm": 1.7497570495680712,
+        "fixed_bore_wall_mm": 1.2747570495680711
       },
       {
         "z": 20.6,
         "outer_x": 29.01121085558137,
-        "axis_to_outer_wall_mm": 0.011210855581371248,
-        "fixed_bore_wall_mm": -0.46378914441862873
+        "axis_to_outer_wall_mm": 1.5112108555813712,
+        "fixed_bore_wall_mm": 1.0362108555813712
       },
       {
         "z": 20.8,
         "outer_x": 28.866729886090447,
-        "axis_to_outer_wall_mm": -0.13327011390955334,
-        "fixed_bore_wall_mm": -0.6082701139095533
+        "axis_to_outer_wall_mm": 1.3667298860904467,
+        "fixed_bore_wall_mm": 0.8917298860904467
       }
     ],
+    "passed": true,
     "evidence": "Exact current final BODY and original mother surface; cap exterior offset is intentionally excluded from hidden-feature containment."
   }
 ]
