@@ -573,5 +573,32 @@
   {
     "stage": "pair_begin",
     "part": "WHEEL_M2_SWITCH_1_NUT"
+  },
+  {
+    "stage": "pair_end",
+    "part": "WHEEL_M2_SWITCH_1_NUT",
+    "seconds": 0.8988995552062988,
+    "result": {
+      "a": "LEFT_KEY",
+      "b": "WHEEL_M2_SWITCH_1_NUT",
+      "gap_mm": 5.449999999999999,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.3,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "nearest_points_mm": [
+        [
+          11.7,
+          40.2,
+          12.859401076759
+        ],
+        [
+          6.25,
+          40.2,
+          12.859401076759
+        ]
+      ]
+    }
   }
 ]
