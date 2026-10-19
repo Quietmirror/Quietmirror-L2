@@ -2,46 +2,52 @@
   "trials": [
     {
       "dimensions_mm": [
-        14,
-        28,
-        6
-      ],
-      "goal_candidates": 6,
-      "passed": false,
-      "nodes": [
-        3147,
-        39385
-      ],
-      "evaluations": 225775,
-      "route_found": false
-    },
-    {
-      "dimensions_mm": [
         12,
-        33,
-        6
+        25,
+        8
       ],
       "goal_candidates": 0,
       "passed": false
     },
     {
       "dimensions_mm": [
-        16,
-        25,
-        6
+        14,
+        22,
+        8
       ],
-      "goal_candidates": 9,
-      "passed": false,
-      "nodes": [
-        1969,
-        39333
+      "goal_candidates": 0,
+      "passed": false
+    },
+    {
+      "dimensions_mm": [
+        10,
+        30,
+        8
       ],
-      "evaluations": 218092,
-      "route_found": false
+      "goal_candidates": 0,
+      "passed": false
+    },
+    {
+      "dimensions_mm": [
+        12,
+        28,
+        7
+      ],
+      "goal_candidates": 0,
+      "passed": false
+    },
+    {
+      "dimensions_mm": [
+        10,
+        24,
+        10
+      ],
+      "goal_candidates": 0,
+      "passed": false
     }
   ],
   "accepted": null,
-  "elapsed_s": 419.8133702278137,
+  "elapsed_s": 41.40504217147827,
   "original_estimate_mm": [
     18,
     22,
