@@ -1,0 +1,125 @@
+{
+  "candidate": "C11",
+  "parts": [
+    {
+      "name": "WHEEL_CARRIER",
+      "printable": true,
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 589.6884804740555,
+      "bounds_mm": [
+        -6.8500001,
+        20.0,
+        10.4,
+        11.030000000000033,
+        52.6000001,
+        21.800000100000002
+      ],
+      "mesh": {
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "triangles": 10812,
+        "bounds_mm": [
+          [
+            -6.849999904632568,
+            20.0,
+            10.399999618530273
+          ],
+          [
+            11.029999732971191,
+            52.59951400756836,
+            21.799686431884766
+          ]
+        ],
+        "holes_patched": 0
+      },
+      "removed_mm3": 0.20643068117169605,
+      "change": "Local0.32mm rigid middle-switch housing and main-switch fastener clearance across45 design poses; active plunger contact pad retained. Independent motion checks remain required"
+    },
+    {
+      "name": "ENCODER_ADAPTER_PCB_EST",
+      "printable": false,
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 156.9881799446221,
+      "bounds_mm": [
+        -0.8,
+        20.8,
+        9.199999999999974,
+        10.9,
+        35.9,
+        10.4
+      ],
+      "removed_mm3": 22.627412672772437,
+      "change": "Custom PCB edge x<=10.9; rear/east notch x>8.6,y>28.8; original mounting and terminal holes retained"
+    },
+    {
+      "name": "ENCODER_EC10E_HOUSING",
+      "printable": false,
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 324.83110034997617,
+      "bounds_mm": [
+        3.5,
+        21.75,
+        8.95,
+        7.95,
+        34.25,
+        22.6
+      ],
+      "removed_mm3": 1.4580000000001405,
+      "change": "Trim only terminal/lug tails to assembly Z8.95;0.25mm nominal protrusion below1.2mm adapter PCB. Actual soldering and vendor trim permission require physical confirmation; housing/rotor datum unchanged"
+    },
+    {
+      "name": "LEFT_KEY_STEEL_PIN",
+      "printable": false,
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 66.28760499074464,
+      "bounds_mm": [
+        8.099999999999998,
+        37.5,
+        13.32179139245,
+        29.2,
+        39.5,
+        15.32179139245
+      ],
+      "original_bounds_mm": [
+        7.4,
+        37.5,
+        13.32179139245,
+        29.2,
+        39.5,
+        15.32179139245
+      ],
+      "change": "Shorter steel pin at inboard end by0.70mm; diameter and outboard end unchanged; both sides symmetric"
+    },
+    {
+      "name": "RIGHT_KEY_STEEL_PIN",
+      "printable": false,
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 66.28760499074463,
+      "bounds_mm": [
+        -29.2,
+        37.5,
+        13.32179139245,
+        -8.1,
+        39.5,
+        15.32179139245
+      ],
+      "original_bounds_mm": [
+        -29.2,
+        37.5,
+        13.32179139245,
+        -7.4,
+        39.5,
+        15.32179139245
+      ],
+      "change": "Shorter steel pin at inboard end by0.70mm; diameter and outboard end unchanged; both sides symmetric"
+    }
+  ],
+  "body_changed": false,
+  "scope": "Source-level proposed interfaces; no claim of measured supplier or solder geometry. All affected CAD gates must be rechecked."
+}
