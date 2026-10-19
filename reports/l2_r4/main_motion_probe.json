@@ -73,5 +73,9 @@
         ]
       ]
     }
+  },
+  {
+    "stage": "pair_begin",
+    "part": "WHEEL"
   }
 ]
