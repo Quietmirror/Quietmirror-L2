@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "candidate_6_hidden_divider_and_stricter_route",
+  "source_commit": "85481b87332f9a698dcda3beb64891eac9f95741",
+  "steps": [
+    {
+      "script": "cad/l2_r4/bootstrap_build.py",
+      "returncode": 0,
+      "seconds": 0.06,
+      "available_memory_before_GB": 15.655677952,
+      "log_tail": "R4 directories and unchanged R3 components prepared\n"
+    }
+  ]
+}
