@@ -9,6 +9,13 @@
       "seconds": 3.29,
       "available_memory_before_GB": 15.684288512,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/donor_envelope.py",
+      "returncode": 0,
+      "seconds": 1060.63,
+      "available_memory_before_GB": 15.466110976,
+      "log_tail": "D_ENVELOPE 1607.7203772381722 mm2; exact checks True\n"
     }
   ]
 }
