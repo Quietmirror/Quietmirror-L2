@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "C10_window_1",
+  "source_commit": "2a3722ac76efb3061483639d0325d845d02c736b",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 5.63,
+      "available_memory_before_GB": 15.70230272,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
