@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "C14 final retainer geometry serial S7",
+  "source_commit": "76700242db55c0e5b3a0653363420ab11831c220",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 5.82,
+      "available_memory_before_GB": 15.651749888,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    }
+  ]
+}
