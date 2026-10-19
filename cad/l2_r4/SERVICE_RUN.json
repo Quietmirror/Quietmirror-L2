@@ -1,5 +1,5 @@
 {
-  "phase": "candidate_6_service_path_and_actual_wall_sections",
+  "phase": "candidate_6_reverse_service_search_wall_and_STL_audit",
   "report_file": "service_execution.json",
-  "scripts": ["cad/l2_r4/battery_service.py", "cad/l2_r4/wall_audit.py"]
+  "scripts": ["cad/l2_r4/wall_audit.py", "cad/l2_r4/mesh_self_intersection.py", "cad/l2_r4/mechanism_accounting.py", "cad/l2_r4/battery_service.py"]
 }

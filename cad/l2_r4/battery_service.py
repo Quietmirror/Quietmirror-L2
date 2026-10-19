@@ -31,8 +31,8 @@ def main():
     occ=binary_dilation(base,np.ones((3,3,3),bool),iterations=2).astype(np.float32)
     # Translation0.5mm search, independently replayed at<=0.25mm afterwards.
     axes=[np.arange(-48,141,2),np.arange(-140,101,2),np.arange(-128,81,2)]
-    shape=(19,*[len(a) for a in axes]);blocked=np.zeros(shape,bool);maps=[]
-    for j,angle in enumerate(range(0,91,5)):
+    angles=list(range(-90,91,5));shape=(len(angles),*[len(a) for a in axes]);blocked=np.zeros(shape,bool);maps=[]
+    for j,angle in enumerate(angles):
         ps=transform(pts,pivot,[0,0,0,angle]);ix=np.floor((ps-LO)/H).astype(int)
         mn,mx=ix.min(0),ix.max(0);sz=mx-mn+1;kernel=np.zeros(sz,np.float32);kernel[tuple((ix-mn).T)]=1
         corr=fftconvolve(occ,kernel[::-1,::-1,::-1],mode='full')
@@ -50,16 +50,21 @@ def main():
     sx,sy,sz=shape[1:];plane=sy*sz;orient=sx*plane
     def pack(q):a,x,y,z=q;return a*orient+x*plane+y*sz+z
     def unpack(i):a,r=divmod(i,orient);x,r=divmod(r,plane);y,z=divmod(r,sz);return a,x,y,z
-    def encode(p):return (round(p[3]/5),*[round((p[d]/H-axes[d][0])/2) for d in range(3)])
-    def decode(q):return [float(axes[d][q[d+1]]*H) for d in range(3)]+[float(q[0]*5)]
-    start=encode([17.,-15.,-30.,90.]);goal=encode([0.,0.,0.,0.]);assert not blocked[start] and not blocked[goal],('Battery endpoint blocked',bool(blocked[start]),bool(blocked[goal]))
-    def heuristic(q):return sum(abs(q[d]-goal[d]) for d in [1,2,3])+2*abs(q[0]-goal[0])
-    sid,gid=pack(start),pack(goal);heap=[(1.08*heuristic(start),0,sid)];costs={sid:0};parent={};flat=blocked.ravel();expanded=0;found=False
+    def encode(p):return (angles.index(round(p[3]/5)*5),*[round((p[d]/H-axes[d][0])/2) for d in range(3)])
+    def decode(q):return [float(axes[d][q[d+1]]*H) for d in range(3)]+[float(angles[q[0]])]
+    # Search outward from the constrained final bay. Searching inward first
+    # exhausted millions of irrelevant free states below the mouse.
+    start=encode([0.,0.,0.,0.]);assert not blocked[start],('Battery final pose blocked',bool(blocked[start]))
+    def highest(q):
+        p=decode(q);a=math.radians(p[3]);return pivot[2]+p[2]+9*abs(math.sin(a))+3*abs(math.cos(a))
+    def heuristic(q):return max(0.,highest(q)-2.5)/.5
+    sid=pack(start);gid=None;heap=[(1.1*heuristic(start),0,sid)];costs={sid:0};parent={};flat=blocked.ravel();expanded=0;found=False
     while heap:
         _,cost,node=heapq.heappop(heap)
         if cost!=costs[node]:continue
-        if node==gid:found=True;break
-        q=unpack(node);expanded+=1
+        q=unpack(node)
+        if highest(q)<2.5:found=True;gid=node;break
+        expanded+=1
         if expanded>4000000:break
         for dim in range(4):
             for sign in [-1,1]:
@@ -69,7 +74,7 @@ def main():
                 if flat[ni]:continue
                 nc=cost+(2 if dim==0 else 1)
                 if nc>=costs.get(ni,10**12):continue
-                costs[ni]=nc;parent[ni]=node;heapq.heappush(heap,(nc+1.08*heuristic(v),nc,ni))
+                costs[ni]=nc;parent[ni]=node;heapq.heappush(heap,(nc+1.1*heuristic(v),nc,ni))
     report=dict(found=found,expanded_states=expanded,pivot_mm=pivot.tolist(),rotation_axis='Y through battery centre',grid_mm=H,search_translation_mm=.5,search_rotation_deg=5,maps=maps,
         battery_estimated_size_mm=[18,22,6],retained_obstacles=list(fixed),
         service_sequence=['Disconnect battery plug and free flexible wiring','Remove main keys and removable wheel carrier assembly','Remove screwed H electronics stack if already installed','Move battery along the reversed verified route; side module and integral BODY remain in place'],
@@ -77,7 +82,9 @@ def main():
     if not found:save('battery_service_path.json',report);raise RuntimeError('No battery route found within stated search domain; no service-access pass')
     nodes=[gid]
     while nodes[-1]!=sid:nodes.append(parent[nodes[-1]])
-    poses=[decode(unpack(i)) for i in reversed(nodes)];route=[poses[0]]
+    # Reconstruct from the external endpoint into the final bay so this
+    # remains an assembly route; reversal is the service extraction route.
+    poses=[decode(unpack(i)) for i in nodes];route=[poses[0]]
     for a,b,c in zip(poses[:-2],poses[1:-1],poses[2:]):
         if not np.allclose(np.array(b)-a,np.array(c)-b,atol=1e-9):route.append(b)
     route.append(poses[-1]);replay=dense(route);bad=[]

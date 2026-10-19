@@ -37,7 +37,12 @@ def main():
         # do not uniquely define the quoted force numbers.
         far=k['y1'] if k['sign']>0 else k['y0'];L=abs(far-k['hinge_y']);positions=[]
         for label,yy in [('cap_midpoint',(k['y0']+k['y1'])/2),('quarter_hinge_to_far',k['hinge_y']+k['sign']*L/4),('far_edge',far)]:
-            arm=abs(yy-k['hinge_y']);positions.append(dict(location=label,y_mm=yy,touch_arm_mm=arm,ideal_force_N=.74*abs(cy-k['hinge_y'])/arm))
+            arm=abs(yy-k['hinge_y']);force=.74*abs(cy-k['hinge_y'])/arm
+            theta=math.radians(k['angle'])
+            positions.append(dict(location=label,y_mm=yy,touch_arm_mm=arm,ideal_force_N=force,
+                pure_lever_arc_travel_mm=arm*abs(theta),tangential_inward_travel_mm=arm*abs(math.sin(theta)),
+                torque_about_vertical_hinge_Nmm=force*arm,
+                assumed_touch_to_plunger_z_offset_mm=-.9,eccentric_bending_moment_Nmm=.9*force))
         act.append(dict(part=k['name'],nominal_film_mm=.33,unshimmed_free_gap_mm=k['rod_end']-tip,
             residual_gap_mm=gap,stop_deg=k['angle'],max_PT_assumption_mm=.5,calculated_PT_max_trigger_deg=trigger,
             stop_button_depression_mm=inward(k['angle'])-gap,available_generic_plunger_protrusion_mm=.63,
