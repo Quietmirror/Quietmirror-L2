@@ -1,7 +1,7 @@
 {
-  "phase": "battery_top_or_bottom_fine_grid_with_exact_all_pose_replay",
+  "phase": "battery_coupled_pitch_yaw_search",
   "report_file": "service_execution.json",
   "scripts": [
-    "cad/l2_r4/battery_service.py"
+    "cad/l2_r4/battery_service_two_axis.py"
   ]
 }
