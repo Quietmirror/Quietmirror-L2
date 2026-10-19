@@ -1,0 +1,43 @@
+name: Inspect current D7 exterior geometry
+on:
+  push:
+    branches: [codex/r4-inspect]
+    paths: ['cad/l2_r4/exterior_audit.py', '.github/workflows/l2-r4-inspect.yml']
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUTF8: '1'
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+    steps:
+      - name: Read pinned source and current candidate geometry
+        run: |
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+      - name: Prepare isolated OpenCascade
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libglu1-mesa libgl1
+          python3 -m venv _support/venv
+          _support/venv/bin/pip install cadquery==2.8.0
+      - name: Exact mother-profile containment
+        run: _support/venv/bin/python -u cad/l2_r4/exterior_audit.py
+      - name: Preserve inspection result on the inspection branch
+        run: |
+          python3 - <<'PY'
+          import sys
+          sys.path.insert(0,'cad/l2_r4')
+          from ci_checkpoint import git
+          git('config','user.name','github-actions[bot]')
+          git('config','user.email','41898282+github-actions[bot]@users.noreply.github.com')
+          git('add','reports/l2_r4/D7_exterior_containment.json')
+          git('commit','-m','Record exact D7 exterior containment inspection')
+          git('push','origin','HEAD:refs/heads/codex/r4-inspect',auth=True)
+          PY
