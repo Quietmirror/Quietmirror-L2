@@ -1,12 +1,12 @@
 name: L2-r4 hidden bearing development audit
 on:
   push:
-    branches: [codex/r4-wheel-c12]
+    branches: [codex/r4-cell-direct]
     paths: ['cad/l2_r4/**', '.github/workflows/l2-r4-inspect.yml']
 permissions:
   contents: write
 concurrency:
-  group: l2-r4-wheel-c12
+  group: l2-r4-cell-direct
   cancel-in-progress: true
 jobs:
   inspect:
@@ -17,7 +17,7 @@ jobs:
       OMP_NUM_THREADS: '1'
       OPENBLAS_NUM_THREADS: '1'
       PYTHONUTF8: '1'
-      R4_TARGET_BRANCH: codex/r4-wheel-c12
+      R4_TARGET_BRANCH: codex/r4-cell-direct
     steps:
       - run: |
           git init .
@@ -34,5 +34,5 @@ jobs:
       - name: Preserve independent evidence on inspection branch only
         if: always()
         env:
-          R4_TARGET_BRANCH: codex/r4-wheel-c12
+          R4_TARGET_BRANCH: codex/r4-cell-direct
         run: python3 cad/l2_r4/ci_checkpoint.py
