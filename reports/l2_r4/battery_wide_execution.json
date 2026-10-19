@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "FAILED",
   "phase": "Shorter similar-volume cell proposals and connector access",
   "source_commit": "0a05e63371f76f563beea546bcad1308a21b4411",
   "steps": [
@@ -16,6 +16,13 @@
       "seconds": 10.28,
       "available_memory_before_GB": 15.483195392,
       "log_tail": ""
+    },
+    {
+      "script": "cad/l2_r4/battery_wide_direct.py",
+      "returncode": 1,
+      "seconds": 28.96,
+      "available_memory_before_GB": 15.536103424,
+      "log_tail": "Traceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_wide_direct.py\", line 25, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/battery_wide_direct.py\", line 23, in main\n    if not accepted:raise RuntimeError('No similar-volume shorter-longitudinal package passed static/reserve/route checks')\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No similar-volume shorter-longitudinal package passed static/reserve/route checks\n"
     }
   ]
 }
