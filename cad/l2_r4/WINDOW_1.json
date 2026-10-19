@@ -1,1 +1,1 @@
-{"phase": "C10_window_1", "report_file": "window_1_execution.json", "scripts": ["cad/l2_r4/window_1.py"]}
+{"phase": "C10_window_1", "report_file": "window_1_execution.json", "scripts": ["cad/l2_r4/restore_inputs.py", "cad/l2_r4/window_1.py"]}

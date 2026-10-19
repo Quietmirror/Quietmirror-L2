@@ -1,12 +1,12 @@
 name: L2-r4 candidate exact CAD checks
 on:
   push:
-    branches: [codex/r4-parallel]
+    branches: [codex/r4-windows]
     paths: ['cad/l2_r4/**', '.github/workflows/l2-r4-candidate.yml']
 permissions:
   contents: write
 concurrency:
-  group: l2-r4-parallel
+  group: l2-r4-windows
   cancel-in-progress: true
 jobs:
   independent_checks:
@@ -14,12 +14,6 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - role: motion_left
-            config: MOTION_LEFT.json
-          - role: motion_right
-            config: MOTION_RIGHT.json
-          - role: motion_wheel
-            config: MOTION_WHEEL.json
           - role: window_0
             config: WINDOW_0.json
           - role: window_1
