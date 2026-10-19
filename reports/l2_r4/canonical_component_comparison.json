@@ -1,0 +1,110 @@
+[
+  {
+    "path": "models/L2_r4/parts/WHEEL_CARRIER.step",
+    "older_ref": "ae5bc3981a1247bb5a5636cd4f84ea367efac0f1",
+    "newer_ref": "dfe66714aef4663e90c4daf4956ddfd0082d38b3",
+    "exact_data_section_equal": true,
+    "byte_identical": false,
+    "older_blob": "84692993462ea2a35c1f63bdad3a7cc5a0a92766",
+    "newer_blob": "22ecd4164ef11aacdab724c8c1b88335444c41fc"
+  },
+  {
+    "path": "models/L2_r4/reference/ENCODER_EC10E_HOUSING.step",
+    "older_ref": "ae5bc3981a1247bb5a5636cd4f84ea367efac0f1",
+    "newer_ref": "dfe66714aef4663e90c4daf4956ddfd0082d38b3",
+    "exact_data_section_equal": true,
+    "byte_identical": false,
+    "older_blob": "34b952d3d3430a2db68e86e58a14bd8c3af96055",
+    "newer_blob": "6e54c54c429af5aed0ff8e3fde9684a705518cbc"
+  },
+  {
+    "path": "models/L2_r4/reference/LEFT_KEY_STEEL_PIN.step",
+    "older_ref": "ae5bc3981a1247bb5a5636cd4f84ea367efac0f1",
+    "newer_ref": "dfe66714aef4663e90c4daf4956ddfd0082d38b3",
+    "exact_data_section_equal": true,
+    "byte_identical": false,
+    "older_blob": "af428645f259baa5818ad0d26c80d62df67a3f46",
+    "newer_blob": "d682ce0fffbc9fc8cb24d269616c100dcf236b12"
+  },
+  {
+    "path": "models/L2_r4/reference/RIGHT_KEY_STEEL_PIN.step",
+    "older_ref": "ae5bc3981a1247bb5a5636cd4f84ea367efac0f1",
+    "newer_ref": "dfe66714aef4663e90c4daf4956ddfd0082d38b3",
+    "exact_data_section_equal": true,
+    "byte_identical": false,
+    "older_blob": "091ec57904e95132e62acafebf654b7ac66053a6",
+    "newer_blob": "a2ae60d3b369d3ebdd30cfb39065ce02c86e5559"
+  },
+  {
+    "path": "models/L2_r4/reference/BATTERY_ROUTE_EST.step",
+    "older_ref": "ae5bc3981a1247bb5a5636cd4f84ea367efac0f1",
+    "newer_ref": "dfe66714aef4663e90c4daf4956ddfd0082d38b3",
+    "exact_data_section_equal": false,
+    "byte_identical": false,
+    "older_blob": "92322c8cf96d7da8eccdcb37221771d905f31fa8",
+    "newer_blob": "f053d38c163b5c18a1ab1101294272c99dbb9d7b"
+  },
+  {
+    "path": "models/L2_r4/reference/USB_ROUTE_EST.step",
+    "older_ref": "ae5bc3981a1247bb5a5636cd4f84ea367efac0f1",
+    "newer_ref": "dfe66714aef4663e90c4daf4956ddfd0082d38b3",
+    "exact_data_section_equal": true,
+    "byte_identical": false,
+    "older_blob": "188fb564ad23af3c907839598e69c86315e862d2",
+    "newer_blob": "fe12c619511b3dbd75ded368c76f1f0148a7da0b"
+  },
+  {
+    "path": "models/L2_r4/reference/SENSOR_ROUTE_EST.step",
+    "older_ref": "ae5bc3981a1247bb5a5636cd4f84ea367efac0f1",
+    "newer_ref": "dfe66714aef4663e90c4daf4956ddfd0082d38b3",
+    "exact_data_section_equal": true,
+    "byte_identical": false,
+    "older_blob": "4fdfb5e7fbf2cac22be5c10ffecdb79727ef850d",
+    "newer_blob": "8b1b41e73fddc6a12ff81753878f0555be358ba4"
+  },
+  {
+    "path": "models/L2_r4/reference/ANTENNA_FEED_ROUTE_EST.step",
+    "older_ref": "ae5bc3981a1247bb5a5636cd4f84ea367efac0f1",
+    "newer_ref": "dfe66714aef4663e90c4daf4956ddfd0082d38b3",
+    "exact_data_section_equal": false,
+    "byte_identical": false,
+    "older_blob": "abd826acc496416fb04c077bceb3a6d0ff9d5f2d",
+    "newer_blob": "2f65fa065b370eb0d9878dec07c6a8fcf25c6097"
+  },
+  {
+    "path": "models/L2_r4/reference/SIDE_SF_NO_ROUTE_EST.step",
+    "older_ref": "ae5bc3981a1247bb5a5636cd4f84ea367efac0f1",
+    "newer_ref": "dfe66714aef4663e90c4daf4956ddfd0082d38b3",
+    "exact_data_section_equal": true,
+    "byte_identical": false,
+    "older_blob": "071cf31f87c3496e712bbb91a4b88b3f571f5ac7",
+    "newer_blob": "1d58e1ba00002232604574e42402ac5d27572bfb"
+  },
+  {
+    "path": "models/L2_r4/reference/SIDE_SR_NO_ROUTE_EST.step",
+    "older_ref": "ae5bc3981a1247bb5a5636cd4f84ea367efac0f1",
+    "newer_ref": "dfe66714aef4663e90c4daf4956ddfd0082d38b3",
+    "exact_data_section_equal": true,
+    "byte_identical": false,
+    "older_blob": "1010bdcb8c796e2ed6bf60684bb5802f18e27f81",
+    "newer_blob": "4d56b4cd6722c4e1c59923e7cccc61a5b2ba55a6"
+  },
+  {
+    "path": "models/L2_r4/reference/SIDE_COM_ROUTE_EST.step",
+    "older_ref": "ae5bc3981a1247bb5a5636cd4f84ea367efac0f1",
+    "newer_ref": "dfe66714aef4663e90c4daf4956ddfd0082d38b3",
+    "exact_data_section_equal": true,
+    "byte_identical": false,
+    "older_blob": "ac272e0b8d8ae16fd9b8f0baa0f74925131a57c5",
+    "newer_blob": "858cc1a665c0ca4dac24cb89a99650f0f0121cc3"
+  },
+  {
+    "path": "models/L2_r4/reference/SIDE_COM_GPIO_ROUTE_EST.step",
+    "older_ref": "ae5bc3981a1247bb5a5636cd4f84ea367efac0f1",
+    "newer_ref": "dfe66714aef4663e90c4daf4956ddfd0082d38b3",
+    "exact_data_section_equal": true,
+    "byte_identical": false,
+    "older_blob": "592b74f7690424d57a597efa1840c1888b88b3da",
+    "newer_blob": "3e5edcecbf835fb890140dff19ddcff4d0ea05a6"
+  }
+]

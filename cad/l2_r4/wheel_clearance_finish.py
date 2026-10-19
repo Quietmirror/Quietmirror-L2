@@ -1,4 +1,4 @@
-"""C11 local wheel-group corrections from inherited parameterized parts.
+"""C15 local wheel-group corrections from inherited parameterized parts.
 
 BODY, wheel axis, encoder body, bolt axes and main key outlines are unchanged.
 The hypothetical encoder PCB is a NEW custom outline, not a donor-PCB cut.
@@ -34,7 +34,13 @@ def main():
     # This is a planar custom-board outline, not a three-dimensional bevel.
     outside_land=box(8.6,25,0,70,0,30).cut(cyl(2.1,30,(8.5,26.1,0)))
     pcb=pcb.cut(outside_land).clean()
-    rows.append(export(pcb,'ENCODER_ADAPTER_PCB_EST',False));rows[-1].update(removed_mm3=previous-vol(pcb),change='C13 custom PCB: x>8.6 retained only insideR2.1 land centered(8.5,26.1);1.0mm edge material aroundR1.1 mounting hole. Original mounting and terminal centers retained; PCB thickness unchanged')
+    # C13 exposed the next limiting point along the same diagonal, at
+    # assemblyY33.08. Follow the source front brace's plan direction with a
+    # planar edge, rather than moving the encoder or altering the BODY.
+    line_x=lambda y:(46.-y)*23.22/34.-1.7
+    edge_tool=cq.Workplane('XY').polyline([(line_x(20),20),(25,20),(25,40),(line_x(40),40)]).close().extrude(30).val()
+    pcb=pcb.cut(edge_tool).clean()
+    rows.append(export(pcb,'ENCODER_ADAPTER_PCB_EST',False));rows[-1].update(removed_mm3=previous-vol(pcb),change='C15 custom planar PCB: R2.1 front mounting land and diagonal rear edge x=(46-y)*23.22/34-1.7. Existing hole/terminal centers and thickness retained; exact full-motion validation required')
     encoder=baseline('ENCODER_EC10E_HOUSING');previous=vol(encoder)
     encoder=encoder.cut(box(-20,20,0,60,0,8.95)).clean()
     rows.append(export(encoder,'ENCODER_EC10E_HOUSING',False));rows[-1].update(removed_mm3=previous-vol(encoder),change='Trim only terminal/lug tails to assembly Z8.95;0.25mm nominal protrusion below1.2mm adapter PCB. Actual soldering and vendor trim permission require physical confirmation; housing/rotor datum unchanged')
@@ -43,6 +49,6 @@ def main():
         if n.startswith('LEFT'):trim=box(b.xmin-1,b.xmin+.7,b.ymin-1,b.ymax+1,b.zmin-1,b.zmax+1)
         else:trim=box(b.xmax-.7,b.xmax+1,b.ymin-1,b.ymax+1,b.zmin-1,b.zmax+1)
         pin=original.cut(trim).clean();rows.append(export(pin,n,False));rows[-1].update(original_bounds_mm=bounds(original),change='Shorter steel pin at inboard end by0.70mm; diameter and outboard end unchanged; both sides symmetric')
-    save('wheel_group_clearance_changes.json',dict(candidate='C11',parts=rows,body_changed=False,scope='Source-level proposed interfaces; no claim of measured supplier or solder geometry. All affected CAD gates must be rechecked.'))
+    save('wheel_group_clearance_changes.json',dict(candidate='C15',parts=rows,body_changed=False,scope='Source-level proposed interfaces; no claim of measured supplier or solder geometry. All affected CAD gates must be rechecked.'))
 
 if __name__=='__main__':main()

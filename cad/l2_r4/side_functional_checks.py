@@ -9,7 +9,7 @@ import numpy as np
 from common import *
 from side_module import KEYS,fixed_features,key,UPPER_LUG_TOP,EAR_RADIUS,EAR_TOP,BRIDGE_BOTTOM
 
-def main():
+def main(selected_key=None,angle_indices=None,report_name=None):
     development=os.environ.get('R4_SIDE_LOCAL_PROBE')=='1'
     body=load('BODY');outer=load('MOTHER_OUTER_FROM_R32_SURFACE',ROOT/'exports/l2_r2_diagnostic/support_reference')
     params=json.loads((RP/'parameters_implemented.json').read_text())['side_keys'];rows=[]
@@ -17,6 +17,7 @@ def main():
     parts={n:load(n) for n in inventory['printable'] if n!='BODY'}
     hardware={n:load(n,OUT/'reference') for n in inventory['H_hardware']}
     for k,p in zip(KEYS,params):
+        if selected_key is not None and k['name']!=selected_key:continue
         cap=load(k['name']);y=k['hinge_y'];sg=k['sign'];hx=k['hinge_x'];ori=(hx,y,0);axis=(hx,y,1)
         # Masks are the exact source-defined functional features, trimmed to
         # the exported final solids. No nearby non-functional skin is removed.
@@ -38,7 +39,9 @@ def main():
         others={n:s for n,s in {**parts,**hardware}.items() if n not in [k['name'],k['short']+'_VERTICAL_PIN',k['short']+'_TUNING_SHIM_0p33',k['short']+'_D2F_01F']}
         shim=hardware[k['short']+'_TUNING_SHIM_0p33']
         tests=[]
-        for angle in list(np.linspace(0,k['angle'],7 if development else 31))+[-sg*.5,k['angle']+sg*.3]:
+        physical=np.linspace(0,k['angle'],7 if development else 31)
+        if angle_indices is not None:physical=physical[np.asarray(angle_indices,dtype=int)]
+        for angle in list(physical)+[-sg*.5,k['angle']+sg*.3]:
             angle=float(angle);normal=0<=angle*sg<=abs(k['angle'])+1e-8
             rotated=lambda s:s.rotate(ori,axis,angle)
             full=pair(rotated(cap),body,k['name'],'BODY',0.)
@@ -60,6 +63,6 @@ def main():
         r=dict(part=k['name'],samples=tests,outward_stop_angle_deg=0.,outward_rest_contact=rest_contact,
                outward_stop_pass=outpass,passed=all(t['passed'] for t in tests) and outpass,
                method='Independent exact BRep full common + source-feature contact decomposition; forced poses beyond hard stop are diagnostic only, not usable travel.')
-        rows.append(r);save('side_clearance_probe.json' if development else 'side_functional_motion.json',rows)
+        rows.append(r);save(report_name or ('side_clearance_probe.json' if development else 'side_functional_motion.json'),rows)
 
 if __name__=='__main__':main()

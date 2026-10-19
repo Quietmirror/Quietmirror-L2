@@ -1,0 +1,8 @@
+{
+  "phase": "Complete finite angular partition motion_left_1",
+  "report_file": "motion_left_1_execution.json",
+  "scripts": [
+    "cad/l2_r4/restore_inputs.py",
+    "cad/l2_r4/motion_left_1.py"
+  ]
+}
