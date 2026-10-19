@@ -476,5 +476,9 @@
         ]
       ]
     }
+  },
+  {
+    "stage": "pair_begin",
+    "part": "LEFT_KEY_STEEL_PIN"
   }
 ]
