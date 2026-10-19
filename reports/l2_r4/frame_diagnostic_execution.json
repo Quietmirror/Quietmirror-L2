@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "C12 final printable meshes and frame diagnostics",
   "source_commit": "6389ce35f792da486d4fe505cf58899990ed5871",
   "steps": [
