@@ -1,0 +1,37 @@
+name: Build and validate Dremel 3D45 PLA print package
+on:
+  push:
+    branches: [codex/r4-3d45-pla]
+    paths: ['cad/l2_r4_3d45/*.py', '.github/workflows/l2-r4-3d45.yml']
+permissions:
+  contents: write
+concurrency:
+  group: l2-r4-3d45-pla
+  cancel-in-progress: false
+jobs:
+  slice:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUTF8: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '2'
+      LIBGL_ALWAYS_SOFTWARE: '1'
+    steps:
+      - name: Read exact candidate source and frozen r4 meshes
+        run: |
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+      - name: Dependencies for Dremel native slicer and mesh checks
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y xvfb libgtk-3-0t64 libwebkit2gtk-4.1-0 libglu1-mesa libgl1 libfuse2t64
+          python3 -m pip install numpy==2.2.6 trimesh==4.9.0 scipy==1.15.3 matplotlib==3.10.3 shapely==2.1.1 lxml==5.4.0
+      - name: Native Dremel slicing, project export, toolpath verification
+        run: xvfb-run -a python3 cad/l2_r4_3d45/ci_run.py
+      - name: Preserve actual artifacts and diagnostics
+        if: always() && !cancelled()
+        run: python3 cad/l2_r4_3d45/ci_checkpoint.py
