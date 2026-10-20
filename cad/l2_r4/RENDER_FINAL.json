@@ -1,0 +1,8 @@
+{
+  "phase": "C19 actual CAD views independent of pending motion aggregation",
+  "report_file": "final_render_execution.json",
+  "scripts": [
+    "cad/l2_r4/restore_inputs.py",
+    "cad/l2_r4/render.py"
+  ]
+}

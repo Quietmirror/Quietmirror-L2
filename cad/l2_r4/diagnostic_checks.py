@@ -8,6 +8,7 @@ import itertools,json,math,time
 import numpy as np
 import trimesh
 from common import *
+from exact_distance import pair
 from side_module import KEYS,RETAINER_MOUNTS,UPPER_LUG_TOP
 
 def main():

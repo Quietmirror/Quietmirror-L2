@@ -1,14 +1,56 @@
 {
-  "status": "PHASE_COMPLETED",
-  "phase": "candidate_7_independent_verification_and_actual_print_artifacts",
-  "source_commit": "6548668c2bf29a22a21011d83718e2e9dbe43c5c",
+  "status": "RUNNING",
+  "phase": "candidate_4_access_and_complete_motion_audit",
+  "source_commit": "f25f586306e4ee4dcf92ee3d5e7c56a2892f26c0",
   "steps": [
+    {
+      "script": "cad/l2_r4/bootstrap_build.py",
+      "returncode": 0,
+      "seconds": 0.06,
+      "available_memory_before_GB": 15.620079616,
+      "log_tail": "R4 directories and unchanged R3 components prepared\n"
+    },
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 6.05,
+      "available_memory_before_GB": 15.634804736,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/side_module.py",
+      "returncode": 0,
+      "seconds": 28.75,
+      "available_memory_before_GB": 15.466020864,
+      "log_tail": "EXPORTED SF_RETAINER 103.8993\nEXPORTED SR_RETAINER 166.7824\nEXPORTED SIDE_FRONT_KEY 80.3316\nEXPORTED SIDE_REAR_KEY 85.9433\nEXPORTED SF_D2F_01F 488.5038\nEXPORTED SF_TUNING_SHIM_0p33 1.9911\nEXPORTED SF_VERTICAL_PIN 4.3197\nEXPORTED SR_D2F_01F 488.5038\nEXPORTED SR_TUNING_SHIM_0p33 1.9911\nEXPORTED SR_VERTICAL_PIN 4.3197\nEXPORTED SF_RETAINER_M2x5 23.851\nEXPORTED SF_RETAINER_WASHER 3.1887\nEXPORTED SR_RETAINER_M2x5 23.851\nEXPORTED SR_RETAINER_WASHER 3.1887\n"
+    },
+    {
+      "script": "cad/l2_r4/main_key_relief.py",
+      "returncode": 0,
+      "seconds": 26.21,
+      "available_memory_before_GB": 15.662657536,
+      "log_tail": "EXPORTED LEFT_KEY 1718.7297\nEXPORTED RIGHT_KEY 1718.7298\n"
+    },
+    {
+      "script": "cad/l2_r4/build_body.py",
+      "returncode": 0,
+      "seconds": 167.93,
+      "available_memory_before_GB": 15.699402752,
+      "log_tail": "Mother surfaces 0.7351324558258057\nSkin and six windows 33.61835217475891\nSupport 0 34.41785526275635\nSupport 8 44.06824207305908\nSupport 16 57.82219099998474\nSupport 24 68.78164935112\nSupport 32 80.20531988143921\nEXPORTED BODY 12658.3663\n"
+    },
+    {
+      "script": "cad/l2_r4/assemble.py",
+      "returncode": 0,
+      "seconds": 12.65,
+      "available_memory_before_GB": 15.683203072,
+      "log_tail": "EXPORTED SIDE_SF_NO_ROUTE_EST 4.8541\nEXPORTED SIDE_SR_NO_ROUTE_EST 1.457\nEXPORTED SIDE_COM_ROUTE_EST 4.8815\nEXPORTED SIDE_COM_GPIO_ROUTE_EST 2.012\n/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/cadquery/utils.py:82: FutureWarning: save will be removed in the next release.\n  warn(f\"{f.__name__} will be removed in the next release.\", FutureWarning)\nAssembly components 94\n"
+    },
     {
       "script": "cad/l2_r4/surface_mesh.py",
       "returncode": 0,
-      "seconds": 60.42,
-      "available_memory_before_GB": 15.599828992,
-      "log_tail": "{'part': 'BODY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 410684, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'LEFT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 27298, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'RIGHT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 27346, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SIDE_FRONT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 29872, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SIDE_REAR_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 31352, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SF_RETAINER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 5136, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SR_RETAINER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 5732, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n"
+      "seconds": 83.89,
+      "available_memory_before_GB": 15.589433344,
+      "log_tail": "{'part': 'BODY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 412058, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'LEFT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 27298, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'RIGHT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 27346, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SIDE_FRONT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 29388, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SIDE_REAR_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 30898, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SF_RETAINER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 5136, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SR_RETAINER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 5732, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n"
     }
   ]
 }

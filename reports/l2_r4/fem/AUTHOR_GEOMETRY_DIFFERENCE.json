@@ -1,0 +1,64 @@
+{
+  "status": "COMPLETED",
+  "cause": "Combined source geometry corrections after author V2: D7 concealed hinges/aperture back relief, relocated retainer pilots and locating sockets, explicit driver access and final stop reliefs. Same loads/material/solver settings; comparison includes geometry-induced remeshing. Individual feature shares are not inferred.",
+  "primary_input_identity": {
+    "report": "fem/stiffness.json",
+    "passed": true,
+    "problems": []
+  },
+  "primary_stiffness_sha256": "38ac1bfa6ceca233c894cf690ddd58516ba6c42c2df630af5f6abdefc911d353",
+  "geometry_difference": {
+    "author_control_volume_mm3": 12643.438743331006,
+    "final_volume_mm3": 12612.830650497723,
+    "net_volume_change_mm3": -30.60809283328308,
+    "method": "Whole valid-solid adaptive volumes and documented source changes; no unreliable coincident whole-BODY Boolean difference is interpreted.",
+    "limitation": "The controlled difference includes geometry-induced remeshing; individual feature stiffness shares are not inferred."
+  },
+  "final_BODY_sha256": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
+  "rows": [
+    {
+      "size_mm": 2.4,
+      "case": "LC3_squeeze_2x2N",
+      "control_stiffness_N_per_mm": 920.8975146373766,
+      "author_stiffness_N_per_mm": 922.03,
+      "control_author_difference_fraction": -0.0012282521855290218,
+      "final_stiffness_N_per_mm": 835.6900165792779,
+      "final_geometry_effect_fraction": -0.0925265805409965,
+      "equilibrium_pass": true,
+      "resolved": true
+    },
+    {
+      "size_mm": 2.4,
+      "case": "press_B_d16_x-14_y72",
+      "control_stiffness_N_per_mm": 60.65057067908699,
+      "author_stiffness_N_per_mm": 60.53,
+      "control_author_difference_fraction": 0.0019919160595900376,
+      "final_stiffness_N_per_mm": 58.68698710398458,
+      "final_geometry_effect_fraction": -0.03237535200603603,
+      "equilibrium_pass": true,
+      "resolved": true
+    },
+    {
+      "size_mm": 2.0,
+      "case": "LC3_squeeze_2x2N",
+      "control_stiffness_N_per_mm": 923.8897164535306,
+      "author_stiffness_N_per_mm": 923.32,
+      "control_author_difference_fraction": 0.0006170303400019339,
+      "final_stiffness_N_per_mm": 846.2218158281196,
+      "final_geometry_effect_fraction": -0.08406620318661973,
+      "equilibrium_pass": true,
+      "resolved": true
+    },
+    {
+      "size_mm": 1.6,
+      "case": "LC3_squeeze_2x2N",
+      "control_stiffness_N_per_mm": 930.4966434677424,
+      "author_stiffness_N_per_mm": 931.07,
+      "control_author_difference_fraction": -0.0006158038947207123,
+      "final_stiffness_N_per_mm": 847.1550082990567,
+      "final_geometry_effect_fraction": -0.089566830524064,
+      "equilibrium_pass": true,
+      "resolved": true
+    }
+  ]
+}

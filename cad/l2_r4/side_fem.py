@@ -9,6 +9,7 @@ import json,os,subprocess,sys
 import numpy as np
 from fem_stage import FC,L,ROOT,RP,WORK,mesh,solve
 from side_module import RETAINER_MOUNTS
+from surface_patch_load import rectangle_load,self_check
 
 def percentile_region(m,r,d,mask):
     with np.load(d/'result_arrays.npz') as a:
@@ -20,6 +21,7 @@ def percentile_region(m,r,d,mask):
         return dict(p95_MPa=float(np.interp(.95*cum[-1],cum,v)),maximum_MPa=float(v.max()),sampled_volume_mm3=float(cum[-1]))
 
 def main():
+    print('PATCH_INTEGRATION_CHECK',self_check(),flush=True)
     rows=[];RP.mkdir(parents=True,exist_ok=True)
     for h in [2.4,2.,1.6]:
         d=WORK/f'S7_BODY_h{h:g}';m=mesh(ROOT/'models/L2_r4/parts/BODY.step',d,h);cons,feet=L.foot_constraints(m)
@@ -31,7 +33,7 @@ def main():
                 f,desc=FC.selected_load(m,(np.abs(z-plane)<.02)&(radius<1.8)&(radius>1.09)&(np.abs(nz)>.95),[0,0,sg],20.,f'preload_{sy}_{label}')
                 preload+=f;preload_descriptions.append(desc)
         for name,sx,ya,yb in [('SF_stop',29.74,54.,55.2),('SR_stop',30.04,59.3,60.5)]:
-            f,desc=FC.selected_load(m,(np.abs(x-sx)<.02)&(y>=ya)&(y<=yb)&(z>=15.9)&(z<=16.4)&(nx>.95),[-1,0,0],5.,name)
+            f,desc=rectangle_load(m,sx,ya,yb,15.9,16.4,5.,name)
             desc.update(screw_preload_N_each=20.,preload_surface_definitions=preload_descriptions,model='Equivalent contact tractions on actual final stop and clamp surfaces; ideal linear elastic supported BODY')
             r,u=solve(m,d/name,cons,f+preload,desc,feet)
             local=percentile_region(m,r,d/name,lambda c:(c[:,0]>15)&(c[:,1]>40)&(c[:,1]<73)&(c[:,2]>10)&(c[:,2]<21.5))

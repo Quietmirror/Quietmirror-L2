@@ -1,0 +1,11 @@
+{
+  "phase": "final_full_original_geometry_space",
+  "report_file": "accept_space_execution.json",
+  "scripts": [
+    "cad/l2_r4/restore_inputs.py",
+    "cad/l2_r4/donor_envelope.py",
+    "cad/l2_r4/wheel_rotation_check.py",
+    "cad/l2_r4/mechanism_accounting.py",
+    "cad/l2_r4/battery_plug_access.py"
+  ]
+}

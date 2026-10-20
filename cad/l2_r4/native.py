@@ -1,6 +1,6 @@
 """Save and reopen a native FreeCAD component assembly (no GUI, no solved joints)."""
 from pathlib import Path
-import json,os
+import json,os,hashlib
 import FreeCAD as App
 import Part
 ROOT=Path(os.environ['QUIETMIRROR_ROOT']);OUT=ROOT/'models/L2_r4';RP=ROOT/'reports/l2_r4'
@@ -27,5 +27,5 @@ stepcheck=dict(solids=len(full.Solids),valid=full.isValid(),expected_components=
 assert len(rows)==inventory['independent_components']>=89
 assert stepcheck['valid'] and stepcheck['solids']==len(rows)
 assert all(x['valid'] and x['solids']==1 for x in rows)
-(RP/'native_roundtrip.json').write_text(json.dumps(dict(application='FreeCAD '+'.'.join(App.Version()[:3]),parts=rows,all_valid=all(x['valid'] and x['solids']==1 for x in rows),full_step_roundtrip=stepcheck,scope='Saved/reopened imported components, not constrained feature history'),indent=2))
+(RP/'native_roundtrip.json').write_text(json.dumps(dict(application='FreeCAD '+'.'.join(App.Version()[:3]),parts=rows,all_valid=all(x['valid'] and x['solids']==1 for x in rows),full_step_roundtrip=stepcheck,artifact_sha256={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in [path,OUT/'FULL_ASSEMBLY_H.step']},scope='Saved/reopened imported components, not constrained feature history'),indent=2))
 print('Native assembly reopened',len(rows),'components',flush=True)

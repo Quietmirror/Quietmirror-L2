@@ -1,0 +1,35 @@
+{
+  "status": "PHASE_COMPLETED",
+  "phase": "C18_carrier_source_relief_and_complete_endpoint",
+  "source_commit": "8ff641bd4803df009d041549436f391da0ac549e",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 4.68,
+      "available_memory_before_GB": 15.59556096,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/carrier_c18.py",
+      "returncode": 0,
+      "seconds": 6.65,
+      "available_memory_before_GB": 15.517151232,
+      "log_tail": "EXPORTED WHEEL_CARRIER 587.0777\n"
+    },
+    {
+      "script": "cad/l2_r4/refresh_assembly.py",
+      "returncode": 0,
+      "seconds": 11.71,
+      "available_memory_before_GB": 15.654043648,
+      "log_tail": "/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/cadquery/utils.py:82: FutureWarning: save will be removed in the next release.\n  warn(f\"{f.__name__} will be removed in the next release.\", FutureWarning)\nASSEMBLY_REFRESH 94\n"
+    },
+    {
+      "script": "cad/l2_r4/carrier_c18_extreme.py",
+      "returncode": 0,
+      "seconds": 365.39,
+      "available_memory_before_GB": 15.508402176,
+      "log_tail": "G5_RAW WHEEL_CARRIER 4.4 overlaps []\n"
+    }
+  ]
+}

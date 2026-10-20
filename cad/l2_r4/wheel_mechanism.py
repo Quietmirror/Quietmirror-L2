@@ -74,10 +74,19 @@ def build_wheel(p,outer):
         holes.append([mx,yy,zz])
     for ty in (my+2.-5.08,my+2.,my+2.+5.08):
         switch=join(switch,box(.6,1.5,3.7,(mx,ty,mb-1.65)))
-        terminal_cuts.append(box(1.2,2.,4.6,(mx,ty,mb-2.1)))
+        # C19: 0.6 x 1.5 mm rigid terminal envelope requires >=0.5 mm
+        # clearance to the lower hub, outside the functional tray seat.
+        terminal_cuts.append(box(1.8,2.7,4.6,(mx,ty,mb-2.1)))
     hardware['SWITCH_MIDDLE']=check(switch,'SWITCH_MIDDLE')
     for sign in (-1,1):
-        tray=join(tray,beam((sign*4.,46.,mb-.9),(sign*(half_width(46.,p)-.3),46.,mb-.9),1.25).intersect(outer))
+        tie=beam((sign*4.,46.,mb-.9),(sign*(half_width(46.,p)-.3),46.,mb-.9),1.25).intersect(outer)
+        # C19: the spherical inner end rose 0.136 mm through the flat
+        # middle-switch seat into the purchased housing. Machine the tie
+        # down to the original seat plane within the housing footprint,
+        # before it joins the tray. The switch, bolt holders/axes, BODY
+        # exterior and every bottom datum retain their original positions.
+        tie=tie.cut(box(6.0,13.0,5.0,(mx,my+2,mb+2.5))).clean()
+        tray=join(tray,tie)
     additions.append(check(tray,'MIDDLE_TRAY'))
     functional['SWITCH_MIDDLE_MOUNT']=tray
     angle=3.8

@@ -2,11 +2,12 @@
 import json
 from common import *
 from mechanics import beam
+from wire_layout import definition as wire_definition,OVERRIDES
 ROUTES={
  'SIDE_SF_NO_ROUTE_EST':[(14.5,43.17,16.6),(14.1,43.17,19.8),(14.1,55.8,20.3),(12.8,55.8,20.3)],
- 'SIDE_SR_NO_ROUTE_EST':[(15,57.37,16.6),(14.3,57.37,17.6),(14.3,58.2,19.6),(12.8,58.2,20.3)],
+ 'SIDE_SR_NO_ROUTE_EST':[(15,57.37,16.6),(14.5,57.37,17.6),(14.5,58.2,19.6),(12.8,58.2,20.3)],
  'SIDE_COM_ROUTE_EST':[(14.5,48.25,16.6),(13.6,48.25,17.6),(13.6,62.45,17.6),(15,62.45,16.6)],
- 'SIDE_COM_GPIO_ROUTE_EST':[(13.6,60,17.6),(14,60,20.8),(13.5,57,20.8),(12.8,57,20.3)]}
+ 'SIDE_COM_GPIO_ROUTE_EST':[(13.6,60,17.9),(14,60,20.8),(13.5,57,20.8),(12.8,57,20.3)]}
 
 def main():
     for n,points in ROUTES.items():export(unite(*[beam(a,b,.3) for a,b in zip(points[:-1],points[1:])]),n,False)
@@ -14,12 +15,12 @@ def main():
     # mating components. Trim only a declared local termination ball; retain
     # all other route geometry, so unintended mid-route intersections remain
     # detectable. This is an envelope boundary, not electrical solder detail.
-    definition=json.loads((ROOT/'cad/rebuild_r3_2/electronics.json').read_text())
+    definition=wire_definition()
     terminations=[]
     for route in definition['routes']:
         name=route['name']
         if name=='SIDE_ROUTE_EST':continue
-        shape=load(name,OUT/'reference')
+        shape=unite(*[beam(a,b,route['radius']) for a,b in zip(route['points'][:-1],route['points'][1:])]) if name in OVERRIDES else load(name,OUT/'reference')
         for point,target in zip([route['points'][0],route['points'][-1]],route['end_contacts']):
             mate=load(target,OUT/'reference');r=float(route['radius'])+.8
             zone=cq.Solid.makeSphere(r,V(*point),angleDegrees1=-90,angleDegrees2=90)

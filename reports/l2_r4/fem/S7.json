@@ -1,0 +1,132 @@
+{
+  "status": "COMPLETED",
+  "preload_assumption_N": 20,
+  "rows": [
+    {
+      "part": "BODY",
+      "size_mm": 2.4,
+      "case": "SF_stop",
+      "global_p95_MPa": 0.6851759312431266,
+      "side_frame_region": {
+        "p95_MPa": 0.9326037716628588,
+        "maximum_MPa": 6.894564280832789,
+        "sampled_volume_mm3": 1330.5841364994387
+      },
+      "equilibrium_pass": true,
+      "passed": true
+    },
+    {
+      "part": "BODY",
+      "size_mm": 2.4,
+      "case": "SR_stop",
+      "global_p95_MPa": 0.6984772760823057,
+      "side_frame_region": {
+        "p95_MPa": 1.0122605709526855,
+        "maximum_MPa": 6.440054890968593,
+        "sampled_volume_mm3": 1330.5841364994358
+      },
+      "equilibrium_pass": true,
+      "passed": true
+    },
+    {
+      "part": "SF_RETAINER",
+      "size_mm": 2.4,
+      "case": "SF_RETAINER_preload_and_switch",
+      "global_p95_MPa": 1.9930415040230272,
+      "equilibrium_pass": true,
+      "passed": true
+    },
+    {
+      "part": "SR_RETAINER",
+      "size_mm": 2.4,
+      "case": "SR_RETAINER_preload_and_switch",
+      "global_p95_MPa": 1.6370830187035261,
+      "equilibrium_pass": true,
+      "passed": true
+    },
+    {
+      "part": "BODY",
+      "size_mm": 2.0,
+      "case": "SF_stop",
+      "global_p95_MPa": 0.6898840004777717,
+      "side_frame_region": {
+        "p95_MPa": 0.9326825658292889,
+        "maximum_MPa": 7.037888610031129,
+        "sampled_volume_mm3": 1330.767645417212
+      },
+      "equilibrium_pass": true,
+      "passed": true
+    },
+    {
+      "part": "BODY",
+      "size_mm": 2.0,
+      "case": "SR_stop",
+      "global_p95_MPa": 0.7008170364911268,
+      "side_frame_region": {
+        "p95_MPa": 1.0142973014938559,
+        "maximum_MPa": 6.507117283085753,
+        "sampled_volume_mm3": 1330.7676454172044
+      },
+      "equilibrium_pass": true,
+      "passed": true
+    },
+    {
+      "part": "SF_RETAINER",
+      "size_mm": 2.0,
+      "case": "SF_RETAINER_preload_and_switch",
+      "global_p95_MPa": 1.956762482302276,
+      "equilibrium_pass": true,
+      "passed": true
+    },
+    {
+      "part": "SR_RETAINER",
+      "size_mm": 2.0,
+      "case": "SR_RETAINER_preload_and_switch",
+      "global_p95_MPa": 1.663853343636758,
+      "equilibrium_pass": true,
+      "passed": true
+    },
+    {
+      "part": "BODY",
+      "size_mm": 1.6,
+      "case": "SF_stop",
+      "global_p95_MPa": 0.6934983149194264,
+      "side_frame_region": {
+        "p95_MPa": 0.9509935102006392,
+        "maximum_MPa": 8.123809613026848,
+        "sampled_volume_mm3": 1333.8167755035645
+      },
+      "equilibrium_pass": true,
+      "passed": true
+    },
+    {
+      "part": "BODY",
+      "size_mm": 1.6,
+      "case": "SR_stop",
+      "global_p95_MPa": 0.703582648267308,
+      "side_frame_region": {
+        "p95_MPa": 1.0239191614518863,
+        "maximum_MPa": 7.965142804838271,
+        "sampled_volume_mm3": 1333.8167755035572
+      },
+      "equilibrium_pass": true,
+      "passed": true
+    },
+    {
+      "part": "SF_RETAINER",
+      "size_mm": 1.6,
+      "case": "SF_RETAINER_preload_and_switch",
+      "global_p95_MPa": 1.9339310627707118,
+      "equilibrium_pass": true,
+      "passed": true
+    },
+    {
+      "part": "SR_RETAINER",
+      "size_mm": 1.6,
+      "case": "SR_RETAINER_preload_and_switch",
+      "global_p95_MPa": 1.6041904409385972,
+      "equilibrium_pass": true,
+      "passed": true
+    }
+  ]
+}

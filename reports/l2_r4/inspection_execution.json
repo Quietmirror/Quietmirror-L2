@@ -1,77 +1,28 @@
 {
-  "status": "RUNNING",
-  "phase": "candidate_6_hidden_divider_and_stricter_route",
-  "source_commit": "85481b87332f9a698dcda3beb64891eac9f95741",
+  "status": "FAILED",
+  "phase": "C11_direct_pad_join_and_wheel_clearance",
+  "source_commit": "89b6b1b5e68aa446290d41026804db786cf49ac4",
   "steps": [
-    {
-      "script": "cad/l2_r4/bootstrap_build.py",
-      "returncode": 0,
-      "seconds": 0.06,
-      "available_memory_before_GB": 15.655677952,
-      "log_tail": "R4 directories and unchanged R3 components prepared\n"
-    },
     {
       "script": "cad/l2_r4/restore_inputs.py",
       "returncode": 0,
-      "seconds": 5.18,
-      "available_memory_before_GB": 15.64919808,
+      "seconds": 3.7,
+      "available_memory_before_GB": 15.55576832,
       "log_tail": "Restored/retained 72 baseline components\n"
     },
     {
-      "script": "cad/l2_r4/side_module.py",
+      "script": "cad/l2_r4/regenerate_keys.py",
       "returncode": 0,
-      "seconds": 27.54,
-      "available_memory_before_GB": 15.475380224,
-      "log_tail": "EXPORTED SF_RETAINER 103.8993\nEXPORTED SR_RETAINER 166.7824\nEXPORTED SIDE_FRONT_KEY 87.7539\nEXPORTED SIDE_REAR_KEY 92.876\nEXPORTED SF_D2F_01F 488.5038\nEXPORTED SF_TUNING_SHIM_0p33 1.9911\nEXPORTED SF_VERTICAL_PIN 4.3197\nEXPORTED SR_D2F_01F 488.5038\nEXPORTED SR_TUNING_SHIM_0p33 1.9911\nEXPORTED SR_VERTICAL_PIN 4.3197\nEXPORTED SF_RETAINER_M2x5 23.851\nEXPORTED SF_RETAINER_WASHER 3.1887\nEXPORTED SR_RETAINER_M2x5 23.851\nEXPORTED SR_RETAINER_WASHER 3.1887\n"
+      "seconds": 21.97,
+      "available_memory_before_GB": 15.441174528,
+      "log_tail": "EXPORTED SIDE_FRONT_KEY 76.7419\nEXPORTED SIDE_REAR_KEY 81.565\n"
     },
     {
-      "script": "cad/l2_r4/main_key_relief.py",
-      "returncode": 0,
-      "seconds": 26.33,
-      "available_memory_before_GB": 15.684100096,
-      "log_tail": "EXPORTED LEFT_KEY 1718.7297\nEXPORTED RIGHT_KEY 1718.7298\n"
-    },
-    {
-      "script": "cad/l2_r4/build_body.py",
-      "returncode": 0,
-      "seconds": 182.79,
-      "available_memory_before_GB": 15.696171008,
-      "log_tail": "Mother surfaces 0.7263715267181396\nSkin and six windows 33.541964530944824\nSupport 0 34.33174538612366\nSupport 8 43.79020380973816\nSupport 16 57.38546562194824\nSupport 24 68.21825337409973\nSupport 32 79.49318194389343\nEXPORTED BODY 12633.24\n"
-    },
-    {
-      "script": "cad/l2_r4/assemble.py",
-      "returncode": 0,
-      "seconds": 13.23,
-      "available_memory_before_GB": 15.710875648,
-      "log_tail": "EXPORTED SIDE_SF_NO_ROUTE_EST 4.8541\nEXPORTED SIDE_SR_NO_ROUTE_EST 1.457\nEXPORTED SIDE_COM_ROUTE_EST 4.8815\nEXPORTED SIDE_COM_GPIO_ROUTE_EST 2.012\nEXPORTED BATTERY_ROUTE_EST 12.5862\nEXPORTED SENSOR_ROUTE_EST 16.7136\nEXPORTED USB_ROUTE_EST 67.3118\nEXPORTED ANTENNA_FEED_ROUTE_EST 6.4158\nEXPORTED SIDE_COM_GPIO_ROUTE_EST 1.9377\n/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/cadquery/utils.py:82: FutureWarning: save will be removed in the next release.\n  warn(f\"{f.__name__} will be removed in the next release.\", FutureWarning)\nAssembly components 94\n"
-    },
-    {
-      "script": "cad/l2_r4/exterior_audit.py",
-      "returncode": 0,
-      "seconds": 13.6,
-      "available_memory_before_GB": 15.624474624,
-      "log_tail": "[\n  {\n    \"part\": \"SIDE_FRONT_KEY\",\n    \"fixed_bearing_region_outside_mother_mm3\": 0.0,\n    \"outside_regions\": [],\n    \"moving_inboard_ear_outside_mother_mm3\": 0.0,\n    \"pin_outside_mother_mm3\": 0.0,\n    \"upper_profile_samples\": [\n      {\n        \"z\": 19.8,\n        \"outer_x\": 29.393807079750307,\n        \"axis_to_outer_wall_mm\": 1.8938070797503066,\n        \"fixed_bore_wall_mm\": 1.3688070797503067\n      },\n      {\n        \"z\": 20.0,\n        \"outer_x\": 29.284567135506226,\n        \"axis_to_outer_wall_mm\": 1.7845671355062258,\n        \"fixed_bore_wall_mm\": 1.259567135506226\n      },\n      {\n        \"z\": 20.25,\n        \"outer_x\": 29.141533445088115,\n        \"axis_to_outer_wall_mm\": 1.6415334450881147,\n        \"fixed_bore_wall_mm\": 1.1165334450881148\n      },\n      {\n        \"z\": 20.6,\n        \"outer_x\": 28.92850961048493,\n        \"axis_to_outer_wall_mm\": 1.4285096104849302,\n        \"fixed_bore_wall_mm\": 0.9035096104849302\n      },\n      {\n        \"z\": 20.8,\n        \"outer_x\": 28.799709783624326,\n        \"axis_to_outer_wall_mm\": 1.2997097836243263,\n        \"fixed_bore_wall_mm\": 0.7747097836243263\n      }\n    ],\n    \"passed\": true,\n    \"evidence\": \"Exact current final BODY and original mother surface; cap exterior offset is intentionally excluded from hidden-feature containment.\"\n  },\n  {\n    \"part\": \"SIDE_REAR_KEY\",\n    \"fixed_bearing_region_outside_mother_mm3\": 0.0,\n    \"outside_regions\": [],\n    \"moving_inboard_ear_outside_mother_mm3\": 0.0,\n    \"pin_outside_mother_mm3\": 0.0,\n    \"upper_profile_samples\": [\n      {\n        \"z\": 19.8,\n        \"outer_x\": 29.53166942984664,\n        \"axis_to_outer_wall_mm\": 2.031669429846641,\n        \"fixed_bore_wall_mm\": 1.506669429846641\n      },\n      {\n        \"z\": 20.0,\n        \"outer_x\": 29.40966980311899,\n        \"axis_to_outer_wall_mm\": 1.909669803118991,\n        \"fixed_bore_wall_mm\": 1.384669803118991\n      },\n      {\n        \"z\": 20.25,\n        \"outer_x\": 29.24975704956807,\n        \"axis_to_outer_wall_mm\": 1.7497570495680712,\n        \"fixed_bore_wall_mm\": 1.2247570495680713\n      },\n      {\n        \"z\": 20.6,\n        \"outer_x\": 29.01121085558137,\n        \"axis_to_outer_wall_mm\": 1.5112108555813712,\n        \"fixed_bore_wall_mm\": 0.9862108555813712\n      },\n      {\n        \"z\": 20.8,\n        \"outer_x\": 28.866729886090447,\n        \"axis_to_outer_wall_mm\": 1.3667298860904467,\n        \"fixed_bore_wall_mm\": 0.8417298860904466\n      }\n    ],\n    \"passed\": true,\n    \"evidence\": \"Exact current final BODY and original mother surface; cap exterior offset is intentionally excluded from hidden-feature containment.\"\n  }\n]\n"
-    },
-    {
-      "script": "cad/l2_r4/d7_fast_check.py",
-      "returncode": 0,
-      "seconds": 118.93,
-      "available_memory_before_GB": 15.679504384,
-      "log_tail": "SF insertion True motion [(0.0, 0.0), (3.404465981543966, 0.0), (6.808931963087932, 0.0), (-0.5, 0.006922645865441248), (7.108931963087932, 0.0024565989291424166)]\nSR insertion True motion [(0.0, 0.0), (-3.2173249419712064, 0.0), (-6.434649883942413, 0.0), (0.5, 0.0069226458653666965), (-6.734649883942413, 0.0028647642129913096)]\n"
-    },
-    {
-      "script": "cad/l2_r4/plan_sf_route.py",
-      "returncode": 0,
-      "seconds": 83.82,
-      "available_memory_before_GB": 15.71272704,
-      "log_tail": "VOXELS 800311 exact odd columns 0\nVOXELS 30765 exact odd columns 0\nCONFIGURATION_MAP 0 blocked 737491 seconds 49.4\nCONFIGURATION_MAP 5 blocked 739087 seconds 49.9\nCONFIGURATION_MAP 10 blocked 740868 seconds 50.3\nCONFIGURATION_MAP 15 blocked 743040 seconds 50.8\nCONFIGURATION_MAP 20 blocked 743990 seconds 51.2\nCONFIGURATION_MAP 25 blocked 745320 seconds 51.6\nCONFIGURATION_MAP 30 blocked 744831 seconds 52.1\nCONFIGURATION_MAP 35 blocked 746491 seconds 52.5\nCONFIGURATION_MAP 40 blocked 745953 seconds 53.0\nCONFIGURATION_MAP 45 blocked 746040 seconds 53.4\nCONFIGURATION_MAP 50 blocked 744445 seconds 53.8\nCONFIGURATION_MAP 55 blocked 742546 seconds 54.3\nCONFIGURATION_MAP 60 blocked 741645 seconds 54.7\nCONFIGURATION_MAP 65 blocked 739275 seconds 55.2\nCONFIGURATION_MAP 70 blocked 736728 seconds 55.6\nCONFIGURATION_MAP 75 blocked 733996 seconds 56.0\nCONFIGURATION_MAP 80 blocked 731434 seconds 56.5\nCONFIGURATION_MAP 85 blocked 729997 seconds 56.9\nCONFIGURATION_MAP 90 blocked 727570 seconds 57.3\nSEARCH 50000 frontier 45565 seconds 57.7\nSEARCH 100000 frontier 90400 seconds 58.1\nSEARCH 150000 frontier 129294 seconds 58.5\nSEARCH 200000 frontier 163474 seconds 59.0\nSEARCH 250000 frontier 193727 seconds 59.4\nSEARCH 300000 frontier 219583 seconds 59.9\nSEARCH 350000 frontier 261150 seconds 60.4\nSEARCH 400000 frontier 287380 seconds 60.9\nSEARCH 450000 frontier 312297 seconds 61.4\nSEARCH 500000 frontier 332644 seconds 62.0\nSEARCH 550000 frontier 347275 seconds 62.5\nSEARCH 600000 frontier 388444 seconds 63.0\nSEARCH 650000 frontier 403652 seconds 63.5\nSEARCH 700000 frontier 415707 seconds 64.0\nSEARCH 750000 frontier 422416 seconds 64.6\nSEARCH 800000 frontier 424498 seconds 65.2\nSEARCH 850000 frontier 466474 seconds 65.7\nSEARCH 900000 frontier 465536 seconds 66.3\nSEARCH 950000 frontier 466300 seconds 66.9\nSEARCH 1000000 frontier 474323 seconds 67.6\nSEARCH 1050000 frontier 501389 seconds 68.2\nSEARCH 1100000 frontier 491889 seconds 68.9\nSEARCH 1150000 frontier 526074 seconds 69.4\nSEARCH 1200000 frontier 479446 seconds 70.0\nSEARCH 1250000 frontier 364034 seconds 71.0\nSEARCH 1300000 frontier 211992 seconds 72.1\nSEARCH 1350000 frontier 113425 seconds 72.9\nSEARCH 1400000 frontier 75981 seconds 73.5\nSEARCH 1450000 frontier 88646 seconds 74.0\nSEARCH 1500000 frontier 80607 seconds 74.5\nSEARCH 1550000 frontier 91519 seconds 74.9\nSEARCH 1600000 frontier 83828 seconds 75.4\nSEARCH 1650000 frontier 97298 seconds 75.9\nSEARCH 1700000 frontier 103892 seconds 76.3\nSEARCH 1750000 frontier 89437 seconds 76.8\nSEARCH 1800000 frontier 91104 seconds 77.3\nSEARCH 1850000 frontier 81621 seconds 77.7\nSEARCH 1900000 frontier 74899 seconds 78.2\nSEARCH 1950000 frontier 66089 seconds 78.7\nSEARCH 2000000 frontier 58301 seconds 79.1\nSEARCH 2050000 frontier 47497 seconds 79.5\nSEARCH 2100000 frontier 35613 seconds 79.9\nSEARCH 2150000 frontier 23556 seconds 80.3\nSEARCH 2200000 frontier 16498 seconds 80.6\nSEARCH 2250000 frontier 11030 seconds 81.0\nFOUND_SF_ROUTE 78 waypoints 274 poses\n"
-    },
-    {
-      "script": "cad/l2_r4/assembly_paths.py",
-      "returncode": 0,
-      "seconds": 352.94,
-      "available_memory_before_GB": 15.687430144,
-      "log_tail": "VOXELS 800311 exact odd columns 0\nROUTE SR_D2F_01F voxel_bad 0 raw_pass True\nVOXELS 30765 exact odd columns 0\nROUTE SF_D2F_01F voxel_bad 0 raw_pass True\nVOXELS 31350 exact odd columns 0\nROUTE SR_RETAINER voxel_bad 0 raw_pass True\nVOXELS 10847 exact odd columns 0\nROUTE SF_RETAINER voxel_bad 0 raw_pass True\nVOXELS 6701 exact odd columns 0\n"
+      "script": "cad/l2_r4/cap_join_probe.py",
+      "returncode": 1,
+      "seconds": 35.63,
+      "available_memory_before_GB": 15.62681344,
+      "log_tail": "CAP_FINISH {'part': 'SIDE_FRONT_KEY', 'shim': {'a': 'SIDE_FRONT_KEY', 'b': 'SF_TUNING_SHIM_0p33', 'gap_mm': 0.0, 'overlap_mm3': 0.0, 'required_mm': 0.0, 'intended_contact': False, 'pass_check': True, 'distance_kind': 'BRepExtrema_DistShapeShape_complete', 'nearest_points_mm': [[26.49, 50.4518, 17.9], [26.49, 50.4518, 17.9]]}, 'added_material_mm3': 0.0, 'removed_material_mm3': 0.0, 'valid': True, 'solids': 1, 'brep_self_interference_check': True, 'passed': True}\nCAP_FINISH {'part': 'SIDE_REAR_KEY', 'shim': {'a': 'SIDE_REAR_KEY', 'b': 'SR_TUNING_SHIM_0p33', 'gap_mm': 0.0, 'overlap_mm3': 0.0, 'required_mm': 0.0, 'intended_contact': False, 'pass_check': True, 'distance_kind': 'BRepExtrema_DistShapeShape_complete', 'nearest_points_mm': [[26.99, 64.2883, 17.9], [26.99, 64.2883, 17.9]]}, 'added_material_mm3': 0.0, 'removed_material_mm3': 0.0, 'valid': True, 'solids': 1, 'brep_self_interference_check': False, 'passed': False}\nTraceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/cap_join_probe.py\", line 17, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/cap_join_probe.py\", line 15, in main\n    assert all(r['passed'] for r in rows),'Cap/PET join remains unresolved'\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Cap/PET join remains unresolved\n"
     }
   ]
 }

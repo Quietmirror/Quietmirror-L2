@@ -1,0 +1,28 @@
+{
+  "status": "RUNNING",
+  "phase": "C12 source hinge web setback",
+  "source_commit": "8254bc23226f4de7d10822b0339069392739cb98",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 4.42,
+      "available_memory_before_GB": 15.622320128,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/regenerate_keys.py",
+      "returncode": 0,
+      "seconds": 26.04,
+      "available_memory_before_GB": 15.422877696,
+      "log_tail": "EXPORTED SIDE_FRONT_KEY 76.6992\nEXPORTED SIDE_REAR_KEY 81.5251\n"
+    },
+    {
+      "script": "cad/l2_r4/cap_join_probe.py",
+      "returncode": 0,
+      "seconds": 41.26,
+      "available_memory_before_GB": 15.639461888,
+      "log_tail": "CAP_FINISH {'part': 'SIDE_FRONT_KEY', 'shim': {'a': 'SIDE_FRONT_KEY', 'b': 'SF_TUNING_SHIM_0p33', 'gap_mm': 0.0, 'overlap_mm3': 0.0, 'required_mm': 0.0, 'intended_contact': False, 'pass_check': True, 'distance_kind': 'BRepExtrema_DistShapeShape_complete', 'nearest_points_mm': [[26.49, 50.4518, 17.9], [26.49, 50.4518, 17.9]]}, 'added_material_mm3': 0.0, 'removed_material_mm3': 0.0, 'valid': True, 'solids': 1, 'brep_self_interference_check': True, 'passed': True}\nCAP_FINISH {'part': 'SIDE_REAR_KEY', 'shim': {'a': 'SIDE_REAR_KEY', 'b': 'SR_TUNING_SHIM_0p33', 'gap_mm': 0.0, 'overlap_mm3': 0.0, 'required_mm': 0.0, 'intended_contact': False, 'pass_check': True, 'distance_kind': 'BRepExtrema_DistShapeShape_complete', 'nearest_points_mm': [[26.99, 64.2883, 17.9], [26.99, 64.2883, 17.9]]}, 'added_material_mm3': 0.0, 'removed_material_mm3': 0.0, 'valid': True, 'solids': 1, 'brep_self_interference_check': True, 'passed': True}\n"
+    }
+  ]
+}

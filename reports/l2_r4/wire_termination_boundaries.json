@@ -8,7 +8,7 @@
       22.3
     ],
     "local_ball_radius_mm": 1.4,
-    "removed_mm3": 0.2261946710110898,
+    "removed_mm3": 0.0,
     "purpose": "Localized wire-to-connector termination; remainder retains normal G3 clearance"
   },
   {
@@ -20,7 +20,7 @@
       21.4
     ],
     "local_ball_radius_mm": 1.4,
-    "removed_mm3": 0.05602506897180959,
+    "removed_mm3": 0.0,
     "purpose": "Localized wire-to-connector termination; remainder retains normal G3 clearance"
   },
   {
@@ -32,7 +32,7 @@
       20.3
     ],
     "local_ball_radius_mm": 1.4,
-    "removed_mm3": 0.22619467156836492,
+    "removed_mm3": 0.22619469981597717,
     "purpose": "Localized wire-to-connector termination; remainder retains normal G3 clearance"
   },
   {
@@ -41,10 +41,10 @@
     "point_mm": [
       8,
       72,
-      16.15
+      16.25
     ],
     "local_ball_radius_mm": 1.4,
-    "removed_mm3": 0.2696835783245817,
+    "removed_mm3": 0.2696835338521666,
     "purpose": "Localized wire-to-connector termination; remainder retains normal G3 clearance"
   },
   {
@@ -56,7 +56,7 @@
       8
     ],
     "local_ball_radius_mm": 1.4500000000000002,
-    "removed_mm3": 0.5751732377691354,
+    "removed_mm3": 0.5751732428936123,
     "purpose": "Localized wire-to-connector termination; remainder retains normal G3 clearance"
   },
   {
@@ -92,7 +92,7 @@
       25
     ],
     "local_ball_radius_mm": 1.3,
-    "removed_mm3": 0.12356931104717539,
+    "removed_mm3": -8.881784197001252e-16,
     "purpose": "Localized wire-to-connector termination; remainder retains normal G3 clearance"
   },
   {
@@ -101,10 +101,10 @@
     "point_mm": [
       13.6,
       60,
-      17.6
+      17.9
     ],
     "local_ball_radius_mm": 1.0,
-    "removed_mm3": 0.07423832292912946,
+    "removed_mm3": 9.131122538530434e-05,
     "purpose": "Same electrical COM net branch junction"
   }
 ]

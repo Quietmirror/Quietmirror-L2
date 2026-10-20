@@ -2,6 +2,7 @@
 import json,math
 import numpy as np
 from common import *
+from exact_distance import pair
 
 def main():
     meta=json.loads((ROOT/'reports/rebuild_r3_2/design_metadata.json').read_text());rows=[]

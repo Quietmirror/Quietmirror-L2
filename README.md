@@ -1,46 +1,38 @@
-# Quietmirror L2-r3 · INCOMPLETE 预发布
+# Quietmirror L2-r4
 
-右手指握轻量化鼠标的机械试验版本。当前采用2026-10-18 r3方案，延续R3.2真实模型，保留六个顶孔、五脚平台和原主键/滚轮接口。新侧键是可拆载架上的两只杠杆键。
+**CAD_COMPLETE / HARDWARE_PENDING**
 
-![实际CAD六视图](views/l2_r3/L2_r3_H_SIX_VIEWS_SHEET.png)
+右手指握轻量鼠标的可编辑机械设计。r4将侧键托架与BODY一体生成，保留原六孔、底部外轮廓与五个脚贴平台；中键内部端子孔作局部净空修正。两件独立挡板、直推式杠杆侧键和钢销支持后续实物装配。电子元件均明确标为估计包络。
 
-## 下载与查看
+![实际模型六视图](views/l2_r4/L2_r4_H_SIX_VIEWS_SHEET.png)
 
-- [H完整装配 STEP](models/L2_r3/FULL_ASSEMBLY_H.step) / [FreeCAD装配](models/L2_r3/FULL_ASSEMBLY_H.FCStd)
-- [D供体占位装配](models/L2_r3/FULL_ASSEMBLY_D_PLACEHOLDER.step)
-- [单盘打印3MF](models/L2_r3/L2_r3_H_ALL_PARTS_SINGLE_PLATE.3mf) / [逐件STEP与STL](models/L2_r3/parts)
-- [参数化源文件](cad/l2_r3) / [复现说明](REPRODUCE.md) / [版本发布页](https://github.com/Quietmirror/Quietmirror-L2/releases/tag/L2-r3)
-- [当前方案原文](specs/Quietmirror_L2_r3_FINAL_Build_and_Release_2026-10-18.md) / [独立复核](handoff/l2_r3/SECOND_CHECK.md) / [干涉报告](handoff/l2_r3/INTERFERENCE_REPORT.md)
+## 下载和复现
 
-BODY包围盒约88.236×66.096×25.564mm；最高Z30.564、外缘最低Z5.0。沿用已有基准，没有根据近似AR手长再次等比放大。装配脚贴0.8mm时垫面Z4.4，BODY最高点离垫约26.164mm。
+- [完整H装配 STEP](models/L2_r4/FULL_ASSEMBLY_H.step) / [FreeCAD FCStd](models/L2_r4/FULL_ASSEMBLY_H.FCStd)
+- [九件单盘打印3MF](models/L2_r4/L2_r4_H_ALL_PARTS_SINGLE_PLATE.3mf) / [逐件STL与STEP](models/L2_r4/parts) / [F2侧键试验件](models/L2_r4/SIDE_MODULE_F2_TRIAL.3mf)
+- [D供体可用板域](models/L2_r4/D_MAX_BOARD_ENVELOPE.step) / [参数化源码和复现说明](cad/l2_r4/README.md)
+- [G1–G11门槛总表](handoff/l2_r4/GATES.md) / [全部数值与版本身份](handoff/l2_r4/FINAL_ACCOUNTING.json)
+- [设计思路](handoff/l2_r4/DESIGN_RATIONALE.md) / [装配顺序](handoff/l2_r4/ASSEMBLY_SEQUENCE.md) / [干涉报告](handoff/l2_r4/INTERFERENCE_REPORT.md)
+- [结构有限元](handoff/l2_r4/INTERNAL_COMPONENTS_SIMULATION.md) / [真实切片和方向](handoff/l2_r4/SLICE_REPORT.md) / [所有修正记录](handoff/l2_r4/TUNING_LOG.md)
 
-打印件CAD体积17138.856mm³，PA12密度1.01时约17.310g。真实PLA切片耗材35.91g、时间4h 50m 28s。支撑、填充和材料差异见[核算](handoff/l2_r3/FINAL_ACCOUNTING.md)。
+9件打印件的CAD聚合物体积为17619.919mm³，按PA12密度1.01g/cm³估计17.796g。真实PLA单盘切片36.04g、5h 18m 13s，包含支撑等耗材；不是装好电子件后的整机重量。
 
-## 验收状态
+## 电子方案与证据范围
 
-| 项目 | 状态 | 说明 |
-|---|---|---|
-| G1 | PASS | 8 个打印件；CAD 单实体、自相交和封闭网格见 solids.json |
-| G2 | INCOMPLETE | 打印件 28/28 对；穿模 0 对；不足目标间隙 1 对 |
-| G3 | INCOMPLETE | 最终装配包络检查 248 对，其中 3 项未满足通用阈值；作者 62 项原始证据未提供 |
-| G4 | INCOMPLETE | O3 贯通：True；原六孔多边形保留，最终曲面边界等价性未完整证明 |
-| G5 | INCOMPLETE | 5/5 组打印件运动穿模记录 0；微动壳体/滚轮随动组件 0；运动最小间隙曲线未认证 |
-| G6 | INCOMPLETE | Ø2钢销顶部探针已检查；载架直线上装最大重叠 212.250 mm³，此路径不能使用，倾斜装入未证明 |
-| G7 | INCOMPLETE | H 为估计包络；D 假设板 1 处相交，不能宣称真实供体适配 |
-| G8 | 3D_FEM_BLOCKED | 整壳迭代求解在615.3秒后因系统可用内存低于512MiB被保护器中止（任务峰值0.471GiB，未触及4GiB上限）；三档刚度比较未完成，小梁误差−1.635%不能替代整壳结论。 |
-| G9 | INCOMPLETE | S1/S2/S3/S5/S6/S9 提供相应证据；S4 实际按压力、S7 预紧/托架应力和 S8 刚度未完成认证 |
-| G10 | PASS_CAD_ESTIMATE | CAD 17138.856 mm³；PA12 密度 1.01 时 17.310 g；切片 35.91 g |
-| G11 | UNVERIFIED | 键帽/垫片对壳体包络的行程干涉记录 0；实物微动、PET 调整和通断未测 |
+H采用PAW3950半组装主板的参考包络，C17编码器转接板是自制板形假设。所选电池包络为14×20×6mm；原18×22×6mm估计包络的有限搜索尚未找到合格拆装路线。电池缩小不代表容量已知或12小时续航达标。D供体仍为用户称为ATK A1 Plus的待确认型号；没有编造真实PCB孔位。
 
+精确CAD结果对应报告中声明的模型与有限离散姿态，不等于连续运动证明、实物公差或电子功能认证。打印后反馈握宽、顶掌、手指拖地、滚轮/侧键触达与抬鼠稳定性，再测试实物按键和电子功能。
 
-本版仍需解决报告中的间隙/运动/侧键调节问题，三档刚度及实物功能未认证。H电子件是估计包络；D仍是用户所称ATK A1 Plus未确认供体。PAW3950不代表统一主板；1k无线、宏、LOD、充电和12h续航均未被CAD验证。
+## HARDWARE_PENDING
 
-## 设计思路与试验
+1. 实物侧键：贴膜调整、通断测试、手感
+2. 实测按压力
+3. D2F-01F 实物的 FP / OP / TTP
+4. PAW3950 实际镜头高度
+5. D 方案供体型号确认和主板测绘（DONOR_PENDING）
+6. 无线、续航、DPI、宏等功能验证
+7. 打印实物的称重和试装
 
-以连续指肚接触面和原有夹持带为外形约束，减重集中在原开放骨架、主键背面和滚轮。侧键隐藏传力筋与键帽曲面相接，压盘、止挡、卡舌和钢销分别承担触发、限位及定位；功能配合和一般避让间隙分开检查。
+## 历史与许可
 
-打印后记录握宽、顶掌、手指拖地、滚轮和侧键触达、抬鼠稳定性。装入钢销/微动后再评估按键动作，不用未通电塑料件代替真实点击与回弹试验。
-
-## 历史和许可
-
-[r2复核](handoff/l2_r2/README.md)、[r1复核](cad/l2_r1/README.md)、原cad/rebuild_r3_2和releases目录均保留。新CAD/文档延续本项目CERN-OHL-P-2.0；参考来源与署名见[NOTICE](NOTICE.md)。本版没有引入商业厂商CAD。
+[L2-r3预发布记录](https://github.com/Quietmirror/Quietmirror-L2/releases/tag/L2-r3)、[r3文档](handoff/l2_r3)、[r2复核](handoff/l2_r2/README.md)、[r1复核](cad/l2_r1/README.md)及R3.2源文件均保留。原始工程另见[Quietmirror/github](https://github.com/Quietmirror/github)。沿用[CERN-OHL-P-2.0](LICENSE)、[NOTICE](NOTICE.md)和[本轮实际来源说明](cad/l2_r4/ATTRIBUTION.md)。

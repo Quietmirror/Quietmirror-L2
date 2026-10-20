@@ -1,0 +1,804 @@
+{
+  "axis_mm": [
+    [
+      0,
+      28,
+      19
+    ],
+    [
+      1,
+      28,
+      19
+    ]
+  ],
+  "method": "Exact axisymmetric cylinder union; contains actual WHEEL and rotor and is invariant under all roll angles",
+  "containment_outside_mm3": {
+    "WHEEL": 0.0,
+    "ENCODER_EC10E_ROTOR": 0.0
+  },
+  "raw_scene": {
+    "exact_global_minimum_mm": 0.10999999999999703,
+    "measured_pairs": [
+      {
+        "a": "WHEEL_CONTINUOUS_ROLL_ENVELOPE",
+        "b": "LEFT_KEY",
+        "gap_mm": 1.1578040657364002,
+        "overlap_mm3": 0.0,
+        "required_mm": 0.3,
+        "intended_contact": false,
+        "pass_check": true,
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+        "nearest_points_mm": [
+          [
+            8.85,
+            27.580652732610528,
+            19.868205737522114
+          ],
+          [
+            9.9,
+            27.368467181014527,
+            20.307509216144396
+          ]
+        ]
+      },
+      {
+        "a": "WHEEL_CONTINUOUS_ROLL_ENVELOPE",
+        "b": "RIGHT_KEY",
+        "gap_mm": 2.6882779356952167,
+        "overlap_mm3": 0.0,
+        "required_mm": 0.3,
+        "intended_contact": false,
+        "pass_check": true,
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+        "nearest_points_mm": [
+          [
+            -7.25,
+            27.565071393333593,
+            19.900464939408092
+          ],
+          [
+            -9.9,
+            27.368467181005464,
+            20.30750921616502
+          ]
+        ]
+      },
+      {
+        "a": "WHEEL_CONTINUOUS_ROLL_ENVELOPE",
+        "b": "WHEEL_CARRIER",
+        "gap_mm": 0.17499998942307488,
+        "overlap_mm3": 0.0,
+        "required_mm": 0.3,
+        "intended_contact": false,
+        "pass_check": false,
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+        "nearest_points_mm": [
+          [
+            -6.7,
+            28.0,
+            20.0
+          ],
+          [
+            -6.7,
+            28.0,
+            20.175
+          ]
+        ]
+      },
+      {
+        "a": "WHEEL_CONTINUOUS_ROLL_ENVELOPE",
+        "b": "ENCODER_EC10E_HOUSING",
+        "gap_mm": 0.10999999999999703,
+        "overlap_mm3": 0.0,
+        "required_mm": 0.3,
+        "intended_contact": false,
+        "pass_check": false,
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+        "nearest_points_mm": [
+          [
+            3.55,
+            28.0,
+            20.49
+          ],
+          [
+            3.55,
+            28.0,
+            20.6
+          ]
+        ]
+      },
+      {
+        "a": "WHEEL_CONTINUOUS_ROLL_ENVELOPE",
+        "b": "USB_ROUTE_EST",
+        "gap_mm": 3.0512082907600506,
+        "overlap_mm3": 0.0,
+        "required_mm": 0.3,
+        "intended_contact": false,
+        "pass_check": true,
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+        "nearest_points_mm": [
+          [
+            -3.25,
+            26.82750363729974,
+            12.86096487390285
+          ],
+          [
+            -5.4677966491070595,
+            26.434383246385895,
+            10.802638754197783
+          ]
+        ]
+      },
+      {
+        "a": "WHEEL_CONTINUOUS_ROLL_ENVELOPE",
+        "b": "BODY",
+        "gap_mm": 4.050289747125206,
+        "overlap_mm3": 0.0,
+        "required_mm": 0.3,
+        "intended_contact": false,
+        "pass_check": true,
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+        "nearest_points_mm": [
+          [
+            3.25,
+            33.40033893733601,
+            22.146242101601942
+          ],
+          [
+            3.2591543651392243,
+            36.9,
+            24.185147641505353
+          ]
+        ]
+      }
+    ],
+    "pruned_pairs": [
+      {
+        "part": "ENCODER_M2x3_FRONT",
+        "lower_bound_mm": 0.8499999999999996,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "ENCODER_M2x3_REAR",
+        "lower_bound_mm": 0.8499999999999996,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "ENCODER_ADAPTER_PCB_EST",
+        "lower_bound_mm": 2.3499999999999996,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "LEFT_KEY_M2_SWITCH_2_BOLT",
+        "lower_bound_mm": 2.5,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "LEFT_KEY_M2_SWITCH_1_BOLT",
+        "lower_bound_mm": 2.5124774825717395,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "LEFT_KEY_M2_SWITCH_1_NUT",
+        "lower_bound_mm": 2.8000000000000007,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "LEFT_KEY_M2_SWITCH_2_NUT",
+        "lower_bound_mm": 2.8000000000000007,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SWITCH_MIDDLE",
+        "lower_bound_mm": 2.8500000000000014,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "LEFT_KEY_STEEL_PIN",
+        "lower_bound_mm": 3.25,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "RIGHT_KEY_STEEL_PIN",
+        "lower_bound_mm": 3.359315406448165,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+        "lower_bound_mm": 3.450000000000003,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "WHEEL_M2_SWITCH_1_WASHER_NUT",
+        "lower_bound_mm": 3.450000000000003,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "ENCODER_WASHER_FRONT",
+        "lower_bound_mm": 3.5500000000000007,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "ENCODER_WASHER_REAR",
+        "lower_bound_mm": 3.5500000000000007,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "USB_C_REFERENCE",
+        "lower_bound_mm": 3.9247420297390234,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "WHEEL_M2_SWITCH_1_NUT",
+        "lower_bound_mm": 3.949999999999932,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "WHEEL_M2_SWITCH_1_BOLT",
+        "lower_bound_mm": 4.061095911204269,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "RIGHT_KEY_M2_SWITCH_2_BOLT",
+        "lower_bound_mm": 4.1,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "RIGHT_KEY_M2_SWITCH_1_BOLT",
+        "lower_bound_mm": 4.107620126110742,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "USB_ADAPTER_PCB_REFERENCE",
+        "lower_bound_mm": 4.138236339311712,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+        "lower_bound_mm": 4.4,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+        "lower_bound_mm": 4.4,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "RIGHT_KEY_M2_SWITCH_1_NUT",
+        "lower_bound_mm": 4.4,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "RIGHT_KEY_M2_SWITCH_2_NUT",
+        "lower_bound_mm": 4.4,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+        "lower_bound_mm": 6.0,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+        "lower_bound_mm": 6.0,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SWITCH_LEFT",
+        "lower_bound_mm": 6.550000000000001,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "USB_M2x3_L",
+        "lower_bound_mm": 7.095421058682845,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "USB_M2x3_R",
+        "lower_bound_mm": 7.095421058682845,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "USB_WASHER_L",
+        "lower_bound_mm": 7.138977517824244,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "USB_WASHER_R",
+        "lower_bound_mm": 7.138977517824244,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SWITCH_RIGHT",
+        "lower_bound_mm": 8.15,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SIDE_SF_NO_ROUTE_EST",
+        "lower_bound_mm": 9.36092409968161,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SF_RETAINER",
+        "lower_bound_mm": 9.612751947283357,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SF_D2F_01F",
+        "lower_bound_mm": 9.65207231634741,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+        "lower_bound_mm": 9.950000000000003,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+        "lower_bound_mm": 9.950000000000003,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "WHEEL_M2_SWITCH_2_NUT",
+        "lower_bound_mm": 10.449999999999932,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "WHEEL_M2_SWITCH_2_BOLT",
+        "lower_bound_mm": 10.55426454093321,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SF_RETAINER_M2x5",
+        "lower_bound_mm": 11.336886697854933,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SF_RETAINER_WASHER",
+        "lower_bound_mm": 11.355505272774089,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "BATTERY_CELL_EST",
+        "lower_bound_mm": 13.043197460745581,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+        "lower_bound_mm": 14.200000000000001,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+        "lower_bound_mm": 14.200000000000001,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SKATE_1_0p8",
+        "lower_bound_mm": 14.403260047641993,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SIDE_COM_ROUTE_EST",
+        "lower_bound_mm": 14.404599959735087,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "WHEEL_CARRIER_STEEL_PIN",
+        "lower_bound_mm": 14.75,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SKATE_2_0p8",
+        "lower_bound_mm": 15.625552790221535,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+        "lower_bound_mm": 15.8,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+        "lower_bound_mm": 15.8,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SIDE_FRONT_KEY",
+        "lower_bound_mm": 19.233889362268876,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "CONTROLLER_RF_PCB_EST",
+        "lower_bound_mm": 20.75,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "RF_USB_HEADER_EST",
+        "lower_bound_mm": 20.75,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "RF_IO_HEADER_EST",
+        "lower_bound_mm": 20.76017822659526,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SF_VERTICAL_PIN",
+        "lower_bound_mm": 20.993451359888397,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SR_RETAINER",
+        "lower_bound_mm": 21.87475714150902,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "MCU_RADIO_EST",
+        "lower_bound_mm": 22.25,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SF_TUNING_SHIM_0p33",
+        "lower_bound_mm": 22.449225894003213,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SR_D2F_01F",
+        "lower_bound_mm": 22.734170316948006,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SIDE_COM_GPIO_ROUTE_EST",
+        "lower_bound_mm": 22.744779620827284,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SENSOR_PCB_EST",
+        "lower_bound_mm": 22.75,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SIDE_SR_NO_ROUTE_EST",
+        "lower_bound_mm": 23.11006057975617,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "BATTERY_PLUG_EST",
+        "lower_bound_mm": 24.67032630509779,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "MATCHED_LENS_EST",
+        "lower_bound_mm": 24.768225612667536,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "REMOTE_ANTENNA_PCB_EST",
+        "lower_bound_mm": 25.25,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "RF_BAT_HEADER_EST",
+        "lower_bound_mm": 25.25,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "BATTERY_ROUTE_EST",
+        "lower_bound_mm": 25.65,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "ANTENNA_FEED_ROUTE_EST",
+        "lower_bound_mm": 26.75,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "PAW3950_PACKAGE_EST",
+        "lower_bound_mm": 27.75,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SKATE_3_0p8",
+        "lower_bound_mm": 28.59445225913586,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SIDE_REAR_KEY",
+        "lower_bound_mm": 29.23546639238031,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SKATE_4_0p8",
+        "lower_bound_mm": 29.317754006744785,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "ANTENNA_FEED_HEADER_EST",
+        "lower_bound_mm": 29.75,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "CHARGE_POWERPATH_EST",
+        "lower_bound_mm": 32.25,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "REGULATOR_EST",
+        "lower_bound_mm": 32.25,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SR_TUNING_SHIM_0p33",
+        "lower_bound_mm": 33.53854479386323,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "RF_SENSOR_HEADER_EST",
+        "lower_bound_mm": 34.75,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SENSOR_HEADER_EST",
+        "lower_bound_mm": 34.75,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SR_RETAINER_M2x5",
+        "lower_bound_mm": 34.86151172855246,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SR_RETAINER_WASHER",
+        "lower_bound_mm": 34.867570893310024,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SENSOR_ROUTE_EST",
+        "lower_bound_mm": 36.150000000000006,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "POWER_SWITCH_BODY_EST",
+        "lower_bound_mm": 36.208666089763646,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "POWER_SWITCH_PCB_EST",
+        "lower_bound_mm": 36.24427541005615,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "POWER_SWITCH_TAB_EST",
+        "lower_bound_mm": 38.15583179541497,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SR_VERTICAL_PIN",
+        "lower_bound_mm": 39.38178512967639,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      },
+      {
+        "part": "SKATE_5_0p8",
+        "lower_bound_mm": 46.155689313453,
+        "reason": "AABB proves this pair cannot improve an already measured exact minimum or violate clearance"
+      }
+    ],
+    "passed": false
+  },
+  "classified_pairs": [
+    {
+      "raw": {
+        "a": "WHEEL_CONTINUOUS_ROLL_ENVELOPE",
+        "b": "LEFT_KEY",
+        "gap_mm": 1.1578040657364002,
+        "overlap_mm3": 0.0,
+        "required_mm": 0.3,
+        "intended_contact": false,
+        "pass_check": true,
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+        "nearest_points_mm": [
+          [
+            8.85,
+            27.580652732610528,
+            19.868205737522114
+          ],
+          [
+            9.9,
+            27.368467181014527,
+            20.307509216144396
+          ]
+        ]
+      },
+      "passed": true,
+      "classification": "ordinary continuous rolling clearance"
+    },
+    {
+      "raw": {
+        "a": "WHEEL_CONTINUOUS_ROLL_ENVELOPE",
+        "b": "RIGHT_KEY",
+        "gap_mm": 2.6882779356952167,
+        "overlap_mm3": 0.0,
+        "required_mm": 0.3,
+        "intended_contact": false,
+        "pass_check": true,
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+        "nearest_points_mm": [
+          [
+            -7.25,
+            27.565071393333593,
+            19.900464939408092
+          ],
+          [
+            -9.9,
+            27.368467181005464,
+            20.30750921616502
+          ]
+        ]
+      },
+      "passed": true,
+      "classification": "ordinary continuous rolling clearance"
+    },
+    {
+      "raw": {
+        "a": "WHEEL_CONTINUOUS_ROLL_ENVELOPE",
+        "b": "WHEEL_CARRIER",
+        "gap_mm": 0.17499998942307488,
+        "overlap_mm3": 0.0,
+        "required_mm": 0.3,
+        "intended_contact": false,
+        "pass_check": false,
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+        "nearest_points_mm": [
+          [
+            -6.7,
+            28.0,
+            20.0
+          ],
+          [
+            -6.7,
+            28.0,
+            20.175
+          ]
+        ]
+      },
+      "passed": true,
+      "classification": "round shaft diameter2 / bearing2.35",
+      "source_feature_bounds_mm": [
+        [
+          -6.710000100000001,
+          25.199999899999998,
+          16.199999899999998,
+          -4.289999899999999,
+          30.8100001,
+          21.800000100000002
+        ]
+      ],
+      "seam_collar_mm": 0.3,
+      "nonfunctional": {
+        "a": "WHEEL_CONTINUOUS_ROLL_ENVELOPE",
+        "b": "WHEEL_CARRIER",
+        "gap_mm": 0.75,
+        "overlap_mm3": 0.0,
+        "required_mm": 0.3,
+        "intended_contact": false,
+        "pass_check": true,
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+        "nearest_points_mm": [
+          [
+            3.125,
+            28.0,
+            12.75
+          ],
+          [
+            3.125,
+            28.0,
+            12.0
+          ]
+        ]
+      },
+      "functional_partition": {
+        "feature": "WHEEL_CONTINUOUS_ROLL_ENVELOPE/WHEEL_CARRIER round shaft diameter2 / bearing2.35",
+        "original_volume_mm3": 587.0776628018871,
+        "remaining_volume_mm3": 535.2974554522824,
+        "removed_volume_mm3": 51.78020743222329,
+        "volume_partition_error_mm3": 8.261862660674524e-08,
+        "lost_material_mm3": 0.0,
+        "added_material_mm3": 0.0,
+        "lost_solid_count": 0,
+        "added_solid_count": 0,
+        "mask_bounds_mm": [
+          -7.0100101000000015,
+          24.899989899999998,
+          15.899989899999998,
+          -3.989989899999999,
+          31.1100101,
+          22.100010100000002
+        ],
+        "passed": true,
+        "scope": "BRep validity and direct geometric differences of recombined functional partitions; adaptive integration discrepancy retained separately. Full original overlap is required separately."
+      },
+      "note": "Collar accounts only for continuous geometry next to the named mating feature; full-solid overlap must still pass."
+    },
+    {
+      "raw": {
+        "a": "WHEEL_CONTINUOUS_ROLL_ENVELOPE",
+        "b": "ENCODER_EC10E_HOUSING",
+        "gap_mm": 0.10999999999999703,
+        "overlap_mm3": 0.0,
+        "required_mm": 0.3,
+        "intended_contact": false,
+        "pass_check": false,
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+        "nearest_points_mm": [
+          [
+            3.55,
+            28.0,
+            20.49
+          ],
+          [
+            3.55,
+            28.0,
+            20.6
+          ]
+        ]
+      },
+      "passed": true,
+      "classification": "encoder rotor radius1.49 in housing bore1.60; wheel axial face clearance0.25"
+    },
+    {
+      "raw": {
+        "a": "WHEEL_CONTINUOUS_ROLL_ENVELOPE",
+        "b": "USB_ROUTE_EST",
+        "gap_mm": 3.0512082907600506,
+        "overlap_mm3": 0.0,
+        "required_mm": 0.3,
+        "intended_contact": false,
+        "pass_check": true,
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+        "nearest_points_mm": [
+          [
+            -3.25,
+            26.82750363729974,
+            12.86096487390285
+          ],
+          [
+            -5.4677966491070595,
+            26.434383246385895,
+            10.802638754197783
+          ]
+        ]
+      },
+      "passed": true,
+      "classification": "ordinary continuous rolling clearance"
+    },
+    {
+      "raw": {
+        "a": "WHEEL_CONTINUOUS_ROLL_ENVELOPE",
+        "b": "BODY",
+        "gap_mm": 4.050289747125206,
+        "overlap_mm3": 0.0,
+        "required_mm": 0.3,
+        "intended_contact": false,
+        "pass_check": true,
+        "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+        "nearest_points_mm": [
+          [
+            3.25,
+            33.40033893733601,
+            22.146242101601942
+          ],
+          [
+            3.2591543651392243,
+            36.9,
+            24.185147641505353
+          ]
+        ]
+      },
+      "passed": true,
+      "classification": "ordinary continuous rolling clearance"
+    }
+  ],
+  "passed": true,
+  "limitation": "Geometric rolling freedom only; printed hex torsional strength, encoder detents and friction are physical tests."
+}

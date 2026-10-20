@@ -1,0 +1,35 @@
+{
+  "status": "PHASE_COMPLETED",
+  "phase": "Final_C17_and_selected_cell",
+  "source_commit": "4236140704e5eeb183374c8cac26ec506a0ccbfc",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 4.48,
+      "available_memory_before_GB": 15.574646784,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/battery_candidate.py",
+      "returncode": 0,
+      "seconds": 1.78,
+      "available_memory_before_GB": 15.478644736,
+      "log_tail": "EXPORTED BATTERY_CELL_EST 1680.0\n"
+    },
+    {
+      "script": "cad/l2_r4/refresh_assembly.py",
+      "returncode": 0,
+      "seconds": 11.33,
+      "available_memory_before_GB": 15.356575744,
+      "log_tail": "/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/cadquery/utils.py:82: FutureWarning: save will be removed in the next release.\n  warn(f\"{f.__name__} will be removed in the next release.\", FutureWarning)\nASSEMBLY_REFRESH 94\n"
+    },
+    {
+      "script": "cad/l2_r4/distance_regression.py",
+      "returncode": 0,
+      "seconds": 52.66,
+      "available_memory_before_GB": 15.432548352,
+      "log_tail": "FULL_DISTANCE_REGRESSION 0.6474665946154016 0.0\nFULL_DISTANCE_REGRESSION 0.6021436285718165 0.0\nFULL_DISTANCE_REGRESSION 0.5617138533764201 0.0\nFULL_DISTANCE_REGRESSION 0.5068644486451762 0.0\nFULL_DISTANCE_REGRESSION 0.33888163890597184 0.0\n"
+    }
+  ]
+}

@@ -5,7 +5,7 @@ script may write a failed candidate report; only all-completed CAD permits a
 formal release. The release workflow reuses the same check-only assessment.
 """
 from pathlib import Path
-import argparse,json,math,os,sys
+import argparse,json,math,os,sys,hashlib
 import evidence_identity as evidence
 ROOT=Path(__file__).resolve().parents[2];RP=ROOT/'reports/l2_r4';OUT=ROOT/'handoff/l2_r4'
 HARDWARE_PENDING=[
@@ -26,7 +26,7 @@ def number(x):
     except (TypeError,ValueError):return float('nan')
 
 def assess():
-    sols=read('solids.json',[]);mesh=read('mesh_self_intersections.json');units=read('mesh_units_and_volume.json',[]);feet=read('foot_planes.json')
+    sols=read('solids.json',[]);mesh=read('mesh_self_intersections.json');units=read('mesh_units_and_volume.json',[]);feet=read('foot_planes.json');preservation=read('BODY_C19.json')
     contacts=read('functional_static_contacts.json');printed_hw=read('all_printed_hardware_intersections.json');hw=read('hardware_intersections.json',[])
     wires=read('wire_component_clearances.json');reserves=read('reserved_space_checks.json',[]);pairs=read('component_pairs.json',[])
     windows=read('six_window_samples.json',[]);motion=read('main_and_wheel_motion_raw.json',[]);side=read('side_functional_motion.json',[]);rotation=read('wheel_continuous_rotation.json')
@@ -35,7 +35,7 @@ def assess():
     g8=read('fem/G8.json');s7=read('fem/S7.json');act=read('side_actuation_force_and_tuning.json');kin=read('side_kinematics_independent.json',[])
     optical=read('optical_stack_and_power.json');battery=read('battery_service_path.json');plug=read('battery_plug_access.json');mass=read('CAD_mass.json');sliced=read('slice_summary.json');f2=read('F2_trial.json')
     defs={
-      'G1':['solids.json','mesh_self_intersections.json','mesh_units_and_volume.json','foot_planes.json','critical_wall_sections.json','surface_normal_wall_samples.json'],
+      'G1':['solids.json','mesh_self_intersections.json','mesh_units_and_volume.json','foot_planes.json','critical_wall_sections.json','surface_normal_wall_samples.json','BODY_C19.json'],
       'G2':['functional_static_contacts.json','all_printed_hardware_intersections.json','hardware_intersections.json'],
       'G3':['component_pairs.json','wire_component_clearances.json','reserved_space_checks.json'],
       'G4':['six_window_samples.json'],
@@ -46,12 +46,19 @@ def assess():
       'G9':['side_actuation_force_and_tuning.json','optical_stack_and_power.json','battery_service_path.json','battery_plug_access.json','fem/S7.json'],
       'G10':['CAD_mass.json','slice_summary.json','F2_trial.json'],
       'G11':['side_kinematics_independent.json','side_actuation_force_and_tuning.json','side_functional_motion.json','D7_exterior_containment.json']}
-    versions=evidence.verify(sorted(set(sum(defs.values(),[])))) if evidence.MANIFEST.exists() else []
+    auxiliary=['render_manifest.json','motion_plot_manifest.json','distance_regression.json']
+    versions=evidence.verify(sorted(set(sum(defs.values(),[])+auxiliary))) if evidence.MANIFEST.exists() else []
     current={r['report']:r['passed'] for r in versions};gates={}
     def gate(n,ok,summary,data):
         missing=[p for p in defs[n] if not (RP/p).exists()];stale=[p for p in defs[n] if (RP/p).exists() and not current.get(p,False)]
         gates[n]=dict(status='COMPLETED' if ok and not missing and not stale else ('PENDING' if missing else 'FAILED'),summary=summary,metrics=data,missing_reports=missing,stale_reports=stale,evidence=defs[n])
-    gate('G1',len(sols)==9 and every(sols,lambda s:s.get('valid') and s.get('solids')==1 and s.get('closed_mesh') and s.get('consistent_winding') and s.get('mesh_components')==1 and s.get('brep_self_interference_check')) and mesh.get('passed') and len(units)==9 and every(units,lambda r:r.get('positive_mesh_volume') and r.get('closed') and abs(r['difference_percent'])<1.) and feet.get('coplanar'),
+    preservation_pass=(preservation.get('boundary_comparison',{}).get('passed')
+                       and number(preservation.get('added_mm3'))<=.001
+                       and preservation.get('low_band_clear_of_complete_changes')
+                       and len(preservation.get('feet',[]))==5
+                       and all(all(number(p['overlap_mm3'])<=.001 for p in f['complete_change_region_checks']) for f in preservation.get('feet',[]))
+                       and preservation.get('regression_controls',{}).get('outside_change_rejected'))
+    gate('G1',preservation_pass and len(sols)==9 and every(sols,lambda s:s.get('valid') and s.get('solids')==1 and s.get('closed_mesh') and s.get('consistent_winding') and s.get('mesh_components')==1 and s.get('brep_self_interference_check')) and mesh.get('passed') and len(units)==9 and every(units,lambda r:r.get('positive_mesh_volume') and r.get('closed') and abs(r['difference_percent'])<1.) and feet.get('coplanar'),
          '9 个打印件的实体、网格、自相交、尺寸和五脚共面；关键薄壁另列实测截面。',dict(printable_count=len(sols),valid_single_solids=sum(s.get('valid',False) and s.get('solids')==1 for s in sols),closed_meshes=sum(s.get('closed_mesh',False) for s in sols),self_intersecting_faces=sum(r['self_intersecting_faces'] for r in mesh.get('parts',[])),feet=feet))
     gate('G2',contacts.get('passed') and printed_hw.get('passed') and every(hw,lambda r:r['overlap_mm3']<=.001),
          '逐对原始结果保留；仅对明确的接触面、轴孔和自攻螺纹区作局部分解。',dict(static_pairs=len(contacts.get('rows',[])),unresolved_static=sum(not r['passed'] for r in contacts.get('rows',[])),printed_hardware_pairs=len(printed_hw.get('rows',[])),hardware_pairs=len(hw),max_hardware_overlap_mm3=max([r['overlap_mm3'] for r in hw],default=None)))
@@ -79,8 +86,26 @@ def assess():
     required_assets += ['views/l2_r4/'+prefix+n+'.png' for prefix in ['H_','INSIDE_'] for n in ['TOP','BOTTOM','FRONT','BACK','LEFT','RIGHT']]
     required_assets += ['views/l2_r4/'+n+'.png' for n in ['H_ISO_FRONT','H_ISO_REAR','SIDE_MOTION_OVERLAY','SECTION_Z16p6','SECTION_Y50p25','SECTION_Y64p45','R3_VS_L2_r4_TOP_RIGHT_BOTTOM']]
     missing_assets=[p for p in required_assets if not (ROOT/p).exists()]
-    complete=all(r['status']=='COMPLETED' for r in gates.values()) and not missing_assets
-    return dict(status='CAD_COMPLETE / HARDWARE_PENDING' if complete else 'CAD_INCOMPLETE — RELEASE PROHIBITED',gates=gates,version_checks=versions,missing_assets=missing_assets,source_work_branch='l2-r4-build',tag='L2-r4',hardware_pending=HARDWARE_PENDING,printed_parts=mass.get('parts',[]),mass_and_slice=gates['G10']['metrics'],inventory=inv,baseline='Quietmirror/github@f1b1090931d717117287ea2b79c2e14ddc234937',author_evidence='Quietmirror/Quietmirror-L2@f637118455159515a200e6e0f35c0eea1c7d1633',evidence_limit='精确值仅对应声明的模型与离散姿态；封闭网格、线弹性模拟和参考电子包络均不等于实物装配/打印强度/电子性能认证。')
+    # Existing stale pictures or binary CAD must never certify a new model.
+    asset_identity={}
+    for report,key in [(read('render_manifest.json'),'files'),(read('motion_plot_manifest.json'),'files'),(native,'artifact_sha256'),(sliced,'artifact_sha256'),(f2,'artifact_sha256')]:asset_identity.update(report.get(key,{}))
+    asset_problems=[]
+    for p in required_assets:
+        if p.endswith('D_MAX_BOARD_ENVELOPE.step'):continue # Bound to producer's geometry/outline numerical report.
+        if p not in asset_identity:asset_problems.append('No produced artifact identity: '+p)
+        elif (ROOT/p).exists() and not evidence.hash_matches(ROOT/p,asset_identity[p]):asset_problems.append('Artifact version mismatch: '+p)
+    for p in auxiliary:
+        if not current.get(p,False):asset_problems.append('Stale/missing image producer: '+p)
+    regression=read('distance_regression.json')
+    if not regression.get('passed') or len(regression.get('samples',[]))!=5:
+        asset_problems.append('Original-solid distance regression incomplete or failed')
+    for p in sorted(set(sum(defs.values(),[]))):
+        if (RP/p).exists() and 'BRepExtrema_crop' in (RP/p).read_text(encoding='utf8'):
+            asset_problems.append('Withdrawn cropped-distance method in acceptance report: '+p)
+    s7_numerical= len(s7.get('rows',[]))==12 and all(r.get('equilibrium_pass') and number(r.get('global_p95_MPa'))<=10 and number(r.get('side_frame_region',{}).get('p95_MPa',0))<=10 for r in s7.get('rows',[]))
+    if not s7_numerical and gates['G9']['status']=='COMPLETED':gates['G9']['status']='FAILED'
+    complete=all(r['status']=='COMPLETED' for r in gates.values()) and not missing_assets and not asset_problems
+    return dict(status='CAD_COMPLETE / HARDWARE_PENDING' if complete else 'CAD_INCOMPLETE — RELEASE PROHIBITED',gates=gates,version_checks=versions,missing_assets=missing_assets,artifact_identity_problems=asset_problems,source_work_branch='l2-r4-build',tag='L2-r4',hardware_pending=HARDWARE_PENDING,printed_parts=mass.get('parts',[]),mass_and_slice=gates['G10']['metrics'],inventory=inv,baseline='Quietmirror/github@f1b1090931d717117287ea2b79c2e14ddc234937',author_evidence='Quietmirror/Quietmirror-L2@f637118455159515a200e6e0f35c0eea1c7d1633',evidence_limit='精确值仅对应声明的模型与离散姿态；封闭网格、线弹性模拟和参考电子包络均不等于实物装配/打印强度/电子性能认证。')
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--check-only',action='store_true');args=ap.parse_args();a=assess()

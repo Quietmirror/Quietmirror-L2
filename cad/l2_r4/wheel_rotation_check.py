@@ -6,6 +6,7 @@ It is conservative where the hex shaft and rotor socket leave empty space.
 """
 import json,math
 from common import *
+from bounded_scene import scene_pairs
 from contact_audit import mate
 
 def main():
