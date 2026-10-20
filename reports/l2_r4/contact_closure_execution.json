@@ -1,0 +1,14 @@
+{
+  "status": "RUNNING",
+  "phase": "C19 verified side/window aggregation and static contact closure",
+  "source_commit": "a9b7d67a24159f0a36cea037daf494a4257203ba",
+  "steps": [
+    {
+      "script": "cad/l2_r4/combine_side_motion.py",
+      "returncode": 0,
+      "seconds": 2.58,
+      "available_memory_before_GB": 15.593189376,
+      "log_tail": ""
+    }
+  ]
+}
