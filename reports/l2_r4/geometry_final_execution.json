@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "final_printed_geometry_and_meshes",
   "source_commit": "91514750e252fd3d8b26f69dec503c5957b6444e",
   "steps": [
