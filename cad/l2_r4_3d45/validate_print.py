@@ -88,7 +88,7 @@ def main():
     result={"status":"SLICED_AND_SOFTWARE_VERIFIED / PHYSICAL_PRINT_PENDING",
         "slicer_release":"Dremel 3D Slicer v2.3.2","slicer_header":lines[1],
         "machine":"Dremel 3D45","nozzle_mm":.4,"bed_mm":[255,155,170],
-        "bed_origin":"center","material":"PLA","filament_mm":1.75,"density_g_cm3":1.24,
+        "bed_origin":"center","material":"PLA","filament_diameter_mm":1.75,"density_g_cm3":1.24,
         "nozzle_C":220,"bed_C":45,"layer_mm":.2,"wall_loops":4,
         "infill":"20% gyroid","supports":"organic, buildplate only, top gap 0.2mm",
         "brim_mm":3,"scale":1,"mesh_components":9,"project_objects":9,
@@ -98,7 +98,7 @@ def main():
         "mass_g":float(metadata["total filament used [g]"]),
         "estimated_print_time":metadata.get("estimated printing time (normal mode)"),
         "estimated_first_layer_time":metadata.get("estimated first layer printing time (normal mode)"),
-        "filament_mm":metadata.get("filament used [mm]"),
+        "filament_used_mm":metadata.get("filament used [mm]"),
         "mass_g_by_role_approx":masses,"commands":dict(commands),
         "hardware_tests":"Not performed; original L2-r4 hardware-pending items remain open.",
         "whole_stl":"Nine printable parts in assembly pose, NOT print-in-place."}

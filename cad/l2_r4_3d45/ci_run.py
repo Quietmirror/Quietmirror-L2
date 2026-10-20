@@ -15,13 +15,14 @@ with (WORK/"extract.log").open("w") as log:
 base=WORK/"squashfs-root"
 profiles=next(base.rglob("profiles/Dremel"))
 app=profiles.parent.parent.parent
-candidates=[p for p in (base/"usr/bin").iterdir() if p.is_file() and "slicer" in p.name.lower()]
-assert len(candidates)==1,candidates
-exe=candidates[0]
+exe=base/"AppRun"
+assert exe.exists(),list(base.iterdir())
 print("APP",app,"EXE",exe,flush=True)
 env=os.environ.copy()
 env["QM_DREMEL_EXE"]=str(exe)
-env["LD_LIBRARY_PATH"]=":".join(str(p) for p in [base/"usr/lib",base/"usr/lib/x86_64-linux-gnu"])+":"+env.get("LD_LIBRARY_PATH","")
+env["APPDIR"]=str(base)
+env["LD_LIBRARY_PATH"]=":".join(str(p) for p in
+    [base/"lib",base/"usr/lib",base/"usr/lib/x86_64-linux-gnu"] if p.exists())+":"+env.get("LD_LIBRARY_PATH","")
 env["LIBGL_ALWAYS_SOFTWARE"]="1"
 env["MESA_GL_VERSION_OVERRIDE"]="3.3"
 env["OMP_NUM_THREADS"]="2"

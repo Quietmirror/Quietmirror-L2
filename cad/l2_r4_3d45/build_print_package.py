@@ -39,7 +39,7 @@ def profiles(app):
         target = folder / "upstream" / p.parent.name / p.name
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(p, target)
-    license_path = app / "LICENSE"
+    license_path = app / "LICENSE.txt"
     if license_path.exists():
         shutil.copy2(license_path, folder / "UPSTREAM_LICENSE.txt")
     machine.update({
