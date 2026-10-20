@@ -1,0 +1,21 @@
+{
+  "status": "SOFTWARE_CHECKS_PASSED",
+  "source_commit": "4a656c57931e83f6620147ff8c5f55085e68ec1b",
+  "artifacts_commit": "3db274719e5872d17041ebfdfc142957f7d4908a",
+  "successful_workflow_run": 39410542279,
+  "original_cad_gates": "G1-G11 completed, check-only rechecked locally",
+  "visual_review": "Inspected full toolpath, first layer, supports, and Z7.2mm. All nine objects represented; no footprint collision seen.",
+  "sha256": {
+    "models/L2_r4_3D45_PLA/L2_r4_3D45_PLA_PLATE.3mf": "26612d53e5a3b2be3b5255fabe5e8d8093606c39473633b126aee130c6379dfd",
+    "models/L2_r4_3D45_PLA/L2_r4_3D45_PLA_PLATE.gcode": "3a2108871484af563d6976e067210c46a2777f6fe2762d68a4f693ae4bb3cda0",
+    "models/L2_r4_3D45_PLA/L2_r4_ALL_PARTS_PRINT_PLATE.stl": "67f9ff3c05e237afd67501caa57c323605ec007ed794989ebac428cdf70c0b88",
+    "models/L2_r4_3D45_PLA/L2_r4_WHOLE_ASSEMBLED_PRINTABLES.stl": "4f28000e6c5433461a6290d513adb9d442debb19f765b698a737e970b20cc2ba",
+    "models/L2_r4_3D45_PLA/PRINT_PATH_VERIFIED.png": "4bc958ad26541e87fb2db511fe6097d6c4dbf1601c70392591b67673189cd9c6",
+    "models/L2_r4_3D45_PLA/PRINT_VALIDATION.json": "7992ce9c2b4c19bfb836c54aeeea25d69e3acb8320baf84d09c221a71d143f9e",
+    "cad/l2_r4_3d45/profiles/machine.json": "49c583584e1085d9a79921c2e1a167d202db07ebf33494dc8359428e6b26d104",
+    "cad/l2_r4_3d45/profiles/process.json": "78c13363461d58ac3a03d57fe75960a696c51a0469bcf09f0ecc693d36e1d32f",
+    "cad/l2_r4_3d45/profiles/filament.json": "7ff06481dbf314ad1e5efccab6cb3c5e80ef045cd10a86c538b1da513be9d16a"
+  },
+  "physical_print": "NOT_PERFORMED",
+  "release_type": "prerelease until physical printer validation"
+}

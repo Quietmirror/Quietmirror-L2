@@ -1,0 +1,197 @@
+{
+  "type": "filament",
+  "name": "Quietmirror PLA 3D45",
+  "from": "User",
+  "version": "2.0.0.3",
+  "instantiation": "true",
+  "overhang_fan_threshold": [
+    "95%"
+  ],
+  "overhang_fan_speed": [
+    "100"
+  ],
+  "slow_down_for_layer_cooling": [
+    "1"
+  ],
+  "close_fan_the_first_x_layers": [
+    "1"
+  ],
+  "filament_end_gcode": [
+    "; filament end gcode \n"
+  ],
+  "filament_flow_ratio": [
+    "1"
+  ],
+  "reduce_fan_stop_start_freq": [
+    "1"
+  ],
+  "fan_cooling_layer_time": [
+    "45"
+  ],
+  "filament_cost": [
+    "32"
+  ],
+  "filament_density": [
+    "1.24"
+  ],
+  "filament_deretraction_speed": [
+    "nil"
+  ],
+  "filament_diameter": [
+    "1.75"
+  ],
+  "filament_max_volumetric_speed": [
+    "8"
+  ],
+  "filament_minimal_purge_on_wipe_tower": [
+    "15"
+  ],
+  "filament_retraction_minimum_travel": [
+    "nil"
+  ],
+  "filament_retract_before_wipe": [
+    "nil"
+  ],
+  "filament_retract_when_changing_layer": [
+    "1"
+  ],
+  "filament_retraction_length": [
+    "nil"
+  ],
+  "filament_z_hop": [
+    "nil"
+  ],
+  "filament_z_hop_types": [
+    "nil"
+  ],
+  "filament_retract_restart_extra": [
+    "nil"
+  ],
+  "filament_retraction_speed": [
+    "nil"
+  ],
+  "filament_settings_id": [
+    "Quietmirror PLA 3D45"
+  ],
+  "filament_soluble": [
+    "0"
+  ],
+  "filament_type": [
+    "PLA"
+  ],
+  "filament_vendor": [
+    "Dremel"
+  ],
+  "filament_wipe": [
+    "1"
+  ],
+  "filament_wipe_distance": [
+    "nil"
+  ],
+  "bed_type": [
+    "Cool Plate"
+  ],
+  "nozzle_temperature_initial_layer": [
+    "220"
+  ],
+  "full_fan_speed_layer": [
+    "0"
+  ],
+  "fan_max_speed": [
+    "100"
+  ],
+  "fan_min_speed": [
+    "100"
+  ],
+  "slow_down_min_speed": [
+    "10"
+  ],
+  "slow_down_layer_time": [
+    "10"
+  ],
+  "filament_start_gcode": [
+    ""
+  ],
+  "nozzle_temperature": [
+    "220"
+  ],
+  "temperature_vitrification": [
+    "65"
+  ],
+  "inherits": "Dremel PLA @3D45",
+  "additional_cooling_fan_speed": [
+    "0"
+  ],
+  "cool_plate_temp": [
+    "45"
+  ],
+  "cool_plate_temp_initial_layer": [
+    "45"
+  ],
+  "eng_plate_temp": [
+    "0"
+  ],
+  "eng_plate_temp_initial_layer": [
+    "0"
+  ],
+  "filament_scarf_seam_type": [
+    "none"
+  ],
+  "filament_scarf_gap": [
+    "15%"
+  ],
+  "hot_plate_temp": [
+    "45"
+  ],
+  "hot_plate_temp_initial_layer": [
+    "45"
+  ],
+  "nozzle_temperature_range_low": [
+    "210"
+  ],
+  "nozzle_temperature_range_high": [
+    "240"
+  ],
+  "textured_plate_temp": [
+    "45"
+  ],
+  "textured_plate_temp_initial_layer": [
+    "45"
+  ],
+  "filament_id": "GFL99",
+  "setting_id": "GFSL99",
+  "compatible_printers": [
+    "Dremel 3D45 0.4 nozzle"
+  ],
+  "activate_air_filtration": [
+    "0"
+  ],
+  "complete_print_exhaust_fan_speed": [
+    "0"
+  ],
+  "default_filament_colour": [
+    "#0000FF"
+  ],
+  "during_print_exhaust_fan_speed": [
+    "0"
+  ],
+  "enable_pressure_advance": [
+    "0"
+  ],
+  "pressure_advance": [
+    "0.045"
+  ],
+  "textured_cool_plate_temp": [
+    "45"
+  ],
+  "textured_cool_plate_temp_initial_layer": [
+    "45"
+  ],
+  "smooth_pei_plate_temp": [
+    "45"
+  ],
+  "smooth_pei_plate_temp_initial_layer": [
+    "45"
+  ],
+  "compatible_printers_condition": ""
+}

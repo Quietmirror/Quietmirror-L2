@@ -1,0 +1,22 @@
+[
+  "/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/work/l2_r4_3d45/squashfs-root/AppRun",
+  "--datadir",
+  "/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/work/l2_r4_3d45/appdata",
+  "--debug",
+  "3",
+  "--load-settings",
+  "/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/machine.json;/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/process.json",
+  "--load-filaments",
+  "/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/filament.json",
+  "--arrange",
+  "0",
+  "--orient",
+  "0",
+  "--outputdir",
+  "/home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA",
+  "--export-3mf",
+  "L2_r4_3D45_PLA_PLATE.3mf",
+  "--slice",
+  "0",
+  "/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/work/l2_r4_3d45/plate_input.3mf"
+]

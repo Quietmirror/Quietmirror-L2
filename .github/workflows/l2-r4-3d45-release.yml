@@ -1,0 +1,23 @@
+name: Release approved Dremel 3D45 PLA print files
+on:
+  push:
+    branches: [main]
+    paths: ['reports/l2_r4_3d45/APPROVED_PACKAGE.json']
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUTF8: '1'
+    steps:
+      - name: Read exact approved merge
+        run: |
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+      - name: Validate approved files and publish separate print prerelease
+        run: python3 .github/scripts/release_l2_r4_3d45.py
