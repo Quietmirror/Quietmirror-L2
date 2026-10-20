@@ -6,6 +6,19 @@
 
 ![实际模型六视图](views/l2_r4/L2_r4_H_SIX_VIEWS_SHEET.png)
 
+## Dremel 3D45 / PLA 打印交付
+
+已使用 **Dremel 3D Slicer 2.3.2** 完成专用切片与软件校验；实机试印待完成。此次沿用既有 L2-r4 几何，提供整盘和装配姿态两种 STL。
+
+- [3D45 / PLA 完整下载包（预发布）](https://github.com/Quietmirror/Quietmirror-L2/releases/tag/L2-r4-3D45-PLA)
+- [九件整盘 STL](models/L2_r4_3D45_PLA/L2_r4_ALL_PARTS_PRINT_PLATE.stl) / [整体装配 STL](models/L2_r4_3D45_PLA/L2_r4_WHOLE_ASSEMBLED_PRINTABLES.stl)
+- [Dremel 切片工程 3MF](models/L2_r4_3D45_PLA/L2_r4_3D45_PLA_PLATE.3mf) / [3D45 打印 G-code](models/L2_r4_3D45_PLA/L2_r4_3D45_PLA_PLATE.gcode)
+- [详细打印、支撑与装配说明](cad/l2_r4_3d45/README.md) / [实际软件验证报告](models/L2_r4_3D45_PLA/PRINT_VALIDATION.json)
+
+0.4 mm 喷嘴、0.2 mm 层高、PLA 220/45°C；九件共 **35.05 g、约 7 小时 2 分钟、128 层**，含支撑和 brim。整体 STL 是装配预览；实际打印使用整盘文件。没有将电子参考包络作为塑料件一起打印。原生工程不含软件渲染缩略图，下面的预览直接从交付 G-code 绘制。
+
+![3D45实际切片路径](models/L2_r4_3D45_PLA/PRINT_PATH_VERIFIED.png)
+
 ## 下载和复现
 
 - [完整H装配 STEP](models/L2_r4/FULL_ASSEMBLY_H.step) / [FreeCAD FCStd](models/L2_r4/FULL_ASSEMBLY_H.FCStd)
@@ -15,7 +28,7 @@
 - [设计思路](handoff/l2_r4/DESIGN_RATIONALE.md) / [装配顺序](handoff/l2_r4/ASSEMBLY_SEQUENCE.md) / [干涉报告](handoff/l2_r4/INTERFERENCE_REPORT.md)
 - [结构有限元](handoff/l2_r4/INTERNAL_COMPONENTS_SIMULATION.md) / [真实切片和方向](handoff/l2_r4/SLICE_REPORT.md) / [所有修正记录](handoff/l2_r4/TUNING_LOG.md)
 
-9件打印件的CAD聚合物体积为17619.919mm³，按PA12密度1.01g/cm³估计17.796g。真实PLA单盘切片36.04g、5h 18m 13s，包含支撑等耗材；不是装好电子件后的整机重量。
+9件打印件的CAD聚合物体积为17619.919mm³，按PA12密度1.01g/cm³估计17.796g。原始 r4 通用 PLA 切片为36.04g、5h 18m 13s；它作为历史文件保留。请使用上方新的 3D45 专用打印包。切片质量包含支撑等耗材，不是装好电子件后的整机重量。
 
 ## 电子方案与证据范围
 
