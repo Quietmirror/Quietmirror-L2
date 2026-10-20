@@ -2,6 +2,7 @@
   "phase": "C19 verified side/window aggregation and static contact closure",
   "report_file": "contact_closure_execution.json",
   "scripts": [
+    "cad/l2_r4/restore_inputs.py",
     "cad/l2_r4/combine_side_motion.py",
     "cad/l2_r4/combine_windows.py",
     "cad/l2_r4/contact_audit_final.py",
