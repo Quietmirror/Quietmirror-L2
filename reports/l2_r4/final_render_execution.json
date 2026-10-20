@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "C19 actual CAD views independent of pending motion aggregation",
   "source_commit": "f752ccecd3eb27f4bbd684e02c03adbefd942d2c",
   "steps": [
