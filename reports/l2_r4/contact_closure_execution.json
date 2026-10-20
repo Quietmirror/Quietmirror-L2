@@ -1,21 +1,14 @@
 {
-  "status": "FAILED",
+  "status": "RUNNING",
   "phase": "C19 verified side/window aggregation and static contact closure",
-  "source_commit": "a9b7d67a24159f0a36cea037daf494a4257203ba",
+  "source_commit": "75efa6c21b13c4dd66d881229ca45505a1fb1277",
   "steps": [
     {
-      "script": "cad/l2_r4/combine_side_motion.py",
+      "script": "cad/l2_r4/restore_inputs.py",
       "returncode": 0,
-      "seconds": 2.58,
-      "available_memory_before_GB": 15.593189376,
-      "log_tail": ""
-    },
-    {
-      "script": "cad/l2_r4/combine_windows.py",
-      "returncode": 1,
-      "seconds": 5.29,
-      "available_memory_before_GB": 15.43575552,
-      "log_tail": "Traceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/combine_windows.py\", line 39, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/combine_windows.py\", line 10, in main\n    body=load('BODY');original=baseline('BODY')\n                               ^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/common.py\", line 27, in baseline\n    def baseline(n):return load(n,ROOT/'exports/rebuild_r3_2/assembly')\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/common.py\", line 26, in load\n    def load(name,base=None):return cq.importers.importStep(str((base or OUT/'parts')/(name+'.step'))).val()\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/cadquery/occ_impl/importers/__init__.py\", line 104, in importStep\n    raise ValueError(\"STEP File could not be loaded\")\nValueError: STEP File could not be loaded\n"
+      "seconds": 4.88,
+      "available_memory_before_GB": 15.692607488,
+      "log_tail": "Restored/retained 72 baseline components\n"
     }
   ]
 }
