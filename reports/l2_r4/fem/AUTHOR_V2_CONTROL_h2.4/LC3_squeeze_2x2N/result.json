@@ -51,9 +51,9 @@
   },
   "deck_sha256": "ff83ed96aa0257cfbb96775a0e095c99d6cc14b35039b07f440407a030591d6a",
   "dat_sha256": "2f6b8e84d5b621f3c71b741582db42874fc6bf87c7463a3eec972d14028f96f8",
-  "solving_seconds": 20.771554429999924,
+  "solving_seconds": 15.265453346000015,
   "applied_force_N": [
-    -2.445960101127298e-16,
+    2.3418766925686896e-16,
     0.0,
     0.0
   ],
@@ -63,17 +63,17 @@
     -1.358574999916519e-08
   ],
   "force_balance_error_N": [
-    5.339121582952871e-13,
+    5.343909419746567e-13,
     -1.9995864927042937e-13,
     -1.358574999916519e-08
   ],
-  "force_balance_relative_error": 1.3585750011127931e-08,
+  "force_balance_relative_error": 1.3585750011146756e-08,
   "moment_balance_error_Nmm": [
     -5.058295909675728e-07,
-    -4.1206921208569725e-08,
-    1.0703453678928554e-07
+    -4.1206919432212885e-08,
+    1.0703451103211137e-07
   ],
-  "moment_balance_relative_error": 5.878206513289041e-09,
+  "moment_balance_relative_error": 5.878206451449522e-09,
   "equilibrium_pass": true,
   "maximum_displacement_mm": 0.01704855030731367,
   "maximum_displacement_node": 6682,
@@ -152,8 +152,8 @@
   "solver_backend_verified": "SPOOLES in actual CalculiX log",
   "solver_runtime": {
     "returncode": 0,
-    "elapsed_seconds": 20.771554429999924,
-    "peak_resident_GB": 1.492615168,
+    "elapsed_seconds": 15.265453346000015,
+    "peak_resident_GB": 1.499910144,
     "measurement": "psutil process RSS sampled every 0.25 s",
     "solver_command": [
       "/usr/bin/ccx",
@@ -161,5 +161,5 @@
       "solve"
     ]
   },
-  "available_memory_before_solve_GB": 13.61588224
+  "available_memory_before_solve_GB": 15.158521856
 }
