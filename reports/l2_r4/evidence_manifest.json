@@ -7121,15 +7121,15 @@
   },
   "reports/l2_r4/BODY_C19.json": {
     "script": "cad/l2_r4/body_c19.py",
-    "source_commit": "f436e510c3dab5cfdd3bd13cf056046b6dcf32fe",
+    "source_commit": "91514750e252fd3d8b26f69dec503c5957b6444e",
     "returncode": 0,
-    "report_sha256": "8330460f97f15ef05837b0ca79108f74b9cbd555cb4563b2df93e10caa40cacf",
+    "report_sha256": "57083f996d792c712c73a21ad4bc30b1e3f3dec738df890611d473e8d22a3b27",
     "geometry": {
       "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "models/L2_r4/analysis_reference/BODY_C18_BEFORE_C19.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
       "models/L2_r4/reference/SWITCH_MIDDLE.step": "e114dc46cb5905133634ac275e9274ec2ef24d693c1ec9e4d92657a011544847",
       "models/L2_r4/validation_features/SWITCH_MIDDLE_MOUNT.step": "275d2d8031ad5c253f39a5cd0db493476480db141b7222455aab5b98577d2f0b",
-      "reports/l2_r4/candidates/C19_SELECTED_GEOMETRY.json": "0fe0e8d42afe11507fd32092b3d688866f702cee12ba6a85a0ac68886d9a58ab",
+      "reports/l2_r4/candidates/C19_SELECTED_GEOMETRY.json": "a7c55539cdf1aa59d556588940d6b8ffcc6c148566736515e383b5fc2ac22c42",
       "reports/rebuild_r3_2/design_metadata.json": "2147fc0ea5a1bd32ba66296badddf0506ef61e67a56a9209c67feba8570206db"
     },
     "verifier_source": {
