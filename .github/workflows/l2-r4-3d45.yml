@@ -29,7 +29,7 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y xvfb libgtk-3-0t64 libwebkit2gtk-4.1-0 libglu1-mesa libgl1 libfuse2t64
-          python3 -m pip install numpy==2.2.6 trimesh==4.9.0 scipy==1.15.3 matplotlib==3.10.3 shapely==2.1.1 lxml==5.4.0
+          python3 -m pip install numpy==2.2.6 trimesh==4.9.0 scipy==1.15.3 matplotlib==3.10.3 shapely==2.1.1 lxml==5.4.0 networkx==3.5
       - name: Native Dremel slicing, project export, toolpath verification
         run: xvfb-run -a python3 cad/l2_r4_3d45/ci_run.py
       - name: Preserve actual artifacts and diagnostics

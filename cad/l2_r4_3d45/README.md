@@ -42,7 +42,7 @@
 
 ## 复现
 
-在安装 numpy、trimesh、scipy、matplotlib、lxml 的 Python 环境运行：
+在安装 numpy、trimesh、scipy、matplotlib、lxml、networkx 的 Python 环境运行：
 
 ```powershell
 python cad/l2_r4_3d45/build_print_package.py --app <Dremel3DSlicer程序目录>
