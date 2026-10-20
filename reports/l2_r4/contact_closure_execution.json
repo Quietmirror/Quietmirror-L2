@@ -16,6 +16,13 @@
       "seconds": 2.13,
       "available_memory_before_GB": 15.496544256,
       "log_tail": ""
+    },
+    {
+      "script": "cad/l2_r4/combine_windows.py",
+      "returncode": 0,
+      "seconds": 8.14,
+      "available_memory_before_GB": 15.3622528,
+      "log_tail": ""
     }
   ]
 }
