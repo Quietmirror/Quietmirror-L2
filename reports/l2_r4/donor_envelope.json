@@ -1,0 +1,3326 @@
+{
+  "status": "DONOR_PENDING",
+  "candidate_geometric_pass": true,
+  "units": "mm",
+  "bottom_z_mm": 14.2,
+  "thickness_mm": 1.2,
+  "area_mm2": 1607.7203772381722,
+  "bounds_mm": [
+    -29.751999724414716,
+    16.022672111881157,
+    14.2,
+    27.39583347523158,
+    77.39827981210847,
+    15.399999999999999
+  ],
+  "outside_mother_mm3": 0.0,
+  "conservative_inset_components": 3,
+  "discarded_disconnected_area_mm2": 4.7221487078300015,
+  "construction": "Largest optical-axis-containing component in seven-height cavity intersection minus expanded obstacle projections. Projection allowances are conservative; exact final-solid distances are separately checked.",
+  "scope": "Maximum only within this declared conservative planar construction. Not global optimization, real donor outline, mounting-hole certification, or component-height clearance certification.",
+  "retained_components": [
+    "BODY",
+    "LEFT_KEY",
+    "RIGHT_KEY",
+    "SF_RETAINER",
+    "SIDE_FRONT_KEY",
+    "SIDE_REAR_KEY",
+    "SR_RETAINER",
+    "WHEEL",
+    "WHEEL_CARRIER",
+    "BATTERY_CELL_EST",
+    "BATTERY_PLUG_EST",
+    "SWITCH_LEFT",
+    "SWITCH_RIGHT",
+    "SWITCH_MIDDLE",
+    "SF_D2F_01F",
+    "SR_D2F_01F",
+    "USB_C_REFERENCE",
+    "USB_ADAPTER_PCB_REFERENCE",
+    "POWER_SWITCH_BODY_EST",
+    "POWER_SWITCH_PCB_EST",
+    "POWER_SWITCH_TAB_EST",
+    "ENCODER_ADAPTER_PCB_EST",
+    "ENCODER_EC10E_HOUSING",
+    "ENCODER_EC10E_ROTOR",
+    "ENCODER_M2x3_FRONT",
+    "ENCODER_M2x3_REAR",
+    "ENCODER_WASHER_FRONT",
+    "ENCODER_WASHER_REAR",
+    "LEFT_KEY_M2_SWITCH_1_BOLT",
+    "LEFT_KEY_M2_SWITCH_1_NUT",
+    "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+    "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+    "LEFT_KEY_M2_SWITCH_2_BOLT",
+    "LEFT_KEY_M2_SWITCH_2_NUT",
+    "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+    "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+    "RIGHT_KEY_M2_SWITCH_1_BOLT",
+    "RIGHT_KEY_M2_SWITCH_1_NUT",
+    "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+    "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+    "RIGHT_KEY_M2_SWITCH_2_BOLT",
+    "RIGHT_KEY_M2_SWITCH_2_NUT",
+    "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+    "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+    "WHEEL_M2_SWITCH_1_BOLT",
+    "WHEEL_M2_SWITCH_1_NUT",
+    "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+    "WHEEL_M2_SWITCH_1_WASHER_NUT",
+    "WHEEL_M2_SWITCH_2_BOLT",
+    "WHEEL_M2_SWITCH_2_NUT",
+    "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+    "WHEEL_M2_SWITCH_2_WASHER_NUT"
+  ],
+  "checks": [
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "BODY",
+      "gap_mm": 0.5455377922651757,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -25.13964493891951,
+          35.24042007770981,
+          14.32179139245
+        ],
+        [
+          -25.5,
+          35.65,
+          14.32179139245
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "LEFT_KEY",
+      "gap_mm": 0.545707203554611,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          11.657455819626929,
+          35.30595372924008,
+          14.32179139245
+        ],
+        [
+          11.7,
+          35.85,
+          14.32179139245
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "RIGHT_KEY",
+      "gap_mm": 0.545707203554611,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -24.942544180373073,
+          35.30595372924008,
+          14.32179139245
+        ],
+        [
+          -24.9,
+          35.85,
+          14.32179139245
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "SF_RETAINER",
+      "gap_mm": 0.5492811000423419,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          16.7507370768,
+          41.79553143630285,
+          14.2
+        ],
+        [
+          17.3,
+          41.8,
+          14.2
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "SIDE_FRONT_KEY",
+      "gap_mm": 9.039435533617354,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          26.79651220092778,
+          35.09025564209086,
+          15.399999999999999
+        ],
+        [
+          27.41407427521966,
+          44.05295678911235,
+          16.4
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "SIDE_REAR_KEY",
+      "gap_mm": 1.2885537346284062,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          27.39583347523158,
+          71.76,
+          15.399999999999999
+        ],
+        [
+          27.43687281224684,
+          70.94840496561268,
+          16.4
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "SR_RETAINER",
+      "gap_mm": 0.5599999999999987,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          16.740000000000002,
+          67.79620155535201,
+          15.399999999999999
+        ],
+        [
+          17.3,
+          67.79620155535201,
+          15.399999999999999
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "WHEEL",
+      "gap_mm": 0.56,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -3.81,
+          25.656550544063,
+          14.753737567287
+        ],
+        [
+          -3.25,
+          25.656550544063,
+          14.753737567287
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "WHEEL_CARRIER",
+      "gap_mm": 0.5597251794757205,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          4.857496615887801,
+          35.16241250029355,
+          15.399999999999999
+        ],
+        [
+          5.306838839259736,
+          35.49615467882222,
+          15.400033244968348
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "BATTERY_CELL_EST",
+      "gap_mm": 0.5541553153809793,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -24.37214796442017,
+          46.58939799544703,
+          14.2
+        ],
+        [
+          -24.0,
+          47.0,
+          14.2
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "BATTERY_PLUG_EST",
+      "gap_mm": 6.756004736528832,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -24.56,
+          57.5,
+          15.399999999999999
+        ],
+        [
+          -20.5,
+          57.5,
+          20.8
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "SWITCH_LEFT",
+      "gap_mm": 0.5559756215486015,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          14.844024620748531,
+          20.432866257768833,
+          14.397243712909
+        ],
+        [
+          15.4,
+          20.433385317051,
+          14.397243712909
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "SWITCH_RIGHT",
+      "gap_mm": 0.5559756215576651,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -14.844024620739466,
+          20.432866257769994,
+          14.39724371291
+        ],
+        [
+          -15.4,
+          20.433385317051,
+          14.39724371291
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "SWITCH_MIDDLE",
+      "gap_mm": 0.5496240514177448,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          2.924865137165496,
+          36.751322192965766,
+          15.399999999999999
+        ],
+        [
+          2.5,
+          37.1,
+          15.399999999999999
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "SF_D2F_01F",
+      "gap_mm": 0.9999999999998899,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          16.129663939340723,
+          53.6806568528555,
+          15.399999999999999
+        ],
+        [
+          16.129663939340723,
+          53.6806568528555,
+          16.4
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "SR_D2F_01F",
+      "gap_mm": 0.9999999999998899,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          15.85060649012092,
+          67.90006623468008,
+          15.399999999999999
+        ],
+        [
+          15.85060649012092,
+          67.90006623468008,
+          16.4
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "USB_C_REFERENCE",
+      "gap_mm": 1.8899999999999988,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -0.13199469529493932,
+          16.022672111881157,
+          14.2
+        ],
+        [
+          -0.13199469529493932,
+          16.022672111881157,
+          12.31
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "USB_ADAPTER_PCB_REFERENCE",
+      "gap_mm": 5.199999999999999,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          7.836795370684286,
+          16.69509523965598,
+          14.2
+        ],
+        [
+          7.836795370684286,
+          16.69509523965598,
+          9.0
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "POWER_SWITCH_BODY_EST",
+      "gap_mm": 3.9000000000001087,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -24.0,
+          69.3,
+          14.20000000000011
+        ],
+        [
+          -24.0,
+          69.3,
+          10.3
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "POWER_SWITCH_PCB_EST",
+      "gap_mm": 2.7000000000001094,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -24.0,
+          69.4,
+          14.20000000000011
+        ],
+        [
+          -24.0,
+          69.4,
+          11.5
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "POWER_SWITCH_TAB_EST",
+      "gap_mm": 6.90000000000011,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -21.5,
+          70.3,
+          14.20000000000011
+        ],
+        [
+          -21.5,
+          70.3,
+          7.3
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "ENCODER_ADAPTER_PCB_EST",
+      "gap_mm": 3.799999999999999,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          4.9339504802439,
+          34.46693110836102,
+          14.2
+        ],
+        [
+          4.9339504802439,
+          34.46693110836102,
+          10.4
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "ENCODER_EC10E_HOUSING",
+      "gap_mm": 0.5485544020985562,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          5.106218670996571,
+          34.6774650042873,
+          14.2
+        ],
+        [
+          5.45,
+          34.25,
+          14.2
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "ENCODER_EC10E_ROTOR",
+      "gap_mm": 2.1817371629860762,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          8.504866174829218,
+          27.999008331944776,
+          15.399999999999999
+        ],
+        [
+          7.95,
+          27.99958955962605,
+          17.51000005653064
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "ENCODER_M2x3_FRONT",
+      "gap_mm": 2.299999999999999,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          9.5,
+          26.1,
+          14.20000000000011
+        ],
+        [
+          9.5,
+          26.1,
+          11.9
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "ENCODER_M2x3_REAR",
+      "gap_mm": 2.355793543192213,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          1.3,
+          34.00966971476254,
+          14.2
+        ],
+        [
+          1.3,
+          33.5,
+          11.9
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "ENCODER_WASHER_FRONT",
+      "gap_mm": 5.0,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          10.6,
+          26.1,
+          14.20000000000011
+        ],
+        [
+          10.6,
+          26.1,
+          9.2
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "ENCODER_WASHER_REAR",
+      "gap_mm": 5.0,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -0.15975934740244035,
+          34.00966971476254,
+          14.2
+        ],
+        [
+          -0.15975934740244035,
+          34.00966971476254,
+          9.2
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "LEFT_KEY_M2_SWITCH_1_BOLT",
+      "gap_mm": 2.600086186003999,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          13.118606830195942,
+          24.926845039490235,
+          14.2
+        ],
+        [
+          13.118606830195942,
+          24.926773141570436,
+          11.59991381361368
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "LEFT_KEY_M2_SWITCH_1_NUT",
+      "gap_mm": 1.4037152432141102,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          11.65,
+          24.213101309895,
+          14.20000000000011
+        ],
+        [
+          11.65,
+          24.213101309895,
+          12.796284756786
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+      "gap_mm": 3.894586420914201,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          25.488595841503585,
+          29.41650780301807,
+          14.2
+        ],
+        [
+          23.35,
+          26.877162448733678,
+          12.163842739779872
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+      "gap_mm": 1.1014249372066167,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          13.227561659812013,
+          24.837332718355423,
+          14.2
+        ],
+        [
+          13.25,
+          24.86467391498283,
+          13.099143119130742
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "LEFT_KEY_M2_SWITCH_2_BOLT",
+      "gap_mm": 0.5578820097610993,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          25.507881400650064,
+          32.148006128709575,
+          14.2
+        ],
+        [
+          24.95,
+          32.147555340860805,
+          14.199309772413542
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "LEFT_KEY_M2_SWITCH_2_NUT",
+      "gap_mm": 0.5600000000000005,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          11.09,
+          30.394968665813,
+          14.804895220223
+        ],
+        [
+          11.65,
+          30.394968665813,
+          14.804895220223
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "gap_mm": 0.5841518990110155,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          23.90919014278471,
+          33.25114208832806,
+          14.2
+        ],
+        [
+          23.35,
+          33.11552511874564,
+          14.099263398449846
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+      "gap_mm": 0.6322580301315407,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          12.69372502566744,
+          28.804251557868824,
+          14.2
+        ],
+        [
+          13.25,
+          29.051524672607446,
+          14.029224192800658
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "RIGHT_KEY_M2_SWITCH_1_BOLT",
+      "gap_mm": 2.600086186003999,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -13.118432219560393,
+          24.9270175203691,
+          14.2
+        ],
+        [
+          -13.118432219560393,
+          24.926821051778475,
+          11.599913811141167
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "RIGHT_KEY_M2_SWITCH_1_NUT",
+      "gap_mm": 1.4037152432141102,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -11.65,
+          24.213101309895,
+          14.20000000000011
+        ],
+        [
+          -11.65,
+          24.213101309895,
+          12.796284756786
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+      "gap_mm": 3.9214923864689073,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -25.498803109477233,
+          29.449125009211635,
+          14.2
+        ],
+        [
+          -23.35,
+          26.88267089407643,
+          12.156948114036219
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+      "gap_mm": 1.1014249372066938,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -13.22756165981137,
+          24.837332718352872,
+          14.2
+        ],
+        [
+          -13.25,
+          24.86467391498106,
+          13.099143119130698
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "RIGHT_KEY_M2_SWITCH_2_BOLT",
+      "gap_mm": 0.5578820097610993,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -25.507881400650064,
+          32.148006128709575,
+          14.2
+        ],
+        [
+          -24.95,
+          32.147555340860805,
+          14.199309772413542
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "RIGHT_KEY_M2_SWITCH_2_NUT",
+      "gap_mm": 0.5577934265245387,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -11.092206843086514,
+          29.84958057900735,
+          14.2
+        ],
+        [
+          -11.65,
+          29.849988141251394,
+          14.199633029307154
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "gap_mm": 0.5841432752879366,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -23.90919199454743,
+          33.25109730274501,
+          14.2
+        ],
+        [
+          -23.35,
+          33.11551020207438,
+          14.099283479855988
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+      "gap_mm": 0.6322958969365756,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -12.69374920171603,
+          28.80410037922618,
+          14.2
+        ],
+        [
+          -13.25,
+          29.051481092476134,
+          14.029161089317396
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "WHEEL_M2_SWITCH_1_BOLT",
+      "gap_mm": 1.7500000000001084,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -5.45,
+          40.2,
+          14.20000000000011
+        ],
+        [
+          -5.45,
+          40.2,
+          12.450000000000001
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "WHEEL_M2_SWITCH_1_NUT",
+      "gap_mm": 1.3405989232411102,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          6.25,
+          40.2,
+          14.20000000000011
+        ],
+        [
+          6.25,
+          40.2,
+          12.859401076759
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+      "gap_mm": 1.1499999999999986,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -5.295385239642068,
+          40.2,
+          14.2
+        ],
+        [
+          -5.295385239642068,
+          40.2,
+          13.05
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "WHEEL_M2_SWITCH_1_WASHER_NUT",
+      "gap_mm": 1.1500000000001087,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          4.65,
+          40.2,
+          14.20000000000011
+        ],
+        [
+          4.65,
+          40.2,
+          13.05
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "WHEEL_M2_SWITCH_2_BOLT",
+      "gap_mm": 1.7500000000001084,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -5.45,
+          46.7,
+          14.20000000000011
+        ],
+        [
+          -5.45,
+          46.7,
+          12.450000000000001
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "WHEEL_M2_SWITCH_2_NUT",
+      "gap_mm": 1.3405989232411102,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          6.25,
+          46.7,
+          14.20000000000011
+        ],
+        [
+          6.25,
+          46.7,
+          12.859401076759
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+      "gap_mm": 1.1500000000001087,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -5.15,
+          46.7,
+          14.20000000000011
+        ],
+        [
+          -5.15,
+          46.7,
+          13.05
+        ]
+      ]
+    },
+    {
+      "a": "D_MAX_BOARD_ENVELOPE",
+      "b": "WHEEL_M2_SWITCH_2_WASHER_NUT",
+      "gap_mm": 1.1500000000001087,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          4.65,
+          46.7,
+          14.20000000000011
+        ],
+        [
+          4.65,
+          46.7,
+          13.05
+        ]
+      ]
+    }
+  ],
+  "hole_center_regions": [
+    {
+      "outer_xy_mm": [
+        [
+          -8.090494203629314,
+          32.19241751682108
+        ],
+        [
+          -7.960508600366984,
+          32.22160676013689
+        ],
+        [
+          -7.958604713262217,
+          32.22208365903032
+        ],
+        [
+          -7.676875692805144,
+          32.307545223062
+        ],
+        [
+          -7.675027717702932,
+          32.308206439126415
+        ],
+        [
+          -7.4030319975836445,
+          32.42087075530709
+        ],
+        [
+          -7.401257731494425,
+          32.42170992067035
+        ],
+        [
+          -7.269732801308339,
+          32.48791400699512
+        ],
+        [
+          -7.176373928954903,
+          32.53781536390784
+        ],
+        [
+          -7.069359114371923,
+          32.597861602437476
+        ],
+        [
+          -7.067949217496948,
+          32.59869105970255
+        ],
+        [
+          -6.861729668301852,
+          32.73165417476501
+        ],
+        [
+          -6.860392271333172,
+          32.73259607598108
+        ],
+        [
+          -6.8100000000000005,
+          32.77126342576065
+        ],
+        [
+          -6.8100000000000005,
+          22.550330285237465
+        ],
+        [
+          -6.801871370036052,
+          22.3296365944382
+        ],
+        [
+          -6.801654900235347,
+          22.326701984949093
+        ],
+        [
+          -6.777313060093638,
+          22.10720425238227
+        ],
+        [
+          -6.754060841389031,
+          21.950450526664863
+        ],
+        [
+          -6.732422918823536,
+          21.823435957582472
+        ],
+        [
+          -6.732098187668352,
+          21.821749404905965
+        ],
+        [
+          -6.672570793146738,
+          21.57109133100498
+        ],
+        [
+          -6.672102557714487,
+          21.569438858362613
+        ],
+        [
+          -6.591288874724077,
+          21.324812348450557
+        ],
+        [
+          -6.590680588146017,
+          21.323206142457312
+        ],
+        [
+          -6.489176599467452,
+          21.086415262159775
+        ],
+        [
+          -6.488432747720618,
+          21.084867168224477
+        ],
+        [
+          -6.430149999627434,
+          20.96995841430556
+        ],
+        [
+          -6.33082786314792,
+          20.784139766574597
+        ],
+        [
+          -6.245545946690452,
+          20.635021766984448
+        ],
+        [
+          -6.24435288578328,
+          20.63306769880339
+        ],
+        [
+          -6.048910292075259,
+          20.35068113712934
+        ],
+        [
+          -6.047501723845045,
+          20.348876223744917
+        ],
+        [
+          -5.821066610118021,
+          20.090676462084033
+        ],
+        [
+          -5.819460993065382,
+          20.089044355878936
+        ],
+        [
+          -5.695533688453876,
+          19.97008551321712
+        ],
+        [
+          -5.578115969468584,
+          19.863664296022115
+        ],
+        [
+          -5.485527584749209,
+          19.783134100960208
+        ],
+        [
+          -5.484271634232443,
+          19.78208605666148
+        ],
+        [
+          -5.2896077286624745,
+          19.63271518833223
+        ],
+        [
+          -5.288270331693795,
+          19.631773287116168
+        ],
+        [
+          -5.2711180062358824,
+          19.62071407070167
+        ],
+        [
+          -7.790088248768696,
+          19.697559920839076
+        ],
+        [
+          -9.290000000000001,
+          19.811536129897778
+        ],
+        [
+          -9.290000000000003,
+          20.89887492086349
+        ],
+        [
+          -9.293655454447707,
+          21.046926818315043
+        ],
+        [
+          -9.29375287384477,
+          21.04889843829456
+        ],
+        [
+          -9.322943081747336,
+          21.343559920544138
+        ],
+        [
+          -9.323234390884636,
+          21.345512333120688
+        ],
+        [
+          -9.348698008688764,
+          21.491403836829694
+        ],
+        [
+          -9.390272693741675,
+          21.69918305961171
+        ],
+        [
+          -9.418436575713836,
+          21.825673529976978
+        ],
+        [
+          -9.418848336349363,
+          21.82735117430239
+        ],
+        [
+          -9.491422400021523,
+          22.076095711150963
+        ],
+        [
+          -9.491977390798368,
+          22.07773156644443
+        ],
+        [
+          -9.585745227110204,
+          22.319285767822464
+        ],
+        [
+          -9.586439307745414,
+          22.320867630450945
+        ],
+        [
+          -9.700701399893582,
+          22.553429479489424
+        ],
+        [
+          -9.70152939248089,
+          22.554945548610185
+        ],
+        [
+          -9.76608521361001,
+          22.66730919619808
+        ],
+        [
+          -9.848446880573576,
+          22.80375524969113
+        ],
+        [
+          -9.928085649046361,
+          22.928616745928935
+        ],
+        [
+          -9.929187932327212,
+          22.930254350109227
+        ],
+        [
+          -10.10645147744656,
+          23.16743591121506
+        ],
+        [
+          -10.1077098281948,
+          23.168956874487776
+        ],
+        [
+          -10.307491523162623,
+          23.387508314000357
+        ],
+        [
+          -10.308893682601132,
+          23.388897819233
+        ],
+        [
+          -10.416628694181197,
+          23.49051422522486
+        ],
+        [
+          -10.46189869672425,
+          23.531149160158538
+        ],
+        [
+          -10.369850000372589,
+          23.703360158509252
+        ],
+        [
+          -10.311567252280291,
+          23.81826891242632
+        ],
+        [
+          -10.310823400533456,
+          23.819817006361617
+        ],
+        [
+          -10.209319411853212,
+          24.05660788666308
+        ],
+        [
+          -10.208711125275153,
+          24.058214092656325
+        ],
+        [
+          -10.127897442285718,
+          24.302840602565627
+        ],
+        [
+          -10.127429206853467,
+          24.304493075207994
+        ],
+        [
+          -10.067901812332082,
+          24.555151149107456
+        ],
+        [
+          -10.067577081176896,
+          24.556837701783962
+        ],
+        [
+          -10.045939158610963,
+          24.683852270868627
+        ],
+        [
+          -10.022686939906357,
+          24.84060599658604
+        ],
+        [
+          -10.00836518144229,
+          24.951308582333482
+        ],
+        [
+          -10.008201746432878,
+          24.952787657912797
+        ],
+        [
+          -9.991957138575623,
+          25.1754074303406
+        ],
+        [
+          -9.991904128747425,
+          25.17689456366675
+        ],
+        [
+          -9.99000376942711,
+          25.288503541311343
+        ],
+        [
+          -9.991473827450188,
+          26.21893603508699
+        ],
+        [
+          -9.92725076182463,
+          26.251263209674303
+        ],
+        [
+          -9.925519808809371,
+          26.252188423336765
+        ],
+        [
+          -9.672999320227378,
+          26.40354337947474
+        ],
+        [
+          -9.671367389021393,
+          26.404633801045133
+        ],
+        [
+          -9.434898235585909,
+          26.580011277867214
+        ],
+        [
+          -9.433381042578818,
+          26.581256405989727
+        ],
+        [
+          -9.32188403053143,
+          26.67743439001082
+        ],
+        [
+          -9.204466311546136,
+          26.783855607205826
+        ],
+        [
+          -9.097822832528896,
+          26.885388639709713
+        ],
+        [
+          -9.096434989118737,
+          26.88677648311987
+        ],
+        [
+          -8.89872397258862,
+          27.104916974190168
+        ],
+        [
+          -8.897478844466105,
+          27.10643416719726
+        ],
+        [
+          -8.722101367646449,
+          27.342903320629787
+        ],
+        [
+          -8.721010946076056,
+          27.344535251835772
+        ],
+        [
+          -8.642233952983272,
+          27.468937718314326
+        ],
+        [
+          -8.560764650243058,
+          27.60486103828555
+        ],
+        [
+          -8.488186687199597,
+          27.73297906038575
+        ],
+        [
+          -8.487261473537135,
+          27.734710013401006
+        ],
+        [
+          -8.361386669046539,
+          28.000849926787666
+        ],
+        [
+          -8.360635573605348,
+          28.00266323158843
+        ],
+        [
+          -8.261453163943838,
+          28.279859496917084
+        ],
+        [
+          -8.260883420183607,
+          28.281737690386862
+        ],
+        [
+          -8.221610667796389,
+          28.423651182441155
+        ],
+        [
+          -8.183105862949496,
+          28.57737098014034
+        ],
+        [
+          -8.143983515624146,
+          28.756653121616615
+        ],
+        [
+          -8.143535445737562,
+          28.759057260133886
+        ],
+        [
+          -8.098498475165412,
+          29.123112565734772
+        ],
+        [
+          -8.09834717545466,
+          29.125553417436745
+        ],
+        [
+          -8.092601053751544,
+          29.308964503246422
+        ],
+        [
+          -8.090494203629314,
+          32.19241751682108
+        ]
+      ],
+      "holes_xy_mm": []
+    },
+    {
+      "outer_xy_mm": [
+        [
+          -6.440000000000001,
+          51.56876623611076
+        ],
+        [
+          -6.440000000000001,
+          67.0
+        ],
+        [
+          -6.44812862996387,
+          67.22069369079819
+        ],
+        [
+          -6.448345099764573,
+          67.22362830028729
+        ],
+        [
+          -6.4726869399063585,
+          67.44312603285516
+        ],
+        [
+          -6.495939158610964,
+          67.59987975857257
+        ],
+        [
+          -6.516423132939702,
+          67.72086789062617
+        ],
+        [
+          -6.516729123553453,
+          67.72247480639776
+        ],
+        [
+          -6.57244648173341,
+          67.96143352340522
+        ],
+        [
+          -6.572882767764678,
+          67.96301005854646
+        ],
+        [
+          -6.647941727738804,
+          68.1966162334609
+        ],
+        [
+          -6.648505390642855,
+          68.19815184170628
+        ],
+        [
+          -6.6931360305205185,
+          68.31245769145998
+        ],
+        [
+          -6.733646329067801,
+          68.41025820362862
+        ],
+        [
+          -6.809261529522191,
+          68.57805662215382
+        ],
+        [
+          -6.810337380350244,
+          68.58026091735111
+        ],
+        [
+          -6.991686660763886,
+          68.90038716699475
+        ],
+        [
+          -6.993024249956447,
+          68.90244318924
+        ],
+        [
+          -7.098075772180355,
+          69.0535661374532
+        ],
+        [
+          -7.19247559308773,
+          69.1808495614079
+        ],
+        [
+          -7.283066827443435,
+          69.29693150042395
+        ],
+        [
+          -7.28431195556595,
+          69.29844869343104
+        ],
+        [
+          -7.482022972093882,
+          69.51658918449867
+        ],
+        [
+          -7.48341081550404,
+          69.51797702790883
+        ],
+        [
+          -7.701551306564092,
+          69.71568804443005
+        ],
+        [
+          -7.703068499571181,
+          69.71693317255257
+        ],
+        [
+          -7.819150438592022,
+          69.80752440691222
+        ],
+        [
+          -7.946433862546719,
+          69.9019242278196
+        ],
+        [
+          -8.097556810760528,
+          70.0069757500439
+        ],
+        [
+          -8.099612833005782,
+          70.00831333923647
+        ],
+        [
+          -8.419739082661085,
+          70.18966261965572
+        ],
+        [
+          -8.42194337785838,
+          70.19073847048377
+        ],
+        [
+          -8.58974179637153,
+          70.26635367093226
+        ],
+        [
+          -8.68754230854016,
+          70.30686396947954
+        ],
+        [
+          -8.859661729146996,
+          70.37204734808667
+        ],
+        [
+          -8.861981142644797,
+          70.37284527875235
+        ],
+        [
+          -9.21657789055707,
+          70.47097541477032
+        ],
+        [
+          -9.218977536217462,
+          70.4714834236537
+        ],
+        [
+          -9.400120241427292,
+          70.504060841389
+        ],
+        [
+          -9.556873967144702,
+          70.52731306009362
+        ],
+        [
+          -9.666398768619175,
+          70.54150444020524
+        ],
+        [
+          -9.667862086836289,
+          70.54166671913953
+        ],
+        [
+          -9.888107039912942,
+          70.55791296289897
+        ],
+        [
+          -9.889578331184936,
+          70.55796715376539
+        ],
+        [
+          -10.0,
+          70.56
+        ],
+        [
+          -24.0,
+          70.56
+        ],
+        [
+          -24.110421668815064,
+          70.55796715376539
+        ],
+        [
+          -24.111892960087058,
+          70.55791296289897
+        ],
+        [
+          -24.332137913163315,
+          70.54166671913957
+        ],
+        [
+          -24.33360123138043,
+          70.54150444020529
+        ],
+        [
+          -24.443126032855304,
+          70.52731306009362
+        ],
+        [
+          -24.599879758572712,
+          70.504060841389
+        ],
+        [
+          -24.67391851566516,
+          70.49074541963017
+        ],
+        [
+          -24.5959767694577,
+          70.67479111668966
+        ],
+        [
+          -24.365518489045566,
+          71.13575987084171
+        ],
+        [
+          -24.123315399058093,
+          71.54680832367225
+        ],
+        [
+          -23.983760682292324,
+          71.75117488473435
+        ],
+        [
+          -23.704772014986048,
+          72.09061563214227
+        ],
+        [
+          -23.584398163753242,
+          72.20916232734518
+        ],
+        [
+          -23.240423274148696,
+          72.47798278515695
+        ],
+        [
+          -23.021550135576177,
+          72.61193230714126
+        ],
+        [
+          -22.559713530031395,
+          72.83585513212506
+        ],
+        [
+          -22.119086234886442,
+          73.01934142638623
+        ],
+        [
+          -21.981590047638765,
+          73.08069031088131
+        ],
+        [
+          -21.979778439313666,
+          73.08155377019418
+        ],
+        [
+          -21.71487757380677,
+          73.22454321874596
+        ],
+        [
+          -21.713161618745744,
+          73.22558388436809
+        ],
+        [
+          -21.463924279130577,
+          73.39440094360091
+        ],
+        [
+          -21.46232125479912,
+          73.3956083373649
+        ],
+        [
+          -21.344367489532203,
+          73.48918074993186
+        ],
+        [
+          -21.325327921258733,
+          73.50507930006543
+        ],
+        [
+          -21.04662545464506,
+          73.57482491300571
+        ],
+        [
+          -19.649231054229727,
+          73.81610073181317
+        ],
+        [
+          -18.027617220543835,
+          74.00533446975486
+        ],
+        [
+          -16.05435489240588,
+          74.15801122845524
+        ],
+        [
+          -13.895860411269759,
+          74.26396456903458
+        ],
+        [
+          -11.26235890002515,
+          74.33780875047185
+        ],
+        [
+          -7.708244771963473,
+          74.384322438377
+        ],
+        [
+          -4.476735053857501,
+          74.3957620487362
+        ],
+        [
+          -4.27503724070542,
+          74.33473775903143
+        ],
+        [
+          -4.133979206551024,
+          74.29578905812104
+        ],
+        [
+          -4.132086889481981,
+          74.29531590835028
+        ],
+        [
+          -3.8451160947610594,
+          74.2382695116673
+        ],
+        [
+          -3.8431866866404216,
+          74.2379829477139
+        ],
+        [
+          -3.586400653877215,
+          74.21256521069711
+        ],
+        [
+          -3.4595827410371642,
+          74.0918421197931
+        ],
+        [
+          -3.457432528769351,
+          74.08993771991148
+        ],
+        [
+          -3.2910318348581993,
+          73.95290527884954
+        ],
+        [
+          -3.0280403000651694,
+          73.7517396179345
+        ],
+        [
+          -2.8521207172719865,
+          73.62693854240995
+        ],
+        [
+          -2.849718373647744,
+          73.62536094494779
+        ],
+        [
+          -2.6652864128045106,
+          73.51352240114798
+        ],
+        [
+          -2.3776695640887797,
+          73.35296156606196
+        ],
+        [
+          -2.183996030617532,
+          73.25387785614281
+        ],
+        [
+          -2.1813692421746538,
+          73.25265204465832
+        ],
+        [
+          -1.981024509214151,
+          73.16786403190302
+        ],
+        [
+          -1.6870914554838974,
+          73.05585279034958
+        ],
+        [
+          -1.5777504742004105,
+          73.01659268114878
+        ],
+        [
+          -1.576283007208018,
+          73.01609763236853
+        ],
+        [
+          -1.353452915086123,
+          72.95041860146583
+        ],
+        [
+          -1.351951541957674,
+          72.95003858646908
+        ],
+        [
+          -1.2387965972368435,
+          72.92371816002249
+        ],
+        [
+          -0.8933432086635927,
+          72.85038439689367
+        ],
+        [
+          -0.7747184283608701,
+          72.82768775132811
+        ],
+        [
+          -0.7731313151320747,
+          72.8274170835397
+        ],
+        [
+          -0.5336230723517983,
+          72.79643217860487
+        ],
+        [
+          -0.5320193302704334,
+          72.79629004912461
+        ],
+        [
+          -0.41152405682937065,
+          72.78805200932283
+        ],
+        [
+          -0.08181280829095665,
+          72.77217036291925
+        ],
+        [
+          0.1372492280923327,
+          72.7696268882102
+        ],
+        [
+          0.14016739867528494,
+          72.76969959689066
+        ],
+        [
+          0.35883094973482726,
+          72.78314937367074
+        ],
+        [
+          0.6444719896088759,
+          72.8112184638775
+        ],
+        [
+          0.8602258436248964,
+          72.84035780413137
+        ],
+        [
+          0.8630846855885742,
+          72.84085013140042
+        ],
+        [
+          1.0761571261242133,
+          72.8855598815025
+        ],
+        [
+          1.3973809621956494,
+          72.96523388784266
+        ],
+        [
+          1.6031553098800506,
+          73.02413950467711
+        ],
+        [
+          1.6058674760744274,
+          73.02502172635427
+        ],
+        [
+          1.8069180575465578,
+          73.09844936109263
+        ],
+        [
+          2.0731766366509943,
+          73.20660663810585
+        ],
+        [
+          2.2703595714777602,
+          73.2951080283469
+        ],
+        [
+          2.272942786450327,
+          73.29638116044711
+        ],
+        [
+          2.4632420975085942,
+          73.39884958523876
+        ],
+        [
+          2.769561987892703,
+          73.57831511543507
+        ],
+        [
+          2.8653826628853913,
+          73.63689048870455
+        ],
+        [
+          2.8666452082200315,
+          73.63769512976097
+        ],
+        [
+          3.051376791517223,
+          73.76539505549273
+        ],
+        [
+          3.0525756080641915,
+          73.76629188704793
+        ],
+        [
+          3.1412276320155477,
+          73.83523747978862
+        ],
+        [
+          3.4033231543799336,
+          74.04706261970098
+        ],
+        [
+          3.5667365177314254,
+          74.18918389787693
+        ],
+        [
+          3.5688441703489833,
+          74.19115497343373
+        ],
+        [
+          3.5905515096124376,
+          74.21297679779472
+        ],
+        [
+          3.8431643236878466,
+          74.23797981724842
+        ],
+        [
+          3.84509373913686,
+          74.23826636992506
+        ],
+        [
+          4.1320657062881825,
+          74.29531117087498
+        ],
+        [
+          4.133958031616796,
+          74.29578431066624
+        ],
+        [
+          4.275016701022465,
+          74.33473228816703
+        ],
+        [
+          4.475523875504028,
+          74.39539506604717
+        ],
+        [
+          8.11736873504466,
+          74.38063193049156
+        ],
+        [
+          12.109565385843986,
+          74.31875642926053
+        ],
+        [
+          12.57280277762441,
+          74.30262750409665
+        ],
+        [
+          12.46942750872114,
+          74.19449277089619
+        ],
+        [
+          12.468440705516365,
+          74.19338055095866
+        ],
+        [
+          12.395981380647795,
+          74.10858802532158
+        ],
+        [
+          12.151465453695636,
+          73.81144222928592
+        ],
+        [
+          12.082208115688264,
+          73.72401484627781
+        ],
+        [
+          12.081306669294015,
+          73.72283238775732
+        ],
+        [
+          11.952776315688583,
+          73.54055990582438
+        ],
+        [
+          11.951965208430083,
+          73.53931374420984
+        ],
+        [
+          11.892869852130909,
+          73.4447205888949
+        ],
+        [
+          11.695082568191502,
+          73.11462385618333
+        ],
+        [
+          11.639544271826091,
+          73.01789938253059
+        ],
+        [
+          11.63882798672105,
+          73.01659640540007
+        ],
+        [
+          11.538724619152536,
+          72.81729104853389
+        ],
+        [
+          11.538107115133355,
+          72.8159384574868
+        ],
+        [
+          11.493680410434145,
+          72.71363306136357
+        ],
+        [
+          11.34698843595773,
+          72.35787313211473
+        ],
+        [
+          11.278995018132553,
+          72.17658351036481
+        ],
+        [
+          11.278167345901538,
+          72.1741395923908
+        ],
+        [
+          11.222009929074519,
+          71.98884151803938
+        ],
+        [
+          11.148606472053613,
+          71.7151057660443
+        ],
+        [
+          11.106049336152592,
+          71.53417008798996
+        ],
+        [
+          11.105557152103827,
+          71.53174235766072
+        ],
+        [
+          11.07428668069002,
+          71.34851848632852
+        ],
+        [
+          11.025003387173662,
+          70.99380785872326
+        ],
+        [
+          11.005139620044563,
+          70.80899914636312
+        ],
+        [
+          11.004951322859483,
+          70.80652919416531
+        ],
+        [
+          10.996570512226622,
+          70.62084507685354
+        ],
+        [
+          10.992568845162111,
+          70.33746667950534
+        ],
+        [
+          10.995703162936207,
+          70.15161995378587
+        ],
+        [
+          10.995821641149975,
+          70.14914566952527
+        ],
+        [
+          11.010459055441098,
+          69.9638497561548
+        ],
+        [
+          11.049706755319884,
+          69.60788895717525
+        ],
+        [
+          11.075791076624636,
+          69.42385516247799
+        ],
+        [
+          11.076214512746,
+          69.42141450241553
+        ],
+        [
+          11.113645609646051,
+          69.23934928774302
+        ],
+        [
+          11.179290337927162,
+          68.96364999671778
+        ],
+        [
+          11.227924521467868,
+          68.78425226652351
+        ],
+        [
+          11.228646419860027,
+          68.78188267111483
+        ],
+        [
+          11.288296995143137,
+          68.60584109000868
+        ],
+        [
+          11.413676638533516,
+          68.27038853393074
+        ],
+        [
+          11.484114621385059,
+          68.09837888309244
+        ],
+        [
+          11.485123907910667,
+          68.09611670264017
+        ],
+        [
+          11.566078903900241,
+          67.92879928563856
+        ],
+        [
+          11.697357436261141,
+          67.67763146054125
+        ],
+        [
+          11.788518678684962,
+          67.51564856858302
+        ],
+        [
+          11.789799870586712,
+          67.51352850561219
+        ],
+        [
+          11.890817413425577,
+          67.35750195194625
+        ],
+        [
+          12.094665060280018,
+          67.0630624688129
+        ],
+        [
+          12.205151121547189,
+          66.91359120175457
+        ],
+        [
+          12.20668456495795,
+          66.91164577866553
+        ],
+        [
+          12.326215015304747,
+          66.76930358236713
+        ],
+        [
+          12.515102836965049,
+          66.55802007555378
+        ],
+        [
+          12.6432188278279,
+          66.42335336736781
+        ],
+        [
+          12.644980999266904,
+          66.42161242753285
+        ],
+        [
+          12.781190724254701,
+          66.29513816047503
+        ],
+        [
+          13.05104600938094,
+          66.05970962047749
+        ],
+        [
+          13.194826592210232,
+          65.9419132987567
+        ],
+        [
+          13.196790459440322,
+          65.94040354871383
+        ],
+        [
+          13.347589961124653,
+          65.83173736400352
+        ],
+        [
+          13.58254113925375,
+          65.67325306409126
+        ],
+        [
+          13.739780676886294,
+          65.57413415965928
+        ],
+        [
+          13.740000000000002,
+          65.57400522196386
+        ],
+        [
+          13.740000000000002,
+          59.25811536331623
+        ],
+        [
+          13.653685249076275,
+          59.08404655448383
+        ],
+        [
+          13.582808008846495,
+          58.93036481699171
+        ],
+        [
+          13.581921505318896,
+          58.92829071212208
+        ],
+        [
+          13.46670150082756,
+          58.61017148974257
+        ],
+        [
+          13.466054182141326,
+          58.60801075421199
+        ],
+        [
+          13.387387585452782,
+          58.278940768276065
+        ],
+        [
+          13.38698768517715,
+          58.27672088555749
+        ],
+        [
+          13.361693153167387,
+          58.1093833635457
+        ],
+        [
+          13.342720519205368,
+          57.95440219146017
+        ],
+        [
+          13.32690246200799,
+          57.785904569257426
+        ],
+        [
+          13.326755066674036,
+          57.783653775146405
+        ],
+        [
+          13.32371941647801,
+          57.44532512736362
+        ],
+        [
+          13.323826400880506,
+          57.44307205083311
+        ],
+        [
+          13.358906301644403,
+          57.1065532703136
+        ],
+        [
+          13.35926630499537,
+          57.104326569367814
+        ],
+        [
+          13.37848827181523,
+          57.003563277415424
+        ],
+        [
+          13.309944246972584,
+          56.89208403034429
+        ],
+        [
+          13.309061605590088,
+          56.89049005540018
+        ],
+        [
+          13.245587676635587,
+          56.76943346084544
+        ],
+        [
+          13.153399603738292,
+          56.583429277125134
+        ],
+        [
+          13.092146260752282,
+          56.451944160497426
+        ],
+        [
+          13.091372397301745,
+          56.45017231163255
+        ],
+        [
+          12.988275389791827,
+          56.179094738894
+        ],
+        [
+          12.987676233285022,
+          56.17725644497833
+        ],
+        [
+          12.911236396044082,
+          55.89749048085166
+        ],
+        [
+          12.910817546067465,
+          55.89560292218049
+        ],
+        [
+          12.861749269197611,
+          55.609763198548244
+        ],
+        [
+          12.861514640232006,
+          55.60784401583455
+        ],
+        [
+          12.847398269904218,
+          55.463479768148645
+        ],
+        [
+          12.832196058736773,
+          55.25644090725148
+        ],
+        [
+          12.825074294013964,
+          55.11156306771473
+        ],
+        [
+          12.825026078850675,
+          55.10963019722293
+        ],
+        [
+          12.831816572612246,
+          54.8196889400788
+        ],
+        [
+          12.831955221859705,
+          54.817760445996306
+        ],
+        [
+          12.866710881954795,
+          54.52982974688352
+        ],
+        [
+          12.867035099827278,
+          54.527923652496774
+        ],
+        [
+          12.929431107413007,
+          54.24469444913203
+        ],
+        [
+          12.929937863840767,
+          54.24282856838477
+        ],
+        [
+          12.971328724782941,
+          54.10380661129996
+        ],
+        [
+          13.002980023466831,
+          54.006191532073316
+        ],
+        [
+          12.977096203292927,
+          53.930473057222784
+        ],
+        [
+          12.97648804527454,
+          53.92830067268449
+        ],
+        [
+          12.935474254413444,
+          53.76408460745635
+        ],
+        [
+          12.890863104321607,
+          53.56129119744397
+        ],
+        [
+          12.859175990722186,
+          53.395023419592974
+        ],
+        [
+          12.858816346171206,
+          53.39279636625852
+        ],
+        [
+          12.823795609898976,
+          53.05622759159981
+        ],
+        [
+          12.823689054492787,
+          53.0539742037719
+        ],
+        [
+          12.82679404742247,
+          52.71560258696188
+        ],
+        [
+          12.826941936841731,
+          52.71335153399111
+        ],
+        [
+          12.842798213097437,
+          52.544835583342106
+        ],
+        [
+          12.861807118041433,
+          52.38983870721913
+        ],
+        [
+          12.889312455937628,
+          52.21058999195556
+        ],
+        [
+          12.889751061692351,
+          52.20821327176636
+        ],
+        [
+          12.97696240167682,
+          51.8563317659208
+        ],
+        [
+          12.977684489278627,
+          51.854025304700414
+        ],
+        [
+          13.03707181487708,
+          51.6826783143723
+        ],
+        [
+          13.074194020856845,
+          51.58519875092189
+        ],
+        [
+          13.12909160635973,
+          51.450900513922555
+        ],
+        [
+          13.12986643286359,
+          51.4491286122395
+        ],
+        [
+          13.258804583606526,
+          51.18927333288612
+        ],
+        [
+          13.259746921988633,
+          51.18758454928272
+        ],
+        [
+          13.41317968590686,
+          50.941397222484255
+        ],
+        [
+          13.414280725322925,
+          50.939807347052096
+        ],
+        [
+          13.499742870463715,
+          50.822564082410786
+        ],
+        [
+          13.626075691005347,
+          50.657775307577786
+        ],
+        [
+          13.711512419996117,
+          50.55142912483897
+        ],
+        [
+          13.712683217364004,
+          50.55003780159565
+        ],
+        [
+          13.740000000000002,
+          50.52042051078368
+        ],
+        [
+          13.740000000000002,
+          50.519233969747624
+        ],
+        [
+          13.640726139793454,
+          50.46187540146222
+        ],
+        [
+          13.530896507035092,
+          50.39524137889098
+        ],
+        [
+          13.529451801037911,
+          50.39432198638163
+        ],
+        [
+          13.318848604534137,
+          50.24726213894324
+        ],
+        [
+          13.317487842362452,
+          50.246222531172656
+        ],
+        [
+          13.217100446294538,
+          50.166066359191475
+        ],
+        [
+          12.812226899862177,
+          49.82834217943604
+        ],
+        [
+          12.696684221193593,
+          49.72682849478454
+        ],
+        [
+          12.695179348665935,
+          49.7254363908403
+        ],
+        [
+          12.480447038918427,
+          49.50532638137449
+        ],
+        [
+          12.47909257659218,
+          49.503787542031716
+        ],
+        [
+          12.380467336922546,
+          49.38576974309743
+        ],
+        [
+          12.050695074984457,
+          48.969939311311954
+        ],
+        [
+          11.981464571970125,
+          48.87914555552357
+        ],
+        [
+          11.980564865470212,
+          48.87791784805968
+        ],
+        [
+          11.852714154958655,
+          48.68875974648913
+        ],
+        [
+          11.851910419917722,
+          48.68746717255049
+        ],
+        [
+          11.793475402316702,
+          48.58937681952952
+        ],
+        [
+          11.665620525379447,
+          48.36515971637959
+        ],
+        [
+          11.581577547141238,
+          48.206979816702706
+        ],
+        [
+          11.580520907473943,
+          48.204839193028405
+        ],
+        [
+          11.50606793561792,
+          48.04192554156038
+        ],
+        [
+          11.366227207623403,
+          47.7100700178181
+        ],
+        [
+          11.319415273537981,
+          47.59206344586183
+        ],
+        [
+          11.318824677985496,
+          47.59047752585182
+        ],
+        [
+          11.240379229324066,
+          47.349054488954025
+        ],
+        [
+          11.239924822078196,
+          47.34742431735579
+        ],
+        [
+          11.20843178507182,
+          47.22444018497166
+        ],
+        [
+          11.111550514403653,
+          46.80978735677546
+        ],
+        [
+          11.1,
+          46.81
+        ],
+        [
+          8.7,
+          46.81
+        ],
+        [
+          8.552796977017575,
+          46.80638636861551
+        ],
+        [
+          8.550836634210984,
+          46.80629006314896
+        ],
+        [
+          8.25784823382762,
+          46.77743322442783
+        ],
+        [
+          8.255906770193889,
+          46.77714523550245
+        ],
+        [
+          8.110827227511317,
+          46.751971546817764
+        ],
+        [
+          7.904178174034168,
+          46.71086649437386
+        ],
+        [
+          7.778378322093942,
+          46.68302232612158
+        ],
+        [
+          7.7767097347465635,
+          46.682615230901824
+        ],
+        [
+          7.529274460285087,
+          46.61086033099695
+        ],
+        [
+          7.527646953342089,
+          46.61031157658533
+        ],
+        [
+          7.28728044626139,
+          46.51759198329861
+        ],
+        [
+          7.2857060222213175,
+          46.516905616635796
+        ],
+        [
+          7.054180931559966,
+          46.40390511615471
+        ],
+        [
+          7.052671201446872,
+          46.403086199040835
+        ],
+        [
+          6.940760659059311,
+          46.33923534975691
+        ],
+        [
+          6.804837339088092,
+          46.257766047016695
+        ],
+        [
+          6.680434872604584,
+          46.178989053920596
+        ],
+        [
+          6.678802941398601,
+          46.1778986323502
+        ],
+        [
+          6.442333787972703,
+          46.00252115553522
+        ],
+        [
+          6.44081659496561,
+          46.00127602741271
+        ],
+        [
+          6.222676103896406,
+          45.80356501088398
+        ],
+        [
+          6.221288260486247,
+          45.80217716747382
+        ],
+        [
+          6.119755227979645,
+          45.695533688453864
+        ],
+        [
+          6.0600000000000005,
+          45.62960395421713
+        ],
+        [
+          6.0600000000000005,
+          49.9
+        ],
+        [
+          6.0563863686155095,
+          50.04720302298242
+        ],
+        [
+          6.056290063148953,
+          50.04916336578901
+        ],
+        [
+          6.0274332244279485,
+          50.34215176617159
+        ],
+        [
+          6.027145235502569,
+          50.344093229805324
+        ],
+        [
+          6.001971546817757,
+          50.4891727724887
+        ],
+        [
+          5.960866494373851,
+          50.69582182596585
+        ],
+        [
+          5.922543458990813,
+          50.863274888152645
+        ],
+        [
+          5.921969006937025,
+          50.86549114211425
+        ],
+        [
+          5.8169145976143835,
+          51.19245222348458
+        ],
+        [
+          5.816090620558528,
+          51.194588303678735
+        ],
+        [
+          5.674357161289603,
+          51.50740071419258
+        ],
+        [
+          5.673294456991185,
+          51.50942862848036
+        ],
+        [
+          5.589235349756914,
+          51.65923934094069
+        ],
+        [
+          5.507766047016697,
+          51.795162660911906
+        ],
+        [
+          5.428989053923629,
+          51.919565127390875
+        ],
+        [
+          5.427898632353235,
+          51.92119705859686
+        ],
+        [
+          5.2525211555327065,
+          52.15766621203037
+        ],
+        [
+          5.251276027410193,
+          52.15918340503746
+        ],
+        [
+          5.053565010881263,
+          52.37732389610631
+        ],
+        [
+          5.052177167471104,
+          52.37871173951647
+        ],
+        [
+          4.945533688453876,
+          52.48024477202034
+        ],
+        [
+          4.828115969468584,
+          52.58666598921535
+        ],
+        [
+          4.735527584749209,
+          52.66719618427725
+        ],
+        [
+          4.734271634232443,
+          52.66824422857598
+        ],
+        [
+          4.539607728666829,
+          52.817615096902166
+        ],
+        [
+          4.53827033169815,
+          52.81855699811823
+        ],
+        [
+          4.332050782502698,
+          52.951520113180905
+        ],
+        [
+          4.330640885627722,
+          52.95234957044598
+        ],
+        [
+          4.2236260710450875,
+          53.01239580897541
+        ],
+        [
+          4.130267198691651,
+          53.06229716588813
+        ],
+        [
+          3.998742268505837,
+          53.128501252212764
+        ],
+        [
+          3.9969680024166183,
+          53.129340417576024
+        ],
+        [
+          3.724972282296854,
+          53.24200473375691
+        ],
+        [
+          3.7231243071946416,
+          53.24266594982132
+        ],
+        [
+          3.4413952867381044,
+          53.32812751385285
+        ],
+        [
+          3.4394913996333383,
+          53.32860441274627
+        ],
+        [
+          3.2958218259658314,
+          53.36086649437386
+        ],
+        [
+          3.089172772488683,
+          53.40197154681776
+        ],
+        [
+          2.944093229805914,
+          53.42714523550248
+        ],
+        [
+          2.942151766172182,
+          53.42743322442786
+        ],
+        [
+          2.6491633657890157,
+          53.456290063148955
+        ],
+        [
+          2.647203022982425,
+          53.45638636861551
+        ],
+        [
+          2.5,
+          53.46
+        ],
+        [
+          -3.3,
+          53.46
+        ],
+        [
+          -3.447203022982425,
+          53.45638636861551
+        ],
+        [
+          -3.4491633657890155,
+          53.456290063148955
+        ],
+        [
+          -3.742151766172182,
+          53.42743322442786
+        ],
+        [
+          -3.7440932298059137,
+          53.42714523550248
+        ],
+        [
+          -3.8891727724886827,
+          53.40197154681776
+        ],
+        [
+          -4.095821825965832,
+          53.36086649437386
+        ],
+        [
+          -4.221621677906237,
+          53.33302232612154
+        ],
+        [
+          -4.223290265253614,
+          53.33261523090178
+        ],
+        [
+          -4.470725539714912,
+          53.26086033099695
+        ],
+        [
+          -4.4723530466579104,
+          53.26031157658533
+        ],
+        [
+          -4.712719553739463,
+          53.16759198329824
+        ],
+        [
+          -4.714293977779533,
+          53.166905616635425
+        ],
+        [
+          -4.945819068439707,
+          53.05390511615489
+        ],
+        [
+          -4.947328798552802,
+          53.05308619904101
+        ],
+        [
+          -5.05923934094068,
+          52.98923534975692
+        ],
+        [
+          -5.1951626609119,
+          52.9077660470167
+        ],
+        [
+          -5.299102242185935,
+          52.84254116874179
+        ],
+        [
+          -5.300469741239427,
+          52.84164353023362
+        ],
+        [
+          -5.499916699129816,
+          52.698721861385806
+        ],
+        [
+          -5.501206268243157,
+          52.6977154717721
+        ],
+        [
+          -5.688306411489743,
+          52.538972822075515
+        ],
+        [
+          -5.689509424062776,
+          52.537864413621115
+        ],
+        [
+          -5.778034852631736,
+          52.45288812399926
+        ],
+        [
+          -5.852888123999246,
+          52.37803485263174
+        ],
+        [
+          -5.978976964010582,
+          52.24396184184194
+        ],
+        [
+          -5.980601756939382,
+          52.24212433802982
+        ],
+        [
+          -6.206960481721511,
+          51.952072437613694
+        ],
+        [
+          -6.2083481253689845,
+          51.95004986068595
+        ],
+        [
+          -6.307766047016697,
+          51.795162660911906
+        ],
+        [
+          -6.389235349756914,
+          51.65923934094069
+        ],
+        [
+          -6.440000000000001,
+          51.56876623611076
+        ]
+      ],
+      "holes_xy_mm": []
+    }
+  ],
+  "hole_region_assumption": "M2 nominal clearance hole 2.2 mm with 1.9 mm edge material: centers 3 mm inside this hypothetical outline. Mounting posts and supplier hole coordinates remain unassigned."
+}
