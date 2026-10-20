@@ -9,6 +9,13 @@
       "seconds": 4.88,
       "available_memory_before_GB": 15.692607488,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/combine_side_motion.py",
+      "returncode": 0,
+      "seconds": 2.13,
+      "available_memory_before_GB": 15.496544256,
+      "log_tail": ""
     }
   ]
 }

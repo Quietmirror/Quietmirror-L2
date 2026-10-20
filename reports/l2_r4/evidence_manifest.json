@@ -221,7 +221,7 @@
   },
   "reports/l2_r4/side_functional_motion.json": {
     "script": "cad/l2_r4/combine_side_motion.py",
-    "source_commit": "a9b7d67a24159f0a36cea037daf494a4257203ba",
+    "source_commit": "75efa6c21b13c4dd66d881229ca45505a1fb1277",
     "returncode": 0,
     "report_sha256": "29a3b0cc1faa2e0896b3b8176e070743e8a3241ae41b9c2e2d5f0c02c0b4f441",
     "geometry": {
@@ -9054,7 +9054,7 @@
   },
   "reports/l2_r4/side_partition_identity.json": {
     "script": "cad/l2_r4/combine_side_motion.py",
-    "source_commit": "a9b7d67a24159f0a36cea037daf494a4257203ba",
+    "source_commit": "75efa6c21b13c4dd66d881229ca45505a1fb1277",
     "returncode": 0,
     "report_sha256": "26fb1ccc66a93bc8ef761b8e26e0d085ffc30c6d835e53f25179e488f4c7db0a",
     "geometry": {
