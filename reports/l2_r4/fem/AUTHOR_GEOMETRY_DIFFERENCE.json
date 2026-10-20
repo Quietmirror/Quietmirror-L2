@@ -1,358 +1,20 @@
 {
   "status": "COMPLETED",
-  "cause": "Combined source geometry corrections after author V2: D7 concealed hinges/aperture back relief, relocated retainer pilots and locating sockets, explicit driver access and final stop reliefs. Same loads/material/solver settings; individual feature shares are not inferred.",
+  "cause": "Combined source geometry corrections after author V2: D7 concealed hinges/aperture back relief, relocated retainer pilots and locating sockets, explicit driver access and final stop reliefs. Same loads/material/solver settings; comparison includes geometry-induced remeshing. Individual feature shares are not inferred.",
+  "primary_input_identity": {
+    "report": "fem/stiffness.json",
+    "passed": true,
+    "problems": []
+  },
+  "primary_stiffness_sha256": "38ac1bfa6ceca233c894cf690ddd58516ba6c42c2df630af5f6abdefc911d353",
   "geometry_difference": {
     "author_control_volume_mm3": 12643.438743331006,
-    "final_volume_mm3": 12633.239977596988,
-    "removed_mm3": 12071.047545545533,
-    "added_mm3": 12061.98225024354,
-    "removed_regions": [
-      {
-        "volume_mm3": 12007.278253352191,
-        "bounds_mm": [
-          -33.04800010000001,
-          -1e-07,
-          4.999999898410112,
-          33.04800010000001,
-          88.2360001000004,
-          30.56400009999984
-        ]
-      },
-      {
-        "volume_mm3": 5.681273422467795,
-        "bounds_mm": [
-          26.371402905359524,
-          43.74999989999977,
-          17.216911209487122,
-          28.550000100000002,
-          46.350000099999995,
-          23.49386652918827
-        ]
-      },
-      {
-        "volume_mm3": 18.964923776012473,
-        "bounds_mm": [
-          28.448757851975998,
-          54.799999899941945,
-          15.1999999,
-          32.55044398820357,
-          59.60000010001184,
-          19.800000100000005
-        ]
-      },
-      {
-        "volume_mm3": 2.3084866575826855,
-        "bounds_mm": [
-          28.18829359396053,
-          68.70267986316821,
-          19.799999300000003,
-          30.3250001,
-          71.3250001,
-          20.800000700000005
-        ]
-      },
-      {
-        "volume_mm3": 7.2422913982452775,
-        "bounds_mm": [
-          26.09345126242438,
-          68.64999988697691,
-          16.730791071276013,
-          28.550000100000002,
-          71.25000012925827,
-          23.437012641023912
-        ]
-      },
-      {
-        "volume_mm3": 0.32362238941699706,
-        "bounds_mm": [
-          28.037811214011437,
-          43.68429740850926,
-          14.1999999,
-          28.920781001802002,
-          44.40000010000088,
-          15.200000099999999
-        ]
-      },
-      {
-        "volume_mm3": 0.19800915214491976,
-        "bounds_mm": [
-          27.675,
-          44.810077517718675,
-          14.2,
-          28.025,
-          45.67966607202492,
-          15.2
-        ]
-      },
-      {
-        "volume_mm3": 0.049933498517238835,
-        "bounds_mm": [
-          28.46218858598849,
-          46.19999989733967,
-          14.199999899999954,
-          29.147194262882966,
-          46.325000100000004,
-          15.200000100000075
-        ]
-      },
-      {
-        "volume_mm3": 0.08550587696675302,
-        "bounds_mm": [
-          28.462188585988486,
-          68.6749999,
-          14.199999899999964,
-          29.48780757425602,
-          68.80000010009418,
-          15.200000100000024
-        ]
-      },
-      {
-        "volume_mm3": 0.19800915214490533,
-        "bounds_mm": [
-          27.675,
-          69.32033392797507,
-          14.2,
-          28.025,
-          70.18992248228133,
-          15.2
-        ]
-      },
-      {
-        "volume_mm3": 0.3397025646983855,
-        "bounds_mm": [
-          28.03781121401144,
-          70.599999893815,
-          14.199999899999934,
-          29.04110174531823,
-          71.31467889988048,
-          15.200000100000178
-        ]
-      },
-      {
-        "volume_mm3": 0.7553057732394717,
-        "bounds_mm": [
-          17.3,
-          44.85147186257615,
-          12.1,
-          17.700000000000003,
-          46.54852813742386,
-          13.7
-        ]
-      },
-      {
-        "volume_mm3": 2.96746760012848,
-        "bounds_mm": [
-          17.3,
-          52.9,
-          12.7,
-          19.0,
-          55.1,
-          13.7
-        ]
-      },
-      {
-        "volume_mm3": 0.3601244490244249,
-        "bounds_mm": [
-          8.700000000000001,
-          40.13667504192892,
-          10.0,
-          8.9,
-          41.46332495807102,
-          12.0
-        ]
-      },
-      {
-        "volume_mm3": 18.88281603463658,
-        "bounds_mm": [
-          14.549999897006725,
-          44.7499999,
-          6.8999999,
-          18.6500001,
-          47.2500001,
-          9.400000100463824
-        ]
-      },
-      {
-        "volume_mm3": 3.177667861107386,
-        "bounds_mm": [
-          17.3,
-          55.399999999999814,
-          12.7,
-          19.0,
-          57.60000000000028,
-          13.7
-        ]
-      },
-      {
-        "volume_mm3": 0.750915392780849,
-        "bounds_mm": [
-          14.712541391182,
-          71.19999999999989,
-          10.4,
-          15.500000000000169,
-          72.129884389201,
-          12.1
-        ]
-      },
-      {
-        "volume_mm3": 0.5188630884710748,
-        "bounds_mm": [
-          -24.0000001,
-          10.4999999,
-          9.393801223513,
-          -21.9999999,
-          12.500000100000001,
-          10.767781747834999
-        ]
-      },
-      {
-        "volume_mm3": 0.5188630880464813,
-        "bounds_mm": [
-          21.9999999,
-          10.4999999,
-          9.393801223516,
-          24.0000001,
-          12.500000100000001,
-          10.767781747834999
-        ]
-      },
-      {
-        "volume_mm3": 0.36012444901439866,
-        "bounds_mm": [
-          -8.9,
-          40.136675041928974,
-          10.0,
-          -8.700000000000001,
-          41.46332495807102,
-          12.0
-        ]
-      },
-      {
-        "volume_mm3": 0.0853865687020752,
-        "bounds_mm": [
-          -4.75,
-          40.29999999999993,
-          15.796472254589,
-          -3.95,
-          42.7,
-          16.0000000000004
-        ]
-      }
-    ],
-    "added_regions": [
-      {
-        "volume_mm3": 12007.016381265868,
-        "bounds_mm": [
-          -33.04800010000001,
-          -1e-07,
-          4.999999898410112,
-          33.04800010000001,
-          88.2360001000004,
-          30.56400009999984
-        ]
-      },
-      {
-        "volume_mm3": 4.907034655421536,
-        "bounds_mm": [
-          27.84332514283382,
-          43.3249999,
-          12.99999989999987,
-          30.675000100000002,
-          46.32500010039388,
-          21.53741938034659
-        ]
-      },
-      {
-        "volume_mm3": 7.011676897610902,
-        "bounds_mm": [
-          27.843325165836088,
-          68.94999990000001,
-          13.699999899999995,
-          30.675000100000002,
-          71.67500010050892,
-          21.716548439165603
-        ]
-      },
-      {
-        "volume_mm3": 3.1478405933671594,
-        "bounds_mm": [
-          26.175,
-          43.974999999999994,
-          14.2,
-          28.462188685988526,
-          46.625,
-          15.2
-        ]
-      },
-      {
-        "volume_mm3": 3.1478405933672375,
-        "bounds_mm": [
-          26.175,
-          68.375,
-          14.2,
-          28.462188685988526,
-          71.025,
-          15.2
-        ]
-      },
-      {
-        "volume_mm3": 1.444480620831101,
-        "bounds_mm": [
-          25.9999999,
-          68.29999989999988,
-          18.5999999,
-          27.10553468807727,
-          70.10948982808988,
-          20.600000100000003
-        ]
-      },
-      {
-        "volume_mm3": 1.4236297857900713,
-        "bounds_mm": [
-          25.9999999,
-          44.519691547064504,
-          18.5999999,
-          26.872860965139413,
-          46.700000100000004,
-          20.600000100000003
-        ]
-      },
-      {
-        "volume_mm3": 14.779428529098995,
-        "bounds_mm": [
-          14.55,
-          41.9,
-          12.1,
-          19.0,
-          47.75,
-          13.7
-        ]
-      },
-      {
-        "volume_mm3": 4.500420589461244,
-        "bounds_mm": [
-          15.899999999999999,
-          52.50333704529,
-          12.1,
-          17.300000000000093,
-          57.874772708487,
-          13.7
-        ]
-      },
-      {
-        "volume_mm3": 14.603516712726874,
-        "bounds_mm": [
-          14.55,
-          68.35000000000001,
-          12.1,
-          19.0,
-          72.45,
-          13.7
-        ]
-      }
-    ]
+    "final_volume_mm3": 12612.830650497723,
+    "net_volume_change_mm3": -30.60809283328308,
+    "method": "Whole valid-solid adaptive volumes and documented source changes; no unreliable coincident whole-BODY Boolean difference is interpreted.",
+    "limitation": "The controlled difference includes geometry-induced remeshing; individual feature stiffness shares are not inferred."
   },
-  "final_BODY_sha256": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+  "final_BODY_sha256": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
   "rows": [
     {
       "size_mm": 2.4,
@@ -360,30 +22,41 @@
       "control_stiffness_N_per_mm": 920.8975146373766,
       "author_stiffness_N_per_mm": 922.03,
       "control_author_difference_fraction": -0.0012282521855290218,
-      "final_stiffness_N_per_mm": 839.5847226599468,
-      "final_geometry_effect_fraction": -0.08829733025118269,
+      "final_stiffness_N_per_mm": 835.6900165792779,
+      "final_geometry_effect_fraction": -0.0925265805409965,
+      "equilibrium_pass": true,
+      "resolved": true
+    },
+    {
+      "size_mm": 2.4,
+      "case": "press_B_d16_x-14_y72",
+      "control_stiffness_N_per_mm": 60.65057067908699,
+      "author_stiffness_N_per_mm": 60.53,
+      "control_author_difference_fraction": 0.0019919160595900376,
+      "final_stiffness_N_per_mm": 58.68698710398458,
+      "final_geometry_effect_fraction": -0.03237535200603603,
       "equilibrium_pass": true,
       "resolved": true
     },
     {
       "size_mm": 2.0,
       "case": "LC3_squeeze_2x2N",
-      "control_stiffness_N_per_mm": 923.8897164535307,
+      "control_stiffness_N_per_mm": 923.8897164535306,
       "author_stiffness_N_per_mm": 923.32,
       "control_author_difference_fraction": 0.0006170303400019339,
-      "final_stiffness_N_per_mm": 847.1331329489794,
-      "final_geometry_effect_fraction": -0.08307981151602295,
+      "final_stiffness_N_per_mm": 846.2218158281196,
+      "final_geometry_effect_fraction": -0.08406620318661973,
       "equilibrium_pass": true,
       "resolved": true
     },
     {
       "size_mm": 1.6,
       "case": "LC3_squeeze_2x2N",
-      "control_stiffness_N_per_mm": 930.4966434677423,
+      "control_stiffness_N_per_mm": 930.4966434677424,
       "author_stiffness_N_per_mm": 931.07,
-      "control_author_difference_fraction": -0.0006158038947209343,
-      "final_stiffness_N_per_mm": 848.0731244179043,
-      "final_geometry_effect_fraction": -0.08858013581076973,
+      "control_author_difference_fraction": -0.0006158038947207123,
+      "final_stiffness_N_per_mm": 847.1550082990567,
+      "final_geometry_effect_fraction": -0.089566830524064,
       "equilibrium_pass": true,
       "resolved": true
     }

@@ -5,10 +5,10 @@
     "outside_regions": [],
     "region_partition": {
       "feature": "SIDE_FRONT_KEY fixed-bearing containment region",
-      "original_volume_mm3": 12633.239977596984,
-      "remaining_volume_mm3": 12611.840600561567,
+      "original_volume_mm3": 12612.830650497723,
+      "remaining_volume_mm3": 12591.431281399347,
       "removed_volume_mm3": 21.37237529669039,
-      "volume_partition_error_mm3": 0.027001738726884383,
+      "volume_partition_error_mm3": 0.026993801684856322,
       "lost_material_mm3": 0.0,
       "added_material_mm3": 0.0,
       "lost_solid_count": 0,
@@ -29,27 +29,27 @@
     "upper_profile_samples": [
       {
         "z": 19.8,
-        "outer_x": 29.393807079750307,
-        "axis_to_outer_wall_mm": 1.8938070797503066,
-        "fixed_bore_wall_mm": 1.3688070797503067
+        "outer_x": 29.39380707975031,
+        "axis_to_outer_wall_mm": 1.8938070797503102,
+        "fixed_bore_wall_mm": 1.3688070797503102
       },
       {
         "z": 20.0,
-        "outer_x": 29.284567135506226,
-        "axis_to_outer_wall_mm": 1.7845671355062258,
-        "fixed_bore_wall_mm": 1.259567135506226
+        "outer_x": 29.28456713550623,
+        "axis_to_outer_wall_mm": 1.7845671355062294,
+        "fixed_bore_wall_mm": 1.2595671355062295
       },
       {
         "z": 20.25,
-        "outer_x": 29.141533445088115,
-        "axis_to_outer_wall_mm": 1.6415334450881147,
-        "fixed_bore_wall_mm": 1.1165334450881148
+        "outer_x": 29.14153344508812,
+        "axis_to_outer_wall_mm": 1.6415334450881183,
+        "fixed_bore_wall_mm": 1.1165334450881184
       },
       {
         "z": 20.6,
-        "outer_x": 28.92850961048493,
-        "axis_to_outer_wall_mm": 1.4285096104849302,
-        "fixed_bore_wall_mm": 0.9035096104849302
+        "outer_x": 28.928509610484927,
+        "axis_to_outer_wall_mm": 1.4285096104849266,
+        "fixed_bore_wall_mm": 0.9035096104849266
       },
       {
         "z": 20.8,
@@ -67,10 +67,10 @@
     "outside_regions": [],
     "region_partition": {
       "feature": "SIDE_REAR_KEY fixed-bearing containment region",
-      "original_volume_mm3": 12633.239977596984,
-      "remaining_volume_mm3": 12610.924169863707,
+      "original_volume_mm3": 12612.830650497723,
+      "remaining_volume_mm3": 12590.514847217642,
       "removed_volume_mm3": 22.28384737331887,
-      "volume_partition_error_mm3": 0.03196035995845392,
+      "volume_partition_error_mm3": 0.03195590676134685,
       "lost_material_mm3": 0.0,
       "added_material_mm3": 0.0,
       "lost_solid_count": 0,

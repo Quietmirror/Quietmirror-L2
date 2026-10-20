@@ -1,0 +1,52 @@
+[
+  {
+    "report": "side_sf_0.json",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "report": "side_sf_1.json",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "report": "side_sf_2.json",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "report": "side_sf_3.json",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "report": "side_sf_4.json",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "report": "side_sr_0.json",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "report": "side_sr_1.json",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "report": "side_sr_2.json",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "report": "side_sr_3.json",
+    "passed": true,
+    "problems": []
+  },
+  {
+    "report": "side_sr_4.json",
+    "passed": true,
+    "problems": []
+  }
+]

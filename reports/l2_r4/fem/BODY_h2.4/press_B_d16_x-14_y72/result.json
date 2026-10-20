@@ -9,29 +9,29 @@
       0.0,
       -1.0
     ],
-    "selected_triangles": 13,
-    "surface_area_mm2": 30.537318299785905,
-    "pressure_magnitude_MPa": 0.16373408925154553,
+    "selected_triangles": 16,
+    "surface_area_mm2": 27.997239381601464,
+    "pressure_magnitude_MPa": 0.17858903629212017,
     "area_centroid_mm": [
-      -15.812864635610273,
-      66.12169844410415,
-      28.53645034573479
+      -15.37956099675794,
+      66.12181791845647,
+      28.620264633182618
     ],
     "actual_force_sum_N": [
       0.0,
       0.0,
-      -5.000000000000001
+      -4.999999999999999
     ],
     "selected_face_centers_bounds_mm": [
       [
-        -20.563173316975497,
-        64.14015755945886,
-        26.858033631854035
+        -20.48536320461154,
+        64.79044625226186,
+        26.88885801839326
       ],
       [
-        -9.855849662606635,
-        68.19707346194383,
-        29.519839591761652
+        -10.014885455059769,
+        68.1830780364697,
+        29.51045784268166
       ]
     ],
     "distribution": "Uniform vector surface traction, integrated using 7-point quadratic-triangle shape functions; total resultant normalized to specified N."
@@ -42,22 +42,22 @@
     "model": "homogeneous isotropic linear elastic; not measured printed PLA"
   },
   "mesh": {
-    "nodes": 145665,
-    "elements": 74466,
+    "nodes": 147809,
+    "elements": 75626,
     "element_type": "C3D10",
-    "boundary_tri6": 44694,
+    "boundary_tri6": 45294,
     "connected_components": 1,
-    "corner_tet_min_volume_mm3": 1.496142305959153e-05,
-    "corner_tet_total_volume_mm3": 12538.256441845704,
-    "corner_tet_mean_ratio_min": 0.013561761939627976,
-    "corner_tet_mean_ratio_p01": 0.2992896988448348,
+    "corner_tet_min_volume_mm3": 1.4718167067582023e-05,
+    "corner_tet_total_volume_mm3": 12519.587685861752,
+    "corner_tet_mean_ratio_min": 0.014482132469305317,
+    "corner_tet_mean_ratio_p01": 0.2764618916021669,
     "corner_tet_mean_ratio_definition": "12*(3V)^(2/3)/sum(six squared edge lengths); regular tetrahedron=1, degenerate=0. Corner geometry diagnostic only.",
-    "quadratic_tet_integrated_volume_mm3": 12538.256441845742,
-    "quadratic_jacobian_min_mm3": 8.97685383298154e-05,
-    "quadratic_jacobian_min_over_max_per_element": 0.999999998435662,
+    "quadratic_tet_integrated_volume_mm3": 12519.5876858618,
+    "quadratic_jacobian_min_mm3": 8.830900234428355e-05,
+    "quadratic_jacobian_min_over_max_per_element": 0.9999999981108285,
     "quadratic_jacobian_check": "Four C3D10 integration points and centroid; all positive. This is not a formal interval proof at every point.",
-    "quadratic_boundary_area_mm2": 18225.97975742956,
-    "mesh_file_sha256": "3eefe4d7d4a0649e4fa442a52b6eb1bf7c743b960dece76b5b2c0acedda93480",
+    "quadratic_boundary_area_mm2": 18229.188485322786,
+    "mesh_file_sha256": "cca6a553dbb5953b9ac56a63223df40359e2daf306a77cb3087734d3ec30f6a5",
     "target_max_size_mm": 2.4,
     "settings": {
       "Mesh.MeshSizeMin": 0.9119999999999999,
@@ -76,60 +76,60 @@
     },
     "gmsh_version": "4.15.2"
   },
-  "deck_sha256": "6550bd50599dacfc0aa66182c3ec413bd89a10e62e491c9ab913ff2b45cb98fa",
-  "dat_sha256": "afe805224ff1b771ec1c3540f371d17adf0a42e119576eb0c8b9149068ca65f4",
-  "solving_seconds": 20.771049645000005,
+  "deck_sha256": "97d15a6439c1a87e906eaa995216c73f7ceb4b19250fb6bdff66d65d798bba88",
+  "dat_sha256": "d100027ec51e19b36696efeb3529c53103d3bc1386031a617b9b99d42c83434a",
+  "solving_seconds": 21.77206012800002,
   "applied_force_N": [
     0.0,
     0.0,
-    -5.000000000000001
+    -4.999999999999999
   ],
   "support_reaction_N": [
-    6.843456744564592e-12,
-    -2.3838515528353993e-12,
-    4.99999995325247
+    -8.475006722994006e-13,
+    2.0967893089068546e-12,
+    4.9999999928702
   ],
   "force_balance_error_N": [
-    6.843456744564592e-12,
-    -2.3838515528353993e-12,
-    -4.67475311793919e-08
+    -8.475006722994006e-13,
+    2.0967893089068546e-12,
+    -7.129798973437573e-09
   ],
-  "force_balance_relative_error": 9.349506348217247e-09,
+  "force_balance_relative_error": 1.42595986642562e-09,
   "moment_balance_error_Nmm": [
-    -3.0171616458574135e-06,
-    3.841194171627649e-07,
-    -3.56345080143743e-10
+    -4.2782136233654455e-07,
+    -1.6962426911959483e-06,
+    1.1634392244314892e-10
   ],
-  "moment_balance_relative_error": 6.894045050627935e-09,
+  "moment_balance_relative_error": 3.9651907501891306e-09,
   "equilibrium_pass": true,
-  "maximum_displacement_mm": 0.10326356098110988,
-  "maximum_displacement_node": 31936,
+  "maximum_displacement_mm": 0.1058743049812125,
+  "maximum_displacement_node": 5452,
   "displacement_components_at_max_mm": [
-    0.02620672,
-    -0.01206453,
-    -0.09915149
+    0.02530028,
+    -0.01903058,
+    -0.1010302
   ],
-  "maximum_vm_stress_MPa": 3.594975674226775,
-  "p95_integration_point_vm_MPa": 0.4470198705563842,
-  "unweighted_integration_point_p95_vm_MPa": 0.46681284286012886,
+  "maximum_vm_stress_MPa": 3.6650537908929657,
+  "p95_integration_point_vm_MPa": 0.4525091284507782,
+  "unweighted_integration_point_p95_vm_MPa": 0.4828844980364989,
   "p95_definition": "95th percentile of integration-point von Mises stress weighted by actual C3D10 Jacobian quadrature volume; avoids overweighting locally tiny elements.",
-  "peak_stress_element": 68951,
+  "peak_stress_element": 69795,
   "peak_stress_element_centroid_mm": [
     -8.681250040435375,
     42.12289037149075,
     25.7254292839775
   ],
   "peak_element_distance_to_nearest_horizontal_constraint_node_mm": 39.237927402660084,
-  "auxiliary_peak_vm_outside_3mm_horizontal_constraint_neighbourhood_MPa": 3.594975674226775,
+  "auxiliary_peak_vm_outside_3mm_horizontal_constraint_neighbourhood_MPa": 3.6650537908929657,
   "auxiliary_stress_scope": "Diagnostic only: removes element-centroid regions within 3 mm of the minimum horizontal point anchors, which can create stress singularities. The global maximum remains separately reported and is not replaced for a strength claim.",
   "foot_reactions": [
     {
       "foot": 1,
       "constrained_nodes": 485,
       "reaction_N": [
-        6.5919087924777e-12,
-        4.3898451663197e-12,
-        -0.10085593119110016
+        -1.1112956866990002e-12,
+        -1.0390791366807e-12,
+        -0.09626473745209996
       ],
       "negative_z_requires_hold_down": true
     },
@@ -137,9 +137,9 @@
       "foot": 2,
       "constrained_nodes": 375,
       "reaction_N": [
-        5.104188462699987e-14,
-        -6.6443024602589004e-12,
-        0.06232215984916982
+        8.251114928740011e-14,
+        4.067108641958001e-12,
+        0.06724139815580003
       ],
       "negative_z_requires_hold_down": false
     },
@@ -147,19 +147,19 @@
       "foot": 3,
       "constrained_nodes": 366,
       "reaction_N": [
-        -1.4525145675109983e-14,
-        4.692619768430001e-14,
-        3.689180878594
+        7.805747829319984e-14,
+        4.6665864704799974e-14,
+        3.639009530473999
       ],
       "negative_z_requires_hold_down": false
     },
     {
       "foot": 4,
-      "constrained_nodes": 382,
+      "constrained_nodes": 374,
       "reaction_N": [
-        -3.460334409899994e-14,
-        4.58528723999999e-16,
-        0.7137711685740004
+        2.107230863900001e-14,
+        1.2818280273749986e-14,
+        0.7318050291509999
       ],
       "negative_z_requires_hold_down": false
     },
@@ -167,9 +167,9 @@
       "foot": 5,
       "constrained_nodes": 493,
       "reaction_N": [
-        2.4963455723400073e-13,
-        -1.7677898530450014e-13,
-        0.6355816774263997
+        8.215407818000017e-14,
+        -9.90724341349001e-13,
+        0.6582087725415002
       ],
       "negative_z_requires_hold_down": false
     }
@@ -179,8 +179,8 @@
   "solver_backend_verified": "SPOOLES in actual CalculiX log",
   "solver_runtime": {
     "returncode": 0,
-    "elapsed_seconds": 20.771049645000005,
-    "peak_resident_GB": 1.511153664,
+    "elapsed_seconds": 21.77206012800002,
+    "peak_resident_GB": 1.549692928,
     "measurement": "psutil process RSS sampled every 0.25 s",
     "solver_command": [
       "/usr/bin/ccx",
@@ -188,5 +188,5 @@
       "solve"
     ]
   },
-  "available_memory_before_solve_GB": 14.836228096
+  "available_memory_before_solve_GB": 14.851731456
 }

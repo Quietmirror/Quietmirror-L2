@@ -29,7 +29,7 @@
     "quadratic_jacobian_min_mm3": 8.198769578412952e-05,
     "quadratic_jacobian_min_over_max_per_element": 0.9999999994827141,
     "quadratic_jacobian_check": "Four C3D10 integration points and centroid; all positive. This is not a formal interval proof at every point.",
-    "quadratic_boundary_area_mm2": 18153.414001520025,
+    "quadratic_boundary_area_mm2": 18153.414001520032,
     "mesh_file_sha256": "b5b6fddeee1fa9ac72ae3170a1399f59a21056b05d1dca81f85ed900b030e173",
     "target_max_size_mm": 2.0,
     "settings": {
@@ -51,9 +51,9 @@
   },
   "deck_sha256": "0438525db2f550b2b46d743bb0bdb8cac0d19d7208793326cc0dc7ad167234df",
   "dat_sha256": "61b57b15544220f9861f0cd3228b2ef4c8926f8820f432d1357f86489e43dd43",
-  "solving_seconds": 32.532784757999934,
+  "solving_seconds": 22.019192882,
   "applied_force_N": [
-    -7.28583859910259e-17,
+    2.732189474663471e-16,
     0.0,
     0.0
   ],
@@ -63,17 +63,17 @@
     -7.57599891783485e-10
   ],
   "force_balance_error_N": [
-    -2.105105286648794e-12,
+    -2.1047592093153364e-12,
     -3.0392352924960854e-13,
     -7.57599891783485e-10
   ],
-  "force_balance_relative_error": 7.576028774154225e-10,
+  "force_balance_relative_error": 7.576028764538774e-10,
   "moment_balance_error_Nmm": [
     4.427569501395251e-07,
-    -1.1516480508122484e-07,
-    1.345779896411159e-07
+    -1.1516480522000272e-07,
+    1.345779585548712e-07
   ],
-  "moment_balance_relative_error": 5.404517744153008e-09,
+  "moment_balance_relative_error": 5.40451764510828e-09,
   "equilibrium_pass": true,
   "maximum_displacement_mm": 0.01681754201145875,
   "maximum_displacement_node": 7457,
@@ -152,8 +152,8 @@
   "solver_backend_verified": "SPOOLES in actual CalculiX log",
   "solver_runtime": {
     "returncode": 0,
-    "elapsed_seconds": 32.532784757999934,
-    "peak_resident_GB": 2.25746944,
+    "elapsed_seconds": 22.019192882,
+    "peak_resident_GB": 2.260926464,
     "measurement": "psutil process RSS sampled every 0.25 s",
     "solver_command": [
       "/usr/bin/ccx",
@@ -161,5 +161,5 @@
       "solve"
     ]
   },
-  "available_memory_before_solve_GB": 13.534220288
+  "available_memory_before_solve_GB": 15.072493568
 }

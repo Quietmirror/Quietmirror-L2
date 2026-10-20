@@ -1,0 +1,21 @@
+{
+  "status": "PHASE_COMPLETED",
+  "phase": "C10_window_4",
+  "source_commit": "91514750e252fd3d8b26f69dec503c5957b6444e",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 4.38,
+      "available_memory_before_GB": 15.68464896,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/window_4.py",
+      "returncode": 0,
+      "seconds": 290.79,
+      "available_memory_before_GB": 15.650717696,
+      "log_tail": "WINDOW REAR_TRAP_L True False False 17\n"
+    }
+  ]
+}
