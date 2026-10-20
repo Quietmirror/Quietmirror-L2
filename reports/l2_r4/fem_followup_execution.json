@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "C19 complete author deviation controls and S7",
   "source_commit": "6f4d8a71b3b9f5b39b710d50afea7a145b7ae71b",
   "steps": [
