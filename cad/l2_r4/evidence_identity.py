@@ -69,7 +69,9 @@ def model_files(script):
         if stem=='assembly_paths':paths.append(RP/'SF_route_planning.json')
         return paths
     paths=list(parts.glob('*.step'))
-    if stem=='body_c19':paths.append(ROOT/'models/L2_r4/analysis_reference/BODY_C18_BEFORE_C19.step')
+    if stem=='body_c19':
+        paths.extend([ROOT/'models/L2_r4/analysis_reference/BODY_C18_BEFORE_C19.step',
+                      ROOT/'models/L2_r4/validation_features/SWITCH_MIDDLE_MOUNT.step'])
     if stem in ['main_motion_checks','contact_audit','contact_audit_final','combine_motion'] or stem.startswith('motion_'):paths.extend((ROOT/'models/L2_r4/validation_features').glob('*.step'))
     inv=RP/'assembly_inventory.json'
     if inv.exists():paths.extend(ROOT/'models/L2_r4/reference'/(n+'.step') for n in json.loads(inv.read_text())['H_hardware'])

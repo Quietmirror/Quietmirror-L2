@@ -26,7 +26,7 @@ def number(x):
     except (TypeError,ValueError):return float('nan')
 
 def assess():
-    sols=read('solids.json',[]);mesh=read('mesh_self_intersections.json');units=read('mesh_units_and_volume.json',[]);feet=read('foot_planes.json')
+    sols=read('solids.json',[]);mesh=read('mesh_self_intersections.json');units=read('mesh_units_and_volume.json',[]);feet=read('foot_planes.json');preservation=read('BODY_C19.json')
     contacts=read('functional_static_contacts.json');printed_hw=read('all_printed_hardware_intersections.json');hw=read('hardware_intersections.json',[])
     wires=read('wire_component_clearances.json');reserves=read('reserved_space_checks.json',[]);pairs=read('component_pairs.json',[])
     windows=read('six_window_samples.json',[]);motion=read('main_and_wheel_motion_raw.json',[]);side=read('side_functional_motion.json',[]);rotation=read('wheel_continuous_rotation.json')
@@ -35,7 +35,7 @@ def assess():
     g8=read('fem/G8.json');s7=read('fem/S7.json');act=read('side_actuation_force_and_tuning.json');kin=read('side_kinematics_independent.json',[])
     optical=read('optical_stack_and_power.json');battery=read('battery_service_path.json');plug=read('battery_plug_access.json');mass=read('CAD_mass.json');sliced=read('slice_summary.json');f2=read('F2_trial.json')
     defs={
-      'G1':['solids.json','mesh_self_intersections.json','mesh_units_and_volume.json','foot_planes.json','critical_wall_sections.json','surface_normal_wall_samples.json'],
+      'G1':['solids.json','mesh_self_intersections.json','mesh_units_and_volume.json','foot_planes.json','critical_wall_sections.json','surface_normal_wall_samples.json','BODY_C19.json'],
       'G2':['functional_static_contacts.json','all_printed_hardware_intersections.json','hardware_intersections.json'],
       'G3':['component_pairs.json','wire_component_clearances.json','reserved_space_checks.json'],
       'G4':['six_window_samples.json'],
@@ -52,7 +52,13 @@ def assess():
     def gate(n,ok,summary,data):
         missing=[p for p in defs[n] if not (RP/p).exists()];stale=[p for p in defs[n] if (RP/p).exists() and not current.get(p,False)]
         gates[n]=dict(status='COMPLETED' if ok and not missing and not stale else ('PENDING' if missing else 'FAILED'),summary=summary,metrics=data,missing_reports=missing,stale_reports=stale,evidence=defs[n])
-    gate('G1',len(sols)==9 and every(sols,lambda s:s.get('valid') and s.get('solids')==1 and s.get('closed_mesh') and s.get('consistent_winding') and s.get('mesh_components')==1 and s.get('brep_self_interference_check')) and mesh.get('passed') and len(units)==9 and every(units,lambda r:r.get('positive_mesh_volume') and r.get('closed') and abs(r['difference_percent'])<1.) and feet.get('coplanar'),
+    preservation_pass=(preservation.get('boundary_comparison',{}).get('passed')
+                       and number(preservation.get('added_mm3'))<=.001
+                       and preservation.get('low_band_clear_of_complete_changes')
+                       and len(preservation.get('feet',[]))==5
+                       and all(all(number(p['overlap_mm3'])<=.001 for p in f['complete_change_region_checks']) for f in preservation.get('feet',[]))
+                       and preservation.get('regression_controls',{}).get('outside_change_rejected'))
+    gate('G1',preservation_pass and len(sols)==9 and every(sols,lambda s:s.get('valid') and s.get('solids')==1 and s.get('closed_mesh') and s.get('consistent_winding') and s.get('mesh_components')==1 and s.get('brep_self_interference_check')) and mesh.get('passed') and len(units)==9 and every(units,lambda r:r.get('positive_mesh_volume') and r.get('closed') and abs(r['difference_percent'])<1.) and feet.get('coplanar'),
          '9 个打印件的实体、网格、自相交、尺寸和五脚共面；关键薄壁另列实测截面。',dict(printable_count=len(sols),valid_single_solids=sum(s.get('valid',False) and s.get('solids')==1 for s in sols),closed_meshes=sum(s.get('closed_mesh',False) for s in sols),self_intersecting_faces=sum(r['self_intersecting_faces'] for r in mesh.get('parts',[])),feet=feet))
     gate('G2',contacts.get('passed') and printed_hw.get('passed') and every(hw,lambda r:r['overlap_mm3']<=.001),
          '逐对原始结果保留；仅对明确的接触面、轴孔和自攻螺纹区作局部分解。',dict(static_pairs=len(contacts.get('rows',[])),unresolved_static=sum(not r['passed'] for r in contacts.get('rows',[])),printed_hardware_pairs=len(printed_hw.get('rows',[])),hardware_pairs=len(hw),max_hardware_overlap_mm3=max([r['overlap_mm3'] for r in hw],default=None)))
