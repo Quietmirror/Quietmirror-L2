@@ -237,7 +237,22 @@
     "equilibrium_pass": true,
     "vm_p95_MPa": 0.5828673939844045,
     "passed": true,
-    "author_difference_requires_investigation": true
+    "author_difference_requires_investigation": false,
+    "load_interval_investigation": {
+      "written_y_mm": [
+        35.5,
+        42.5
+      ],
+      "author_y_mm": [
+        35.0,
+        42.0
+      ],
+      "same_final_BODY_author_mask_stiffness": 30.975804228916203,
+      "interval_effect_fraction": 0.1346079086070855,
+      "remaining_author_difference_fraction": -0.01788826160696877,
+      "explanation": "Same final BODY and mesh, only load-face interval changes; published author helper used the older interval.",
+      "resolved": true
+    }
   },
   {
     "size_mm": 1.6,
