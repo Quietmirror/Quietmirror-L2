@@ -15,7 +15,7 @@
   "--outputdir",
   "/home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA",
   "--export-3mf",
-  "/home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/L2_r4_3D45_PLA_PLATE.3mf",
+  "L2_r4_3D45_PLA_PLATE.3mf",
   "--slice",
   "0",
   "/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/work/l2_r4_3d45/plate_input.3mf"

@@ -1,277 +1,280 @@
-[2026-10-20 10:46:39.193815] [0x00007fe4e47734c0] [trace]   Initializing StaticPrintConfigs
-[2026-10-20 10:46:39.200604] [0x00007fe4e47734c0] [warning] cli mode, Current Dremel 3D Slicer Version 01.10.01.52
-[2026-10-20 10:46:39.200616] [0x00007fe4e47734c0] [info]    Will start to read model file now, file count :1
+[2026-10-20 10:49:46.918859] [0x00007f28735db4c0] [trace]   Initializing StaticPrintConfigs
+[2026-10-20 10:49:46.933608] [0x00007f28735db4c0] [warning] cli mode, Current Dremel 3D Slicer Version 01.10.01.52
+[2026-10-20 10:49:46.933628] [0x00007f28735db4c0] [info]    Will start to read model file now, file count :1
 
-[2026-10-20 10:46:39.200630] [0x00007fe4e47734c0] [info]    allow_multicolor_oneplate 1, allow_rotations 1 skip_modified_gcodes 0 avoid_extrusion_cali_region 0 loaded_filament_ids size 0, clone_objects size 0, skip_useless_pick 0, allow_newer_file 0
-[2026-10-20 10:46:39.200636] [0x00007fe4e47734c0] [info]    plate_to_slice=0, normative_check=1, use_first_fila_as_default=0
-[2026-10-20 10:46:39.200643] [0x00007fe4e47734c0] [info]    read model file:/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/work/l2_r4_3d45/plate_input.3mf
+[2026-10-20 10:49:46.933641] [0x00007f28735db4c0] [info]    allow_multicolor_oneplate 1, allow_rotations 1 skip_modified_gcodes 0 avoid_extrusion_cali_region 0 loaded_filament_ids size 0, clone_objects size 0, skip_useless_pick 0, allow_newer_file 0
+[2026-10-20 10:49:46.933646] [0x00007f28735db4c0] [info]    plate_to_slice=0, normative_check=1, use_first_fila_as_default=0
+[2026-10-20 10:49:46.933652] [0x00007f28735db4c0] [info]    read model file:/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/work/l2_r4_3d45/plate_input.3mf
 
-[2026-10-20 10:46:39.200679] [0x00007fe4e47734c0] [info]    model 0x7ffd0009c330, id 3, backup_path empty, set to /tmp/orcaslicer_model/Tue_Oct_20/10_46_39#3335#3
-[2026-10-20 10:46:39.200691] [0x00007fe4e47734c0] [info]    create /3D/Objects in "/tmp/orcaslicer_model/Tue_Oct_20/10_46_39#3335#3"
-[2026-10-20 10:46:39.200842] [0x00007fe4e47734c0] [info]    create /Metadata in "/tmp/orcaslicer_model/Tue_Oct_20/10_46_39#3335#3"
-[2026-10-20 10:46:39.200886] [0x00007fe4e47734c0] [info]    create /lock.txt in "/tmp/orcaslicer_model/Tue_Oct_20/10_46_39#3335#3"
-[2026-10-20 10:46:39.200942] [0x00007fe4e47734c0] [info]    _load_model_from_file:1564import 3mf IMPORT_STAGE_OPEN, m_load_restore=0
+[2026-10-20 10:49:46.933702] [0x00007f28735db4c0] [info]    model 0x7ffe40affa10, id 3, backup_path empty, set to /tmp/orcaslicer_model/Tue_Oct_20/10_49_46#3154#3
+[2026-10-20 10:49:46.933714] [0x00007f28735db4c0] [info]    create /3D/Objects in "/tmp/orcaslicer_model/Tue_Oct_20/10_49_46#3154#3"
+[2026-10-20 10:49:46.933866] [0x00007f28735db4c0] [info]    create /Metadata in "/tmp/orcaslicer_model/Tue_Oct_20/10_49_46#3154#3"
+[2026-10-20 10:49:46.933902] [0x00007f28735db4c0] [info]    create /lock.txt in "/tmp/orcaslicer_model/Tue_Oct_20/10_49_46#3154#3"
+[2026-10-20 10:49:46.933971] [0x00007f28735db4c0] [info]    _load_model_from_file:1564import 3mf IMPORT_STAGE_OPEN, m_load_restore=0
 
-[2026-10-20 10:46:39.200967] [0x00007fe4e47734c0] [info]    _load_model_from_file:1600import 3mf IMPORT_STAGE_READ_FILES
+[2026-10-20 10:49:46.933999] [0x00007f28735db4c0] [info]    _load_model_from_file:1600import 3mf IMPORT_STAGE_READ_FILES
 
-[2026-10-20 10:46:40.066699] [0x00007fe4e47734c0] [info]    _load_model_from_file:1751extract 1th file 3D/3dmodel.model, total=3
-[2026-10-20 10:46:40.066727] [0x00007fe4e47734c0] [info]    _load_model_from_file:1848, 3D/3dmodel.model skipped, already parsed or a directory or not supported
+[2026-10-20 10:49:47.420310] [0x00007f28735db4c0] [info]    _load_model_from_file:1751extract 1th file 3D/3dmodel.model, total=3
+[2026-10-20 10:49:47.420344] [0x00007f28735db4c0] [info]    _load_model_from_file:1848, 3D/3dmodel.model skipped, already parsed or a directory or not supported
 
-[2026-10-20 10:46:40.066735] [0x00007fe4e47734c0] [info]    _load_model_from_file:1751extract 2th file _rels/.rels, total=3
-[2026-10-20 10:46:40.066740] [0x00007fe4e47734c0] [info]    _load_model_from_file:1848, _rels/.rels skipped, already parsed or a directory or not supported
+[2026-10-20 10:49:47.420350] [0x00007f28735db4c0] [info]    _load_model_from_file:1751extract 2th file _rels/.rels, total=3
+[2026-10-20 10:49:47.420353] [0x00007f28735db4c0] [info]    _load_model_from_file:1848, _rels/.rels skipped, already parsed or a directory or not supported
 
-[2026-10-20 10:46:40.066747] [0x00007fe4e47734c0] [info]    _load_model_from_file:1751extract 3th file [Content_Types].xml, total=3
-[2026-10-20 10:46:40.066750] [0x00007fe4e47734c0] [info]    _load_model_from_file:1848, [Content_Types].xml skipped, already parsed or a directory or not supported
+[2026-10-20 10:49:47.420358] [0x00007f28735db4c0] [info]    _load_model_from_file:1751extract 3th file [Content_Types].xml, total=3
+[2026-10-20 10:49:47.420361] [0x00007f28735db4c0] [info]    _load_model_from_file:1848, [Content_Types].xml skipped, already parsed or a directory or not supported
 
-[2026-10-20 10:46:40.066760] [0x00007fe4e47734c0] [info]    _load_model_from_file:1858, found 3mf from other vendor, split as instance
-[2026-10-20 10:46:40.066764] [0x00007fe4e47734c0] [info]    _load_model_from_file:1900, process group colors, size 0
+[2026-10-20 10:49:47.420373] [0x00007f28735db4c0] [info]    _load_model_from_file:1858, found 3mf from other vendor, split as instance
+[2026-10-20 10:49:47.420376] [0x00007f28735db4c0] [info]    _load_model_from_file:1900, process group colors, size 0
 
-[2026-10-20 10:46:40.066768] [0x00007fe4e47734c0] [info]    _load_model_from_file:1915, begin to assemble objects, size 9
+[2026-10-20 10:49:47.420379] [0x00007f28735db4c0] [info]    _load_model_from_file:1915, begin to assemble objects, size 9
 
-[2026-10-20 10:46:40.066775] [0x00007fe4e47734c0] [info]    _generate_volumes_new: line 4665, subobject_id 1, shared_mesh_id 1
-[2026-10-20 10:46:40.326312] [0x00007fe4e47734c0] [info]    _generate_volumes_new: line 4665, subobject_id 2, shared_mesh_id 2
-[2026-10-20 10:46:40.342753] [0x00007fe4e47734c0] [info]    _generate_volumes_new: line 4665, subobject_id 3, shared_mesh_id 3
-[2026-10-20 10:46:40.358578] [0x00007fe4e47734c0] [info]    _generate_volumes_new: line 4665, subobject_id 4, shared_mesh_id 4
-[2026-10-20 10:46:40.360942] [0x00007fe4e47734c0] [info]    _generate_volumes_new: line 4665, subobject_id 5, shared_mesh_id 5
-[2026-10-20 10:46:40.386792] [0x00007fe4e47734c0] [info]    _generate_volumes_new: line 4665, subobject_id 6, shared_mesh_id 6
-[2026-10-20 10:46:40.433116] [0x00007fe4e47734c0] [info]    _generate_volumes_new: line 4665, subobject_id 7, shared_mesh_id 7
-[2026-10-20 10:46:40.436079] [0x00007fe4e47734c0] [info]    _generate_volumes_new: line 4665, subobject_id 8, shared_mesh_id 8
-[2026-10-20 10:46:40.439593] [0x00007fe4e47734c0] [info]    _generate_volumes_new: line 4665, subobject_id 9, shared_mesh_id 9
-[2026-10-20 10:46:40.445368] [0x00007fe4e47734c0] [info]    _load_model_from_file:2115import 3mf IMPORT_STAGE_LOADING_PLATES, m_plater_data size 0, m_backup_path /tmp/orcaslicer_model/Tue_Oct_20/10_46_39#3335#3
+[2026-10-20 10:49:47.420388] [0x00007f28735db4c0] [info]    _generate_volumes_new: line 4665, subobject_id 1, shared_mesh_id 1
+[2026-10-20 10:49:47.658748] [0x00007f28735db4c0] [info]    _generate_volumes_new: line 4665, subobject_id 2, shared_mesh_id 2
+[2026-10-20 10:49:47.669342] [0x00007f28735db4c0] [info]    _generate_volumes_new: line 4665, subobject_id 3, shared_mesh_id 3
+[2026-10-20 10:49:47.679428] [0x00007f28735db4c0] [info]    _generate_volumes_new: line 4665, subobject_id 4, shared_mesh_id 4
+[2026-10-20 10:49:47.681045] [0x00007f28735db4c0] [info]    _generate_volumes_new: line 4665, subobject_id 5, shared_mesh_id 5
+[2026-10-20 10:49:47.697441] [0x00007f28735db4c0] [info]    _generate_volumes_new: line 4665, subobject_id 6, shared_mesh_id 6
+[2026-10-20 10:49:47.727182] [0x00007f28735db4c0] [info]    _generate_volumes_new: line 4665, subobject_id 7, shared_mesh_id 7
+[2026-10-20 10:49:47.729209] [0x00007f28735db4c0] [info]    _generate_volumes_new: line 4665, subobject_id 8, shared_mesh_id 8
+[2026-10-20 10:49:47.731528] [0x00007f28735db4c0] [info]    _generate_volumes_new: line 4665, subobject_id 9, shared_mesh_id 9
+[2026-10-20 10:49:47.735176] [0x00007f28735db4c0] [info]    _load_model_from_file:2115import 3mf IMPORT_STAGE_LOADING_PLATES, m_plater_data size 0, m_backup_path /tmp/orcaslicer_model/Tue_Oct_20/10_49_46#3154#3
 
-[2026-10-20 10:46:40.445390] [0x00007fe4e47734c0] [info]    _load_model_from_file:2218import 3mf IMPORT_STAGE_FINISH
+[2026-10-20 10:49:47.735219] [0x00007f28735db4c0] [info]    _load_model_from_file:2218import 3mf IMPORT_STAGE_FINISH
 
-[2026-10-20 10:46:40.449159] [0x00007fe4e47734c0] [info]    object BODY, id :5, from stl or other 3mf
+[2026-10-20 10:49:47.737966] [0x00007f28735db4c0] [info]    object BODY, id :5, from stl or other 3mf
 
-[2026-10-20 10:46:40.449421] [0x00007fe4e47734c0] [info]    object LEFT_KEY, id :9, from stl or other 3mf
+[2026-10-20 10:49:47.738171] [0x00007f28735db4c0] [info]    object LEFT_KEY, id :9, from stl or other 3mf
 
-[2026-10-20 10:46:40.449441] [0x00007fe4e47734c0] [info]    object RIGHT_KEY, id :13, from stl or other 3mf
+[2026-10-20 10:49:47.738197] [0x00007f28735db4c0] [info]    object RIGHT_KEY, id :13, from stl or other 3mf
 
-[2026-10-20 10:46:40.449461] [0x00007fe4e47734c0] [info]    object SF_RETAINER, id :17, from stl or other 3mf
+[2026-10-20 10:49:47.738211] [0x00007f28735db4c0] [info]    object SF_RETAINER, id :17, from stl or other 3mf
 
-[2026-10-20 10:46:40.449468] [0x00007fe4e47734c0] [info]    object SIDE_FRONT_KEY, id :21, from stl or other 3mf
+[2026-10-20 10:49:47.738217] [0x00007f28735db4c0] [info]    object SIDE_FRONT_KEY, id :21, from stl or other 3mf
 
-[2026-10-20 10:46:40.449487] [0x00007fe4e47734c0] [info]    object SIDE_REAR_KEY, id :25, from stl or other 3mf
+[2026-10-20 10:49:47.738231] [0x00007f28735db4c0] [info]    object SIDE_REAR_KEY, id :25, from stl or other 3mf
 
-[2026-10-20 10:46:40.449508] [0x00007fe4e47734c0] [info]    object SR_RETAINER, id :29, from stl or other 3mf
+[2026-10-20 10:49:47.738247] [0x00007f28735db4c0] [info]    object SR_RETAINER, id :29, from stl or other 3mf
 
-[2026-10-20 10:46:40.449515] [0x00007fe4e47734c0] [info]    object WHEEL, id :33, from stl or other 3mf
+[2026-10-20 10:49:47.738252] [0x00007f28735db4c0] [info]    object WHEEL, id :33, from stl or other 3mf
 
-[2026-10-20 10:46:40.449519] [0x00007fe4e47734c0] [info]    object WHEEL_CARRIER, id :37, from stl or other 3mf
+[2026-10-20 10:49:47.738256] [0x00007f28735db4c0] [info]    object WHEEL_CARRIER, id :37, from stl or other 3mf
 
-[2026-10-20 10:46:40.449537] [0x00007fe4e47734c0] [info]    run:before load settings, file count=2
+[2026-10-20 10:49:47.738278] [0x00007f28735db4c0] [info]    run:before load settings, file count=2
 
-[2026-10-20 10:46:40.449554] [0x00007fe4e47734c0] [info]    operator():load setting file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/machine.json, with rule 1
+[2026-10-20 10:49:47.738308] [0x00007f28735db4c0] [info]    operator():load setting file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/machine.json, with rule 1
 
-[2026-10-20 10:46:40.449901] [0x00007fe4e47734c0] [info]    no substitutions performed from file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/machine.json
+[2026-10-20 10:49:47.738623] [0x00007f28735db4c0] [info]    no substitutions performed from file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/machine.json
 
-[2026-10-20 10:46:40.449929] [0x00007fe4e47734c0] [info]    loaded machine config /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/machine.json, type Quietmirror Dremel 3D45 0.4, name User, inherits Dremel 3D45 0.4 nozzle, printer_model_id 
-[2026-10-20 10:46:40.449936] [0x00007fe4e47734c0] [info]    operator():load setting file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/process.json, with rule 1
+[2026-10-20 10:49:47.738655] [0x00007f28735db4c0] [info]    loaded machine config /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/machine.json, type Quietmirror Dremel 3D45 0.4, name User, inherits Dremel 3D45 0.4 nozzle, printer_model_id 
+[2026-10-20 10:49:47.738661] [0x00007f28735db4c0] [info]    operator():load setting file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/process.json, with rule 1
 
-[2026-10-20 10:46:40.450271] [0x00007fe4e47734c0] [info]    no substitutions performed from file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/process.json
+[2026-10-20 10:49:47.738905] [0x00007f28735db4c0] [info]    no substitutions performed from file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/process.json
 
-[2026-10-20 10:46:40.450283] [0x00007fe4e47734c0] [info]    loaded process config /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/process.json, type Quietmirror 0.20mm PLA 3D45, name User, inherits 0.20mm Standard @Dremel 3D45 0.4
-[2026-10-20 10:46:40.450291] [0x00007fe4e47734c0] [info]    operator():load setting file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/filament.json, with rule 1
+[2026-10-20 10:49:47.738914] [0x00007f28735db4c0] [info]    loaded process config /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/process.json, type Quietmirror 0.20mm PLA 3D45, name User, inherits 0.20mm Standard @Dremel 3D45 0.4
+[2026-10-20 10:49:47.738920] [0x00007f28735db4c0] [info]    operator():load setting file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/filament.json, with rule 1
 
-[2026-10-20 10:46:40.450532] [0x00007fe4e47734c0] [info]    no substitutions performed from file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/filament.json
+[2026-10-20 10:49:47.739075] [0x00007f28735db4c0] [info]    no substitutions performed from file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/filament.json
 
-[2026-10-20 10:46:40.450542] [0x00007fe4e47734c0] [info]    loaded filament 1 from file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/filament.json, type User, name Quietmirror PLA 3D45, inherits Dremel PLA @3D45
-[2026-10-20 10:46:40.450547] [0x00007fe4e47734c0] [info]    current printer , new printer Quietmirror Dremel 3D45 0.4, current process , new process Quietmirror 0.20mm PLA 3D45
-[2026-10-20 10:46:40.450551] [0x00007fe4e47734c0] [info]    current printer inherits , new printer inherits Dremel 3D45 0.4 nozzle, current process inherits , new process inherits 0.20mm Standard @Dremel 3D45 0.4
-[2026-10-20 10:46:40.450554] [0x00007fe4e47734c0] [info]    index 0, new print compatible printer Dremel 3D45 0.4 nozzle
-[2026-10-20 10:46:40.450559] [0x00007fe4e47734c0] [info]    new printer Quietmirror Dremel 3D45 0.4, inherited from Dremel 3D45 0.4 nozzle, new process Quietmirror 0.20mm PLA 3D45, inherited from 0.20mm Standard @Dremel 3D45 0.4 ,compatible 1
-[2026-10-20 10:46:40.450572] [0x00007fe4e47734c0] [info]    update printer config to newest, different size 0, different_settings: 
-[2026-10-20 10:46:40.450598] [0x00007fe4e47734c0] [info]    update_full_config: config keys count 70
-[2026-10-20 10:46:40.450640] [0x00007fe4e47734c0] [info]    load a new printer, update all the keys, different_settings: 
-[2026-10-20 10:46:40.450645] [0x00007fe4e47734c0] [info]    check printer cli safe params, current_printer_name , new_printer_name Quietmirror Dremel 3D45 0.4, printer_model Dremel 3D45
-[2026-10-20 10:46:40.450649] [0x00007fe4e47734c0] [info]    line 2464 , will parse file /home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/work/l2_r4_3d45/squashfs-root/resources/profiles/BBL/cli_config.json
-[2026-10-20 10:46:40.450655] [0x00007fe4e47734c0] [warning] file /home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/work/l2_r4_3d45/squashfs-root/resources/profiles/BBL/cli_config.json not exist.
-[2026-10-20 10:46:40.450661] [0x00007fe4e47734c0] [info]    update process config to newest, different size 0, different_settings: 
-[2026-10-20 10:46:40.450670] [0x00007fe4e47734c0] [info]    update_full_config: config keys count 109
-[2026-10-20 10:46:40.450735] [0x00007fe4e47734c0] [info]    load a new process, update all the keys, different_settings: 
-[2026-10-20 10:46:40.450744] [0x00007fe4e47734c0] [info]    update filament 1's config to newest, different size 0, name Quietmirror PLA 3D45, different_settings 
-[2026-10-20 10:46:40.450780] [0x00007fe4e47734c0] [info]    skip scalar option inherits from filament 1: Quietmirror PLA 3D45
-[2026-10-20 10:46:40.450795] [0x00007fe4e47734c0] [warning] no filament colors found in projects
-[2026-10-20 10:46:40.450798] [0x00007fe4e47734c0] [info]    total 1 models, 0 objects
+[2026-10-20 10:49:47.739082] [0x00007f28735db4c0] [info]    loaded filament 1 from file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/filament.json, type User, name Quietmirror PLA 3D45, inherits Dremel PLA @3D45
+[2026-10-20 10:49:47.739086] [0x00007f28735db4c0] [info]    current printer , new printer Quietmirror Dremel 3D45 0.4, current process , new process Quietmirror 0.20mm PLA 3D45
+[2026-10-20 10:49:47.739089] [0x00007f28735db4c0] [info]    current printer inherits , new printer inherits Dremel 3D45 0.4 nozzle, current process inherits , new process inherits 0.20mm Standard @Dremel 3D45 0.4
+[2026-10-20 10:49:47.739092] [0x00007f28735db4c0] [info]    index 0, new print compatible printer Dremel 3D45 0.4 nozzle
+[2026-10-20 10:49:47.739102] [0x00007f28735db4c0] [info]    new printer Quietmirror Dremel 3D45 0.4, inherited from Dremel 3D45 0.4 nozzle, new process Quietmirror 0.20mm PLA 3D45, inherited from 0.20mm Standard @Dremel 3D45 0.4 ,compatible 1
+[2026-10-20 10:49:47.739109] [0x00007f28735db4c0] [info]    update printer config to newest, different size 0, different_settings: 
+[2026-10-20 10:49:47.739135] [0x00007f28735db4c0] [info]    update_full_config: config keys count 70
+[2026-10-20 10:49:47.739166] [0x00007f28735db4c0] [info]    load a new printer, update all the keys, different_settings: 
+[2026-10-20 10:49:47.739169] [0x00007f28735db4c0] [info]    check printer cli safe params, current_printer_name , new_printer_name Quietmirror Dremel 3D45 0.4, printer_model Dremel 3D45
+[2026-10-20 10:49:47.739173] [0x00007f28735db4c0] [info]    line 2464 , will parse file /home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/work/l2_r4_3d45/squashfs-root/resources/profiles/BBL/cli_config.json
+[2026-10-20 10:49:47.739177] [0x00007f28735db4c0] [warning] file /home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/work/l2_r4_3d45/squashfs-root/resources/profiles/BBL/cli_config.json not exist.
+[2026-10-20 10:49:47.739182] [0x00007f28735db4c0] [info]    update process config to newest, different size 0, different_settings: 
+[2026-10-20 10:49:47.739188] [0x00007f28735db4c0] [info]    update_full_config: config keys count 109
+[2026-10-20 10:49:47.739229] [0x00007f28735db4c0] [info]    load a new process, update all the keys, different_settings: 
+[2026-10-20 10:49:47.739236] [0x00007f28735db4c0] [info]    update filament 1's config to newest, different size 0, name Quietmirror PLA 3D45, different_settings 
+[2026-10-20 10:49:47.739261] [0x00007f28735db4c0] [info]    skip scalar option inherits from filament 1: Quietmirror PLA 3D45
+[2026-10-20 10:49:47.739271] [0x00007f28735db4c0] [warning] no filament colors found in projects
+[2026-10-20 10:49:47.739274] [0x00007f28735db4c0] [info]    total 1 models, 0 objects
 
-[2026-10-20 10:46:40.451495] [0x00007fe4e47734c0] [info]    translate_old 0, shrink_to_new_bed 0, old bed size {255, 155, 170}
-[2026-10-20 10:46:40.451505] [0x00007fe4e47734c0] [info]    reset_size:before size: plate_width 0, plate_depth 0, plate_height 0
-[2026-10-20 10:46:40.451509] [0x00007fe4e47734c0] [info]    reset_size:after size: plate_width 255, plate_depth 155, plate_height 170
-[2026-10-20 10:46:40.451526] [0x00007fe4e47734c0] [info]    set_pos_and_size: plate_id 0, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
-[2026-10-20 10:46:40.451532] [0x00007fe4e47734c0] [info]    set_pos_and_size: with_instance_move 0, after, origin {0,0,0}, plate_width 255, plate_depth 155, plate_height 170
-[2026-10-20 10:46:40.451536] [0x00007fe4e47734c0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
-[2026-10-20 10:46:40.451541] [0x00007fe4e47734c0] [info]    set_pos_and_size: plate_id 1, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
-[2026-10-20 10:46:40.451547] [0x00007fe4e47734c0] [info]    set_pos_and_size: with_instance_move 0, after, origin {306,0,0}, plate_width 255, plate_depth 155, plate_height 170
-[2026-10-20 10:46:40.451551] [0x00007fe4e47734c0] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
-[2026-10-20 10:46:40.451555] [0x00007fe4e47734c0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
-[2026-10-20 10:46:40.451558] [0x00007fe4e47734c0] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
-[2026-10-20 10:46:40.451579] [0x00007fe4e47734c0] [error]   calc_exclude_triangles:Unable to create exclude triangles
+[2026-10-20 10:49:47.739822] [0x00007f28735db4c0] [info]    translate_old 0, shrink_to_new_bed 0, old bed size {255, 155, 170}
+[2026-10-20 10:49:47.739834] [0x00007f28735db4c0] [info]    reset_size:before size: plate_width 0, plate_depth 0, plate_height 0
+[2026-10-20 10:49:47.739837] [0x00007f28735db4c0] [info]    reset_size:after size: plate_width 255, plate_depth 155, plate_height 170
+[2026-10-20 10:49:47.739855] [0x00007f28735db4c0] [info]    set_pos_and_size: plate_id 0, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+[2026-10-20 10:49:47.739858] [0x00007f28735db4c0] [info]    set_pos_and_size: with_instance_move 0, after, origin {0,0,0}, plate_width 255, plate_depth 155, plate_height 170
+[2026-10-20 10:49:47.739862] [0x00007f28735db4c0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-20 10:49:47.739866] [0x00007f28735db4c0] [info]    set_pos_and_size: plate_id 1, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+[2026-10-20 10:49:47.739872] [0x00007f28735db4c0] [info]    set_pos_and_size: with_instance_move 0, after, origin {306,0,0}, plate_width 255, plate_depth 155, plate_height 170
+[2026-10-20 10:49:47.739874] [0x00007f28735db4c0] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+[2026-10-20 10:49:47.739877] [0x00007f28735db4c0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-20 10:49:47.739879] [0x00007f28735db4c0] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+[2026-10-20 10:49:47.739902] [0x00007f28735db4c0] [error]   calc_exclude_triangles:Unable to create exclude triangles
 
-[2026-10-20 10:46:40.451685] [0x00007fe4e47734c0] [info]    will start transforms, commands count 2
+[2026-10-20 10:49:47.740003] [0x00007f28735db4c0] [info]    will start transforms, commands count 2
 
-[2026-10-20 10:46:40.451689] [0x00007fe4e47734c0] [info]    process transform arrange
+[2026-10-20 10:49:47.740006] [0x00007f28735db4c0] [info]    process transform arrange
 
-[2026-10-20 10:46:40.451692] [0x00007fe4e47734c0] [info]    process transform orient
+[2026-10-20 10:49:47.740009] [0x00007f28735db4c0] [info]    process transform orient
 
-[2026-10-20 10:46:40.451696] [0x00007fe4e47734c0] [info]    object BODY, id :5, no need to orient when setting orient to 0
+[2026-10-20 10:49:47.740013] [0x00007f28735db4c0] [info]    object BODY, id :5, no need to orient when setting orient to 0
 
-[2026-10-20 10:46:40.451699] [0x00007fe4e47734c0] [info]    object LEFT_KEY, id :9, no need to orient when setting orient to 0
+[2026-10-20 10:49:47.740015] [0x00007f28735db4c0] [info]    object LEFT_KEY, id :9, no need to orient when setting orient to 0
 
-[2026-10-20 10:46:40.451701] [0x00007fe4e47734c0] [info]    object RIGHT_KEY, id :13, no need to orient when setting orient to 0
+[2026-10-20 10:49:47.740017] [0x00007f28735db4c0] [info]    object RIGHT_KEY, id :13, no need to orient when setting orient to 0
 
-[2026-10-20 10:46:40.451704] [0x00007fe4e47734c0] [info]    object SF_RETAINER, id :17, no need to orient when setting orient to 0
+[2026-10-20 10:49:47.740019] [0x00007f28735db4c0] [info]    object SF_RETAINER, id :17, no need to orient when setting orient to 0
 
-[2026-10-20 10:46:40.451712] [0x00007fe4e47734c0] [info]    object SIDE_FRONT_KEY, id :21, no need to orient when setting orient to 0
+[2026-10-20 10:49:47.740031] [0x00007f28735db4c0] [info]    object SIDE_FRONT_KEY, id :21, no need to orient when setting orient to 0
 
-[2026-10-20 10:46:40.451714] [0x00007fe4e47734c0] [info]    object SIDE_REAR_KEY, id :25, no need to orient when setting orient to 0
+[2026-10-20 10:49:47.740033] [0x00007f28735db4c0] [info]    object SIDE_REAR_KEY, id :25, no need to orient when setting orient to 0
 
-[2026-10-20 10:46:40.451717] [0x00007fe4e47734c0] [info]    object SR_RETAINER, id :29, no need to orient when setting orient to 0
+[2026-10-20 10:49:47.740035] [0x00007f28735db4c0] [info]    object SR_RETAINER, id :29, no need to orient when setting orient to 0
 
-[2026-10-20 10:46:40.451720] [0x00007fe4e47734c0] [info]    object WHEEL, id :33, no need to orient when setting orient to 0
+[2026-10-20 10:49:47.740037] [0x00007f28735db4c0] [info]    object WHEEL, id :33, no need to orient when setting orient to 0
 
-[2026-10-20 10:46:40.451722] [0x00007fe4e47734c0] [info]    object WHEEL_CARRIER, id :37, no need to orient when setting orient to 0
+[2026-10-20 10:49:47.740039] [0x00007f28735db4c0] [info]    object WHEEL_CARRIER, id :37, no need to orient when setting orient to 0
 
-[2026-10-20 10:46:40.451726] [0x00007fe4e47734c0] [info]    orient_option 0
-[2026-10-20 10:46:40.451729] [0x00007fe4e47734c0] [info]    finished model pre-process commands
+[2026-10-20 10:49:47.740041] [0x00007f28735db4c0] [info]    orient_option 0
+[2026-10-20 10:49:47.740043] [0x00007f28735db4c0] [info]    finished model pre-process commands
 
-[2026-10-20 10:46:40.451734] [0x00007fe4e47734c0] [info]    before arrange, need_arrange=0, duplicate_count 0, filament_color_changed 0
-[2026-10-20 10:46:40.451741] [0x00007fe4e47734c0] [info]    Need to slice for plate 0, total plate count 1 partplates!
+[2026-10-20 10:49:47.740048] [0x00007f28735db4c0] [info]    before arrange, need_arrange=0, duplicate_count 0, filament_color_changed 0
+[2026-10-20 10:49:47.740056] [0x00007f28735db4c0] [info]    Need to slice for plate 0, total plate count 1 partplates!
 
-[2026-10-20 10:46:40.451748] [0x00007fe4e47734c0] [info]    Plate 1: pre_check 1, start
-[2026-10-20 10:46:40.452832] [0x00007fe4e47734c0] [info]    update_print_volume_state, print_volume {-127.5, -77.5, 0} to {127.5, 77.5, 170}, got 9 printable istances
-[2026-10-20 10:46:40.452841] [0x00007fe4e47734c0] [info]    plate 1: load cached data success, go on.
-[2026-10-20 10:46:40.453061] [0x00007fe4e47734c0] [info]    apply, Line 1029: enter
-[2026-10-20 10:46:40.453076] [0x00007fe4e47734c0] [info]    apply, has_scarf_joint_seam:false
-[2026-10-20 10:46:40.453332] [0x00007fe4e47734c0] [info]    apply, got print_diff 66, object_diff 20, region_diff 24, set status to APPLY_STATUS_CHANGED
-[2026-10-20 10:46:40.453379] [0x00007fe4e47734c0] [info]    apply 1103: found full_config_diff changed.
-[2026-10-20 10:46:40.456330] [0x00007fe4e47734c0] [info]    apply 1425: found print object changed.
-[2026-10-20 10:46:40.522287] [0x00007fe4e47734c0] [info]    apply 1620: finished,  this 0x562067083010, m_modified_count 1, apply_status 1, m_support_used 1
-[2026-10-20 10:46:40.522357] [0x00007fe4e47734c0] [info]    set no_check to 0:
-[2026-10-20 10:46:40.525215] [0x00007fe4e47734c0] [info]    start Print::process for partplate 1
+[2026-10-20 10:49:47.740060] [0x00007f28735db4c0] [info]    Plate 1: pre_check 1, start
+[2026-10-20 10:49:47.740781] [0x00007f28735db4c0] [info]    update_print_volume_state, print_volume {-127.5, -77.5, 0} to {127.5, 77.5, 170}, got 9 printable istances
+[2026-10-20 10:49:47.740791] [0x00007f28735db4c0] [info]    plate 1: load cached data success, go on.
+[2026-10-20 10:49:47.740948] [0x00007f28735db4c0] [info]    apply, Line 1029: enter
+[2026-10-20 10:49:47.740970] [0x00007f28735db4c0] [info]    apply, has_scarf_joint_seam:false
+[2026-10-20 10:49:47.741261] [0x00007f28735db4c0] [info]    apply, got print_diff 66, object_diff 20, region_diff 24, set status to APPLY_STATUS_CHANGED
+[2026-10-20 10:49:47.741309] [0x00007f28735db4c0] [info]    apply 1103: found full_config_diff changed.
+[2026-10-20 10:49:47.743415] [0x00007f28735db4c0] [info]    apply 1425: found print object changed.
+[2026-10-20 10:49:47.790112] [0x00007f28735db4c0] [info]    apply 1620: finished,  this 0x55c7513b4fd0, m_modified_count 1, apply_status 1, m_support_used 1
+[2026-10-20 10:49:47.790194] [0x00007f28735db4c0] [info]    set no_check to 0:
+[2026-10-20 10:49:47.792448] [0x00007f28735db4c0] [info]    start Print::process for partplate 1
 
-[2026-10-20 10:46:40.525223] [0x00007fe4e47734c0] [info]    cli callback mgr started:  false
+[2026-10-20 10:49:47.792471] [0x00007f28735db4c0] [info]    cli callback mgr started:  false
 
-[2026-10-20 10:46:40.525226] [0x00007fe4e47734c0] [info]    set print's callback to default_status_callback.
-[2026-10-20 10:46:40.525234] [0x00007fe4e47734c0] [info]    printer_model_string: Dremel 3D45, is_bbl_vendor_preset 0
-[2026-10-20 10:46:40.527169] [0x00007fe4e47734c0] [info]    process: this=0x562067083010, enter, use_cache=0, object size=9
-[2026-10-20 10:46:40.527188] [0x00007fe4e47734c0] [info]    process: total object counts 9 in current print, need to slice 9
-[2026-10-20 10:46:40.527229] [0x00007fe4e47734c0] [info]    Starting the slicing process. Resident memory: 148MB; Shared memory: 57MB; Private memory: 91MB; Peak memory usage: 629MB
-[2026-10-20 10:46:40.527262] [0x00007fe4e47734c0] [info]    Slicing volumes... Resident memory: 148MB; Shared memory: 57MB; Private memory: 91MB; Peak memory usage: 629MB
-[2026-10-20 10:46:41.273761] [0x00007fe4e47734c0] [info]    Make overhang printable...
-[2026-10-20 10:46:41.273798] [0x00007fe4e47734c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
-[2026-10-20 10:46:41.273804] [0x00007fe4e47734c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
-[2026-10-20 10:46:41.289214] [0x00007fe4e47734c0] [info]    Generating walls... Resident memory: 174MB; Shared memory: 58MB; Private memory: 116MB; Peak memory usage: 629MB
-[2026-10-20 10:46:42.084963] [0x00007fe4e47734c0] [info]    Slicing volumes... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
-[2026-10-20 10:46:42.111839] [0x00007fe4e47734c0] [info]    Make overhang printable...
-[2026-10-20 10:46:42.111860] [0x00007fe4e47734c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
-[2026-10-20 10:46:42.111876] [0x00007fe4e47734c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
-[2026-10-20 10:46:42.113634] [0x00007fe4e47734c0] [info]    Generating walls... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
-[2026-10-20 10:46:42.205479] [0x00007fe4e47734c0] [info]    Slicing volumes... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
-[2026-10-20 10:46:42.232827] [0x00007fe4e47734c0] [info]    Make overhang printable...
-[2026-10-20 10:46:42.232852] [0x00007fe4e47734c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
-[2026-10-20 10:46:42.232856] [0x00007fe4e47734c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
-[2026-10-20 10:46:42.234531] [0x00007fe4e47734c0] [info]    Generating walls... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
-[2026-10-20 10:46:42.329370] [0x00007fe4e47734c0] [info]    Slicing volumes... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
-[2026-10-20 10:46:42.332293] [0x00007fe4e47734c0] [info]    Make overhang printable...
-[2026-10-20 10:46:42.332313] [0x00007fe4e47734c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
-[2026-10-20 10:46:42.332318] [0x00007fe4e47734c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
-[2026-10-20 10:46:42.332598] [0x00007fe4e47734c0] [info]    Generating walls... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
-[2026-10-20 10:46:42.338146] [0x00007fe4e47734c0] [info]    Slicing volumes... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
-[2026-10-20 10:46:42.353616] [0x00007fe4e47734c0] [info]    Make overhang printable...
-[2026-10-20 10:46:42.353631] [0x00007fe4e47734c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
-[2026-10-20 10:46:42.353636] [0x00007fe4e47734c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
-[2026-10-20 10:46:42.354163] [0x00007fe4e47734c0] [info]    Generating walls... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
-[2026-10-20 10:46:42.371022] [0x00007fe4e47734c0] [info]    Slicing volumes... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
-[2026-10-20 10:46:42.387400] [0x00007fe4e47734c0] [info]    Make overhang printable...
-[2026-10-20 10:46:42.387416] [0x00007fe4e47734c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
-[2026-10-20 10:46:42.387420] [0x00007fe4e47734c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
-[2026-10-20 10:46:42.387949] [0x00007fe4e47734c0] [info]    Generating walls... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
-[2026-10-20 10:46:42.408856] [0x00007fe4e47734c0] [info]    Slicing volumes... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
-[2026-10-20 10:46:42.412296] [0x00007fe4e47734c0] [info]    Make overhang printable...
-[2026-10-20 10:46:42.412309] [0x00007fe4e47734c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
-[2026-10-20 10:46:42.412313] [0x00007fe4e47734c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
-[2026-10-20 10:46:42.412655] [0x00007fe4e47734c0] [info]    Generating walls... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
-[2026-10-20 10:46:42.418643] [0x00007fe4e47734c0] [info]    Slicing volumes... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
-[2026-10-20 10:46:42.432622] [0x00007fe4e47734c0] [info]    Make overhang printable...
-[2026-10-20 10:46:42.432636] [0x00007fe4e47734c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
-[2026-10-20 10:46:42.432641] [0x00007fe4e47734c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
-[2026-10-20 10:46:42.434259] [0x00007fe4e47734c0] [info]    Generating walls... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
-[2026-10-20 10:46:42.522296] [0x00007fe4e47734c0] [info]    Slicing volumes... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
-[2026-10-20 10:46:42.541955] [0x00007fe4e47734c0] [info]    Make overhang printable...
-[2026-10-20 10:46:42.542001] [0x00007fe4e47734c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
-[2026-10-20 10:46:42.542009] [0x00007fe4e47734c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
-[2026-10-20 10:46:42.543668] [0x00007fe4e47734c0] [info]    Generating walls... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
-[2026-10-20 10:46:42.815773] [0x00007fe4e47734c0] [info]    Detecting solid surfaces... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.216786] [0x00007fe4e47734c0] [info]    Preparing fill surfaces... Resident memory: 179MB; Shared memory: 59MB; Private memory: 120MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.216825] [0x00007fe4e47734c0] [info]    Discovering vertical shells... Resident memory: 179MB; Shared memory: 59MB; Private memory: 120MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.541875] [0x00007fe4e47734c0] [info]    Processing external surfaces... Resident memory: 179MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.584273] [0x00007fe4e47734c0] [info]    Bridge over infill - Start Resident memory: 179MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.639509] [0x00007fe4e47734c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.642101] [0x00007fe4e47734c0] [info]    Bridge over infill - End Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.802855] [0x00007fe4e47734c0] [info]    Detecting solid surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.823621] [0x00007fe4e47734c0] [info]    Preparing fill surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.823655] [0x00007fe4e47734c0] [info]    Discovering vertical shells... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.845857] [0x00007fe4e47734c0] [info]    Processing external surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.847544] [0x00007fe4e47734c0] [info]    Bridge over infill - Start Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.851558] [0x00007fe4e47734c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.851609] [0x00007fe4e47734c0] [info]    Bridge over infill - End Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.884335] [0x00007fe4e47734c0] [info]    Detecting solid surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.905020] [0x00007fe4e47734c0] [info]    Preparing fill surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.905048] [0x00007fe4e47734c0] [info]    Discovering vertical shells... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.926368] [0x00007fe4e47734c0] [info]    Processing external surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.927964] [0x00007fe4e47734c0] [info]    Bridge over infill - Start Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.931690] [0x00007fe4e47734c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.931740] [0x00007fe4e47734c0] [info]    Bridge over infill - End Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.964661] [0x00007fe4e47734c0] [info]    Detecting solid surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.965853] [0x00007fe4e47734c0] [info]    Preparing fill surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.965879] [0x00007fe4e47734c0] [info]    Discovering vertical shells... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.966351] [0x00007fe4e47734c0] [info]    Processing external surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.966478] [0x00007fe4e47734c0] [info]    Bridge over infill - Start Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.966536] [0x00007fe4e47734c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.966558] [0x00007fe4e47734c0] [info]    Bridge over infill - End Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.966625] [0x00007fe4e47734c0] [info]    Detecting solid surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.973702] [0x00007fe4e47734c0] [info]    Preparing fill surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.973727] [0x00007fe4e47734c0] [info]    Discovering vertical shells... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.976057] [0x00007fe4e47734c0] [info]    Processing external surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.976125] [0x00007fe4e47734c0] [info]    Bridge over infill - Start Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.976154] [0x00007fe4e47734c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.976173] [0x00007fe4e47734c0] [info]    Bridge over infill - End Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.976196] [0x00007fe4e47734c0] [info]    Detecting solid surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.983740] [0x00007fe4e47734c0] [info]    Preparing fill surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.983764] [0x00007fe4e47734c0] [info]    Discovering vertical shells... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.986061] [0x00007fe4e47734c0] [info]    Processing external surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.986133] [0x00007fe4e47734c0] [info]    Bridge over infill - Start Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.986169] [0x00007fe4e47734c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.986189] [0x00007fe4e47734c0] [info]    Bridge over infill - End Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.986214] [0x00007fe4e47734c0] [info]    Detecting solid surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.987531] [0x00007fe4e47734c0] [info]    Preparing fill surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.987557] [0x00007fe4e47734c0] [info]    Discovering vertical shells... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.988223] [0x00007fe4e47734c0] [info]    Processing external surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.988412] [0x00007fe4e47734c0] [info]    Bridge over infill - Start Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.988490] [0x00007fe4e47734c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.988512] [0x00007fe4e47734c0] [info]    Bridge over infill - End Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.988921] [0x00007fe4e47734c0] [info]    Detecting solid surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.997674] [0x00007fe4e47734c0] [info]    Preparing fill surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:43.997701] [0x00007fe4e47734c0] [info]    Discovering vertical shells... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:44.001844] [0x00007fe4e47734c0] [info]    Processing external surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:44.003269] [0x00007fe4e47734c0] [info]    Bridge over infill - Start Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:44.004865] [0x00007fe4e47734c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:44.004914] [0x00007fe4e47734c0] [info]    Bridge over infill - End Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:44.011251] [0x00007fe4e47734c0] [info]    Detecting solid surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:44.028106] [0x00007fe4e47734c0] [info]    Preparing fill surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:44.028130] [0x00007fe4e47734c0] [info]    Discovering vertical shells... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:44.037195] [0x00007fe4e47734c0] [info]    Processing external surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:44.037894] [0x00007fe4e47734c0] [info]    Bridge over infill - Start Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:44.038430] [0x00007fe4e47734c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:44.038468] [0x00007fe4e47734c0] [info]    Bridge over infill - End Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
-[2026-10-20 10:46:44.042094] [0x00007fe4e47734c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
-[2026-10-20 10:46:44.042111] [0x00007fe4e40fc6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
-[2026-10-20 10:46:44.042121] [0x00007fe4e3cfb6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
-[2026-10-20 10:46:44.042148] [0x00007fe4e38fa6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
-[2026-10-20 10:46:44.067888] [0x00007fe4e3cfb6c0] [info]    max_cantilever_dist=4.42665e+06
-[2026-10-20 10:46:44.085596] [0x00007fe4e3cfb6c0] [info]    Tree support overhang detection done. 5 layers with overhangs. nEnforced=5
-[2026-10-20 10:46:44.095776] [0x00007fe4e3cfb6c0] [info]    Precalculating collision took5.41 ms. Precalculating avoidance took 4.515 ms.
-[2026-10-20 10:46:44.103407] [0x00007fe4e3cfb6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 2 ms merging areas: 0 ms
+[2026-10-20 10:49:47.792474] [0x00007f28735db4c0] [info]    set print's callback to default_status_callback.
+[2026-10-20 10:49:47.792485] [0x00007f28735db4c0] [info]    printer_model_string: Dremel 3D45, is_bbl_vendor_preset 0
+[2026-10-20 10:49:47.794435] [0x00007f28735db4c0] [info]    process: this=0x55c7513b4fd0, enter, use_cache=0, object size=9
+[2026-10-20 10:49:47.794469] [0x00007f28735db4c0] [info]    process: total object counts 9 in current print, need to slice 9
+[2026-10-20 10:49:47.794526] [0x00007f28735db4c0] [info]    Starting the slicing process. Resident memory: 147MB; Shared memory: 58MB; Private memory: 89MB; Peak memory usage: 629MB
+[2026-10-20 10:49:47.794552] [0x00007f28735db4c0] [info]    Slicing volumes... Resident memory: 147MB; Shared memory: 58MB; Private memory: 89MB; Peak memory usage: 629MB
+[2026-10-20 10:49:48.297506] [0x00007f28735db4c0] [info]    Make overhang printable...
+[2026-10-20 10:49:48.297551] [0x00007f28735db4c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
+[2026-10-20 10:49:48.297554] [0x00007f28735db4c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
+[2026-10-20 10:49:48.309108] [0x00007f28735db4c0] [info]    Generating walls... Resident memory: 170MB; Shared memory: 58MB; Private memory: 112MB; Peak memory usage: 629MB
+[2026-10-20 10:49:48.797090] [0x00007f28735db4c0] [info]    Slicing volumes... Resident memory: 172MB; Shared memory: 59MB; Private memory: 113MB; Peak memory usage: 629MB
+[2026-10-20 10:49:48.816470] [0x00007f28735db4c0] [info]    Make overhang printable...
+[2026-10-20 10:49:48.816509] [0x00007f28735db4c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
+[2026-10-20 10:49:48.816529] [0x00007f28735db4c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
+[2026-10-20 10:49:48.817906] [0x00007f28735db4c0] [info]    Generating walls... Resident memory: 172MB; Shared memory: 59MB; Private memory: 113MB; Peak memory usage: 629MB
+[2026-10-20 10:49:48.876481] [0x00007f28735db4c0] [info]    Slicing volumes... Resident memory: 172MB; Shared memory: 59MB; Private memory: 113MB; Peak memory usage: 629MB
+[2026-10-20 10:49:48.896044] [0x00007f28735db4c0] [info]    Make overhang printable...
+[2026-10-20 10:49:48.896086] [0x00007f28735db4c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
+[2026-10-20 10:49:48.896089] [0x00007f28735db4c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
+[2026-10-20 10:49:48.897341] [0x00007f28735db4c0] [info]    Generating walls... Resident memory: 172MB; Shared memory: 59MB; Private memory: 113MB; Peak memory usage: 629MB
+[2026-10-20 10:49:48.956599] [0x00007f28735db4c0] [info]    Slicing volumes... Resident memory: 172MB; Shared memory: 59MB; Private memory: 113MB; Peak memory usage: 629MB
+[2026-10-20 10:49:48.958827] [0x00007f28735db4c0] [info]    Make overhang printable...
+[2026-10-20 10:49:48.958860] [0x00007f28735db4c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
+[2026-10-20 10:49:48.958863] [0x00007f28735db4c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
+[2026-10-20 10:49:48.959132] [0x00007f28735db4c0] [info]    Generating walls... Resident memory: 172MB; Shared memory: 59MB; Private memory: 113MB; Peak memory usage: 629MB
+[2026-10-20 10:49:48.962421] [0x00007f28735db4c0] [info]    Slicing volumes... Resident memory: 172MB; Shared memory: 59MB; Private memory: 113MB; Peak memory usage: 629MB
+[2026-10-20 10:49:48.973684] [0x00007f28735db4c0] [info]    Make overhang printable...
+[2026-10-20 10:49:48.973721] [0x00007f28735db4c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
+[2026-10-20 10:49:48.973724] [0x00007f28735db4c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
+[2026-10-20 10:49:48.974156] [0x00007f28735db4c0] [info]    Generating walls... Resident memory: 172MB; Shared memory: 59MB; Private memory: 113MB; Peak memory usage: 629MB
+[2026-10-20 10:49:48.985356] [0x00007f28735db4c0] [info]    Slicing volumes... Resident memory: 172MB; Shared memory: 59MB; Private memory: 113MB; Peak memory usage: 629MB
+[2026-10-20 10:49:48.997611] [0x00007f28735db4c0] [info]    Make overhang printable...
+[2026-10-20 10:49:48.997652] [0x00007f28735db4c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
+[2026-10-20 10:49:48.997655] [0x00007f28735db4c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
+[2026-10-20 10:49:48.998123] [0x00007f28735db4c0] [info]    Generating walls... Resident memory: 172MB; Shared memory: 59MB; Private memory: 113MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.010818] [0x00007f28735db4c0] [info]    Slicing volumes... Resident memory: 172MB; Shared memory: 59MB; Private memory: 113MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.013368] [0x00007f28735db4c0] [info]    Make overhang printable...
+[2026-10-20 10:49:49.013404] [0x00007f28735db4c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
+[2026-10-20 10:49:49.013407] [0x00007f28735db4c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
+[2026-10-20 10:49:49.013693] [0x00007f28735db4c0] [info]    Generating walls... Resident memory: 172MB; Shared memory: 59MB; Private memory: 113MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.017102] [0x00007f28735db4c0] [info]    Slicing volumes... Resident memory: 172MB; Shared memory: 59MB; Private memory: 113MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.026517] [0x00007f28735db4c0] [info]    Make overhang printable...
+[2026-10-20 10:49:49.026554] [0x00007f28735db4c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
+[2026-10-20 10:49:49.026557] [0x00007f28735db4c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
+[2026-10-20 10:49:49.027696] [0x00007f28735db4c0] [info]    Generating walls... Resident memory: 172MB; Shared memory: 59MB; Private memory: 113MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.081643] [0x00007f28735db4c0] [info]    Slicing volumes... Resident memory: 172MB; Shared memory: 59MB; Private memory: 113MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.095672] [0x00007f28735db4c0] [info]    Make overhang printable...
+[2026-10-20 10:49:49.095713] [0x00007f28735db4c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
+[2026-10-20 10:49:49.095716] [0x00007f28735db4c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
+[2026-10-20 10:49:49.096986] [0x00007f28735db4c0] [info]    Generating walls... Resident memory: 172MB; Shared memory: 59MB; Private memory: 113MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.288256] [0x00007f28735db4c0] [info]    Detecting solid surfaces... Resident memory: 172MB; Shared memory: 59MB; Private memory: 113MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.542010] [0x00007f28735db4c0] [info]    Preparing fill surfaces... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.542054] [0x00007f28735db4c0] [info]    Discovering vertical shells... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.759318] [0x00007f28735db4c0] [info]    Processing external surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.789276] [0x00007f28735db4c0] [info]    Bridge over infill - Start Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.829169] [0x00007f28735db4c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.831108] [0x00007f28735db4c0] [info]    Bridge over infill - End Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.933912] [0x00007f28735db4c0] [info]    Detecting solid surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.948372] [0x00007f28735db4c0] [info]    Preparing fill surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.948409] [0x00007f28735db4c0] [info]    Discovering vertical shells... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.962958] [0x00007f28735db4c0] [info]    Processing external surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.963960] [0x00007f28735db4c0] [info]    Bridge over infill - Start Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.966430] [0x00007f28735db4c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.966469] [0x00007f28735db4c0] [info]    Bridge over infill - End Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:49.987528] [0x00007f28735db4c0] [info]    Detecting solid surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.001387] [0x00007f28735db4c0] [info]    Preparing fill surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.001424] [0x00007f28735db4c0] [info]    Discovering vertical shells... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.015691] [0x00007f28735db4c0] [info]    Processing external surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.016913] [0x00007f28735db4c0] [info]    Bridge over infill - Start Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.019375] [0x00007f28735db4c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.019417] [0x00007f28735db4c0] [info]    Bridge over infill - End Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.040252] [0x00007f28735db4c0] [info]    Detecting solid surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.041183] [0x00007f28735db4c0] [info]    Preparing fill surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.041216] [0x00007f28735db4c0] [info]    Discovering vertical shells... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.041530] [0x00007f28735db4c0] [info]    Processing external surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.041646] [0x00007f28735db4c0] [info]    Bridge over infill - Start Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.041685] [0x00007f28735db4c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.041700] [0x00007f28735db4c0] [info]    Bridge over infill - End Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.041747] [0x00007f28735db4c0] [info]    Detecting solid surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.046425] [0x00007f28735db4c0] [info]    Preparing fill surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.046459] [0x00007f28735db4c0] [info]    Discovering vertical shells... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.047964] [0x00007f28735db4c0] [info]    Processing external surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.048017] [0x00007f28735db4c0] [info]    Bridge over infill - Start Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.048036] [0x00007f28735db4c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.048049] [0x00007f28735db4c0] [info]    Bridge over infill - End Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.048067] [0x00007f28735db4c0] [info]    Detecting solid surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.053070] [0x00007f28735db4c0] [info]    Preparing fill surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.053102] [0x00007f28735db4c0] [info]    Discovering vertical shells... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.054707] [0x00007f28735db4c0] [info]    Processing external surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.054756] [0x00007f28735db4c0] [info]    Bridge over infill - Start Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.054792] [0x00007f28735db4c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.054814] [0x00007f28735db4c0] [info]    Bridge over infill - End Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.054833] [0x00007f28735db4c0] [info]    Detecting solid surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.055824] [0x00007f28735db4c0] [info]    Preparing fill surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.055848] [0x00007f28735db4c0] [info]    Discovering vertical shells... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.056402] [0x00007f28735db4c0] [info]    Processing external surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.056569] [0x00007f28735db4c0] [info]    Bridge over infill - Start Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.056637] [0x00007f28735db4c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.056651] [0x00007f28735db4c0] [info]    Bridge over infill - End Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.057075] [0x00007f28735db4c0] [info]    Detecting solid surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.062649] [0x00007f28735db4c0] [info]    Preparing fill surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.062677] [0x00007f28735db4c0] [info]    Discovering vertical shells... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.065340] [0x00007f28735db4c0] [info]    Processing external surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.066382] [0x00007f28735db4c0] [info]    Bridge over infill - Start Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.067431] [0x00007f28735db4c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.067458] [0x00007f28735db4c0] [info]    Bridge over infill - End Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.071230] [0x00007f28735db4c0] [info]    Detecting solid surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.082838] [0x00007f28735db4c0] [info]    Preparing fill surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.082878] [0x00007f28735db4c0] [info]    Discovering vertical shells... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.089030] [0x00007f28735db4c0] [info]    Processing external surfaces... Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.089546] [0x00007f28735db4c0] [info]    Bridge over infill - Start Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.089909] [0x00007f28735db4c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.089957] [0x00007f28735db4c0] [info]    Bridge over infill - End Resident memory: 177MB; Shared memory: 59MB; Private memory: 118MB; Peak memory usage: 629MB
+[2026-10-20 10:49:50.092522] [0x00007f2872afb6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
+[2026-10-20 10:49:50.092559] [0x00007f28726fa6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
+[2026-10-20 10:49:50.092575] [0x00007f2872efc6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
+[2026-10-20 10:49:50.092588] [0x00007f28735db4c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
+[2026-10-20 10:49:50.096891] [0x00007f28726fa6c0] [info]    max_cantilever_dist=0
+[2026-10-20 10:49:50.101159] [0x00007f28726fa6c0] [info]    Tree support overhang detection done. 14 layers with overhangs. nEnforced=11
+[2026-10-20 10:49:50.109983] [0x00007f2872afb6c0] [info]    max_cantilever_dist=4.42665e+06
+[2026-10-20 10:49:50.115557] [0x00007f28726fa6c0] [info]    Precalculating collision took6.871 ms. Precalculating avoidance took 7.393 ms.
+[2026-10-20 10:49:50.121366] [0x00007f2872afb6c0] [info]    Tree support overhang detection done. 5 layers with overhangs. nEnforced=5
+[2026-10-20 10:49:50.127938] [0x00007f2872afb6c0] [info]    Precalculating collision took3.404 ms. Precalculating avoidance took 2.982 ms.
+[2026-10-20 10:49:50.132864] [0x00007f2872afb6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 1 ms merging areas: 0 ms
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
@@ -283,16 +286,13 @@ Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical:
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
-[2026-10-20 10:46:44.107067] [0x00007fe4e3cfb6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 64.926 ms. Different subtasks:
-Calculating Avoidance: 53.663 ms Creating inital influence areas: 4.652 ms Influence area creation: 2.97ms Placement of Points in InfluenceAreas: 0.005ms Drawing result as support 3.634 ms
-[2026-10-20 10:46:44.109950] [0x00007fe4e3cfb6c0] [info]    Total time of organic tree support: 67.811 ms
-[2026-10-20 10:46:44.110027] [0x00007fe4e3cfb6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
-[2026-10-20 10:46:44.127889] [0x00007fe4e38fa6c0] [info]    max_cantilever_dist=0
-[2026-10-20 10:46:44.128074] [0x00007fe4e40fc6c0] [info]    max_cantilever_dist=0
-[2026-10-20 10:46:44.137393] [0x00007fe4e3cfb6c0] [info]    max_cantilever_dist=4.72922e+06
-[2026-10-20 10:46:44.155263] [0x00007fe4e3cfb6c0] [info]    Tree support overhang detection done. 5 layers with overhangs. nEnforced=5
-[2026-10-20 10:46:44.165545] [0x00007fe4e3cfb6c0] [info]    Precalculating collision took5.357 ms. Precalculating avoidance took 4.734 ms.
-[2026-10-20 10:46:44.169602] [0x00007fe4e3cfb6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 0 ms merging areas: 0 ms
+[2026-10-20 10:49:50.135211] [0x00007f2872afb6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 42.639 ms. Different subtasks:
+Calculating Avoidance: 35.424 ms Creating inital influence areas: 3.08 ms Influence area creation: 1.833ms Placement of Points in InfluenceAreas: 0.004ms Drawing result as support 2.296 ms
+[2026-10-20 10:49:50.137231] [0x00007f2872afb6c0] [info]    Total time of organic tree support: 44.664 ms
+[2026-10-20 10:49:50.137312] [0x00007f2872afb6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
+[2026-10-20 10:49:50.149352] [0x00007f2872efc6c0] [info]    max_cantilever_dist=0
+[2026-10-20 10:49:50.154932] [0x00007f28726fa6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 28 ms merging areas: 1 ms
+[2026-10-20 10:49:50.155864] [0x00007f2872afb6c0] [info]    max_cantilever_dist=4.72922e+06
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
@@ -301,18 +301,11 @@ Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical:
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
-[2026-10-20 10:46:44.171102] [0x00007fe4e3cfb6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 61.059 ms. Different subtasks:
-Calculating Avoidance: 55.522 ms Creating inital influence areas: 3.061 ms Influence area creation: 0.992ms Placement of Points in InfluenceAreas: 0.002ms Drawing result as support 1.479 ms
-[2026-10-20 10:46:44.172505] [0x00007fe4e3cfb6c0] [info]    Total time of organic tree support: 62.464 ms
-[2026-10-20 10:46:44.172547] [0x00007fe4e3cfb6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
-[2026-10-20 10:46:44.179036] [0x00007fe4e3cfb6c0] [info]    max_cantilever_dist=0
-[2026-10-20 10:46:44.185384] [0x00007fe4e3cfb6c0] [info]    Tree support overhang detection done. 14 layers with overhangs. nEnforced=11
-[2026-10-20 10:46:44.209255] [0x00007fe4e3cfb6c0] [info]    Precalculating collision took11.638 ms. Precalculating avoidance took 12.068 ms.
-[2026-10-20 10:46:44.228458] [0x00007fe4e40fc6c0] [info]    Tree support overhang detection done. 67 layers with overhangs. nEnforced=67
-[2026-10-20 10:46:44.228696] [0x00007fe4e38fa6c0] [info]    Tree support overhang detection done. 67 layers with overhangs. nEnforced=67
-[2026-10-20 10:46:44.271459] [0x00007fe4e3cfb6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 45 ms merging areas: 2 ms
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+[2026-10-20 10:49:50.167255] [0x00007f2872afb6c0] [info]    Tree support overhang detection done. 5 layers with overhangs. nEnforced=5
+[2026-10-20 10:49:50.174172] [0x00007f2872afb6c0] [info]    Precalculating collision took3.638 ms. Precalculating avoidance took 3.083 ms.
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+[2026-10-20 10:49:50.176779] [0x00007f2872afb6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 0 ms merging areas: 0 ms
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
@@ -321,16 +314,20 @@ Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical:
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
-[2026-10-20 10:46:44.330403] [0x00007fe4e3cfb6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 157.836 ms. Different subtasks:
-Calculating Avoidance: 36.724 ms Creating inital influence areas: 12.883 ms Influence area creation: 49.318ms Placement of Points in InfluenceAreas: 0.065ms Drawing result as support 58.844 ms
-[2026-10-20 10:46:44.357007] [0x00007fe4e3cfb6c0] [info]    Total time of organic tree support: 184.447 ms
-[2026-10-20 10:46:44.357166] [0x00007fe4e3cfb6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
-[2026-10-20 10:46:44.433943] [0x00007fe4e3cfb6c0] [info]    max_cantilever_dist=4.93429e+06
-[2026-10-20 10:46:44.439668] [0x00007fe4e38fa6c0] [info]    Precalculating collision took89.529 ms. Precalculating avoidance took 120.896 ms.
-[2026-10-20 10:46:44.445164] [0x00007fe4e40fc6c0] [info]    Precalculating collision took91.527 ms. Precalculating avoidance took 124.692 ms.
-[2026-10-20 10:46:44.445616] [0x00007fe4e3cfb6c0] [info]    Tree support overhang detection done. 2 layers with overhangs. nEnforced=1
-[2026-10-20 10:46:44.455374] [0x00007fe4e3cfb6c0] [info]    Precalculating collision took5.232 ms. Precalculating avoidance took 4.488 ms.
-[2026-10-20 10:46:44.518146] [0x00007fe4e3cfb6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 48 ms merging areas: 4 ms
+[2026-10-20 10:49:50.177750] [0x00007f2872afb6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 40.421 ms. Different subtasks:
+Calculating Avoidance: 36.891 ms Creating inital influence areas: 1.988 ms Influence area creation: 0.622ms Placement of Points in InfluenceAreas: 0.002ms Drawing result as support 0.915 ms
+[2026-10-20 10:49:50.178729] [0x00007f2872afb6c0] [info]    Total time of organic tree support: 41.408 ms
+[2026-10-20 10:49:50.178802] [0x00007f2872afb6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
+[2026-10-20 10:49:50.193650] [0x00007f28726fa6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 101.05 ms. Different subtasks:
+Calculating Avoidance: 23.044 ms Creating inital influence areas: 8.746 ms Influence area creation: 30.605ms Placement of Points in InfluenceAreas: 0.076ms Drawing result as support 38.577 ms
+[2026-10-20 10:49:50.211990] [0x00007f28726fa6c0] [info]    Total time of organic tree support: 119.395 ms
+[2026-10-20 10:49:50.212230] [0x00007f28726fa6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
+[2026-10-20 10:49:50.214694] [0x00007f2872efc6c0] [info]    Tree support overhang detection done. 67 layers with overhangs. nEnforced=67
+[2026-10-20 10:49:50.227414] [0x00007f2872afb6c0] [info]    max_cantilever_dist=4.93429e+06
+[2026-10-20 10:49:50.234138] [0x00007f2872afb6c0] [info]    Tree support overhang detection done. 2 layers with overhangs. nEnforced=1
+[2026-10-20 10:49:50.240149] [0x00007f2872afb6c0] [info]    Precalculating collision took3.38 ms. Precalculating avoidance took 2.555 ms.
+[2026-10-20 10:49:50.268755] [0x00007f28726fa6c0] [info]    max_cantilever_dist=0
+[2026-10-20 10:49:50.277145] [0x00007f2872afb6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 27 ms merging areas: 2 ms
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
@@ -338,14 +335,17 @@ Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical:
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
-[2026-10-20 10:46:44.587213] [0x00007fe4e3cfb6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 230.027 ms. Different subtasks:
-Calculating Avoidance: 98.216 ms Creating inital influence areas: 9.189 ms Influence area creation: 53.582ms Placement of Points in InfluenceAreas: 0.081ms Drawing result as support 68.957 ms
-[2026-10-20 10:46:44.624685] [0x00007fe4e3cfb6c0] [info]    Total time of organic tree support: 267.506 ms
-[2026-10-20 10:46:44.624812] [0x00007fe4e3cfb6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
-[2026-10-20 10:46:44.684475] [0x00007fe4e3cfb6c0] [info]    max_cantilever_dist=9.50135e+06
-[2026-10-20 10:46:44.706787] [0x00007fe4e3cfb6c0] [info]    Tree support overhang detection done. 10 layers with overhangs. nEnforced=10
-[2026-10-20 10:46:44.854183] [0x00007fe4e3cfb6c0] [info]    Precalculating collision took96.918 ms. Precalculating avoidance took 50.36 ms.
-[2026-10-20 10:46:45.058342] [0x00007fe4e3cfb6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 138 ms merging areas: 17 ms
+[2026-10-20 10:49:50.322831] [0x00007f2872afb6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 143.979 ms. Different subtasks:
+Calculating Avoidance: 61.37 ms Creating inital influence areas: 5.884 ms Influence area creation: 31.109ms Placement of Points in InfluenceAreas: 0.098ms Drawing result as support 45.515 ms
+[2026-10-20 10:49:50.333354] [0x00007f28726fa6c0] [info]    Tree support overhang detection done. 67 layers with overhangs. nEnforced=67
+[2026-10-20 10:49:50.348956] [0x00007f2872afb6c0] [info]    Total time of organic tree support: 170.115 ms
+[2026-10-20 10:49:50.349154] [0x00007f2872afb6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
+[2026-10-20 10:49:50.351874] [0x00007f2872efc6c0] [info]    Precalculating collision took58.792 ms. Precalculating avoidance took 77.884 ms.
+[2026-10-20 10:49:50.388186] [0x00007f2872afb6c0] [info]    max_cantilever_dist=9.50135e+06
+[2026-10-20 10:49:50.402207] [0x00007f2872afb6c0] [info]    Tree support overhang detection done. 10 layers with overhangs. nEnforced=10
+[2026-10-20 10:49:50.475290] [0x00007f28726fa6c0] [info]    Precalculating collision took60.868 ms. Precalculating avoidance took 80.593 ms.
+[2026-10-20 10:49:50.501897] [0x00007f2872afb6c0] [info]    Precalculating collision took66.652 ms. Precalculating avoidance took 32.896 ms.
+[2026-10-20 10:49:50.626060] [0x00007f2872afb6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 81 ms merging areas: 10 ms
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
@@ -359,26 +359,26 @@ Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical:
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
-[2026-10-20 10:46:45.290529] [0x00007fe4e3cfb6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 665.687 ms. Different subtasks:
-Calculating Avoidance: 229.392 ms Creating inital influence areas: 45.625 ms Influence area creation: 158.533ms Placement of Points in InfluenceAreas: 0.208ms Drawing result as support 231.926 ms
-[2026-10-20 10:46:45.360501] [0x00007fe4e3cfb6c0] [info]    Total time of organic tree support: 735.67 ms
-[2026-10-20 10:46:45.360729] [0x00007fe4e3cfb6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
-[2026-10-20 10:46:45.366411] [0x00007fe4e3cfb6c0] [info]    max_cantilever_dist=0
-[2026-10-20 10:46:45.371865] [0x00007fe4e3cfb6c0] [info]    Tree support overhang detection done. 11 layers with overhangs. nEnforced=9
-[2026-10-20 10:46:45.391989] [0x00007fe4e3cfb6c0] [info]    Precalculating collision took9.549 ms. Precalculating avoidance took 10.482 ms.
-[2026-10-20 10:46:45.443819] [0x00007fe4e3cfb6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 39 ms merging areas: 3 ms
+[2026-10-20 10:49:50.768429] [0x00007f2872afb6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 419.243 ms. Different subtasks:
+Calculating Avoidance: 152.78 ms Creating inital influence areas: 30.596 ms Influence area creation: 93.559ms Placement of Points in InfluenceAreas: 0.25ms Drawing result as support 142.056 ms
+[2026-10-20 10:49:50.816846] [0x00007f2872afb6c0] [info]    Total time of organic tree support: 467.661 ms
+[2026-10-20 10:49:50.818827] [0x00007f28726fa6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
+[2026-10-20 10:49:50.822448] [0x00007f28726fa6c0] [info]    max_cantilever_dist=0
+[2026-10-20 10:49:50.826384] [0x00007f28726fa6c0] [info]    Tree support overhang detection done. 11 layers with overhangs. nEnforced=9
+[2026-10-20 10:49:50.838816] [0x00007f28726fa6c0] [info]    Precalculating collision took6.204 ms. Precalculating avoidance took 6.12 ms.
+[2026-10-20 10:49:50.870860] [0x00007f28726fa6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 24 ms merging areas: 2 ms
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
-[2026-10-20 10:46:45.560119] [0x00007fe4e3cfb6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 199.365 ms. Different subtasks:
-Calculating Avoidance: 31.27 ms Creating inital influence areas: 8.206 ms Influence area creation: 43.62ms Placement of Points in InfluenceAreas: 0.061ms Drawing result as support 116.205 ms
-[2026-10-20 10:46:45.644689] [0x00007fe4e3cfb6c0] [info]    Total time of organic tree support: 283.931 ms
-[2026-10-20 10:46:45.811208] [0x00007fe4e38fa6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 915 ms merging areas: 129 ms
-[2026-10-20 10:46:45.857889] [0x00007fe4e40fc6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 946 ms merging areas: 142 ms
-[2026-10-20 10:46:46.251133] [0x00007fe4e47734c0] [info]    max_cantilever_dist=5.25759e+07
+[2026-10-20 10:49:50.908508] [0x00007f28726fa6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 89.619 ms. Different subtasks:
+Calculating Avoidance: 19.997 ms Creating inital influence areas: 5.437 ms Influence area creation: 26.598ms Placement of Points in InfluenceAreas: 0.072ms Drawing result as support 37.513 ms
+[2026-10-20 10:49:50.928749] [0x00007f28726fa6c0] [info]    Total time of organic tree support: 109.862 ms
+[2026-10-20 10:49:51.128760] [0x00007f2872efc6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 492 ms merging areas: 75 ms
+[2026-10-20 10:49:51.159819] [0x00007f28735db4c0] [info]    max_cantilever_dist=5.25759e+07
+[2026-10-20 10:49:51.292150] [0x00007f28726fa6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 530 ms merging areas: 75 ms
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
@@ -615,6 +615,8 @@ Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical:
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+[2026-10-20 10:49:51.801893] [0x00007f2872efc6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 1709.29 ms. Different subtasks:
+Calculating Avoidance: 259.334 ms Creating inital influence areas: 203.384 ms Influence area creation: 573.495ms Placement of Points in InfluenceAreas: 1.502ms Drawing result as support 671.572 ms
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
@@ -622,15 +624,13 @@ Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical:
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
-[2026-10-20 10:46:47.180808] [0x00007fe4e38fa6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 3138.62 ms. Different subtasks:
-Calculating Avoidance: 397.533 ms Creating inital influence areas: 314.418 ms Influence area creation: 1057.13ms Placement of Points in InfluenceAreas: 1.474ms Drawing result as support 1368.07 ms
-[2026-10-20 10:46:47.353700] [0x00007fe4e38fa6c0] [info]    Total time of organic tree support: 3311.52 ms
-[2026-10-20 10:46:47.515016] [0x00007fe4e40fc6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 3472.87 ms. Different subtasks:
-Calculating Avoidance: 403.061 ms Creating inital influence areas: 314.899 ms Influence area creation: 1097.82ms Placement of Points in InfluenceAreas: 1.462ms Drawing result as support 1655.62 ms
-[2026-10-20 10:46:47.602556] [0x00007fe4e40fc6c0] [info]    Total time of organic tree support: 3560.42 ms
-[2026-10-20 10:46:47.701854] [0x00007fe4e47734c0] [info]    Tree support overhang detection done. 103 layers with overhangs. nEnforced=97
-[2026-10-20 10:46:48.569990] [0x00007fe4e47734c0] [info]    Precalculating collision took392.947 ms. Precalculating avoidance took 473.179 ms.
-[2026-10-20 10:46:50.080899] [0x00007fe4e47734c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 816 ms merging areas: 140 ms
+[2026-10-20 10:49:51.899081] [0x00007f2872efc6c0] [info]    Total time of organic tree support: 1806.47 ms
+[2026-10-20 10:49:51.934369] [0x00007f28735db4c0] [info]    Tree support overhang detection done. 103 layers with overhangs. nEnforced=97
+[2026-10-20 10:49:52.188433] [0x00007f28726fa6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 1976.17 ms. Different subtasks:
+Calculating Avoidance: 263.099 ms Creating inital influence areas: 205.101 ms Influence area creation: 611.749ms Placement of Points in InfluenceAreas: 1.508ms Drawing result as support 894.709 ms
+[2026-10-20 10:49:52.237076] [0x00007f28726fa6c0] [info]    Total time of organic tree support: 2024.82 ms
+[2026-10-20 10:49:52.505095] [0x00007f28735db4c0] [info]    Precalculating collision took269.45 ms. Precalculating avoidance took 299 ms.
+[2026-10-20 10:49:53.238634] [0x00007f28735db4c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 378 ms merging areas: 74 ms
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
@@ -829,64 +829,125 @@ Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical:
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
 Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
-[2026-10-20 10:46:51.932845] [0x00007fe4e47734c0] [info]    Total time used creating Tree support for the currently grouped meshes: 7890.71 ms. Different subtasks:
-Calculating Avoidance: 4527.92 ms Creating inital influence areas: 518.396 ms Influence area creation: 992.496ms Placement of Points in InfluenceAreas: 3.432ms Drawing result as support 1848.47 ms
-[2026-10-20 10:46:52.277484] [0x00007fe4e47734c0] [info]    Total time of organic tree support: 8235.35 ms
-[2026-10-20 10:46:54.106909] [0x00007fe4e47734c0] [info]    gcode path conflicts check takes 0.117 secs.
-[2026-10-20 10:46:54.107022] [0x00007fe4e47734c0] [info]    Slicing process finished. Resident memory: 236MB; Shared memory: 60MB; Private memory: 177MB; Peak memory usage: 629MB
-[2026-10-20 10:46:54.107040] [0x00007fe4e47734c0] [info]    print::process: first time_using_cache is 1 secs.
-[2026-10-20 10:46:54.107046] [0x00007fe4e47734c0] [info]    process finished, will export gcode temporily to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode
+[2026-10-20 10:49:54.362018] [0x00007f28735db4c0] [info]    Total time used creating Tree support for the currently grouped meshes: 4269.39 ms. Different subtasks:
+Calculating Avoidance: 2412.55 ms Creating inital influence areas: 260.897 ms Influence area creation: 472.632ms Placement of Points in InfluenceAreas: 3.88ms Drawing result as support 1119.44 ms
+[2026-10-20 10:49:54.617940] [0x00007f28735db4c0] [info]    Total time of organic tree support: 4525.32 ms
+[2026-10-20 10:49:55.933336] [0x00007f28735db4c0] [info]    gcode path conflicts check takes 0.115 secs.
+[2026-10-20 10:49:55.933559] [0x00007f28735db4c0] [info]    Slicing process finished. Resident memory: 200MB; Shared memory: 60MB; Private memory: 140MB; Peak memory usage: 629MB
+[2026-10-20 10:49:55.933573] [0x00007f28735db4c0] [info]    print::process: first time_using_cache is 1 secs.
+[2026-10-20 10:49:55.933581] [0x00007f28735db4c0] [info]    process finished, will export gcode temporily to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode
 
-[2026-10-20 10:46:54.107126] [0x00007fe4e47734c0] [info]    reset 614: this=0x7ffd0009c280 reset finished
-[2026-10-20 10:46:54.107140] [0x00007fe4e47734c0] [info]    Will export G-code to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode soon
-[2026-10-20 10:46:54.107244] [0x00007fe4e47734c0] [info]    Exporting G-code... Resident memory: 236MB; Shared memory: 60MB; Private memory: 177MB; Peak memory usage: 629MB
-[2026-10-20 10:46:54.109620] [0x00007fe4e47734c0] [info]    reset 614: this=0x7ffd0009c280 reset finished
-[2026-10-20 10:46:59.290839] [0x00007fe4e47734c0] [info]    rename_file from /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode.tmp to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode successfully
-[2026-10-20 10:46:59.290906] [0x00007fe4e47734c0] [info]    Exporting G-code finished Resident memory: 424MB; Shared memory: 60MB; Private memory: 364MB; Peak memory usage: 629MB
-[2026-10-20 10:46:59.294610] [0x00007fe4e47734c0] [info]    export_gcode finished: time_using_cache update to 6 secs.
-[2026-10-20 10:46:59.294634] [0x00007fe4e47734c0] [info]    Slicing result exported to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode
+[2026-10-20 10:49:55.933684] [0x00007f28735db4c0] [info]    reset 614: this=0x7ffe40aff960 reset finished
+[2026-10-20 10:49:55.933697] [0x00007f28735db4c0] [info]    Will export G-code to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode soon
+[2026-10-20 10:49:55.933906] [0x00007f28735db4c0] [info]    Exporting G-code... Resident memory: 200MB; Shared memory: 60MB; Private memory: 140MB; Peak memory usage: 629MB
+[2026-10-20 10:49:55.936267] [0x00007f28735db4c0] [info]    reset 614: this=0x7ffe40aff960 reset finished
+[2026-10-20 10:49:59.750720] [0x00007f28735db4c0] [info]    rename_file from /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode.tmp to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode successfully
+[2026-10-20 10:49:59.750803] [0x00007f28735db4c0] [info]    Exporting G-code finished Resident memory: 416MB; Shared memory: 60MB; Private memory: 355MB; Peak memory usage: 629MB
+[2026-10-20 10:49:59.753775] [0x00007f28735db4c0] [info]    export_gcode finished: time_using_cache update to 5 secs.
+[2026-10-20 10:49:59.753801] [0x00007f28735db4c0] [info]    Slicing result exported to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode
 
-[2026-10-20 10:46:59.294656] [0x00007fe4e47734c0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 1
-[2026-10-20 10:46:59.294727] [0x00007fe4e47734c0] [info]    store_to_3mf_structure: plate 1 before load, width 0, height 0, size 0!
-[2026-10-20 10:46:59.294732] [0x00007fe4e47734c0] [info]    store_to_3mf_structure: plate 1 after load, width 0, height 0, size 0!
-[2026-10-20 10:46:59.294738] [0x00007fe4e47734c0] [info]    store_to_3mf_structure: plate 0, gcode_filename=/home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode, with_slice_info=1, slice_valid 1, object item count 0.
-[2026-10-20 10:46:59.294866] [0x00007fe4e47734c0] [info]    store_to_3mf_structure:stored 1 plates!
-[2026-10-20 10:46:59.294885] [0x00007fe4e47734c0] [info]    thumbnails stage: plate 1's thumbnail data is invalid, check the file  exist or not
-[2026-10-20 10:46:59.294888] [0x00007fe4e47734c0] [info]    thumbnails stage: plate 1's thumbnail file also not there, need to regenerate
-[2026-10-20 10:46:59.294892] [0x00007fe4e47734c0] [info]    thumbnails stage: plate 1's no_light_thumbnail_file  also not there, need to regenerate
-[2026-10-20 10:46:59.294895] [0x00007fe4e47734c0] [info]    thumbnails stage: plate 1's top_file  also not there, need to regenerate
-[2026-10-20 10:46:59.294907] [0x00007fe4e47734c0] [info]    opengl version 3.3.7
-[2026-10-20 10:46:59.295134] [0x00007fe4e47734c0] [error]   error_code 65544, description: Wayland: Failed to connect to display
+[2026-10-20 10:49:59.753860] [0x00007f28735db4c0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 1
+[2026-10-20 10:49:59.753919] [0x00007f28735db4c0] [info]    store_to_3mf_structure: plate 1 before load, width 0, height 0, size 0!
+[2026-10-20 10:49:59.753923] [0x00007f28735db4c0] [info]    store_to_3mf_structure: plate 1 after load, width 0, height 0, size 0!
+[2026-10-20 10:49:59.753929] [0x00007f28735db4c0] [info]    store_to_3mf_structure: plate 0, gcode_filename=/home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode, with_slice_info=1, slice_valid 1, object item count 0.
+[2026-10-20 10:49:59.754096] [0x00007f28735db4c0] [info]    store_to_3mf_structure:stored 1 plates!
+[2026-10-20 10:49:59.754116] [0x00007f28735db4c0] [info]    thumbnails stage: plate 1's thumbnail data is invalid, check the file  exist or not
+[2026-10-20 10:49:59.754119] [0x00007f28735db4c0] [info]    thumbnails stage: plate 1's thumbnail file also not there, need to regenerate
+[2026-10-20 10:49:59.754122] [0x00007f28735db4c0] [info]    thumbnails stage: plate 1's no_light_thumbnail_file  also not there, need to regenerate
+[2026-10-20 10:49:59.754125] [0x00007f28735db4c0] [info]    thumbnails stage: plate 1's top_file  also not there, need to regenerate
+[2026-10-20 10:49:59.754140] [0x00007f28735db4c0] [info]    opengl version 3.3.7
+[2026-10-20 10:49:59.754338] [0x00007f28735db4c0] [error]   error_code 65544, description: Wayland: Failed to connect to display
 
-[2026-10-20 10:46:59.295151] [0x00007fe4e47734c0] [error]   glfwInit return error, code 65544
+[2026-10-20 10:49:59.754346] [0x00007f28735db4c0] [error]   glfwInit return error, code 65544
 
-[2026-10-20 10:46:59.295185] [0x00007fe4e47734c0] [error]   Unable to init glew library
-[2026-10-20 10:46:59.295188] [0x00007fe4e47734c0] [error]   init opengl failed! skip thumbnail generating
+[2026-10-20 10:49:59.754383] [0x00007f28735db4c0] [error]   Unable to init glew library
+[2026-10-20 10:49:59.754385] [0x00007f28735db4c0] [error]   init opengl failed! skip thumbnail generating
 
-[2026-10-20 10:46:59.295199] [0x00007fe4e47734c0] [info]    plate 1 bed type: Cool Plate, set from global
-[2026-10-20 10:46:59.295220] [0x00007fe4e47734c0] [info]    will export 3mf to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA//home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/L2_r4_3D45_PLA_PLATE.3mf
+[2026-10-20 10:49:59.754394] [0x00007f28735db4c0] [info]    plate 1 bed type: Cool Plate, set from global
+[2026-10-20 10:49:59.754417] [0x00007f28735db4c0] [info]    will export 3mf to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/L2_r4_3D45_PLA_PLATE.3mf
 
-[2026-10-20 10:46:59.295244] [0x00007fe4e47734c0] [info]    _save_model_to_file:5745,before open zip writer, m_skip_static 0, m_save_gcode 1, m_use_loaded_id 1
-[2026-10-20 10:46:59.295253] [0x00007fe4e47734c0] [error]   _save_model_to_file:5755, Unable to open the file
+[2026-10-20 10:49:59.754440] [0x00007f28735db4c0] [info]    _save_model_to_file:5745,before open zip writer, m_skip_static 0, m_save_gcode 1, m_use_loaded_id 1
+[2026-10-20 10:49:59.754484] [0x00007f28735db4c0] [info]    _save_model_to_file:5773, before add _add_content_types_file_to_archive
 
-[2026-10-20 10:46:59.295256] [0x00007fe4e47734c0] [error]   Unable to open the file/home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA//home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/L2_r4_3D45_PLA_PLATE.3mf.tmp
-Project export to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA//home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/L2_r4_3D45_PLA_PLATE.3mf failed
-[2026-10-20 10:46:59.295341] [0x00007fe4e47734c0] [info]    record_exit_reson:441, saved config to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/result.json
+[2026-10-20 10:49:59.754532] [0x00007f28735db4c0] [info]    _save_model_to_file:5787,before add thumbnails, count 0
+[2026-10-20 10:49:59.754534] [0x00007f28735db4c0] [info]    _save_model_to_file:5788,top&&pick thumbnails, count 0
+[2026-10-20 10:49:59.754538] [0x00007f28735db4c0] [info]    _save_model_to_file:5926,before add calibration thumbnails, count 0
 
-run found error, return -13, exit...
-[2026-10-20 10:46:59.295349] [0x00007fe4e47734c0] [info]    cli_callback_mgr_t::stop enter.
-[2026-10-20 10:46:59.295351] [0x00007fe4e47734c0] [info]    cli_callback_mgr_t::stop not started before, return directly.
-[2026-10-20 10:46:59.295363] [0x00007fe4e47734c0] [info]    remove_backup_path_if_existmodel 0x56206482e6d0, id 3 remove backup_path /tmp/orcaslicer_model/Tue_Oct_20/10_46_39#3335#3
-[2026-10-20 10:46:59.295576] [0x00007fe4e47734c0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 1 to 0
-[2026-10-20 10:46:59.295582] [0x00007fe4e47734c0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
-[2026-10-20 10:46:59.295601] [0x00007fe4e47734c0] [info]    ~PrintObject: this=0x56206546d5d0, m_shared_object 0
-[2026-10-20 10:46:59.306886] [0x00007fe4e47734c0] [info]    ~PrintObject: this=0x56206546e4e0, m_shared_object 0
-[2026-10-20 10:46:59.308617] [0x00007fe4e47734c0] [info]    ~PrintObject: this=0x56206546f480, m_shared_object 0
-[2026-10-20 10:46:59.310251] [0x00007fe4e47734c0] [info]    ~PrintObject: this=0x562065470150, m_shared_object 0
-[2026-10-20 10:46:59.310571] [0x00007fe4e47734c0] [info]    ~PrintObject: this=0x562065470e20, m_shared_object 0
-[2026-10-20 10:46:59.310772] [0x00007fe4e47734c0] [info]    ~PrintObject: this=0x562065471af0, m_shared_object 0
-[2026-10-20 10:46:59.310923] [0x00007fe4e47734c0] [info]    ~PrintObject: this=0x5620654727c0, m_shared_object 0
-[2026-10-20 10:46:59.311309] [0x00007fe4e47734c0] [info]    ~PrintObject: this=0x562065473490, m_shared_object 0
-[2026-10-20 10:46:59.312062] [0x00007fe4e47734c0] [info]    ~PrintObject: this=0x562065474160, m_shared_object 0
-[2026-10-20 10:46:59.315831] [0x00007fe4e47734c0] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
-[2026-10-20 10:46:59.315857] [0x00007fe4e47734c0] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+[2026-10-20 10:49:59.754541] [0x00007f28735db4c0] [info]    _save_model_to_file:5948,before add calibration boundingbox, count 1
+
+[2026-10-20 10:49:59.754624] [0x00007f28735db4c0] [info]    _save_model_to_file:5964, before add models
+
+[2026-10-20 10:49:59.754629] [0x00007f28735db4c0] [info]    _add_model_file_to_archive:6432, filename /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/L2_r4_3D45_PLA_PLATE.3mf.tmp, m_split_model 1,  sub_model 0
+[2026-10-20 10:49:59.754656] [0x00007f28735db4c0] [info]    bbs_3mf: save key= Application, value = BambuStudio-2.3.2
+[2026-10-20 10:49:59.754659] [0x00007f28735db4c0] [info]    bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+[2026-10-20 10:49:59.754661] [0x00007f28735db4c0] [info]    bbs_3mf: save key= Copyright, value = 
+[2026-10-20 10:49:59.754663] [0x00007f28735db4c0] [info]    bbs_3mf: save key= CreationDate, value = 2026-10-20
+[2026-10-20 10:49:59.754665] [0x00007f28735db4c0] [info]    bbs_3mf: save key= Description, value = 
+[2026-10-20 10:49:59.754667] [0x00007f28735db4c0] [info]    bbs_3mf: save key= Designer, value = 
+[2026-10-20 10:49:59.754669] [0x00007f28735db4c0] [info]    bbs_3mf: save key= DesignerCover, value = 
+[2026-10-20 10:49:59.754671] [0x00007f28735db4c0] [info]    bbs_3mf: save key= DesignerUserId, value = 
+[2026-10-20 10:49:59.754678] [0x00007f28735db4c0] [info]    bbs_3mf: save key= License, value = 
+[2026-10-20 10:49:59.754680] [0x00007f28735db4c0] [info]    bbs_3mf: save key= ModificationDate, value = 2026-10-20
+[2026-10-20 10:49:59.754682] [0x00007f28735db4c0] [info]    bbs_3mf: save key= Origin, value = 
+[2026-10-20 10:49:59.754684] [0x00007f28735db4c0] [info]    bbs_3mf: save key= Title, value = 
+[2026-10-20 10:49:59.754866] [0x00007f28735db4c0] [info]    _add_model_file_to_archive:6432, filename 3D/Objects/BODY_1.model, m_split_model 1,  sub_model 1
+[2026-10-20 10:49:59.754878] [0x00007f28735db4c0] [info]    bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+[2026-10-20 10:49:59.754969] [0x00007f28726fa6c0] [info]    _add_model_file_to_archive:6432, filename 3D/Objects/RIGHT_KEY_3.model, m_split_model 1,  sub_model 1
+[2026-10-20 10:49:59.754982] [0x00007f28726fa6c0] [info]    bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+[2026-10-20 10:49:59.754989] [0x00007f2872afb6c0] [info]    _add_model_file_to_archive:6432, filename 3D/Objects/LEFT_KEY_2.model, m_split_model 1,  sub_model 1
+[2026-10-20 10:49:59.755004] [0x00007f2872efc6c0] [info]    _add_model_file_to_archive:6432, filename 3D/Objects/SIDE_FRONT_KEY_5.model, m_split_model 1,  sub_model 1
+[2026-10-20 10:49:59.755035] [0x00007f2872afb6c0] [info]    bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+[2026-10-20 10:49:59.755039] [0x00007f2872efc6c0] [info]    bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+[2026-10-20 10:49:59.855651] [0x00007f28726fa6c0] [info]    _add_model_file_to_archive:6432, filename 3D/Objects/SF_RETAINER_4.model, m_split_model 1,  sub_model 1
+[2026-10-20 10:49:59.855680] [0x00007f28726fa6c0] [info]    bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+[2026-10-20 10:49:59.855965] [0x00007f2872afb6c0] [info]    _add_model_file_to_archive:6432, filename 3D/Objects/SR_RETAINER_7.model, m_split_model 1,  sub_model 1
+[2026-10-20 10:49:59.855981] [0x00007f2872afb6c0] [info]    bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+[2026-10-20 10:49:59.857154] [0x00007f2872efc6c0] [info]    _add_model_file_to_archive:6432, filename 3D/Objects/SIDE_REAR_KEY_6.model, m_split_model 1,  sub_model 1
+[2026-10-20 10:49:59.857165] [0x00007f2872efc6c0] [info]    bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+[2026-10-20 10:49:59.873039] [0x00007f28726fa6c0] [info]    _add_model_file_to_archive:6432, filename 3D/Objects/WHEEL_8.model, m_split_model 1,  sub_model 1
+[2026-10-20 10:49:59.873057] [0x00007f28726fa6c0] [info]    bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+[2026-10-20 10:49:59.875200] [0x00007f2872afb6c0] [info]    _add_model_file_to_archive:6432, filename 3D/Objects/WHEEL_CARRIER_9.model, m_split_model 1,  sub_model 1
+[2026-10-20 10:49:59.875213] [0x00007f2872afb6c0] [info]    bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+[2026-10-20 10:50:00.991610] [0x00007f28735db4c0] [info]    _save_model_to_file:6027, before add custom gcodes
+
+[2026-10-20 10:50:00.991635] [0x00007f28735db4c0] [info]    _save_model_to_file:6038, before add project_settings
+
+[2026-10-20 10:50:00.992361] [0x00007f28735db4c0] [info]    save_to_json:1433, saved config to /tmp/orcaslicer_model/Tue_Oct_20/10_49_46#3154#3/_temp_1.config
+
+[2026-10-20 10:50:00.992857] [0x00007f28735db4c0] [info]    _add_file_to_archive:6207, add file /tmp/orcaslicer_model/Tue_Oct_20/10_49_46#3154#3/_temp_1.config to archive Metadata/project_settings.config
+
+[2026-10-20 10:50:00.992861] [0x00007f28735db4c0] [info]    _save_model_to_file:6053, before add project embedded settings
+
+[2026-10-20 10:50:02.110130] [0x00007f28735db4c0] [info]    operator():7911, store  /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode to 3mf Metadata/plate_1.gcode
+
+[2026-10-20 10:50:02.110347] [0x00007f28735db4c0] [info]    _save_model_to_file:6128, before add sliced info to 3mf
+
+[2026-10-20 10:50:02.110384] [0x00007f28735db4c0] [info]    _save_model_to_file:6143, before add auxiliary dir to 3mf
+
+[2026-10-20 10:50:02.110405] [0x00007f28735db4c0] [info]    create missing sub_path/tmp/orcaslicer_model/Tue_Oct_20/10_49_46#3154#3/Auxiliaries
+[2026-10-20 10:50:02.110583] [0x00007f28735db4c0] [info]    _save_model_to_file:6156, before add relation file to 3mf
+
+[2026-10-20 10:50:02.110608] [0x00007f28735db4c0] [info]    _save_model_to_file:6178, finished exporting 3mf
+
+[2026-10-20 10:50:02.110643] [0x00007f28735db4c0] [info]    Project exported to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/L2_r4_3D45_PLA_PLATE.3mf
+
+[2026-10-20 10:50:02.110651] [0x00007f28735db4c0] [info]    cli_callback_mgr_t::stop enter.
+[2026-10-20 10:50:02.110653] [0x00007f28735db4c0] [info]    cli_callback_mgr_t::stop not started before, return directly.
+[2026-10-20 10:50:02.110662] [0x00007f28735db4c0] [info]    remove_backup_path_if_existmodel 0x55c74eb606d0, id 3 remove backup_path /tmp/orcaslicer_model/Tue_Oct_20/10_49_46#3154#3
+[2026-10-20 10:50:02.110912] [0x00007f28735db4c0] [info]    run, Finished
+
+[2026-10-20 10:50:02.111229] [0x00007f28735db4c0] [info]    record_exit_reson:441, saved config to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/result.json
+
+[2026-10-20 10:50:02.111251] [0x00007f28735db4c0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 1 to 0
+[2026-10-20 10:50:02.111254] [0x00007f28735db4c0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-20 10:50:02.111272] [0x00007f28735db4c0] [info]    ~PrintObject: this=0x55c74f79f510, m_shared_object 0
+[2026-10-20 10:50:02.124655] [0x00007f28735db4c0] [info]    ~PrintObject: this=0x55c74f7a0420, m_shared_object 0
+[2026-10-20 10:50:02.126968] [0x00007f28735db4c0] [info]    ~PrintObject: this=0x55c74f7a13c0, m_shared_object 0
+[2026-10-20 10:50:02.129099] [0x00007f28735db4c0] [info]    ~PrintObject: this=0x55c74f7a2090, m_shared_object 0
+[2026-10-20 10:50:02.129523] [0x00007f28735db4c0] [info]    ~PrintObject: this=0x55c74f7a2d60, m_shared_object 0
+[2026-10-20 10:50:02.129768] [0x00007f28735db4c0] [info]    ~PrintObject: this=0x55c74f7a3a30, m_shared_object 0
+[2026-10-20 10:50:02.129962] [0x00007f28735db4c0] [info]    ~PrintObject: this=0x55c74f7a4700, m_shared_object 0
+[2026-10-20 10:50:02.130407] [0x00007f28735db4c0] [info]    ~PrintObject: this=0x55c74f7a53d0, m_shared_object 0
+[2026-10-20 10:50:02.131329] [0x00007f28735db4c0] [info]    ~PrintObject: this=0x55c74f7a60a0, m_shared_object 0
+[2026-10-20 10:50:02.134722] [0x00007f28735db4c0] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+[2026-10-20 10:50:02.134748] [0x00007f28735db4c0] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0

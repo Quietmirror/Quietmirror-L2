@@ -1,0 +1,22 @@
+[
+  "[Content_Types].xml",
+  "Metadata/plate_1.json",
+  "3D/3dmodel.model",
+  "3D/_rels/3dmodel.model.rels",
+  "3D/Objects/RIGHT_KEY_3.model",
+  "3D/Objects/LEFT_KEY_2.model",
+  "3D/Objects/SIDE_FRONT_KEY_5.model",
+  "3D/Objects/SF_RETAINER_4.model",
+  "3D/Objects/SR_RETAINER_7.model",
+  "3D/Objects/WHEEL_8.model",
+  "3D/Objects/WHEEL_CARRIER_9.model",
+  "3D/Objects/SIDE_REAR_KEY_6.model",
+  "3D/Objects/BODY_1.model",
+  "Metadata/project_settings.config",
+  "Metadata/plate_1.gcode.md5",
+  "Metadata/plate_1.gcode",
+  "Metadata/_rels/model_settings.config.rels",
+  "Metadata/model_settings.config",
+  "Metadata/slice_info.config",
+  "_rels/.rels"
+]
