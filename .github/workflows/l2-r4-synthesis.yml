@@ -1,0 +1,37 @@
+name: L2-r4 final aggregation and actual CAD views
+on:
+  push:
+    branches: [codex/r4-c19-synthesis]
+    paths: ['cad/l2_r4/**', 'reports/l2_r4/**', '.github/workflows/l2-r4-synthesis.yml']
+permissions:
+  contents: write
+concurrency:
+  group: l2-r4-c19-synthesis
+  cancel-in-progress: true
+jobs:
+  synthesize:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    env:
+      GH_TOKEN: ${{ github.token }}
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      PYTHONUTF8: '1'
+      R4_TARGET_BRANCH: codex/r4-c19-synthesis
+    steps:
+      - name: Read final components and independent numerical results
+        run: |
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libglu1-mesa libgl1 fonts-noto-cjk xvfb
+          python3 -m venv _support/venv
+          _support/venv/bin/pip install --disable-pip-version-check cadquery==2.8.0 gmsh==4.15.2 trimesh scipy pillow psutil shapely matplotlib rtree
+      - name: Validate complete partitions, account contacts and render actual model
+        run: |
+          xvfb-run -a _support/venv/bin/python -u cad/l2_r4/ci_run.py --config cad/l2_r4/FINAL_VIEWS.json
+      - name: Preserve actual results without publishing a Release
+        if: always()
+        run: python3 cad/l2_r4/ci_checkpoint.py

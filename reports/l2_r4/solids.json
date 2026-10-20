@@ -3,7 +3,7 @@
     "name": "BODY",
     "valid": true,
     "solids": 1,
-    "volume_mm3": 12633.239977596988,
+    "volume_mm3": 12612.830650497723,
     "bounds_mm": [
       -33.04800010000001,
       -1e-07,
@@ -57,7 +57,7 @@
     "name": "SF_RETAINER",
     "valid": true,
     "solids": 1,
-    "volume_mm3": 103.89933000919667,
+    "volume_mm3": 100.16368399517599,
     "bounds_mm": [
       14.8,
       41.8,
@@ -75,11 +75,11 @@
     "name": "SIDE_FRONT_KEY",
     "valid": true,
     "solids": 1,
-    "volume_mm3": 76.74189104272244,
+    "volume_mm3": 76.69917382367888,
     "bounds_mm": [
       25.4,
       44.05,
-      15.299999992433628,
+      15.3,
       32.367318773232,
       56.05000010000002,
       19.45000010000021
@@ -93,11 +93,11 @@
     "name": "SIDE_REAR_KEY",
     "valid": true,
     "solids": 1,
-    "volume_mm3": 81.56501095510058,
+    "volume_mm3": 81.52505078258017,
     "bounds_mm": [
       25.4,
       58.34999989999997,
-      15.299999992433628,
+      15.3,
       32.66429196856799,
       70.95,
       19.450000100000015
@@ -105,13 +105,13 @@
     "closed_mesh": true,
     "consistent_winding": true,
     "mesh_components": 1,
-    "brep_self_interference_check": false
+    "brep_self_interference_check": true
   },
   {
     "name": "SR_RETAINER",
     "valid": true,
     "solids": 1,
-    "volume_mm3": 166.7823898016227,
+    "volume_mm3": 161.0013898016225,
     "bounds_mm": [
       14.8,
       55.3,
@@ -147,12 +147,12 @@
     "name": "WHEEL_CARRIER",
     "valid": true,
     "solids": 1,
-    "volume_mm3": 589.8949111552149,
+    "volume_mm3": 587.0776628018871,
     "bounds_mm": [
       -6.8500001,
       20.0,
       10.4,
-      11.1,
+      11.030000000000033,
       52.6000001,
       21.800000100000002
     ],

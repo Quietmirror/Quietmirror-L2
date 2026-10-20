@@ -6,11 +6,11 @@
       "part": "BODY",
       "size_mm": 2.4,
       "case": "SF_stop",
-      "global_p95_MPa": 0.6791447405242476,
+      "global_p95_MPa": 0.6851759312431266,
       "side_frame_region": {
-        "p95_MPa": 0.9339841545510251,
-        "maximum_MPa": 6.889914443265883,
-        "sampled_volume_mm3": 1331.6078708030889
+        "p95_MPa": 0.9326037716628588,
+        "maximum_MPa": 6.894564280832789,
+        "sampled_volume_mm3": 1330.5841364994387
       },
       "equilibrium_pass": true,
       "passed": true
@@ -19,11 +19,11 @@
       "part": "BODY",
       "size_mm": 2.4,
       "case": "SR_stop",
-      "global_p95_MPa": 0.6888244817811714,
+      "global_p95_MPa": 0.6984772760823057,
       "side_frame_region": {
-        "p95_MPa": 1.0139014932966193,
-        "maximum_MPa": 6.438140559917553,
-        "sampled_volume_mm3": 1331.6078708030961
+        "p95_MPa": 1.0122605709526855,
+        "maximum_MPa": 6.440054890968593,
+        "sampled_volume_mm3": 1330.5841364994358
       },
       "equilibrium_pass": true,
       "passed": true
@@ -48,11 +48,11 @@
       "part": "BODY",
       "size_mm": 2.0,
       "case": "SF_stop",
-      "global_p95_MPa": 0.6818843276994812,
+      "global_p95_MPa": 0.6898840004777717,
       "side_frame_region": {
-        "p95_MPa": 0.9318192811445222,
-        "maximum_MPa": 7.036780007219006,
-        "sampled_volume_mm3": 1331.949319235569
+        "p95_MPa": 0.9326825658292889,
+        "maximum_MPa": 7.037888610031129,
+        "sampled_volume_mm3": 1330.767645417212
       },
       "equilibrium_pass": true,
       "passed": true
@@ -61,11 +61,11 @@
       "part": "BODY",
       "size_mm": 2.0,
       "case": "SR_stop",
-      "global_p95_MPa": 0.6926341313855676,
+      "global_p95_MPa": 0.7008170364911268,
       "side_frame_region": {
-        "p95_MPa": 1.0126875744638422,
-        "maximum_MPa": 6.507105765689488,
-        "sampled_volume_mm3": 1331.9493192355617
+        "p95_MPa": 1.0142973014938559,
+        "maximum_MPa": 6.507117283085753,
+        "sampled_volume_mm3": 1330.7676454172044
       },
       "equilibrium_pass": true,
       "passed": true
@@ -90,11 +90,11 @@
       "part": "BODY",
       "size_mm": 1.6,
       "case": "SF_stop",
-      "global_p95_MPa": 0.6863843052729851,
+      "global_p95_MPa": 0.6934983149194264,
       "side_frame_region": {
-        "p95_MPa": 0.9485356427888898,
-        "maximum_MPa": 8.123775026460839,
-        "sampled_volume_mm3": 1333.9552890702525
+        "p95_MPa": 0.9509935102006392,
+        "maximum_MPa": 8.123809613026848,
+        "sampled_volume_mm3": 1333.8167755035645
       },
       "equilibrium_pass": true,
       "passed": true
@@ -103,11 +103,11 @@
       "part": "BODY",
       "size_mm": 1.6,
       "case": "SR_stop",
-      "global_p95_MPa": 0.6945907387996361,
+      "global_p95_MPa": 0.703582648267308,
       "side_frame_region": {
-        "p95_MPa": 1.0232774382300636,
-        "maximum_MPa": 7.966400633442826,
-        "sampled_volume_mm3": 1333.9552890702469
+        "p95_MPa": 1.0239191614518863,
+        "maximum_MPa": 7.965142804838271,
+        "sampled_volume_mm3": 1333.8167755035572
       },
       "equilibrium_pass": true,
       "passed": true

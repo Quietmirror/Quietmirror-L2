@@ -14,9 +14,9 @@ You are using an executable made on Sat Jul 29 10:52:01 CEST 2023
  Determining the structure of the matrix:
  Using up to 1 cpu(s) for setting up the structure of the matrix.
  number of equations
- 594774
+ 594630
  number of nonzero lower triangular matrix elements
- 20664835
+ 20654890
 
  Using up to 1 cpu(s) for the stress calculation.
 
@@ -32,8 +32,8 @@ You are using an executable made on Sat Jul 29 10:52:01 CEST 2023
 
   number of:
 
-   nodes:       199104
-   elements:       104974
+   nodes:       199056
+   elements:       104907
    one-dimensional elements:            0
    two-dimensional elements:            0
    integration points per element:            4
@@ -42,7 +42,7 @@ You are using an executable made on Sat Jul 29 10:52:01 CEST 2023
 
    distributed facial loads:            0
    distributed volumetric loads:            0
-   concentrated loads:          224
+   concentrated loads:          227
    single point constraints:         2538
    multiple point constraints:            1
    terms in all multiple point constraints:            1
@@ -51,7 +51,7 @@ You are using an executable made on Sat Jul 29 10:52:01 CEST 2023
    dependent nodes in pre-tension constraints:            0
 
    sets:            3
-   terms in all sets:       505717
+   terms in all sets:       505554
 
    materials:            1
    constants per material and temperature:            2
@@ -84,5 +84,5 @@ You are using an executable made on Sat Jul 29 10:52:01 CEST 2023
 
 ________________________________________
 
-Total CalculiX Time: 32.217971
+Total CalculiX Time: 32.902589
 ________________________________________

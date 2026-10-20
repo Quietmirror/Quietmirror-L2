@@ -86,7 +86,11 @@ R3.2基准固定为Quietmirror/github@f1b1090931d717117287ea2b79c2e14ddc234937�
     write('ASSEMBLY_SEQUENCE.md',text)
     text=f'# L2-r4 内部结构与运动模拟\n\n状态：**{state}**。\n\n## G8 整壳刚度\n\nC3D10二阶四面体；E=1500MPa，ν=0.35；五脚Uz固定，两个局部点约束面内刚体自由度。CalculiX默认SPOOLES直接法，三个网格档串行运行。每次求解记录可用内存、峰值RSS、真实日志以及力/力矩平衡。\n\n'
     text+=table(['工况','网格mm','刚度N/mm','R3.2基准','比值','作者偏差','平衡'],[[r['case'],r['size_mm'],fmt(r['stiffness_N_per_mm']),fmt(r['baseline_N_per_mm']),f"{100*r['ratio']:.2f}%",f"{100*r['author_difference_fraction']:+.2f}%",r['equilibrium_pass']] for r in g8.get('rows',[])])
-    text+='作者根部加载脚本使用Y35..42，正文指定35.5..42.5；本轮采用正文，独立重算R3.2同定义基准，并取其与原表的较大值。相同最终网格只改变加载区的控制求解用于解释根部差异。夹持差异另用作者V2几何控制件重算；几何控制件不属于打印版本。差异调查原始证据见 fem/REFERENCE_R32_ROOT_PROTOCOL.json 与 fem/AUTHOR_GEOMETRY_DIFFERENCE.json。\n\n'
+    text+='作者根部加载脚本使用Y35..42，正文指定35.5..42.5；本轮采用正文，独立重算R3.2同定义基准，并取其与原表的较大值。相同最终网格只改变加载区的控制求解用于解释根部差异。夹持和粗网格指压B差异另用作者V2几何控制件重算；对照包含几何导致的网格变化，不推断单项特征贡献。几何控制件不属于打印版本。差异调查原始证据见 fem/REFERENCE_R32_ROOT_PROTOCOL.json 与 fem/AUTHOR_GEOMETRY_DIFFERENCE.json。\n\n'
+    controls=read('fem/AUTHOR_GEOMETRY_DIFFERENCE.json')
+    text+='## 作者几何的独立对照\n\n'
+    text+=table(['工况','网格mm','作者N/mm','对照N/mm','对照与作者偏差','最终件与对照偏差','查明'],[[r['case'],r['size_mm'],fmt(r['author_stiffness_N_per_mm']),fmt(r['control_stiffness_N_per_mm']),f"{100*r['control_author_difference_fraction']:+.3f}%",f"{100*r['final_geometry_effect_fraction']:+.3f}%",r['resolved']] for r in controls.get('rows',[])])
+    text+='上述对照不替换最终BODY的18项主结果；最终件仍须独立超过R3.2基准。三档网格的实际数值均保留，不以粗网格单值代表收敛极限。\n\n'
     text+='## S7 侧键5N与螺钉预紧\n\n挡柱施加5N，每颗螺钉采用20N参考预紧。20N是明确的工程假设，不是已知拧紧扭矩换算；模型为线弹性等效面力，没有声称完成摩擦接触、螺纹滑牙或层间破坏预测。整壳和侧框区域P95均需≤10MPa，挡板另查预紧与微动反力。\n\n'
     text+=table(['零件','工况','网格mm','整体P95 MPa','侧框P95 MPa','通过'],[[r['part'],r['case'],r['size_mm'],fmt(r['global_p95_MPa']),fmt(r.get('side_frame_region',{}).get('p95_MPa')),r['passed']] for r in s7.get('rows',[])])
     text+='## S3/S4 侧键行程与理想杠杆力\n\n根据D2F-01F官方OF最大值0.74N、PT最大值0.5mm计算，实际FP/OP/TTP仍待测。各接触点力臂用实际几何坐标定义，未机械套用作者示例中含糊的“中点”数值。\n\n'
@@ -155,7 +159,7 @@ H采用PAW3950半组装主板的参考包络，C17编码器转接板是自制板
     release+=table(['门槛','结论','关键实测/仿真数据'],brief)
     release+=f'电子布局采用C17自制编码器转接板参考轮廓和{cell_size_text}mm估计电池；原18×22×6mm电池尚未找到通过路线。所选电池包络体积减少29.29%，容量和12小时续航均未验证。真实供体主板仍为DONOR_PENDING。\n\n'
     release+='![实际六视图](https://raw.githubusercontent.com/Quietmirror/Quietmirror-L2/L2-r4/views/l2_r4/L2_r4_H_SIX_VIEWS_SHEET.png)\n\n'
-    release+='## 参考差异和证据范围\n\n'+a['evidence_limit']+'\n\n根部刚度偏差来自正文与作者脚本加载区间不同，夹持偏差通过三档作者 V2 几何控制计算区分了几何影响。完整数值与修正理由见 handoff/l2_r4/INTERNAL_COMPONENTS_SIMULATION.md 和 TUNING_LOG.md。\n\n'
+    release+='## 参考差异和证据范围\n\n'+a['evidence_limit']+'\n\n根部刚度偏差来自正文与作者脚本加载区间不同，夹持和粗网格指压B偏差通过匹配工况的作者 V2 几何控制计算调查，比较包含几何引起的网格变化。完整数值与修正理由见 handoff/l2_r4/INTERNAL_COMPONENTS_SIMULATION.md 和 TUNING_LOG.md。\n\n'
     release+='## HARDWARE_PENDING\n\n'+pending+'\n\n保留 CERN-OHL-P-2.0 与 NOTICE 署名。L2-r3 tag、Release、作者证据分支和全部历史提交保持保留。\n'
     write('RELEASE_NOTES.md',release)
     print('WROTE_DOCS',state,flush=True)
