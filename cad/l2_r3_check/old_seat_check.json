@@ -1,0 +1,66 @@
+{
+ "seat": [
+  {
+   "part": "SIDE_FRONT_KEY",
+   "wall_x_asm": 31.6317,
+   "cy": 50.0,
+   "cz": 15.0
+  },
+  {
+   "part": "SIDE_REAR_KEY",
+   "wall_x_asm": 32.3498,
+   "cy": 65.0,
+   "cz": 15.0
+  }
+ ],
+ "seat_volume_mm3": 1277.49,
+ "results": [
+  {
+   "part": "carrier",
+   "overlap_with_unchanged_BODY_mm3": 63.6374,
+   "outside_old_seat_mm3": 0.0386,
+   "outside_pieces": [
+    {
+     "volume": 0.0128,
+     "bbox": [
+      28.247,
+      65.643,
+      10.75,
+      28.93,
+      66.357,
+      10.8
+     ]
+    },
+    {
+     "volume": 0.0258,
+     "bbox": [
+      26.974,
+      42.643,
+      10.75,
+      28.2,
+      43.357,
+      10.8
+     ]
+    }
+   ]
+  },
+  {
+   "part": "SF_switch",
+   "overlap_with_unchanged_BODY_mm3": 0.0,
+   "outside_old_seat_mm3": 0.0,
+   "outside_pieces": []
+  },
+  {
+   "part": "SR_switch",
+   "overlap_with_unchanged_BODY_mm3": 0.0,
+   "outside_old_seat_mm3": 0.0,
+   "outside_pieces": []
+  },
+  {
+   "part": "SIDE_IO_PCB",
+   "overlap_with_unchanged_BODY_mm3": 5.1062,
+   "outside_old_seat_mm3": 0.0,
+   "outside_pieces": []
+  }
+ ]
+}

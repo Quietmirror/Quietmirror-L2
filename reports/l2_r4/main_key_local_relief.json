@@ -1,0 +1,120 @@
+[
+  {
+    "name": "LEFT_KEY",
+    "printable": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1718.7297441178912,
+    "bounds_mm": [
+      5.299999899787287,
+      0.6846852341261915,
+      10.599999899999935,
+      28.00000010000022,
+      41.15,
+      26.119611768562397
+    ],
+    "mesh": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 5928,
+      "bounds_mm": [
+        [
+          5.300000190734863,
+          0.6846853494644165,
+          10.600000381469727
+        ],
+        [
+          28.0,
+          41.14970397949219,
+          26.119611740112305
+        ]
+      ],
+      "holes_patched": 0
+    },
+    "original_volume_mm3": 1719.6801597484564,
+    "removed_volume_mm3": 0.9504150567527176,
+    "correction": "R1.13 clearance around inherited R1.10 spherical plunger; 0.30 mm rigid housing relief across -0.5..3.1 degrees. Original external key surface and footprint retained.",
+    "unpressed_switch_check": {
+      "a": "LEFT_KEY",
+      "b": "SWITCH_LEFT",
+      "gap_mm": 0.030000000000160457,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.0,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "nearest_points_mm": [
+        [
+          18.3,
+          24.109025949866766,
+          16.654484723139834
+        ],
+        [
+          18.3,
+          24.123359836724937,
+          16.62813060225616
+        ]
+      ]
+    }
+  },
+  {
+    "name": "RIGHT_KEY",
+    "printable": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1718.7297727119435,
+    "bounds_mm": [
+      -28.0000001,
+      0.684685234126075,
+      10.5999999,
+      -5.299999899999995,
+      41.15,
+      26.119611772128
+    ],
+    "mesh": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 6502,
+      "bounds_mm": [
+        [
+          -28.0,
+          0.6846853494644165,
+          10.600000381469727
+        ],
+        [
+          -5.300000190734863,
+          41.14970397949219,
+          26.119611740112305
+        ]
+      ],
+      "holes_patched": 0
+    },
+    "original_volume_mm3": 1719.680209111002,
+    "removed_volume_mm3": 0.9504357882981367,
+    "correction": "R1.13 clearance around inherited R1.10 spherical plunger; 0.30 mm rigid housing relief across -0.5..3.1 degrees. Original external key surface and footprint retained.",
+    "unpressed_switch_check": {
+      "a": "RIGHT_KEY",
+      "b": "SWITCH_RIGHT",
+      "gap_mm": 0.029999999999609103,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.0,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_DistShapeShape_complete",
+      "nearest_points_mm": [
+        [
+          -18.3,
+          24.10902594986928,
+          16.654484723141486
+        ],
+        [
+          -18.3,
+          24.123359836727094,
+          16.62813060225833
+        ]
+      ]
+    }
+  }
+]

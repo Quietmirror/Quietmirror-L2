@@ -1,0 +1,7 @@
+{
+  "phase": "candidate_19_rebuilt_BODY_with_author_control_G8_and_S7",
+  "report_file": "final_fem_execution.json",
+  "geometry_source_commit": "5adc6e79356a7a8201a60d71532f9fad02ac9f9e",
+  "selected_geometry_commit": "7d112c42776e7d7d2f25f0bbbff37be3b5216127",
+  "scripts": ["cad/l2_r4/fem_stage.py", "cad/l2_r4/fem_geometry_investigation.py", "cad/l2_r4/side_fem.py"]
+}

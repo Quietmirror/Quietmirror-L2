@@ -1,0 +1,336 @@
+{
+ "pairs": [
+  {
+   "addition": "side_frame",
+   "part": "LEFT_KEY",
+   "pose": 0,
+   "gap_mm": 0.7081,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "side_frame",
+   "part": "SIDE_FRONT_KEY",
+   "pose": 3,
+   "gap_mm": 0.0,
+   "overlap_mm3": 0.006,
+   "need_mm": 0.3,
+   "intended_contact": false,
+   "pass_": false
+  },
+  {
+   "addition": "side_frame",
+   "part": "SIDE_REAR_KEY",
+   "pose": 3,
+   "gap_mm": 0.0,
+   "overlap_mm3": 0.0389,
+   "need_mm": 0.3,
+   "intended_contact": false,
+   "pass_": false
+  },
+  {
+   "addition": "side_frame",
+   "part": "SF_D2F_01F",
+   "pose": 0,
+   "gap_mm": 0.0,
+   "overlap_mm3": 0.0,
+   "need_mm": 0,
+   "intended_contact": true,
+   "pass_": true
+  },
+  {
+   "addition": "side_frame",
+   "part": "SF_TUNING_SHIM_0p33",
+   "pose": 0,
+   "gap_mm": 1.4,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "side_frame",
+   "part": "SF_VERTICAL_PIN",
+   "pose": 0,
+   "gap_mm": 1.092,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "side_frame",
+   "part": "SIDE_ROUTE_EST",
+   "pose": 0,
+   "gap_mm": 5.316,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.2,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "side_frame",
+   "part": "SR_D2F_01F",
+   "pose": 0,
+   "gap_mm": 0.0,
+   "overlap_mm3": 0.0,
+   "need_mm": 0,
+   "intended_contact": true,
+   "pass_": true
+  },
+  {
+   "addition": "side_frame",
+   "part": "SR_TUNING_SHIM_0p33",
+   "pose": 0,
+   "gap_mm": 1.4,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "side_frame",
+   "part": "SR_VERTICAL_PIN",
+   "pose": 0,
+   "gap_mm": 1.05,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "lower_tie_Y56",
+   "part": "MATCHED_LENS_EST",
+   "pose": 0,
+   "gap_mm": 2.0,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "lower_tie_Y56",
+   "part": "USB_ROUTE_EST",
+   "pose": 0,
+   "gap_mm": 5.1719,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.2,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "strut_+X",
+   "part": "LEFT_KEY",
+   "pose": 0,
+   "gap_mm": 0.7546,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "strut_+X",
+   "part": "WHEEL_CARRIER",
+   "pose": 4,
+   "gap_mm": 3.0853,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "strut_+X",
+   "part": "LEFT_KEY_STEEL_PIN",
+   "pose": 0,
+   "gap_mm": 1.5692,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "strut_-X",
+   "part": "RIGHT_KEY",
+   "pose": 0,
+   "gap_mm": 0.7546,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "strut_-X",
+   "part": "WHEEL_CARRIER",
+   "pose": 4,
+   "gap_mm": 4.8917,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "strut_-X",
+   "part": "RIGHT_KEY_STEEL_PIN",
+   "pose": 0,
+   "gap_mm": 1.5692,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "strut_-X",
+   "part": "USB_ROUTE_EST",
+   "pose": 0,
+   "gap_mm": 2.8941,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.2,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "strut_-X",
+   "part": "WHEEL_M2_SWITCH_1_BOLT",
+   "pose": 0,
+   "gap_mm": 1.65,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "Y67.5_tie_r1.5",
+   "part": "SIDE_REAR_KEY",
+   "pose": 3,
+   "gap_mm": 2.0207,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.3,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "Y67.5_tie_r1.5",
+   "part": "ANTENNA_FEED_HEADER_EST",
+   "pose": 0,
+   "gap_mm": 1.3302,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "Y67.5_tie_r1.5",
+   "part": "ANTENNA_FEED_ROUTE_EST",
+   "pose": 0,
+   "gap_mm": 0.8653,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.2,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "Y67.5_tie_r1.5",
+   "part": "CHARGE_POWERPATH_EST",
+   "pose": 0,
+   "gap_mm": 0.9,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "Y67.5_tie_r1.5",
+   "part": "MCU_RADIO_EST",
+   "pose": 0,
+   "gap_mm": 2.0511,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "Y67.5_tie_r1.5",
+   "part": "REGULATOR_EST",
+   "pose": 0,
+   "gap_mm": 0.9,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "Y67.5_tie_r1.5",
+   "part": "RF_SENSOR_HEADER_EST",
+   "pose": 0,
+   "gap_mm": 0.6213,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "Y67.5_tie_r1.5",
+   "part": "SENSOR_ROUTE_EST",
+   "pose": 0,
+   "gap_mm": 2.3204,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.2,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "Y67.5_tie_r1.5",
+   "part": "SIDE_ROUTE_EST",
+   "pose": 0,
+   "gap_mm": 2.26,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.2,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "Y67.5_tie_r1.5",
+   "part": "SR_D2F_01F",
+   "pose": 0,
+   "gap_mm": 2.0,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "intended_contact": false,
+   "pass_": true
+  },
+  {
+   "addition": "Y67.5_tie_r1.5",
+   "part": "SR_VERTICAL_PIN",
+   "pose": 0,
+   "gap_mm": 1.9173,
+   "overlap_mm3": 0.0,
+   "need_mm": 0.5,
+   "intended_contact": false,
+   "pass_": true
+  }
+ ],
+ "fails": [
+  {
+   "addition": "side_frame",
+   "part": "SIDE_FRONT_KEY",
+   "pose": 3,
+   "gap_mm": 0.0,
+   "overlap_mm3": 0.006,
+   "need_mm": 0.3,
+   "intended_contact": false,
+   "pass_": false
+  },
+  {
+   "addition": "side_frame",
+   "part": "SIDE_REAR_KEY",
+   "pose": 3,
+   "gap_mm": 0.0,
+   "overlap_mm3": 0.0389,
+   "need_mm": 0.3,
+   "intended_contact": false,
+   "pass_": false
+  }
+ ]
+}

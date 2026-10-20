@@ -1,0 +1,836 @@
+[
+  {
+    "part": "SIDE_FRONT_KEY",
+    "method": "Exact complete-solid -X translation at 0.25 mm intervals",
+    "samples": [
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 10.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 9.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 9.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 9.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 9.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 8.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 8.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 8.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 8.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 7.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 7.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 7.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 7.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 6.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 6.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 6.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 6.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 5.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 5.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 5.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 5.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 4.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 4.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 4.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 4.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 3.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 3.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 3.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 3.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 2.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 2.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 2.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 2.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 1.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 1.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 1.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 1.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 0.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 0.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 0.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_FRONT_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 0.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "part": "SIDE_REAR_KEY",
+    "method": "Exact complete-solid -X translation at 0.25 mm intervals",
+    "samples": [
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 10.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 9.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 9.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 9.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 9.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 8.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 8.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 8.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 8.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 7.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 7.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 7.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 7.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 6.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 6.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 6.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 6.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 5.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 5.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 5.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 5.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 4.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 4.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 4.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 4.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 3.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 3.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 3.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 3.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 2.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 2.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 2.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 2.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 1.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 1.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 1.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 1.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 0.75,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 0.5,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 0.25,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      },
+      {
+        "a": "SIDE_REAR_KEY + PET",
+        "b": "BODY",
+        "dx_mm": 0.0,
+        "overlap_mm3": 0.0,
+        "gap_mm": null,
+        "pass_check": true,
+        "nearest_points_mm": [],
+        "method": "Exact common volume of complete saved BODY and complete cap+PET; no clipping"
+      }
+    ],
+    "passed": true
+  }
+]

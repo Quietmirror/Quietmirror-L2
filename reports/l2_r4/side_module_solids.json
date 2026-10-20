@@ -1,0 +1,288 @@
+[
+  {
+    "name": "SF_RETAINER",
+    "printable": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 103.89933000919667,
+    "bounds_mm": [
+      14.8,
+      41.8,
+      12.7,
+      18.5,
+      55.0,
+      19.5
+    ],
+    "mesh": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 1194,
+      "bounds_mm": [
+        [
+          14.800000190734863,
+          41.79999923706055,
+          12.699999809265137
+        ],
+        [
+          18.5,
+          55.0,
+          19.5
+        ]
+      ],
+      "holes_patched": 0
+    }
+  },
+  {
+    "name": "SR_RETAINER",
+    "printable": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 166.7823898016227,
+    "bounds_mm": [
+      14.8,
+      55.3,
+      12.7,
+      19.0,
+      72.2,
+      19.5
+    ],
+    "mesh": {
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 1230,
+      "bounds_mm": [
+        [
+          14.800004959106445,
+          55.29999923706055,
+          12.699999809265137
+        ],
+        [
+          19.0,
+          72.19953155517578,
+          19.5
+        ]
+      ],
+      "holes_patched": 0
+    }
+  },
+  {
+    "name": "SIDE_FRONT_KEY",
+    "printable": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 76.74189104272244,
+    "bounds_mm": [
+      25.4,
+      44.05,
+      15.299999992433628,
+      32.367318773232,
+      56.05000010000002,
+      19.45000010000021
+    ],
+    "mesh": {
+      "watertight": false,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 19230,
+      "bounds_mm": [
+        [
+          25.399999618530273,
+          44.05002212524414,
+          15.300581932067871
+        ],
+        [
+          32.36731719970703,
+          56.04999923706055,
+          19.450000762939453
+        ]
+      ],
+      "holes_patched": 0
+    }
+  },
+  {
+    "name": "SIDE_REAR_KEY",
+    "printable": true,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 81.56501095510058,
+    "bounds_mm": [
+      25.4,
+      58.34999989999997,
+      15.299999992433628,
+      32.66429196856799,
+      70.95,
+      19.450000100000015
+    ],
+    "mesh": {
+      "watertight": false,
+      "winding_consistent": true,
+      "components": 1,
+      "triangles": 20518,
+      "bounds_mm": [
+        [
+          25.399999618530273,
+          58.349998474121094,
+          15.300581932067871
+        ],
+        [
+          32.664241790771484,
+          70.94998168945312,
+          19.450000762939453
+        ]
+      ],
+      "holes_patched": 0
+    }
+  },
+  {
+    "name": "SF_D2F_01F",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 488.50378744522556,
+    "bounds_mm": [
+      14.8,
+      41.85,
+      13.7,
+      25.62,
+      54.65,
+      19.5
+    ]
+  },
+  {
+    "name": "SF_TUNING_SHIM_0p33",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1.9911472802271644,
+    "bounds_mm": [
+      25.639999999999997,
+      49.151799999999476,
+      15.29999999999948,
+      26.49,
+      51.75180000000052,
+      17.90000000000052
+    ]
+  },
+  {
+    "name": "SF_VERTICAL_PIN",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4.319689898685969,
+    "bounds_mm": [
+      27.0,
+      44.8,
+      14.75,
+      28.0,
+      45.8,
+      20.25
+    ]
+  },
+  {
+    "name": "SR_D2F_01F",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 488.50378744522544,
+    "bounds_mm": [
+      15.3,
+      56.05,
+      13.7,
+      26.12,
+      68.85,
+      19.5
+    ]
+  },
+  {
+    "name": "SR_TUNING_SHIM_0p33",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 1.9911472802288812,
+    "bounds_mm": [
+      26.139999999999997,
+      62.988299999999484,
+      15.299999999999473,
+      26.990000000000258,
+      65.58830000000006,
+      17.900000000000528
+    ]
+  },
+  {
+    "name": "SR_VERTICAL_PIN",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 4.319689898685965,
+    "bounds_mm": [
+      27.0,
+      69.2,
+      14.75,
+      28.0,
+      70.2,
+      20.25
+    ]
+  },
+  {
+    "name": "SF_RETAINER_M2x5",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 23.8509714260537,
+    "bounds_mm": [
+      14.8,
+      43.900000000000006,
+      10.8,
+      18.400000000000002,
+      47.5,
+      16.6
+    ]
+  },
+  {
+    "name": "SF_RETAINER_WASHER",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 3.1887165433936397,
+    "bounds_mm": [
+      14.8,
+      43.900000000000006,
+      11.6,
+      18.400000000000002,
+      47.5,
+      12.1
+    ]
+  },
+  {
+    "name": "SR_RETAINER_M2x5",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 23.850971426053714,
+    "bounds_mm": [
+      14.8,
+      68.60000000000001,
+      10.8,
+      18.400000000000002,
+      72.2,
+      16.6
+    ]
+  },
+  {
+    "name": "SR_RETAINER_WASHER",
+    "printable": false,
+    "valid": true,
+    "solids": 1,
+    "volume_mm3": 3.1887165433936424,
+    "bounds_mm": [
+      14.8,
+      68.60000000000001,
+      11.6,
+      18.400000000000002,
+      72.2,
+      12.1
+    ]
+  }
+]

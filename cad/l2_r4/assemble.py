@@ -1,0 +1,49 @@
+"""Independent H components; the D board envelope is produced by validation."""
+import json
+from common import *
+from mechanics import beam
+from wire_layout import definition as wire_definition,OVERRIDES
+ROUTES={
+ 'SIDE_SF_NO_ROUTE_EST':[(14.5,43.17,16.6),(14.1,43.17,19.8),(14.1,55.8,20.3),(12.8,55.8,20.3)],
+ 'SIDE_SR_NO_ROUTE_EST':[(15,57.37,16.6),(14.5,57.37,17.6),(14.5,58.2,19.6),(12.8,58.2,20.3)],
+ 'SIDE_COM_ROUTE_EST':[(14.5,48.25,16.6),(13.6,48.25,17.6),(13.6,62.45,17.6),(15,62.45,16.6)],
+ 'SIDE_COM_GPIO_ROUTE_EST':[(13.6,60,17.9),(14,60,20.8),(13.5,57,20.8),(12.8,57,20.3)]}
+
+def main():
+    for n,points in ROUTES.items():export(unite(*[beam(a,b,.3) for a,b in zip(points[:-1],points[1:])]),n,False)
+    # End-cap spheres in the inherited tube envelopes extended into their
+    # mating components. Trim only a declared local termination ball; retain
+    # all other route geometry, so unintended mid-route intersections remain
+    # detectable. This is an envelope boundary, not electrical solder detail.
+    definition=wire_definition()
+    terminations=[]
+    for route in definition['routes']:
+        name=route['name']
+        if name=='SIDE_ROUTE_EST':continue
+        shape=unite(*[beam(a,b,route['radius']) for a,b in zip(route['points'][:-1],route['points'][1:])]) if name in OVERRIDES else load(name,OUT/'reference')
+        for point,target in zip([route['points'][0],route['points'][-1]],route['end_contacts']):
+            mate=load(target,OUT/'reference');r=float(route['radius'])+.8
+            zone=cq.Solid.makeSphere(r,V(*point),angleDegrees1=-90,angleDegrees2=90)
+            trim=mate.intersect(zone);before=vol(shape);shape=shape.cut(trim).clean()
+            terminations.append(dict(route=name,target=target,point_mm=point,local_ball_radius_mm=r,removed_mm3=before-vol(shape),purpose='Localized wire-to-connector termination; remainder retains normal G3 clearance'))
+        export(shape,name,False)
+    branch=load('SIDE_COM_GPIO_ROUTE_EST',OUT/'reference');trunk=load('SIDE_COM_ROUTE_EST',OUT/'reference')
+    point=ROUTES['SIDE_COM_GPIO_ROUTE_EST'][0];zone=cq.Solid.makeSphere(1.,V(*point),angleDegrees1=-90,angleDegrees2=90)
+    before=vol(branch);branch=branch.cut(trunk.intersect(zone)).clean();export(branch,'SIDE_COM_GPIO_ROUTE_EST',False)
+    terminations.append(dict(route='SIDE_COM_GPIO_ROUTE_EST',target='SIDE_COM_ROUTE_EST',point_mm=point,local_ball_radius_mm=1.,removed_mm3=before-vol(branch),purpose='Same electrical COM net branch junction'))
+    save('wire_termination_boundaries.json',terminations)
+    old=json.loads((ROOT/'reports/l2_r3/assembly_inventory.json').read_text(encoding='utf8'))
+    printed=[p.stem for p in sorted((OUT/'parts').glob('*.step'))]
+    excluded={'CARRIER_M2x5_1','CARRIER_M2x5_2','SIDE_IO_PCB','SIDE_ROUTE_EST'}
+    hardware=[n for n in old['H_hardware'] if n not in excluded]+['SF_RETAINER_M2x5','SR_RETAINER_M2x5','SF_RETAINER_WASHER','SR_RETAINER_WASHER',*ROUTES]
+    assert len(set(hardware))==len(hardware)
+    assy=cq.Assembly(name='Quietmirror_L2_r4_CAD_CANDIDATE')
+    for n in printed+hardware:
+        s=load(n,OUT/('parts' if n in printed else 'reference'));valid(s,n)
+        col=(.74,.79,.83) if n=='BODY' else ((.9,.49,.19) if n.startswith('SIDE_') and n.endswith('KEY') else ((.27,.39,.46) if n in printed else (.25,.59,.42)))
+        assy.add(s,name=n,color=cq.Color(*col))
+    assy.save(str(OUT/'FULL_ASSEMBLY_H.step'))
+    save('assembly_inventory.json',dict(printable=printed,H_hardware=hardware,D_status='DONOR_PENDING',independent_components=len(printed)+len(hardware)))
+    save('side_wiring.json',dict(routes={n:dict(points=p,diameter_mm=.6) for n,p in ROUTES.items()},assumption='COM/NO assignments and GPIO solder positions are reference interfaces, not a finalized PCB netlist. COM joins both switches; SF-NO and SR-NO are independent.',physical_wire='32 AWG silicone, actual diameter and bend radius HARDWARE_PENDING'))
+    print('Assembly components',len(printed)+len(hardware),flush=True)
+if __name__=='__main__':main()

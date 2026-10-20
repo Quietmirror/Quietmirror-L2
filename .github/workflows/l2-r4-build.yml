@@ -1,0 +1,25 @@
+name: L2-r4 final evidence verification
+on:
+  push:
+    branches: [l2-r4-build]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: l2-r4-final-accounting-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Read exact submitted commit
+        run: |
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+      - name: Verify all CAD gates and original producer identities
+        run: python3 cad/l2_r4/gate_accounting.py --check-only

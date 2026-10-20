@@ -1,0 +1,48 @@
+{
+  "candidate": "C18",
+  "status": "FAILED_G2_RETAINED_HISTORY",
+  "geometry_commit": "7f2f962a3b2edb2d72168fc8c41c3b49e8cf3810",
+  "acceptance_source_commit": "3844d155b625531a6400907c660828c5ca8c82fd",
+  "main_and_wheel_motion": [
+    {
+      "group": "LEFT_KEY",
+      "poses": 25,
+      "passed": true
+    },
+    {
+      "group": "RIGHT_KEY",
+      "poses": 25,
+      "passed": true
+    },
+    {
+      "group": "WHEEL_CARRIER",
+      "poses": 23,
+      "passed": true
+    }
+  ],
+  "side_motion": [
+    {
+      "part": "SIDE_FRONT_KEY",
+      "poses": 33,
+      "passed": true
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "poses": 33,
+      "passed": true
+    }
+  ],
+  "D_board_area_mm2": 1607.720377238168,
+  "D_geometric_pass": true,
+  "blocking_failure": {
+    "pair": [
+      "BODY",
+      "SWITCH_MIDDLE"
+    ],
+    "overlap_mm3": 0.006686004135470469,
+    "nonfunctional_terminal_gap_mm": 0.25,
+    "required_overlap_max_mm3": 0.001,
+    "required_gap_min_mm": 0.5
+  },
+  "scope": "Historical C18 only. Not evidence for changed C19 BODY. Full records retained in immutable result branches and source manifest."
+}

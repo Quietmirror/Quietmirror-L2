@@ -1,0 +1,46 @@
+{
+  "lens_bottom_z_mm": 7.8,
+  "foot_glue_z_mm": 5.2,
+  "skate_mm": 0.8,
+  "ground_z_mm": 4.4,
+  "lens_bottom_to_ground_mm": 3.3999999999999995,
+  "optical_axis": [
+    0,
+    0,
+    -1
+  ],
+  "optical_scope": "Geometric lens-envelope bottom to pad; true focal datum and PAW3950 working distance HARDWARE_PENDING.",
+  "runtime_requirement_h": 12,
+  "usable_capacity_fraction": 0.75,
+  "capacity_scenarios": [
+    {
+      "average_current_mA": 10,
+      "required_nominal_capacity_mAh": 160.0
+    },
+    {
+      "average_current_mA": 15,
+      "required_nominal_capacity_mAh": 240.0
+    },
+    {
+      "average_current_mA": 20,
+      "required_nominal_capacity_mAh": 320.0
+    },
+    {
+      "average_current_mA": 25,
+      "required_nominal_capacity_mAh": 400.0
+    }
+  ],
+  "power_scope": "No actual cell capacity, current, radio latency, firmware, receiver, macro, LOD or DPI behavior has been measured. Package size does not imply cell capacity.",
+  "target_features": [
+    "400-6400 DPI",
+    "1000 Hz wireless",
+    "no sync technologies",
+    "macros",
+    "adjustable LOD",
+    "two thumb buttons",
+    "wheel + middle click",
+    "power switch",
+    "USB-C charging",
+    "12 h full-power runtime"
+  ]
+}

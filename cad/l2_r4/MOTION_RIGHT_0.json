@@ -1,0 +1,7 @@
+{
+  "phase": "Complete finite angular partition motion_right_0",
+  "report_file": "motion_right_0_execution.json",
+  "scripts": [
+    "cad/l2_r4/motion_right_0.py"
+  ]
+}

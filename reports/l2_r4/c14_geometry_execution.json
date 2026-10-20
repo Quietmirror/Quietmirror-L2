@@ -1,0 +1,49 @@
+{
+  "status": "PHASE_COMPLETED",
+  "phase": "C14 ordinary static clearances",
+  "source_commit": "d7a7b0388d1f1b20882453a446f63a53f41abcd2",
+  "steps": [
+    {
+      "script": "cad/l2_r4/restore_inputs.py",
+      "returncode": 0,
+      "seconds": 4.59,
+      "available_memory_before_GB": 15.574003712,
+      "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/retainer_clearance_finish.py",
+      "returncode": 0,
+      "seconds": 2.52,
+      "available_memory_before_GB": 15.54960384,
+      "log_tail": "EXPORTED SF_RETAINER 100.1637\nEXPORTED SR_RETAINER 161.0014\n"
+    },
+    {
+      "script": "cad/l2_r4/wheel_clearance_finish.py",
+      "returncode": 0,
+      "seconds": 5.57,
+      "available_memory_before_GB": 15.426850816,
+      "log_tail": "EXPORTED WHEEL_CARRIER 589.5574\nEXPORTED ENCODER_ADAPTER_PCB_EST 145.2256\nEXPORTED ENCODER_EC10E_HOUSING 324.8311\nEXPORTED LEFT_KEY_STEEL_PIN 66.2876\nEXPORTED RIGHT_KEY_STEEL_PIN 66.2876\n"
+    },
+    {
+      "script": "cad/l2_r4/assemble.py",
+      "returncode": 0,
+      "seconds": 13.8,
+      "available_memory_before_GB": 15.588872192,
+      "log_tail": "EXPORTED SIDE_SF_NO_ROUTE_EST 4.8541\nEXPORTED SIDE_SR_NO_ROUTE_EST 1.4785\nEXPORTED SIDE_COM_ROUTE_EST 4.8815\nEXPORTED SIDE_COM_GPIO_ROUTE_EST 1.9279\nEXPORTED BATTERY_ROUTE_EST 12.5862\nEXPORTED SENSOR_ROUTE_EST 17.0216\nEXPORTED USB_ROUTE_EST 67.5772\nEXPORTED ANTENNA_FEED_ROUTE_EST 6.4158\nEXPORTED SIDE_COM_GPIO_ROUTE_EST 1.9278\n/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/venv/lib/python3.12/site-packages/cadquery/utils.py:82: FutureWarning: save will be removed in the next release.\n  warn(f\"{f.__name__} will be removed in the next release.\", FutureWarning)\nAssembly components 94\n"
+    },
+    {
+      "script": "cad/l2_r4/surface_mesh_changed.py",
+      "returncode": 0,
+      "seconds": 9.13,
+      "available_memory_before_GB": 15.5844608,
+      "log_tail": "{'part': 'SIDE_FRONT_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 27560, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SIDE_REAR_KEY', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 29970, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SF_RETAINER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 5094, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'SR_RETAINER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 5812, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n{'part': 'WHEEL_CARRIER', 'watertight': True, 'winding_consistent': True, 'components': 1, 'triangles': 33128, 'method': 'Conforming final STEP surface triangulation; no hole filling', 'passed': True}\n"
+    },
+    {
+      "script": "cad/l2_r4/mechanism_accounting.py",
+      "returncode": 0,
+      "seconds": 17.84,
+      "available_memory_before_GB": 15.63015168,
+      "log_tail": "ACTUATION [('SIDE_FRONT_KEY', True), ('SIDE_REAR_KEY', True)]\n"
+    }
+  ]
+}

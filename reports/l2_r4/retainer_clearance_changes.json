@@ -1,0 +1,81 @@
+{
+  "parts": [
+    {
+      "name": "SF_RETAINER",
+      "printable": true,
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 100.16368399517599,
+      "bounds_mm": [
+        14.8,
+        41.8,
+        12.7,
+        18.5,
+        55.0,
+        19.5
+      ],
+      "mesh": {
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "triangles": 1188,
+        "bounds_mm": [
+          [
+            14.800000190734863,
+            41.79999923706055,
+            12.699999809265137
+          ],
+          [
+            18.5,
+            55.0,
+            19.5
+          ]
+        ],
+        "holes_patched": 0
+      }
+    },
+    {
+      "name": "SR_RETAINER",
+      "printable": true,
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 161.0013898016225,
+      "bounds_mm": [
+        14.8,
+        55.3,
+        12.7,
+        19.0,
+        72.2,
+        19.5
+      ],
+      "mesh": {
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "triangles": 1238,
+        "bounds_mm": [
+          [
+            14.800004959106445,
+            55.29999923706055,
+            12.699999809265137
+          ],
+          [
+            19.0,
+            72.19953155517578,
+            19.5
+          ]
+        ],
+        "holes_patched": 0
+      }
+    }
+  ],
+  "terminal_slot_y_halfwidth_mm": 0.97,
+  "terminal_slot_z_mm": [
+    15.6,
+    17.35
+  ],
+  "sr_front_lip_xmax_mm": 18.65,
+  "sr_front_lip_ymax_mm": 56.05,
+  "body_changed": false,
+  "scope": "Source corrections; G1/G2/G5/G6/S7 and final slices must be rechecked."
+}

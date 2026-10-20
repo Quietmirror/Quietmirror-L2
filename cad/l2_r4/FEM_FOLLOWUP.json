@@ -1,0 +1,5 @@
+{
+  "phase": "C19 complete author deviation controls and S7",
+  "report_file": "fem_followup_execution.json",
+  "scripts": ["cad/l2_r4/fem_geometry_investigation.py", "cad/l2_r4/side_fem.py"]
+}

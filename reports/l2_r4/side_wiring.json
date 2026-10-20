@@ -1,0 +1,106 @@
+{
+  "routes": {
+    "SIDE_SF_NO_ROUTE_EST": {
+      "points": [
+        [
+          14.5,
+          43.17,
+          16.6
+        ],
+        [
+          14.1,
+          43.17,
+          19.8
+        ],
+        [
+          14.1,
+          55.8,
+          20.3
+        ],
+        [
+          12.8,
+          55.8,
+          20.3
+        ]
+      ],
+      "diameter_mm": 0.6
+    },
+    "SIDE_SR_NO_ROUTE_EST": {
+      "points": [
+        [
+          15,
+          57.37,
+          16.6
+        ],
+        [
+          14.5,
+          57.37,
+          17.6
+        ],
+        [
+          14.5,
+          58.2,
+          19.6
+        ],
+        [
+          12.8,
+          58.2,
+          20.3
+        ]
+      ],
+      "diameter_mm": 0.6
+    },
+    "SIDE_COM_ROUTE_EST": {
+      "points": [
+        [
+          14.5,
+          48.25,
+          16.6
+        ],
+        [
+          13.6,
+          48.25,
+          17.6
+        ],
+        [
+          13.6,
+          62.45,
+          17.6
+        ],
+        [
+          15,
+          62.45,
+          16.6
+        ]
+      ],
+      "diameter_mm": 0.6
+    },
+    "SIDE_COM_GPIO_ROUTE_EST": {
+      "points": [
+        [
+          13.6,
+          60,
+          17.9
+        ],
+        [
+          14,
+          60,
+          20.8
+        ],
+        [
+          13.5,
+          57,
+          20.8
+        ],
+        [
+          12.8,
+          57,
+          20.3
+        ]
+      ],
+      "diameter_mm": 0.6
+    }
+  },
+  "assumption": "COM/NO assignments and GPIO solder positions are reference interfaces, not a finalized PCB netlist. COM joins both switches; SF-NO and SR-NO are independent.",
+  "physical_wire": "32 AWG silicone, actual diameter and bend radius HARDWARE_PENDING"
+}

@@ -1,0 +1,96 @@
+{
+ "SIDE_FRONT_KEY": [
+  {
+   "angle": 0,
+   "gap_mm": 1.1217,
+   "overlap_mm3": 0.0
+  },
+  {
+   "angle": 1,
+   "gap_mm": 0.9746,
+   "overlap_mm3": 0.0
+  },
+  {
+   "angle": 2,
+   "gap_mm": 0.8274,
+   "overlap_mm3": 0.0
+  },
+  {
+   "angle": 3,
+   "gap_mm": 0.6802,
+   "overlap_mm3": 0.0
+  },
+  {
+   "angle": 4,
+   "gap_mm": 0.5052,
+   "overlap_mm3": 0.0
+  },
+  {
+   "angle": 5,
+   "gap_mm": 0.3251,
+   "overlap_mm3": 0.0
+  },
+  {
+   "angle": 6,
+   "gap_mm": 0.1446,
+   "overlap_mm3": 0.0
+  },
+  {
+   "angle": 6.75,
+   "gap_mm": 0.009,
+   "overlap_mm3": 0.0
+  },
+  {
+   "angle": 6.8,
+   "gap_mm": 0.0,
+   "overlap_mm3": 0.0
+  }
+ ],
+ "SIDE_REAR_KEY": [
+  {
+   "angle": 0,
+   "gap_mm": 0.7,
+   "overlap_mm3": 0.0
+  },
+  {
+   "angle": 1,
+   "gap_mm": 0.6782,
+   "overlap_mm3": 0.0
+  },
+  {
+   "angle": 2,
+   "gap_mm": 0.6528,
+   "overlap_mm3": 0.0
+  },
+  {
+   "angle": 3,
+   "gap_mm": 0.6239,
+   "overlap_mm3": 0.0
+  },
+  {
+   "angle": 4,
+   "gap_mm": 0.4491,
+   "overlap_mm3": 0.0
+  },
+  {
+   "angle": 5,
+   "gap_mm": 0.2599,
+   "overlap_mm3": 0.0
+  },
+  {
+   "angle": 6,
+   "gap_mm": 0.0703,
+   "overlap_mm3": 0.0
+  },
+  {
+   "angle": 6.32,
+   "gap_mm": 0.0095,
+   "overlap_mm3": 0.0
+  },
+  {
+   "angle": 6.37,
+   "gap_mm": 0.0,
+   "overlap_mm3": 0.0
+  }
+ ]
+}

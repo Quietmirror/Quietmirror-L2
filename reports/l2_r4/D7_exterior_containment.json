@@ -1,0 +1,126 @@
+[
+  {
+    "part": "SIDE_FRONT_KEY",
+    "fixed_bearing_region_outside_mother_mm3": 0.0,
+    "outside_regions": [],
+    "region_partition": {
+      "feature": "SIDE_FRONT_KEY fixed-bearing containment region",
+      "original_volume_mm3": 12612.830650497723,
+      "remaining_volume_mm3": 12591.431281399347,
+      "removed_volume_mm3": 21.37237529669039,
+      "volume_partition_error_mm3": 0.026993801684856322,
+      "lost_material_mm3": 0.0,
+      "added_material_mm3": 0.0,
+      "lost_solid_count": 0,
+      "added_solid_count": 0,
+      "mask_bounds_mm": [
+        24.5,
+        43.8,
+        14.2,
+        30.5,
+        46.8,
+        20.8
+      ],
+      "passed": true,
+      "scope": "BRep validity and direct geometric differences of recombined functional partitions; adaptive integration discrepancy retained separately. Full original overlap is required separately."
+    },
+    "moving_inboard_ear_outside_mother_mm3": 0.0,
+    "pin_outside_mother_mm3": 0.0,
+    "upper_profile_samples": [
+      {
+        "z": 19.8,
+        "outer_x": 29.39380707975031,
+        "axis_to_outer_wall_mm": 1.8938070797503102,
+        "fixed_bore_wall_mm": 1.3688070797503102
+      },
+      {
+        "z": 20.0,
+        "outer_x": 29.28456713550623,
+        "axis_to_outer_wall_mm": 1.7845671355062294,
+        "fixed_bore_wall_mm": 1.2595671355062295
+      },
+      {
+        "z": 20.25,
+        "outer_x": 29.14153344508812,
+        "axis_to_outer_wall_mm": 1.6415334450881183,
+        "fixed_bore_wall_mm": 1.1165334450881184
+      },
+      {
+        "z": 20.6,
+        "outer_x": 28.928509610484927,
+        "axis_to_outer_wall_mm": 1.4285096104849266,
+        "fixed_bore_wall_mm": 0.9035096104849266
+      },
+      {
+        "z": 20.8,
+        "outer_x": 28.799709783624326,
+        "axis_to_outer_wall_mm": 1.2997097836243263,
+        "fixed_bore_wall_mm": 0.7747097836243263
+      }
+    ],
+    "passed": true,
+    "evidence": "Exact current final BODY and original mother surface; cap exterior offset is intentionally excluded from hidden-feature containment."
+  },
+  {
+    "part": "SIDE_REAR_KEY",
+    "fixed_bearing_region_outside_mother_mm3": 0.0,
+    "outside_regions": [],
+    "region_partition": {
+      "feature": "SIDE_REAR_KEY fixed-bearing containment region",
+      "original_volume_mm3": 12612.830650497723,
+      "remaining_volume_mm3": 12590.514847217642,
+      "removed_volume_mm3": 22.28384737331887,
+      "volume_partition_error_mm3": 0.03195590676134685,
+      "lost_material_mm3": 0.0,
+      "added_material_mm3": 0.0,
+      "lost_solid_count": 0,
+      "added_solid_count": 0,
+      "mask_bounds_mm": [
+        24.5,
+        68.2,
+        14.2,
+        30.5,
+        71.2,
+        20.8
+      ],
+      "passed": true,
+      "scope": "BRep validity and direct geometric differences of recombined functional partitions; adaptive integration discrepancy retained separately. Full original overlap is required separately."
+    },
+    "moving_inboard_ear_outside_mother_mm3": 0.0,
+    "pin_outside_mother_mm3": 0.0,
+    "upper_profile_samples": [
+      {
+        "z": 19.8,
+        "outer_x": 29.53166942984664,
+        "axis_to_outer_wall_mm": 2.031669429846641,
+        "fixed_bore_wall_mm": 1.506669429846641
+      },
+      {
+        "z": 20.0,
+        "outer_x": 29.40966980311899,
+        "axis_to_outer_wall_mm": 1.909669803118991,
+        "fixed_bore_wall_mm": 1.384669803118991
+      },
+      {
+        "z": 20.25,
+        "outer_x": 29.24975704956807,
+        "axis_to_outer_wall_mm": 1.7497570495680712,
+        "fixed_bore_wall_mm": 1.2247570495680713
+      },
+      {
+        "z": 20.6,
+        "outer_x": 29.01121085558137,
+        "axis_to_outer_wall_mm": 1.5112108555813712,
+        "fixed_bore_wall_mm": 0.9862108555813712
+      },
+      {
+        "z": 20.8,
+        "outer_x": 28.866729886090447,
+        "axis_to_outer_wall_mm": 1.3667298860904467,
+        "fixed_bore_wall_mm": 0.8417298860904466
+      }
+    ],
+    "passed": true,
+    "evidence": "Exact current final BODY and original mother surface; cap exterior offset is intentionally excluded from hidden-feature containment."
+  }
+]

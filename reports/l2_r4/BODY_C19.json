@@ -1,0 +1,1488 @@
+{
+  "valid": true,
+  "solids": 1,
+  "volume_mm3": 12612.830650497723,
+  "removed_mm3": 20.409386046779268,
+  "added_mm3": 0.0,
+  "selected_geometry": {
+    "candidate": "C19A",
+    "selected_artifact_commit": "7d112c42776e7d7d2f25f0bbbff37be3b5216127",
+    "source_build_commit": "5adc6e79356a7a8201a60d71532f9fad02ac9f9e",
+    "status": "SOURCE_GENERATED_ARTIFACT_SELECTED_FOR_COMPLETE_REVALIDATION",
+    "models": [
+      {
+        "path": "models/L2_r4/parts/BODY.step",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c392a31a24c5f1f6c6b0b7cdccd62679ff3f8d9"
+      },
+      {
+        "path": "models/L2_r4/parts/BODY.stl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d7733b9930834d58ec50710dc1695520f11bd940"
+      },
+      {
+        "path": "models/L2_r4/validation_features/LEFT_KEY_FIXED_BEARINGS.step",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4b67fc5190a055c6a58b75f66772f4cbb8858c50"
+      },
+      {
+        "path": "models/L2_r4/validation_features/LEFT_KEY_PRESS_STOP.step",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b974005e0504f2b1564b19a71669d0524061f057"
+      },
+      {
+        "path": "models/L2_r4/validation_features/RIGHT_KEY_FIXED_BEARINGS.step",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d35ac63d439906d7a7f94ff763cbbf25b868b5e8"
+      },
+      {
+        "path": "models/L2_r4/validation_features/RIGHT_KEY_PRESS_STOP.step",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "60002c75119455403beb2a3bbd252410ac952dd0"
+      },
+      {
+        "path": "models/L2_r4/validation_features/SWITCH_LEFT_MOUNT.step",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "db232243efa8006ad9b3f9a688f2140355f1799b"
+      },
+      {
+        "path": "models/L2_r4/validation_features/SWITCH_MIDDLE_MOUNT.step",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7324fb06cfb5b5cd064bfe4ed6d30e38e1bd23ca"
+      },
+      {
+        "path": "models/L2_r4/validation_features/SWITCH_RIGHT_MOUNT.step",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e80c8be7a59be0216eae0153b8ff35756e6ae17"
+      },
+      {
+        "path": "models/L2_r4/validation_features/WHEEL_CARRIER_FIXED_BEARINGS.step",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b822f4cf9b6cf951d8a01c2de2fe8398682bca60"
+      },
+      {
+        "path": "models/L2_r4/validation_features/WHEEL_CARRIER_PRESS_STOP.step",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e724311a8e1bc1df14de588847e25303665b927"
+      }
+    ],
+    "reason": "C19A complete boundary audit passed locally. A repeated source build C19B produced a different cylindrical trim outside the declared change zone and was rejected. All final checks must use this one selected immutable BODY and its matching source features. Selection is not a CAD gate pass.",
+    "surface_mesh_policy": "BODY.stl in this selection is the original source-builder mesh. The final printable STL is regenerated conformingly from the selected unchanged STEP, then independently validated and bound by G1 and slicing reports."
+  },
+  "comparison_reference": "analysis_reference/BODY_C18_BEFORE_C19.step",
+  "unchanged_below_z_mm": 5.1,
+  "boundary_comparison": {
+    "method": "Complete recursive STEP face identity plus bidirectional exact exterior face difference and local solid difference",
+    "correction_box_mm": [
+      -3.5,
+      0.65,
+      37.0,
+      50.0,
+      5.1,
+      9.3
+    ],
+    "old_face_count": 831,
+    "new_face_count": 833,
+    "identical_face_count": 797,
+    "unmatched_old_count": 34,
+    "unmatched_new_count": 36,
+    "exterior_difference_area_mm2": 0.0,
+    "face_checks": [
+      {
+        "side": "old",
+        "face_index": 427,
+        "source_area_mm2": 229.3274097099403,
+        "inside_area_mm2": 0.12797863507337648,
+        "outside_area_mm2": 229.19943095188395,
+        "partition_area_error_mm2": 1.229829535986937e-07,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 434,
+        "source_area_mm2": 225.78154883607388,
+        "inside_area_mm2": 7.907938832764446,
+        "outside_area_mm2": 217.87360951466644,
+        "partition_area_error_mm2": 4.886429962880356e-07,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 446,
+        "source_area_mm2": 51.3595811214724,
+        "inside_area_mm2": 0.07823659234187309,
+        "outside_area_mm2": 51.28134452913119,
+        "partition_area_error_mm2": 6.608047442568932e-13,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 454,
+        "source_area_mm2": 50.61332439453171,
+        "inside_area_mm2": 1.433619011977515,
+        "outside_area_mm2": 49.17970538255613,
+        "partition_area_error_mm2": 1.9326762412674725e-12,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 566,
+        "source_area_mm2": 99.55875172776875,
+        "inside_area_mm2": 44.89875172776879,
+        "outside_area_mm2": 54.65999999999997,
+        "partition_area_error_mm2": 7.105427357601002e-15,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 576,
+        "source_area_mm2": 18.615157274539,
+        "inside_area_mm2": 3.383415781955944,
+        "outside_area_mm2": 15.231741492573082,
+        "partition_area_error_mm2": 9.976020010071807e-12,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 577,
+        "source_area_mm2": 30.335262921366773,
+        "inside_area_mm2": 8.539035746473846,
+        "outside_area_mm2": 21.79622717487681,
+        "partition_area_error_mm2": 1.6115109247039072e-11,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 581,
+        "source_area_mm2": 25.64362906957662,
+        "inside_area_mm2": 11.327216718331147,
+        "outside_area_mm2": 14.316412351250294,
+        "partition_area_error_mm2": 4.82280881897168e-12,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 582,
+        "source_area_mm2": 1.0713151431153496,
+        "inside_area_mm2": 0.7813858122961399,
+        "outside_area_mm2": 0.28992933081920874,
+        "partition_area_error_mm2": 9.43689570931383e-16,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 586,
+        "source_area_mm2": 25.194229590945582,
+        "inside_area_mm2": 16.136642517436943,
+        "outside_area_mm2": 9.057587073508651,
+        "partition_area_error_mm2": 1.2434497875801753e-14,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 594,
+        "source_area_mm2": 0.9217383818170284,
+        "inside_area_mm2": 0.1279786293153718,
+        "outside_area_mm2": 0.7937597525016565,
+        "partition_area_error_mm2": 1.1102230246251565e-16,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 596,
+        "source_area_mm2": 0.10896161798359591,
+        "inside_area_mm2": 0.10896161798359591,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 597,
+        "source_area_mm2": 7.445555094997191,
+        "inside_area_mm2": 7.445555094997191,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 598,
+        "source_area_mm2": 0.15140267175620925,
+        "inside_area_mm2": 0.15140267175620925,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 599,
+        "source_area_mm2": 1.8682793549541161,
+        "inside_area_mm2": 1.3529119128396214,
+        "outside_area_mm2": 0.515367442138542,
+        "partition_area_error_mm2": 2.4047319691078428e-11,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 614,
+        "source_area_mm2": 82.49775441187953,
+        "inside_area_mm2": 7.561360196114937,
+        "outside_area_mm2": 74.93639421556819,
+        "partition_area_error_mm2": 1.964082230188069e-10,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 621,
+        "source_area_mm2": 0.11087713781213475,
+        "inside_area_mm2": 0.11087713781213475,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 622,
+        "source_area_mm2": 3.097558184959172,
+        "inside_area_mm2": 1.1828187920239672,
+        "outside_area_mm2": 1.914739392941706,
+        "partition_area_error_mm2": 6.501466032204917e-12,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 623,
+        "source_area_mm2": 5.823930284563299,
+        "inside_area_mm2": 0.9225000000000003,
+        "outside_area_mm2": 4.901430284563299,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 641,
+        "source_area_mm2": 4.183930284563299,
+        "inside_area_mm2": 4.183930284563299,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 642,
+        "source_area_mm2": 1.3951885116387557,
+        "inside_area_mm2": 1.3951885116387557,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 643,
+        "source_area_mm2": 6.516279918433804,
+        "inside_area_mm2": 6.516279918433804,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 682,
+        "source_area_mm2": 19.425488460341278,
+        "inside_area_mm2": 1.2693818815116265,
+        "outside_area_mm2": 18.156106578830695,
+        "partition_area_error_mm2": 1.0444978215673473e-12,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 683,
+        "source_area_mm2": 0.22073248627302638,
+        "inside_area_mm2": 0.22073248627302638,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 684,
+        "source_area_mm2": 2.160000000000001,
+        "inside_area_mm2": 2.160000000000001,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 685,
+        "source_area_mm2": 3.600000000000001,
+        "inside_area_mm2": 3.600000000000001,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 686,
+        "source_area_mm2": 3.600000000000001,
+        "inside_area_mm2": 3.600000000000001,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 687,
+        "source_area_mm2": 2.160000000000001,
+        "inside_area_mm2": 2.160000000000001,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 688,
+        "source_area_mm2": 2.160000000000001,
+        "inside_area_mm2": 2.160000000000001,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 689,
+        "source_area_mm2": 6.675000000000001,
+        "inside_area_mm2": 6.675000000000001,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 690,
+        "source_area_mm2": 4.62,
+        "inside_area_mm2": 4.62,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 691,
+        "source_area_mm2": 4.6278818013158,
+        "inside_area_mm2": 4.6278818013158,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 692,
+        "source_area_mm2": 2.160000000000001,
+        "inside_area_mm2": 2.160000000000001,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "old",
+        "face_index": 693,
+        "source_area_mm2": 6.511000000000004,
+        "inside_area_mm2": 6.511000000000004,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 427,
+        "source_area_mm2": 229.32038564607532,
+        "inside_area_mm2": 0.12095451358915424,
+        "outside_area_mm2": 229.1994309523187,
+        "partition_area_error_mm2": 1.8016748981608544e-07,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 434,
+        "source_area_mm2": 224.83966526048212,
+        "inside_area_mm2": 6.966055289782748,
+        "outside_area_mm2": 217.87360951466644,
+        "partition_area_error_mm2": 4.5603292164742015e-07,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 446,
+        "source_area_mm2": 51.299399127363266,
+        "inside_area_mm2": 0.018054598232213788,
+        "outside_area_mm2": 51.28134452913119,
+        "partition_area_error_mm2": 1.3500311979441904e-13,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 454,
+        "source_area_mm2": 50.57721519806589,
+        "inside_area_mm2": 1.397509815511697,
+        "outside_area_mm2": 49.17970538255613,
+        "partition_area_error_mm2": 1.9326762412674725e-12,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 566,
+        "source_area_mm2": 92.34999999999997,
+        "inside_area_mm2": 37.689999999999976,
+        "outside_area_mm2": 54.65999999999997,
+        "partition_area_error_mm2": 2.1316282072803006e-14,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 576,
+        "source_area_mm2": 17.637157274539003,
+        "inside_area_mm2": 2.4054157819559423,
+        "outside_area_mm2": 15.231741492573082,
+        "partition_area_error_mm2": 9.979572723750607e-12,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 577,
+        "source_area_mm2": 28.047762366222777,
+        "inside_area_mm2": 6.25153519132985,
+        "outside_area_mm2": 21.79622717487681,
+        "partition_area_error_mm2": 1.6115109247039072e-11,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 581,
+        "source_area_mm2": 24.11362906957662,
+        "inside_area_mm2": 9.797216718331146,
+        "outside_area_mm2": 14.316412351250294,
+        "partition_area_error_mm2": 4.8192561052928795e-12,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 582,
+        "source_area_mm2": 0.4100927239722949,
+        "inside_area_mm2": 0.12839149731399535,
+        "outside_area_mm2": 0.28170122665829944,
+        "partition_area_error_mm2": 1.1102230246251565e-16,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 586,
+        "source_area_mm2": 22.433467188795113,
+        "inside_area_mm2": 13.375880115286456,
+        "outside_area_mm2": 9.057587073508651,
+        "partition_area_error_mm2": 5.329070518200751e-15,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 594,
+        "source_area_mm2": 0.9147142554328502,
+        "inside_area_mm2": 0.12095450294245713,
+        "outside_area_mm2": 0.7937597524903927,
+        "partition_area_error_mm2": 4.440892098500626e-16,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 595,
+        "source_area_mm2": 8.664063488341654,
+        "inside_area_mm2": 8.664063488341654,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 597,
+        "source_area_mm2": 0.038069752689048955,
+        "inside_area_mm2": 0.038069752689048955,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 598,
+        "source_area_mm2": 10.102927456659064,
+        "inside_area_mm2": 10.102927456659064,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 599,
+        "source_area_mm2": 0.2311979759377541,
+        "inside_area_mm2": 0.2311979759377541,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 600,
+        "source_area_mm2": 1.10828509512149,
+        "inside_area_mm2": 0.5929176530069948,
+        "outside_area_mm2": 0.515367442138542,
+        "partition_area_error_mm2": 2.4046875601868578e-11,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 615,
+        "source_area_mm2": 82.22431345223669,
+        "inside_area_mm2": 7.287919236471866,
+        "outside_area_mm2": 74.93639421556819,
+        "partition_area_error_mm2": 1.9663559669425013e-10,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 622,
+        "source_area_mm2": 8.495285554504612,
+        "inside_area_mm2": 8.495285554504612,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 623,
+        "source_area_mm2": 2.162524829301134,
+        "inside_area_mm2": 0.24778543636004835,
+        "outside_area_mm2": 1.914739392941706,
+        "partition_area_error_mm2": 6.206146707654625e-13,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 624,
+        "source_area_mm2": 5.2089302845633,
+        "inside_area_mm2": 0.3075000000000007,
+        "outside_area_mm2": 4.901430284563299,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 642,
+        "source_area_mm2": 3.5689302845633,
+        "inside_area_mm2": 3.5689302845633,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 643,
+        "source_area_mm2": 1.0151731944766342,
+        "inside_area_mm2": 1.0151731944766342,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 644,
+        "source_area_mm2": 8.548876536791314,
+        "inside_area_mm2": 8.548876536791314,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 683,
+        "source_area_mm2": 19.556106578830697,
+        "inside_area_mm2": 1.4000000000000004,
+        "outside_area_mm2": 18.156106578830695,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 684,
+        "source_area_mm2": 3.2400000000000007,
+        "inside_area_mm2": 3.2400000000000007,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 685,
+        "source_area_mm2": 5.1448612160016385,
+        "inside_area_mm2": 5.1448612160016385,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 686,
+        "source_area_mm2": 5.1448612160016385,
+        "inside_area_mm2": 5.1448612160016385,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 687,
+        "source_area_mm2": 5.837684839171203,
+        "inside_area_mm2": 5.837684839171203,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 688,
+        "source_area_mm2": 3.2400000000000007,
+        "inside_area_mm2": 3.2400000000000007,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 689,
+        "source_area_mm2": 6.93,
+        "inside_area_mm2": 6.93,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 690,
+        "source_area_mm2": 7.030258794939397,
+        "inside_area_mm2": 7.030258794939397,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 691,
+        "source_area_mm2": 3.2400000000000007,
+        "inside_area_mm2": 3.2400000000000007,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 740,
+        "source_area_mm2": 0.05411960147459848,
+        "inside_area_mm2": 0.04589149731368924,
+        "outside_area_mm2": 0.008228104160909317,
+        "partition_area_error_mm2": 7.28583859910259e-17,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 783,
+        "source_area_mm2": 0.047989847332570515,
+        "inside_area_mm2": 0.047989847332570515,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 784,
+        "source_area_mm2": 0.04798984733257105,
+        "inside_area_mm2": 0.04798984733257105,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      },
+      {
+        "side": "new",
+        "face_index": 813,
+        "source_area_mm2": 0.10648963246294113,
+        "inside_area_mm2": 0.10648963246294113,
+        "outside_area_mm2": 0.0,
+        "partition_area_error_mm2": 0.0,
+        "exterior_difference_area_mm2": 0.0,
+        "difference_regions": []
+      }
+    ],
+    "old_volume_mm3": 12633.239977596988,
+    "new_volume_mm3": 12612.830650497723,
+    "local_old_volume_mm3": 152.566320172495,
+    "local_new_volume_mm3": 132.15693412372505,
+    "removed_mm3": 20.409386046779268,
+    "added_mm3": 0.0,
+    "whole_local_volume_balance_error_mm3": 5.8947513984719535e-05,
+    "change_regions": [
+      {
+        "bounds_mm": [
+          -3.350000000000005,
+          45.42554373409976,
+          9.049999999999798,
+          -3.132532421355,
+          46.574456264654,
+          9.217707825203
+        ],
+        "volume_mm3": 0.012296795313563527
+      },
+      {
+        "bounds_mm": [
+          -1.3000000000000007,
+          37.07,
+          5.806841756015946,
+          0.5,
+          39.77,
+          9.05
+        ],
+        "volume_mm3": 4.940750188803789
+      },
+      {
+        "bounds_mm": [
+          -1.3000000000002143,
+          42.15,
+          5.2,
+          0.5000000000005953,
+          44.85,
+          9.05
+        ],
+        "volume_mm3": 7.962894966697527
+      },
+      {
+        "bounds_mm": [
+          -1.3,
+          47.229999999990895,
+          5.1,
+          0.5000000000057909,
+          49.93,
+          9.05
+        ],
+        "volume_mm3": 7.49344409596439
+      }
+    ],
+    "passed": true
+  },
+  "regression_controls": {
+    "local_removal_detected_mm3": 8.000000000000002,
+    "outside_change_difference_area_mm2": 16.0,
+    "positive_passed": true,
+    "outside_change_rejected": true
+  },
+  "complete_body_change_regions": [
+    {
+      "bounds_mm": [
+        -3.350000000000005,
+        45.42554373409976,
+        9.049999999999798,
+        -3.132532421355,
+        46.574456264654,
+        9.217707825203
+      ],
+      "volume_mm3": 0.012296795313563527
+    },
+    {
+      "bounds_mm": [
+        -1.3000000000000007,
+        37.07,
+        5.806841756015946,
+        0.5,
+        39.77,
+        9.05
+      ],
+      "volume_mm3": 4.940750188803789
+    },
+    {
+      "bounds_mm": [
+        -1.3000000000002143,
+        42.15,
+        5.2,
+        0.5000000000005953,
+        44.85,
+        9.05
+      ],
+      "volume_mm3": 7.962894966697527
+    },
+    {
+      "bounds_mm": [
+        -1.3,
+        47.229999999990895,
+        5.1,
+        0.5000000000057909,
+        49.93,
+        9.05
+      ],
+      "volume_mm3": 7.49344409596439
+    }
+  ],
+  "low_band_clear_of_complete_changes": true,
+  "feet": [
+    {
+      "center": [
+        23.22,
+        12.0
+      ],
+      "boundary_preserved_outside_correction_box": true,
+      "complete_change_region_checks": [
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 38.64931936229813,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              -3.35,
+              45.425543735346,
+              9.05
+            ],
+            [
+              20.699854442480543,
+              15.170388993312171,
+              9.05
+            ]
+          ]
+        },
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 29.783464203359372,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              0.5,
+              37.07,
+              9.05
+            ],
+            [
+              20.50032579085225,
+              15.00097853975942,
+              9.05
+            ]
+          ]
+        },
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 33.702097954948144,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              0.5,
+              42.15,
+              9.05
+            ],
+            [
+              20.782625523227654,
+              15.234456006808369,
+              9.05
+            ]
+          ]
+        },
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 37.870774086364385,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              0.5,
+              47.23,
+              9.05
+            ],
+            [
+              21.025002364449893,
+              15.4035988864626,
+              9.05
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "center": [
+        -23.22,
+        12.0
+      ],
+      "boundary_preserved_outside_correction_box": true,
+      "complete_change_region_checks": [
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 34.83552267880076,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              -3.35,
+              45.425543735346,
+              9.05
+            ],
+            [
+              -21.150502293495677,
+              15.481332969248037,
+              9.05
+            ]
+          ]
+        },
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 29.251520986285293,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              -1.3,
+              37.07,
+              9.05
+            ],
+            [
+              -20.55417581627695,
+              15.048914794066462,
+              9.05
+            ]
+          ]
+        },
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 33.22611701880978,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              -1.3,
+              42.15,
+              5.803619080763
+            ],
+            [
+              -20.838421469296197,
+              15.275756966273706,
+              5.803619080762999
+            ]
+          ]
+        },
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 37.4426415162978,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              -1.3,
+              47.23,
+              9.05
+            ],
+            [
+              -21.08043990558832,
+              15.43871816268811,
+              9.05
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "center": [
+        24.84,
+        62.64
+      ],
+      "boundary_preserved_outside_correction_box": true,
+      "complete_change_region_checks": [
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 28.378706375729994,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              -3.248629437051744,
+              46.43352309873298,
+              9.05
+            ],
+            [
+              21.332029379710377,
+              60.615983664298916,
+              9.05
+            ]
+          ]
+        },
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 29.34869009407405,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              0.5,
+              39.77,
+              5.806841756016
+            ],
+            [
+              21.888477059359566,
+              59.866732553309504,
+              5.806841756016
+            ]
+          ]
+        },
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 26.098295142511788,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              0.5,
+              44.85,
+              9.05
+            ],
+            [
+              21.570262871116793,
+              60.25016337211043,
+              9.05
+            ]
+          ]
+        },
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 23.40869079180579,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              0.5,
+              49.93,
+              9.05
+            ],
+            [
+              21.249989072406272,
+              60.765347621622176,
+              9.05
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "center": [
+        -24.84,
+        62.64
+      ],
+      "boundary_preserved_outside_correction_box": true,
+      "complete_change_region_checks": [
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 22.78135843583614,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              -3.35,
+              46.574456264654,
+              9.05
+            ],
+            [
+              -21.596239524430633,
+              60.21502206667071,
+              9.05
+            ]
+          ]
+        },
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 28.770245276353435,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              -1.3,
+              39.77,
+              5.806841756016
+            ],
+            [
+              -21.9351771019003,
+              59.8178547289915,
+              5.806841756016
+            ]
+          ]
+        },
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 25.456197654052275,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              -1.3,
+              44.85,
+              9.05
+            ],
+            [
+              -21.608916106446987,
+              60.19815707449838,
+              9.05
+            ]
+          ]
+        },
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 22.70211580417519,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              -1.3,
+              49.93,
+              9.05
+            ],
+            [
+              -21.27628187400711,
+              60.71583443579568,
+              9.05
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "center": [
+        -0.0,
+        83.484
+      ],
+      "boundary_preserved_outside_correction_box": true,
+      "complete_change_region_checks": [
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 33.0112590011648,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              -3.35,
+              46.574456264654,
+              9.05
+            ],
+            [
+              -0.36608308421399477,
+              79.45057922162188,
+              9.05
+            ]
+          ]
+        },
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 39.663999999999994,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              0.0,
+              39.77,
+              5.806841756016
+            ],
+            [
+              -7.43972930482017e-16,
+              79.434,
+              5.806841756016
+            ]
+          ]
+        },
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 34.583999999999996,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              0.0,
+              44.85,
+              9.05
+            ],
+            [
+              -7.43972930482017e-16,
+              79.434,
+              9.05
+            ]
+          ]
+        },
+        {
+          "a": "FULL_BODY_CHANGE_REGION",
+          "b": "FOOT_REGION",
+          "gap_mm": 29.503999999999998,
+          "overlap_mm3": 0.0,
+          "required_mm": 0.0,
+          "intended_contact": false,
+          "pass_check": true,
+          "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+          "nearest_points_mm": [
+            [
+              0.0,
+              49.93,
+              9.05
+            ],
+            [
+              -7.43972930482017e-16,
+              79.434,
+              9.05
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "middle_raw": {
+    "a": "BODY",
+    "b": "SWITCH_MIDDLE",
+    "gap_mm": 0.0,
+    "overlap_mm3": 0.0,
+    "required_mm": 0.5,
+    "intended_contact": false,
+    "pass_check": false,
+    "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+    "nearest_points_mm": [
+      [
+        0.5,
+        39.77,
+        9.05
+      ],
+      [
+        0.5,
+        39.77,
+        9.05
+      ]
+    ]
+  },
+  "middle_functional_contact": {
+    "classification": "original middle micro seat and bolt holders",
+    "source_feature_bounds_mm": [
+      [
+        -31.72308652905081,
+        35.75,
+        6.8999999,
+        15.2583593135,
+        51.25,
+        13.35000000000019
+      ],
+      [
+        17.941640686499998,
+        44.7499999,
+        6.8999999,
+        31.72308652945583,
+        47.2500001,
+        9.4000001
+      ]
+    ],
+    "seam_collar_mm": 0.5,
+    "nonfunctional": {
+      "a": "SWITCH_MIDDLE",
+      "b": "BODY",
+      "gap_mm": 0.6,
+      "overlap_mm3": 0.0,
+      "required_mm": 0.5,
+      "intended_contact": false,
+      "pass_check": true,
+      "distance_kind": "BRepExtrema_original_supplied_shapes_no_body_crop",
+      "nearest_points_mm": [
+        [
+          -0.7,
+          44.25,
+          5.55
+        ],
+        [
+          -1.3,
+          44.25,
+          5.55
+        ]
+      ]
+    },
+    "functional_partition": {
+      "feature": "SWITCH_MIDDLE/BODY original middle micro seat and bolt holders",
+      "original_volume_mm3": 12612.830650497723,
+      "remaining_volume_mm3": 11420.552514256093,
+      "removed_volume_mm3": 1192.250172292555,
+      "volume_partition_error_mm3": 0.027963949075001437,
+      "lost_material_mm3": 0.0,
+      "added_material_mm3": 0.0,
+      "lost_solid_count": 0,
+      "added_solid_count": 0,
+      "mask_bounds_mm": [
+        -32.223096529050814,
+        35.24999,
+        6.3999899000000005,
+        32.22309652945583,
+        51.75001,
+        13.85001000000019
+      ],
+      "passed": true,
+      "scope": "BRep validity and direct geometric differences of recombined functional partitions; adaptive integration discrepancy retained separately. Full original overlap is required separately."
+    },
+    "passed": true,
+    "note": "Collar accounts only for continuous geometry next to the named mating feature; full-solid overlap must still pass."
+  },
+  "scope": "Source rebuilt middle-seat tie leveling and terminal-clearance slots. All exterior boundary faces compared outside the declared correction box; local differences and independent whole-solid volume balance checked. Direct full-coincident-solid Boolean failure retained in candidate history. Full G1-G11 verification must follow."
+}

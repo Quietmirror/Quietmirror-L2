@@ -1,0 +1,10 @@
+{
+  "phase": "candidate_7_independent_verification_and_actual_print_artifacts",
+  "geometry_source_commit": "f73ba1a39c29c3f8b1c23944e1ea390afa9f930f",
+  "geometry_checkpoint": "5e0fe111d5871e312edddbf4573f6a90f7b8a456",
+  "windows": true,
+  "parallel": true,
+  "scripts": [
+    "cad/l2_r4/surface_mesh.py"
+  ]
+}

@@ -1,0 +1,1820 @@
+{
+  "status": "CAD_COMPLETE / HARDWARE_PENDING",
+  "gates": {
+    "G1": {
+      "status": "COMPLETED",
+      "summary": "9 个打印件的实体、网格、自相交、尺寸和五脚共面；关键薄壁另列实测截面。",
+      "metrics": {
+        "printable_count": 9,
+        "valid_single_solids": 9,
+        "closed_meshes": 9,
+        "self_intersecting_faces": 0,
+        "feet": {
+          "feet": [
+            {
+              "x": 23.22,
+              "y": 12.0,
+              "z": [
+                5.1999999,
+                5.1999999,
+                5.1999999,
+                5.2
+              ],
+              "contact_area_mm2": 50.317887955526814,
+              "passed": true
+            },
+            {
+              "x": -23.22,
+              "y": 12.0,
+              "z": [
+                5.1999999,
+                5.1999999,
+                5.1999999,
+                5.2
+              ],
+              "contact_area_mm2": 50.31789019582966,
+              "passed": true
+            },
+            {
+              "x": 24.84,
+              "y": 62.64,
+              "z": [
+                5.2,
+                5.2,
+                5.2
+              ],
+              "contact_area_mm2": 50.28159081518393,
+              "passed": true
+            },
+            {
+              "x": -24.84,
+              "y": 62.64,
+              "z": [
+                5.2,
+                5.2,
+                5.2
+              ],
+              "contact_area_mm2": 50.28159081520181,
+              "passed": true
+            },
+            {
+              "x": -0.0,
+              "y": 83.484,
+              "z": [
+                5.199999899999999,
+                5.1999999,
+                5.2,
+                5.1999999,
+                5.199999899999999,
+                5.199999899999999,
+                5.2
+              ],
+              "contact_area_mm2": 50.33191384074016,
+              "passed": true
+            }
+          ],
+          "coplanar": true,
+          "glue_z": 5.2,
+          "skates_mm": 0.8,
+          "ground_z": 4.4
+        }
+      },
+      "missing_reports": [],
+      "stale_reports": [],
+      "evidence": [
+        "solids.json",
+        "mesh_self_intersections.json",
+        "mesh_units_and_volume.json",
+        "foot_planes.json",
+        "critical_wall_sections.json",
+        "surface_normal_wall_samples.json",
+        "BODY_C19.json"
+      ]
+    },
+    "G2": {
+      "status": "COMPLETED",
+      "summary": "逐对原始结果保留；仅对明确的接触面、轴孔和自攻螺纹区作局部分解。",
+      "metrics": {
+        "static_pairs": 369,
+        "unresolved_static": 0,
+        "printed_hardware_pairs": 765,
+        "hardware_pairs": 3570,
+        "max_hardware_overlap_mm3": 0.0
+      },
+      "missing_reports": [],
+      "stale_reports": [],
+      "evidence": [
+        "functional_static_contacts.json",
+        "all_printed_hardware_intersections.json",
+        "hardware_intersections.json"
+      ]
+    },
+    "G3": {
+      "status": "COMPLETED",
+      "summary": "电池固定间隙、软线 0.2 mm 通道、光学/服务区和天线禁区。",
+      "metrics": {
+        "battery_minimum_gap_mm": 0.5999999999999996,
+        "wire_checks": 672,
+        "reserve_checks": 261,
+        "reserved_invasions": 0
+      },
+      "missing_reports": [],
+      "stale_reports": [],
+      "evidence": [
+        "component_pairs.json",
+        "wire_component_clearances.json",
+        "reserved_space_checks.json"
+      ]
+    },
+    "G4": {
+      "status": "COMPLETED",
+      "summary": "每孔 200 个边界点及 1000 个棱柱点；另查 1000 个顶壳点。有意结构变更与原始占用结果单独列出。",
+      "metrics": {
+        "windows": [
+          {
+            "name": "ROOT_TRI_L",
+            "passed": true,
+            "boundary_raw_pass": false,
+            "prism_raw_pass": false,
+            "occupied_points": 51,
+            "unclassified_samples": 0
+          },
+          {
+            "name": "ROOT_TRI_R",
+            "passed": true,
+            "boundary_raw_pass": false,
+            "prism_raw_pass": false,
+            "occupied_points": 39,
+            "unclassified_samples": 0
+          },
+          {
+            "name": "SHOULDER_TRI_L",
+            "passed": true,
+            "boundary_raw_pass": false,
+            "prism_raw_pass": false,
+            "occupied_points": 44,
+            "unclassified_samples": 0
+          },
+          {
+            "name": "SHOULDER_TRI_R",
+            "passed": true,
+            "boundary_raw_pass": true,
+            "prism_raw_pass": false,
+            "occupied_points": 7,
+            "unclassified_samples": 0
+          },
+          {
+            "name": "REAR_TRAP_L",
+            "passed": true,
+            "boundary_raw_pass": true,
+            "prism_raw_pass": false,
+            "occupied_points": 66,
+            "unclassified_samples": 0
+          },
+          {
+            "name": "REAR_TRAP_R",
+            "passed": true,
+            "boundary_raw_pass": true,
+            "prism_raw_pass": false,
+            "occupied_points": 50,
+            "unclassified_samples": 0
+          }
+        ]
+      },
+      "missing_reports": [],
+      "stale_reports": [],
+      "evidence": [
+        "six_window_samples.json"
+      ]
+    },
+    "G5": {
+      "status": "COMPLETED",
+      "summary": "主键、滚轮点击组和两侧键逐姿态精确 BRep 检查；滚动另以包住实际零件的旋转不变包络验证。",
+      "metrics": {
+        "main_wheel": [
+          {
+            "group": "LEFT_KEY",
+            "poses": 25,
+            "passed": true
+          },
+          {
+            "group": "RIGHT_KEY",
+            "poses": 25,
+            "passed": true
+          },
+          {
+            "group": "WHEEL_CARRIER",
+            "poses": 23,
+            "passed": true
+          }
+        ],
+        "side": [
+          {
+            "part": "SIDE_FRONT_KEY",
+            "poses": 33,
+            "passed": true
+          },
+          {
+            "part": "SIDE_REAR_KEY",
+            "poses": 33,
+            "passed": true
+          }
+        ],
+        "continuous_roll_pass": true
+      },
+      "missing_reports": [],
+      "stale_reports": [],
+      "evidence": [
+        "main_and_wheel_motion_raw.json",
+        "side_functional_motion.json",
+        "wheel_continuous_rotation.json"
+      ]
+    },
+    "G6": {
+      "status": "COMPLETED",
+      "summary": "微动/挡板体素与精确转折点复核、两键帽每 0.25 mm 直推、顶压钢销及底部螺丝刀可达。",
+      "metrics": {
+        "loose_part_poses": 836,
+        "cap_translation_poses": 82,
+        "access_checks": 4,
+        "max_cap_overlap_mm3": 0.0
+      },
+      "missing_reports": [],
+      "stale_reports": [],
+      "evidence": [
+        "assembly_routes_final.json",
+        "key_insertion_exact.json",
+        "assembly_access.json",
+        "D7_exterior_containment.json"
+      ]
+    },
+    "G7": {
+      "status": "COMPLETED",
+      "summary": "H 估计包络与独立组件整机；D 仅交付指定高度下的保守最大连续板区及孔中心允许域。",
+      "metrics": {
+        "H_components": 94,
+        "D_status": "DONOR_PENDING",
+        "D_area_mm2": 1607.7203772381722,
+        "D_bounds_mm": [
+          -29.751999724414716,
+          16.022672111881157,
+          14.2,
+          27.39583347523158,
+          77.39827981210847,
+          15.399999999999999
+        ]
+      },
+      "missing_reports": [],
+      "stale_reports": [],
+      "evidence": [
+        "donor_envelope.json",
+        "native_roundtrip.json"
+      ]
+    },
+    "G8": {
+      "status": "COMPLETED",
+      "summary": "六工况 × 三网格，实际 SPOOLES；所有比值≥100%，超过3%的作者偏差有独立调查。",
+      "metrics": {
+        "solves": 18,
+        "minimum_ratio": 1.0440666625864539,
+        "rows": [
+          {
+            "size_mm": 2.4,
+            "case": "palm_down_20N",
+            "stiffness_N_per_mm": 144.81774918673258,
+            "baseline_N_per_mm": 105.64,
+            "published_baseline_N_per_mm": 105.64,
+            "written_protocol_baseline_N_per_mm": 105.64,
+            "ratio": 1.3708609351262078,
+            "author_N_per_mm": 143.35,
+            "author_difference_fraction": 0.010238920033014187,
+            "equilibrium_pass": true,
+            "vm_p95_MPa": 1.2208544226820541,
+            "passed": true,
+            "author_difference_requires_investigation": false
+          },
+          {
+            "size_mm": 2.4,
+            "case": "left_main_root_down_5N",
+            "stiffness_N_per_mm": 35.746474679672716,
+            "baseline_N_per_mm": 25.892950422229966,
+            "published_baseline_N_per_mm": 24.95,
+            "written_protocol_baseline_N_per_mm": 25.892950422229966,
+            "ratio": 1.3805485314251082,
+            "author_N_per_mm": 31.7,
+            "author_difference_fraction": 0.1276490435227986,
+            "equilibrium_pass": true,
+            "vm_p95_MPa": 0.576619690935381,
+            "passed": true,
+            "author_difference_requires_investigation": false,
+            "load_interval_investigation": {
+              "written_y_mm": [
+                35.5,
+                42.5
+              ],
+              "author_y_mm": [
+                35.0,
+                42.0
+              ],
+              "same_final_BODY_author_mask_stiffness": 30.7848537609542,
+              "interval_effect_fraction": 0.16117084580767305,
+              "remaining_author_difference_fraction": -0.028868966531413243,
+              "explanation": "Same final BODY and mesh, only load-face interval changes; published author helper used the older interval.",
+              "resolved": true
+            }
+          },
+          {
+            "size_mm": 2.4,
+            "case": "right_main_root_down_5N",
+            "stiffness_N_per_mm": 28.22581487298817,
+            "baseline_N_per_mm": 25.07409177820801,
+            "published_baseline_N_per_mm": 24.28,
+            "written_protocol_baseline_N_per_mm": 25.07409177820801,
+            "ratio": 1.1256964009966388,
+            "author_N_per_mm": 27.98,
+            "author_difference_fraction": 0.00878537787663225,
+            "equilibrium_pass": true,
+            "vm_p95_MPa": 0.6689173553546787,
+            "passed": true,
+            "author_difference_requires_investigation": false
+          },
+          {
+            "size_mm": 2.4,
+            "case": "LC3_squeeze_2x2N",
+            "stiffness_N_per_mm": 835.6900165792779,
+            "baseline_N_per_mm": 496.43,
+            "published_baseline_N_per_mm": 496.43,
+            "written_protocol_baseline_N_per_mm": 496.43,
+            "ratio": 1.683399505628745,
+            "author_N_per_mm": 922.03,
+            "author_difference_fraction": -0.09364118675175659,
+            "equilibrium_pass": true,
+            "vm_p95_MPa": 0.08721109273304199,
+            "passed": true,
+            "author_difference_requires_investigation": false,
+            "geometry_difference_investigation": {
+              "size_mm": 2.4,
+              "case": "LC3_squeeze_2x2N",
+              "control_stiffness_N_per_mm": 920.8975146373766,
+              "author_stiffness_N_per_mm": 922.03,
+              "control_author_difference_fraction": -0.0012282521855290218,
+              "final_stiffness_N_per_mm": 835.6900165792779,
+              "final_geometry_effect_fraction": -0.0925265805409965,
+              "equilibrium_pass": true,
+              "resolved": true
+            }
+          },
+          {
+            "size_mm": 2.4,
+            "case": "press_A_d16_x14_y60",
+            "stiffness_N_per_mm": 74.53005752105007,
+            "baseline_N_per_mm": 62.21,
+            "published_baseline_N_per_mm": 62.21,
+            "written_protocol_baseline_N_per_mm": 62.21,
+            "ratio": 1.1980398251253828,
+            "author_N_per_mm": 74.24,
+            "author_difference_fraction": 0.0039070247986270346,
+            "equilibrium_pass": true,
+            "vm_p95_MPa": 0.40898019060099927,
+            "passed": true,
+            "author_difference_requires_investigation": false
+          },
+          {
+            "size_mm": 2.4,
+            "case": "press_B_d16_x-14_y72",
+            "stiffness_N_per_mm": 58.68698710398458,
+            "baseline_N_per_mm": 56.21,
+            "published_baseline_N_per_mm": 56.21,
+            "written_protocol_baseline_N_per_mm": 56.21,
+            "ratio": 1.0440666625864539,
+            "author_N_per_mm": 60.53,
+            "author_difference_fraction": -0.03044792493004167,
+            "equilibrium_pass": true,
+            "vm_p95_MPa": 0.4525091284507782,
+            "passed": true,
+            "author_difference_requires_investigation": false,
+            "geometry_difference_investigation": {
+              "size_mm": 2.4,
+              "case": "press_B_d16_x-14_y72",
+              "control_stiffness_N_per_mm": 60.65057067908699,
+              "author_stiffness_N_per_mm": 60.53,
+              "control_author_difference_fraction": 0.0019919160595900376,
+              "final_stiffness_N_per_mm": 58.68698710398458,
+              "final_geometry_effect_fraction": -0.03237535200603603,
+              "equilibrium_pass": true,
+              "resolved": true
+            }
+          },
+          {
+            "size_mm": 2.0,
+            "case": "palm_down_20N",
+            "stiffness_N_per_mm": 146.17433966872125,
+            "baseline_N_per_mm": 105.97,
+            "published_baseline_N_per_mm": 105.97,
+            "written_protocol_baseline_N_per_mm": 105.97,
+            "ratio": 1.3793935988366637,
+            "author_N_per_mm": 144.45,
+            "author_difference_fraction": 0.01193727704203007,
+            "equilibrium_pass": true,
+            "vm_p95_MPa": 1.2157162227290077,
+            "passed": true,
+            "author_difference_requires_investigation": false
+          },
+          {
+            "size_mm": 2.0,
+            "case": "left_main_root_down_5N",
+            "stiffness_N_per_mm": 35.803197500114436,
+            "baseline_N_per_mm": 25.590654331212985,
+            "published_baseline_N_per_mm": 24.63,
+            "written_protocol_baseline_N_per_mm": 25.590654331212985,
+            "ratio": 1.3990731552512585,
+            "author_N_per_mm": 31.28,
+            "author_difference_fraction": 0.1446035006430446,
+            "equilibrium_pass": true,
+            "vm_p95_MPa": 0.5738361180863792,
+            "passed": true,
+            "author_difference_requires_investigation": false,
+            "load_interval_investigation": {
+              "written_y_mm": [
+                35.5,
+                42.5
+              ],
+              "author_y_mm": [
+                35.0,
+                42.0
+              ],
+              "same_final_BODY_author_mask_stiffness": 31.13742223570597,
+              "interval_effect_fraction": 0.14984462198216653,
+              "remaining_author_difference_fraction": -0.00455811266924655,
+              "explanation": "Same final BODY and mesh, only load-face interval changes; published author helper used the older interval.",
+              "resolved": true
+            }
+          },
+          {
+            "size_mm": 2.0,
+            "case": "right_main_root_down_5N",
+            "stiffness_N_per_mm": 28.355703693245175,
+            "baseline_N_per_mm": 24.718484745311816,
+            "published_baseline_N_per_mm": 23.97,
+            "written_protocol_baseline_N_per_mm": 24.718484745311816,
+            "ratio": 1.147145708380171,
+            "author_N_per_mm": 27.59,
+            "author_difference_fraction": 0.027752942850495677,
+            "equilibrium_pass": true,
+            "vm_p95_MPa": 0.6683977757491589,
+            "passed": true,
+            "author_difference_requires_investigation": false
+          },
+          {
+            "size_mm": 2.0,
+            "case": "LC3_squeeze_2x2N",
+            "stiffness_N_per_mm": 846.2218158281196,
+            "baseline_N_per_mm": 502.0,
+            "published_baseline_N_per_mm": 502.0,
+            "written_protocol_baseline_N_per_mm": 502.0,
+            "ratio": 1.6857008283428676,
+            "author_N_per_mm": 923.32,
+            "author_difference_fraction": -0.08350104424455274,
+            "equilibrium_pass": true,
+            "vm_p95_MPa": 0.08672136949157397,
+            "passed": true,
+            "author_difference_requires_investigation": false,
+            "geometry_difference_investigation": {
+              "size_mm": 2.0,
+              "case": "LC3_squeeze_2x2N",
+              "control_stiffness_N_per_mm": 923.8897164535306,
+              "author_stiffness_N_per_mm": 923.32,
+              "control_author_difference_fraction": 0.0006170303400019339,
+              "final_stiffness_N_per_mm": 846.2218158281196,
+              "final_geometry_effect_fraction": -0.08406620318661973,
+              "equilibrium_pass": true,
+              "resolved": true
+            }
+          },
+          {
+            "size_mm": 2.0,
+            "case": "press_A_d16_x14_y60",
+            "stiffness_N_per_mm": 74.12233471845205,
+            "baseline_N_per_mm": 62.15,
+            "published_baseline_N_per_mm": 62.15,
+            "written_protocol_baseline_N_per_mm": 62.15,
+            "ratio": 1.192636117754659,
+            "author_N_per_mm": 74.7,
+            "author_difference_fraction": -0.007733136299169385,
+            "equilibrium_pass": true,
+            "vm_p95_MPa": 0.4107425906412241,
+            "passed": true,
+            "author_difference_requires_investigation": false
+          },
+          {
+            "size_mm": 2.0,
+            "case": "press_B_d16_x-14_y72",
+            "stiffness_N_per_mm": 59.01075483610312,
+            "baseline_N_per_mm": 53.9,
+            "published_baseline_N_per_mm": 53.9,
+            "written_protocol_baseline_N_per_mm": 53.9,
+            "ratio": 1.0948191991855867,
+            "author_N_per_mm": 57.72,
+            "author_difference_fraction": 0.022362349897836475,
+            "equilibrium_pass": true,
+            "vm_p95_MPa": 0.45054717318797083,
+            "passed": true,
+            "author_difference_requires_investigation": false
+          },
+          {
+            "size_mm": 1.6,
+            "case": "palm_down_20N",
+            "stiffness_N_per_mm": 144.16983326829097,
+            "baseline_N_per_mm": 105.04,
+            "published_baseline_N_per_mm": 105.04,
+            "written_protocol_baseline_N_per_mm": 105.04,
+            "ratio": 1.372523165158901,
+            "author_N_per_mm": 142.41,
+            "author_difference_fraction": 0.012357511890253248,
+            "equilibrium_pass": true,
+            "vm_p95_MPa": 1.225862856485305,
+            "passed": true,
+            "author_difference_requires_investigation": false
+          },
+          {
+            "size_mm": 1.6,
+            "case": "left_main_root_down_5N",
+            "stiffness_N_per_mm": 35.145392453593125,
+            "baseline_N_per_mm": 25.090504579360324,
+            "published_baseline_N_per_mm": 24.47,
+            "written_protocol_baseline_N_per_mm": 25.090504579360324,
+            "ratio": 1.400744745584114,
+            "author_N_per_mm": 31.54,
+            "author_difference_fraction": 0.11431174551658607,
+            "equilibrium_pass": true,
+            "vm_p95_MPa": 0.5828673939844045,
+            "passed": true,
+            "author_difference_requires_investigation": false,
+            "load_interval_investigation": {
+              "written_y_mm": [
+                35.5,
+                42.5
+              ],
+              "author_y_mm": [
+                35.0,
+                42.0
+              ],
+              "same_final_BODY_author_mask_stiffness": 30.975804228916203,
+              "interval_effect_fraction": 0.1346079086070855,
+              "remaining_author_difference_fraction": -0.01788826160696877,
+              "explanation": "Same final BODY and mesh, only load-face interval changes; published author helper used the older interval.",
+              "resolved": true
+            }
+          },
+          {
+            "size_mm": 1.6,
+            "case": "right_main_root_down_5N",
+            "stiffness_N_per_mm": 28.11540851000349,
+            "baseline_N_per_mm": 24.47193422805149,
+            "published_baseline_N_per_mm": 23.93,
+            "written_protocol_baseline_N_per_mm": 24.47193422805149,
+            "ratio": 1.1488837885881364,
+            "author_N_per_mm": 27.53,
+            "author_difference_fraction": 0.021264384671394465,
+            "equilibrium_pass": true,
+            "vm_p95_MPa": 0.6736359752332755,
+            "passed": true,
+            "author_difference_requires_investigation": false
+          },
+          {
+            "size_mm": 1.6,
+            "case": "LC3_squeeze_2x2N",
+            "stiffness_N_per_mm": 847.1550082990567,
+            "baseline_N_per_mm": 497.99,
+            "published_baseline_N_per_mm": 497.99,
+            "written_protocol_baseline_N_per_mm": 497.99,
+            "ratio": 1.7011486341072244,
+            "author_N_per_mm": 931.07,
+            "author_difference_fraction": -0.09012747881571026,
+            "equilibrium_pass": true,
+            "vm_p95_MPa": 0.08679866025796847,
+            "passed": true,
+            "author_difference_requires_investigation": false,
+            "geometry_difference_investigation": {
+              "size_mm": 1.6,
+              "case": "LC3_squeeze_2x2N",
+              "control_stiffness_N_per_mm": 930.4966434677424,
+              "author_stiffness_N_per_mm": 931.07,
+              "control_author_difference_fraction": -0.0006158038947207123,
+              "final_stiffness_N_per_mm": 847.1550082990567,
+              "final_geometry_effect_fraction": -0.089566830524064,
+              "equilibrium_pass": true,
+              "resolved": true
+            }
+          },
+          {
+            "size_mm": 1.6,
+            "case": "press_A_d16_x14_y60",
+            "stiffness_N_per_mm": 72.73276382033,
+            "baseline_N_per_mm": 61.77,
+            "published_baseline_N_per_mm": 61.77,
+            "written_protocol_baseline_N_per_mm": 61.77,
+            "ratio": 1.1774771542873563,
+            "author_N_per_mm": 73.86,
+            "author_difference_fraction": -0.01526179501313285,
+            "equilibrium_pass": true,
+            "vm_p95_MPa": 0.413907436042456,
+            "passed": true,
+            "author_difference_requires_investigation": false
+          },
+          {
+            "size_mm": 1.6,
+            "case": "press_B_d16_x-14_y72",
+            "stiffness_N_per_mm": 59.28578404811884,
+            "baseline_N_per_mm": 55.31,
+            "published_baseline_N_per_mm": 55.31,
+            "written_protocol_baseline_N_per_mm": 55.31,
+            "ratio": 1.071881830557202,
+            "author_N_per_mm": 59.1,
+            "author_difference_fraction": 0.0031435541136859424,
+            "equilibrium_pass": true,
+            "vm_p95_MPa": 0.4514929236190894,
+            "passed": true,
+            "author_difference_requires_investigation": false
+          }
+        ]
+      },
+      "missing_reports": [],
+      "stale_reports": [],
+      "evidence": [
+        "fem/G8.json"
+      ]
+    },
+    "G9": {
+      "status": "COMPLETED",
+      "summary": "S1–S9 的 CAD 证据闭合；实际器件参数和实测性能按限定清单保留。",
+      "metrics": {
+        "simulations": {
+          "S1": true,
+          "S2": true,
+          "S3": true,
+          "S4": true,
+          "S5": true,
+          "S6": true,
+          "S7": true,
+          "S8": true,
+          "S9": true
+        },
+        "side_forces": [
+          {
+            "part": "SIDE_FRONT_KEY",
+            "nominal_film_mm": 0.33,
+            "unshimmed_free_gap_mm": 0.34999999999999787,
+            "residual_gap_mm": 0.019999999999999574,
+            "stop_deg": 6.808931963087932,
+            "max_PT_assumption_mm": 0.5,
+            "calculated_PT_max_trigger_deg": 5.7916222162067825,
+            "stop_button_depression_mm": 0.5909673562365576,
+            "available_generic_plunger_protrusion_mm": 0.63,
+            "housing_samples": [
+              {
+                "angle_deg": 0.0,
+                "depression_mm": 0.0,
+                "crown_min_x_mm": 25.64,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 0.22696439876959776,
+                "depression_mm": 0.0004078446942621383,
+                "crown_min_x_mm": 25.61959215530574,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 0.4539287975391955,
+                "depression_mm": 0.02081576144718511,
+                "crown_min_x_mm": 25.599184238552816,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 0.6808931963087933,
+                "depression_mm": 0.041223430024121654,
+                "crown_min_x_mm": 25.57877656997588,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 0.907857595078391,
+                "depression_mm": 0.06163053019432496,
+                "crown_min_x_mm": 25.558369469805676,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 1.1348219938479889,
+                "depression_mm": 0.08203674173594422,
+                "crown_min_x_mm": 25.537963258264057,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 1.3617863926175866,
+                "depression_mm": 0.10244174444110499,
+                "crown_min_x_mm": 25.517558255558896,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 1.5887507913871843,
+                "depression_mm": 0.12284521812086169,
+                "crown_min_x_mm": 25.49715478187914,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 1.815715190156782,
+                "depression_mm": 0.1432468426103135,
+                "crown_min_x_mm": 25.476753157389687,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 2.04267958892638,
+                "depression_mm": 0.16364629777352135,
+                "crown_min_x_mm": 25.45635370222648,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 2.2696439876959777,
+                "depression_mm": 0.18404326350862377,
+                "crown_min_x_mm": 25.435956736491377,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 2.4966083864655753,
+                "depression_mm": 0.2044374197528107,
+                "crown_min_x_mm": 25.41556258024719,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 2.723572785235173,
+                "depression_mm": 0.22482844648735423,
+                "crown_min_x_mm": 25.395171553512647,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 2.9505371840047707,
+                "depression_mm": 0.24521602374263907,
+                "crown_min_x_mm": 25.374783976257362,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 3.1775015827743687,
+                "depression_mm": 0.2655998316031791,
+                "crown_min_x_mm": 25.354400168396822,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 3.404465981543966,
+                "depression_mm": 0.2859795502126339,
+                "crown_min_x_mm": 25.334020449787367,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 3.631430380313564,
+                "depression_mm": 0.3063548597788248,
+                "crown_min_x_mm": 25.313645140221176,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 3.858394779083162,
+                "depression_mm": 0.3267254405787732,
+                "crown_min_x_mm": 25.293274559421228,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 4.08535917785276,
+                "depression_mm": 0.34709097296368085,
+                "crown_min_x_mm": 25.27290902703632,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 4.312323576622357,
+                "depression_mm": 0.3674511373639966,
+                "crown_min_x_mm": 25.252548862636004,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 4.5392879753919555,
+                "depression_mm": 0.38780561429436844,
+                "crown_min_x_mm": 25.232194385705633,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 4.766252374161553,
+                "depression_mm": 0.40815408435872413,
+                "crown_min_x_mm": 25.211845915641277,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 4.9932167729311505,
+                "depression_mm": 0.4284962282552236,
+                "crown_min_x_mm": 25.191503771744777,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 5.220181171700748,
+                "depression_mm": 0.4488317267812967,
+                "crown_min_x_mm": 25.171168273218704,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 5.447145570470346,
+                "depression_mm": 0.4691602608386809,
+                "crown_min_x_mm": 25.15083973916132,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 5.674109969239944,
+                "depression_mm": 0.4894815114383526,
+                "crown_min_x_mm": 25.13051848856165,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 5.901074368009541,
+                "depression_mm": 0.5097951597056074,
+                "crown_min_x_mm": 25.110204840294394,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 6.12803876677914,
+                "depression_mm": 0.5301008868850339,
+                "crown_min_x_mm": 25.089899113114967,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 6.355003165548737,
+                "depression_mm": 0.5503983743455088,
+                "crown_min_x_mm": 25.069601625654492,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 6.581967564318335,
+                "depression_mm": 0.570687303585192,
+                "crown_min_x_mm": 25.04931269641481,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": 6.808931963087932,
+                "depression_mm": 0.5909673562365576,
+                "crown_min_x_mm": 25.029032643763443,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              }
+            ],
+            "force_positions": [
+              {
+                "location": "cap_midpoint",
+                "y_mm": 50.175,
+                "touch_arm_mm": 4.875,
+                "ideal_force_N": 0.7820168205128207,
+                "pure_lever_arc_travel_mm": 0.5793366213383064,
+                "tangential_inward_travel_mm": 0.5779739667463556,
+                "torque_about_vertical_hinge_Nmm": 3.812332000000001,
+                "assumed_touch_to_plunger_z_offset_mm": -0.9,
+                "eccentric_bending_moment_Nmm": 0.7038151384615386
+              },
+              {
+                "location": "quarter_hinge_to_far",
+                "y_mm": 47.9875,
+                "touch_arm_mm": 2.6875,
+                "ideal_force_N": 1.418542139534884,
+                "pure_lever_arc_travel_mm": 0.31937788099419456,
+                "tangential_inward_travel_mm": 0.318626673975555,
+                "torque_about_vertical_hinge_Nmm": 3.812332000000001,
+                "assumed_touch_to_plunger_z_offset_mm": -0.9,
+                "eccentric_bending_moment_Nmm": 1.2766879255813957
+              },
+              {
+                "location": "far_edge",
+                "y_mm": 56.05,
+                "touch_arm_mm": 10.75,
+                "ideal_force_N": 0.354635534883721,
+                "pure_lever_arc_travel_mm": 1.2775115239767783,
+                "tangential_inward_travel_mm": 1.27450669590222,
+                "torque_about_vertical_hinge_Nmm": 3.812332000000001,
+                "assumed_touch_to_plunger_z_offset_mm": -0.9,
+                "eccentric_bending_moment_Nmm": 0.3191719813953489
+              }
+            ],
+            "switch_OF_max_N": 0.74,
+            "source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-d2f.pdf",
+            "formula": "F_touch = 0.74 * abs(pad_center_y - hinge_y) / abs(touch_y - hinge_y); ideal static lever, ignores friction/compliance.",
+            "physical": "FP/OP/TTP, force and PET adjustment require the selected physical D2F-01F.",
+            "cad_pass": true
+          },
+          {
+            "part": "SIDE_REAR_KEY",
+            "nominal_film_mm": 0.33,
+            "unshimmed_free_gap_mm": 0.34999999999999787,
+            "residual_gap_mm": 0.019999999999999574,
+            "stop_deg": -6.434649883942413,
+            "max_PT_assumption_mm": 0.5,
+            "calculated_PT_max_trigger_deg": -5.488350803927272,
+            "stop_button_depression_mm": 0.5897959929219319,
+            "available_generic_plunger_protrusion_mm": 0.63,
+            "housing_samples": [
+              {
+                "angle_deg": 0.0,
+                "depression_mm": 0.0,
+                "crown_min_x_mm": 26.14,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -0.2144883294647471,
+                "depression_mm": 0.0002624794286738563,
+                "crown_min_x_mm": 26.119737520571327,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -0.4289766589294942,
+                "depression_mm": 0.02053203223998068,
+                "crown_min_x_mm": 26.09946796776002,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -0.6434649883942414,
+                "depression_mm": 0.04080837437675555,
+                "crown_min_x_mm": 26.079191625623245,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -0.8579533178589884,
+                "depression_mm": 0.061091221686705666,
+                "crown_min_x_mm": 26.058908778313295,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -1.0724416473237355,
+                "depression_mm": 0.08138028992638269,
+                "crown_min_x_mm": 26.03861971007362,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -1.2869299767884828,
+                "depression_mm": 0.10167529476512627,
+                "crown_min_x_mm": 26.018324705234875,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -1.5014183062532298,
+                "depression_mm": 0.12197595178911413,
+                "crown_min_x_mm": 25.998024048210887,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -1.7159066357179769,
+                "depression_mm": 0.1422819765052985,
+                "crown_min_x_mm": 25.977718023494702,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -1.930394965182724,
+                "depression_mm": 0.16259308434540642,
+                "crown_min_x_mm": 25.957406915654595,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -2.144883294647471,
+                "depression_mm": 0.18290899066993305,
+                "crown_min_x_mm": 25.937091009330068,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -2.3593716241122182,
+                "depression_mm": 0.20322941077212775,
+                "crown_min_x_mm": 25.916770589227873,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -2.5738599535769655,
+                "depression_mm": 0.2235540598819874,
+                "crown_min_x_mm": 25.896445940118014,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -2.7883482830417123,
+                "depression_mm": 0.2438826531702425,
+                "crown_min_x_mm": 25.87611734682976,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -3.0028366125064596,
+                "depression_mm": 0.2642149057523575,
+                "crown_min_x_mm": 25.855785094247643,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -3.2173249419712064,
+                "depression_mm": 0.28455053269248864,
+                "crown_min_x_mm": 25.835449467307512,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -3.4318132714359537,
+                "depression_mm": 0.3048892490075268,
+                "crown_min_x_mm": 25.815110750992474,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -3.646301600900701,
+                "depression_mm": 0.32523076967106945,
+                "crown_min_x_mm": 25.79476923032893,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -3.860789930365448,
+                "depression_mm": 0.34557480961740694,
+                "crown_min_x_mm": 25.774425190382594,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -4.075278259830195,
+                "depression_mm": 0.3659210837455298,
+                "crown_min_x_mm": 25.75407891625447,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -4.289766589294942,
+                "depression_mm": 0.3862693069231007,
+                "crown_min_x_mm": 25.7337306930769,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -4.504254918759689,
+                "depression_mm": 0.4066191939904975,
+                "crown_min_x_mm": 25.713380806009503,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -4.7187432482244365,
+                "depression_mm": 0.4269704597647568,
+                "crown_min_x_mm": 25.693029540235244,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -4.933231577689184,
+                "depression_mm": 0.4473228190436025,
+                "crown_min_x_mm": 25.6726771809564,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -5.147719907153931,
+                "depression_mm": 0.4676759866094322,
+                "crown_min_x_mm": 25.65232401339057,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -5.362208236618677,
+                "depression_mm": 0.4880296772333246,
+                "crown_min_x_mm": 25.631970322766676,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -5.576696566083425,
+                "depression_mm": 0.5083836056790183,
+                "crown_min_x_mm": 25.611616394320983,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -5.791184895548172,
+                "depression_mm": 0.5287374867069197,
+                "crown_min_x_mm": 25.59126251329308,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -6.005673225012919,
+                "depression_mm": 0.54909103507811,
+                "crown_min_x_mm": 25.57090896492189,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -6.2201615544776665,
+                "depression_mm": 0.5694439655583103,
+                "crown_min_x_mm": 25.55055603444169,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              },
+              {
+                "angle_deg": -6.434649883942413,
+                "depression_mm": 0.5897959929219319,
+                "crown_min_x_mm": 25.53020400707807,
+                "key_rigid_housing_overlap_mm3": 0.0,
+                "film_rigid_housing_overlap_mm3": 0.0
+              }
+            ],
+            "force_positions": [
+              {
+                "location": "cap_midpoint",
+                "y_mm": 64.525,
+                "touch_arm_mm": 5.174999999999997,
+                "ideal_force_N": 0.7738469565217391,
+                "pure_lever_arc_travel_mm": 0.5811826531097068,
+                "tangential_inward_travel_mm": 0.5799617193914954,
+                "torque_about_vertical_hinge_Nmm": 4.004657999999997,
+                "assumed_touch_to_plunger_z_offset_mm": -0.9,
+                "eccentric_bending_moment_Nmm": 0.6964622608695652
+              },
+              {
+                "location": "quarter_hinge_to_far",
+                "y_mm": 66.8625,
+                "touch_arm_mm": 2.8375000000000057,
+                "ideal_force_N": 1.411333215859027,
+                "pure_lever_arc_travel_mm": 0.3186677832268207,
+                "tangential_inward_travel_mm": 0.31799833406248745,
+                "torque_about_vertical_hinge_Nmm": 4.004657999999997,
+                "assumed_touch_to_plunger_z_offset_mm": -0.9,
+                "eccentric_bending_moment_Nmm": 1.2701998942731243
+              },
+              {
+                "location": "far_edge",
+                "y_mm": 58.35,
+                "touch_arm_mm": 11.350000000000001,
+                "ideal_force_N": 0.3528333039647574,
+                "pure_lever_arc_travel_mm": 1.2746711329072804,
+                "tangential_inward_travel_mm": 1.2719933362499474,
+                "torque_about_vertical_hinge_Nmm": 4.004657999999997,
+                "assumed_touch_to_plunger_z_offset_mm": -0.9,
+                "eccentric_bending_moment_Nmm": 0.3175499735682817
+              }
+            ],
+            "switch_OF_max_N": 0.74,
+            "source": "https://omronfs.omron.com/en_US/ecb/products/pdf/en-d2f.pdf",
+            "formula": "F_touch = 0.74 * abs(pad_center_y - hinge_y) / abs(touch_y - hinge_y); ideal static lever, ignores friction/compliance.",
+            "physical": "FP/OP/TTP, force and PET adjustment require the selected physical D2F-01F.",
+            "cad_pass": true
+          }
+        ],
+        "optical_stack": {
+          "lens_bottom_z_mm": 7.8,
+          "foot_glue_z_mm": 5.2,
+          "skate_mm": 0.8,
+          "ground_z_mm": 4.4,
+          "lens_bottom_to_ground_mm": 3.3999999999999995,
+          "optical_axis": [
+            0,
+            0,
+            -1
+          ],
+          "optical_scope": "Geometric lens-envelope bottom to pad; true focal datum and PAW3950 working distance HARDWARE_PENDING.",
+          "runtime_requirement_h": 12,
+          "usable_capacity_fraction": 0.75,
+          "capacity_scenarios": [
+            {
+              "average_current_mA": 10,
+              "required_nominal_capacity_mAh": 160.0
+            },
+            {
+              "average_current_mA": 15,
+              "required_nominal_capacity_mAh": 240.0
+            },
+            {
+              "average_current_mA": 20,
+              "required_nominal_capacity_mAh": 320.0
+            },
+            {
+              "average_current_mA": 25,
+              "required_nominal_capacity_mAh": 400.0
+            }
+          ],
+          "power_scope": "No actual cell capacity, current, radio latency, firmware, receiver, macro, LOD or DPI behavior has been measured. Package size does not imply cell capacity.",
+          "target_features": [
+            "400-6400 DPI",
+            "1000 Hz wireless",
+            "no sync technologies",
+            "macros",
+            "adjustable LOD",
+            "two thumb buttons",
+            "wheel + middle click",
+            "power switch",
+            "USB-C charging",
+            "12 h full-power runtime"
+          ]
+        },
+        "S7_rows": [
+          {
+            "part": "BODY",
+            "size_mm": 2.4,
+            "case": "SF_stop",
+            "global_p95_MPa": 0.6851759312431266,
+            "side_frame_region": {
+              "p95_MPa": 0.9326037716628588,
+              "maximum_MPa": 6.894564280832789,
+              "sampled_volume_mm3": 1330.5841364994387
+            },
+            "equilibrium_pass": true,
+            "passed": true
+          },
+          {
+            "part": "BODY",
+            "size_mm": 2.4,
+            "case": "SR_stop",
+            "global_p95_MPa": 0.6984772760823057,
+            "side_frame_region": {
+              "p95_MPa": 1.0122605709526855,
+              "maximum_MPa": 6.440054890968593,
+              "sampled_volume_mm3": 1330.5841364994358
+            },
+            "equilibrium_pass": true,
+            "passed": true
+          },
+          {
+            "part": "SF_RETAINER",
+            "size_mm": 2.4,
+            "case": "SF_RETAINER_preload_and_switch",
+            "global_p95_MPa": 1.9930415040230272,
+            "equilibrium_pass": true,
+            "passed": true
+          },
+          {
+            "part": "SR_RETAINER",
+            "size_mm": 2.4,
+            "case": "SR_RETAINER_preload_and_switch",
+            "global_p95_MPa": 1.6370830187035261,
+            "equilibrium_pass": true,
+            "passed": true
+          },
+          {
+            "part": "BODY",
+            "size_mm": 2.0,
+            "case": "SF_stop",
+            "global_p95_MPa": 0.6898840004777717,
+            "side_frame_region": {
+              "p95_MPa": 0.9326825658292889,
+              "maximum_MPa": 7.037888610031129,
+              "sampled_volume_mm3": 1330.767645417212
+            },
+            "equilibrium_pass": true,
+            "passed": true
+          },
+          {
+            "part": "BODY",
+            "size_mm": 2.0,
+            "case": "SR_stop",
+            "global_p95_MPa": 0.7008170364911268,
+            "side_frame_region": {
+              "p95_MPa": 1.0142973014938559,
+              "maximum_MPa": 6.507117283085753,
+              "sampled_volume_mm3": 1330.7676454172044
+            },
+            "equilibrium_pass": true,
+            "passed": true
+          },
+          {
+            "part": "SF_RETAINER",
+            "size_mm": 2.0,
+            "case": "SF_RETAINER_preload_and_switch",
+            "global_p95_MPa": 1.956762482302276,
+            "equilibrium_pass": true,
+            "passed": true
+          },
+          {
+            "part": "SR_RETAINER",
+            "size_mm": 2.0,
+            "case": "SR_RETAINER_preload_and_switch",
+            "global_p95_MPa": 1.663853343636758,
+            "equilibrium_pass": true,
+            "passed": true
+          },
+          {
+            "part": "BODY",
+            "size_mm": 1.6,
+            "case": "SF_stop",
+            "global_p95_MPa": 0.6934983149194264,
+            "side_frame_region": {
+              "p95_MPa": 0.9509935102006392,
+              "maximum_MPa": 8.123809613026848,
+              "sampled_volume_mm3": 1333.8167755035645
+            },
+            "equilibrium_pass": true,
+            "passed": true
+          },
+          {
+            "part": "BODY",
+            "size_mm": 1.6,
+            "case": "SR_stop",
+            "global_p95_MPa": 0.703582648267308,
+            "side_frame_region": {
+              "p95_MPa": 1.0239191614518863,
+              "maximum_MPa": 7.965142804838271,
+              "sampled_volume_mm3": 1333.8167755035572
+            },
+            "equilibrium_pass": true,
+            "passed": true
+          },
+          {
+            "part": "SF_RETAINER",
+            "size_mm": 1.6,
+            "case": "SF_RETAINER_preload_and_switch",
+            "global_p95_MPa": 1.9339310627707118,
+            "equilibrium_pass": true,
+            "passed": true
+          },
+          {
+            "part": "SR_RETAINER",
+            "size_mm": 1.6,
+            "case": "SR_RETAINER_preload_and_switch",
+            "global_p95_MPa": 1.6041904409385972,
+            "equilibrium_pass": true,
+            "passed": true
+          }
+        ],
+        "battery_service_pass": true,
+        "plug_access_pass": true
+      },
+      "missing_reports": [],
+      "stale_reports": [],
+      "evidence": [
+        "side_actuation_force_and_tuning.json",
+        "optical_stack_and_power.json",
+        "battery_service_path.json",
+        "battery_plug_access.json",
+        "fem/S7.json"
+      ]
+    },
+    "G10": {
+      "status": "COMPLETED",
+      "summary": "逐件自适应 CAD 体积、密度假设，以及真正切片后的耗材、时间和单盘排布。",
+      "metrics": {
+        "volume_mm3": 17619.919091119904,
+        "PA12_g": 17.796118282031102,
+        "solid_PLA_g": 21.84869967298868,
+        "slicer_total_PLA_g": "36.04",
+        "slicer_time": "5h 18m 13s",
+        "minimum_plate_gap_mm": 13.032682418823242
+      },
+      "missing_reports": [],
+      "stale_reports": [],
+      "evidence": [
+        "CAD_mass.json",
+        "slice_summary.json",
+        "F2_trial.json"
+      ]
+    },
+    "G11": {
+      "status": "COMPLETED",
+      "summary": "实际铰轴下的压盘覆盖、±0.35 mm 贴膜调整链、外向止挡及不破外表面。",
+      "metrics": {
+        "coverage_min_mm": {
+          "SIDE_FRONT_KEY": 0.09820000000000004,
+          "SIDE_REAR_KEY": 0.13830000000000003
+        },
+        "film_range_mm": [
+          0,
+          0.7
+        ],
+        "outward_stop_angles_deg": {
+          "SIDE_FRONT_KEY": 0.0,
+          "SIDE_REAR_KEY": 0.0
+        }
+      },
+      "missing_reports": [],
+      "stale_reports": [],
+      "evidence": [
+        "side_kinematics_independent.json",
+        "side_actuation_force_and_tuning.json",
+        "side_functional_motion.json",
+        "D7_exterior_containment.json"
+      ]
+    }
+  },
+  "version_checks": [
+    {
+      "report": "BODY_C19.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "CAD_mass.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "D7_exterior_containment.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "F2_trial.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "all_printed_hardware_intersections.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "assembly_access.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "assembly_routes_final.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "battery_plug_access.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "battery_service_path.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "component_pairs.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "critical_wall_sections.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "distance_regression.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "donor_envelope.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "fem/G8.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "fem/S7.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "foot_planes.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "functional_static_contacts.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "hardware_intersections.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "key_insertion_exact.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "main_and_wheel_motion_raw.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "mesh_self_intersections.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "mesh_units_and_volume.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "motion_plot_manifest.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "native_roundtrip.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "optical_stack_and_power.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "render_manifest.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "reserved_space_checks.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "side_actuation_force_and_tuning.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "side_functional_motion.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "side_kinematics_independent.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "six_window_samples.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "slice_summary.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "solids.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "surface_normal_wall_samples.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "wheel_continuous_rotation.json",
+      "passed": true,
+      "problems": []
+    },
+    {
+      "report": "wire_component_clearances.json",
+      "passed": true,
+      "problems": []
+    }
+  ],
+  "missing_assets": [],
+  "artifact_identity_problems": [],
+  "source_work_branch": "l2-r4-build",
+  "tag": "L2-r4",
+  "hardware_pending": [
+    "实物侧键：贴膜调整、通断测试、手感",
+    "实测按压力",
+    "D2F-01F 实物的 FP / OP / TTP",
+    "PAW3950 实际镜头高度",
+    "D 方案供体型号确认和主板测绘（DONOR_PENDING）",
+    "无线、续航、DPI、宏等功能验证",
+    "打印实物的称重和试装"
+  ],
+  "printed_parts": [
+    {
+      "part": "BODY",
+      "volume_mm3": 12612.830650497723,
+      "PA12_density_g_cm3": 1.01,
+      "PA12_mass_g": 12.7389589570027,
+      "PLA_density_g_cm3": 1.24,
+      "solid_PLA_mass_g": 15.639910006617177
+    },
+    {
+      "part": "LEFT_KEY",
+      "volume_mm3": 1718.7297441178912,
+      "PA12_density_g_cm3": 1.01,
+      "PA12_mass_g": 1.7359170415590701,
+      "PLA_density_g_cm3": 1.24,
+      "solid_PLA_mass_g": 2.131224882706185
+    },
+    {
+      "part": "RIGHT_KEY",
+      "volume_mm3": 1718.7297727119435,
+      "PA12_density_g_cm3": 1.01,
+      "PA12_mass_g": 1.735917070439063,
+      "PLA_density_g_cm3": 1.24,
+      "solid_PLA_mass_g": 2.13122491816281
+    },
+    {
+      "part": "SF_RETAINER",
+      "volume_mm3": 100.16368399517599,
+      "PA12_density_g_cm3": 1.01,
+      "PA12_mass_g": 0.10116532083512775,
+      "PLA_density_g_cm3": 1.24,
+      "solid_PLA_mass_g": 0.12420296815401823
+    },
+    {
+      "part": "SIDE_FRONT_KEY",
+      "volume_mm3": 76.69917382367888,
+      "PA12_density_g_cm3": 1.01,
+      "PA12_mass_g": 0.07746616556191566,
+      "PLA_density_g_cm3": 1.24,
+      "solid_PLA_mass_g": 0.0951069755413618
+    },
+    {
+      "part": "SIDE_REAR_KEY",
+      "volume_mm3": 81.52505078258017,
+      "PA12_density_g_cm3": 1.01,
+      "PA12_mass_g": 0.08234030129040598,
+      "PLA_density_g_cm3": 1.24,
+      "solid_PLA_mass_g": 0.10109106297039941
+    },
+    {
+      "part": "SR_RETAINER",
+      "volume_mm3": 161.0013898016225,
+      "PA12_density_g_cm3": 1.01,
+      "PA12_mass_g": 0.16261140369963875,
+      "PLA_density_g_cm3": 1.24,
+      "solid_PLA_mass_g": 0.1996417233540119
+    },
+    {
+      "part": "WHEEL",
+      "volume_mm3": 563.1619625874001,
+      "PA12_density_g_cm3": 1.01,
+      "PA12_mass_g": 0.5687935822132741,
+      "PLA_density_g_cm3": 1.24,
+      "solid_PLA_mass_g": 0.6983208336083762
+    },
+    {
+      "part": "WHEEL_CARRIER",
+      "volume_mm3": 587.0776628018871,
+      "PA12_density_g_cm3": 1.01,
+      "PA12_mass_g": 0.5929484394299059,
+      "PLA_density_g_cm3": 1.24,
+      "solid_PLA_mass_g": 0.7279763018743399
+    }
+  ],
+  "mass_and_slice": {
+    "volume_mm3": 17619.919091119904,
+    "PA12_g": 17.796118282031102,
+    "solid_PLA_g": 21.84869967298868,
+    "slicer_total_PLA_g": "36.04",
+    "slicer_time": "5h 18m 13s",
+    "minimum_plate_gap_mm": 13.032682418823242
+  },
+  "inventory": {
+    "printable": [
+      "BODY",
+      "LEFT_KEY",
+      "RIGHT_KEY",
+      "SF_RETAINER",
+      "SIDE_FRONT_KEY",
+      "SIDE_REAR_KEY",
+      "SR_RETAINER",
+      "WHEEL",
+      "WHEEL_CARRIER"
+    ],
+    "H_hardware": [
+      "ANTENNA_FEED_HEADER_EST",
+      "ANTENNA_FEED_ROUTE_EST",
+      "BATTERY_CELL_EST",
+      "BATTERY_PLUG_EST",
+      "BATTERY_ROUTE_EST",
+      "CHARGE_POWERPATH_EST",
+      "CONTROLLER_RF_PCB_EST",
+      "ENCODER_ADAPTER_PCB_EST",
+      "ENCODER_EC10E_HOUSING",
+      "ENCODER_EC10E_ROTOR",
+      "ENCODER_M2x3_FRONT",
+      "ENCODER_M2x3_REAR",
+      "ENCODER_WASHER_FRONT",
+      "ENCODER_WASHER_REAR",
+      "LEFT_KEY_M2_SWITCH_1_BOLT",
+      "LEFT_KEY_M2_SWITCH_1_NUT",
+      "LEFT_KEY_M2_SWITCH_1_WASHER_HEAD",
+      "LEFT_KEY_M2_SWITCH_1_WASHER_NUT",
+      "LEFT_KEY_M2_SWITCH_2_BOLT",
+      "LEFT_KEY_M2_SWITCH_2_NUT",
+      "LEFT_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "LEFT_KEY_M2_SWITCH_2_WASHER_NUT",
+      "LEFT_KEY_STEEL_PIN",
+      "MATCHED_LENS_EST",
+      "MCU_RADIO_EST",
+      "PAW3950_PACKAGE_EST",
+      "POWER_SWITCH_BODY_EST",
+      "POWER_SWITCH_PCB_EST",
+      "POWER_SWITCH_TAB_EST",
+      "REGULATOR_EST",
+      "REMOTE_ANTENNA_PCB_EST",
+      "RF_BAT_HEADER_EST",
+      "RF_IO_HEADER_EST",
+      "RF_SENSOR_HEADER_EST",
+      "RF_USB_HEADER_EST",
+      "RIGHT_KEY_M2_SWITCH_1_BOLT",
+      "RIGHT_KEY_M2_SWITCH_1_NUT",
+      "RIGHT_KEY_M2_SWITCH_1_WASHER_HEAD",
+      "RIGHT_KEY_M2_SWITCH_1_WASHER_NUT",
+      "RIGHT_KEY_M2_SWITCH_2_BOLT",
+      "RIGHT_KEY_M2_SWITCH_2_NUT",
+      "RIGHT_KEY_M2_SWITCH_2_WASHER_HEAD",
+      "RIGHT_KEY_M2_SWITCH_2_WASHER_NUT",
+      "RIGHT_KEY_STEEL_PIN",
+      "SENSOR_HEADER_EST",
+      "SENSOR_PCB_EST",
+      "SENSOR_ROUTE_EST",
+      "SF_D2F_01F",
+      "SF_TUNING_SHIM_0p33",
+      "SF_VERTICAL_PIN",
+      "SKATE_1_0p8",
+      "SKATE_2_0p8",
+      "SKATE_3_0p8",
+      "SKATE_4_0p8",
+      "SKATE_5_0p8",
+      "SR_D2F_01F",
+      "SR_TUNING_SHIM_0p33",
+      "SR_VERTICAL_PIN",
+      "SWITCH_LEFT",
+      "SWITCH_MIDDLE",
+      "SWITCH_RIGHT",
+      "USB_ADAPTER_PCB_REFERENCE",
+      "USB_C_REFERENCE",
+      "USB_M2x3_L",
+      "USB_M2x3_R",
+      "USB_ROUTE_EST",
+      "USB_WASHER_L",
+      "USB_WASHER_R",
+      "WHEEL_CARRIER_STEEL_PIN",
+      "WHEEL_M2_SWITCH_1_BOLT",
+      "WHEEL_M2_SWITCH_1_NUT",
+      "WHEEL_M2_SWITCH_1_WASHER_HEAD",
+      "WHEEL_M2_SWITCH_1_WASHER_NUT",
+      "WHEEL_M2_SWITCH_2_BOLT",
+      "WHEEL_M2_SWITCH_2_NUT",
+      "WHEEL_M2_SWITCH_2_WASHER_HEAD",
+      "WHEEL_M2_SWITCH_2_WASHER_NUT",
+      "SF_RETAINER_M2x5",
+      "SR_RETAINER_M2x5",
+      "SF_RETAINER_WASHER",
+      "SR_RETAINER_WASHER",
+      "SIDE_SF_NO_ROUTE_EST",
+      "SIDE_SR_NO_ROUTE_EST",
+      "SIDE_COM_ROUTE_EST",
+      "SIDE_COM_GPIO_ROUTE_EST"
+    ],
+    "D_status": "DONOR_PENDING",
+    "independent_components": 94
+  },
+  "baseline": "Quietmirror/github@f1b1090931d717117287ea2b79c2e14ddc234937",
+  "author_evidence": "Quietmirror/Quietmirror-L2@f637118455159515a200e6e0f35c0eea1c7d1633",
+  "evidence_limit": "精确值仅对应声明的模型与离散姿态；封闭网格、线弹性模拟和参考电子包络均不等于实物装配/打印强度/电子性能认证。"
+}
