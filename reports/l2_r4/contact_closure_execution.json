@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "C19 verified side/window aggregation and static contact closure",
   "source_commit": "75efa6c21b13c4dd66d881229ca45505a1fb1277",
   "steps": [
