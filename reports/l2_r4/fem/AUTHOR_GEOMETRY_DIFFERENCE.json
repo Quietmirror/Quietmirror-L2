@@ -26,6 +26,17 @@
       "final_geometry_effect_fraction": -0.0925265805409965,
       "equilibrium_pass": true,
       "resolved": true
+    },
+    {
+      "size_mm": 2.4,
+      "case": "press_B_d16_x-14_y72",
+      "control_stiffness_N_per_mm": 60.65057067908699,
+      "author_stiffness_N_per_mm": 60.53,
+      "control_author_difference_fraction": 0.0019919160595900376,
+      "final_stiffness_N_per_mm": 58.68698710398458,
+      "final_geometry_effect_fraction": -0.03237535200603603,
+      "equilibrium_pass": true,
+      "resolved": true
     }
   ]
 }
