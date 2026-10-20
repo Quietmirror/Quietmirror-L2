@@ -1,0 +1,126 @@
+{
+  "candidate": "C19B_source_rebuild",
+  "artifact_commit": "2385d5dee79192f994dfa2dfb4829dc8b77d3b02",
+  "source_commit": "ed784e2be639e2670de44a19c6fd5df950bbfc49",
+  "status": "REJECTED_BOUNDARY_PRESERVATION",
+  "complete_report": "https://github.com/Quietmirror/Quietmirror-L2/blob/2385d5dee79192f994dfa2dfb4829dc8b77d3b02/reports/l2_r4/BODY_C19.json",
+  "metrics": {
+    "method": "Complete recursive STEP face identity plus bidirectional exact exterior face difference and local solid difference",
+    "correction_box_mm": [
+      -3.5,
+      0.65,
+      37,
+      50,
+      5.1,
+      9.3
+    ],
+    "old_face_count": 831,
+    "new_face_count": 833,
+    "identical_face_count": 480,
+    "unmatched_old_count": 351,
+    "unmatched_new_count": 353,
+    "exterior_difference_area_mm2": 178.34883411999766,
+    "old_volume_mm3": 12633.239977596988,
+    "new_volume_mm3": 12612.841732655586,
+    "local_old_volume_mm3": 152.566320172495,
+    "local_new_volume_mm3": 132.15693412373156,
+    "removed_mm3": 20.409386046779268,
+    "added_mm3": 0,
+    "whole_local_volume_balance_error_mm3": 0.011141105377696192,
+    "change_regions": [
+      {
+        "bounds_mm": [
+          -3.350000000000005,
+          45.42554373409976,
+          9.049999999999798,
+          -3.132532421355,
+          46.574456264654,
+          9.217707825203
+        ],
+        "volume_mm3": 0.012296795313563527
+      },
+      {
+        "bounds_mm": [
+          -1.3000000000000007,
+          37.07,
+          5.806841756015946,
+          0.5,
+          39.77,
+          9.05
+        ],
+        "volume_mm3": 4.940750188803789
+      },
+      {
+        "bounds_mm": [
+          -1.3000000000002143,
+          42.15,
+          5.2,
+          0.5000000000005953,
+          44.85,
+          9.05
+        ],
+        "volume_mm3": 7.962894966697527
+      },
+      {
+        "bounds_mm": [
+          -1.3,
+          47.229999999990895,
+          5.1,
+          0.5000000000057909,
+          49.93,
+          9.05
+        ],
+        "volume_mm3": 7.49344409596439
+      }
+    ],
+    "passed": false
+  },
+  "differing_faces": [
+    {
+      "side": "old",
+      "face_index": 44,
+      "source_area_mm2": 89.17441722056522,
+      "inside_area_mm2": 0,
+      "outside_area_mm2": 89.17441722056522,
+      "partition_area_error_mm2": 0,
+      "exterior_difference_area_mm2": 89.17441722056527,
+      "difference_regions": [
+        {
+          "bounds_mm": [
+            -31.887305040293267,
+            44.549999899999996,
+            8.399999900000001,
+            -5.4599999,
+            48.85000010238443,
+            12.700000083142706
+          ],
+          "area_mm2": 89.17441722056527
+        }
+      ]
+    },
+    {
+      "side": "new",
+      "face_index": 44,
+      "source_area_mm2": 89.17441689943244,
+      "inside_area_mm2": 0,
+      "outside_area_mm2": 89.17441689943244,
+      "partition_area_error_mm2": 0,
+      "exterior_difference_area_mm2": 89.1744168994324,
+      "difference_regions": [
+        {
+          "bounds_mm": [
+            -31.887305511115464,
+            44.549999899999996,
+            8.399999900000001,
+            -5.4599999,
+            48.8500001002276,
+            12.700000124846504
+          ],
+          "area_mm2": 89.1744168994324
+        }
+      ]
+    }
+  ],
+  "middle_overlap_mm3": 0,
+  "middle_nonfunctional_gap_mm": 0.6
+}

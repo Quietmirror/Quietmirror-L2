@@ -1,10 +1,17 @@
-"""Audit the source-rebuilt C19 BODY; build_body runs before this stage."""
+"""Audit the selected immutable source-generated C19A BODY."""
+import hashlib
 from common import *
 from exact_distance import pair
 from contact_audit_final import mate
 from boundary_preservation import compare, regression
 
 def main():
+    selection=json.loads((RP/'candidates/C19_SELECTED_GEOMETRY.json').read_text())
+    for item in selection['models']:
+        if item['path'] not in ['models/L2_r4/parts/BODY.step',
+                               'models/L2_r4/validation_features/SWITCH_MIDDLE_MOUNT.step']:continue
+        data=(ROOT/item['path']).read_bytes()
+        assert hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()==item['sha'],item['path']
     old=load('BODY_C18_BEFORE_C19',OUT/'analysis_reference')
     new=load('BODY')
     controls=regression()
@@ -27,6 +34,7 @@ def main():
         feet.append(dict(center=f['center'],boundary_preserved_outside_correction_box=comparison['passed'],
                          complete_change_region_checks=changes))
     row=dict(valid=new.isValid(),solids=len(new.Solids()),volume_mm3=vol(new),removed_mm3=removed,added_mm3=added,
+             selected_geometry=selection,
              comparison_reference='analysis_reference/BODY_C18_BEFORE_C19.step',
              unchanged_below_z_mm=5.1,boundary_comparison=comparison,regression_controls=controls,
              complete_body_change_regions=change_regions,low_band_clear_of_complete_changes=low_region_clear,

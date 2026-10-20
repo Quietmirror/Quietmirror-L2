@@ -1,0 +1,75 @@
+{
+  "candidate": "C19A",
+  "selected_artifact_commit": "7d112c42776e7d7d2f25f0bbbff37be3b5216127",
+  "source_build_commit": "5adc6e79356a7a8201a60d71532f9fad02ac9f9e",
+  "status": "SOURCE_GENERATED_ARTIFACT_SELECTED_FOR_COMPLETE_REVALIDATION",
+  "models": [
+    {
+      "path": "models/L2_r4/parts/BODY.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c392a31a24c5f1f6c6b0b7cdccd62679ff3f8d9"
+    },
+    {
+      "path": "models/L2_r4/parts/BODY.stl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7733b9930834d58ec50710dc1695520f11bd940"
+    },
+    {
+      "path": "models/L2_r4/validation_features/LEFT_KEY_FIXED_BEARINGS.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b67fc5190a055c6a58b75f66772f4cbb8858c50"
+    },
+    {
+      "path": "models/L2_r4/validation_features/LEFT_KEY_PRESS_STOP.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b974005e0504f2b1564b19a71669d0524061f057"
+    },
+    {
+      "path": "models/L2_r4/validation_features/RIGHT_KEY_FIXED_BEARINGS.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d35ac63d439906d7a7f94ff763cbbf25b868b5e8"
+    },
+    {
+      "path": "models/L2_r4/validation_features/RIGHT_KEY_PRESS_STOP.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60002c75119455403beb2a3bbd252410ac952dd0"
+    },
+    {
+      "path": "models/L2_r4/validation_features/SWITCH_LEFT_MOUNT.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db232243efa8006ad9b3f9a688f2140355f1799b"
+    },
+    {
+      "path": "models/L2_r4/validation_features/SWITCH_MIDDLE_MOUNT.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7324fb06cfb5b5cd064bfe4ed6d30e38e1bd23ca"
+    },
+    {
+      "path": "models/L2_r4/validation_features/SWITCH_RIGHT_MOUNT.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e80c8be7a59be0216eae0153b8ff35756e6ae17"
+    },
+    {
+      "path": "models/L2_r4/validation_features/WHEEL_CARRIER_FIXED_BEARINGS.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b822f4cf9b6cf951d8a01c2de2fe8398682bca60"
+    },
+    {
+      "path": "models/L2_r4/validation_features/WHEEL_CARRIER_PRESS_STOP.step",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e724311a8e1bc1df14de588847e25303665b927"
+    }
+  ],
+  "reason": "C19A complete boundary audit passed locally. A repeated source build C19B produced a different cylindrical trim outside the declared change zone and was rejected. All final checks must use this one selected immutable BODY and its matching source features. Selection is not a CAD gate pass."
+}

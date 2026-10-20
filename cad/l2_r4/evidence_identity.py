@@ -38,6 +38,13 @@ def same_source_text(a,b):
 
 def model_files(script):
     stem=Path(script).stem;parts=ROOT/'models/L2_r4/parts'
+    if stem=='body_c19':
+        return [parts/'BODY.step',
+                ROOT/'models/L2_r4/analysis_reference/BODY_C18_BEFORE_C19.step',
+                ROOT/'models/L2_r4/reference/SWITCH_MIDDLE.step',
+                ROOT/'models/L2_r4/validation_features/SWITCH_MIDDLE_MOUNT.step',
+                RP/'candidates/C19_SELECTED_GEOMETRY.json',
+                ROOT/'reports/rebuild_r3_2/design_metadata.json']
     if stem=='fem_stage':return [parts/'BODY.step',RP/'fem/REFERENCE_R32_ROOT_PROTOCOL.json']
     if stem=='side_fem':return [parts/(n+'.step') for n in ['BODY','SF_RETAINER','SR_RETAINER']]
     if stem=='fem_reference':return [ROOT/'models/L2_r3/inputs/R32_BASELINE.FCStd']
@@ -69,9 +76,6 @@ def model_files(script):
         if stem=='assembly_paths':paths.append(RP/'SF_route_planning.json')
         return paths
     paths=list(parts.glob('*.step'))
-    if stem=='body_c19':
-        paths.extend([ROOT/'models/L2_r4/analysis_reference/BODY_C18_BEFORE_C19.step',
-                      ROOT/'models/L2_r4/validation_features/SWITCH_MIDDLE_MOUNT.step'])
     if stem in ['main_motion_checks','contact_audit','contact_audit_final','combine_motion'] or stem.startswith('motion_'):paths.extend((ROOT/'models/L2_r4/validation_features').glob('*.step'))
     inv=RP/'assembly_inventory.json'
     if inv.exists():paths.extend(ROOT/'models/L2_r4/reference'/(n+'.step') for n in json.loads(inv.read_text())['H_hardware'])
