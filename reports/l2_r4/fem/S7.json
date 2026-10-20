@@ -56,6 +56,19 @@
       },
       "equilibrium_pass": true,
       "passed": true
+    },
+    {
+      "part": "BODY",
+      "size_mm": 2.0,
+      "case": "SR_stop",
+      "global_p95_MPa": 0.7008170364911268,
+      "side_frame_region": {
+        "p95_MPa": 1.0142973014938559,
+        "maximum_MPa": 6.507117283085753,
+        "sampled_volume_mm3": 1330.7676454172044
+      },
+      "equilibrium_pass": true,
+      "passed": true
     }
   ]
 }
