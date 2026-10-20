@@ -10,12 +10,12 @@
       -1.0
     ],
     "selected_triangles": 85,
-    "surface_area_mm2": 11.989308169535674,
-    "pressure_magnitude_MPa": 1.668152967392994,
+    "surface_area_mm2": 11.98930816953568,
+    "pressure_magnitude_MPa": 1.6681529673929933,
     "area_centroid_mm": [
-      16.59620463490451,
-      70.40087557235678,
-      14.84156523165897
+      16.596204634904495,
+      70.4008755723568,
+      14.841565231658961
     ],
     "actual_force_sum_N": [
       0.0,
@@ -24,14 +24,14 @@
     ],
     "selected_face_centers_bounds_mm": [
       [
-        15.776762165693015,
+        15.776762165693016,
         69.57041185407266,
-        13.838995422375524
+        13.838995422375522
       ],
       [
         17.415710742166613,
-        71.21293996332233,
-        15.846017943356594
+        71.21293996332231,
+        15.84601794335659
       ]
     ],
     "distribution": "Uniform vector surface traction, integrated using 7-point quadratic-triangle shape functions; total resultant normalized to specified N.",
@@ -46,27 +46,27 @@
         0.0
       ],
       "selected_triangles": 106,
-      "surface_area_mm2": 48.721200777420464,
-      "pressure_magnitude_MPa": 0.0151884598119952,
+      "surface_area_mm2": 48.72120077742047,
+      "pressure_magnitude_MPa": 0.015188459811995198,
       "area_centroid_mm": [
-        19.000000000000004,
-        62.544287465012964,
-        16.370398156755627
+        18.999999999999996,
+        62.54428746501292,
+        16.370398156755634
       ],
       "actual_force_sum_N": [
-        -0.7399999999999998,
+        -0.7399999999999999,
         0.0,
         0.0
       ],
       "selected_face_centers_bounds_mm": [
         [
-          18.999999999999996,
-          57.34797614568862,
+          18.999999999999993,
+          57.3479761456886,
           14.004611525772443
         ],
         [
-          19.000000000000007,
-          67.80089578321831,
+          19.000000000000004,
+          67.8008957832183,
           18.86071767735344
         ]
       ],
@@ -94,7 +94,7 @@
     "quadratic_jacobian_min_mm3": 0.032915074041853946,
     "quadratic_jacobian_min_over_max_per_element": 0.9999999999840167,
     "quadratic_jacobian_check": "Four C3D10 integration points and centroid; all positive. This is not a formal interval proof at every point.",
-    "quadratic_boundary_area_mm2": 328.65774658863,
+    "quadratic_boundary_area_mm2": 328.65774658862995,
     "mesh_file_sha256": "dbcbf44986866970bb7ecf79350372f2bf0a6c5df2ab477f5cec99ec4d0a18e8",
     "target_max_size_mm": 1.6,
     "settings": {
@@ -114,31 +114,31 @@
     },
     "gmsh_version": "4.15.2"
   },
-  "deck_sha256": "d6e4870cbb1b094e8414928f964fdf4c4329c61b1cda4f9255549bd7605648bd",
-  "dat_sha256": "c8af6b98e0297ac0ec47cc56a78b0d915fb8de49e19ac90a3777ed78327c9f32",
-  "solving_seconds": 0.5013144230000535,
+  "deck_sha256": "d52b62880a18dd3b05116a65bf2bd07042fb4579b33606b5570185a192f6410f",
+  "dat_sha256": "09958dd67d226f5044196e3365a4c3b22ac302e797b43e4ad1411642688af98c",
+  "solving_seconds": 0.2507119450000346,
   "applied_force_N": [
-    -0.7399999999999998,
+    -0.7399999999999999,
     0.0,
     -20.000000000000004
   ],
   "support_reaction_N": [
-    0.7400000004764088,
-    4.189176460499998e-13,
+    0.7400000004764025,
+    4.136715081626996e-13,
     19.99999957292015
   ],
   "force_balance_error_N": [
-    4.76409023342228e-10,
-    4.189176460499998e-13,
+    4.764025840486852e-10,
+    4.136715081626996e-13,
     -4.2707985414836003e-07
   ],
-  "force_balance_relative_error": 2.1339404166934702e-08,
+  "force_balance_relative_error": 2.1339404166575544e-08,
   "moment_balance_error_Nmm": [
-    -3.0216658842618926e-05,
-    6.551475223659509e-06,
-    1.1125127485911435e-07
+    -3.021665770575055e-05,
+    6.5514752805029275e-06,
+    1.1125167986847373e-07
   ],
-  "moment_balance_relative_error": 9.141573653726075e-08,
+  "moment_balance_relative_error": 9.141573329223316e-08,
   "equilibrium_pass": true,
   "maximum_displacement_mm": 0.017988829215434942,
   "maximum_displacement_node": 161,
@@ -166,8 +166,8 @@
   "solver_backend_verified": "SPOOLES in actual CalculiX log",
   "solver_runtime": {
     "returncode": 0,
-    "elapsed_seconds": 0.5013144230000535,
-    "peak_resident_GB": 0.02996224,
+    "elapsed_seconds": 0.2507119450000346,
+    "peak_resident_GB": 0.000192512,
     "measurement": "psutil process RSS sampled every 0.25 s",
     "solver_command": [
       "/usr/bin/ccx",
@@ -175,5 +175,5 @@
       "solve"
     ]
   },
-  "available_memory_before_solve_GB": 14.834536448
+  "available_memory_before_solve_GB": 14.58438144
 }
