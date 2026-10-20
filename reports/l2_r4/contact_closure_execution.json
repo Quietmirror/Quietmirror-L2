@@ -23,6 +23,13 @@
       "seconds": 8.14,
       "available_memory_before_GB": 15.3622528,
       "log_tail": ""
+    },
+    {
+      "script": "cad/l2_r4/contact_audit_final.py",
+      "returncode": 0,
+      "seconds": 637.75,
+      "available_memory_before_GB": 15.587557376,
+      "log_tail": "CONTACT_REVIEW BODY SIDE_FRONT_KEY {'raw': {'a': 'BODY', 'b': 'SIDE_FRONT_KEY', 'gap_mm': 0.0, 'overlap_mm3': 0.0, 'required_mm': 0.3, 'intended_contact': False, 'pass_check': False, 'distance_kind': 'BRepExtrema_original_supplied_shapes_no_body_crop', 'nearest_points_mm': [[26.8, 45.7, 18.6], [26.8, 45.7, 18.6]]}, 'passed': False, 'classification': 'D7 outward stop; independently decomposed in side_functional_motion.json', 'dependent_gate': 'side_functional_motion'}\nCONTACT_REVIEW BODY SIDE_REAR_KEY {'raw': {'a': 'BODY', 'b': 'SIDE_REAR_KEY', 'gap_mm': 0.0, 'overlap_mm3': 0.0, 'required_mm': 0.3, 'intended_contact': False, 'pass_check': False, 'distance_kind': 'BRepExtrema_original_supplied_shapes_no_body_crop', 'nearest_points_mm': [[26.8, 69.3, 18.6], [26.8, 69.3, 18.6]]}, 'passed': False, 'classification': 'D7 outward stop; independently decomposed in side_functional_motion.json', 'dependent_gate': 'side_functional_motion'}\n"
     }
   ]
 }
