@@ -208,5 +208,20 @@
     "vm_p95_MPa": 0.45054717318797083,
     "passed": true,
     "author_difference_requires_investigation": false
+  },
+  {
+    "size_mm": 1.6,
+    "case": "palm_down_20N",
+    "stiffness_N_per_mm": 144.16983326829097,
+    "baseline_N_per_mm": 105.04,
+    "published_baseline_N_per_mm": 105.04,
+    "written_protocol_baseline_N_per_mm": 105.04,
+    "ratio": 1.372523165158901,
+    "author_N_per_mm": 142.41,
+    "author_difference_fraction": 0.012357511890253248,
+    "equilibrium_pass": true,
+    "vm_p95_MPa": 1.225862856485305,
+    "passed": true,
+    "author_difference_requires_investigation": false
   }
 ]
