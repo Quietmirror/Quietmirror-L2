@@ -6174,11 +6174,11 @@
   },
   "reports/l2_r4/SF_route_planning.json": {
     "script": "cad/l2_r4/plan_sf_route.py",
-    "source_commit": "af4c75463101fb62b3b4346bb8193d7ca7de3cc8",
+    "source_commit": "91514750e252fd3d8b26f69dec503c5957b6444e",
     "returncode": 0,
-    "report_sha256": "2f38f5bc9aa8db42862379ca506f0efd5ed4ecfc7da51afd4de0c204e6746d9d",
+    "report_sha256": "aeeaa927d50db4ed5739d613efc9862912ef7e58217c5cbc7c872112d9d9e13c",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "models/L2_r4/parts/SF_RETAINER.step": "ff5d9f3dffdf97b791c6a4307dbf9a9703c34d7e8833992689d79ab5be982cd9",
       "models/L2_r4/parts/SR_RETAINER.step": "97a6a961b563a2592e8103c04815e8df7a3ae10fb408b101118423d0758e2c6f",
       "models/L2_r4/reference/SF_D2F_01F.step": "6b7f5decdda8ac2f9c494c38df8844b34ae5699a70e8403023a88e23d9af41bf",
