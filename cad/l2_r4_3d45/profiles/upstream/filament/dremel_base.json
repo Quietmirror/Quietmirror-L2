@@ -1,0 +1,23 @@
+{
+    "type": "filament",
+    "filament_id": "GFL99",
+    "setting_id": "GFSL99",
+    "name": "dremel_base",
+    "from": "system",
+    "version": "2.0.0.1",
+    "instantiation": "false",
+    "inherits": "fdm_filament_pla",
+    "filament_flow_ratio": [
+        "0.98"
+    ],
+    "filament_max_volumetric_speed": [
+        "12"
+    ],
+    "slow_down_layer_time": [
+        "8"
+    ],
+	"compatible_printers": [
+		"Dremel 3D50 0.4 nozzle",
+        "Dremel 3D45 0.4 nozzle"
+	]
+}
