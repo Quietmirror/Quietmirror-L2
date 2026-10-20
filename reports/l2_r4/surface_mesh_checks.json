@@ -1,46 +1,10 @@
 [
   {
-    "part": "SIDE_FRONT_KEY",
+    "part": "BODY",
     "watertight": true,
     "winding_consistent": true,
     "components": 1,
-    "triangles": 27560,
-    "method": "Conforming final STEP surface triangulation; no hole filling",
-    "passed": true
-  },
-  {
-    "part": "SIDE_REAR_KEY",
-    "watertight": true,
-    "winding_consistent": true,
-    "components": 1,
-    "triangles": 29970,
-    "method": "Conforming final STEP surface triangulation; no hole filling",
-    "passed": true
-  },
-  {
-    "part": "SF_RETAINER",
-    "watertight": true,
-    "winding_consistent": true,
-    "components": 1,
-    "triangles": 5094,
-    "method": "Conforming final STEP surface triangulation; no hole filling",
-    "passed": true
-  },
-  {
-    "part": "SR_RETAINER",
-    "watertight": true,
-    "winding_consistent": true,
-    "components": 1,
-    "triangles": 5812,
-    "method": "Conforming final STEP surface triangulation; no hole filling",
-    "passed": true
-  },
-  {
-    "part": "WHEEL_CARRIER",
-    "watertight": true,
-    "winding_consistent": true,
-    "components": 1,
-    "triangles": 33128,
+    "triangles": 410906,
     "method": "Conforming final STEP surface triangulation; no hole filling",
     "passed": true
   }

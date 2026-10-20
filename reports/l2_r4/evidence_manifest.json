@@ -894,14 +894,14 @@
     }
   },
   "reports/l2_r4/surface_mesh_checks.json": {
-    "script": "cad/l2_r4/surface_mesh_changed.py",
-    "source_commit": "d7a7b0388d1f1b20882453a446f63a53f41abcd2",
+    "script": "cad/l2_r4/surface_body_c19.py",
+    "source_commit": "f436e510c3dab5cfdd3bd13cf056046b6dcf32fe",
     "returncode": 0,
-    "report_sha256": "2949289533acb3977a9f924f780e6d6a61cf7fbc2b2b2434ffb769e2ccf72f57",
+    "report_sha256": "59fc560fb589a6db448fa0ac503a81532ae68a1f85d2abc2291b4c446052a56d",
     "geometry": {
       "cad/rebuild_r2/parameters.json": "1b80721457bb4f2b11f7021d3e2d98ef9f6068510906099e9b0e38f2f33141f0",
       "cad/rebuild_r3_2/electronics.json": "866e3892c6d2ddd8b001e746b3bbc4b77bdf3fc799ded156e8bf2b10458d4c08",
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "models/L2_r4/parts/LEFT_KEY.step": "2b66a0d6f6673ec5ac337dcb63366b1c165122e199ca5497153ab9667cbb4f43",
       "models/L2_r4/parts/RIGHT_KEY.step": "57791da2e062cca8e799d912828827fbb9a7968444b1ed38037aa9acaecae071",
       "models/L2_r4/parts/SF_RETAINER.step": "ff5d9f3dffdf97b791c6a4307dbf9a9703c34d7e8833992689d79ab5be982cd9",
@@ -909,15 +909,15 @@
       "models/L2_r4/parts/SIDE_REAR_KEY.step": "16520bda196aae2bd440d4eff00e84bba614c9b9b851a08fd8dbd9cf5b36efec",
       "models/L2_r4/parts/SR_RETAINER.step": "97a6a961b563a2592e8103c04815e8df7a3ae10fb408b101118423d0758e2c6f",
       "models/L2_r4/parts/WHEEL.step": "efec7b9b652ab89778cad7141f762d4eb55fe694be9bf9e5ef355baad0da1c83",
-      "models/L2_r4/parts/WHEEL_CARRIER.step": "0c791a3509f022242e18180c2ab460164a792da3a7a358a01076598509c55b36",
+      "models/L2_r4/parts/WHEEL_CARRIER.step": "f1a2035e0544e5f11919d8ee386cd561b5af8856cec83c24617aea8601af80be",
       "models/L2_r4/reference/ANTENNA_FEED_HEADER_EST.step": "ccedcb46b4a09b2d87724b48872e2fbf4c85c7379d92bdea63d00e33aabb1337",
       "models/L2_r4/reference/ANTENNA_FEED_ROUTE_EST.step": "f6019fa4c487b4ff51f0a5bd88658da938429bb2c6b0766853f40e871e5b3fe1",
-      "models/L2_r4/reference/BATTERY_CELL_EST.step": "a16cd91e213921688e78fd9e4d23e41025f21fe5e8fa513bf5fe535fa2a2f4c3",
+      "models/L2_r4/reference/BATTERY_CELL_EST.step": "849cb94915d5659124879f825468d957c59c5f2402c3306922c0586a8a0fe58a",
       "models/L2_r4/reference/BATTERY_PLUG_EST.step": "6c5e10892beec9fb2d6dbc5551d346403a63f656c875692fa0a9580e7711c1c1",
       "models/L2_r4/reference/BATTERY_ROUTE_EST.step": "fadba3a07fbc36ef40ecd14e210c140e52c55b9849ceefb120e158fdd6cf383b",
       "models/L2_r4/reference/CHARGE_POWERPATH_EST.step": "ecd85ee9150f20fb0def234dbbe76f3a72231f9bfe6cd1cb19a7d4c482526a08",
       "models/L2_r4/reference/CONTROLLER_RF_PCB_EST.step": "43746c12c68f587a94627690732d523312bf4b2b683bb79a97bee6efb1212ed0",
-      "models/L2_r4/reference/ENCODER_ADAPTER_PCB_EST.step": "416d0a2b4f4dc4bc5744d88129cf076824260cfbea95ce19158edc512640c3a9",
+      "models/L2_r4/reference/ENCODER_ADAPTER_PCB_EST.step": "95f55a0bd602dfe9ede4428a85f63fa4eaa22ab9801a5b771990ba0b6eb59817",
       "models/L2_r4/reference/ENCODER_EC10E_HOUSING.step": "3b9c1469a64acdc1348e748503d0f2e953bae31597c135f398fe7ff04ad02fc5",
       "models/L2_r4/reference/ENCODER_EC10E_ROTOR.step": "953480b86c9e830ff6527d606ceef4980e235510bbd48c08eea5a7024affea95",
       "models/L2_r4/reference/ENCODER_M2x3_FRONT.step": "7ab2cd4880e26e0eaea16088d05fda2d9d39495653b447aa63b58b8887c12479",
@@ -998,8 +998,8 @@
       "reports/rebuild_r3_2/design_metadata.json": "2147fc0ea5a1bd32ba66296badddf0506ef61e67a56a9209c67feba8570206db"
     },
     "verifier_source": {
-      "cad/l2_r4/surface_mesh.py": "439ab513224daf7b2baabb3b9912b3cd05ba71fbcf6f5f97209ac878d30faded",
-      "cad/l2_r4/surface_mesh_changed.py": "e5bcec7a24c12f93a4afecc75f3f5fc54408eabca52f59cb9df4c23829976ec3"
+      "cad/l2_r4/surface_body_c19.py": "6f9e93cca3174ca509fb40e7b213a5fcb64b141ef6641bda4dd4c66f91f2129b",
+      "cad/l2_r4/surface_mesh.py": "aa493ddfeabd00e0422bace97e5758d23d86c14aea231e4a70afe3eb4a704384"
     }
   },
   "reports/l2_r4/fem/G8.json": {
