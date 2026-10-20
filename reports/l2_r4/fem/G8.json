@@ -1,5 +1,5 @@
 {
-  "status": "REVIEW_REQUIRED",
+  "status": "COMPLETED",
   "rows": [
     {
       "size_mm": 2.4,
@@ -74,7 +74,18 @@
       "equilibrium_pass": true,
       "vm_p95_MPa": 0.08721109273304199,
       "passed": true,
-      "author_difference_requires_investigation": true
+      "author_difference_requires_investigation": false,
+      "geometry_difference_investigation": {
+        "size_mm": 2.4,
+        "case": "LC3_squeeze_2x2N",
+        "control_stiffness_N_per_mm": 920.8975146373766,
+        "author_stiffness_N_per_mm": 922.03,
+        "control_author_difference_fraction": -0.0012282521855290218,
+        "final_stiffness_N_per_mm": 835.6900165792779,
+        "final_geometry_effect_fraction": -0.0925265805409965,
+        "equilibrium_pass": true,
+        "resolved": true
+      }
     },
     {
       "size_mm": 2.4,
@@ -104,7 +115,18 @@
       "equilibrium_pass": true,
       "vm_p95_MPa": 0.4525091284507782,
       "passed": true,
-      "author_difference_requires_investigation": true
+      "author_difference_requires_investigation": false,
+      "geometry_difference_investigation": {
+        "size_mm": 2.4,
+        "case": "press_B_d16_x-14_y72",
+        "control_stiffness_N_per_mm": 60.65057067908699,
+        "author_stiffness_N_per_mm": 60.53,
+        "control_author_difference_fraction": 0.0019919160595900376,
+        "final_stiffness_N_per_mm": 58.68698710398458,
+        "final_geometry_effect_fraction": -0.03237535200603603,
+        "equilibrium_pass": true,
+        "resolved": true
+      }
     },
     {
       "size_mm": 2.0,
@@ -179,7 +201,18 @@
       "equilibrium_pass": true,
       "vm_p95_MPa": 0.08672136949157397,
       "passed": true,
-      "author_difference_requires_investigation": true
+      "author_difference_requires_investigation": false,
+      "geometry_difference_investigation": {
+        "size_mm": 2.0,
+        "case": "LC3_squeeze_2x2N",
+        "control_stiffness_N_per_mm": 923.8897164535306,
+        "author_stiffness_N_per_mm": 923.32,
+        "control_author_difference_fraction": 0.0006170303400019339,
+        "final_stiffness_N_per_mm": 846.2218158281196,
+        "final_geometry_effect_fraction": -0.08406620318661973,
+        "equilibrium_pass": true,
+        "resolved": true
+      }
     },
     {
       "size_mm": 2.0,
@@ -284,7 +317,18 @@
       "equilibrium_pass": true,
       "vm_p95_MPa": 0.08679866025796847,
       "passed": true,
-      "author_difference_requires_investigation": true
+      "author_difference_requires_investigation": false,
+      "geometry_difference_investigation": {
+        "size_mm": 1.6,
+        "case": "LC3_squeeze_2x2N",
+        "control_stiffness_N_per_mm": 930.4966434677424,
+        "author_stiffness_N_per_mm": 931.07,
+        "control_author_difference_fraction": -0.0006158038947207123,
+        "final_stiffness_N_per_mm": 847.1550082990567,
+        "final_geometry_effect_fraction": -0.089566830524064,
+        "equilibrium_pass": true,
+        "resolved": true
+      }
     },
     {
       "size_mm": 1.6,
@@ -316,5 +360,6 @@
       "passed": true,
       "author_difference_requires_investigation": false
     }
-  ]
+  ],
+  "geometry_investigation": "AUTHOR_GEOMETRY_DIFFERENCE.json; all original final-BODY values and reference ratios retained"
 }

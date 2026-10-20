@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "COMPLETED",
   "cause": "Combined source geometry corrections after author V2: D7 concealed hinges/aperture back relief, relocated retainer pilots and locating sockets, explicit driver access and final stop reliefs. Same loads/material/solver settings; comparison includes geometry-induced remeshing. Individual feature shares are not inferred.",
   "primary_input_identity": {
     "report": "fem/stiffness.json",

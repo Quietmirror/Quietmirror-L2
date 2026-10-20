@@ -1,14 +1,14 @@
 {
-  "status": "FAILED",
+  "status": "RUNNING",
   "phase": "C19 complete author deviation controls and S7",
-  "source_commit": "1b009edf1186e3dd384618916c73a0e1be21d5d7",
+  "source_commit": "6f4d8a71b3b9f5b39b710d50afea7a145b7ae71b",
   "steps": [
     {
       "script": "cad/l2_r4/fem_geometry_investigation.py",
-      "returncode": 1,
-      "seconds": 2.72,
-      "available_memory_before_GB": 15.606378496,
-      "log_tail": "Traceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/fem_geometry_investigation.py\", line 67, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/fem_geometry_investigation.py\", line 14, in main\n    primary_identity=evidence.verify(['fem/stiffness.json'])[0]\n                     ^^^^^^^^\nUnboundLocalError: cannot access local variable 'evidence' where it is not associated with a value\n"
+      "returncode": 0,
+      "seconds": 196.47,
+      "available_memory_before_GB": 15.617691648,
+      "log_tail": "SPOOLES LC3_squeeze_2x2N free_GB 15.158521856\nGEOMETRY_CONTROL {'size_mm': 2.4, 'case': 'LC3_squeeze_2x2N', 'control_stiffness_N_per_mm': 920.8975146373766, 'author_stiffness_N_per_mm': 922.03, 'control_author_difference_fraction': -0.0012282521855290218, 'final_stiffness_N_per_mm': 835.6900165792779, 'final_geometry_effect_fraction': -0.0925265805409965, 'equilibrium_pass': True, 'resolved': True}\nTo https://github.com/Quietmirror/Quietmirror-L2.git\n   6f4d8a7..1eb344d  HEAD -> codex/r4-c19-fem-followup\nCHECKPOINT codex/r4-c19-fem-followup 1eb344db054b7e6f39018fbf6459671ac9ff25c3\nSPOOLES press_B_d16_x-14_y72 free_GB 14.854631424\nGEOMETRY_CONTROL {'size_mm': 2.4, 'case': 'press_B_d16_x-14_y72', 'control_stiffness_N_per_mm': 60.65057067908699, 'author_stiffness_N_per_mm': 60.53, 'control_author_difference_fraction': 0.0019919160595900376, 'final_stiffness_N_per_mm': 58.68698710398458, 'final_geometry_effect_fraction': -0.03237535200603603, 'equilibrium_pass': True, 'resolved': True}\nTo https://github.com/Quietmirror/Quietmirror-L2.git\n   1eb344d..ad91b63  HEAD -> codex/r4-c19-fem-followup\nCHECKPOINT codex/r4-c19-fem-followup ad91b63f182a4ba28b238cb2c83c5600b680551e\nSPOOLES LC3_squeeze_2x2N free_GB 15.072493568\nGEOMETRY_CONTROL {'size_mm': 2.0, 'case': 'LC3_squeeze_2x2N', 'control_stiffness_N_per_mm': 923.8897164535306, 'author_stiffness_N_per_mm': 923.32, 'control_author_difference_fraction': 0.0006170303400019339, 'final_stiffness_N_per_mm': 846.2218158281196, 'final_geometry_effect_fraction': -0.08406620318661973, 'equilibrium_pass': True, 'resolved': True}\nTo https://github.com/Quietmirror/Quietmirror-L2.git\n   ad91b63..7cd5cd8  HEAD -> codex/r4-c19-fem-followup\nCHECKPOINT codex/r4-c19-fem-followup 7cd5cd8f3379e48a5ddc3251949297a20bf636e8\nSPOOLES LC3_squeeze_2x2N free_GB 14.735077376\nGEOMETRY_CONTROL {'size_mm': 1.6, 'case': 'LC3_squeeze_2x2N', 'control_stiffness_N_per_mm': 930.4966434677424, 'author_stiffness_N_per_mm': 931.07, 'control_author_difference_fraction': -0.0006158038947207123, 'final_stiffness_N_per_mm': 847.1550082990567, 'final_geometry_effect_fraction': -0.089566830524064, 'equilibrium_pass': True, 'resolved': True}\nTo https://github.com/Quietmirror/Quietmirror-L2.git\n   7cd5cd8..f753152  HEAD -> codex/r4-c19-fem-followup\nCHECKPOINT codex/r4-c19-fem-followup f75315263fedf5fa9a12b8851ca5f6d30c2fa5a5\n"
     }
   ]
 }
