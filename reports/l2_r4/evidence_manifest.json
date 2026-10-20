@@ -3633,9 +3633,9 @@
   },
   "reports/l2_r4/render_manifest.json": {
     "script": "cad/l2_r4/render.py",
-    "source_commit": "f752ccecd3eb27f4bbd684e02c03adbefd942d2c",
+    "source_commit": "1f3f8f317c88741af2967aee685e1df1fd315ac1",
     "returncode": 0,
-    "report_sha256": "aa91e8d5605163b6da9fec147aa52c5ac69f8bfe89dc7129b27e0821ca4a35b9",
+    "report_sha256": "fdd964efe73abea5589d2b233a06d8621a8d689241511ca21a6659ce419f8390",
     "geometry": {
       "cad/rebuild_r2/parameters.json": "1b80721457bb4f2b11f7021d3e2d98ef9f6068510906099e9b0e38f2f33141f0",
       "cad/rebuild_r3_2/electronics.json": "866e3892c6d2ddd8b001e746b3bbc4b77bdf3fc799ded156e8bf2b10458d4c08",
@@ -3742,7 +3742,7 @@
       "cad/l2_r4/assembly_paths.py": "4550d88e0685f451bcfb75f66bf6f502e40c9fae698bfec0ee49bd5df0fdcaa2",
       "cad/l2_r4/common.py": "f804c01f8abc798f23ec8ba5c04e371faa54e54ae67ab6a245d196b6d7ecd953",
       "cad/l2_r4/exact_distance.py": "973aa48b0fe7fe640b831bf62ece9da7539bd0213c80fd7a35bb826aff02d7c9",
-      "cad/l2_r4/render.py": "f9250124be82e5de4bfef3d456fb8b80e28473bd147a1986077d3c2da8615f9d",
+      "cad/l2_r4/render.py": "bd5d768b00c75325d92c7ff5592874e8cc9fa3b88d7206e7e7723cf850f5007b",
       "cad/l2_r4/side_module.py": "8a31192fbc207f5e33b5243488944e0c7819b01fa05ff331da1cf17bb5cb1416"
     }
   },
