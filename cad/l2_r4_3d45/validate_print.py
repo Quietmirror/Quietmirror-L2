@@ -121,6 +121,12 @@ def main():
                  f'{result["mass_g"]:.2f} g | {result["estimated_print_time"]} | 220 / 45 C')
     fig.savefig(OUT/"PRINT_PATH_VERIFIED.png",dpi=170);plt.close(fig)
     save(OUT/"PRINT_VALIDATION.json",result)
+    native=OUT/"result.json"
+    if native.exists():
+        native_report=json.loads(native.read_text())
+        assert native_report["return_code"]==0,native_report
+        save(REPORT/"native_slicer_result.json",native_report)
+        native.unlink()
     # Keep a single clearly named, printer-ready G-code, not ambiguous temporary files.
     temporary=OUT/"plate_1.gcode"
     if temporary.exists():

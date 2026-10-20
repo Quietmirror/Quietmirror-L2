@@ -154,7 +154,7 @@ def run_slicer(app, folder, source, label, slice_it=True):
     args = [str(exe), "--datadir", str(WORK / "appdata"), "--debug", "3",
             "--load-settings", str(folder/"machine.json")+";"+str(folder/"process.json"),
             "--load-filaments", str(folder/"filament.json"), "--arrange", "0", "--orient", "0",
-            "--outputdir", str(OUT), "--export-3mf", str(target)]
+            "--outputdir", str(OUT), "--export-3mf", target.name]
     if slice_it: args += ["--slice", "0"]
     args += [str(source)]
     save(REPORT / "slicer_command.json",args)
