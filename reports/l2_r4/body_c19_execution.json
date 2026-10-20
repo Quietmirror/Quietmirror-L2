@@ -1,5 +1,5 @@
 {
-  "status": "RUNNING",
+  "status": "PHASE_COMPLETED",
   "phase": "C19A_immutable_source_generated_BODY_audit_mesh_and_assembly",
   "source_commit": "f436e510c3dab5cfdd3bd13cf056046b6dcf32fe",
   "steps": [
