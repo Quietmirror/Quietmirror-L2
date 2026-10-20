@@ -9,6 +9,13 @@
       "seconds": 3.52,
       "available_memory_before_GB": 15.529525248,
       "log_tail": "Restored/retained 72 baseline components\n"
+    },
+    {
+      "script": "cad/l2_r4/build_body.py",
+      "returncode": 0,
+      "seconds": 115.93,
+      "available_memory_before_GB": 15.349518336,
+      "log_tail": "Mother surfaces 0.4697444438934326\nSkin and six windows 21.151793956756592\nSupport 0 21.647176027297974\nSupport 8 27.46642255783081\nSupport 16 35.708120584487915\nSupport 24 42.433032274246216\nSupport 32 49.35268831253052\nEXPORTED BODY 12612.8417\n"
     }
   ]
 }

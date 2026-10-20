@@ -6890,15 +6890,14 @@
     }
   },
   "reports/l2_r4/body_build.json": {
-    "script": "cad/l2_r4/body_c19.py",
-    "source_commit": "5adc6e79356a7a8201a60d71532f9fad02ac9f9e",
-    "returncode": 1,
-    "report_sha256": "327b9b828e05d82d29370a47169a65e78c9fe3014909cea9acc159661f757f43",
+    "script": "cad/l2_r4/build_body.py",
+    "source_commit": "ed784e2be639e2670de44a19c6fd5df950bbfc49",
+    "returncode": 0,
+    "report_sha256": "ba67d570b128e6a0851557c0be8709a97b523d11e8aeefbb528981ff7e924b1c",
     "geometry": {
       "cad/rebuild_r2/parameters.json": "1b80721457bb4f2b11f7021d3e2d98ef9f6068510906099e9b0e38f2f33141f0",
       "cad/rebuild_r3_2/electronics.json": "866e3892c6d2ddd8b001e746b3bbc4b77bdf3fc799ded156e8bf2b10458d4c08",
-      "models/L2_r4/analysis_reference/BODY_C18_BEFORE_C19.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
-      "models/L2_r4/parts/BODY.step": "7cebec8264a545680757d0082b3898639c07d9df8342940855e816ba98d3d7e7",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "models/L2_r4/parts/LEFT_KEY.step": "2b66a0d6f6673ec5ac337dcb63366b1c165122e199ca5497153ab9667cbb4f43",
       "models/L2_r4/parts/RIGHT_KEY.step": "57791da2e062cca8e799d912828827fbb9a7968444b1ed38037aa9acaecae071",
       "models/L2_r4/parts/SF_RETAINER.step": "ff5d9f3dffdf97b791c6a4307dbf9a9703c34d7e8833992689d79ab5be982cd9",
@@ -6995,30 +6994,25 @@
       "reports/rebuild_r3_2/design_metadata.json": "2147fc0ea5a1bd32ba66296badddf0506ef61e67a56a9209c67feba8570206db"
     },
     "verifier_source": {
-      "cad/l2_r4/body_c19.py": "3836102a52880de28ec6a108246cfa35b5c5529f6219ed000efce351e3062d7f",
       "cad/l2_r4/build_body.py": "5425b709b545c02d1abb61b458d1fbea83dc258d1682ce51acbf629c96bdeb0c",
       "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
-      "cad/l2_r4/contact_audit_final.py": "7a5b41bb4085022e6e49eb1aa09be0567e517da80fffe514e0afab9f69d5fb09",
-      "cad/l2_r4/exact_distance.py": "973aa48b0fe7fe640b831bf62ece9da7539bd0213c80fd7a35bb826aff02d7c9",
       "cad/l2_r4/fasteners.py": "dc696e37a87269322e07ff9f0aa9e20dc208c623dc1e243d60430a9c0460160b",
       "cad/l2_r4/interfaces.py": "7f1e1e1fa0fecf8ae060adf86523a3cdd8b546d713c37be6fda0e86b80a88f47",
       "cad/l2_r4/mechanics.py": "763c94a52857ca2ebe31f63f9903c62f01852a94c888c3187d69864543cc9dce",
-      "cad/l2_r4/partition_check.py": "a51d4e5dafaaab84b411901e95d3be4fefe39ef0beea5c7dcac59d5e66b8d688",
       "cad/l2_r4/side_module.py": "fdbe9676d759207253220c92f33807f02d5df9fa71fffc6b8940ce7c394dc1ab",
       "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
       "cad/l2_r4/wheel_mechanism.py": "9c4bd62da774010e4873dc0ac04d5d5ffe00939ff25f51bc8d657d92f22aa253"
     }
   },
   "reports/l2_r4/functional_source_features.json": {
-    "script": "cad/l2_r4/body_c19.py",
-    "source_commit": "5adc6e79356a7a8201a60d71532f9fad02ac9f9e",
-    "returncode": 1,
-    "report_sha256": "9ec1f66a2ad8e2522f172cb58062c451884de7daf91393b1610fcc8682ad89f4",
+    "script": "cad/l2_r4/build_body.py",
+    "source_commit": "ed784e2be639e2670de44a19c6fd5df950bbfc49",
+    "returncode": 0,
+    "report_sha256": "aae4eb18a6ad452af414d13b07cbf33a3098e6d0b91a8f9b2b9fe64f31d74d63",
     "geometry": {
       "cad/rebuild_r2/parameters.json": "1b80721457bb4f2b11f7021d3e2d98ef9f6068510906099e9b0e38f2f33141f0",
       "cad/rebuild_r3_2/electronics.json": "866e3892c6d2ddd8b001e746b3bbc4b77bdf3fc799ded156e8bf2b10458d4c08",
-      "models/L2_r4/analysis_reference/BODY_C18_BEFORE_C19.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
-      "models/L2_r4/parts/BODY.step": "7cebec8264a545680757d0082b3898639c07d9df8342940855e816ba98d3d7e7",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "models/L2_r4/parts/LEFT_KEY.step": "2b66a0d6f6673ec5ac337dcb63366b1c165122e199ca5497153ab9667cbb4f43",
       "models/L2_r4/parts/RIGHT_KEY.step": "57791da2e062cca8e799d912828827fbb9a7968444b1ed38037aa9acaecae071",
       "models/L2_r4/parts/SF_RETAINER.step": "ff5d9f3dffdf97b791c6a4307dbf9a9703c34d7e8833992689d79ab5be982cd9",
@@ -7115,15 +7109,11 @@
       "reports/rebuild_r3_2/design_metadata.json": "2147fc0ea5a1bd32ba66296badddf0506ef61e67a56a9209c67feba8570206db"
     },
     "verifier_source": {
-      "cad/l2_r4/body_c19.py": "3836102a52880de28ec6a108246cfa35b5c5529f6219ed000efce351e3062d7f",
       "cad/l2_r4/build_body.py": "5425b709b545c02d1abb61b458d1fbea83dc258d1682ce51acbf629c96bdeb0c",
       "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
-      "cad/l2_r4/contact_audit_final.py": "7a5b41bb4085022e6e49eb1aa09be0567e517da80fffe514e0afab9f69d5fb09",
-      "cad/l2_r4/exact_distance.py": "973aa48b0fe7fe640b831bf62ece9da7539bd0213c80fd7a35bb826aff02d7c9",
       "cad/l2_r4/fasteners.py": "dc696e37a87269322e07ff9f0aa9e20dc208c623dc1e243d60430a9c0460160b",
       "cad/l2_r4/interfaces.py": "7f1e1e1fa0fecf8ae060adf86523a3cdd8b546d713c37be6fda0e86b80a88f47",
       "cad/l2_r4/mechanics.py": "763c94a52857ca2ebe31f63f9903c62f01852a94c888c3187d69864543cc9dce",
-      "cad/l2_r4/partition_check.py": "a51d4e5dafaaab84b411901e95d3be4fefe39ef0beea5c7dcac59d5e66b8d688",
       "cad/l2_r4/side_module.py": "fdbe9676d759207253220c92f33807f02d5df9fa71fffc6b8940ce7c394dc1ab",
       "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
       "cad/l2_r4/wheel_mechanism.py": "9c4bd62da774010e4873dc0ac04d5d5ffe00939ff25f51bc8d657d92f22aa253"
