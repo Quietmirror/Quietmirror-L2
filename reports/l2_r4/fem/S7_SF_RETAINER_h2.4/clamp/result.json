@@ -10,28 +10,28 @@
       -1.0
     ],
     "selected_triangles": 59,
-    "surface_area_mm2": 12.347251102515282,
-    "pressure_magnitude_MPa": 1.6197937365933834,
+    "surface_area_mm2": 12.347251102515287,
+    "pressure_magnitude_MPa": 1.6197937365933825,
     "area_centroid_mm": [
-      16.598472117759773,
+      16.59847211775978,
       45.69908104437255,
-      14.88403889937984
+      14.884038899379851
     ],
     "actual_force_sum_N": [
       0.0,
       0.0,
-      -20.0
+      -19.999999999999996
     ],
     "selected_face_centers_bounds_mm": [
       [
-        15.79366543794431,
+        15.793665437944309,
         44.88633280740901,
-        13.869322510531958
+        13.86932251053196
       ],
       [
-        17.3910451244146,
-        46.51247012335635,
-        15.90840788523739
+        17.391045124414596,
+        46.51247012335636,
+        15.908407885237388
       ]
     ],
     "distribution": "Uniform vector surface traction, integrated using 7-point quadratic-triangle shape functions; total resultant normalized to specified N.",
@@ -46,15 +46,15 @@
         0.0
       ],
       "selected_triangles": 94,
-      "surface_area_mm2": 42.34804308883231,
-      "pressure_magnitude_MPa": 0.017474243106056223,
+      "surface_area_mm2": 42.348043088832284,
+      "pressure_magnitude_MPa": 0.017474243106056237,
       "area_centroid_mm": [
-        18.499999999999993,
-        49.23813888748051,
-        16.40059269264201
+        18.500000000000004,
+        49.238138887480524,
+        16.40059269264202
       ],
       "actual_force_sum_N": [
-        -0.7399999999999993,
+        -0.7399999999999999,
         0.0,
         0.0
       ],
@@ -62,12 +62,12 @@
         [
           18.499999999999993,
           44.92367116912205,
-          14.004291886685932
+          14.004291886685929
         ],
         [
-          18.500000000000004,
-          53.915841332855216,
-          18.90945683856614
+          18.500000000000007,
+          53.91584133285522,
+          18.909456838566136
         ]
       ],
       "distribution": "Uniform vector surface traction, integrated using 7-point quadratic-triangle shape functions; total resultant normalized to specified N."
@@ -114,31 +114,31 @@
     },
     "gmsh_version": "4.15.2"
   },
-  "deck_sha256": "1e31b9270c6c9a626cc06e01269aeacb2856aa168e634a739d3bdc103464959e",
-  "dat_sha256": "edc8913608764d21493719474ab9ab6ec0bd8bf7c948f3cd583e13a0f33749a4",
-  "solving_seconds": 0.2509938649999981,
+  "deck_sha256": "36c8672f3b1c4277c5917da4686709764dccbe0e07d2d41ff7a40c5292c6093c",
+  "dat_sha256": "735428008a7a7f9e624236165bb028dc9f881fb5f6040607513704203d56ca09",
+  "solving_seconds": 0.2507283000000484,
   "applied_force_N": [
-    -0.7399999999999993,
+    -0.7399999999999999,
     0.0,
-    -20.0
+    -19.999999999999996
   ],
   "support_reaction_N": [
-    0.739999999953366,
-    -7.249659657909995e-14,
+    0.739999999953371,
+    -6.456742198900004e-14,
     20.000000117028243
   ],
   "force_balance_error_N": [
-    -4.6633363837145225e-11,
-    -7.249659657909995e-14,
-    1.1702824309622883e-07
+    -4.6628922945046725e-11,
+    -6.456742198900004e-14,
+    1.1702824664894251e-07
   ],
-  "force_balance_relative_error": 5.847411435183162e-09,
+  "force_balance_relative_error": 5.847411612608719e-09,
   "moment_balance_error_Nmm": [
-    5.221044489189808e-06,
-    -2.339718832899962e-06,
-    -2.0086157803689275e-07
+    5.221044148129295e-06,
+    -2.3397186623697053e-06,
+    -2.0086162777488425e-07
   ],
-  "moment_balance_relative_error": 2.1670218826712162e-08,
+  "moment_balance_relative_error": 2.1670217392104003e-08,
   "equilibrium_pass": true,
   "maximum_displacement_mm": 0.011592101947348547,
   "maximum_displacement_node": 165,
@@ -166,8 +166,8 @@
   "solver_backend_verified": "SPOOLES in actual CalculiX log",
   "solver_runtime": {
     "returncode": 0,
-    "elapsed_seconds": 0.2509938649999981,
-    "peak_resident_GB": 0.000241664,
+    "elapsed_seconds": 0.2507283000000484,
+    "peak_resident_GB": 0.000208896,
     "measurement": "psutil process RSS sampled every 0.25 s",
     "solver_command": [
       "/usr/bin/ccx",
@@ -175,5 +175,5 @@
       "solve"
     ]
   },
-  "available_memory_before_solve_GB": 14.846816256
+  "available_memory_before_solve_GB": 14.728167424
 }
