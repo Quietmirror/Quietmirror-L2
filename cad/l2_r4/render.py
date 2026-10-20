@@ -52,7 +52,9 @@ def picture(name,objects_,direction,up=(0,0,1),focus=(0,44,16),scale=SCALE,title
     im.save(path);rendered.append(path);print('VIEW',name,flush=True)
 def main():
     OUT.mkdir(exist_ok=True);obj=objects();inside=objects(True)
-    definitions=[('FRONT',(0,-1,0),(0,0,1),'前视 −Y','X / Z'),('BACK',(0,1,0),(0,0,1),'后视 +Y','X / Z'),('LEFT',(-1,0,0),(0,0,1),'左视 −X','Y / Z'),('RIGHT',(1,0,0),(0,0,1),'右视 +X · 侧键侧','Y / Z'),('TOP',(0,0,1),(0,-1,0),'俯视 +Z','X / Y'),('BOTTOM',(0,0,-1),(0,1,0),'底视 −Z','X / Y')]
+    # Third-angle unfolding around FRONT (-Y): the top's front edge faces
+    # down toward FRONT; the bottom's front edge faces up toward FRONT.
+    definitions=[('FRONT',(0,-1,0),(0,0,1),'前视 −Y','X→ / Z↑'),('BACK',(0,1,0),(0,0,1),'后视 +Y','X← / Z↑'),('LEFT',(-1,0,0),(0,0,1),'左视 −X','Y← / Z↑'),('RIGHT',(1,0,0),(0,0,1),'右视 +X · 侧键侧','Y→ / Z↑'),('TOP',(0,0,1),(0,1,0),'俯视 +Z','X→ / Y↑'),('BOTTOM',(0,0,-1),(0,-1,0),'底视 −Z','X→ / Y↓')]
     b=read('BODY').BoundingBox()
     full=cq.Compound.makeCompound([s for _,s,_,_ in obj]).BoundingBox()
     dims=f'整机 {full.ylen:.3f} × {full.xlen:.3f} × {full.zlen:.3f} mm（长×宽×高；含0.8mm脚贴）'
