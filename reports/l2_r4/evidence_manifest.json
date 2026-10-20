@@ -1003,31 +1003,28 @@
     }
   },
   "reports/l2_r4/fem/G8.json": {
-    "script": "cad/l2_r4/fem_geometry_investigation.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "script": "cad/l2_r4/fem_stage.py",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "812b2ab72351e26908b844eb2cc8307163dc463f87cfb4a170d36ece738baba7",
+    "report_sha256": "f93fa922e5f212c9449bac598e5969aa50797a7a3b42474df47506721fff0fff",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
-      "models/L2_r3/parts/BODY.step": "15fccea983a447b03bc11814861b4c2d9f22b73abf203eb7813850a295b4cb4c",
-      "cad/l2_fem_author/variants/R4_SIDE_FRAME_ONLY.step": "77efd27598da1fddd68257c5b2e334bc372c37aebc1179a873859c6f73b0705f",
-      "exports/l2_r2_diagnostic/support_reference/MOTHER_OUTER_FROM_R32_SURFACE.step": "d4b25ee5beaeb4d9eaf268311c001315d08ccd83d23973a5e0effc4c8da01f55"
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
+      "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
-      "cad/l2_r4/common.py": "6bd18b74f52a444ae7afb527adcd8b5d9992fc9fcacf7c6189e9d2baf57e6383",
-      "cad/l2_r4/fem_geometry_investigation.py": "49e9c41cf5181c9a17d7b66d85689106ba4409e225ecb0db02b26c25007bfb59",
       "cad/l2_r4/fem_loads.py": "5d5d200592b87edb4eca46775a82422fac724545a8de157297cc1cb7dd29e0f8",
       "cad/l2_r4/fem_stage.py": "65ee64841da594522428b6f6984ba0c81cede2fc1b742a9e1ea39f7871fe8534",
-      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434"
+      "cad/l2_r4/surfaces.py": "be37fc472d52fac47783fdde115e0fa5e97c658721b3355c1111e935de70a434",
+      "cad/rebuild_r2/fem_check.py": "d9f990c34381ac69de1eb7d34500476be407540443e508436fca3cf9699c1e28"
     }
   },
   "reports/l2_r4/fem/stiffness.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "2f16ae71a528f5d9f26848831847d69b53a86668e5b7820ada435bfcbe9c5ea1",
+    "report_sha256": "38ac1bfa6ceca233c894cf690ddd58516ba6c42c2df630af5f6abdefc911d353",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1039,11 +1036,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/palm_down_20N/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "bc7a8c22771c57fbc5bfe815b895b52a9a0d9f28f62eb23736647ae94f4b2f70",
+    "report_sha256": "5c5c9729c92fff637d5b5832cb4e58ed91db98e77ca978f2d54aae852fbe856a",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1055,11 +1052,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/palm_down_20N/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "d01e16f03534254ee6f56cc038a518b5501c5483e8f3ffad6f45292ec1513ff8",
+    "report_sha256": "fd56f4587db60ada94f1c0240496e81c20e12458b0cdf1447ade9be9811b6ae1",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1071,11 +1068,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/palm_down_20N/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "49d3f3d7c8200c9d5b6d38799f61f2ef1b86f6188991add897342424627c08d8",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1087,11 +1084,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/press_B_d16_x-14_y72/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "1c36cbe8ab22a83920b519ff2981b7f9caeacf41708d4d308cde6173d6fd186c",
+    "report_sha256": "dbe027644e55d542a4099817c88089ebd0dfd5441f489c6135067847c81f451e",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1103,11 +1100,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/press_B_d16_x-14_y72/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "04296ae6b136e468dfa5ad3dffba8a1c308961c342f68ad654038b68238b23c7",
+    "report_sha256": "856211a6a83a02ea49bbd059485cb93407a0e748c46b1bb87fa07fb9d70c5eea",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1119,11 +1116,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/press_B_d16_x-14_y72/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "49d3f3d7c8200c9d5b6d38799f61f2ef1b86f6188991add897342424627c08d8",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1135,11 +1132,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/press_A_d16_x14_y60/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "f9472ea112411b525c50893bba31c7d4ed8c52b6712652c568bdb43393d40a1c",
+    "report_sha256": "2758370d36e2d75dbaac721b99fb9d15e93833bdc49ad9b30034207cbe0cf703",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1151,11 +1148,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/press_A_d16_x14_y60/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "a2d92a8179f7c02bc230c86c860bff39f05138bea17978f4eef304852faf7036",
+    "report_sha256": "c25f04b0baea423632f7e45693f5b3bd5ec901109ed1b2a3ce3c66ec704bbeb3",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1167,11 +1164,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/press_A_d16_x14_y60/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "49d3f3d7c8200c9d5b6d38799f61f2ef1b86f6188991add897342424627c08d8",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1183,11 +1180,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/AUTHOR_MASK_left_main_root_down_5N/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "77a5b596547c6f4db4b00f171bac24405d05c8f9226edb085577f258beaba0aa",
+    "report_sha256": "039fbd6aa3283d33271f18a2d9e44eefb34d12fd061a3ef46b86c09f421014ce",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1199,11 +1196,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/AUTHOR_MASK_left_main_root_down_5N/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "adc5e13fa27ca2195bd40c3fc23df78f6cde21e87e7e7e85750b253e10defcea",
+    "report_sha256": "bd1c5467f3861a4c342d648315fc73f649ce4c4ae573315c32e28586ed8dffcd",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1215,11 +1212,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/AUTHOR_MASK_left_main_root_down_5N/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "49d3f3d7c8200c9d5b6d38799f61f2ef1b86f6188991add897342424627c08d8",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1231,11 +1228,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/LC3_squeeze_2x2N/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "dec96ff7736b0bfb3ac4185a49d17e45131ba5be33e105aa23691befb46fd111",
+    "report_sha256": "4d22191435aa12865c2bc26b2174057d3bc66107f4faf58fbb95ba0053cdb1fd",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1247,11 +1244,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/LC3_squeeze_2x2N/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "2bc047385ca57a24de46112da23d9dbca8d15fb3817f33b615db2deaf3ae0099",
+    "report_sha256": "17c58bbc52a5a031d19caa90621fa4a7c01bb7cd21f93e2a56b90036fb4ad0fe",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1263,11 +1260,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/LC3_squeeze_2x2N/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "49d3f3d7c8200c9d5b6d38799f61f2ef1b86f6188991add897342424627c08d8",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1279,11 +1276,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/left_main_root_down_5N/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "5c152ad1dfc58d905c155dad2e041817de2a7688ef4bb08f98658545c00f2e48",
+    "report_sha256": "7598907acc2187f45ab7296def0c4e5144a8d3cf5800ddb7697afd931ea51f60",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1295,11 +1292,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/left_main_root_down_5N/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "da676e28b31b86d5a39eeb94e08280d8a39946634b9799b9d08311b9dadcd2f3",
+    "report_sha256": "4fea55666c83af49b67aae10694d9e0de7bafc9477bfb3e7da7ed6cf88b6f6b6",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1311,11 +1308,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/left_main_root_down_5N/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "49d3f3d7c8200c9d5b6d38799f61f2ef1b86f6188991add897342424627c08d8",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1327,11 +1324,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/right_main_root_down_5N/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "36706a0a0fb665fd2b3e25c63024144bf4d975d11b6cd16357017732bd023e66",
+    "report_sha256": "f9f3431f76d19667f67f71434045aaf83d550a1efddbf919b879a8a0f7ae2e23",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1343,11 +1340,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/right_main_root_down_5N/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "4bbc46800927b863aa08502c10ef37480e694f250362a792c6ed18d4171779a7",
+    "report_sha256": "53c111178f38991c071017789566731886cf1341fbec0d82d3618798e8e934ac",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1359,11 +1356,11 @@
   },
   "reports/l2_r4/fem/BODY_h1.6/right_main_root_down_5N/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "49d3f3d7c8200c9d5b6d38799f61f2ef1b86f6188991add897342424627c08d8",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1423,11 +1420,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/palm_down_20N/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "59a7295534c2705f5079a27082b31cb398f4263d5c7a7205c434a33729119ea4",
+    "report_sha256": "4370396dabff2e77bf252db5612f9e9c8db10f8c8076597f5718a3fb51b22556",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1439,11 +1436,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/palm_down_20N/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "f29e831df71ecbaf827d032ea993fd039866eb027f3f18eff371aab6b234acec",
+    "report_sha256": "73cb34876b6f374b8e57310eebfc131009c13bc48d27009ff09abf12fb871b6d",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1455,11 +1452,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/palm_down_20N/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "2d17272735174d05285ad253982fe7739f255f36082ad55a7be8a63a0e94285c",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1471,11 +1468,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/press_B_d16_x-14_y72/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "42869dcd1ae56cf7dacb6946d4a6d2cbe3f91fc4e5adbe8807f14b4391e5ff8c",
+    "report_sha256": "99c1825ce884fe5d86c901f0be57011420ad49af22ad8875c89b1d894f0e0800",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1487,11 +1484,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/press_B_d16_x-14_y72/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "8fa3726586d169ea957bbb9661027d9c644797f5b8e6d9344576fc1a82b20e6f",
+    "report_sha256": "478e06e68f0d2c435b6cba24ccc59bd27c9ce3583cb2a7d6d3b1650a0caa0eff",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1503,11 +1500,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/press_B_d16_x-14_y72/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "2d17272735174d05285ad253982fe7739f255f36082ad55a7be8a63a0e94285c",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1519,11 +1516,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/press_A_d16_x14_y60/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "638108fd649e47e74ca154f2d592da6ff4f5a5e9590d3dfd128cac0cc50a0c52",
+    "report_sha256": "e41dc783804987324caa53de7cf1bc27a20378086c489ccbffdc385c9598d257",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1535,11 +1532,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/press_A_d16_x14_y60/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "3cf20e52890df8aca8db2f0124e8d1bcf0eefd6a64c07d740369295a9d6f41f5",
+    "report_sha256": "1baad12dbc24ef6c55c5549dcf02208c628d510cc96bb71fffd8ea3849b3bf24",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1551,11 +1548,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/press_A_d16_x14_y60/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "2d17272735174d05285ad253982fe7739f255f36082ad55a7be8a63a0e94285c",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1567,11 +1564,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/AUTHOR_MASK_left_main_root_down_5N/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "44fd86ec660771c761360f0494e19fb04e74dbc24b57220d35212f19878cee89",
+    "report_sha256": "c893cfe2878cbc09fcc1aa77fcc002e4d3cdf6b38df51cc7af81f5d5b3e4605f",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1583,11 +1580,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/AUTHOR_MASK_left_main_root_down_5N/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "c875ed8d7c3740d8ff8b2d76751d9b177f23bde61167a8e5e37a697881e72ccd",
+    "report_sha256": "f3a999b1bd88735315358d8613e400ff813661f64339a81e8c06daa2419dd8ba",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1599,11 +1596,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/AUTHOR_MASK_left_main_root_down_5N/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "2d17272735174d05285ad253982fe7739f255f36082ad55a7be8a63a0e94285c",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1615,11 +1612,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/LC3_squeeze_2x2N/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "2ac4d9dff7e81e58082a43617b123096d0e278312ab74ba2710111256a74b83d",
+    "report_sha256": "ff82a37a563fe098b12dc2bc1c9260e0bba916fca46986f10fca7e4e3b23157f",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1631,11 +1628,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/LC3_squeeze_2x2N/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "3882f0e472ddc998baec49e5b3749e9dc1fb98fd602c4df5712cba4217bf7c4d",
+    "report_sha256": "54717c10f9267ed3a3b11e56bd2450d527fa5ad06a661fef808010ff81cd3d93",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1647,11 +1644,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/LC3_squeeze_2x2N/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "2d17272735174d05285ad253982fe7739f255f36082ad55a7be8a63a0e94285c",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1663,11 +1660,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/left_main_root_down_5N/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "86e0ca3b251a4a227aa34a69dff7598ad84e216d96083efc005b8f89d2e3a0aa",
+    "report_sha256": "ea48ef4d1fc22232fe1713a79d2b1de6cbf1bfffcfe025d8e6bd956c9f4dd9b8",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1679,11 +1676,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/left_main_root_down_5N/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "2ca78d4036971ae789744df1290e81dbd46534bf8e9b681c9d6c8f9c194ca173",
+    "report_sha256": "36891bf4878784b13cdbfc71bf47013db71331908f6763177ec3d0667f16485e",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1695,11 +1692,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/left_main_root_down_5N/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "2d17272735174d05285ad253982fe7739f255f36082ad55a7be8a63a0e94285c",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1711,11 +1708,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/right_main_root_down_5N/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "f107bb7d8ee7295b3582146c115e425d39f0df56a765fd2e5bb4c6a09749f707",
+    "report_sha256": "66c25a5c1eb97e934388ab799a5f89cce47e461534be42b5e4591d5c9e80265a",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1727,11 +1724,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/right_main_root_down_5N/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "9d6c44e30f5feaf73d52251eb1a7002e3fa4065a35196b296602c05fc0ea18b0",
+    "report_sha256": "b4a242dda350fbbcd13f8dc89d4edece58cdd117e769c0540cef90e47bd99a1c",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1743,11 +1740,11 @@
   },
   "reports/l2_r4/fem/BODY_h2/right_main_root_down_5N/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "2d17272735174d05285ad253982fe7739f255f36082ad55a7be8a63a0e94285c",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1759,11 +1756,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/palm_down_20N/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "e6fad6d877d15ebab111ca3c32a86ae555c351c998e8ebda7a0ae35ed137e9a6",
+    "report_sha256": "d800ef6bce41e60e7ba21ed81f2c00e0181751f4b1f497d3534e855c039f4f12",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1775,11 +1772,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/palm_down_20N/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "4076b51b5a44aae06374f0d1abafe6e80ca44c54db8a19c73a670fa666d1c5e3",
+    "report_sha256": "3d4e2d9c5b2bf04782642373dcf722df2ae1e94baab49b7f6fa240183c7eb3a7",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1791,11 +1788,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/palm_down_20N/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "b0290504bce6a827a73202ebba5d57933d4dccea7e77c2b373862ceed7051543",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1807,11 +1804,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/press_B_d16_x-14_y72/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "c487df8b58b5199c8dab1257ff69c8044c6f6b07c7125a6d25bb3a4ace5a1ba8",
+    "report_sha256": "5d1e9089ba90eb9ddee3c195b7bc3f9dde3af4d50bdd5fff99952fdffe39b029",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1823,11 +1820,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/press_B_d16_x-14_y72/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "844f63a98ba31ed1f48e669b98a32527c54bac064a0e0198eafc09f61a6e87d6",
+    "report_sha256": "84ce09de83abab30e7ad5b199897069c63313c59a10f417942f530c383d53bf8",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1839,11 +1836,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/press_B_d16_x-14_y72/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "b0290504bce6a827a73202ebba5d57933d4dccea7e77c2b373862ceed7051543",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1855,11 +1852,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/press_A_d16_x14_y60/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "66b22ec9bce8f7a034077edb8a2d3b9af8a9fc1ea995c648b17093af01986287",
+    "report_sha256": "caa1ac769df4ce97c2c80c97f58022a22563e58ebf432c51b44eeb9ec0fd7ffd",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1871,11 +1868,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/press_A_d16_x14_y60/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "7ea6e2093f5154a8d3c43310a49ba3024735caf94163faa79ae36ad963afc325",
+    "report_sha256": "def8f35a77c2bc46053f3e42629794cd15711aefa704bc1a1b3920881417af70",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1887,11 +1884,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/press_A_d16_x14_y60/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "b0290504bce6a827a73202ebba5d57933d4dccea7e77c2b373862ceed7051543",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1903,11 +1900,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/AUTHOR_MASK_left_main_root_down_5N/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "3ecaecbfd622bfcc0411c42f189a086b9f0c9e530e1e0f776df2c050281bea78",
+    "report_sha256": "1e87296392cd9ec293a69319a7e854f52dea3181cee4569e4b2cae663e47f457",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1919,11 +1916,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/AUTHOR_MASK_left_main_root_down_5N/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "81dfdfaa049caf52629e7be33eb607da20c16d23572a59768d597251006fba4f",
+    "report_sha256": "44be365a1af4d0666ed71b96524aae368ec4bde81c7dfc2bc7c62554abec40cc",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1935,11 +1932,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/AUTHOR_MASK_left_main_root_down_5N/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "b0290504bce6a827a73202ebba5d57933d4dccea7e77c2b373862ceed7051543",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1951,11 +1948,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/LC3_squeeze_2x2N/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "6d143cac002905bbba43e1aafe9a5b8506f836a1acb66d2350e8dba8f9fddbb0",
+    "report_sha256": "2492a77fadf9b66d00cfbe6cccd2c49ba19d7b41a9ef9a2d3014db4895bb6ca4",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1967,11 +1964,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/LC3_squeeze_2x2N/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "a80148eff0af9bed534c93aade7d550cf86c7c4b5872e1106c6527a28c9f3e78",
+    "report_sha256": "eecd95aeaa80b1e35c7d3efaf57b0b743364a373ce7deb5e468ad00a207dec3e",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1983,11 +1980,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/LC3_squeeze_2x2N/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "b0290504bce6a827a73202ebba5d57933d4dccea7e77c2b373862ceed7051543",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -1999,11 +1996,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/left_main_root_down_5N/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "c6e53fa24e43287c16bb676ca954b41e41e6a973fd6865d60c31e7232a89e1ce",
+    "report_sha256": "235548cdf1e50feddcf2d7172c88cad13f3ae12c0e00b69b22a2ecbe4760f5fd",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -2015,11 +2012,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/left_main_root_down_5N/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "63a1ccad7c52db5b2e72c52808e68191ecdadfd2eefc1d1d3cae03b47dfe8055",
+    "report_sha256": "5f6e4443f49d79f640679d08e03dcdf7af6eb70e3044922df2e1808665f2110f",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -2031,11 +2028,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/left_main_root_down_5N/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "b0290504bce6a827a73202ebba5d57933d4dccea7e77c2b373862ceed7051543",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -2047,11 +2044,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/right_main_root_down_5N/ccx.log": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "fca2f69d4602d6458fb6c445261b33971d24a62e9d86093ab293042240ba3ea5",
+    "report_sha256": "16289f2b52775d1e2ba3650b48f215b85fa0b19673690d5540d89fd044e73dec",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -2063,11 +2060,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/right_main_root_down_5N/result.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
-    "report_sha256": "9af092ad0b80b8f39428853c9814af29bb5d2c386748218fe5beeeac3b70e876",
+    "report_sha256": "74d83d1e565758fa697379e4c14aac7880684111b2001469309d06bcda798725",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
@@ -2079,11 +2076,11 @@
   },
   "reports/l2_r4/fem/BODY_h2.4/right_main_root_down_5N/mesh_settings.json": {
     "script": "cad/l2_r4/fem_stage.py",
-    "source_commit": "431c48d909c332bd2b3d4d837c5f01807e3f1f05",
+    "source_commit": "fb14c438d8a8bb33f6e22efe3cb2b54384c8ef87",
     "returncode": 0,
     "report_sha256": "b0290504bce6a827a73202ebba5d57933d4dccea7e77c2b373862ceed7051543",
     "geometry": {
-      "models/L2_r4/parts/BODY.step": "81133a289457f9026007bd54b10c983864253f7c4c5c7e9520c3bec2640bd551",
+      "models/L2_r4/parts/BODY.step": "dab51d2a98390785e537b432a52c38b5f0bdfac04a9b3a38672a066f19d13776",
       "reports/l2_r4/fem/REFERENCE_R32_ROOT_PROTOCOL.json": "51a0063b4a29732024360769074912704053bdc389d0442faace55091ce9cb37"
     },
     "verifier_source": {
