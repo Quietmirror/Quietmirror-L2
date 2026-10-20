@@ -1,7 +1,7 @@
 {
   "status": "REVIEW_REQUIRED",
   "physical_electronics": "ESTIMATED_ENVELOPES; vendor PCB, holes, package and optical data remain HARDWARE_PENDING",
-  "raw_clearance_failures": 14,
+  "raw_clearance_failures": 15,
   "unclassified_hardware_overlaps": 0,
   "reserved_space_failures": 0,
   "functional_contacts": "All raw results retained. Functional seating, solder endpoints, bearings and nominal self-tapping envelopes require explicit local classification."
