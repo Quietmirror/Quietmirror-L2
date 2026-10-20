@@ -1,0 +1,14 @@
+{
+  "status": "FAILED",
+  "phase": "C19 complete author deviation controls and S7",
+  "source_commit": "1b009edf1186e3dd384618916c73a0e1be21d5d7",
+  "steps": [
+    {
+      "script": "cad/l2_r4/fem_geometry_investigation.py",
+      "returncode": 1,
+      "seconds": 2.72,
+      "available_memory_before_GB": 15.606378496,
+      "log_tail": "Traceback (most recent call last):\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/fem_geometry_investigation.py\", line 67, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4/fem_geometry_investigation.py\", line 14, in main\n    primary_identity=evidence.verify(['fem/stiffness.json'])[0]\n                     ^^^^^^^^\nUnboundLocalError: cannot access local variable 'evidence' where it is not associated with a value\n"
+    }
+  ]
+}
