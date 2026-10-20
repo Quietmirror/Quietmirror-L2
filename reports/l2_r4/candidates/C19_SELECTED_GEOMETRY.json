@@ -71,5 +71,6 @@
       "sha": "7e724311a8e1bc1df14de588847e25303665b927"
     }
   ],
-  "reason": "C19A complete boundary audit passed locally. A repeated source build C19B produced a different cylindrical trim outside the declared change zone and was rejected. All final checks must use this one selected immutable BODY and its matching source features. Selection is not a CAD gate pass."
+  "reason": "C19A complete boundary audit passed locally. A repeated source build C19B produced a different cylindrical trim outside the declared change zone and was rejected. All final checks must use this one selected immutable BODY and its matching source features. Selection is not a CAD gate pass.",
+  "surface_mesh_policy": "BODY.stl in this selection is the original source-builder mesh. The final printable STL is regenerated conformingly from the selected unchanged STEP, then independently validated and bound by G1 and slicing reports."
 }

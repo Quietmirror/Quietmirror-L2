@@ -1,0 +1,38 @@
+name: L2-r4 final G8 and S7 serial FEM
+on:
+  push:
+    branches: [codex/r4-c19-fem]
+    paths: ['cad/l2_r4/**', '.github/workflows/l2-r4-final-fem.yml']
+permissions:
+  contents: write
+concurrency:
+  group: l2-r4-c19-fem
+  cancel-in-progress: true
+jobs:
+  inspect:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 330
+    env:
+      GH_TOKEN: ${{ github.token }}
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      PYTHONUTF8: '1'
+      R4_TARGET_BRANCH: codex/r4-c19-fem
+    steps:
+      - run: |
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=1 origin "$GITHUB_SHA"
+          git checkout --detach FETCH_HEAD
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq calculix-ccx libglu1-mesa libgl1 fonts-noto-cjk xvfb
+          python3 -m venv _support/venv
+          _support/venv/bin/pip install --disable-pip-version-check cadquery==2.8.0 gmsh==4.15.2 trimesh scipy pillow psutil shapely matplotlib rtree
+      - name: Serial SPOOLES final geometry G8 and S7
+        run: |
+          xvfb-run -a _support/venv/bin/python -u cad/l2_r4/ci_run.py --config cad/l2_r4/FINAL_FEM.json
+      - name: Preserve independent evidence on FEM branch only
+        if: always()
+        env:
+          R4_TARGET_BRANCH: codex/r4-c19-fem
+        run: python3 cad/l2_r4/ci_checkpoint.py
