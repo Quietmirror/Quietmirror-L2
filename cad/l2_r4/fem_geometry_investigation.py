@@ -8,10 +8,10 @@ import json,os,subprocess,sys,hashlib
 import numpy as np
 from common import load,vol,bounds,valid,cyl,cq,ROOT as ROOT_CAD,OUT
 from fem_stage import ROOT,RP,WORK,mesh,solve,L,AUTHOR
-import evidence_identity as evidence
+import evidence_identity as version_evidence
 
 def main():
-    primary_identity=evidence.verify(['fem/stiffness.json'])[0]
+    primary_identity=version_evidence.verify(['fem/stiffness.json'])[0]
     assert primary_identity['passed'], primary_identity
     gate=json.loads((RP/'G8.json').read_text())
     primary=json.loads((RP/'stiffness.json').read_text())
