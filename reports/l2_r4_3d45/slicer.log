@@ -1,0 +1,892 @@
+[2026-10-20 10:46:39.193815] [0x00007fe4e47734c0] [trace]   Initializing StaticPrintConfigs
+[2026-10-20 10:46:39.200604] [0x00007fe4e47734c0] [warning] cli mode, Current Dremel 3D Slicer Version 01.10.01.52
+[2026-10-20 10:46:39.200616] [0x00007fe4e47734c0] [info]    Will start to read model file now, file count :1
+
+[2026-10-20 10:46:39.200630] [0x00007fe4e47734c0] [info]    allow_multicolor_oneplate 1, allow_rotations 1 skip_modified_gcodes 0 avoid_extrusion_cali_region 0 loaded_filament_ids size 0, clone_objects size 0, skip_useless_pick 0, allow_newer_file 0
+[2026-10-20 10:46:39.200636] [0x00007fe4e47734c0] [info]    plate_to_slice=0, normative_check=1, use_first_fila_as_default=0
+[2026-10-20 10:46:39.200643] [0x00007fe4e47734c0] [info]    read model file:/home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/work/l2_r4_3d45/plate_input.3mf
+
+[2026-10-20 10:46:39.200679] [0x00007fe4e47734c0] [info]    model 0x7ffd0009c330, id 3, backup_path empty, set to /tmp/orcaslicer_model/Tue_Oct_20/10_46_39#3335#3
+[2026-10-20 10:46:39.200691] [0x00007fe4e47734c0] [info]    create /3D/Objects in "/tmp/orcaslicer_model/Tue_Oct_20/10_46_39#3335#3"
+[2026-10-20 10:46:39.200842] [0x00007fe4e47734c0] [info]    create /Metadata in "/tmp/orcaslicer_model/Tue_Oct_20/10_46_39#3335#3"
+[2026-10-20 10:46:39.200886] [0x00007fe4e47734c0] [info]    create /lock.txt in "/tmp/orcaslicer_model/Tue_Oct_20/10_46_39#3335#3"
+[2026-10-20 10:46:39.200942] [0x00007fe4e47734c0] [info]    _load_model_from_file:1564import 3mf IMPORT_STAGE_OPEN, m_load_restore=0
+
+[2026-10-20 10:46:39.200967] [0x00007fe4e47734c0] [info]    _load_model_from_file:1600import 3mf IMPORT_STAGE_READ_FILES
+
+[2026-10-20 10:46:40.066699] [0x00007fe4e47734c0] [info]    _load_model_from_file:1751extract 1th file 3D/3dmodel.model, total=3
+[2026-10-20 10:46:40.066727] [0x00007fe4e47734c0] [info]    _load_model_from_file:1848, 3D/3dmodel.model skipped, already parsed or a directory or not supported
+
+[2026-10-20 10:46:40.066735] [0x00007fe4e47734c0] [info]    _load_model_from_file:1751extract 2th file _rels/.rels, total=3
+[2026-10-20 10:46:40.066740] [0x00007fe4e47734c0] [info]    _load_model_from_file:1848, _rels/.rels skipped, already parsed or a directory or not supported
+
+[2026-10-20 10:46:40.066747] [0x00007fe4e47734c0] [info]    _load_model_from_file:1751extract 3th file [Content_Types].xml, total=3
+[2026-10-20 10:46:40.066750] [0x00007fe4e47734c0] [info]    _load_model_from_file:1848, [Content_Types].xml skipped, already parsed or a directory or not supported
+
+[2026-10-20 10:46:40.066760] [0x00007fe4e47734c0] [info]    _load_model_from_file:1858, found 3mf from other vendor, split as instance
+[2026-10-20 10:46:40.066764] [0x00007fe4e47734c0] [info]    _load_model_from_file:1900, process group colors, size 0
+
+[2026-10-20 10:46:40.066768] [0x00007fe4e47734c0] [info]    _load_model_from_file:1915, begin to assemble objects, size 9
+
+[2026-10-20 10:46:40.066775] [0x00007fe4e47734c0] [info]    _generate_volumes_new: line 4665, subobject_id 1, shared_mesh_id 1
+[2026-10-20 10:46:40.326312] [0x00007fe4e47734c0] [info]    _generate_volumes_new: line 4665, subobject_id 2, shared_mesh_id 2
+[2026-10-20 10:46:40.342753] [0x00007fe4e47734c0] [info]    _generate_volumes_new: line 4665, subobject_id 3, shared_mesh_id 3
+[2026-10-20 10:46:40.358578] [0x00007fe4e47734c0] [info]    _generate_volumes_new: line 4665, subobject_id 4, shared_mesh_id 4
+[2026-10-20 10:46:40.360942] [0x00007fe4e47734c0] [info]    _generate_volumes_new: line 4665, subobject_id 5, shared_mesh_id 5
+[2026-10-20 10:46:40.386792] [0x00007fe4e47734c0] [info]    _generate_volumes_new: line 4665, subobject_id 6, shared_mesh_id 6
+[2026-10-20 10:46:40.433116] [0x00007fe4e47734c0] [info]    _generate_volumes_new: line 4665, subobject_id 7, shared_mesh_id 7
+[2026-10-20 10:46:40.436079] [0x00007fe4e47734c0] [info]    _generate_volumes_new: line 4665, subobject_id 8, shared_mesh_id 8
+[2026-10-20 10:46:40.439593] [0x00007fe4e47734c0] [info]    _generate_volumes_new: line 4665, subobject_id 9, shared_mesh_id 9
+[2026-10-20 10:46:40.445368] [0x00007fe4e47734c0] [info]    _load_model_from_file:2115import 3mf IMPORT_STAGE_LOADING_PLATES, m_plater_data size 0, m_backup_path /tmp/orcaslicer_model/Tue_Oct_20/10_46_39#3335#3
+
+[2026-10-20 10:46:40.445390] [0x00007fe4e47734c0] [info]    _load_model_from_file:2218import 3mf IMPORT_STAGE_FINISH
+
+[2026-10-20 10:46:40.449159] [0x00007fe4e47734c0] [info]    object BODY, id :5, from stl or other 3mf
+
+[2026-10-20 10:46:40.449421] [0x00007fe4e47734c0] [info]    object LEFT_KEY, id :9, from stl or other 3mf
+
+[2026-10-20 10:46:40.449441] [0x00007fe4e47734c0] [info]    object RIGHT_KEY, id :13, from stl or other 3mf
+
+[2026-10-20 10:46:40.449461] [0x00007fe4e47734c0] [info]    object SF_RETAINER, id :17, from stl or other 3mf
+
+[2026-10-20 10:46:40.449468] [0x00007fe4e47734c0] [info]    object SIDE_FRONT_KEY, id :21, from stl or other 3mf
+
+[2026-10-20 10:46:40.449487] [0x00007fe4e47734c0] [info]    object SIDE_REAR_KEY, id :25, from stl or other 3mf
+
+[2026-10-20 10:46:40.449508] [0x00007fe4e47734c0] [info]    object SR_RETAINER, id :29, from stl or other 3mf
+
+[2026-10-20 10:46:40.449515] [0x00007fe4e47734c0] [info]    object WHEEL, id :33, from stl or other 3mf
+
+[2026-10-20 10:46:40.449519] [0x00007fe4e47734c0] [info]    object WHEEL_CARRIER, id :37, from stl or other 3mf
+
+[2026-10-20 10:46:40.449537] [0x00007fe4e47734c0] [info]    run:before load settings, file count=2
+
+[2026-10-20 10:46:40.449554] [0x00007fe4e47734c0] [info]    operator():load setting file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/machine.json, with rule 1
+
+[2026-10-20 10:46:40.449901] [0x00007fe4e47734c0] [info]    no substitutions performed from file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/machine.json
+
+[2026-10-20 10:46:40.449929] [0x00007fe4e47734c0] [info]    loaded machine config /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/machine.json, type Quietmirror Dremel 3D45 0.4, name User, inherits Dremel 3D45 0.4 nozzle, printer_model_id 
+[2026-10-20 10:46:40.449936] [0x00007fe4e47734c0] [info]    operator():load setting file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/process.json, with rule 1
+
+[2026-10-20 10:46:40.450271] [0x00007fe4e47734c0] [info]    no substitutions performed from file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/process.json
+
+[2026-10-20 10:46:40.450283] [0x00007fe4e47734c0] [info]    loaded process config /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/process.json, type Quietmirror 0.20mm PLA 3D45, name User, inherits 0.20mm Standard @Dremel 3D45 0.4
+[2026-10-20 10:46:40.450291] [0x00007fe4e47734c0] [info]    operator():load setting file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/filament.json, with rule 1
+
+[2026-10-20 10:46:40.450532] [0x00007fe4e47734c0] [info]    no substitutions performed from file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/filament.json
+
+[2026-10-20 10:46:40.450542] [0x00007fe4e47734c0] [info]    loaded filament 1 from file /home/runner/work/Quietmirror-L2/Quietmirror-L2/cad/l2_r4_3d45/profiles/filament.json, type User, name Quietmirror PLA 3D45, inherits Dremel PLA @3D45
+[2026-10-20 10:46:40.450547] [0x00007fe4e47734c0] [info]    current printer , new printer Quietmirror Dremel 3D45 0.4, current process , new process Quietmirror 0.20mm PLA 3D45
+[2026-10-20 10:46:40.450551] [0x00007fe4e47734c0] [info]    current printer inherits , new printer inherits Dremel 3D45 0.4 nozzle, current process inherits , new process inherits 0.20mm Standard @Dremel 3D45 0.4
+[2026-10-20 10:46:40.450554] [0x00007fe4e47734c0] [info]    index 0, new print compatible printer Dremel 3D45 0.4 nozzle
+[2026-10-20 10:46:40.450559] [0x00007fe4e47734c0] [info]    new printer Quietmirror Dremel 3D45 0.4, inherited from Dremel 3D45 0.4 nozzle, new process Quietmirror 0.20mm PLA 3D45, inherited from 0.20mm Standard @Dremel 3D45 0.4 ,compatible 1
+[2026-10-20 10:46:40.450572] [0x00007fe4e47734c0] [info]    update printer config to newest, different size 0, different_settings: 
+[2026-10-20 10:46:40.450598] [0x00007fe4e47734c0] [info]    update_full_config: config keys count 70
+[2026-10-20 10:46:40.450640] [0x00007fe4e47734c0] [info]    load a new printer, update all the keys, different_settings: 
+[2026-10-20 10:46:40.450645] [0x00007fe4e47734c0] [info]    check printer cli safe params, current_printer_name , new_printer_name Quietmirror Dremel 3D45 0.4, printer_model Dremel 3D45
+[2026-10-20 10:46:40.450649] [0x00007fe4e47734c0] [info]    line 2464 , will parse file /home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/work/l2_r4_3d45/squashfs-root/resources/profiles/BBL/cli_config.json
+[2026-10-20 10:46:40.450655] [0x00007fe4e47734c0] [warning] file /home/runner/work/Quietmirror-L2/Quietmirror-L2/_support/work/l2_r4_3d45/squashfs-root/resources/profiles/BBL/cli_config.json not exist.
+[2026-10-20 10:46:40.450661] [0x00007fe4e47734c0] [info]    update process config to newest, different size 0, different_settings: 
+[2026-10-20 10:46:40.450670] [0x00007fe4e47734c0] [info]    update_full_config: config keys count 109
+[2026-10-20 10:46:40.450735] [0x00007fe4e47734c0] [info]    load a new process, update all the keys, different_settings: 
+[2026-10-20 10:46:40.450744] [0x00007fe4e47734c0] [info]    update filament 1's config to newest, different size 0, name Quietmirror PLA 3D45, different_settings 
+[2026-10-20 10:46:40.450780] [0x00007fe4e47734c0] [info]    skip scalar option inherits from filament 1: Quietmirror PLA 3D45
+[2026-10-20 10:46:40.450795] [0x00007fe4e47734c0] [warning] no filament colors found in projects
+[2026-10-20 10:46:40.450798] [0x00007fe4e47734c0] [info]    total 1 models, 0 objects
+
+[2026-10-20 10:46:40.451495] [0x00007fe4e47734c0] [info]    translate_old 0, shrink_to_new_bed 0, old bed size {255, 155, 170}
+[2026-10-20 10:46:40.451505] [0x00007fe4e47734c0] [info]    reset_size:before size: plate_width 0, plate_depth 0, plate_height 0
+[2026-10-20 10:46:40.451509] [0x00007fe4e47734c0] [info]    reset_size:after size: plate_width 255, plate_depth 155, plate_height 170
+[2026-10-20 10:46:40.451526] [0x00007fe4e47734c0] [info]    set_pos_and_size: plate_id 0, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+[2026-10-20 10:46:40.451532] [0x00007fe4e47734c0] [info]    set_pos_and_size: with_instance_move 0, after, origin {0,0,0}, plate_width 255, plate_depth 155, plate_height 170
+[2026-10-20 10:46:40.451536] [0x00007fe4e47734c0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-20 10:46:40.451541] [0x00007fe4e47734c0] [info]    set_pos_and_size: plate_id 1, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+[2026-10-20 10:46:40.451547] [0x00007fe4e47734c0] [info]    set_pos_and_size: with_instance_move 0, after, origin {306,0,0}, plate_width 255, plate_depth 155, plate_height 170
+[2026-10-20 10:46:40.451551] [0x00007fe4e47734c0] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+[2026-10-20 10:46:40.451555] [0x00007fe4e47734c0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-20 10:46:40.451558] [0x00007fe4e47734c0] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+[2026-10-20 10:46:40.451579] [0x00007fe4e47734c0] [error]   calc_exclude_triangles:Unable to create exclude triangles
+
+[2026-10-20 10:46:40.451685] [0x00007fe4e47734c0] [info]    will start transforms, commands count 2
+
+[2026-10-20 10:46:40.451689] [0x00007fe4e47734c0] [info]    process transform arrange
+
+[2026-10-20 10:46:40.451692] [0x00007fe4e47734c0] [info]    process transform orient
+
+[2026-10-20 10:46:40.451696] [0x00007fe4e47734c0] [info]    object BODY, id :5, no need to orient when setting orient to 0
+
+[2026-10-20 10:46:40.451699] [0x00007fe4e47734c0] [info]    object LEFT_KEY, id :9, no need to orient when setting orient to 0
+
+[2026-10-20 10:46:40.451701] [0x00007fe4e47734c0] [info]    object RIGHT_KEY, id :13, no need to orient when setting orient to 0
+
+[2026-10-20 10:46:40.451704] [0x00007fe4e47734c0] [info]    object SF_RETAINER, id :17, no need to orient when setting orient to 0
+
+[2026-10-20 10:46:40.451712] [0x00007fe4e47734c0] [info]    object SIDE_FRONT_KEY, id :21, no need to orient when setting orient to 0
+
+[2026-10-20 10:46:40.451714] [0x00007fe4e47734c0] [info]    object SIDE_REAR_KEY, id :25, no need to orient when setting orient to 0
+
+[2026-10-20 10:46:40.451717] [0x00007fe4e47734c0] [info]    object SR_RETAINER, id :29, no need to orient when setting orient to 0
+
+[2026-10-20 10:46:40.451720] [0x00007fe4e47734c0] [info]    object WHEEL, id :33, no need to orient when setting orient to 0
+
+[2026-10-20 10:46:40.451722] [0x00007fe4e47734c0] [info]    object WHEEL_CARRIER, id :37, no need to orient when setting orient to 0
+
+[2026-10-20 10:46:40.451726] [0x00007fe4e47734c0] [info]    orient_option 0
+[2026-10-20 10:46:40.451729] [0x00007fe4e47734c0] [info]    finished model pre-process commands
+
+[2026-10-20 10:46:40.451734] [0x00007fe4e47734c0] [info]    before arrange, need_arrange=0, duplicate_count 0, filament_color_changed 0
+[2026-10-20 10:46:40.451741] [0x00007fe4e47734c0] [info]    Need to slice for plate 0, total plate count 1 partplates!
+
+[2026-10-20 10:46:40.451748] [0x00007fe4e47734c0] [info]    Plate 1: pre_check 1, start
+[2026-10-20 10:46:40.452832] [0x00007fe4e47734c0] [info]    update_print_volume_state, print_volume {-127.5, -77.5, 0} to {127.5, 77.5, 170}, got 9 printable istances
+[2026-10-20 10:46:40.452841] [0x00007fe4e47734c0] [info]    plate 1: load cached data success, go on.
+[2026-10-20 10:46:40.453061] [0x00007fe4e47734c0] [info]    apply, Line 1029: enter
+[2026-10-20 10:46:40.453076] [0x00007fe4e47734c0] [info]    apply, has_scarf_joint_seam:false
+[2026-10-20 10:46:40.453332] [0x00007fe4e47734c0] [info]    apply, got print_diff 66, object_diff 20, region_diff 24, set status to APPLY_STATUS_CHANGED
+[2026-10-20 10:46:40.453379] [0x00007fe4e47734c0] [info]    apply 1103: found full_config_diff changed.
+[2026-10-20 10:46:40.456330] [0x00007fe4e47734c0] [info]    apply 1425: found print object changed.
+[2026-10-20 10:46:40.522287] [0x00007fe4e47734c0] [info]    apply 1620: finished,  this 0x562067083010, m_modified_count 1, apply_status 1, m_support_used 1
+[2026-10-20 10:46:40.522357] [0x00007fe4e47734c0] [info]    set no_check to 0:
+[2026-10-20 10:46:40.525215] [0x00007fe4e47734c0] [info]    start Print::process for partplate 1
+
+[2026-10-20 10:46:40.525223] [0x00007fe4e47734c0] [info]    cli callback mgr started:  false
+
+[2026-10-20 10:46:40.525226] [0x00007fe4e47734c0] [info]    set print's callback to default_status_callback.
+[2026-10-20 10:46:40.525234] [0x00007fe4e47734c0] [info]    printer_model_string: Dremel 3D45, is_bbl_vendor_preset 0
+[2026-10-20 10:46:40.527169] [0x00007fe4e47734c0] [info]    process: this=0x562067083010, enter, use_cache=0, object size=9
+[2026-10-20 10:46:40.527188] [0x00007fe4e47734c0] [info]    process: total object counts 9 in current print, need to slice 9
+[2026-10-20 10:46:40.527229] [0x00007fe4e47734c0] [info]    Starting the slicing process. Resident memory: 148MB; Shared memory: 57MB; Private memory: 91MB; Peak memory usage: 629MB
+[2026-10-20 10:46:40.527262] [0x00007fe4e47734c0] [info]    Slicing volumes... Resident memory: 148MB; Shared memory: 57MB; Private memory: 91MB; Peak memory usage: 629MB
+[2026-10-20 10:46:41.273761] [0x00007fe4e47734c0] [info]    Make overhang printable...
+[2026-10-20 10:46:41.273798] [0x00007fe4e47734c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
+[2026-10-20 10:46:41.273804] [0x00007fe4e47734c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
+[2026-10-20 10:46:41.289214] [0x00007fe4e47734c0] [info]    Generating walls... Resident memory: 174MB; Shared memory: 58MB; Private memory: 116MB; Peak memory usage: 629MB
+[2026-10-20 10:46:42.084963] [0x00007fe4e47734c0] [info]    Slicing volumes... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:46:42.111839] [0x00007fe4e47734c0] [info]    Make overhang printable...
+[2026-10-20 10:46:42.111860] [0x00007fe4e47734c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
+[2026-10-20 10:46:42.111876] [0x00007fe4e47734c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
+[2026-10-20 10:46:42.113634] [0x00007fe4e47734c0] [info]    Generating walls... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:46:42.205479] [0x00007fe4e47734c0] [info]    Slicing volumes... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:46:42.232827] [0x00007fe4e47734c0] [info]    Make overhang printable...
+[2026-10-20 10:46:42.232852] [0x00007fe4e47734c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
+[2026-10-20 10:46:42.232856] [0x00007fe4e47734c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
+[2026-10-20 10:46:42.234531] [0x00007fe4e47734c0] [info]    Generating walls... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:46:42.329370] [0x00007fe4e47734c0] [info]    Slicing volumes... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:46:42.332293] [0x00007fe4e47734c0] [info]    Make overhang printable...
+[2026-10-20 10:46:42.332313] [0x00007fe4e47734c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
+[2026-10-20 10:46:42.332318] [0x00007fe4e47734c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
+[2026-10-20 10:46:42.332598] [0x00007fe4e47734c0] [info]    Generating walls... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:46:42.338146] [0x00007fe4e47734c0] [info]    Slicing volumes... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:46:42.353616] [0x00007fe4e47734c0] [info]    Make overhang printable...
+[2026-10-20 10:46:42.353631] [0x00007fe4e47734c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
+[2026-10-20 10:46:42.353636] [0x00007fe4e47734c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
+[2026-10-20 10:46:42.354163] [0x00007fe4e47734c0] [info]    Generating walls... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:46:42.371022] [0x00007fe4e47734c0] [info]    Slicing volumes... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:46:42.387400] [0x00007fe4e47734c0] [info]    Make overhang printable...
+[2026-10-20 10:46:42.387416] [0x00007fe4e47734c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
+[2026-10-20 10:46:42.387420] [0x00007fe4e47734c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
+[2026-10-20 10:46:42.387949] [0x00007fe4e47734c0] [info]    Generating walls... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:46:42.408856] [0x00007fe4e47734c0] [info]    Slicing volumes... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:46:42.412296] [0x00007fe4e47734c0] [info]    Make overhang printable...
+[2026-10-20 10:46:42.412309] [0x00007fe4e47734c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
+[2026-10-20 10:46:42.412313] [0x00007fe4e47734c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
+[2026-10-20 10:46:42.412655] [0x00007fe4e47734c0] [info]    Generating walls... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:46:42.418643] [0x00007fe4e47734c0] [info]    Slicing volumes... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:46:42.432622] [0x00007fe4e47734c0] [info]    Make overhang printable...
+[2026-10-20 10:46:42.432636] [0x00007fe4e47734c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
+[2026-10-20 10:46:42.432641] [0x00007fe4e47734c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
+[2026-10-20 10:46:42.434259] [0x00007fe4e47734c0] [info]    Generating walls... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:46:42.522296] [0x00007fe4e47734c0] [info]    Slicing volumes... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:46:42.541955] [0x00007fe4e47734c0] [info]    Make overhang printable...
+[2026-10-20 10:46:42.542001] [0x00007fe4e47734c0] [info]    angle 0.959931 maxHoleArea 0 tan_angle 1.42815
+[2026-10-20 10:46:42.542009] [0x00007fe4e47734c0] [info]    layer_thickness 0.2 max_dist_from_lower_layer 0.28563
+[2026-10-20 10:46:42.543668] [0x00007fe4e47734c0] [info]    Generating walls... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:46:42.815773] [0x00007fe4e47734c0] [info]    Detecting solid surfaces... Resident memory: 176MB; Shared memory: 59MB; Private memory: 117MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.216786] [0x00007fe4e47734c0] [info]    Preparing fill surfaces... Resident memory: 179MB; Shared memory: 59MB; Private memory: 120MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.216825] [0x00007fe4e47734c0] [info]    Discovering vertical shells... Resident memory: 179MB; Shared memory: 59MB; Private memory: 120MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.541875] [0x00007fe4e47734c0] [info]    Processing external surfaces... Resident memory: 179MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.584273] [0x00007fe4e47734c0] [info]    Bridge over infill - Start Resident memory: 179MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.639509] [0x00007fe4e47734c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.642101] [0x00007fe4e47734c0] [info]    Bridge over infill - End Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.802855] [0x00007fe4e47734c0] [info]    Detecting solid surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.823621] [0x00007fe4e47734c0] [info]    Preparing fill surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.823655] [0x00007fe4e47734c0] [info]    Discovering vertical shells... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.845857] [0x00007fe4e47734c0] [info]    Processing external surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.847544] [0x00007fe4e47734c0] [info]    Bridge over infill - Start Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.851558] [0x00007fe4e47734c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.851609] [0x00007fe4e47734c0] [info]    Bridge over infill - End Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.884335] [0x00007fe4e47734c0] [info]    Detecting solid surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.905020] [0x00007fe4e47734c0] [info]    Preparing fill surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.905048] [0x00007fe4e47734c0] [info]    Discovering vertical shells... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.926368] [0x00007fe4e47734c0] [info]    Processing external surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.927964] [0x00007fe4e47734c0] [info]    Bridge over infill - Start Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.931690] [0x00007fe4e47734c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.931740] [0x00007fe4e47734c0] [info]    Bridge over infill - End Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.964661] [0x00007fe4e47734c0] [info]    Detecting solid surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.965853] [0x00007fe4e47734c0] [info]    Preparing fill surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.965879] [0x00007fe4e47734c0] [info]    Discovering vertical shells... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.966351] [0x00007fe4e47734c0] [info]    Processing external surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.966478] [0x00007fe4e47734c0] [info]    Bridge over infill - Start Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.966536] [0x00007fe4e47734c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.966558] [0x00007fe4e47734c0] [info]    Bridge over infill - End Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.966625] [0x00007fe4e47734c0] [info]    Detecting solid surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.973702] [0x00007fe4e47734c0] [info]    Preparing fill surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.973727] [0x00007fe4e47734c0] [info]    Discovering vertical shells... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.976057] [0x00007fe4e47734c0] [info]    Processing external surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.976125] [0x00007fe4e47734c0] [info]    Bridge over infill - Start Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.976154] [0x00007fe4e47734c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.976173] [0x00007fe4e47734c0] [info]    Bridge over infill - End Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.976196] [0x00007fe4e47734c0] [info]    Detecting solid surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.983740] [0x00007fe4e47734c0] [info]    Preparing fill surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.983764] [0x00007fe4e47734c0] [info]    Discovering vertical shells... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.986061] [0x00007fe4e47734c0] [info]    Processing external surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.986133] [0x00007fe4e47734c0] [info]    Bridge over infill - Start Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.986169] [0x00007fe4e47734c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.986189] [0x00007fe4e47734c0] [info]    Bridge over infill - End Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.986214] [0x00007fe4e47734c0] [info]    Detecting solid surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.987531] [0x00007fe4e47734c0] [info]    Preparing fill surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.987557] [0x00007fe4e47734c0] [info]    Discovering vertical shells... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.988223] [0x00007fe4e47734c0] [info]    Processing external surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.988412] [0x00007fe4e47734c0] [info]    Bridge over infill - Start Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.988490] [0x00007fe4e47734c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.988512] [0x00007fe4e47734c0] [info]    Bridge over infill - End Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.988921] [0x00007fe4e47734c0] [info]    Detecting solid surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.997674] [0x00007fe4e47734c0] [info]    Preparing fill surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:43.997701] [0x00007fe4e47734c0] [info]    Discovering vertical shells... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:44.001844] [0x00007fe4e47734c0] [info]    Processing external surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:44.003269] [0x00007fe4e47734c0] [info]    Bridge over infill - Start Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:44.004865] [0x00007fe4e47734c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:44.004914] [0x00007fe4e47734c0] [info]    Bridge over infill - End Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:44.011251] [0x00007fe4e47734c0] [info]    Detecting solid surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:44.028106] [0x00007fe4e47734c0] [info]    Preparing fill surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:44.028130] [0x00007fe4e47734c0] [info]    Discovering vertical shells... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:44.037195] [0x00007fe4e47734c0] [info]    Processing external surfaces... Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:44.037894] [0x00007fe4e47734c0] [info]    Bridge over infill - Start Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:44.038430] [0x00007fe4e47734c0] [info]    Bridge over infill - Directions and expanded surfaces computed Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:44.038468] [0x00007fe4e47734c0] [info]    Bridge over infill - End Resident memory: 180MB; Shared memory: 59MB; Private memory: 121MB; Peak memory usage: 629MB
+[2026-10-20 10:46:44.042094] [0x00007fe4e47734c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
+[2026-10-20 10:46:44.042111] [0x00007fe4e40fc6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
+[2026-10-20 10:46:44.042121] [0x00007fe4e3cfb6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
+[2026-10-20 10:46:44.042148] [0x00007fe4e38fa6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
+[2026-10-20 10:46:44.067888] [0x00007fe4e3cfb6c0] [info]    max_cantilever_dist=4.42665e+06
+[2026-10-20 10:46:44.085596] [0x00007fe4e3cfb6c0] [info]    Tree support overhang detection done. 5 layers with overhangs. nEnforced=5
+[2026-10-20 10:46:44.095776] [0x00007fe4e3cfb6c0] [info]    Precalculating collision took5.41 ms. Precalculating avoidance took 4.515 ms.
+[2026-10-20 10:46:44.103407] [0x00007fe4e3cfb6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 2 ms merging areas: 0 ms
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+[2026-10-20 10:46:44.107067] [0x00007fe4e3cfb6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 64.926 ms. Different subtasks:
+Calculating Avoidance: 53.663 ms Creating inital influence areas: 4.652 ms Influence area creation: 2.97ms Placement of Points in InfluenceAreas: 0.005ms Drawing result as support 3.634 ms
+[2026-10-20 10:46:44.109950] [0x00007fe4e3cfb6c0] [info]    Total time of organic tree support: 67.811 ms
+[2026-10-20 10:46:44.110027] [0x00007fe4e3cfb6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
+[2026-10-20 10:46:44.127889] [0x00007fe4e38fa6c0] [info]    max_cantilever_dist=0
+[2026-10-20 10:46:44.128074] [0x00007fe4e40fc6c0] [info]    max_cantilever_dist=0
+[2026-10-20 10:46:44.137393] [0x00007fe4e3cfb6c0] [info]    max_cantilever_dist=4.72922e+06
+[2026-10-20 10:46:44.155263] [0x00007fe4e3cfb6c0] [info]    Tree support overhang detection done. 5 layers with overhangs. nEnforced=5
+[2026-10-20 10:46:44.165545] [0x00007fe4e3cfb6c0] [info]    Precalculating collision took5.357 ms. Precalculating avoidance took 4.734 ms.
+[2026-10-20 10:46:44.169602] [0x00007fe4e3cfb6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 0 ms merging areas: 0 ms
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+[2026-10-20 10:46:44.171102] [0x00007fe4e3cfb6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 61.059 ms. Different subtasks:
+Calculating Avoidance: 55.522 ms Creating inital influence areas: 3.061 ms Influence area creation: 0.992ms Placement of Points in InfluenceAreas: 0.002ms Drawing result as support 1.479 ms
+[2026-10-20 10:46:44.172505] [0x00007fe4e3cfb6c0] [info]    Total time of organic tree support: 62.464 ms
+[2026-10-20 10:46:44.172547] [0x00007fe4e3cfb6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
+[2026-10-20 10:46:44.179036] [0x00007fe4e3cfb6c0] [info]    max_cantilever_dist=0
+[2026-10-20 10:46:44.185384] [0x00007fe4e3cfb6c0] [info]    Tree support overhang detection done. 14 layers with overhangs. nEnforced=11
+[2026-10-20 10:46:44.209255] [0x00007fe4e3cfb6c0] [info]    Precalculating collision took11.638 ms. Precalculating avoidance took 12.068 ms.
+[2026-10-20 10:46:44.228458] [0x00007fe4e40fc6c0] [info]    Tree support overhang detection done. 67 layers with overhangs. nEnforced=67
+[2026-10-20 10:46:44.228696] [0x00007fe4e38fa6c0] [info]    Tree support overhang detection done. 67 layers with overhangs. nEnforced=67
+[2026-10-20 10:46:44.271459] [0x00007fe4e3cfb6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 45 ms merging areas: 2 ms
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+[2026-10-20 10:46:44.330403] [0x00007fe4e3cfb6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 157.836 ms. Different subtasks:
+Calculating Avoidance: 36.724 ms Creating inital influence areas: 12.883 ms Influence area creation: 49.318ms Placement of Points in InfluenceAreas: 0.065ms Drawing result as support 58.844 ms
+[2026-10-20 10:46:44.357007] [0x00007fe4e3cfb6c0] [info]    Total time of organic tree support: 184.447 ms
+[2026-10-20 10:46:44.357166] [0x00007fe4e3cfb6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
+[2026-10-20 10:46:44.433943] [0x00007fe4e3cfb6c0] [info]    max_cantilever_dist=4.93429e+06
+[2026-10-20 10:46:44.439668] [0x00007fe4e38fa6c0] [info]    Precalculating collision took89.529 ms. Precalculating avoidance took 120.896 ms.
+[2026-10-20 10:46:44.445164] [0x00007fe4e40fc6c0] [info]    Precalculating collision took91.527 ms. Precalculating avoidance took 124.692 ms.
+[2026-10-20 10:46:44.445616] [0x00007fe4e3cfb6c0] [info]    Tree support overhang detection done. 2 layers with overhangs. nEnforced=1
+[2026-10-20 10:46:44.455374] [0x00007fe4e3cfb6c0] [info]    Precalculating collision took5.232 ms. Precalculating avoidance took 4.488 ms.
+[2026-10-20 10:46:44.518146] [0x00007fe4e3cfb6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 48 ms merging areas: 4 ms
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+[2026-10-20 10:46:44.587213] [0x00007fe4e3cfb6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 230.027 ms. Different subtasks:
+Calculating Avoidance: 98.216 ms Creating inital influence areas: 9.189 ms Influence area creation: 53.582ms Placement of Points in InfluenceAreas: 0.081ms Drawing result as support 68.957 ms
+[2026-10-20 10:46:44.624685] [0x00007fe4e3cfb6c0] [info]    Total time of organic tree support: 267.506 ms
+[2026-10-20 10:46:44.624812] [0x00007fe4e3cfb6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
+[2026-10-20 10:46:44.684475] [0x00007fe4e3cfb6c0] [info]    max_cantilever_dist=9.50135e+06
+[2026-10-20 10:46:44.706787] [0x00007fe4e3cfb6c0] [info]    Tree support overhang detection done. 10 layers with overhangs. nEnforced=10
+[2026-10-20 10:46:44.854183] [0x00007fe4e3cfb6c0] [info]    Precalculating collision took96.918 ms. Precalculating avoidance took 50.36 ms.
+[2026-10-20 10:46:45.058342] [0x00007fe4e3cfb6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 138 ms merging areas: 17 ms
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+[2026-10-20 10:46:45.290529] [0x00007fe4e3cfb6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 665.687 ms. Different subtasks:
+Calculating Avoidance: 229.392 ms Creating inital influence areas: 45.625 ms Influence area creation: 158.533ms Placement of Points in InfluenceAreas: 0.208ms Drawing result as support 231.926 ms
+[2026-10-20 10:46:45.360501] [0x00007fe4e3cfb6c0] [info]    Total time of organic tree support: 735.67 ms
+[2026-10-20 10:46:45.360729] [0x00007fe4e3cfb6c0] [info]    Processing support tree mesh group 1 of 1 containing 1 meshes.
+[2026-10-20 10:46:45.366411] [0x00007fe4e3cfb6c0] [info]    max_cantilever_dist=0
+[2026-10-20 10:46:45.371865] [0x00007fe4e3cfb6c0] [info]    Tree support overhang detection done. 11 layers with overhangs. nEnforced=9
+[2026-10-20 10:46:45.391989] [0x00007fe4e3cfb6c0] [info]    Precalculating collision took9.549 ms. Precalculating avoidance took 10.482 ms.
+[2026-10-20 10:46:45.443819] [0x00007fe4e3cfb6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 39 ms merging areas: 3 ms
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+[2026-10-20 10:46:45.560119] [0x00007fe4e3cfb6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 199.365 ms. Different subtasks:
+Calculating Avoidance: 31.27 ms Creating inital influence areas: 8.206 ms Influence area creation: 43.62ms Placement of Points in InfluenceAreas: 0.061ms Drawing result as support 116.205 ms
+[2026-10-20 10:46:45.644689] [0x00007fe4e3cfb6c0] [info]    Total time of organic tree support: 283.931 ms
+[2026-10-20 10:46:45.811208] [0x00007fe4e38fa6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 915 ms merging areas: 129 ms
+[2026-10-20 10:46:45.857889] [0x00007fe4e40fc6c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 946 ms merging areas: 142 ms
+[2026-10-20 10:46:46.251133] [0x00007fe4e47734c0] [info]    max_cantilever_dist=5.25759e+07
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+[2026-10-20 10:46:47.180808] [0x00007fe4e38fa6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 3138.62 ms. Different subtasks:
+Calculating Avoidance: 397.533 ms Creating inital influence areas: 314.418 ms Influence area creation: 1057.13ms Placement of Points in InfluenceAreas: 1.474ms Drawing result as support 1368.07 ms
+[2026-10-20 10:46:47.353700] [0x00007fe4e38fa6c0] [info]    Total time of organic tree support: 3311.52 ms
+[2026-10-20 10:46:47.515016] [0x00007fe4e40fc6c0] [info]    Total time used creating Tree support for the currently grouped meshes: 3472.87 ms. Different subtasks:
+Calculating Avoidance: 403.061 ms Creating inital influence areas: 314.899 ms Influence area creation: 1097.82ms Placement of Points in InfluenceAreas: 1.462ms Drawing result as support 1655.62 ms
+[2026-10-20 10:46:47.602556] [0x00007fe4e40fc6c0] [info]    Total time of organic tree support: 3560.42 ms
+[2026-10-20 10:46:47.701854] [0x00007fe4e47734c0] [info]    Tree support overhang detection done. 103 layers with overhangs. nEnforced=97
+[2026-10-20 10:46:48.569990] [0x00007fe4e47734c0] [info]    Precalculating collision took392.947 ms. Precalculating avoidance took 473.179 ms.
+[2026-10-20 10:46:50.080899] [0x00007fe4e47734c0] [info]    Time spent with creating influence areas' subtasks: Increasing areas 816 ms merging areas: 140 ms
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0
+[2026-10-20 10:46:51.932845] [0x00007fe4e47734c0] [info]    Total time used creating Tree support for the currently grouped meshes: 7890.71 ms. Different subtasks:
+Calculating Avoidance: 4527.92 ms Creating inital influence areas: 518.396 ms Influence area creation: 992.496ms Placement of Points in InfluenceAreas: 3.432ms Drawing result as support 1848.47 ms
+[2026-10-20 10:46:52.277484] [0x00007fe4e47734c0] [info]    Total time of organic tree support: 8235.35 ms
+[2026-10-20 10:46:54.106909] [0x00007fe4e47734c0] [info]    gcode path conflicts check takes 0.117 secs.
+[2026-10-20 10:46:54.107022] [0x00007fe4e47734c0] [info]    Slicing process finished. Resident memory: 236MB; Shared memory: 60MB; Private memory: 177MB; Peak memory usage: 629MB
+[2026-10-20 10:46:54.107040] [0x00007fe4e47734c0] [info]    print::process: first time_using_cache is 1 secs.
+[2026-10-20 10:46:54.107046] [0x00007fe4e47734c0] [info]    process finished, will export gcode temporily to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode
+
+[2026-10-20 10:46:54.107126] [0x00007fe4e47734c0] [info]    reset 614: this=0x7ffd0009c280 reset finished
+[2026-10-20 10:46:54.107140] [0x00007fe4e47734c0] [info]    Will export G-code to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode soon
+[2026-10-20 10:46:54.107244] [0x00007fe4e47734c0] [info]    Exporting G-code... Resident memory: 236MB; Shared memory: 60MB; Private memory: 177MB; Peak memory usage: 629MB
+[2026-10-20 10:46:54.109620] [0x00007fe4e47734c0] [info]    reset 614: this=0x7ffd0009c280 reset finished
+[2026-10-20 10:46:59.290839] [0x00007fe4e47734c0] [info]    rename_file from /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode.tmp to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode successfully
+[2026-10-20 10:46:59.290906] [0x00007fe4e47734c0] [info]    Exporting G-code finished Resident memory: 424MB; Shared memory: 60MB; Private memory: 364MB; Peak memory usage: 629MB
+[2026-10-20 10:46:59.294610] [0x00007fe4e47734c0] [info]    export_gcode finished: time_using_cache update to 6 secs.
+[2026-10-20 10:46:59.294634] [0x00007fe4e47734c0] [info]    Slicing result exported to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode
+
+[2026-10-20 10:46:59.294656] [0x00007fe4e47734c0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 1
+[2026-10-20 10:46:59.294727] [0x00007fe4e47734c0] [info]    store_to_3mf_structure: plate 1 before load, width 0, height 0, size 0!
+[2026-10-20 10:46:59.294732] [0x00007fe4e47734c0] [info]    store_to_3mf_structure: plate 1 after load, width 0, height 0, size 0!
+[2026-10-20 10:46:59.294738] [0x00007fe4e47734c0] [info]    store_to_3mf_structure: plate 0, gcode_filename=/home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/plate_1.gcode, with_slice_info=1, slice_valid 1, object item count 0.
+[2026-10-20 10:46:59.294866] [0x00007fe4e47734c0] [info]    store_to_3mf_structure:stored 1 plates!
+[2026-10-20 10:46:59.294885] [0x00007fe4e47734c0] [info]    thumbnails stage: plate 1's thumbnail data is invalid, check the file  exist or not
+[2026-10-20 10:46:59.294888] [0x00007fe4e47734c0] [info]    thumbnails stage: plate 1's thumbnail file also not there, need to regenerate
+[2026-10-20 10:46:59.294892] [0x00007fe4e47734c0] [info]    thumbnails stage: plate 1's no_light_thumbnail_file  also not there, need to regenerate
+[2026-10-20 10:46:59.294895] [0x00007fe4e47734c0] [info]    thumbnails stage: plate 1's top_file  also not there, need to regenerate
+[2026-10-20 10:46:59.294907] [0x00007fe4e47734c0] [info]    opengl version 3.3.7
+[2026-10-20 10:46:59.295134] [0x00007fe4e47734c0] [error]   error_code 65544, description: Wayland: Failed to connect to display
+
+[2026-10-20 10:46:59.295151] [0x00007fe4e47734c0] [error]   glfwInit return error, code 65544
+
+[2026-10-20 10:46:59.295185] [0x00007fe4e47734c0] [error]   Unable to init glew library
+[2026-10-20 10:46:59.295188] [0x00007fe4e47734c0] [error]   init opengl failed! skip thumbnail generating
+
+[2026-10-20 10:46:59.295199] [0x00007fe4e47734c0] [info]    plate 1 bed type: Cool Plate, set from global
+[2026-10-20 10:46:59.295220] [0x00007fe4e47734c0] [info]    will export 3mf to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA//home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/L2_r4_3D45_PLA_PLATE.3mf
+
+[2026-10-20 10:46:59.295244] [0x00007fe4e47734c0] [info]    _save_model_to_file:5745,before open zip writer, m_skip_static 0, m_save_gcode 1, m_use_loaded_id 1
+[2026-10-20 10:46:59.295253] [0x00007fe4e47734c0] [error]   _save_model_to_file:5755, Unable to open the file
+
+[2026-10-20 10:46:59.295256] [0x00007fe4e47734c0] [error]   Unable to open the file/home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA//home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/L2_r4_3D45_PLA_PLATE.3mf.tmp
+Project export to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA//home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/L2_r4_3D45_PLA_PLATE.3mf failed
+[2026-10-20 10:46:59.295341] [0x00007fe4e47734c0] [info]    record_exit_reson:441, saved config to /home/runner/work/Quietmirror-L2/Quietmirror-L2/models/L2_r4_3D45_PLA/result.json
+
+run found error, return -13, exit...
+[2026-10-20 10:46:59.295349] [0x00007fe4e47734c0] [info]    cli_callback_mgr_t::stop enter.
+[2026-10-20 10:46:59.295351] [0x00007fe4e47734c0] [info]    cli_callback_mgr_t::stop not started before, return directly.
+[2026-10-20 10:46:59.295363] [0x00007fe4e47734c0] [info]    remove_backup_path_if_existmodel 0x56206482e6d0, id 3 remove backup_path /tmp/orcaslicer_model/Tue_Oct_20/10_46_39#3335#3
+[2026-10-20 10:46:59.295576] [0x00007fe4e47734c0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 1 to 0
+[2026-10-20 10:46:59.295582] [0x00007fe4e47734c0] [info]    update_slice_result_valid_state: plate 0 , update slice result from 0 to 0
+[2026-10-20 10:46:59.295601] [0x00007fe4e47734c0] [info]    ~PrintObject: this=0x56206546d5d0, m_shared_object 0
+[2026-10-20 10:46:59.306886] [0x00007fe4e47734c0] [info]    ~PrintObject: this=0x56206546e4e0, m_shared_object 0
+[2026-10-20 10:46:59.308617] [0x00007fe4e47734c0] [info]    ~PrintObject: this=0x56206546f480, m_shared_object 0
+[2026-10-20 10:46:59.310251] [0x00007fe4e47734c0] [info]    ~PrintObject: this=0x562065470150, m_shared_object 0
+[2026-10-20 10:46:59.310571] [0x00007fe4e47734c0] [info]    ~PrintObject: this=0x562065470e20, m_shared_object 0
+[2026-10-20 10:46:59.310772] [0x00007fe4e47734c0] [info]    ~PrintObject: this=0x562065471af0, m_shared_object 0
+[2026-10-20 10:46:59.310923] [0x00007fe4e47734c0] [info]    ~PrintObject: this=0x5620654727c0, m_shared_object 0
+[2026-10-20 10:46:59.311309] [0x00007fe4e47734c0] [info]    ~PrintObject: this=0x562065473490, m_shared_object 0
+[2026-10-20 10:46:59.312062] [0x00007fe4e47734c0] [info]    ~PrintObject: this=0x562065474160, m_shared_object 0
+[2026-10-20 10:46:59.315831] [0x00007fe4e47734c0] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
+[2026-10-20 10:46:59.315857] [0x00007fe4e47734c0] [info]    update_slice_result_valid_state: plate 1 , update slice result from 0 to 0
